@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  10 JAN 2022 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  10 JAN 2022 13:46
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -628,15 +628,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7
 
 ]
-Overfull \hbox (20.07513pt too wide) in paragraph at lines 533--535
+Overfull \hbox (20.07513pt too wide) in paragraph at lines 535--537
 []\OT1/cmr/m/n/12 Comparativa An-gu-lar, React y Vue https://unpocodejava.com/2018/12/21/react-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 536.
-LaTeX Info: Redefining \% on input line 536.
+LaTeX Info: Redefining \. on input line 538.
+LaTeX Info: Redefining \% on input line 538.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -648,8 +648,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8]
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 562.
-LaTeX Info: Redefining \% on input line 562.
+LaTeX Info: Redefining \. on input line 564.
+LaTeX Info: Redefining \% on input line 564.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -659,8 +659,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-LaTeX Info: Redefining \. on input line 569.
-LaTeX Info: Redefining \% on input line 569.
+LaTeX Info: Redefining \. on input line 571.
+LaTeX Info: Redefining \% on input line 571.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -704,7 +704,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  70i,12n,81p,915b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (30 pages, 176583 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (30 pages, 176705 bytes).
 PDF statistics:
  388 PDF objects out of 1000 (max. 8388607)
  91 named destinations out of 1000 (max. 500000)
