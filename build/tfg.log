@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  1 DEC 2021 15:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  10 JAN 2022 13:12
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -488,7 +488,7 @@ LaTeX Info: Redefining \% on input line 164.
 \c@lstlisting=\count314
 LaTeX Info: Redefining \. on input line 171.
 LaTeX Info: Redefining \% on input line 171.
-<logoURJC.pdf, id=155, 413.545pt x 158.5925pt>
+<logoURJC.pdf, id=131, 413.545pt x 158.5925pt>
 File: logoURJC.pdf Graphic file (type pdf)
 <use logoURJC.pdf>
 Package pdftex.def Info: logoURJC.pdf  used on input line 175.
@@ -623,20 +623,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 Cap\'{\i }tulo 2.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4913) has occurred while \output is active []
 
  [7
 
 ]
-Overfull \hbox (20.07513pt too wide) in paragraph at lines 529--531
+Overfull \hbox (20.07513pt too wide) in paragraph at lines 527--529
 []\OT1/cmr/m/n/12 Comparativa An-gu-lar, React y Vue https://unpocodejava.com/2018/12/21/react-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 550.
-LaTeX Info: Redefining \% on input line 550.
+LaTeX Info: Redefining \. on input line 552.
+LaTeX Info: Redefining \% on input line 552.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -646,8 +646,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-LaTeX Info: Redefining \. on input line 561.
-LaTeX Info: Redefining \% on input line 561.
+LaTeX Info: Redefining \. on input line 563.
+LaTeX Info: Redefining \% on input line 563.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -675,7 +675,7 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 92AD0D06B7320F97E2DB269C3D39BA51;4875.
+(rerunfilecheck)             Checksum: D48AB7C0C1989AD888ACD12E87B8D358;4122.
  )
 (\end occurred inside a group at level 2)
 
@@ -683,17 +683,17 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 ### semi simple group (level 1) entered at line 238 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14099 strings out of 478927
- 214229 string characters out of 2852535
- 628315 words of memory out of 3000000
- 31620 multiletter control sequences out of 15000+600000
+ 14094 strings out of 478927
+ 214099 string characters out of 2852535
+ 627315 words of memory out of 3000000
+ 31615 multiletter control sequences out of 15000+600000
  413175 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,12n,81p,915b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (29 pages, 178243 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (29 pages, 174548 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
+ 383 PDF objects out of 1000 (max. 8388607)
  90 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
