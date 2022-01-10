@@ -49,8 +49,8 @@
 \contentsline {subsubsection}{Node.js}{10}{section*.32}%
 \contentsline {subsection}{\numberline {2.3.2}Implementación}{10}{subsection.2.3.2}%
 \contentsline {subsubsection}{Code Guidelines}{10}{section*.33}%
-\contentsline {subsubsection}{Librerias Node.js}{10}{section*.34}%
-\contentsline {subsubsection}{Diseño}{10}{section*.35}%
+\contentsline {subsubsection}{Análisis y Diseño}{10}{section*.34}%
+\contentsline {subsubsection}{Librerias Node.js}{10}{section*.35}%
 \contentsline {subsection}{\numberline {2.3.3}Testing}{10}{subsection.2.3.3}%
 \contentsline {subsubsection}{Pruebas Unitarias}{10}{section*.36}%
 \contentsline {subsubsection}{Evaluación de la Interfaz}{10}{section*.37}%
