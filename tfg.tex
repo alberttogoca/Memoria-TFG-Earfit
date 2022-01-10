@@ -1,0 +1,630 @@
+\documentclass[12pt,twoside,titlepage]{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Paquetes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[a4paper,bindingoffset=3mm,bottom=35mm]{geometry}
+\usepackage[colorlinks=true,pdftex]{hyperref}   %%% Opcional. Para incluir marcadores y enlaces en el pdf
+\usepackage[pdftex]{graphicx}  %%% para pdflatex. Las figuras pueden estar en pdf, jpg, svg y otros formatos
+\usepackage[spanish]{babel}
+%\usepackage[latin1]{inputenc} % Usad en WinEdt/MikTex
+\usepackage[utf8]{inputenc} % Usad en overleaf
+%\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{afterpage}
+\usepackage{paralist}
+\usepackage{array}
+\usepackage{enumerate}
+\usepackage{paralist}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{fancyhdr}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{quotchap}
+\usepackage{lipsum}
+
+%%%%%%%%%%%%%%%%%%%%%%% Definiciones básicas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\nombreautor}{Alberto Gómez Cano}
+\newcommand{\nombretutor}{Manuel Rubio Sánchez}
+\newcommand{\titulotrabajo}{EARFIT: Aplicación Para Entrenamiento Auditivo Musical}
+\newcommand{\escuela}{Escuela Técnica Superior\\de Ingeniería Informática}
+\newcommand{\escuelalargo}{Escuela Técnica Superior de Ingeniería Informática}
+\newcommand{\universidad}{Universidad Rey Juan Carlos}
+\newcommand{\fecha}{\today}
+\newcommand{\grado}{Grado en Ingeniería Informática}
+\newcommand{\curso}{Curso 2021-2022}
+\newcommand{\logoUniversidad}{logoURJC.pdf}
+% Definiciones de colores (para hidelinks)
+\definecolor{BlueLink}{rgb}{0.165,0.322,0.745}
+\definecolor{PinkLink}{rgb}{0.8,0.22,0.5}
+\definecolor{gray}{rgb}{0.6,0.6,0.6}
+% Enlaces
+\hypersetup{hidelinks,pageanchor=true,colorlinks,citecolor=PinkLink,urlcolor=black,linkcolor=BlueLink}
+\newcommand\blankpage{%
+    \newpage
+    \null
+    \thispagestyle{empty}%
+    %\addtocounter{page}{-1}%
+    \newpage}
+% Texto referencias
+\addto{\captionsspanish}{\renewcommand{\bibname}{Bibliografía}}
+% Texto Índice de tablas
+\addto\captionsspanish{\def\tablename{Tabla}\def\listtablename{\'{I}ndice de tablas}}
+\floatname{algorithm}{Algoritmo}
+\newfloat{algorithm}{t}{lop}
+%\newenvironment{pseudocodigo}[1][htb]
+%  {\renewcommand{\algorithmcfname}{Pseudocódig}% Update algorithm name
+%   \begin{algorithm}[#1]%
+%  }{\end{algorithm}}
+  
+%%%%%%%%%%%%%%%%%%%%%%% Estilo de código (en Python) %%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\definecolor{mydeepteal}{rgb}{0.16,0.22,0.23}
+\definecolor{myteal}{rgb}{0.31,0.44,0.46}
+\definecolor{mymediumteal}{rgb}{0.41,0.58,0.60}
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+%\newcommand*{\FormatDigit}[1]{\textcolor{mydeepteal}{#1}}
+\newcommand*{\FormatDigit}[1]{\textcolor{black}{#1}}
+% Python style for highlighting
+\newcommand\mypythonstyle{\lstset{
+language=Python,
+basicstyle=\ttfamily\small,
+%basicstyle=\linespread{1.0}\footnotesize\ttm,
+otherkeywords={self},             % Add keywords here
+keywordstyle=\bfseries\ttfamily\color{myteal},
+%keywordstyle=\ttb\color{myteal},
+commentstyle=\itshape\color{myteal},
+stringstyle=\color{mydeepteal},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\ttb\color{mydeepteal},    % Custom highlighting style
+% Any extra options here
+showstringspaces=false,            %
+backgroundcolor=\color{bg},
+rulecolor = \color{bg},
+%identifierstyle=\color{deepgreen},
+breaklines=true,
+numbers=left,
+numbersep=5pt,
+numberstyle=\tiny,
+tabsize=4,
+xleftmargin=1em,
+frame = single,
+framesep = 3pt,
+framextopmargin=0pt,
+framexbottommargin=0pt,
+framexleftmargin=0pt,
+framexrightmargin=0pt,
+fontadjust=true,
+basewidth=0.55em, % compactness of code
+upquote=true,
+}}
+% Python environment
+\lstnewenvironment{mypython}[1][]
+{
+\mypythonstyle
+\lstset{#1}
+}
+{}
+\newcommand\mypythonstylenormalinline{\lstset{
+language=Python,
+basicstyle=\ttfamily\normalsize,
+%basicstyle=\linespread{1.0}\footnotesize\ttm,
+otherkeywords={self},            % Add keywords here
+keywordstyle=\bfseries\ttfamily\color{myteal},
+%keywordstyle=\ttb\color{myteal},
+commentstyle=\itshape\color{mymediumteal},
+stringstyle=\color{mydeepteal},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\ttb\color{mydeepteal},    % Custom highlighting style
+% Any extra options here
+showstringspaces=false,            %
+backgroundcolor=\color{bg},
+rulecolor = \color{bg},
+%identifierstyle=\color{deepgreen},
+breaklines=false,
+numbers=left,
+numbersep=5pt,
+numberstyle=\tiny,
+tabsize=4,
+xleftmargin=0em,
+frame = single,
+framesep = 3pt,
+framextopmargin=0pt,
+framexbottommargin=0pt,
+framexleftmargin=0pt,
+framexrightmargin=0pt,
+fontadjust=true,
+%basewidth=0.55em, % compactness of code
+upquote=true,
+}}
+\newcommand\mypythoninline[1]{{\mypythonstylenormalinline\lstinline!#1!}}
+
+%%%%%%%%%%%%%%%%%%%%% Comandos definidos por el autor %%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\transpuesta}{\mbox{\tiny $\mathsf{T}$}}
+ 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                           Inicio del documento                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{document}
+\pagestyle{plain}
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Portada %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+% Universidad, Facultad
+\begin{titlepage}
+\selectlanguage{spanish}
+ 
+% Logo
+\begin{center}
+\includegraphics[scale=0.7]{\logoUniversidad}
+\end{center}
+\bigskip
+\begin{center}
+\begin{LARGE}
+\escuela \\
+\end{LARGE}
+\end{center}
+\bigskip
+\bigskip
+
+% Grado
+\begin{center}
+\begin{large}
+\textbf{\grado}\\
+\end{large}
+\end{center}
+
+% Curso
+\begin{center}
+\begin{large}
+\textbf{\curso}\\
+\end{large}
+\end{center}
+\bigskip
+\textbf{\begin{center}
+\begin{large}
+\textbf{Trabajo Fin de Grado}
+\end{large}
+\end{center}}
+\bigskip
+\bigskip
+\bigskip
+
+% Nombre del TFG
+\begin{center}
+\textbf{\begin{large}
+\MakeUppercase{\titulotrabajo}\\
+\end{large}}
+\end{center}
+
+% Nombre del autor y Tutor
+\vspace{\fill}
+\begin{center}
+\textbf{Autor: \nombreautor}\\ \smallskip
+\textbf{Tutor: \nombretutor}\\
+\bigskip
+
+% Fecha
+%\textbf{\fecha}\\
+\end{center}
+\end{titlepage}
+
+% Pagina en blanco
+\hypersetup{pageanchor=true}
+\normalsize
+\afterpage{\blankpage}
+ 
+% Estilo de párrafo de los capítulos
+\setlength{\parskip}{0.75em}
+\renewcommand{\baselinestretch}{1.25}
+
+% Interlineado simple
+\spacing{1}
+\pagenumbering{Roman}
+\setcounter{page}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%% Agradecimientos o dedicatoria %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{Agradecimientos}
+
+Quiero agradecer este TFG a mi familia por siempre estar a mi lado aconsejándome en los momentos más difíciles de mi carrera. 
+
+A mi novia por aguantar mis frustraciones y animarme a seguir adelante. 
+
+A mi tutor académico Manuel Rubio Sánchez que me ha apoyado para realizar este trabajo. 
+
+Y finalmente, me gustaría agradecer a todos mis compañeros que han compartido esta carrera conmigo.
+
+¡A todos, mil gracias!
+\afterpage{\blankpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Resumen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{Resumen}
+Un gimnasio musical para tus oídos. La idea consiste en desarrollar una herramienta para ayudar a músicos a desarrollar su oído (Musical Ear Training). Por ejemplo, para identificar notas, intervalos, escalas, etc. Estos ejercicios mejorarán su capacidad musical al desarrollar una comprensión más intuitiva de lo que se escucha.
+
+Además, este TFG tiene como objetivo centrarse en cómo crear un nuevo producto software desde cero. Siguiendo todas las etapas de desarrollo desde que se concibe la idea hasta que se obtiene el producto deseado. Con la idea en mente de aprender y usar diferentes tecnologías que estén a la orden del día. También se pretende hacer uso de la metodología Agile para llevar a cabo la organización del proyecto.
+
+Consistirá en una aplicación web basada Next.js y TypeScript y que será desplegada en Vercel. Con el nombre de Earfit y que se puede visitar en el siguiente enlace:
+
+\url{https://earfit-alberttogoca.vercel.app/}
+
+\mbox{} \bigskip
+
+% Palabras Clave
+\noindent \textbf{Palabras clave}:
+\begin{compactitem}
+    \item Entrenamiento Auditivo
+    \item Nextjs
+    \item React
+    \item TypeScript
+    \item Vercel
+    \item Agile
+\end{compactitem}
+
+\afterpage{\blankpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Índices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Estilo de párrafo de los Índices
+\setlength{\parskip}{1pt}
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\contentsname}{Índice de contenidos}
+
+% Índice de contenidos
+\tableofcontents
+\afterpage{\blankpage}
+
+% Índice de figuras (OPCIONAL)
+\listoffigures
+\afterpage{\blankpage}
+\addcontentsline{toc}{chapter}{\listfigurename}
+
+% Índice de códigos/algoritmos (OPCIONAL).   El término "Códigos" se puede cambiar por "Métodos", "Funciones", "Algoritmos", etc.
+\renewcommand\lstlistlistingname{Códigos}
+\renewcommand\lstlistingname{Código}
+\renewcommand\lstlistlistingname{Índice de códigos}
+
+\lstlistoflistings
+\afterpage{\blankpage}
+\addcontentsline{toc}{chapter}{\lstlistlistingname}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+
+%%%%%%%%%%%%%%%%%%%%%%% Cabeceras y pies de página (Opcional) %%%%%%%%%%%%%%%%%%%%%%%
+
+%\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{Capítulo \thechapter.\ #1}{}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RO]{}
+\fancyhead[RE]{\nouppercase\rightmark}
+\fancyhead[LE]{}
+\fancyfoot[C]{\thepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Capítulos de la memoria %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1 Introducción %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introducción}
+
+Si bien somos capaces de reconocer los colores desde bien pequeños, de forma general ponemos muy poco cuidado a los sonidos a lo largo de nuestra vida. Entrenar el oído es lo más parecido a aprender los colores y aprender cómo se relacionan y funcionan. Imagina un pintor que desconoce los colores, quién decide pintar el cielo morado porque no reconoce su verdadero color. En conclusión, un músico no puede darse el lujo de desconocer los colores de la música.
+
+% Estilo resto de páginas
+\pagestyle{fancy}
+
+% Estilo de párrafo de los capítulos
+\setlength{\parskip}{0.75em}
+\renewcommand{\baselinestretch}{1.25}
+
+% Interlineado simple
+\spacing{1}
+
+% Numeración contenido
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{Contexto}
+
+Este apartado tiene como objetivo situar al lector. Por lo que daremos un poco de explicación sobre qué consiste el Entrenamiento Auditivo para que pueda comprender mejor el objetivo general y alcance del trabajo. También se realizará una pequeña descripción del proyecto y se comentará brevemente el estado del arte actual.
+
+\subsection{Entrenamiento Auditivo}
+
+Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca desarrollarán toda su potencia.
+
+Los músicos, productores y DJs se pueden beneficiar del entrenamiento de sus oídos. Puede resultar muy útil a la hora de mezclar música y componer canciones.
+
+\subsubsection{Qué es}
+
+El entrenamiento auditivo es el proceso de identificar los elementos de la música en su forma más sencilla y conectarlos con la forma en que sentimos el sonido físicamente. Tradicionalmente, el entrenamiento auditivo para los músicos incluye habilidades como identificar intervalos, tipos de acordes y progresiones de acordes. El entrenamiento auditivo para los productores de audio suele incluir la identificación de los rangos de frecuencias en Hz.
+
+Muchas personas suponen que tener oído musical es tener la capacidad de identificar una nota al oírla. Tener oído musical es, también, ser capaz de escuchar y comprender música interiormente, sin que ésta este físicamente presente, igual que reflexionamos sobre palabras que hemos escuchado.
+
+\subsubsection{Porqué es importante}
+
+El entrenamiento auditivo es importante porque la escucha es una habilidad. Al igual que tocar el piano o saber cómo modificar una cadena de efectos vocales.
+
+Por ejemplo, las melodías son simplemente series de intervalos. Con el entrenamiento necesario para identificar los intervalos, puedes aprender a tocar una melodía de oído.
+
+Reconocer las progresiones de acordes de oído también es un superpoder. Acostumbrarse a escuchar las progresiones de acordes más comunes con una herramienta de entrenamiento auditivo cambia la forma en que compones canciones.
+
+Al igual que tocar el piano o saber cómo modificar una cadena de efectos vocales, la escucha es una habilidad.
+Para los productores de música, el entrenamiento auditivo sirve para identificar los rangos de frecuencias más rápidamente. ¿Quieres un kick más preciso? ¿O un vocal más ligero? El entrenamiento auditivo te ayudará a encontrar las frecuencias que necesitas para conseguir los efectos que buscas.
+
+\subsubsection{Oído Absoluto}
+
+Es la habilidad para reconocer notas musical sin tener otras como referencia. Es relativamente raro encontrar personas con oído absoluto. Se considera que menos del uno por ciento de la población tiene oído absoluto. Las posibilidades de tener oído absoluto aumentan si has recibido mucho entrenamiento musical desde muy pequeño.
+
+\subsubsection{Oído Relativo}
+
+Es la habilidad para reconocer notas musical relacionándolas entre sí. Es una habilidad indispensable para los músicos y es más sencilla de entrenar que el oído absoluto. Esta característica te puede permitir, por ejemplo, interpretar canciones sin disponer de partitura.
+
+Las personas que disponen de oído relativo son capaces de:
+\begin{itemize}
+    \item Denotar la distancia de una nota musical desde una nota de referencia establecida.
+    
+    \item Seguir la notación musical, esto permite cantar correctamente una melodía entonando cada nota de acuerdo a la distancia con la nota anterior.
+    
+    \item Seguir la notación musical, esto permite cantar correctamente una melodía entonando cada nota de acuerdo a la distancia con la nota anterior.
+\end{itemize}
+
+Los ejercicios más comunes de entrenamiento auditivo te ayudarán a desarrollar tu oído relativo.
+
+\subsubsection{Conclusión}
+
+Aprender entrenamiento auditivo te lleva al siguiente nivel como músico ya que te permite sacar canciones más rápido, con mayor precisión, improvisarás mejor, podrás llevar al instrumento las melodías que imaginas con mayor facilidad, y en general te permitirá ser mucho mejor músico.
+
+\subsection{Descripción del Proyecto}
+
+El presente Trabajo de Fin de Grado se centra en el diseño e implementación de una aplicación web con la finalidad de ayudar a músicos a desarrollar su oído musical mediante la realización de ejercicios de entrenamiento auditivo. 
+
+La aplicación se centrará en tres tipos diferentes de ejercicios divididos en la localización de notas, intervalos y escalas. 
+
+Para cada uno de los ejercicios se ha diseñado una página específica, que incluirá:
+
+El propio ejercicio, que consistirá en un botón que reproducirá el sonido correspondiente, calculado aleatoriamente teniendo en cuenta las posibles respuestas y los botones correspondientes a las respuestas a elegir. La idea es que el usuario trate de adivinar el sonido que está sonando. Cuando pulse en una respuesta se evaluará si es correcta o incorrecta. Si es incorrecta el botón cambiará a color rojo y podrá seguir probando. Si es correcta el botón cambiará a verde un segundo, se reseterán los botones y se calculará un nuevo sonido. También existe un contador de racha que aparecerá cuando se den tres aciertos consecutivos y desaparecerá cuando se falle.
+
+A su derecha aparecerán las opciones con las que podrás personalizar el ejercicio a tu gusto, añadiendo o quitando respuestas del ejercicio lo que incrementará o disminuirá la dificultad. 
+
+Además, en el ejercicio de notas se podrá cambiar la escala de la que se seleccionan las notas y en los ejercicios de intervalos y escalas se podrá elegir si las sucesión de notas será ascendente o descendente. 
+
+También todos los ejercicios incorporarán un piano que los usuarios podrán usar para tocar notas de referencia y ayudarse en la obtención de la respuesta correcta. 
+
+Aparte, se ha incorporado la posibilidad de poder cambiar el instrumento que suena y que será persistente para toda la aplicación.
+
+Toda la aplicación se ha diseñado teniendo en mente que el diseño fuera simple, fácil de entender y limpio. Ha sido desarrollada utilizando Nextjs y Typescript que se explicarán más adelante en el apartado Implementación. Y se ha seguido un despliegue continuo de la aplicación en Vercel que también se explicará más adelante en Despliegue Continuo.
+
+\subsection{Estado del Arte}
+En la actualidad ya existen algunas aplicaciones para entrenar el oído como pueden ser:
+
+ToneGym: \url{https://www.tonegym.co/}
+
+ToneDear \url{https://tonedear.com/}
+
+EarMaster: \url{https://www.earmaster.com/es/}
+
+La mayoría de ellas está de acuerdo en qué el método más efectivo para progresar en el entrenamiento auditivo es el siguiente:
+
+\begin{itemize}
+    \item Aumentar la frecuencia que se practica, no la duración. Esto se debe a que, después de haber pasado un tiempo practicando, el cerebro continúa pensando en ello y haciendo nuevas conexiones neuronales en segundo plano, incluso mientras se duerme (especialmente mientras se duerme). Por esta razón, se recomienda marcar tus ejercicios favoritos y hacerlos todos los días durante un tiempo determinado.
+    
+    \item Empezar de forma simple y aumentar gradualmente la dificultad. La práctica debe ser un desafío, pero no tanto como para sentirse abrumado.
+    
+    \item Realizar un seguimiento del progreso. Tener en un cuaderno, un archivo de texto o incluso una hoja de cálculo con el seguimiento del progreso. Esto permite saber con certeza si se está mejorando. Si puedes ver tu mejora, te alentará a continuar. También puede ayudar anotar cuándo se está estancado para poder encontrar la causa. Quizá no practicas con la suficiente frecuencia o aumentaste la dificultad demasiado rápido.
+    
+    \item Cantar escalas e intervalos. Todos los ejercicios de estos sitios implican identificar notas en lugar de generarlas, pero eso no significa que no debas cantar junto con ellas. Esto ayuda a internalizar los tonos. Es especialmente útil para el ejercicio de escalas. Intentar cantar hacia arriba y hacia abajo todas las escalas te ayudará a interiorizarlas.
+    
+    \item Transcribir música con un instrumento. Elegir tus canciones favoritas e intentar descubrir las notas con un instrumento es una buena práctica. Puedes comenzar con la melodía y luego intentar descifrar los acordes, o puedes empezar con los acordes y luego intentar descifrar la melodía. Practica en ambos sentidos.
+\end{itemize}
+
+Todas ellas plantean diferentes ejercicios para reconocer notas, intervalos y escalas. La mayor diferencia que se encuentra en ellas es su diseño y su nivel de personalización de los ejercicios, que es donde vamos a enfocar este trabajo. Dando no sólo una aplicación con ejercicios sino una herramienta que te dé la libertad de configurarla a tu gusto.
+
+\section{Objetivos}
+
+El objetivo principal del TFG es desarrollar una herramienta que permita ayudar a músicos a desarrollar su oído musical. Mediante el entrenamiento auditivo.
+
+Otros objetivos son:
+\begin{itemize}
+    \item Aprender nuevas tecnologías que estén a la orden del día
+    \item Aprender nuevas metodologías y llevarlas a cabo
+    \item Realizar un despliegue continuo de la aplicación
+
+\end{itemize}
+
+\section{Estructura del documento}
+
+En este apartado se especificará, como su título indica, la estructura que plantea este breve trabajo o memoria. El objetivo de dicho punto es acercar al lector las diferentes partes que componen este proyecto, así como ayudarle en la comprensión de este.
+
+Se espera que sea lo suficientemente clarificador y que permita una lectura comprensible, rápida y amena del trabajo que nos ocupa.
+
+\begin{itemize}
+
+    \item En el Capítulo 1: Introducción, hemos realizado una pequeña puesta en contexto y explicación de los objetivos de este TFG. Además hemos explicado en qué consiste el Entrenamiento Auditivo y porqué es importante. A parte de una breve descripción del proyecto.
+    \item En el Capítulo 2: Contenidos Principales, se explicará cómo ha sido el desarrollo de la aplicación. Empezando por Cómo Nace la Idea, donde exploraremos el concepto de Design Thinking y diferentes métodos utilizados en esta fase, desde que surge la idea hasta el primer prototipo. Más tarde en Metodología de Trabajo se explicará la metodología que se ha seguido día a día a la hora de realizar la aplicación, hablaremos de SCRUM, GitFlow y DevOps. Luego, en Desarrollo e Implementación se trataran las Tecnologías Empleadas cómo Next.js o TypeScript entre otras. Se detallará cómo funciona la aplicación por dentro en el apartado Implementación y cómo se ha verificado su funcionamiento en Testing. Finalmente, se explicará cómo se ha realizado el Despliegue Continuo de la aplicación con Github Actions y Vercel.
+    \item Por último, en el Capítulo 3: Conclusiones, se detallan las conclusiones derivadas del trabajo, lo qué he aprendido, y lo que queda por mejorar.
+
+\end{itemize}
+
+% \afterpage{\blankpage} % puede generar problema en índice de contenidos
+% \newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 Contenidos Principales %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Contenidos principales}
+\label{chap:contenidos}
+
+\section{Cómo Nace la Idea}
+
+\subsection{Design Thinking}
+
+\subsubsection{Qué es}
+\subsubsection{Porqué he decidido usarlo}
+\subsubsection{Etapas}
+
+
+\subsection{MindMap}
+
+\subsection{MosCow}
+
+\subsection{Lean Startup}
+
+Lean Startup: agilizar la puesta en marcha de las soluciones y optimizarlas con base en un proceso de aprendizaje y de corrección iterativa.
+
+\subsection{MVP}
+
+\subsection{Wireframes}
+
+\section{Metodología de Trabajo}
+
+Waterfall, XP, SCRUM
+
+\subsection{SCRUM}
+
+\subsection{Kanban y Roadmap de Producto}
+
+\subsection{Clean Code}
+
+\subsection{Code Guidelines}
+
+\subsection{GitFlow}
+
+\subsection{DevOps}
+
+\section{Desarrollo e Implementación}
+
+\subsection{Tecnologías Empleadas}
+
+Comparativa Angular, React y Vue
+https://unpocodejava.com/2018/12/21/react-vs-angular-vs-vue-js/
+
+\subsubsection{Next.js}
+
+\subsubsection{React}
+
+\subsubsection{TypeScript}
+
+\subsubsection{Node.js}
+
+\subsubsection{VSCode}
+
+\subsubsection{ESLint y Prettier}
+
+\subsection{Implementación}
+
+\subsection{Testing}
+
+Vercel Metricas
+
+\section{Despliegue Continuo}
+
+Vercel, Heroku, GitHub Pages
+
+\subsection{GitHub Actions}
+
+\subsection{Vercel}
+
+ServerSide Rendering
+
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 4 Conclusiones %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Conclusiones}
+
+En este capítulo se detallan las conclusiones derivadas del TFG y la propuesta de posibles trabajos futuros.
+
+Las citas del texto Autor \cite{giaquinta}, Autor \cite{fortune}, Autor \cite{fortuneB}, Autor \cite{mitchell} y Autor \cite{morrey} deben ir referenciadas en la bibliografia.
+
+
+Qué he aprendidos
+Qué debo mejorar
+
+\blankpage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Bibliografía %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliografía}
+\footnotesize{
+%\bibliographystyle{hispa}
+\bibliographystyle{IEEEtran}
+\bibliography{bibliografia}
+}
+% No expandir elementos para llenar toda la página
+\raggedbottom
+\afterpage{\blankpage}
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Apéndices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\phantomsection
+\addcontentsline{toc}{chapter}{Apéndices}
+\mbox{}
+\vfill
+\begin{center}
+\begin{Huge}
+\textbf{Apéndices}
+\end{Huge}
+\end{center}
+\vfill
+\mbox{}
+\thispagestyle{empty}
+\newpage
+\mbox{}
+\thispagestyle{empty}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Conceptos Musicales %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Conceptos Musicales}
+\label{sec:apendice}
+
+\section{Notas}
+
+Sección del apéndice
+
+\section{Intervalos}
+\section{Escalas}
+
+
+
+
+
+
+% Fin del documento
+\end{document}
