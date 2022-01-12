@@ -29,39 +29,40 @@
 \contentsline {subsubsection}{Porqué he decidido usarlo}{13}{section*.18}%
 \contentsline {subsubsection}{Etapas}{13}{section*.19}%
 \contentsline {subsection}{\numberline {2.1.3}MVP}{15}{subsection.2.1.3}%
-\contentsline {subsubsection}{MindMap}{15}{section*.20}%
-\contentsline {subsubsection}{MosCow}{15}{section*.21}%
-\contentsline {subsubsection}{Wireframes}{15}{section*.22}%
+\contentsline {subsubsection}{Diseñando la Propuesta de Valor}{15}{section*.20}%
+\contentsline {subsubsection}{Crear}{15}{section*.21}%
+\contentsline {subsubsection}{Medir}{15}{section*.22}%
+\contentsline {subsubsection}{Aprender}{15}{section*.23}%
 \contentsline {section}{\numberline {2.2}Metodología de Trabajo}{15}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Scrum}{15}{subsection.2.2.1}%
-\contentsline {subsubsection}{Kanban y Roadmap de Producto}{15}{section*.23}%
-\contentsline {subsection}{\numberline {2.2.2}DevOps}{15}{subsection.2.2.2}%
-\contentsline {subsubsection}{Integración Continua CI}{15}{section*.24}%
-\contentsline {subsubsection}{Github}{15}{section*.25}%
-\contentsline {subsubsection}{GitFlow}{15}{section*.26}%
-\contentsline {subsubsection}{Despliegue Continuo CD}{15}{section*.27}%
-\contentsline {subsubsection}{Github Actions}{15}{section*.28}%
-\contentsline {subsubsection}{Vercel}{15}{section*.29}%
-\contentsline {section}{\numberline {2.3}Desarrollo e Implementación}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Tecnologías Empleadas}{15}{subsection.2.3.1}%
-\contentsline {subsubsection}{VSCode}{16}{section*.30}%
-\contentsline {subsubsection}{ESLint}{16}{section*.31}%
-\contentsline {subsubsection}{Prettier}{16}{section*.32}%
-\contentsline {subsubsection}{Next.js}{16}{section*.33}%
-\contentsline {subsubsection}{TypeScript}{16}{section*.34}%
-\contentsline {subsubsection}{Node.js}{16}{section*.35}%
-\contentsline {subsection}{\numberline {2.3.2}Implementación}{16}{subsection.2.3.2}%
-\contentsline {subsubsection}{Code Guidelines}{16}{section*.36}%
-\contentsline {subsubsection}{Análisis y Diseño}{16}{section*.37}%
-\contentsline {subsubsection}{Librerias Node.js}{16}{section*.38}%
-\contentsline {subsection}{\numberline {2.3.3}Testing}{16}{subsection.2.3.3}%
-\contentsline {subsubsection}{Pruebas Unitarias}{16}{section*.39}%
-\contentsline {subsubsection}{Evaluación de la Interfaz}{16}{section*.40}%
-\contentsline {section}{\numberline {2.4}Resultado Final}{16}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Conclusiones}{17}{chapter.3}%
-\contentsline {chapter}{Bibliografía}{19}{section*.41}%
-\contentsline {chapter}{Apéndices}{21}{section*.43}%
-\contentsline {chapter}{\numberline {A}Conceptos Musicales}{23}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Notas}{23}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Intervalos}{23}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Escalas}{23}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {2.2.1}Scrum}{16}{subsection.2.2.1}%
+\contentsline {subsubsection}{Kanban y Roadmap de Producto}{16}{section*.24}%
+\contentsline {subsection}{\numberline {2.2.2}DevOps}{16}{subsection.2.2.2}%
+\contentsline {subsubsection}{Integración Continua CI}{16}{section*.25}%
+\contentsline {subsubsection}{Github}{16}{section*.26}%
+\contentsline {subsubsection}{GitFlow}{16}{section*.27}%
+\contentsline {subsubsection}{Despliegue Continuo CD}{16}{section*.28}%
+\contentsline {subsubsection}{Github Actions}{16}{section*.29}%
+\contentsline {subsubsection}{Vercel}{16}{section*.30}%
+\contentsline {section}{\numberline {2.3}Desarrollo e Implementación}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Tecnologías Empleadas}{16}{subsection.2.3.1}%
+\contentsline {subsubsection}{VSCode}{17}{section*.31}%
+\contentsline {subsubsection}{ESLint}{17}{section*.32}%
+\contentsline {subsubsection}{Prettier}{17}{section*.33}%
+\contentsline {subsubsection}{Next.js}{17}{section*.34}%
+\contentsline {subsubsection}{TypeScript}{17}{section*.35}%
+\contentsline {subsubsection}{Node.js}{17}{section*.36}%
+\contentsline {subsection}{\numberline {2.3.2}Implementación}{17}{subsection.2.3.2}%
+\contentsline {subsubsection}{Code Guidelines}{17}{section*.37}%
+\contentsline {subsubsection}{Análisis y Diseño}{17}{section*.38}%
+\contentsline {subsubsection}{Librerias Node.js}{17}{section*.39}%
+\contentsline {subsection}{\numberline {2.3.3}Testing}{17}{subsection.2.3.3}%
+\contentsline {subsubsection}{Pruebas Unitarias}{17}{section*.40}%
+\contentsline {subsubsection}{Evaluación de la Interfaz}{17}{section*.41}%
+\contentsline {section}{\numberline {2.4}Resultado Final}{17}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Conclusiones}{18}{chapter.3}%
+\contentsline {chapter}{Bibliografía}{20}{section*.42}%
+\contentsline {chapter}{Apéndices}{22}{section*.44}%
+\contentsline {chapter}{\numberline {A}Conceptos Musicales}{24}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Notas}{24}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Intervalos}{24}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Escalas}{24}{section.Alph1.3}%
