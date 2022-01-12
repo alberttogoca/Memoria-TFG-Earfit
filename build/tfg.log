@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  12 JAN 2022 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  12 JAN 2022 18:43
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -628,7 +628,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7
 
 ]
-<assets//leanstartup.png, id=251, 878.28125pt x 702.625pt>
+<assets//leanstartup.png, id=253, 878.28125pt x 702.625pt>
 File: assets//leanstartup.png Graphic file (type png)
 <use assets//leanstartup.png>
 Package pdftex.def Info: assets//leanstartup.png  used on input line 537.
@@ -704,7 +704,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<assets//designthinking.png, id=290, 848.16875pt x 295.1025pt>
+<assets//designthinking.png, id=292, 848.16875pt x 295.1025pt>
 File: assets//designthinking.png Graphic file (type png)
 <use assets//designthinking.png>
 Package pdftex.def Info: assets//designthinking.png  used on input line 689.
@@ -720,7 +720,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14 <./assets//designthinking.png>]
-<assets//leandesignagile.png, id=299, 1284.8pt x 722.7pt>
+<assets//leandesignagile.png, id=301, 1284.8pt x 722.7pt>
 File: assets//leandesignagile.png Graphic file (type png)
 <use assets//leandesignagile.png>
 Package pdftex.def Info: assets//leandesignagile.png  used on input line 726.
@@ -728,8 +728,8 @@ Package pdftex.def Info: assets//leandesignagile.png  used on input line 726.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 730.
-LaTeX Info: Redefining \% on input line 730.
+LaTeX Info: Redefining \. on input line 731.
+LaTeX Info: Redefining \% on input line 731.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -739,15 +739,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-Overfull \hbox (20.07513pt too wide) in paragraph at lines 762--764
+Overfull \hbox (20.07513pt too wide) in paragraph at lines 763--765
 []\OT1/cmr/m/n/12 Comparativa An-gu-lar, React y Vue https://unpocodejava.com/2018/12/21/react-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 765.
-LaTeX Info: Redefining \% on input line 765.
+LaTeX Info: Redefining \. on input line 766.
+LaTeX Info: Redefining \% on input line 766.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -756,11 +756,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./assets//leandesignagile.png (PNG copy)>]
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.766 \subsubsection
+                    {VSCode} <./assets//leandesignagile.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 787.
-LaTeX Info: Redefining \% on input line 787.
+LaTeX Info: Redefining \. on input line 788.
+LaTeX Info: Redefining \% on input line 788.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -770,8 +774,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-LaTeX Info: Redefining \. on input line 794.
-LaTeX Info: Redefining \% on input line 794.
+LaTeX Info: Redefining \. on input line 795.
+LaTeX Info: Redefining \% on input line 795.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -807,17 +811,17 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 ### semi simple group (level 1) entered at line 241 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14170 strings out of 478927
- 215469 string characters out of 2852535
+ 14173 strings out of 478927
+ 215505 string characters out of 2852535
  627474 words of memory out of 3000000
- 31661 multiletter control sequences out of 15000+600000
+ 31663 multiletter control sequences out of 15000+600000
  413175 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,81p,748b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (38 pages, 726497 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (38 pages, 726920 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
  253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
