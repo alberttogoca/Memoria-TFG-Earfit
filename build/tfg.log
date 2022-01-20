@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  20 JAN 2022 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  20 JAN 2022 20:00
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -377,10 +377,15 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count304
 \l__lipsum_a_int=\count305
 \l__lipsum_b_int=\count306
- (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-Package hyperref Info: Option `pageanchor' set `true' on input line 52.
-Package hyperref Info: Option `colorlinks' set `true' on input line 52.
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 76.
+ (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks36
+\verbatim@line=\toks37
+\verbatim@in@stream=\read3
+)
+Package hyperref Info: Option `pageanchor' set `true' on input line 53.
+Package hyperref Info: Option `colorlinks' set `true' on input line 53.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 77.
  (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 ) (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
@@ -393,24 +398,24 @@ LaTeX Info: Redefining \% on input line 27.
 )
 \openout1 = `tfg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -447,7 +452,7 @@ LaTeX Font Info:    ... okay on input line 167.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 167.
+Package hyperref Info: Link coloring ON on input line 168.
 (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -457,9 +462,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 167.
-LaTeX Info: Redefining \pageref on input line 167.
-LaTeX Info: Redefining \nameref on input line 167.
+LaTeX Info: Redefining \ref on input line 168.
+LaTeX Info: Redefining \pageref on input line 168.
+LaTeX Info: Redefining \nameref on input line 168.
  (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out) (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out)
 \@outlinefile=\write3
 \openout3 = `tfg.out'.
@@ -471,53 +476,53 @@ LaTeX Info: Redefining \nameref on input line 167.
 \scratchbox=\box64
 \nofMPsegments=\count309
 \nofMParguments=\count310
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks38
 \MPscratchCnt=\count311
 \MPscratchDim=\dimen172
 \MPnumerator=\count312
 \makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks37
+\everyMPtoPDFconversion=\toks39
 ) (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
 \c@lstlisting=\count314
-LaTeX Info: Redefining \. on input line 174.
-LaTeX Info: Redefining \% on input line 174.
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
 <logoURJC.pdf, id=119, 413.545pt x 158.5925pt>
 File: logoURJC.pdf Graphic file (type pdf)
 <use logoURJC.pdf>
-Package pdftex.def Info: logoURJC.pdf  used on input line 178.
+Package pdftex.def Info: logoURJC.pdf  used on input line 179.
 (pdftex.def)             Requested size: 289.4795pt x 111.01396pt.
  [1
 
 {C:/Users/alber/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./logoURJC.pdf>]
-LaTeX Info: Redefining \. on input line 229.
-LaTeX Info: Redefining \% on input line 229.
-Package hyperref Info: Option `pageanchor' set `true' on input line 232.
+LaTeX Info: Redefining \. on input line 230.
+LaTeX Info: Redefining \% on input line 230.
+Package hyperref Info: Option `pageanchor' set `true' on input line 233.
  [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+pbk on input line 250.
+LaTeX Font Info:    Trying to load font information for OT1+pbk on input line 251.
  (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pbk.fd
 File: ot1pbk.fd 2001/06/04 font definitions for OT1/pbk.
 )
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 250.
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 251.
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <100> not available
-(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 250.
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 251.
  [3] [4
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 275.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 276.
  (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 275.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 276.
  (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5] [6
@@ -562,12 +567,12 @@ Underfull \vbox (badness 1226) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.375 
+l.376 
        [1]
 Underfull \vbox (badness 4120) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 396.
-LaTeX Info: Redefining \% on input line 396.
+LaTeX Info: Redefining \. on input line 397.
+LaTeX Info: Redefining \% on input line 397.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -577,8 +582,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-LaTeX Info: Redefining \. on input line 421.
-LaTeX Info: Redefining \% on input line 421.
+LaTeX Info: Redefining \. on input line 422.
+LaTeX Info: Redefining \% on input line 422.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -588,8 +593,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-LaTeX Info: Redefining \. on input line 447.
-LaTeX Info: Redefining \% on input line 447.
+LaTeX Info: Redefining \. on input line 448.
+LaTeX Info: Redefining \% on input line 448.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -599,6 +604,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 472.
 LaTeX Info: Redefining \% on input line 472.
 
@@ -647,8 +654,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-LaTeX Info: Redefining \. on input line 561.
-LaTeX Info: Redefining \% on input line 561.
+LaTeX Info: Redefining \. on input line 563.
+LaTeX Info: Redefining \% on input line 563.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -669,8 +676,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-LaTeX Info: Redefining \. on input line 616.
-LaTeX Info: Redefining \% on input line 616.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 624.
+LaTeX Info: Redefining \% on input line 624.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -680,8 +689,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-LaTeX Info: Redefining \. on input line 650.
-LaTeX Info: Redefining \% on input line 650.
+LaTeX Info: Redefining \. on input line 658.
+LaTeX Info: Redefining \% on input line 658.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -691,10 +700,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 679.
-LaTeX Info: Redefining \% on input line 679.
+LaTeX Info: Redefining \. on input line 684.
+LaTeX Info: Redefining \% on input line 684.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -704,13 +711,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<assets//designthinking.png, id=302, 848.16875pt x 295.1025pt>
+<assets//designthinking.png, id=303, 848.16875pt x 295.1025pt>
 File: assets//designthinking.png Graphic file (type png)
 <use assets//designthinking.png>
 Package pdftex.def Info: assets//designthinking.png  used on input line 689.
 (pdftex.def)             Requested size: 373.1954pt x 129.84549pt.
-LaTeX Info: Redefining \. on input line 701.
-LaTeX Info: Redefining \% on input line 701.
+LaTeX Info: Redefining \. on input line 708.
+LaTeX Info: Redefining \% on input line 708.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -723,13 +730,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <assets//leandesignagile.png, id=311, 1284.8pt x 722.7pt>
 File: assets//leandesignagile.png Graphic file (type png)
 <use assets//leandesignagile.png>
-Package pdftex.def Info: assets//leandesignagile.png  used on input line 726.
+Package pdftex.def Info: assets//leandesignagile.png  used on input line 725.
 (pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
 
-Underfull \vbox (badness 4913) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 731.
-LaTeX Info: Redefining \% on input line 731.
+LaTeX Info: Redefining \. on input line 730.
+LaTeX Info: Redefining \% on input line 730.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -739,8 +746,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-LaTeX Info: Redefining \. on input line 751.
-LaTeX Info: Redefining \% on input line 751.
+LaTeX Info: Redefining \. on input line 750.
+LaTeX Info: Redefining \% on input line 750.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -752,23 +759,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.751 
+l.750 
        <./assets//leandesignagile.png (PNG copy)>]
-<assets//MINDMAP0.jpg, id=322, 1888.05376pt x 532.99126pt>
+<assets//MINDMAP0.jpg, id=321, 1888.05376pt x 532.99126pt>
 File: assets//MINDMAP0.jpg Graphic file (type jpg)
 <use assets//MINDMAP0.jpg>
-Package pdftex.def Info: assets//MINDMAP0.jpg  used on input line 754.
+Package pdftex.def Info: assets//MINDMAP0.jpg  used on input line 753.
 (pdftex.def)             Requested size: 377.60406pt x 106.59636pt.
-<assets//MINDMAP1.jpg, id=323, 1296.845pt x 775.89874pt>
-File: assets//MINDMAP1.jpg Graphic file (type jpg)
-<use assets//MINDMAP1.jpg>
-Package pdftex.def Info: assets//MINDMAP1.jpg  used on input line 773.
-(pdftex.def)             Requested size: 402.01779pt x 240.52612pt.
+<assets//MINDMAP11.jpg, id=322, 1113.15875pt x 903.375pt>
+File: assets//MINDMAP11.jpg Graphic file (type jpg)
+<use assets//MINDMAP11.jpg>
+Package pdftex.def Info: assets//MINDMAP11.jpg  used on input line 772.
+(pdftex.def)             Requested size: 411.86229pt x 334.24352pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 777.
-LaTeX Info: Redefining \% on input line 777.
+LaTeX Info: Redefining \. on input line 776.
+LaTeX Info: Redefining \% on input line 776.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -780,15 +787,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.777 
+l.776 
        <./assets//MINDMAP0.jpg>]
-<assets//MINDMAP2.jpg, id=328, 1727.45375pt x 582.175pt>
+<assets//MINDMAP2.jpg, id=327, 1727.45375pt x 582.175pt>
 File: assets//MINDMAP2.jpg Graphic file (type jpg)
 <use assets//MINDMAP2.jpg>
-Package pdftex.def Info: assets//MINDMAP2.jpg  used on input line 780.
+Package pdftex.def Info: assets//MINDMAP2.jpg  used on input line 779.
 (pdftex.def)             Requested size: 380.041pt x 128.07889pt.
-LaTeX Info: Redefining \. on input line 794.
-LaTeX Info: Redefining \% on input line 794.
+LaTeX Info: Redefining \. on input line 789.
+LaTeX Info: Redefining \% on input line 789.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -800,22 +807,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.794 \textbf{Must have (Debe tener):}
-                                       Características absolutamente críti...pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+l.789 P
+       ero antes que nada debemos tener en cuenta nuestras limitaciones: poc...pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.794 \textbf{Must have (Debe tener):}
-                                       Características absolutamente críti... <./assets//MINDMAP1.jpg> <./assets//MINDMAP2.jpg>]
-<assets//WireframeSteps.jpg, id=334, 2182.1525pt x 460.72125pt>
-File: assets//WireframeSteps.jpg Graphic file (type jpg)
-<use assets//WireframeSteps.jpg>
-Package pdftex.def Info: assets//WireframeSteps.jpg  used on input line 836.
-(pdftex.def)             Requested size: 392.77051pt x 82.92624pt.
+l.789 P
+       ero antes que nada debemos tener en cuenta nuestras limitaciones: poc... <./assets//MINDMAP11.jpg> <./assets//MINDMAP2.jpg>]
+<assets//Wireframes.jpg, id=333, 1098.1025pt x 916.42375pt>
+File: assets//Wireframes.jpg Graphic file (type jpg)
+<use assets//Wireframes.jpg>
+Package pdftex.def Info: assets//Wireframes.jpg  used on input line 847.
+(pdftex.def)             Requested size: 406.29156pt x 339.07149pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 838.
-LaTeX Info: Redefining \% on input line 838.
+LaTeX Info: Redefining \. on input line 850.
+LaTeX Info: Redefining \% on input line 850.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -825,21 +832,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<assets//Wireframe.jpg, id=339, 1309.89375pt x 768.8725pt>
-File: assets//Wireframe.jpg Graphic file (type jpg)
-<use assets//Wireframe.jpg>
-Package pdftex.def Info: assets//Wireframe.jpg  used on input line 842.
-(pdftex.def)             Requested size: 392.97116pt x 230.66353pt.
-<assets//WireframePC.jpg, id=340, 1365.1pt x 736.7525pt>
+<assets//WireframePC.jpg, id=338, 1365.1pt x 736.7525pt>
 File: assets//WireframePC.jpg Graphic file (type jpg)
 <use assets//WireframePC.jpg>
-Package pdftex.def Info: assets//WireframePC.jpg  used on input line 849.
+Package pdftex.def Info: assets//WireframePC.jpg  used on input line 854.
 (pdftex.def)             Requested size: 409.53316pt x 221.02745pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 853.
-LaTeX Info: Redefining \% on input line 853.
+LaTeX Info: Redefining \. on input line 858.
+LaTeX Info: Redefining \% on input line 858.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -851,12 +853,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.853 
-       <./assets//WireframeSteps.jpg> <./assets//Wireframe.jpg>]
+l.858 
+       <./assets//Wireframes.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 871.
-LaTeX Info: Redefining \% on input line 871.
+LaTeX Info: Redefining \. on input line 876.
+LaTeX Info: Redefining \% on input line 876.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -868,12 +870,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.871 
+l.876 
        <./assets//WireframePC.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 891.
-LaTeX Info: Redefining \% on input line 891.
+LaTeX Info: Redefining \. on input line 896.
+LaTeX Info: Redefining \% on input line 896.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -885,8 +887,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 911.
-LaTeX Info: Redefining \% on input line 911.
+LaTeX Info: Redefining \. on input line 916.
+LaTeX Info: Redefining \% on input line 916.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -896,15 +898,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-Overfull \hbox (20.07513pt too wide) in paragraph at lines 945--947
+Overfull \hbox (20.07513pt too wide) in paragraph at lines 950--952
 []\OT1/cmr/m/n/12 Comparativa An-gu-lar, React y Vue https://unpocodejava.com/2018/12/21/react-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 948.
-LaTeX Info: Redefining \% on input line 948.
+LaTeX Info: Redefining \. on input line 953.
+LaTeX Info: Redefining \% on input line 953.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -916,8 +918,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 970.
-LaTeX Info: Redefining \% on input line 970.
+LaTeX Info: Redefining \. on input line 975.
+LaTeX Info: Redefining \% on input line 975.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -927,8 +929,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-LaTeX Info: Redefining \. on input line 977.
-LaTeX Info: Redefining \% on input line 977.
+LaTeX Info: Redefining \. on input line 982.
+LaTeX Info: Redefining \% on input line 982.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -956,25 +958,25 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 40AD23DD14207166431356341CFE5DDE;3847.
+(rerunfilecheck)             Checksum: 0E0008360AD0CAB5493CE8EEAA9440FD;4030.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 356 (\begingroup)
-### semi simple group (level 1) entered at line 241 (\begingroup)
+### semi simple group (level 2) entered at line 357 (\begingroup)
+### semi simple group (level 1) entered at line 242 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14272 strings out of 478927
- 217525 string characters out of 2852535
- 627679 words of memory out of 3000000
- 31747 multiletter control sequences out of 15000+600000
+ 14289 strings out of 478927
+ 217773 string characters out of 2852535
+ 628296 words of memory out of 3000000
+ 31763 multiletter control sequences out of 15000+600000
  413175 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,81p,748b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (46 pages, 1185989 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (46 pages, 1150514 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 497 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

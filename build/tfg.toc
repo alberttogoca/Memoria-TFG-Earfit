@@ -26,43 +26,42 @@
 \contentsline {subsubsection}{3. ACELERAR}{12}{section*.16}%
 \contentsline {subsection}{\numberline {2.1.2}Design Thinking}{13}{subsection.2.1.2}%
 \contentsline {subsubsection}{Qué es}{13}{section*.17}%
-\contentsline {subsubsection}{Porqué he decidido usarlo}{14}{section*.18}%
+\contentsline {subsubsection}{Porqué he decidido usarlo}{13}{section*.18}%
 \contentsline {subsubsection}{Etapas}{14}{section*.19}%
-\contentsline {subsection}{\numberline {2.1.3}MVP}{15}{subsection.2.1.3}%
-\contentsline {subsubsection}{Diseñando la Propuesta de Valor}{15}{section*.20}%
-\contentsline {subsubsection}{Crear}{16}{section*.21}%
-\contentsline {subsubsection}{Medir}{22}{section*.22}%
-\contentsline {subsubsection}{Aprender}{23}{section*.23}%
-\contentsline {subsubsection}{Resultados}{24}{section*.24}%
+\contentsline {subsection}{\numberline {2.1.3}MVP: Diseñando la Propuesta de Valor}{15}{subsection.2.1.3}%
+\contentsline {subsubsection}{CREAR}{16}{section*.20}%
+\contentsline {subsubsection}{MEDIR}{22}{section*.21}%
+\contentsline {subsubsection}{APRENDER}{23}{section*.22}%
+\contentsline {subsubsection}{CONCLUSIÓN}{24}{section*.23}%
 \contentsline {section}{\numberline {2.2}Metodología de Trabajo}{24}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Scrum}{25}{subsection.2.2.1}%
-\contentsline {subsubsection}{Kanban y Roadmap de Producto}{25}{section*.25}%
+\contentsline {subsubsection}{Kanban y Roadmap de Producto}{25}{section*.24}%
 \contentsline {subsection}{\numberline {2.2.2}DevOps}{25}{subsection.2.2.2}%
-\contentsline {subsubsection}{Integración Continua CI}{25}{section*.26}%
-\contentsline {subsubsection}{Github}{25}{section*.27}%
-\contentsline {subsubsection}{GitFlow}{25}{section*.28}%
-\contentsline {subsubsection}{Despliegue Continuo CD}{25}{section*.29}%
-\contentsline {subsubsection}{Github Actions}{25}{section*.30}%
-\contentsline {subsubsection}{Vercel}{25}{section*.31}%
+\contentsline {subsubsection}{Integración Continua CI}{25}{section*.25}%
+\contentsline {subsubsection}{Github}{25}{section*.26}%
+\contentsline {subsubsection}{GitFlow}{25}{section*.27}%
+\contentsline {subsubsection}{Despliegue Continuo CD}{25}{section*.28}%
+\contentsline {subsubsection}{Github Actions}{25}{section*.29}%
+\contentsline {subsubsection}{Vercel}{25}{section*.30}%
 \contentsline {section}{\numberline {2.3}Desarrollo e Implementación}{25}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Tecnologías Empleadas}{25}{subsection.2.3.1}%
-\contentsline {subsubsection}{VSCode}{26}{section*.32}%
-\contentsline {subsubsection}{ESLint}{26}{section*.33}%
-\contentsline {subsubsection}{Prettier}{26}{section*.34}%
-\contentsline {subsubsection}{Next.js}{26}{section*.35}%
-\contentsline {subsubsection}{TypeScript}{26}{section*.36}%
-\contentsline {subsubsection}{Node.js}{26}{section*.37}%
+\contentsline {subsubsection}{VSCode}{26}{section*.31}%
+\contentsline {subsubsection}{ESLint}{26}{section*.32}%
+\contentsline {subsubsection}{Prettier}{26}{section*.33}%
+\contentsline {subsubsection}{Next.js}{26}{section*.34}%
+\contentsline {subsubsection}{TypeScript}{26}{section*.35}%
+\contentsline {subsubsection}{Node.js}{26}{section*.36}%
 \contentsline {subsection}{\numberline {2.3.2}Implementación}{26}{subsection.2.3.2}%
-\contentsline {subsubsection}{Code Guidelines}{26}{section*.38}%
-\contentsline {subsubsection}{Análisis y Diseño}{26}{section*.39}%
-\contentsline {subsubsection}{Librerias Node.js}{26}{section*.40}%
+\contentsline {subsubsection}{Code Guidelines}{26}{section*.37}%
+\contentsline {subsubsection}{Análisis y Diseño}{26}{section*.38}%
+\contentsline {subsubsection}{Librerias Node.js}{26}{section*.39}%
 \contentsline {subsection}{\numberline {2.3.3}Testing}{26}{subsection.2.3.3}%
-\contentsline {subsubsection}{Pruebas Unitarias}{26}{section*.41}%
-\contentsline {subsubsection}{Evaluación de la Interfaz}{26}{section*.42}%
+\contentsline {subsubsection}{Pruebas Unitarias}{26}{section*.40}%
+\contentsline {subsubsection}{Evaluación de la Interfaz}{26}{section*.41}%
 \contentsline {section}{\numberline {2.4}Resultado Final}{26}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Conclusiones}{27}{chapter.3}%
-\contentsline {chapter}{Bibliografía}{29}{section*.43}%
-\contentsline {chapter}{Apéndices}{31}{section*.45}%
+\contentsline {chapter}{Bibliografía}{29}{section*.42}%
+\contentsline {chapter}{Apéndices}{31}{section*.44}%
 \contentsline {chapter}{\numberline {A}Conceptos Musicales}{33}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}Notas}{33}{section.Alph1.1}%
 \contentsline {section}{\numberline {A.2}Intervalos}{33}{section.Alph1.2}%
