@@ -268,7 +268,7 @@ Y finalmente, me gustaría agradecer a todos mis compañeros que han compartido 
 \chapter*{Resumen}
 Un gimnasio musical para tus oídos. La idea consiste en desarrollar una herramienta para ayudar a músicos a desarrollar su oído (Musical Ear Training). Por ejemplo, para identificar notas, intervalos, escalas, etc. Estos ejercicios mejorarán su capacidad musical al desarrollar una comprensión más intuitiva de lo que se escucha.
 
-Además, este TFG tiene como objetivo centrarse en cómo crear un nuevo producto software desde cero. Siguiendo todas las etapas de desarrollo desde que se concibe la idea hasta que se obtiene el producto deseado. Con la idea en mente de aprender y usar diferentes tecnologías que estén a la orden del día. También se pretende hacer uso de la metodología Agile para llevar a cabo la organización del proyecto.
+Además, este TFG tiene como objetivo centrarse en cómo crear un nuevo producto software desde cero. Siguiendo todas las etapas de desarrollo desde que se concibe la idea hasta que se obtiene el producto deseado. Con la idea en mente de plasmar los conocimientos adquiridos en los cuatro años de estudios pero también de aprender y usar diferentes tecnologías que estén a la orden del día. También se pretende hacer uso de la metodología Agile para llevar a cabo la organización del proyecto.
 
 Consistirá en una aplicación web basada Next.js y TypeScript y que será desplegada en Vercel. Con el nombre de Earfit y que se puede visitar en el siguiente enlace:
 
@@ -392,7 +392,7 @@ Es la habilidad para reconocer notas musical sin tener otras como referencia. Es
 
 \subsubsection{Oído Relativo}
 
-Es la habilidad para reconocer notas musical relacionándolas entre sí. Es una habilidad indispensable para los músicos y es más sencilla de entrenar que el oído absoluto. Esta característica te puede permitir, por ejemplo, interpretar canciones sin disponer de partitura.
+Es la habilidad para reconocer notas musical relacionándolas entre sí. Es una habilidad indispensable para los músicos y es más sencilla de entrenar que el oído absoluto. Esta característica te puede permitir, por ejemplo, interpretar canciones sin disponer de partitura.
 
 Las personas que disponen de oído relativo son capaces de:
 \begin{itemize}
@@ -735,44 +735,63 @@ Crear una \textbf{hipótesis}, diseñar un \textbf{experimento} para \textbf{tes
 
 \subsubsection{Crear}
 
-Lo primero de todo es definir nuestra **visión**. ¿Cuáles son nuestros objetivos?
+Lo primero de todo es definir nuestra \textbf{visión}. ¿Cuáles son nuestros objetivos?
 
 El objetivo es conocer qué quieren los potenciales usuarios. Pero nos encontramos bajo unas condiciones de incertidumbre extrema. Nuestra tarea es diseñar para crear un nuevo producto o servicio bajo estas condiciones de incertidumbre extrema.
 
-Es aquí donde necesitamos aplicar **Design Thinking:**
+Es aquí donde necesitamos aplicar \textbf{Design Thinking:}
 
-**EMPATIZAR**
+\textbf{EMPATIZAR}
 
-Una forma de hacerlo podría ser **entrevistando** a los potenciales clientes para estar seguros de que el problema que queremos solventar existe.
+Una forma de hacerlo podría ser \textbf{entrevistando} a los potenciales clientes para estar seguros de que el problema que queremos solventar existe.
 
-En este caso el cliente más cercano es el propio **Manuel Rubio**. Así no diseñamos sobre hipótesis propias no validadas sino que lo hacemos teniendo en cuenta lo que es necesario para el usuario.
+En este caso el cliente más cercano es el propio \textbf{Manuel Rubio}. Así no diseñamos sobre hipótesis propias no validadas sino que lo hacemos teniendo en cuenta lo que es necesario para el usuario.
 
-Tenemos varias reuniones por Teams en las que, cómo músico, me explica las dificultades por las que pasan a la hora de entrenar el oído y la importancia que el **entrenamiento auditivo** tiene.
+Tenemos varias reuniones por Teams en las que, cómo músico, me explica las dificultades por las que pasan a la hora de entrenar el oído y la importancia que el \textbf{entrenamiento auditivo} tiene.
 
-(IMAGEN)
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{MINDMAP0}
+    \label{fig:Mindmap0}
+    \caption{Ventajas del entrenamiento auditivo}
+\end{figure}
 
-Para entender mejor la situación necesito de un proceso de **investigación**. Internet es un inmenso campo de búsqueda de información. Por eso, paralelamente a las entrevistas busco información adicional que me permita entender mejor a nuestro usuario, el problema y cómo solucionarlo. Dado que mis conocimientos sobre música son básicos necesito de un estudio profundo de la teoría musical. 
+Para entender mejor la situación necesito de un proceso de \textbf{investigación}. Internet es un inmenso campo de búsqueda de información. Por eso, paralelamente a las entrevistas busco información adicional que me permita entender mejor a nuestro usuario, el problema y cómo solucionarlo. Dado que mis conocimientos sobre música son básicos necesito de un estudio profundo de la teoría musical. 
 
 Una vez entendido al usuario y sus necesidades, podemos pasar a definir el problema.
 
-El principal problema principal que se encuentran estos jóvenes músicos es la dificultad para entrenar el oído sumado a la dificultad para entrar en un conservatorio. Si quieren aprender a tocar por su cuenta no tienen los recursos necesarios para llevar a cabo este entrenamiento auditivo que Manuel nos ha explicado que es tan importante.
+\textbf{DEFINIR}
+
+El problema principal que se encuentran estos jóvenes músicos es la dificultad para entrenar el oído sumado a la dificultad para entrar en un conservatorio. Si quieren aprender a tocar por su cuenta no tienen los recursos necesarios para llevar a cabo este entrenamiento auditivo que Manuel nos ha explicado que es tan importante.
+
+\textbf{IDEAR}
 
 Por lo que vamos a intentar construir una solución que aporte valor. Para ello realizamos un pequeño MindMap donde nos enfocamos en los principales problemas y las posibles soluciones que podríamos llevar a cabo:
 
-(MINDMAP1)
-(MINDMAP2)
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.31]{MINDMAP1}
+    \label{fig:Mindmap1}
+    \caption{MindMap Parte 1}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.22]{MINDMAP2}
+    \label{fig:Mindmap2}
+    \caption{MindMap Parte 2}
+\end{figure}
 Después de varias iteraciones concluimos que una posible forma de solucionar estos problemas es mediante una WebApp con ejercicios de Entrenamiento Auditivo. 
 
-**PROTOTIPAR**
+\textbf{PROTOTIPAR}
 
 Es ahora cuando toca llevar a cabo nuestra solución para testear esta hipótesis. 
 
-Pero antes que nada debemos tener en cuenta nuestras limitaciones: poco tiempo para el desarrollo, aprender conceptos musicales, vamos a usar tecnologías que no conocemos. Y hacernos la pregunta: ¿Cuál es el **producto mínimo viable** (MVP) que puedo crear para obtener resultados?
+Pero antes que nada debemos tener en cuenta nuestras limitaciones: poco tiempo para el desarrollo, aprender conceptos musicales, vamos a usar tecnologías que no conocemos. Y hacernos la pregunta: ¿Cuál es el \textbf{producto mínimo viable} (MVP) que puedo crear para obtener resultados?
 
-Para ello, la técnica **MoSCoW** nos ****permitirá establecer las prioridades del proyecto. La cuál consiste en definir lo siguiente sobre la aplicación:
+Para ello, la técnica \textbf{MoSCoW} nos permitirá establecer las prioridades del proyecto. La cuál consiste en definir lo siguiente sobre la aplicación:
 
-**Must have (Debe tener):** Características absolutamente críticas para el nuevo proyecto, sin ellas el proyecto es un fracaso.
+\textbf{Must have (Debe tener):} Características absolutamente críticas para el nuevo proyecto, sin ellas el proyecto es un fracaso.
 
 -Modo Práctica
 
@@ -782,7 +801,7 @@ Para ello, la técnica **MoSCoW** nos ****permitirá establecer las prioridades 
 
 -Ejercicio Escalas
 
-**Should have (Debería incluir):** Aspectos del proyecto críticos también, pero no imprescindibles.
+\textbf{Should have (Debería incluir):} Aspectos del proyecto críticos también, pero no imprescindibles.
 
 -Opciones personalizables
 
@@ -792,7 +811,7 @@ Para ello, la técnica **MoSCoW** nos ****permitirá establecer las prioridades 
 
 -Responsive
 
-**Could have (Podría incluir):** Iniciativas que estaría bien tenerlas, ya que añadirían valor al proyecto, pero no son críticas.
+\textbf{Could have (Podría incluir):} Iniciativas que estaría bien tenerlas, ya que añadirían valor al proyecto, pero no son críticas.
 
 -Ejercicio Acordes
 
@@ -800,7 +819,7 @@ Para ello, la técnica **MoSCoW** nos ****permitirá establecer las prioridades 
 
 -Ejercicio Progresiones
 
-**Won’t have (No se van a hacer):** Características que no se merecen la inversión y no aportan ningún beneficio en este momento y se podrían considerar más tarde.
+\textbf{Won’t have (No se van a hacer):} Características que no se merecen la inversión y no aportan ningún beneficio en este momento y se podrían considerar más tarde.
 
 -Modo reto
 
@@ -810,85 +829,101 @@ Para ello, la técnica **MoSCoW** nos ****permitirá establecer las prioridades 
 
 Este MVP no debe ser perfecto, lo que queremos es aprender lo más rápido posible. Añadir características a nuestro producto que todavía ni sabemos cómo va a ser aceptado es una perdida de tiempo. Por lo que vamos a centrarnos en desarrollar prioritariamente lo que debe tener y más tarde lo que debería incluir.
 
-Una vez establecidas las prioridades del proyecto pasamos a visualizarlas en forma de **Sketches**, **Wireframes** y por último **Prototipos**:
+Una vez establecidas las prioridades del proyecto pasamos a visualizarlas en forma de Sketches en papel, y más tarde realizamos los Wireframes teniendo en cuenta la filosofía de diseño Mobile First. Tratamos de realizar un diseño simple pero efectivo basado en tres columnas.
 
-(PROTOTIPO)
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.18]{WireframeSteps}
+    \label{fig:WireframeSteps}
+\end{figure}
 
-La ventaja principal del uso de **prototipos en UX o Experiencia de Usuario** es que, ayudan a plasmar visualmente los objetivos y como se alinean con las expectativas y necesidades de los usuarios y si son satisfechas a través del producto diseñado.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{Wireframe}
+    \label{fig:Wireframes}
+    \caption{Prototipo Smartphone}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{WireframePC}
+    \label{fig:WireframePC}
+    \caption{Prototipo PC}
+\end{figure}
+
+La ventaja principal del uso de \textbf{prototipos en UX o Experiencia de Usuario} es que, ayudan a plasmar visualmente los objetivos y como se alinean con las expectativas y necesidades de los usuarios y si son satisfechas a través del producto diseñado.
 
 Modificar un prototipo, tiene un coste menor que modificar el producto digital una vez subido a producción, por lo que supone también una ventaja en el ahorro de costes dentro del proceso de desarrollo.
 
 Ayuda a que el cliente ya tenga una visión sobre parte del proyecto y que nos pueda proporcionar su feedback desde las fases tempranas.
 
-**TESTEAR**
+\textbf{TESTEAR}
 
 En esta fase, es importante que entendamos que no estamos vendiendo. Se trata de aprender del feedback del usuario para hacer posteriormente una nueva versión mejorada de nuestra solución.
 
-Después de haber testeado los primeros diseños con el usuario, haber hecho correcciones y haber validado el último prototipo que hemos visto anteriormente, pasamos a crearlo usando **metodología Agile**.
+Después de haber testeado los primeros diseños con el usuario, haber hecho correcciones y haber validado el último prototipo que hemos visto anteriormente, pasamos a crearlo usando \textbf{metodología Agile}.
 
 En el siguiente capítulo se explicará esta metodología de trabajo seguida para implementar la solución. Y después de este los detalles técnicos de su desarrollo. Pero, por ahora seguimos con como fue el proceso de creación general.
 
 \subsubsection{Medir}
 
-Es hora de llevar a cabo el experimento, lo más común es poner los usuarios delante del producto y recoger así información sobre su comportamiento. Recoges los datos y reflexionas sobre ellos para **pivotar**, es decir, seguir adelante o cambiar de dirección. 
+Es hora de llevar a cabo el experimento, lo más común es poner los usuarios delante del producto y recoger así información sobre su comportamiento. Recoges los datos y reflexionas sobre ellos para \textbf{pivotar}, es decir, seguir adelante o cambiar de dirección. 
 
 Lo importante es qué tan rápido puedes desarrollar tus experimentos para hacer evolucionar la aplicación. 
 
-Los test fueron poco a poco en un proceso iterativo hasta llegar a completar los diseños del prototipo, generando siempre una versión entregable. Siguiendo la técnica del **Conserje**: empezando con un sólo usuario (Manuel Rubio) y una vez habiendo desarrollado la aplicación lo suficiente escalar y hacer pruebas con más usuarios.
+Los test fueron poco a poco en un proceso iterativo hasta llegar a completar los diseños del prototipo, generando siempre una versión entregable. Siguiendo la técnica del \textbf{Conserje}: empezando con un sólo usuario (Manuel Rubio) y una vez habiendo desarrollado la aplicación lo suficiente escalar y hacer pruebas con más usuarios.
 
-La idea es ir implementando y testeando poco a poco la aplicación, empezando por los **Must haves** e ir añadiendo los **Should haves** paulatinamente y hacer ajustes según el feedback del usuario. Para dar respuesta a las siguientes preguntas:
+La idea es ir implementando y testeando poco a poco la aplicación, empezando por los \textbf{Must haves} e ir añadiendo los \textbf{Should haves} paulatinamente y hacer ajustes según el feedback del usuario. Para dar respuesta a las siguientes preguntas:
 
 ¿Tiene la gente el problema que crees que tienen? ¿Realmente quieren lo que estas ofreciendo?
 
-Para ello, cada vez que se desarrollaba una **nueva versión** de la aplicación. Se testeaba en una reunión con el tutor recogiendo **feedback** y haciendo los ajustes pertinentes. Más tarde se empezó a testear también con conocidos, en concreto dos estudiantes de conservatorio y una persona que está empezando a tocar. Es cuando se empezaron a aplicar algunas **métricas**:
+Para ello, cada vez que se desarrollaba una \textbf{nueva versión} de la aplicación. Se testeaba en una reunión con el tutor recogiendo \textbf{feedback} y haciendo los ajustes pertinentes. Más tarde se empezó a testear también con conocidos, en concreto dos estudiantes de conservatorio y una persona que está empezando a tocar. Es cuando se empezaron a aplicar algunas \textbf{métricas}:
 
-Las que mejor se adecuaron a nuestro producto son: **Engagement** y **Tiempo en el producto** por usuario. También se tuvo en cuenta la **retención**: el usuario lo usa nuevamente, y la **referencia**: el usuario comparte el producto con sus amigos.
+Las que mejor se adecuaron a nuestro producto son: \textbf{Engagement} y \textbf{Tiempo en el producto} por usuario. También se tuvo en cuenta la \textbf{retención}: el usuario lo usa nuevamente, y la \textbf{referencia}: el usuario comparte el producto con sus amigos.
 
-Además se utilizaron **test A/B**: enseñando dos versiones diferentes del producto al mismo tiempo para tomar decisiones acertadas. Aprovechando las características que nos ofrecía **Vercel** como veremos en su apartado.
+Además se utilizaron \textbf{test A/B}: enseñando dos versiones diferentes del producto al mismo tiempo para tomar decisiones acertadas. Aprovechando las características que nos ofrecía \textbf{Vercel} como veremos en su apartado.
 
-Aclarar que aparte de estos test que **miden el éxito** de la aplicación se realizaron pruebas también relacionadas al funcionamiento cómo se verá más adelante en su apartado **Testing** en Desarrollo e Implementación.
+Aclarar que aparte de estos test que \textbf{miden el éxito} de la aplicación se realizaron pruebas también relacionadas al funcionamiento cómo se verá más adelante en su apartado \textbf{Testing} en Desarrollo e Implementación.
 
 \subsubsection{Aprender}
 
-Este proceso es necesario para mantenerse **ágiles** mientras crecemos. No invertir demasiado en grandes mejoras, sino hacer lotes de **pequeñas mejoras** más a menudo para aprender más. Lo que lleva a un circulo de interacción más rápido ya que puedes **detectar problemas** de calidad y tener mayor **feedback** sin tener que esperar a que el trabajo este hecho lo que propicia a que haya menos trabajo que rehacer.
+Este proceso es necesario para mantenerse \textbf{ágiles} mientras crecemos. No invertir demasiado en grandes mejoras, sino hacer lotes de \textbf{pequeñas mejoras} más a menudo para aprender más. Lo que lleva a un circulo de interacción más rápido ya que puedes \textbf{detectar problemas} de calidad y tener mayor \textbf{feedback} sin tener que esperar a que el trabajo este hecho lo que propicia a que haya menos trabajo que rehacer.
 
-Algunas de las cosas que se aprendieron en el continuo proceso de crear, medir, aprender fueron las siguientes:
+Lo que pudimos aprender en este continuo proceso de crear, medir, aprender fue lo siguiente:
 
-De los test con el tutor pudimos corregir lo siguiente:
+De los test con el \textbf{tutor} pudimos corregir lo siguiente:
 
-Corregir problemas nombres intervalos e incluir todos los intervalos
+En un principio no se incluían todos los \textbf{intervalos existentes}, sólo los de notas naturales, un test con el tutor nos hizo darnos cuenta de que faltaban las notas alteradas. Lo que llevo también a una investigación para corregir el nombre de estos, ya que descubrimos que dos intervalos con diferente nombre pueden sonar igual. Esto es debido a que los intervalos se nombran no sólo por la distancia de sus notas sino también por cómo están escritas en el pentagrama. Por ejemplo: entre Do y Dos hay 1 semitono y entre Do y Reb también hay 1 semitono, la misma distancia, suenan igual, pero son intervalos distintos.
 
-Añadir sonido al acertar
+También nos dió el feedback de que estaría bien añadir un \textbf{sonido al acertar}. Aprovechando el sonido de la misma respuesta para que así los usuarios puedan interiorizarla.
 
-De los test con más usuarios pudimos mejorar lo siguiente:
+De los test con más \textbf{usuarios} pudimos mejorar lo siguiente:
 
-Añadir boton checkall
+En un principio se mostraban todas las opciones disponibles, lo que hacía el ejercicio muy difícil. Por lo que dejando como predeterminado tres opciones se ajustaba la \textbf{dificultad} inicial. Además descubrimos de que resultaba engorroso una vez señaladas varias opciones volver a seleccionarlas por lo que añadimos un botón que seleccionase y deseleccionase todas de golpe.
 
-Ajustar dificultad inicial
+También descubrimos que había un problema de \textbf{compatibilidad} con iphone que hacía inservible la aplicación el cual pudimos corregir rápido. Así cómo poder ajustar el \textbf{volumen} de los sonidos ya que al principio no sonaba lo suficientemente alto.
 
-Añadir varios instrumentos
+De los \textbf{test A/B} lo siguiente:
 
-Ajustar el volumen
+Se mostraron dos versiones, una con \textbf{piano} en los ejercicios y otras sin él. Lo que pudimos observar es que las versiones con el piano generaban mayor \textbf{engagement} y \textbf{retención} por parte de los usuarios. Además los usuarios lo utilizaban para tener notas de referencia, lo que podía ayudar a la obtención de la respuesta correcta. Lo que en el ejercicio de notas resultó en una parte esencial.
 
-Corregir disponibilidad iphone
-
-De los test A/B lo siguiente:
-
-Añadir piano generaba engagement y retención. A parte en el ejercicio de notas es esencial.
+Cómo se puede observar gracias a este proceso iterativo de crear, medir, aprender pudimos corregir fallos ágilmente y añadir funcionalidades que ni nos habíamos planteado en un primer momento gracias al feedback de los propios usuarios.
 
 \subsubsection{Resultados}
 
-Una vez pasado por todo este proceso varias veces, el resultado es un MVP que poder sacar al mercado. Y que se debe seguir mejorando. 
+Una vez pasado por todo este proceso iterativo, el resultado es un MVP que poder sacar al mercado. Y que se debe seguir mejorando. 
 
-Los **Early Adopters**, los primeros en utilizar el producto no serán muy exigentes con la calidad pero esto es así con los nuevos clientes que vendrán más tarde. 
+Los \textbf{Early Adopters}, los primeros en utilizar el producto no serán muy exigentes con la calidad pero esto es así con los nuevos clientes que vendrán más tarde. 
 
-Todo se basa en un proceso de **Innovación Sostenida**, que se basaría en ir incrementando mejoras al producto ya existente.
+Todo se basa en un proceso de \textbf{Innovación Sostenida}, que se basaría en ir incrementando mejoras al producto ya existente.
 
-Para ver capturas de la aplicación tras todo este proceso puedes ir al apartado **Resultado Final.**
+Para ver capturas de la aplicación tras todo este proceso puedes ir al apartado \textbf{Resultado Final}
 
 \section{Metodología de Trabajo}
 
-Waterfall, XP, Scrum
+Hablar de Agile brevemente
+
+Scrum, como modelo organizativo  y DevOps como...
 
 \subsection{Scrum}
 
