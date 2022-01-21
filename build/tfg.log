@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  20 JAN 2022 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  21 JAN 2022 21:04
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -493,7 +493,7 @@ LaTeX Info: Redefining \% on input line 168.
 \c@lstlisting=\count314
 LaTeX Info: Redefining \. on input line 175.
 LaTeX Info: Redefining \% on input line 175.
-<logoURJC.pdf, id=119, 413.545pt x 158.5925pt>
+<logoURJC.pdf, id=123, 413.545pt x 158.5925pt>
 File: logoURJC.pdf Graphic file (type pdf)
 <use logoURJC.pdf>
 Package pdftex.def Info: logoURJC.pdf  used on input line 179.
@@ -561,18 +561,13 @@ LaTeX Info: Redefining \% on input line 3.
 
 ]
 Cap\'{\i }tulo 1.
-
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.376 
+l.373 
        [1]
-Underfull \vbox (badness 4120) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 397.
-LaTeX Info: Redefining \% on input line 397.
+LaTeX Info: Redefining \. on input line 400.
+LaTeX Info: Redefining \% on input line 400.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -582,8 +577,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-LaTeX Info: Redefining \. on input line 422.
-LaTeX Info: Redefining \% on input line 422.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 420.
+LaTeX Info: Redefining \% on input line 420.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -593,8 +590,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-LaTeX Info: Redefining \. on input line 448.
-LaTeX Info: Redefining \% on input line 448.
+LaTeX Info: Redefining \. on input line 442.
+LaTeX Info: Redefining \% on input line 442.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -604,10 +601,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Underfull \vbox (badness 1715) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 472.
-LaTeX Info: Redefining \% on input line 472.
+LaTeX Info: Redefining \. on input line 470.
+LaTeX Info: Redefining \% on input line 470.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -617,8 +612,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-LaTeX Info: Redefining \. on input line 498.
-LaTeX Info: Redefining \% on input line 498.
+LaTeX Info: Redefining \. on input line 482.
+LaTeX Info: Redefining \% on input line 482.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -635,16 +630,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7
 
 ]
-<assets//leanstartup.png, id=263, 878.28125pt x 702.625pt>
+<assets//leanstartup.png, id=273, 878.28125pt x 702.625pt>
 File: assets//leanstartup.png Graphic file (type png)
 <use assets//leanstartup.png>
-Package pdftex.def Info: assets//leanstartup.png  used on input line 537.
+Package pdftex.def Info: assets//leanstartup.png  used on input line 521.
 (pdftex.def)             Requested size: 263.4864pt x 210.78912pt.
 
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 540.
-LaTeX Info: Redefining \% on input line 540.
+LaTeX Info: Redefining \. on input line 524.
+LaTeX Info: Redefining \% on input line 524.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -654,8 +649,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-LaTeX Info: Redefining \. on input line 563.
-LaTeX Info: Redefining \% on input line 563.
+LaTeX Info: Redefining \. on input line 547.
+LaTeX Info: Redefining \% on input line 547.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -665,8 +660,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./assets//leanstartup.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 590.
-LaTeX Info: Redefining \% on input line 590.
+LaTeX Info: Redefining \. on input line 574.
+LaTeX Info: Redefining \% on input line 574.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -678,8 +673,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 624.
-LaTeX Info: Redefining \% on input line 624.
+LaTeX Info: Redefining \. on input line 608.
+LaTeX Info: Redefining \% on input line 608.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -689,8 +684,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-LaTeX Info: Redefining \. on input line 658.
-LaTeX Info: Redefining \% on input line 658.
+LaTeX Info: Redefining \. on input line 642.
+LaTeX Info: Redefining \% on input line 642.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -700,8 +695,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-LaTeX Info: Redefining \. on input line 684.
-LaTeX Info: Redefining \% on input line 684.
+LaTeX Info: Redefining \. on input line 668.
+LaTeX Info: Redefining \% on input line 668.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -711,13 +706,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<assets//designthinking.png, id=303, 848.16875pt x 295.1025pt>
+<assets//designthinking.png, id=313, 848.16875pt x 295.1025pt>
 File: assets//designthinking.png Graphic file (type png)
 <use assets//designthinking.png>
-Package pdftex.def Info: assets//designthinking.png  used on input line 689.
+Package pdftex.def Info: assets//designthinking.png  used on input line 673.
 (pdftex.def)             Requested size: 373.1954pt x 129.84549pt.
-LaTeX Info: Redefining \. on input line 708.
-LaTeX Info: Redefining \% on input line 708.
+LaTeX Info: Redefining \. on input line 692.
+LaTeX Info: Redefining \% on input line 692.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -727,16 +722,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14 <./assets//designthinking.png>]
-<assets//leandesignagile.png, id=311, 1284.8pt x 722.7pt>
+<assets//leandesignagile.png, id=321, 1284.8pt x 722.7pt>
 File: assets//leandesignagile.png Graphic file (type png)
 <use assets//leandesignagile.png>
-Package pdftex.def Info: assets//leandesignagile.png  used on input line 725.
+Package pdftex.def Info: assets//leandesignagile.png  used on input line 709.
 (pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 730.
-LaTeX Info: Redefining \% on input line 730.
+LaTeX Info: Redefining \. on input line 714.
+LaTeX Info: Redefining \% on input line 714.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -746,8 +741,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-LaTeX Info: Redefining \. on input line 750.
-LaTeX Info: Redefining \% on input line 750.
+LaTeX Info: Redefining \. on input line 734.
+LaTeX Info: Redefining \% on input line 734.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -759,23 +754,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.750 
+l.734 
        <./assets//leandesignagile.png (PNG copy)>]
-<assets//MINDMAP0.jpg, id=321, 1888.05376pt x 532.99126pt>
+<assets//MINDMAP0.jpg, id=331, 1888.05376pt x 532.99126pt>
 File: assets//MINDMAP0.jpg Graphic file (type jpg)
 <use assets//MINDMAP0.jpg>
-Package pdftex.def Info: assets//MINDMAP0.jpg  used on input line 753.
+Package pdftex.def Info: assets//MINDMAP0.jpg  used on input line 737.
 (pdftex.def)             Requested size: 377.60406pt x 106.59636pt.
-<assets//MINDMAP11.jpg, id=322, 1113.15875pt x 903.375pt>
+<assets//MINDMAP11.jpg, id=332, 1113.15875pt x 903.375pt>
 File: assets//MINDMAP11.jpg Graphic file (type jpg)
 <use assets//MINDMAP11.jpg>
-Package pdftex.def Info: assets//MINDMAP11.jpg  used on input line 772.
+Package pdftex.def Info: assets//MINDMAP11.jpg  used on input line 756.
 (pdftex.def)             Requested size: 411.86229pt x 334.24352pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 776.
-LaTeX Info: Redefining \% on input line 776.
+LaTeX Info: Redefining \. on input line 760.
+LaTeX Info: Redefining \% on input line 760.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -787,15 +782,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.776 
+l.760 
        <./assets//MINDMAP0.jpg>]
-<assets//MINDMAP2.jpg, id=327, 1727.45375pt x 582.175pt>
+<assets//MINDMAP2.jpg, id=337, 1727.45375pt x 582.175pt>
 File: assets//MINDMAP2.jpg Graphic file (type jpg)
 <use assets//MINDMAP2.jpg>
-Package pdftex.def Info: assets//MINDMAP2.jpg  used on input line 779.
+Package pdftex.def Info: assets//MINDMAP2.jpg  used on input line 763.
 (pdftex.def)             Requested size: 380.041pt x 128.07889pt.
-LaTeX Info: Redefining \. on input line 789.
-LaTeX Info: Redefining \% on input line 789.
+LaTeX Info: Redefining \. on input line 773.
+LaTeX Info: Redefining \% on input line 773.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -807,22 +802,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.789 P
+l.773 P
        ero antes que nada debemos tener en cuenta nuestras limitaciones: poc...pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.789 P
+l.773 P
        ero antes que nada debemos tener en cuenta nuestras limitaciones: poc... <./assets//MINDMAP11.jpg> <./assets//MINDMAP2.jpg>]
-<assets//Wireframes.jpg, id=333, 1098.1025pt x 916.42375pt>
+<assets//Wireframes.jpg, id=343, 1098.1025pt x 916.42375pt>
 File: assets//Wireframes.jpg Graphic file (type jpg)
 <use assets//Wireframes.jpg>
-Package pdftex.def Info: assets//Wireframes.jpg  used on input line 847.
+Package pdftex.def Info: assets//Wireframes.jpg  used on input line 831.
 (pdftex.def)             Requested size: 406.29156pt x 339.07149pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 850.
-LaTeX Info: Redefining \% on input line 850.
+LaTeX Info: Redefining \. on input line 834.
+LaTeX Info: Redefining \% on input line 834.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -832,16 +827,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<assets//WireframePC.jpg, id=338, 1365.1pt x 736.7525pt>
+<assets//WireframePC.jpg, id=348, 1365.1pt x 736.7525pt>
 File: assets//WireframePC.jpg Graphic file (type jpg)
 <use assets//WireframePC.jpg>
-Package pdftex.def Info: assets//WireframePC.jpg  used on input line 854.
+Package pdftex.def Info: assets//WireframePC.jpg  used on input line 838.
 (pdftex.def)             Requested size: 409.53316pt x 221.02745pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 858.
-LaTeX Info: Redefining \% on input line 858.
+LaTeX Info: Redefining \. on input line 842.
+LaTeX Info: Redefining \% on input line 842.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -853,12 +848,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.858 
+l.842 
        <./assets//Wireframes.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 876.
-LaTeX Info: Redefining \% on input line 876.
+LaTeX Info: Redefining \. on input line 860.
+LaTeX Info: Redefining \% on input line 860.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -870,12 +865,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.876 
+l.860 
        <./assets//WireframePC.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 896.
-LaTeX Info: Redefining \% on input line 896.
+LaTeX Info: Redefining \. on input line 880.
+LaTeX Info: Redefining \% on input line 880.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -887,8 +882,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 916.
-LaTeX Info: Redefining \% on input line 916.
+LaTeX Info: Redefining \. on input line 900.
+LaTeX Info: Redefining \% on input line 900.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -898,15 +893,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-Overfull \hbox (20.07513pt too wide) in paragraph at lines 950--952
-[]\OT1/cmr/m/n/12 Comparativa An-gu-lar, React y Vue https://unpocodejava.com/2018/12/21/react-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 953.
-LaTeX Info: Redefining \% on input line 953.
+LaTeX Info: Redefining \. on input line 926.
+LaTeX Info: Redefining \% on input line 926.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -916,10 +904,104 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24]
+<assets//DevOps.png, id=373, 1204.5pt x 559.08875pt>
+File: assets//DevOps.png Graphic file (type png)
+<use assets//DevOps.png>
+Package pdftex.def Info: assets//DevOps.png  used on input line 933.
+(pdftex.def)             Requested size: 289.0859pt x 134.18404pt.
+LaTeX Info: Redefining \. on input line 947.
+LaTeX Info: Redefining \% on input line 947.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.947 
+       <./assets//DevOps.png>]
+<assets//Gitflow.png, id=380, 702.625pt x 387.4475pt>
+File: assets//Gitflow.png Graphic file (type png)
+<use assets//Gitflow.png>
+Package pdftex.def Info: assets//Gitflow.png  used on input line 950.
+(pdftex.def)             Requested size: 407.52278pt x 224.7197pt.
+LaTeX Info: Redefining \. on input line 968.
+LaTeX Info: Redefining \% on input line 968.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.968 
+       <./assets//Gitflow.png (PNG copy)>]
+Overfull \hbox (7.91136pt too wide) in paragraph at lines 969--970
+[]\OT1/cmr/m/n/12 Con Scrum, un pro-duc-to se ba-sa en una se-rie de ite-ra-cio-nes lla-ma-das **sprints**
+ []
+
+<assets//Scrum.png, id=386, 1044.90375pt x 570.63188pt>
+File: assets//Scrum.png Graphic file (type png)
+<use assets//Scrum.png>
+Package pdftex.def Info: assets//Scrum.png  used on input line 982.
+(pdftex.def)             Requested size: 407.51082pt x 222.54553pt.
+LaTeX Info: Redefining \. on input line 988.
+LaTeX Info: Redefining \% on input line 988.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.988 
+       <./assets//Scrum.png>]
+<assets//Kanban.png, id=396, 849.92531pt x 487.06969pt>
+File: assets//Kanban.png Graphic file (type png)
+<use assets//Kanban.png>
+Package pdftex.def Info: assets//Kanban.png  used on input line 995.
+(pdftex.def)             Requested size: 407.95952pt x 233.79079pt.
+LaTeX Info: Redefining \. on input line 1007.
+LaTeX Info: Redefining \% on input line 1007.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1007 
+        <./assets//Kanban.png>]
+LaTeX Info: Redefining \. on input line 1032.
+LaTeX Info: Redefining \% on input line 1032.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 975.
-LaTeX Info: Redefining \% on input line 975.
+LaTeX Info: Redefining \. on input line 1070.
+LaTeX Info: Redefining \% on input line 1070.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -928,9 +1010,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
-LaTeX Info: Redefining \. on input line 982.
-LaTeX Info: Redefining \% on input line 982.
+[30]
+LaTeX Info: Redefining \. on input line 1070.
+LaTeX Info: Redefining \% on input line 1070.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -939,15 +1021,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[31]
 Cap\'{\i }tulo 3.
-[27
+[32
 
-] [28] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [29
+] [33] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [34
 
-] [30] [31] [32]
+] [35] [36] [37]
 Ap\'{e}ndice A.
-[33
+[38
 
 ] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -958,25 +1040,25 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 0E0008360AD0CAB5493CE8EEAA9440FD;4030.
+(rerunfilecheck)             Checksum: C8F50470864722FC8EC2210FC577C8F5;4147.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 357 (\begingroup)
+### semi simple group (level 2) entered at line 358 (\begingroup)
 ### semi simple group (level 1) entered at line 242 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14289 strings out of 478927
- 217773 string characters out of 2852535
- 628296 words of memory out of 3000000
- 31763 multiletter control sequences out of 15000+600000
+ 14345 strings out of 478927
+ 218758 string characters out of 2852535
+ 628456 words of memory out of 3000000
+ 31815 multiletter control sequences out of 15000+600000
  413175 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,13n,81p,748b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,13n,81p,748b,750s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (46 pages, 1150514 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (51 pages, 1955138 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

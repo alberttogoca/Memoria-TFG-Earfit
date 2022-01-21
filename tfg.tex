@@ -266,12 +266,12 @@ Y finalmente, me gustaría agradecer a todos mis compañeros que han compartido 
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Resumen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter*{Resumen}
-Un gimnasio musical para tus oídos. La idea consiste en desarrollar una herramienta para ayudar a músicos a desarrollar su oído (Musical Ear Training). Por ejemplo, para identificar notas, intervalos, escalas, etc. Estos ejercicios mejorarán su capacidad musical al desarrollar una comprensión más intuitiva de lo que se escucha.
+\chapter*{Resumen (Redactar mejor)}
+La idea consiste en desarrollar una herramienta para ayudar a músicos a desarrollar su oído (Musical Ear Training). Por ejemplo, para identificar notas, intervalos y escalas. Estos ejercicios mejorarán su capacidad musical al desarrollar una comprensión más intuitiva de lo que se escucha.
 
-Además, este TFG tiene como objetivo centrarse en cómo crear un nuevo producto software desde cero. Siguiendo todas las etapas de desarrollo desde que se concibe la idea hasta que se obtiene el producto deseado. Con la idea en mente de plasmar los conocimientos adquiridos en los cuatro años de estudios pero también de aprender y usar diferentes tecnologías que estén a la orden del día. También se pretende hacer uso de la metodología Agile para llevar a cabo la organización del proyecto.
+Consistirá en una aplicación web basada Next.js y TypeScript y que será desplegada en Vercel. Utilizando Metodologías Ágiles y prácticas de DevOps para llevar a cabo la organización del proyecto. 
 
-Consistirá en una aplicación web basada Next.js y TypeScript y que será desplegada en Vercel. Con el nombre de Earfit y que se puede visitar en el siguiente enlace:
+La aplicación tiene el nombre de Earfit y se puede visitar en el siguiente enlace:
 
 \url{https://earfit-alberttogoca.vercel.app/}
 
@@ -344,7 +344,8 @@ Consistirá en una aplicación web basada Next.js y TypeScript y que será despl
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1 Introducción %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Introducción}
 
-Si bien somos capaces de reconocer los colores desde bien pequeños, de forma general ponemos muy poco cuidado a los sonidos a lo largo de nuestra vida. Entrenar el oído es lo más parecido a aprender los colores y aprender cómo se relacionan y funcionan. Imagina un pintor que desconoce los colores, quién decide pintar el cielo morado porque no reconoce su verdadero color. En conclusión, un músico no puede darse el lujo de desconocer los colores de la música.
+\cite{giaquinta}
+En este capítulo daremos un poco de explicación sobre qué consiste el entrenamiento auditivo para que pueda comprender mejor el objetivo general y alcance del trabajo. Además, se realizará una pequeña descripción del proyecto y se comentará brevemente el estado del arte actual. Por último, se establecerán los objetivos y la estructura del documento.
 
 % Estilo resto de páginas
 \pagestyle{fancy}
@@ -360,38 +361,25 @@ Si bien somos capaces de reconocer los colores desde bien pequeños, de forma ge
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-\section{Contexto}
+\section{Entrenamiento Auditivo}
 
-Este apartado tiene como objetivo situar al lector. Por lo que daremos un poco de explicación sobre qué consiste el Entrenamiento Auditivo para que pueda comprender mejor el objetivo general y alcance del trabajo. También se realizará una pequeña descripción del proyecto y se comentará brevemente el estado del arte actual.
+Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca desarrollarán toda su potencia. Los músicos, productores y DJs se pueden beneficiar del entrenamiento de sus oídos. Puede resultar muy útil a la hora de mezclar música y componer canciones.
 
-\subsection{Entrenamiento Auditivo}
+El entrenamiento auditivo es el proceso de identificar los elementos de la música en su forma más sencilla y conectarlos con la forma en que sentimos el sonido físicamente. Tradicionalmente, el entrenamiento auditivo para los músicos incluye habilidades como identificar intervalos o escalas. 
 
-Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca desarrollarán toda su potencia.
+Muchas personas suponen que tener “oído musical” es tener la capacidad de identificar una nota al oírla. Tener oído musical es, también, ser capaz de escuchar y comprender música interiormente, sin que ésta este físicamente presente, igual que reflexionamos sobre palabras que hemos escuchado.
 
-Los músicos, productores y DJs se pueden beneficiar del entrenamiento de sus oídos. Puede resultar muy útil a la hora de mezclar música y componer canciones.
+El entrenamiento auditivo es importante porque la escucha es una habilidad, al igual que tocar el piano. Por ejemplo, las melodías son simplemente series de intervalos. Con el entrenamiento necesario para identificar los intervalos, puedes aprender a tocar una melodía de oído.
 
-\subsubsection{Qué es}
+Para los productores de música, el entrenamiento auditivo sirve para identificar los rangos de frecuencias más rápidamente. El entrenamiento auditivo ayuda a encontrar las frecuencias que necesitas para conseguir los efectos buscados.
 
-El entrenamiento auditivo es el proceso de identificar los elementos de la música en su forma más sencilla y conectarlos con la forma en que sentimos el sonido físicamente. Tradicionalmente, el entrenamiento auditivo para los músicos incluye habilidades como identificar intervalos, tipos de acordes y progresiones de acordes. El entrenamiento auditivo para los productores de audio suele incluir la identificación de los rangos de frecuencias en Hz.
+En conclusión, aprender entrenamiento auditivo te lleva al siguiente nivel como músico ya que te permite sacar canciones más rápido, con mayor precisión, improvisarás mejor, podrás llevar al instrumento las melodías que imaginas con mayor facilidad, y en general te permitirá ser mucho
 
-Muchas personas suponen que tener oído musical es tener la capacidad de identificar una nota al oírla. Tener oído musicales, también, ser capaz de escuchar y comprender música interiormente, sin que ésta este físicamente presente, igual que reflexionamos sobre palabras que hemos escuchado.
-
-\subsubsection{Porqué es importante}
-
-El entrenamiento auditivo es importante porque la escucha es una habilidad. Al igual que tocar el piano o saber cómo modificar una cadena de efectos vocales.
-
-Por ejemplo, las melodías son simplemente series de intervalos. Con el entrenamiento necesario para identificar los intervalos, puedes aprender a tocar una melodía de oído.
-
-Reconocer las progresiones de acordes de oído también es un superpoder. Acostumbrarse a escuchar las progresiones de acordes más comunes con una herramienta de entrenamiento auditivo cambia la forma en que compones canciones.
-
-Al igual que tocar el piano o saber cómo modificar una cadena de efectos vocales, la escucha es una habilidad.
-Para los productores de música, el entrenamiento auditivo sirve para identificar los rangos de frecuencias más rápidamente. ¿Quieres un kick más preciso? ¿O un vocal más ligero? El entrenamiento auditivo te ayudará a encontrar las frecuencias que necesitas para conseguir los efectos que buscas.
-
-\subsubsection{Oído Absoluto}
+\subsection{Oído Absoluto}
 
 Es la habilidad para reconocer notas musical sin tener otras como referencia. Es relativamente raro encontrar personas con oído absoluto. Se considera que menos del uno por ciento de la población tiene oído absoluto. Las posibilidades de tener oído absoluto aumentan si has recibido mucho entrenamiento musical desde muy pequeño.
 
-\subsubsection{Oído Relativo}
+\subsection{Oído Relativo}
 
 Es la habilidad para reconocer notas musical relacionándolas entre sí. Es una habilidad indispensable para los músicos y es más sencilla de entrenar que el oído absoluto. Esta característica te puede permitir, por ejemplo, interpretar canciones sin disponer de partitura.
 
@@ -406,11 +394,7 @@ Las personas que disponen de oído relativo son capaces de:
 
 Los ejercicios más comunes de entrenamiento auditivo te ayudarán a desarrollar tu oído relativo.
 
-\subsubsection{Conclusión}
-
-Aprender entrenamiento auditivo te lleva al siguiente nivel como músico ya que te permite sacar canciones más rápido, con mayor precisión, improvisarás mejor, podrás llevar al instrumento las melodías que imaginas con mayor facilidad, y en general te permitirá ser mucho mejor músico.
-
-\subsection{Descripción del Proyecto}
+\section{Descripción del Proyecto}
 
 El presente Trabajo de Fin de Grado se centra en el diseño e implementación de una aplicación web con la finalidad de ayudar a músicos a desarrollar su oído musical mediante la realización de ejercicios de entrenamiento auditivo. 
 
@@ -430,7 +414,7 @@ Aparte, se ha incorporado la posibilidad de poder cambiar el instrumento que sue
 
 Toda la aplicación se ha diseñado teniendo en mente que el diseño fuera simple, fácil de entender y limpio. Ha sido desarrollada utilizando Nextjs y Typescript que se explicarán más adelante en el apartado Implementación. Y se ha seguido un despliegue continuo de la aplicación en Vercel que también se explicará más adelante en Despliegue Continuo.
 
-\subsection{Estado del Arte}
+\section{Estado del Arte}
 En la actualidad ya existen algunas aplicaciones para entrenar el oído como pueden ser:
 
 ToneGym: \url{https://www.tonegym.co/}
@@ -459,11 +443,11 @@ Todas ellas plantean diferentes ejercicios para reconocer notas, intervalos y es
 
 El objetivo principal del TFG es desarrollar una herramienta que permita ayudar a músicos a desarrollar su oído musical. Mediante el entrenamiento auditivo.
 
-Otros objetivos son:
+Subobjetivos:
 \begin{compactitem}
-    \item Utilizar nuevas tecnologías que estén a la orden del día
-    \item Utilizar metodologías Ágiles
-    \item Realizar un despliegue continuo de la aplicación
+    \item Desarrollar una interfaz interactiva
+    \item Implementar diferentes tipos de ejercicios 
+    \item Incluir varios instrumentos
 \end{compactitem}
 
 \section{Estructura del documento}
@@ -498,7 +482,7 @@ Se espera que sea lo suficientemente clarificador y que permita una lectura comp
 \chapter{Contenidos principales}
 \label{chap:contenidos}
 
-\section{Creación de la Propuesta de Valor}
+\section{Necesidad, Hipótesis y Solución}
 
 \textbf{¿Cómo nace la idea?}
 
@@ -926,33 +910,137 @@ Para ver capturas de la aplicación tras todo este proceso puedes ir al apartado
 
 \section{Metodología de Trabajo}
 
-Hablar de Agile brevemente
+\textbf{¿Cómo gestionamos el desarrollo?}
 
-Scrum, como modelo organizativo  y DevOps como...
+Para llevar a cabo la idea de manera exitosa necesitamos asegurar un proceso visible, controlado, repetitivo, eficiente y predecible. Necesitamos adaptar las formas de trabajo a las necesidades del proyecto, prolongando respuestas rápidas y flexibles para acomodar el desarrollo.
+
+La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste.
+
+Para ser ágiles mientras desarrollamos podemos beneficiarnos de \textbf{DevOps}, como filosofía de desarrollo y \textbf{Scrum}, como modelo organizativo.
+
+\subsection{DevOps}
+
+El término DevOps, que es una combinación de los términos ingleses **development** (desarrollo) y **operations** (operaciones), designa la unión de personas, procesos y tecnología para ofrecer valor a los clientes de forma constante.
+
+DevOps describe los enfoques para agilizar los procesos con los que una idea (como una nueva función de software, una solicitud de mejora o una corrección de errores) pasa del desarrollo a la implementación, en un entorno de producción en que puede generar valor para el usuario.
+
+La creación de registros de trabajo pendiente, el seguimiento de los errores, la administración del desarrollo de **software ágil** con **Scrum**, el uso de paneles **Kanban** y la visualización del progreso son algunas de las formas en las que los equipos de DevOps planean con agilidad y visibilidad.
+
+El desarrollo de aplicaciones modernas requiere procesos diferentes a los enfoques del pasado. Las nuevas empresas utilizan enfoques ágiles para desarrollar sistemas de software.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.24]{DevOps}
+    \label{fig:DevOps}
+    \caption{DevOps}
+\end{figure}
+
+DevOps permite fabricar software más rápidamente, con mayor calidad, menor coste y una altísima frecuencia de releases. Al adoptar prácticas de DevOps, se asegura la confiabilidad, la alta disponibilidad y el objetivo de ningún tiempo de inactividad del sistema.
+
+El primero de los 12 principios del Manifiesto Ágil es el siguiente: "Satisfacer a los clientes mediante la distribución de software continua y oportuna". Este es el motivo por el que es importante aplicar prácticas de DevOps, cómo la integración continua y el despliegue continuo.
+
+\subsubsection{Integración Continua (CI)}
+
+La **integración continua** es una práctica de DevOps mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica. Para implantar **integración continua** solemos definir un “pipeline”, un conjunto de etapas, de fases por las que va pasando el software y que se automatizan. 
+
+En nuestro caso usamos **Github**, que es un servicio basado en la nube, cómo herramienta de control de versiones **Git**. Y utilizamos **Gitflow*,*** que es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.58]{Gitflow}
+    \label{fig:Gitflow}
+    \caption{Gitflow}
+\end{figure}
+
+Su funcionamiento se basa en dos ramas principales: la rama de producción y la rama de desarrollo. De la rama de desarrollo se van sacando nuevas ramas de funcionalidades y uniendo a está a medida que se completan. Un vez una nueva versión está lista se une la rama de desarrollo con la de producción generando una nueva release.
+
+\subsubsection{Despliegue Continuo (CD)}
+
+El **despliegue continuo** es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente.
+
+Para entregar funcionalidades de software de forma frecuente a través de la automatización de despliegues utilizamos **GitHub Actions** el cuál nos permite automatizar, personalizar y ejecutar estos flujos de trabajo directamente desde nuestro repositorio.
+
+El flujo consistía en que cada vez que se actualizaba el repositorio mediante una subida de código, éste automáticamente desplegaba las nuevas actualizaciones en **Vercel,** que ****es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión.
 
 \subsection{Scrum}
 
-\subsubsection{Kanban y Roadmap de Producto}
+Scrum es un **proceso de gestión** que reduce la complejidad en el desarrollo de productos para satisfacer las necesidades de los clientes. Se considera un marco de gestión de proyectos ágil.
 
-\subsection{DevOps}
-\subsubsection{Integración Continua CI}
-\subsubsection{Github}
-\subsubsection{GitFlow}
+Con Scrum, un producto se basa en una serie de iteraciones llamadas **sprints** que dividen proyectos grandes y complejos en porciones minúsculas. Priorizadas por el beneficio que aportan al receptor del producto.
 
-\subsubsection{Despliegue Continuo CD}
-\subsubsection{Github Actions}
-\subsubsection{Vercel}
+\begin{enumerate}
+    \item Un Product Owner ordena el trabajo de un problema complejo en un Product Backlog.
+    \item El Equipo Scrum convierte una selección del trabajo en un Incremento de valor durante un Sprint.
+    \item El Equipo Scrum y sus partes interesadas inspeccionan los resultados y se ajustan para el próximo Sprint.
+    \item *Repetir*
+\end{enumerate}
+
+*Scrum* no es un proceso o una técnica para desarrollar/construir productos, realmente es un marco de trabajo donde podemos emplear un conjunto de diferentes procesos y técnicas, siendo muy fácil de implantar y muy popular en el desarrollo software por los resultados rápidos que consigue.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.39]{Scrum}
+    \label{fig:Scrum}
+    \caption{Scrum}
+\end{figure}
+
+Implementar este marco de trabajo nos permite **obtener resultados pronto**, reduciendo el **Time to Market**, es decir, a tener lo antes posible en el mercado nuestro producto o una característica de nuestro producto, aumentando la **satisfacción del cliente**. Donde los requisitos son cambiantes o poco definidos, **aportando tolerancia al cambio.**
+
+Es ideal para crear nuevos productos poniendo el **foco en el cliente** y **detectar fallos pronto**. Lo que se traduce en una mayor **calidad del producto, reducción de costes y optimización del riesgo.**
+
+Para visualizar el trabajo utilizamos **Scrum Board**. Esto nos permite separar en pequeñas tareas cada Product Backlog Item y minimizar los riesgos de entrega. Realizando una construcción iterativa incremental donde se integra al final de cada sprint para validar el resultado. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.48]{Kanban}
+    \label{fig:Kanban}
+    \caption{Kanban}
+\end{figure}
+
+Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Lo que nos permite aprovechar el cambio y mejorar continuamente.
 
 \section{Desarrollo e Implementación}
 
-\subsection{Tecnologías Empleadas}
+\textbf{¿Cómo implementamos la solución?}
 
-Comparativa Angular, React y Vue
-https://unpocodejava.com/2018/12/21/react-vs-angular-vs-vue-js/
+La aplicación fue implementada siguiendo unas guías de estándares de calidad de código y un moderno stack tecnológico. A continuación se encuentra una detallada descripción informática incluyendo especificación, diseño, implementación y pruebas.
+
+\subsection{Stack Tecnológico}
+
+Después de una larga investigación y comparación de tecnologías teniendo en mente las necesidades del proyecto. Se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los necesarios para implementar esta aplicación.
 
 \subsubsection{VSCode}
+
+Visual Studio Code es un editor de código redefinido y optimizado para crear y depurar aplicaciones web y en la nube modernas. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.
+
+Gracias a su integración de Git es sencillo revisar las diferencias, preparar los archivos y realizar confirmaciones directamente desde el editor antes de subirlo al repositorio en la nube.
+
+Además cuenta con una biblioteca de extensiones, las cuales nos da un sin número de opciones para ser más eficiente a la hora de estar programando. Desde extensiones de otros lenguajes de programación como diferentes herramientas para visualizar o estructurar el código de manera más eficiente.
+
+Las extensiones más importantes para mejorar la experiencia de desarrollo y buenas prácticas de este proyecto fueron las que se explican a continuación. Configurar estas herramientas será una inversión que haremos una vez y sus beneficios los notaremos durante todo el proyecto
+
 \subsubsection{ESLint}
+
+ESLint es una herramienta de análisis de código para identificar patrones problemáticos que se puede instalar como extensión en VSCode.
+
+Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Cuenta con unas reglas por defecto pero en este caso lo vamos a configurar con una guía de estilo JavaScript llamada **StandardJS**. Lo que nos permitirá:
+
+\begin{compactitem}
+ \item Corregir errores de sintaxis
+ \item Corregir código poco intuitivo o difícil de mantener
+ \item Evitar el uso de "malas practicas"
+ \item Hacer uso de un estilo de código consistente.
+\end{compactitem}
+
+ESLint está diseñado para ser flexible y configurable por lo que añadimos ejecutar ESLint como parte del proceso de integración continua.
+
 \subsubsection{Prettier}
+
+Prettier es un formateador de código que puede instalarse como extensión en VSCode. Aplica un estilo consistente analizando el código y formateándolo con sus propias reglas que toman en cuenta la longitud máxima de línea, ajustando el código cuando es necesario.
+
+Para ello, analiza el código y lo **da formato** cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el estilo del código.
+
+En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
 \subsubsection{Next.js}
 
