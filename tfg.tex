@@ -776,6 +776,55 @@ Otras herramientas de fases previas fueron: Miro, Notion, Trello.
 
 \subsubsection{Next.js}
 
+Creado por Vercel, Next.js es un framework de trabajo creado sobre Node.js y basado en React que permite crear Single-page Applications (SPA) y aplicaciones web de alto rendimiento a través de la renderización del lado del servidor (Server-side Rendering).
+
+Next nos permite, instalando una sola dependencia, tener configurado todo lo que necesitamos para crear una aplicación de **React** usando Babel y Webpack.  Estas son las características que nos ofrece sin apenas tener que configurarlo:
+
+\begin{itemize}
+    \item Un **sistema de enrutamiento** intuitivo **basado en páginas** con soporte para rutas dinámicas: En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio de páginas. Cada página está asociada con una ruta basada en su nombre de archivo.
+    \item **Pre-rendering**: De forma predeterminada, Next.js procesa previamente cada página. Esto significa que genera HTML para cada página por adelantado, en lugar de que JavaScript del lado del cliente lo haga todo. La renderización previa puede resultar en un mejor rendimiento y SEO.
+    
+    Next.js tiene dos formas de pre-rendering:
+    \begin{itemize}
+        \item **Generación Estática:** El HTML se genera en el momento de la compilación y se reutilizará en cada solicitud. Esta forma fue la utilizada por razones de rendimiento.
+        \item **Server-side Rendering:** El HTML se genera en cada solicitud.
+    \end{itemize}
+
+        \item Separación automática de código (**Code Spliting**) para cargas de página más rápidas.
+    \item Enrutamiento optimizado con prefetching para **Single-page Application:** sólo se precargan los elementos mostrados en la página actual.
+    \item Entorno de desarrollo con soporte **Fast Refresh** y **HMR** (Hot Module Replacement): Permite actualizar todo tipo de módulos y componentes de React en tiempo de ejecución sin necesidad de un refresco completo.
+    \item Soporte integrado de **CSS y Sass**, y soporte para cualquier biblioteca **CSS-in-JS**. (completar)
+    \item **Rutas API** para crear endpoints con funciones sin servidor: Cualquier archivo dentro de la carpeta pages/api se asigna a /api/* y se tratará como un endpoint en lugar de una página.
+    \item Soporte para **TypeScript**. (completar)
+\end{itemize}
+
+Simplemente instalamos Next, así como React y React-dom como dependencias. Estas dos últimas son necesarias para que Next pueda trabajar sin ningún tipo de problemas.
+
+\textbf{React.js}
+
+Es una biblioteca de código abierto para proyectos de JavaScript, que permite a los desarrolladores crear aplicaciones web e interfaces de usuario mantenida por Facebook. 
+
+- Es fácil de aprender.
+- Es fácil de usar con un proyecto.
+- Es flexible.
+- Tiene componentes reutilizables.
+- Ofrece estabilidad de código.
+- Es de alto rendimiento.
+- Mejora la productividad.
+- Ofrece muchas herramientas para el desarrollador.
+- Tiene un vasto ecosistema.
+- Facilita un fuerte desarrollo web.
+
+To build a complete web application with React from scratch, there are many important details you need to consider:
+
+- Code has to be bundled using a bundler like webpack and transformed using a compiler like Babel.
+- You need to do production optimizations such as code splitting.
+- You might want to statically pre-render some pages for performance and SEO. You might also want to use server-side rendering or client-side rendering.
+- You might have to write some server-side code to connect your React app to your data store.
+
+\textbf{Vercel}
+
+Es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión.
 
 \subsubsection{TypeScript}
 

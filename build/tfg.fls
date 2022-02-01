@@ -970,6 +970,7 @@ INPUT .\assets\\Vercel.png
 INPUT .\assets\\Vercel.png
 INPUT .\assets\\Vercel.png
 INPUT .\assets\\Vercel.png
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\assets\\TYPESCRIPT.png
 INPUT assets\\TYPESCRIPT.png
 INPUT .\assets\\TYPESCRIPT.png
@@ -991,6 +992,8 @@ INPUT .\assets\\MVP.png
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
