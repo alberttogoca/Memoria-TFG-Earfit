@@ -517,8 +517,6 @@ Se espera que sea lo suficientemente clarificador y que permita una lectura comp
 \chapter{Contenidos principales}
 \label{chap:contenidos}
 
-\section{Ideación y Diseño}
-
 Aplicando Design Thinking, como método de generación de ideas innovadoras, Lean Startup como método de aprendizaje validado, y usando Metologías Ágiles, para llevar a cabo la gestión y desarrollo del software, se consiguió desarrollar un Producto Mínimo Viable. La Figura[x] ilustra cómo se aplicaron todas estas metodologías.
 
 \begin{figure}[H] 
@@ -529,6 +527,9 @@ Aplicando Design Thinking, como método de generación de ideas innovadoras, Lea
 \end{figure}
 
 Con todo esto conseguimos un proceso que parte de la nada, se centra en el usuario, gestiona el caos, integra el error y es iterable. 
+
+
+\section{Ideación y Diseño}
 
 \subsection{Design Thinking}
 
@@ -773,6 +774,40 @@ Después de una larga investigación y comparación de tecnologías teniendo en 
 
 Otras herramientas de fases previas fueron: Miro, Notion, Trello.
 
+\subsubsection{Next.js}
+
+
+\subsubsection{TypeScript}
+
+TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.
+
+Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con Nextjs ya obtenemos compilación y empaquetado automáticos (con webpack y babel).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{TYPESCRIPT}
+    \label{fig:TypeScript}
+    \caption{TypeScript}
+\end{figure}
+
+Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo que es un lenguaje más limpio. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño SOLID e incrementa la agilidad en el refactoring del código.
+
+\subsubsection{Node.js}
+
+Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables.
+
+Permite utilizar un único lenguaje de programación para el Backend y el FrontEnd. Además cuenta con un repositorio de código abierto lleno de librerías útiles lo que ayuda en el desarrollo a una generación rápida de un producto mínimo viable.
+
+Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquetes para trabajar con proyecto de Node.js. Es necesario instalar una extensión para VScode y comenzar un proyecto nuevo con NPM o Yarn e instalar algunas dependencias necesarias como las de Typescript.
+
+\textbf{NPM o Yarn}
+
+A veces, la instalación de paquetes con NPM no es lo suficiente consistente o rápida, dando incluso a errores. Es por ese el motivo que en este proyecto se tuvo que cambiar a Yarn, que es una alternativa construida por Facebook, Google, Exponent y Tilde.
+
+En package.json, el archivo donde tanto NPM como Yarn hacen un seguimiento de las dependencias del proyecto, los números de versión no siempre son exactos. En su lugar, se puede definir una gama de versiones.
+
+Cada vez que se añade un módulo, Yarn crea (o actualiza) un archivo yarn.lock. De esta manera se puede garantizar que en otra máquina se pueda instalar exactamente el mismo paquete, sin dejar de tener una gama de versiones permitidas definidas en package.json. Lo cual nos permitió resolver algunos errores en la instalación de librerias.
+
 \subsubsection{VSCode}
 
 Visual Studio Code es un editor de código redefinido y optimizado para crear y depurar aplicaciones web y en la nube modernas. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.
@@ -805,31 +840,6 @@ Prettier es un formateador de código que puede instalarse como extensión en VS
 Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el estilo del código.
 
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
-
-\subsubsection{Next.js}
-
-\subsubsection{TypeScript}
-
-TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.
-
-Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con Nextjs ya obtenemos compilación y empaquetado automáticos (con webpack y babel).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{TYPESCRIPT}
-    \label{fig:TypeScript}
-    \caption{TypeScript}
-\end{figure}
-
-Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo que es un lenguaje más limpio. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño SOLID e incrementa la agilidad en el refactoring del código.
-
-\subsubsection{Node.js}
-
-Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables.
-
-Permite utilizar un único lenguaje de programación para el Backend y el FrontEnd. Además cuenta con un repositorio de código abierto lleno de librerías útiles lo que ayuda en el desarrollo a una generación rápida de un producto mínimo viable.
-
-Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquetes para trabajar con proyecto de Node.js. Es necesario instalar una extensión para VScode y comenzar un proyecto nuevo con NPM o Yarn e instalar algunas dependencias necesarias como las de Typescript.
 
 \subsection{Desarrollo}
 
