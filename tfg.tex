@@ -266,12 +266,14 @@ Y finalmente, me gustaría agradecer a todos mis compañeros que han compartido 
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Resumen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter*{Resumen (Redactar mejor)}
+\chapter*{Resumen}
 La idea consiste en desarrollar una herramienta para ayudar a músicos a desarrollar su oído (Musical Ear Training). Por ejemplo, para identificar notas, intervalos y escalas. Estos ejercicios mejorarán su capacidad musical al desarrollar una comprensión más intuitiva de lo que se escucha.
 
-Consistirá en una aplicación web basada Next.js y TypeScript y que será desplegada en Vercel. Utilizando Metodologías Ágiles y prácticas de DevOps para llevar a cabo la organización del proyecto. 
+Consistirá en una aplicación web basada Next.js y TypeScript y que será desplegada en Vercel. Utilizando Metodologías Ágiles y prácticas de DevOps para llevar a cabo la organización y el desarrollo del producto. Además de Design Thinking y Lean Startup para la ideación, diseño y creación de la solución.
 
-La aplicación tiene el nombre de Earfit y se puede visitar en el siguiente enlace:
+La aplicación se basa en un conjunto de ejercicios de entrenamiento musical divididos en la identificación de notas, intervalos y escalas. Donde los usuarios tratarán de adivinar el sonido de cada ejercicio al pulsar el botón de pregunta. Además, los usuarios cuentan con las posibilidad de personalizar estos ejercicios, variar el instrumento que suena, así como de tocar un pequeño piano para ayudarse en la obtención de sus respuestas.
+
+Todo ello en una aplicación con renderizado en el lado del servidor que tiene como nombre Earfit y se puede visitar en el siguiente enlace:
 
 \url{https://earfit-alberttogoca.vercel.app/}
 
@@ -369,11 +371,11 @@ El entrenamiento auditivo es el proceso de identificar los elementos de la músi
 
 Muchas personas suponen que tener “oído musical” es tener la capacidad de identificar una nota al oírla. Tener oído musical es, también, ser capaz de escuchar y comprender música interiormente, sin que ésta este físicamente presente, igual que reflexionamos sobre palabras que hemos escuchado.
 
-El entrenamiento auditivo es importante porque la escucha es una habilidad, al igual que tocar el piano. Por ejemplo, las melodías son simplemente series de intervalos. Con el entrenamiento necesario para identificar los intervalos, puedes aprender a tocar una melodía de oído.
+El entrenamiento auditivo es importante porque la escucha es una habilidad, al igual que tocar el piano. Por ejemplo, las melodías son simplemente series de intervalos. Con el entrenamiento necesario para identificar los intervalos, se puede aprender a tocar una melodía de oído.
 
-Para los productores de música, el entrenamiento auditivo sirve para identificar los rangos de frecuencias más rápidamente. El entrenamiento auditivo ayuda a encontrar las frecuencias que necesitas para conseguir los efectos buscados.
+Para los productores de música y DJs, el entrenamiento auditivo sirve para identificar los rangos de frecuencias más rápidamente y ayudarlos también a conseguir los efectos buscados.
 
-En conclusión, aprender entrenamiento auditivo te lleva al siguiente nivel como músico ya que te permite sacar canciones más rápido, con mayor precisión, improvisarás mejor, podrás llevar al instrumento las melodías que imaginas con mayor facilidad, y en general te permitirá ser mucho
+En conclusión, aprender entrenamiento auditivo te lleva al siguiente nivel como músico ya que te permite sacar canciones más rápido, con mayor precisión, improvisar mejor, llevar al instrumento las melodías que imaginas con mayor facilidad, y en general te permitirá ser mucho mejor músico.
 
 \subsection{Oído Absoluto}
 
@@ -384,13 +386,11 @@ Es la habilidad para reconocer notas musical sin tener otras como referencia. Es
 Es la habilidad para reconocer notas musical relacionándolas entre sí. Es una habilidad indispensable para los músicos y es más sencilla de entrenar que el oído absoluto. Esta característica te puede permitir, por ejemplo, interpretar canciones sin disponer de partitura.
 
 Las personas que disponen de oído relativo son capaces de:
-\begin{itemize}
+\begin{compactitem}
     \item Denotar la distancia de una nota musical desde una nota de referencia establecida.
-    
     \item Seguir la notación musical, esto permite cantar correctamente una melodía entonando cada nota de acuerdo a la distancia con la nota anterior.
-    
-    \item Seguir la notación musical, esto permite cantar correctamente una melodía entonando cada nota de acuerdo a la distancia con la nota anterior.
-\end{itemize}
+    \item Identificar intervalos entre notas dadas, de manera independiente a la afinación elegida.
+\end{compactitem}
 
 Los ejercicios más comunes de entrenamiento auditivo te ayudarán a desarrollar tu oído relativo.
 
@@ -398,13 +398,11 @@ Los ejercicios más comunes de entrenamiento auditivo te ayudarán a desarrollar
 
 El presente Trabajo de Fin de Grado se centra en el diseño e implementación de una aplicación web con la finalidad de ayudar a músicos a desarrollar su oído musical mediante la realización de ejercicios de entrenamiento auditivo. 
 
-La aplicación se centrará en tres tipos diferentes de ejercicios divididos en la localización de notas, intervalos y escalas. 
+La aplicación se centrará en tres tipos diferentes de ejercicios divididos en la localización de notas, intervalos y escalas. Para cada uno de los ejercicios se ha diseñado una página específica, que incluirá:
 
-Para cada uno de los ejercicios se ha diseñado una página específica, que incluirá:
+El propio ejercicio, que consistirá en un botón que reproducirá el sonido correspondiente al ejercicio (una nota, un intervalo o una escala), calculado aleatoriamente teniendo en cuenta las posibles respuestas disponibles. La idea es que el usuario trate de adivinar el sonido que está sonando. Cuando pulse sobre una respuesta se evaluará si es correcta o incorrecta. Si es incorrecta el botón cambiará a color rojo y podrá seguir probando. Si es correcta el botón cambiará a verde un segundo, se reseterán los colores de los botones de respuesta y se calculará un nuevo sonido. También existe un contador de racha que aparecerá cuando se den tres aciertos consecutivos y desaparecerá cuando se falle, lo que animará a seguir practicando.
 
-El propio ejercicio, que consistirá en un botón que reproducirá el sonido correspondiente, calculado aleatoriamente teniendo en cuenta las posibles respuestas y los botones correspondientes a las respuestas a elegir. La idea es que el usuario trate de adivinar el sonido que está sonando. Cuando pulse en una respuesta se evaluará si es correcta o incorrecta. Si es incorrecta el botón cambiará a color rojo y podrá seguir probando. Si es correcta el botón cambiará a verde un segundo, se reseterán los botones y se calculará un nuevo sonido. También existe un contador de racha que aparecerá cuando se den tres aciertos consecutivos y desaparecerá cuando se falle.
-
-A su derecha aparecerán las opciones con las que podrás personalizar el ejercicio a tu gusto, añadiendo o quitando respuestas del ejercicio lo que incrementará o disminuirá la dificultad. 
+A su derecha aparecerán las opciones con las que podrá personalizar el ejercicio a su gusto, añadiendo o quitando respuestas disponibles del ejercicio lo que incrementará o disminuirá la dificultad. 
 
 Además, en el ejercicio de notas se podrá cambiar la escala de la que se seleccionan las notas y en los ejercicios de intervalos y escalas se podrá elegir si las sucesión de notas será ascendente o descendente. 
 
@@ -412,16 +410,53 @@ También todos los ejercicios incorporarán un piano que los usuarios podrán us
 
 Aparte, se ha incorporado la posibilidad de poder cambiar el instrumento que suena y que será persistente para toda la aplicación.
 
-Toda la aplicación se ha diseñado teniendo en mente que el diseño fuera simple, fácil de entender y limpio. Ha sido desarrollada utilizando Nextjs y Typescript que se explicarán más adelante en el apartado Implementación. Y se ha seguido un despliegue continuo de la aplicación en Vercel que también se explicará más adelante en Despliegue Continuo.
+Toda la aplicación se ha diseñado teniendo en mente que el diseño fuera simple, fácil de entender y limpio. Ha sido desarrollada utilizando Nextjs y Typescript. Y se ha seguido un despliegue continuo de la aplicación en Vercel. Utilizando Metodologías Ágiles y prácticas de DevOps para llevar a cabo la organización y el desarrollo del producto. Además de Design Thinking y Lean Startup para la ideación, diseño y creación de la solución.
 
 \section{Estado del Arte}
+
 En la actualidad ya existen algunas aplicaciones para entrenar el oído como pueden ser:
 
 ToneGym: \url{https://www.tonegym.co/}
 
+Pros:
+
+Varios tipos de ejercicios
+
+Menu de facil acceso a la izquierda
+
+Contras:
+
+Primero parece que necesitas login
+
+Ejercicios un poco ocultos
+
+Si fallas no puedes continuar
+
+No los puedes personalizar
+
+Solo piano
+
 ToneDear \url{https://tonedear.com/}
 
+Pros:
+
+Varios tipos de ejercicios
+
+Puedes personalizar los ejercicios aunque no es inmediato
+
+Si fallas puedes continuar
+
+Contras:
+
+Solo piano
+
+No estan todos los intervalos
+
+El ejercicio intervalos está un poco roto
+
 EarMaster: \url{https://www.earmaster.com/es/}
+
+Directamente de pide que la descargues
 
 La mayoría de ellas está de acuerdo en qué el método más efectivo para progresar en el entrenamiento auditivo es el siguiente:
 
@@ -450,7 +485,7 @@ Subobjetivos:
     \item Incluir varios instrumentos
 \end{compactitem}
 
-\section{Estructura del documento}
+\section{Estructura del documento (más breve)}
 
 En este apartado se especificará, como su título indica, la estructura que plantea este breve trabajo o memoria. El objetivo de dicho punto es acercar al lector las diferentes partes que componen este proyecto, así como ayudarle en la comprensión de este.
 
@@ -482,228 +517,9 @@ Se espera que sea lo suficientemente clarificador y que permita una lectura comp
 \chapter{Contenidos principales}
 \label{chap:contenidos}
 
-\section{Necesidad, Hipótesis y Solución}
+\section{Ideación y Diseño}
 
-\textbf{¿Cómo nace la idea?}
-
-La idea parte de la necesidad de jóvenes músicos que quieren aprender a tocar un instrumento. Una parte fundamental del aprendizaje consiste en entrenar el oído, que sin los medios adecuados puede resultar difícil.
-
-Junto con mi tutor Manuel Rubio, que es un apasionado de la música, intentamos dar forma a esta solución. Tuvimos varias reuniones en las que él, cómo músico, me explicaba las dificultades por las que pasan a la hora de entrenar el oído. Una vez tenidas claras sus necesidades era hora de crear una solución que aportase valor. Para ello decidí crear un producto mínimo viable (\textbf{MVP}) que cumpliese con las especificaciones requeridas usando \textbf{Lean Startup}, como método de aprendizaje validado y \textbf{Design Thinking}, como método de generación de ideas innovadoras.
-
-Aplicando las bases de Lean Startup combinándolas con prácticas de Design Thinking \textbf{(Lean Design)}, como se explica a continuación, se consiguió desarrollar un MVP.
-
-\subsection{Lean Startup}
-\subsubsection{Qué es}
-Es un método riguroso para agilizar la puesta en marcha de soluciones y optimizarlas con base en un proceso de aprendizaje y de corrección iterativa. Comenzó con el método de desarrollo de clientes y el método Lean en los sistemas de fabricación japoneses popularizado por Toyota.
-
-Se compone de 5 principios básicos:
-\begin{enumerate}
-    \item Los emprendedores están en todas partes
-    \item El espíritu emprendedor es management
-    \item Aprendizaje validado
-    \item Crear medir aprender
-    \item Contabilidad de la innovación
-\end{enumerate}
-
-\subsubsection{Porqué he decidido usarlo}
-
-El Lean Startup \textbf{sirve para} acortar los ciclos de desarrollo, medir el progreso y ganar feedback por parte de los usuarios. Esto se consigue porque se basa en el \textbf{aprendizaje validado}, la \textbf{experimentación científica} y la \textbf{iteración} en los lanzamientos del producto. 
-
-Aunque por su nombre pueda parecer que sólo esta enfocado al mundo Startup y crear una nueva empresa, en realidad es una herramienta imprescindible para la puesta en marcha de \textbf{soluciones software} como veremos a continuación.
-
-\subsubsection{Explicación Detallada}
-
-Para entender mejor el por qué de usar este método, explicaremos las \textbf{3 partes} de las que se compone y que hemos seguido, añadiendo prácticas de \textbf{Design Thinking} para la construcción de nuestra solución. Lo cual ayudará a entender el proceso que se ha seguido hasta llegar al resultado final:
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.3]{leanstartup}
-    \label{fig:Circuito de feedback de informacion}
-\end{figure}
-
-\subsubsection{1. VER}
-
-\textbf{Comenzar}
-
-El objetivo es conocer qué quieren los potenciales usuarios. 
-
-Las startups se caracterizan por su constante incertidumbre. Así que en vez de hacer planes concretos apuntando a una sola dirección deben recoger feedback de sus potenciales clientes y hacer ajustes con la información que van recogiendo. Esto se llama \textbf{Circuito de feedback de información: crear, medir, aprender.}
-
-\textbf{Definir}
-
-Diseñar para crear un nuevo producto o servicio bajo condiciones de incertidumbre extrema. Un emprendedor no es sólo el fundador de una startup, también pueden ser managers de grande compañías creando nuevos negocios, o como es nuestro caso el lanzamiento de una nueva solución software.
-
-Bajo estas condiciones de \textbf{incertidumbre} extrema las herramientas tradicionales de management no pueden funcionar bien. \textbf{Por eso necesitamos Lean Startup}.
-
-\textbf{Aprender}
-
-La función más importante de una startup es aprender qué quieren realmente los consumidores y que llevaría a un negocio sostenible. Para ello se necesita un proceso con disciplina de aprendizaje, lo que se llama \textbf{aprendizaje validado}. 
-
-Se trata de tener hipótesis testeables y diseñar experimentos para testearlas, luego analizar los datos para así aprender de ellos.
-
-\textbf{Experimentar}
-
-La metodología Lean Startup ve el hecho de crear una startup/producto como una ciencia. Crear una \textbf{hipótesis}, diseñar un \textbf{experimento} para \textbf{testear} esa hipótesis, llevar a cabo el experimento, reunir datos, reflexionar y ver si validan o rechazan la hipótesis.
-
-Las hipótesis deberían girar entorno al problema más importante de una startup, cómo construir un negocio sostenible alrededor de tu visión. O en nuestro caso cómo construir una solución que realmente aporte valor.
-
-Según Lean Startup la mejor forma es trackeando el comportamiento de gente real y no preguntar por opiniones ya que a veces no son capaces de verbalizar lo que quieren.
-
-Por ello hay que pensar en el experimento más barato y rápido para validar la hipótesis, lanzarlo pronto dará más información del comprador antes de lanzar el producto real. Sobre si están interesados o no en lo que estás construyendo y te hace ver preocupaciones de estos que no tenias cuantificadas.
-
-\subsubsection{2. DIRIGIR}
-
-Qué tan rápido puedes desarrollar tus experimentos.
-
-Primero estableces tu hipótesis, luego construyes tu \textbf{producto minimo viable (MVP)} para testear esa hipótesis. Luego llevas a cabo el experimento, lo más común es poner los usuarios delante del producto y recoger así información sobre su comportamiento. Recoges los datos y reflexionas sobre ellos para seguir adelante o cambiar de dirección. 
-
-Cuanto más rápido te muevas en este circuito, más rápido aprendes.
-
-\textbf{Saltar}
-
-Normalmente hay 2 tipos de hipótesis: hipótesis de creación de valor e hipótesis de crecimiento. Algunas hipotesis son más arriesgadas que otras. Unas tienen muchas probabilidades de ser ciertas y otras mucho menos. Las que tienen más riesgo son similares a las siguientes: 
-
-¿Tiene la gente el problema que crees que tienen?
-
-¿Realmente quieren lo que estas ofreciendo?
-
-¿Pagarían por ello?
-
-Un marco para empezar una startup es por analogía si alguien ha tenido éxito con un modelo de negocio si realizamos el mismo modelo de negocio con un servicio distinto también debería tener éxito. Esta idea puede parecer perfecta pero por otro lado esconde algunas presunciones sobre como funcionará el negocio. Para poder hacer una buena analogía hay que detallarla mucho más.
-
-Hay muchas asunciones a tener en cuenta antes de construir tu prototipo por analogía. Lean Startup habla de una técnica utilizada en la fabricación japonesa llamada Genchi Genbutsu-“Go and See” que sería algo como ve y velo por ti mismo. 
-
-Una forma de hacerlo podría ser entrevistando a los potenciales clientes y una vez que estamos seguros de que el problema que queremos solventar existe, entonces viene el momento de construir un test.
-
-\textbf{Probar}
-
-¿Cuál es el \textbf{producto mínimo viable (MVP)} que puedes crear para obtener datos reales en tu hipótesis?
-
-Este MVP no debe ser perfecto, lo que queremos es aprender lo más rápido posible. Añadir características a nuestro producto que todavía ni sabemos cómo va a ser afectado en el mercado es una perdida de tiempo.
-
-Ejemplos de MVP: Landing Page con explicación de la app, Video con características principales y casos de uso, Mago de Oz: hacer creer al usuario que esta interactuando con la app o el utilizado aquí: el Conserje: empezando con un solo cliente y escalar.
-
-\textbf{Medir}
-
-Lean Startup establece que los informes deben entrar en las tres A: \textbf{Accionables}: que nos permitan conocer realmente cómo va una parte del modelo de negocio. \textbf{Accesibles}: que sean fácilmente interpretables para poder sacar conclusiones. \textbf{Auditables}: que puedan comprobarse por terceras persona, esto es importante para inversores.
-
-Algunas buenas métricas pueden ser estas: 
-\begin{compactitem}
-    \item Engagement
-    \item Tiempo en el producto por usuario/por semana
-    \item Porcentaje de usuarios que vuelven
-    \item Crecimiento
-    \item Factores virales
-    \item Conversión en cada paso
-    \item Nuevos usuarios ganados por semana
-    \item Finanzas
-    \item Coste por adquisición de nuevo cliente
-    \item Valor por ciclo de vida de usuario
-\end{compactitem}
-
-
-Las que mejor se adecuan a nuestro producto son: Engagement y Tiempo en el producto por usuario.
-
-También hemos usado Test A/B: enseñando dos versiones diferentes del producto al mismo tiempo para tomar decisiones acertadas.
-
-\textbf{Pivotar o Perseverar}
-
-Decidir si continuar con la dirección que habíamos tomado o cambiamos nuestras hipótesis esenciales sobre nuestro negocio. Dos señales son: nuestras métricas no son lo suficientemente buenas para conseguir los objetivos o los experimentos están llevando a tener menos progresos lo que significa que no se están teniendo buenas ideas.
-
-\subsubsection{3. ACELERAR}
-
-Acelerar el proceso medir, crear, aprender. Para mantenerse ágiles mientras crecemos. No invertir demasiado en grandes mejoras, sino hacer lotes de pequeñas mejoras más a menudo para aprender más. Lo que lleva a un circulo de interacción más rápido ya que puedes detectar problemas de calidad y tener mayor feedback sin tener que esperar a que el trabajo este hecho lo que propicia a que haya menos trabajo que rehacer.
-
-\textbf{Crecer}
-
-Un crecimiento sostenible se basa en 4 elementos que deben coincidir: 
-\begin{compactitem}
-    \item Publicidad
-    \item Negocio repetitivo
-    \item Efectos secundarios según la exposición o Status del producto
-    \item Boca-Oreja
-\end{compactitem}
-
-
-Un buen encaje entre producto y mercado ocurre cuando una startup encuentra una gran cantidad de consumidores que resuenan con su producto. Una buena idea sería usar técnicas de \textbf{Growth Hacking.}
-
-\textbf{Adaptar}
-
-Una startup debe estar en constante cambio adaptandose a los nuevos clientes que van llegando. Los Early Adopters, los primeros en utilizar el producto no serán muy exigentes con la calidad pero esto es así con los nuevos clientes que vendrán más tarde.
-
-Ir demasiado rápido puede causar problemas. Para identificar estos problemas hay que preguntarse los 5 ¿por qué?:
-
-¿Por qué ha sucedido el problema ‘A’? A causa de ‘B’
-
-¿Por qué ha sucedido ‘B’? Por ‘C’
-
-Y así sucesivamente hasta 5 ¿Por qué? y llegar a la raíz del problema. Ya que sino estaremos viendo una respuesta superficial.
-
-\textbf{Innovar}
-
-Se debe decidir si seguir con las necesidades de los clientes o innovar. En cuanto a la innovación, por un lado tenemos a la \textbf{Innovación Sostenida}, que se basaría en ir incrementando mejoras al producto ya existente. O bien la \textbf{Innovación Disruptiva}, que se basaría en crear nuevos productos rompedores.
-
-\textbf{Focalizar}
-
-En el pasado los hombres estaban primero y hoy en día lo primero son los sistemas. Las startups deben tener el foco en el grupo y no en el individuo. Deben evitar despilfarrar en cosas que no son las adecuadas. Focalizándose sólo en actividades que van a generar valor.
-
-\subsection{Design Thinking}
-
-\subsubsection{Qué es}
-
-Es un método para generar ideas innovadoras que centra su eficacia en entender y dar solución a las necesidades reales de los usuarios. Proviene de la forma en la que trabajan los diseñadores de producto. De ahí su nombre, que en español se traduce de forma literal como "Pensamiento de Diseño" o "La forma en la que piensan los diseñadores".
-
-Se empezó a desarrollar de forma teórica en la Universidad de Stanford en California (EEUU) a partir de los años 70, y su primera aplicabilidad con fines lucrativos como "Design Thinking" la llevó a cabo la consultoría de diseño IDEO, siendo hoy en día su principal precursora.
-
-\subsubsection{Porqué he decidido usarlo}
-
-Mientras que \textbf{Lean startup} surge como una metodología que permite impactar en el mercado con éxito, el \textbf{Design Thinking} busca el diseño de experiencias de alto valor, centradas en el usuario.
-Dado que Lean Startup no se centra en el usuario, lo ideal es coger lo mejor de ambas metodologías.
-
-Añadir esta metodología al proceso de creación ayuda a conocer al cliente en profundidad y encontrar soluciones prácticas ante los problemas de las personas en un proceso ágil. 
-
-El proceso de innovar centrándonos en las personas. Partir desde las necesidades de los clientes, para generar productos o servicios que satisfagan sus necesidades.
-
-\subsubsection{Etapas}
-
-El proceso de Design Thinking se compone de cinco etapas. No es lineal. En cualquier momento se puede ir hacia atrás o hacia delante si se cree oportuno, saltando incluso a etapas no consecutivas. Se comienza recolectando mucha información, generando una gran cantidad de contenido, que crecerá o disminuirá dependiendo de la fase en la que te encuentres.
-
-\begin{figure}[H] 
-    \includegraphics[scale=0.44]{designthinking}
-    \centering
-    \label{fig:Design Thinking}
-\end{figure}
-
-A lo largo del proceso se irá afinando ese contenido hasta desembocar en una solución que cumpla con los objetivos. Y seguramente, incluso los supere.
-
-\textbf{Empatiza:} El proceso de Design Thinking comienza con una profunda comprensión de las necesidades de los usuarios implicados en la solución que estemos desarrollando, y también de su entorno. Debemos ser capaces de ponernos en la piel de dichas personas para ser capaces de generar soluciones consecuentes con sus realidades.
-
-Algunas técnicas: \textbf{Entrevistas, Inmersión Cognitiva, Focus Group.}
-
-\textbf{Define:} Durante la etapa de Definición, debemos cribar la información recopilada durante la fase de Empatía y quedarnos con lo que realmente aporta valor y nos lleva al alcance de nuevas perspectivas interesantes. Identificaremos problemas cuyas soluciones serán clave para la obtención de un resultado innovador.
-
-Algunas técnicas: \textbf{Mapa de Empatía, User Personas, Listas de Problemas.}
-
-\textbf{Idea:} La etapa de Ideación tiene como objetivo la generación de un sinfín de opciones. No debemos quedarnos con la primera idea que se nos ocurra. En esta fase, las actividades favorecen el pensamiento expansivo y debemos eliminar los juicios de valor. A veces, las ideas más estrambóticas son las que generan soluciones visionarias.
-
-Algunas técnicas: \textbf{Brainstorming, Product Box, MindMap.}
-
-\textbf{Prototipa:} En la etapa de Prototipado volvemos las ideas realidad. Construir prototipos hace las ideas palpables y nos ayuda a visualizar las posibles soluciones, poniendo de manifiesto elementos que debemos mejorar o refinar antes de llegar al resultado final.
-
-Algunas técnicas: \textbf{Sketches, WireFrames, Prototipo, StoryBoard.}
-
-\textbf{Testea:} Durante la fase de Testeo, probaremos nuestros prototipos con los usuarios implicados en la solución que estemos desarrollando. Esta fase es crucial, y nos ayudará a identificar mejoras significativas, fallos a resolver, posibles carencias. Durante esta fase evolucionaremos nuestra idea hasta convertirla en la solución que estábamos buscando.
-
-Algunas técnicas: \textbf{Pruebas de Usuario, Test de Usabilidad.}
-
-\subsection{MVP: Diseñando la Propuesta de Valor}
-
-Como se ha explicado la metodología \textbf{Lean Startup} se basa en el Circuito de feedback de información: \textbf{crear, medir, aprender}. Lo que lleva al proceso de \textbf{Aprendizaje validado.}
-
-Para crear nuestra propuesta de valor se ha decidido complementar con prácticas de \textbf{Design Thinking}: Empatiza, Define, Idea, Prototipa y Testea.
-
-La mezcla de estas dos metodologías se conoce cómo \textbf{Lean Design} aunque actualmente está en desarrollo. Para entender mejor donde encajan estas dos metodologías disponemos de este gráfico.
+Aplicando Design Thinking, como método de generación de ideas innovadoras, Lean Startup como método de aprendizaje validado, y usando Metologías Ágiles, para llevar a cabo la gestión y desarrollo del software, se consiguió desarrollar un Producto Mínimo Viable. La Figura[x] ilustra cómo se aplicaron todas estas metodologías.
 
 \begin{figure}[H] 
     \includegraphics[scale=0.3]{leandesignagile}
@@ -712,219 +528,197 @@ La mezcla de estas dos metodologías se conoce cómo \textbf{Lean Design} aunque
     \caption{Diagrama de Lean Design}
 \end{figure}
 
-Con todo esto conseguimos un proceso que parte de la nada, se centra en el usuario, gestiona el caos, integra el error y es iterable.
+Con todo esto conseguimos un proceso que parte de la nada, se centra en el usuario, gestiona el caos, integra el error y es iterable. 
 
-Crear una \textbf{hipótesis}, diseñar un \textbf{experimento} para \textbf{testear} esa hipótesis, llevar a cabo el experimento, reunir datos, reflexionar y ver si validan o rechazan la hipótesis. Comenzamos:
+\subsection{Design Thinking}
 
-\subsubsection{CREAR}
+Es un método para generar ideas innovadoras que centra su eficacia en entender y dar solución a las necesidades reales de los usuarios. Proviene de la forma en la que trabajan los diseñadores de producto. De ahí su nombre, que en español se traduce de forma literal como "Pensamiento de Diseño" o "La forma en la que piensan los diseñadores".
 
-Lo primero de todo es definir nuestra \textbf{visión}. ¿Cuáles son nuestros objetivos?
+Mientras que Lean startup surge como una metodología que permite impactar en el mercado con éxito, el Design Thinking busca el diseño de experiencias de alto valor, centradas en el usuario.
 
-El objetivo es conocer qué quieren los potenciales usuarios. Pero nos encontramos bajo unas condiciones de incertidumbre extrema. Nuestra tarea es diseñar para crear un nuevo producto o servicio bajo estas condiciones de incertidumbre extrema.
+Dado que Lean Startup no se centra en el usuario, lo ideal es coger lo mejor de ambas metodologías. Añadir esta metodología al proceso de creación ayuda a conocer al cliente en profundidad y encontrar soluciones prácticas ante sus problemas en un proceso ágil.
 
-Es aquí donde necesitamos aplicar \textbf{Design Thinking:}
+\subsubsection{Etapas}
 
-\textbf{EMPATIZAR}
+El proceso de Design Thinking se compone de cinco etapas. No es lineal. En cualquier momento se puede ir hacia atrás o hacia delante si se cree oportuno, saltando incluso a etapas no consecutivas. A lo largo del proceso se irá afinando ese contenido hasta desembocar en una solución que cumpla con los objetivos. 
 
-Una forma de hacerlo podría ser \textbf{entrevistando} a los potenciales clientes para estar seguros de que el problema que queremos solventar existe.
+\begin{figure}[H] 
+    \includegraphics[scale=0.44]{designthinking}
+    \centering
+    \label{fig:Design Thinking}
+\end{figure}
 
-En este caso el cliente más cercano es el propio \textbf{Manuel Rubio}. Así no diseñamos sobre hipótesis propias no validadas sino que lo hacemos teniendo en cuenta lo que es necesario para el usuario.
+\subsubsection{Empatizar}
 
-Tenemos varias reuniones por Teams en las que, cómo músico, me explica las dificultades por las que pasan a la hora de entrenar el oído y la importancia que el \textbf{entrenamiento auditivo} tiene.
+Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Como se explica en el anexo.
+
+\subsubsection{Definir}
+
+La idea parte de la necesidad de músicos amateur que quieren mejorar su nivel de percepción de la música. Sin los medios adecuados resulta imposible llevar a cabo el entrenamiento auditivo que es una parte fundamental para llevar a cabo su propósito. 
+
+\subsubsection{Idear}
+
+Para idear una solución que aporte valor realizamos este MindMap donde nos enfocamos en los principales problemas del usuario y sus posibles soluciones.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.2]{MINDMAP0}
-    \label{fig:Mindmap0}
-    \caption{Ventajas del entrenamiento auditivo}
+    \includegraphics[scale=0.47]{MINDMAP}
+    \label{fig:Mindmap}
+    \caption{MindMap}
 \end{figure}
 
-Para entender mejor la situación necesito de un proceso de \textbf{investigación}. Internet es un inmenso campo de búsqueda de información. Por eso, paralelamente a las entrevistas busco información adicional que me permita entender mejor a nuestro usuario, el problema y cómo solucionarlo. Dado que mis conocimientos sobre música son básicos necesito de un estudio profundo de la teoría musical. 
+Concluimos que una posible forma de solucionar estos problemas es mediante una Aplicación Web con ejercicios de Entrenamiento Auditivo. 
 
-Una vez entendido al usuario y sus necesidades, podemos pasar a definir el problema.
 
-\textbf{DEFINIR}
+\subsubsection{Prototipar}
 
-El problema principal que se encuentran estos jóvenes músicos es la dificultad para entrenar el oído sumado a la dificultad para entrar en un conservatorio. Si quieren aprender a tocar por su cuenta no tienen los recursos necesarios para llevar a cabo este entrenamiento auditivo que Manuel nos ha explicado que es tan importante.
-
-\textbf{IDEAR}
-
-Por lo que vamos a intentar construir una solución que aporte valor. Para ello realizamos un pequeño MindMap donde nos enfocamos en los principales problemas y las posibles soluciones que podríamos llevar a cabo:
+Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.37]{MINDMAP11}
-    \label{fig:Mindmap1}
-    \caption{MindMap Parte 1}
+    \includegraphics[scale=0.35]{MOSCOW}
+    \label{fig:MoSCoW}
+    \caption{MoSCoW}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.22]{MINDMAP2}
-    \label{fig:Mindmap2}
-    \caption{MindMap Parte 2}
-\end{figure}
-Después de varias iteraciones concluimos que una posible forma de solucionar estos problemas es mediante una WebApp con ejercicios de Entrenamiento Auditivo. 
+Para crear nuestro producto mínimo viable nos centramos en desarrollar lo que debe tener (must have) y más tarde lo que debería incluir (should have).
 
-\textbf{PROTOTIPAR}
+Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. ¿Cuál es el producto mínimo viable (MVP) que puedo crear para obtener resultados?
 
-Es ahora cuando toca llevar a cabo nuestra solución para testear esta hipótesis. 
+Una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First.
 
-Pero antes que nada debemos tener en cuenta nuestras limitaciones: poco tiempo para el desarrollo, aprender conceptos musicales, vamos a usar tecnologías que no conocemos. Y hacernos la pregunta: ¿Cuál es el \textbf{producto mínimo viable} (MVP) que puedo crear para obtener resultados?
-
-Para ello, la técnica \textbf{MoSCoW} nos permitirá establecer las prioridades del proyecto. La cuál consiste en definir lo siguiente sobre la aplicación:
-
-\textbf{Must have (Debe tener):} Características absolutamente críticas para el nuevo proyecto, sin ellas el proyecto es un fracaso.
-
-\begin{compactitem}
-    \item Modo Práctica
-    \item Ejercicio Notas
-    \item Ejercicio Intervalos
-    \item Ejercicio Escalas
-\end{compactitem}
-
-\textbf{Should have (Debería incluir):} Aspectos del proyecto críticos también, pero no imprescindibles.
-
-\begin{compactitem}
-    \item Opciones personalizables
-    \item Varios instrumentos
-    \item Piano
-    \item Responsive
-\end{compactitem}
-
-\textbf{Could have (Podría incluir):} Iniciativas que estaría bien tenerlas, ya que añadirían valor al proyecto, pero no son críticas.
-
-\begin{compactitem}
-    \item Ejercicio Acordes
-    \item Ejercicio Ritmos
-    \item Ejercicio Progresiones
-\end{compactitem}
-
-\textbf{Won’t have (No se van a hacer):} Características que no se merecen la inversión y no aportan ningún beneficio en este momento y se podrían considerar más tarde.
-
-\begin{compactitem}
-    \item Modo reto
-    \item Modo nocturno
-    \item Varios Idiomas
-\end{compactitem}
-
-
-Este MVP no debe ser perfecto, lo que queremos es aprender lo más rápido posible. Añadir características a nuestro producto que todavía ni sabemos cómo va a ser aceptado es una perdida de tiempo. Por lo que vamos a centrarnos en desarrollar prioritariamente lo que debe tener y más tarde lo que debería incluir.
-
-Una vez establecidas las prioridades del proyecto pasamos a visualizarlas en forma de Sketches en papel, y más tarde realizamos los Wireframes teniendo en cuenta la filosofía de diseño Mobile First. Tratamos de realizar un diseño simple pero efectivo basado en tres columnas.
 \begin{comment}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.18]{WireframeSteps}
-    \label{fig:WireframeSteps}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.3]{Wireframes}
-    \label{fig:Wireframe}
-    \caption{Prototipo Smartphone}
-\end{figure}
-\end{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.18]{WireframeSteps}
+        \label{fig:WireframeSteps}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{Wireframes}
+        \label{fig:Wireframe}
+        \caption{Prototipo Smartphone}
+    \end{figure}
+    \end{comment}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.37]{Wireframes}
+        \label{fig:Prototipo}
+        \caption{Prototipo Smartphone}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{WireframePC}
+        \label{fig:PrototipoPC}
+        \caption{Prototipo PC}
+    \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.37]{Wireframes}
-    \label{fig:Wireframes}
-    \caption{Prototipo Smartphone}
-\end{figure}
+La ventaja principal del uso de prototipos en UX o Experiencia de Usuario es que, ayudan a plasmar visualmente los objetivos y como se alinean con las expectativas y necesidades de los usuarios y si son satisfechas a través del producto diseñado.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.3]{WireframePC}
-    \label{fig:WireframePC}
-    \caption{Prototipo PC}
-\end{figure}
-
-La ventaja principal del uso de \textbf{prototipos en UX o Experiencia de Usuario} es que, ayudan a plasmar visualmente los objetivos y como se alinean con las expectativas y necesidades de los usuarios y si son satisfechas a través del producto diseñado.
-
-Modificar un prototipo, tiene un coste menor que modificar el producto digital una vez subido a producción, por lo que supone también una ventaja en el ahorro de costes dentro del proceso de desarrollo.
+Modificar un prototipo, tiene un coste menor que modificar el producto digital, por lo que supone también una ventaja en el ahorro de costes dentro del proceso de desarrollo.
 
 Ayuda a que el cliente ya tenga una visión sobre parte del proyecto y que nos pueda proporcionar su feedback desde las fases tempranas.
 
-\textbf{TESTEAR}
+\subsubsection{Testear}
 
-En esta fase, es importante que entendamos que no estamos vendiendo. Se trata de aprender del feedback del usuario para hacer posteriormente una nueva versión mejorada de nuestra solución.
+Después de haber testeado los primeros diseños con el usuario, haber hecho correcciones y haber validado el último prototipo que hemos visto anteriormente, pasamos a crear la solución aplicando el método Lean Startup.
 
-Después de haber testeado los primeros diseños con el usuario, haber hecho correcciones y haber validado el último prototipo que hemos visto anteriormente, pasamos a crearlo usando \textbf{metodología Agile}.
+\subsection{Lean Startup}
 
-En el siguiente capítulo se explicará esta metodología de trabajo seguida para implementar la solución. Y después de este los detalles técnicos de su desarrollo. Pero, por ahora seguimos con como fue el proceso de creación general.
+Es un método riguroso para agilizar la puesta en marcha de soluciones y optimizarlas con base en un proceso de aprendizaje y de corrección iterativa. Comenzó con el método de desarrollo de clientes y el método Lean en los sistemas de fabricación japoneses popularizado por Toyota.
 
-\subsubsection{MEDIR}
+La metodología Lean Startup se basa en el Circuito de feedback de información: crear, medir, aprender. Crear una hipótesis, diseñar un experimento (Producto Mínimo Viable) para testear esa hipótesis, llevar a cabo el experimento, reunir datos, reflexionar y ver si validan o rechazan la hipótesis para pivotar.
 
-Es hora de llevar a cabo el experimento, lo más común es poner los usuarios delante del producto y recoger así información sobre su comportamiento. Recoges los datos y reflexionas sobre ellos para \textbf{pivotar}, es decir, seguir adelante o cambiar de dirección. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{LeanStartup}
+    \label{fig:LeanStartup}
+    \caption{Lean Startup}
+\end{figure}
 
-Lo importante es qué tan rápido puedes desarrollar tus experimentos para hacer evolucionar la aplicación. 
+El Lean Startup sirve para acortar los ciclos de desarrollo, medir el progreso y ganar feedback por parte de los usuarios. Esto se consigue porque se basa en el aprendizaje validado, la experimentación científica y la iteración en los lanzamientos del producto. 
 
-Los test fueron poco a poco en un proceso iterativo hasta llegar a completar los diseños del prototipo, generando siempre una versión entregable. Siguiendo la técnica del \textbf{Conserje}: empezando con un sólo usuario (Manuel Rubio) y una vez habiendo desarrollado la aplicación lo suficiente escalar y hacer pruebas con más usuarios.
+Aunque por su nombre pueda parecer que sólo esta enfocado al mundo Startup y crear una nueva empresa, en realidad es una herramienta imprescindible para la puesta en marcha de soluciones software. Por eso, hemos decidido usar este método para crear nuestra solución.
 
-La idea es ir implementando y testeando poco a poco la aplicación, empezando por los \textbf{Must haves} e ir añadiendo los \textbf{Should haves} paulatinamente y hacer ajustes según el feedback del usuario. Para dar respuesta a las siguientes preguntas:
+Por ahora, sólo saber que se ha seguido este proceso de crear, medir, aprender. Y que los diseños, los requisitos y la aplicación han ido adoptando cambios según el desarrollo. Para la fase de creación se utilizaron Metodologías Ágiles y para no alargar mucho este trabajo las partes de medir y aprender, donde aparecen cosas cómo la técnica del Conserje, métricas de engagement, tiempo en el producto, retención, referencia, Test A/B y lecciones aprendidas para pivotar; se explicarán en el anexo junto con una explicación más detallada de todo el proceso. 
+(revisar)
 
-¿Tiene la gente el problema que crees que tienen? ¿Realmente quieren lo que estas ofreciendo?
-
-Para ello, cada vez que se desarrollaba una \textbf{nueva versión} de la aplicación. Se testeaba en una reunión con el tutor recogiendo \textbf{feedback} y haciendo los ajustes pertinentes. Más tarde se empezó a testear también con conocidos, en concreto dos estudiantes de conservatorio y una persona que está empezando a tocar. Es cuando se empezaron a aplicar algunas \textbf{métricas}:
-
-Las que mejor se adecuaron a nuestro producto son: \textbf{Engagement} y \textbf{Tiempo en el producto} por usuario. También se tuvo en cuenta la \textbf{retención}: el usuario lo usa nuevamente, y la \textbf{referencia}: el usuario comparte el producto con sus amigos.
-
-Además se utilizaron \textbf{test A/B}: enseñando dos versiones diferentes del producto al mismo tiempo para tomar decisiones acertadas. Aprovechando las características que nos ofrecía \textbf{Vercel} como veremos en su apartado.
-
-Aclarar que aparte de estos test que \textbf{miden el éxito} de la aplicación se realizaron pruebas también relacionadas al funcionamiento cómo se verá más adelante en su apartado \textbf{Testing} en Desarrollo e Implementación.
-
-\subsubsection{APRENDER}
-
-Este proceso es necesario para mantenerse \textbf{ágiles} mientras crecemos. No invertir demasiado en grandes mejoras, sino hacer lotes de \textbf{pequeñas mejoras} más a menudo para aprender más. Lo que lleva a un circulo de interacción más rápido ya que puedes \textbf{detectar problemas} de calidad y tener mayor \textbf{feedback} sin tener que esperar a que el trabajo este hecho lo que propicia a que haya menos trabajo que rehacer.
-
-\textbf{Lo que pudimos aprender} en este continuo proceso de crear, medir, aprender fue lo siguiente:
-
-De los test con el \textbf{tutor} pudimos corregir lo siguiente:
-
-En un principio no se incluían todos los \textbf{intervalos existentes}, sólo los de notas naturales, un test con el tutor nos hizo darnos cuenta de que faltaban las notas alteradas. Lo que llevo también a una investigación para corregir el nombre de estos, ya que descubrimos que dos intervalos con diferente nombre pueden sonar igual. Esto es debido a que los intervalos se nombran no sólo por la distancia de sus notas sino también por cómo están escritas en el pentagrama. Por ejemplo: entre Do y Dos hay 1 semitono y entre Do y Reb también hay 1 semitono, la misma distancia, suenan igual, pero son intervalos distintos.
-
-También nos dió el feedback de que estaría bien añadir un \textbf{sonido al acertar}. Aprovechando el sonido de la misma respuesta para que así los usuarios puedan interiorizarla.
-
-De los test con más \textbf{usuarios} pudimos mejorar lo siguiente:
-
-En un principio se mostraban todas las opciones disponibles, lo que hacía el ejercicio muy difícil. Por lo que dejando como predeterminado tres opciones se ajustaba la \textbf{dificultad} inicial. Además descubrimos de que resultaba engorroso una vez señaladas varias opciones volver a seleccionarlas por lo que añadimos un botón que seleccionase y deseleccionase todas de golpe.
-
-También descubrimos que había un problema de \textbf{compatibilidad} con iphone que hacía inservible la aplicación el cual pudimos corregir rápido. Así cómo poder ajustar el \textbf{volumen} de los sonidos ya que al principio no sonaba lo suficientemente alto.
-
-De los \textbf{test A/B} lo siguiente:
-
-Se mostraron dos versiones, una con \textbf{piano} en los ejercicios y otras sin él. Lo que pudimos observar es que las versiones con el piano generaban mayor \textbf{engagement} y \textbf{retención} por parte de los usuarios. Además los usuarios lo utilizaban para tener notas de referencia, lo que podía ayudar a la obtención de la respuesta correcta. Lo que en el ejercicio de notas resultó en una parte esencial.
-
-Cómo se puede observar gracias a este proceso iterativo de crear, medir, aprender pudimos corregir fallos ágilmente y añadir funcionalidades que ni nos habíamos planteado en un primer momento gracias al feedback de los propios usuarios.
-
-\subsubsection{CONCLUSIÓN}
-
-Una vez pasado por todo este proceso iterativo, el resultado es un MVP que poder sacar al mercado. Y que se debe seguir mejorando. 
-
-Los \textbf{Early Adopters}, los primeros en utilizar el producto no serán muy exigentes con la calidad pero esto es así con los nuevos clientes que vendrán más tarde. 
-
-Todo se basa en un proceso de \textbf{Innovación Sostenida}, que se basaría en ir incrementando mejoras al producto ya existente.
-
-Para ver capturas de la aplicación tras todo este proceso puedes ir al apartado \textbf{Resultado Final}
-
-\section{Metodología de Trabajo}
-
-\textbf{¿Cómo gestionamos el desarrollo?}
+\section{Metodología Ágiles}
 
 Para llevar a cabo la idea de manera exitosa necesitamos asegurar un proceso visible, controlado, repetitivo, eficiente y predecible. Necesitamos adaptar las formas de trabajo a las necesidades del proyecto, prolongando respuestas rápidas y flexibles para acomodar el desarrollo.
 
 La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste.
 
-Para ser ágiles mientras desarrollamos podemos beneficiarnos de \textbf{DevOps}, como filosofía de desarrollo y \textbf{Scrum}, como modelo organizativo.
+Para ser ágiles mientras desarrollamos podemos beneficiarnos de DevOps, como filosofía de desarrollo y Scrum, como modelo organizativo.
+
+\subsection{Scrum}
+
+Scrum es un proceso de gestión que reduce la complejidad en el desarrollo de productos para satisfacer las necesidades de los clientes. Se considera un marco de gestión de proyectos ágil.
+
+Con Scrum, un producto se basa en una serie de iteraciones llamadas sprints que dividen proyectos grandes y complejos en porciones minúsculas. Priorizadas por el beneficio que aportan al receptor del producto.
+
+\begin{enumerate}
+    \item Un Product Owner ordena el trabajo de un problema complejo en un Product Backlog.
+    \item El Equipo Scrum convierte una selección del trabajo en un Incremento de valor durante un Sprint.
+    \item El Equipo Scrum y sus partes interesadas inspeccionan los resultados y se ajustan para el próximo Sprint.
+    \item *Repetir*
+\end{enumerate}
+
+Scrum no es un proceso o una técnica para desarrollar/construir productos, realmente es un marco de trabajo donde podemos emplear un conjunto de diferentes procesos y técnicas, siendo muy fácil de implantar y muy popular en el desarrollo software por los resultados rápidos que consigue.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.39]{Scrum}
+    \label{fig:Scrum}
+    \caption{Scrum}
+\end{figure}
+
+Implementar este marco de trabajo nos permite obtener resultados pronto, reduciendo el Time to Market, es decir, a tener lo antes posible en el mercado nuestro producto o una característica de nuestro producto, aumentando la satisfacción del cliente. Donde los requisitos son cambiantes o poco definidos, aportando tolerancia al cambio.
+
+Es ideal para crear nuevos productos poniendo el foco en el cliente y detectar fallos pronto. Lo que se traduce en una mayor calidad del producto, reducción de costes y optimización del riesgo.
+
+\subsubsection{User Story Map}
+
+Es un método de mapeo de UX (experiencia de usuario) que se utiliza para delinear las interacciones que se espera que realicen los usuarios para completar sus objetivos en un producto digital. Ayuda a definir el viaje o casos de uso del usuario en el producto.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{USERSTORYMAP}
+    \label{fig:UserStoryMap}
+    \caption{User Story Map}
+\end{figure}
+
+\subsubsection{Scrum Board}
+
+Para visualizar el trabajo utilizamos un Scrum Board. Esto nos permite separar en pequeñas tareas cada historia de usuario y minimizar los riesgos de entrega. Realizando una construcción iterativa incremental donde se integra al final de cada sprint para validar el resultado. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.47]{KANBAN}
+    \label{fig:ScrumBoard}
+    \caption{Scrum Board}
+\end{figure}
+
+\subsubsection{User Stories}
+
+Las historias de usuarios son descripciones breves y sencillas de las características o requisitos del sistema contadas desde la perspectiva de un usuario o cliente del sistema. Estas historias se dividen en tareas más pequeñas que ir completando hasta cumplir con los criterios de aceptación. Cada historia de usuario es un incremento en el valor del producto.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{USERSTORY}
+    \label{fig:UserStory}
+    \caption{User Story}
+\end{figure}
 
 \subsection{DevOps}
 
-El término DevOps, que es una combinación de los términos ingleses **development** (desarrollo) y **operations** (operaciones), designa la unión de personas, procesos y tecnología para ofrecer valor a los clientes de forma constante.
+El término DevOps, que es una combinación de los términos ingleses development (desarrollo) y operations (operaciones), designa la unión de personas, procesos y tecnología para ofrecer valor a los clientes de forma constante.
 
 DevOps describe los enfoques para agilizar los procesos con los que una idea (como una nueva función de software, una solicitud de mejora o una corrección de errores) pasa del desarrollo a la implementación, en un entorno de producción en que puede generar valor para el usuario.
 
-La creación de registros de trabajo pendiente, el seguimiento de los errores, la administración del desarrollo de **software ágil** con **Scrum**, el uso de paneles **Kanban** y la visualización del progreso son algunas de las formas en las que los equipos de DevOps planean con agilidad y visibilidad.
+La creación de registros de trabajo pendiente, el seguimiento de los errores, la administración del desarrollo de software ágil con Scrum, el uso de paneles Kanban y la visualización del progreso son algunas de las formas en las que los equipos de DevOps planean con agilidad y visibilidad.
 
 El desarrollo de aplicaciones modernas requiere procesos diferentes a los enfoques del pasado. Las nuevas empresas utilizan enfoques ágiles para desarrollar sistemas de software.
 
@@ -941,9 +735,9 @@ El primero de los 12 principios del Manifiesto Ágil es el siguiente: "Satisface
 
 \subsubsection{Integración Continua (CI)}
 
-La **integración continua** es una práctica de DevOps mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica. Para implantar **integración continua** solemos definir un “pipeline”, un conjunto de etapas, de fases por las que va pasando el software y que se automatizan. 
+La integración continua es una práctica de DevOps mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica. Para implantar integración continua solemos definir un “pipeline”, un conjunto de etapas, de fases por las que va pasando el software y que se automatizan. 
 
-En nuestro caso usamos **Github**, que es un servicio basado en la nube, cómo herramienta de control de versiones **Git**. Y utilizamos **Gitflow*,*** que es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales.
+En nuestro caso usamos Github, que es un servicio basado en la nube, cómo herramienta de control de versiones Git. Y utilizamos Gitflow, que es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales.
 
 \begin{figure}[H]
     \centering
@@ -956,58 +750,28 @@ Su funcionamiento se basa en dos ramas principales: la rama de producción y la 
 
 \subsubsection{Despliegue Continuo (CD)}
 
-El **despliegue continuo** es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente.
+El despliegue continuo es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente.
 
-Para entregar funcionalidades de software de forma frecuente a través de la automatización de despliegues utilizamos **GitHub Actions** el cuál nos permite automatizar, personalizar y ejecutar estos flujos de trabajo directamente desde nuestro repositorio.
+Para entregar funcionalidades de software de forma frecuente a través de la automatización de despliegues utilizamos GitHub Actions el cuál nos permite automatizar, personalizar y ejecutar estos flujos de trabajo directamente desde nuestro repositorio.
 
-El flujo consistía en que cada vez que se actualizaba el repositorio mediante una subida de código, éste automáticamente desplegaba las nuevas actualizaciones en **Vercel,** que ****es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión.
-
-\subsection{Scrum}
-
-Scrum es un **proceso de gestión** que reduce la complejidad en el desarrollo de productos para satisfacer las necesidades de los clientes. Se considera un marco de gestión de proyectos ágil.
-
-Con Scrum, un producto se basa en una serie de iteraciones llamadas **sprints** que dividen proyectos grandes y complejos en porciones minúsculas. Priorizadas por el beneficio que aportan al receptor del producto.
-
-\begin{enumerate}
-    \item Un Product Owner ordena el trabajo de un problema complejo en un Product Backlog.
-    \item El Equipo Scrum convierte una selección del trabajo en un Incremento de valor durante un Sprint.
-    \item El Equipo Scrum y sus partes interesadas inspeccionan los resultados y se ajustan para el próximo Sprint.
-    \item *Repetir*
-\end{enumerate}
-
-*Scrum* no es un proceso o una técnica para desarrollar/construir productos, realmente es un marco de trabajo donde podemos emplear un conjunto de diferentes procesos y técnicas, siendo muy fácil de implantar y muy popular en el desarrollo software por los resultados rápidos que consigue.
+El flujo consistía en que cada vez que se actualizaba el repositorio mediante una subida de código, éste automáticamente desplegaba las nuevas actualizaciones en Vercel, que es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.39]{Scrum}
-    \label{fig:Scrum}
-    \caption{Scrum}
+    \includegraphics[scale=0.54]{Vercel}
+    \label{fig:Vercel}
+    \caption{Vercel}
 \end{figure}
 
-Implementar este marco de trabajo nos permite **obtener resultados pronto**, reduciendo el **Time to Market**, es decir, a tener lo antes posible en el mercado nuestro producto o una característica de nuestro producto, aumentando la **satisfacción del cliente**. Donde los requisitos son cambiantes o poco definidos, **aportando tolerancia al cambio.**
-
-Es ideal para crear nuevos productos poniendo el **foco en el cliente** y **detectar fallos pronto**. Lo que se traduce en una mayor **calidad del producto, reducción de costes y optimización del riesgo.**
-
-Para visualizar el trabajo utilizamos **Scrum Board**. Esto nos permite separar en pequeñas tareas cada Product Backlog Item y minimizar los riesgos de entrega. Realizando una construcción iterativa incremental donde se integra al final de cada sprint para validar el resultado. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.48]{Kanban}
-    \label{fig:Kanban}
-    \caption{Kanban}
-\end{figure}
-
-Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Lo que nos permite aprovechar el cambio y mejorar continuamente.
-
-\section{Desarrollo e Implementación}
-
-\textbf{¿Cómo implementamos la solución?}
+\section{Descripción Informática}
 
 La aplicación fue implementada siguiendo unas guías de estándares de calidad de código y un moderno stack tecnológico. A continuación se encuentra una detallada descripción informática incluyendo especificación, diseño, implementación y pruebas.
 
 \subsection{Stack Tecnológico}
 
 Después de una larga investigación y comparación de tecnologías teniendo en mente las necesidades del proyecto. Se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los necesarios para implementar esta aplicación.
+
+Otras herramientas de fases previas fueron: Miro, Notion, Trello.
 
 \subsubsection{VSCode}
 
@@ -1023,7 +787,7 @@ Las extensiones más importantes para mejorar la experiencia de desarrollo y bue
 
 ESLint es una herramienta de análisis de código para identificar patrones problemáticos que se puede instalar como extensión en VSCode.
 
-Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Cuenta con unas reglas por defecto pero en este caso lo vamos a configurar con una guía de estilo JavaScript llamada **StandardJS**. Lo que nos permitirá:
+Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Cuenta con unas reglas por defecto pero en este caso lo vamos a configurar con una guía de estilo JavaScript llamada StandardJS. Lo que nos permitirá:
 
 \begin{compactitem}
  \item Corregir errores de sintaxis
@@ -1038,7 +802,7 @@ ESLint está diseñado para ser flexible y configurable por lo que añadimos eje
 
 Prettier es un formateador de código que puede instalarse como extensión en VSCode. Aplica un estilo consistente analizando el código y formateándolo con sus propias reglas que toman en cuenta la longitud máxima de línea, ajustando el código cuando es necesario.
 
-Para ello, analiza el código y lo **da formato** cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el estilo del código.
+Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el estilo del código.
 
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
@@ -1046,21 +810,39 @@ En definitiva, Prettier se usa para problemas de formato de código y ESLint par
 
 \subsubsection{TypeScript}
 
+TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.
+
+Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con Nextjs ya obtenemos compilación y empaquetado automáticos (con webpack y babel).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{TYPESCRIPT}
+    \label{fig:TypeScript}
+    \caption{TypeScript}
+\end{figure}
+
+Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo que es un lenguaje más limpio. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño SOLID e incrementa la agilidad en el refactoring del código.
+
 \subsubsection{Node.js}
 
+Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables.
 
+Permite utilizar un único lenguaje de programación para el Backend y el FrontEnd. Además cuenta con un repositorio de código abierto lleno de librerías útiles lo que ayuda en el desarrollo a una generación rápida de un producto mínimo viable.
 
-\subsection{Implementación}
+Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquetes para trabajar con proyecto de Node.js. Es necesario instalar una extensión para VScode y comenzar un proyecto nuevo con NPM o Yarn e instalar algunas dependencias necesarias como las de Typescript.
 
-\subsubsection{Code Guidelines}
-\subsubsection{Análisis y Diseño}
-\subsubsection{Librerias Node.js}
+\subsection{Desarrollo}
+
+\subsubsection{Diseño de Arquitectura}
+\subsubsection{Modelo de Componentes}
+\subsubsection{Code Guidelines (Buenas Prácticas)}
 
 \subsection{Testing}
 
-Vercel Metricas
+Vercel Metricas, Google LightHouse
 
 \subsubsection{Pruebas Unitarias}
+\subsubsection{Pruebas Funcionales}
 \subsubsection{Evaluación de la Interfaz}
 
 \section{Resultado Final}
@@ -1120,6 +902,230 @@ Qué debo mejorar
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Conceptos Musicales %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Ideación y Diseño (Ampliación)}
+
+\section{Lean Startup (Ampliación)}
+
+Para entender mejor el por qué de usar este método, explicaremos las 3 partes de las que se compone y que hemos seguido, añadiendo prácticas de Design Thinking para la construcción de nuestra solución. Lo cual ayudará a entender el proceso que se ha seguido hasta llegar al resultado final:
+
+**1. VER**
+
+**Comenzar**
+
+El objetivo es conocer qué quieren los potenciales usuarios (y cuanto pagarían por ello). 
+
+Las startups se caracterizan por su constante incertidumbre. Así que en vez de hacer planes concretos apuntando a una sola dirección deben recoger feedback de sus potenciales clientes y hacer ajustes con la información que van recogiendo. Esto se llama **Circuito de feedback de información: crear, medir, aprender.** 
+
+**Definir**
+
+Diseñar para crear un nuevo producto o servicio bajo condiciones de incertidumbre extrema. Un emprendedor no es sólo el fundador de una startup, también pueden ser managers de grande compañías creando nuevos negocios, o como es nuestro caso el lanzamiento de una nueva solución software.
+
+Bajo estas condiciones de **incertidumbre** extrema las herramientas tradicionales de management no pueden funcionar bien. **Por eso necesitamos** **Lean Startup**.
+
+**Aprender**
+
+La función más importante de una startup es aprender qué quieren realmente los consumidores y que llevaría a un negocio sostenible. Para ello se necesita un proceso con disciplina de aprendizaje, lo que se llama **aprendizaje validado**. 
+
+Se trata de tener hipótesis testeables y diseñar experimentos para testearlas, luego analizar los datos para así aprender de ellos.
+
+**Experimentar**
+
+La metodología Lean Startup ve el hecho de crear una startup/producto como una ciencia. Crear una **hipótesis**, diseñar un **experimento** para **testear** esa hipótesis, llevar a cabo el experimento, reunir datos, reflexionar y ver si validan o rechazan la hipótesis.
+
+Las hipótesis deberían girar entorno al problema más importante de una startup, cómo construir un negocio sostenible alrededor de tu visión. O en nuestro caso cómo construir una solución que realmente aporte valor.
+
+Según Lean Startup la mejor forma es trackeando el comportamiento de gente real y no preguntar por opiniones ya que a veces no son capaces de verbalizar lo que quieren.
+
+Por ello hay que pensar en el experimento más barato y rápido para validar la hipótesis, lanzarlo pronto dará más información del comprador antes de lanzar el producto real. Sobre si están interesados o no en lo que estás construyendo y te hace ver preocupaciones de estos que no tenias cuantificadas.
+
+**2. DIRIGIR**
+
+Qué tan rápido puedes desarrollar tus experimentos.
+
+Primero estableces tu hipótesis, luego construyes tu **producto minimo viable (MVP)** para testear esa hipótesis. Luego llevas a cabo el experimento, lo más común es poner los usuarios delante del producto y recoger así información sobre su comportamiento. Recoges los datos y reflexionas sobre ellos para seguir adelante o cambiar de dirección. 
+
+Cuanto más rápido te muevas en este circuito, más rápido aprendes.
+
+**Saltar**
+
+Normalmente hay 2 tipos de hipótesis: 
+
+- Hipótesis de Creación de Valor
+- Hipótesis de Crecimiento
+
+Algunas hipotesis son más arriesgadas que otras. Unas tienen muchas probabilidades de ser ciertas y otras mucho menos. Las que tienen más riesgo son similares a las siguientes: 
+
+¿Tiene la gente el problema que crees que tienen?
+
+¿Realmente quieren lo que estas ofreciendo?
+
+¿Pagarían por ello?
+
+Un marco para empezar una startup es por analogía si alguien ha tenido éxito con un modelo de negocio si realizamos el mismo modelo de negocio con un servicio distinto también debería tener éxito. Esta idea puede parecer perfecta pero por otro lado esconde algunas presunciones sobre como funcionará el negocio. Para poder hacer una buena analogía hay que detallarla mucho más.
+
+Hay muchas asunciones a tener en cuenta antes de construir tu prototipo por analogía. Lean Startup habla de una técnica utilizada en la fabricación japonesa llamada Genchi Genbutsu-“Go and See” que sería algo como ve y velo por ti mismo. 
+
+Una forma de hacerlo podría ser entrevistando a los potenciales clientes y una vez que estamos seguros de que el problema que queremos solventar existe, entonces viene el momento de construir un test.
+
+**Probar**
+
+¿Cuál es el **producto mínimo viable (MVP)** que puedes crear para obtener datos reales en tu hipótesis?
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.1]{MVP}
+    \label{fig:MVP}
+    \caption{MVP}
+\end{figure}
+
+Este MVP no debe ser perfecto, lo que queremos es aprender lo más rápido posible. Añadir características a nuestro producto que todavía ni sabemos cómo va a ser afectado en el mercado es una perdida de tiempo.
+
+Ejemplos de MVP: Landing Page con explicación de la app, Video con características principales y casos de uso, Mago de Oz: hacer creer al usuario que esta interactuando con la app o el utilizado aquí: el Conserje: empezando con un solo cliente y escalar.
+
+**Medir**
+
+Algunas buenas métricas pueden ser estas: 
+
+- Engagement
+- Tiempo en el producto por usuario/por semana
+- Porcentaje de usuarios que vuelven
+- Crecimiento
+- Factores virales
+- Conversión en cada paso
+- Nuevos usuarios ganados por semana
+- Finanzas
+- Coste por adquisición de nuevo cliente
+- Valor por ciclo de vida de usuario
+
+Las que mejor se adecuan a nuestro producto son: Engagement y Tiempo en el producto por usuario.
+
+También hemos usado Test A/B: enseñando dos versiones diferentes del producto al mismo tiempo para tomar decisiones acertadas.
+
+Además, Lean Startup establece que los informes deben entrar en las tres A: **Accionables**: que nos permitan conocer realmente cómo va una parte del modelo de negocio. **Accesibles**: que sean fácilmente interpretables para poder sacar conclusiones. **Auditables**: que puedan comprobarse por terceras persona, esto es importante para inversores.
+
+**Pivotar o Perseverar**
+
+Decidir si continuar con la dirección que habíamos tomado o cambiamos nuestras hipótesis esenciales sobre nuestro negocio. Dos señales son: nuestras métricas no son lo suficientemente buenas para conseguir los objetivos o los experimentos están llevando a tener menos progresos lo que significa que no se están teniendo buenas ideas.
+
+**3. ACELERAR**
+
+Acelerar el proceso medir, crear, aprender. Para mantenerse ágiles mientras crecemos. No invertir demasiado en grandes mejoras, sino hacer lotes de pequeñas mejoras más a menudo para aprender más. Lo que lleva a un circulo de interacción más rápido ya que puedes detectar problemas de calidad y tener mayor feedback sin tener que esperar a que el trabajo este hecho lo que propicia a que haya menos trabajo que rehacer.
+
+**Crecer**
+
+Un crecimiento sostenible se basa en 4 elementos que deben coincidir: 
+
+- Publicidad
+- Negocio repetitivo
+- Efectos secundarios según la exposición o Status del producto
+- Boca-Oreja
+
+Un buen encaje entre producto y mercado ocurre cuando una startup encuentra una gran cantidad de consumidores que resuenan con su producto. Una buena idea sería usar técnicas de **Growth Hacking.**
+
+**Adaptar**
+
+Una startup debe estar en constante cambio adaptandose a los nuevos clientes que van llegando. Los Early Adopters, los primeros en utilizar el producto no serán muy exigentes con la calidad pero esto es así con los nuevos clientes que vendrán más tarde.
+
+Ir demasiado rápido puede causar problemas. Para identificar estos problemas hay que preguntarse los 5 ¿por qué?:
+
+¿Por qué ha sucedido el problema ‘A’? A causa de ‘B’
+
+¿Por qué ha sucedido ‘B’? Por ‘C’
+
+Y así sucesivamente hasta 5 ¿Por qué? y llegar a la raíz del problema. Ya que sino estaremos viendo una respuesta superficial.
+
+**Innovar**
+
+Se debe decidir si seguir con las necesidades de los clientes o innovar. En cuanto a la innovación, por un lado tenemos a la **Innovación Sostenida**, que se basaría en ir incrementando mejoras al producto ya existente. O bien la **Innovación Disruptiva**, que se basaría en crear nuevos productos rompedores.
+
+**Focalizar**
+
+En el pasado los hombres estaban primero y hoy en día lo primero son los sistemas. Las startups deben tener el foco en el grupo y no en el individuo. Deben evitar despilfarrar en cosas que no son las adecuadas. Focalizándose sólo en actividades que van a generar valor.
+
+\section{Design Thinking (Ampliación)}
+
+A lo largo del proceso se irá afinando ese contenido hasta desembocar en una solución que cumpla con los objetivos. Y seguramente, incluso los supere.
+
+**EMPATIZA:** El proceso de Design Thinking comienza con una profunda comprensión de las necesidades de los usuarios implicados en la solución que estemos desarrollando, y también de su entorno. Debemos ser capaces de ponernos en la piel de dichas personas para ser capaces de generar soluciones consecuentes con sus realidades.
+
+Algunas técnicas: **Entrevistas, Inmersión Cognitiva, Focus Group.**
+
+**DEFINE:** Durante la etapa de Definición, debemos cribar la información recopilada durante la fase de Empatía y quedarnos con lo que realmente aporta valor y nos lleva al alcance de nuevas perspectivas interesantes. Identificaremos problemas cuyas soluciones serán clave para la obtención de un resultado innovador.
+
+Algunas técnicas: **Mapa de Empatía, User Personas, Listas de Problemas.**
+
+**IDEA:** La etapa de Ideación tiene como objetivo la generación de un sinfín de opciones. No debemos quedarnos con la primera idea que se nos ocurra. En esta fase, las actividades favorecen el pensamiento expansivo y debemos eliminar los juicios de valor. A veces, las ideas más estrambóticas son las que generan soluciones visionarias.
+
+Algunas técnicas: **Brainstorming, Product Box, MindMap**.
+
+**PROTOTIPA:** En la etapa de Prototipado volvemos las ideas realidad. Construir prototipos hace las ideas palpables y nos ayuda a visualizar las posibles soluciones, poniendo de manifiesto elementos que debemos mejorar o refinar antes de llegar al resultado final.
+
+Algunas técnicas: **Sketches, WireFrames, Prototipo, StoryBoard.**
+
+**TESTEA:** Durante la fase de Testeo, probaremos nuestros prototipos con los usuarios implicados en la solución que estemos desarrollando. Esta fase es crucial, y nos ayudará a identificar mejoras significativas, fallos a resolver, posibles carencias. Durante esta fase evolucionaremos nuestra idea hasta convertirla en la solución que estábamos buscando.
+
+Algunas técnicas: **Pruebas de Usuario, Test de Usabilidad.**
+
+\section{Llegando a la Solución}
+
+MEDIR
+
+Es hora de llevar a cabo el experimento, lo más común es poner los usuarios delante del producto y recoger así información sobre su comportamiento. Recoges los datos y reflexionas sobre ellos para **pivotar**, es decir, seguir adelante o cambiar de dirección. 
+
+Lo importante es qué tan rápido puedes desarrollar tus experimentos para hacer evolucionar la aplicación. 
+
+Los test fueron poco a poco en un proceso iterativo hasta llegar a completar los diseños del prototipo, generando siempre una versión entregable. Siguiendo la técnica del **Conserje**: empezando con un sólo usuario (Manuel Rubio) y una vez habiendo desarrollado la aplicación lo suficiente escalar y hacer pruebas con más usuarios.
+
+La idea es ir implementando y testeando poco a poco la aplicación, empezando por los **Must haves** e ir añadiendo los **Should haves** paulatinamente y hacer ajustes según el feedback del usuario. Para dar respuesta a las siguientes preguntas:
+
+¿Tiene la gente el problema que crees que tienen? ¿Realmente quieren lo que estas ofreciendo?
+
+Para ello, cada vez que se desarrollaba una **nueva versión** de la aplicación. Se testeaba en una reunión con el tutor recogiendo **feedback** y haciendo los ajustes pertinentes. Más tarde se empezó a testear también con conocidos, en concreto dos estudiantes de conservatorio y una persona que está empezando a tocar. Es cuando se empezaron a aplicar algunas **métricas**:
+
+Las que mejor se adecuaron a nuestro producto son: **Engagement** y **Tiempo en el producto** por usuario. También se tuvo en cuenta la **retención**: el usuario lo usa nuevamente, y la **referencia**: el usuario comparte el producto con sus amigos.
+
+Además se utilizaron **test A/B**: enseñando dos versiones diferentes del producto al mismo tiempo para tomar decisiones acertadas. Aprovechando las características que nos ofrecía **Vercel** como veremos en su apartado.
+
+Aclarar que aparte de estos test que **miden el éxito** de la aplicación se realizaron pruebas también relacionadas al funcionamiento cómo se verá más adelante en su apartado **Testing** en Desarrollo e Implementación.
+
+APRENDER
+
+Este proceso es necesario para mantenerse **ágiles** mientras crecemos. No invertir demasiado en grandes mejoras, sino hacer lotes de **pequeñas mejoras** más a menudo para aprender más. Lo que lleva a un circulo de interacción más rápido ya que puedes **detectar problemas** de calidad y tener mayor **feedback** sin tener que esperar a que el trabajo este hecho lo que propicia a que haya menos trabajo que rehacer.
+
+Lo que pudimos aprender en este continuo proceso de crear, medir, aprender fue lo siguiente:
+
+De los test con el **tutor** pudimos corregir lo siguiente:
+
+En un principio no se incluían todos los intervalos existentes, sólo los de notas naturales, un test con el tutor nos hizo darnos cuenta de que faltaban las notas alteradas. Lo que llevo también a una investigación para corregir el nombre de estos, ya que descubrimos que dos intervalos con diferente nombre pueden sonar igual. Esto es debido a que los intervalos se nombran no sólo por la distancia de sus notas sino también por cómo están escritas en el pentagrama. Por ejemplo: entre Do y Do' hay 1 semitono y entre Do y Reb también hay 1 semitono, la misma distancia, suenan igual, pero son intervalos distintos. Lo que técnicamente se conoce como enarmonía.
+
+También nos dió el feedback de que estaría bien añadir un **sonido al acertar**. Aprovechando el sonido de la misma respuesta para que así los usuarios puedan interiorizarla.
+
+De los test con más **usuarios** pudimos mejorar lo siguiente:
+
+En un principio se mostraban todas las opciones disponibles, lo que hacía el ejercicio muy difícil. Por lo que dejando como predeterminado tres opciones se ajustaba la **dificultad** inicial. Además descubrimos de que resultaba engorroso una vez señaladas varias opciones volver a seleccionarlas por lo que añadimos un botón que seleccionase y deseleccionase todas de golpe.
+
+También descubrimos que había un problema de **compatibilidad** con iphone que hacía inservible la aplicación el cual pudimos corregir rápido. Así cómo poder ajustar el **volumen** de los sonidos ya que al principio no sonaba lo suficientemente alto.
+
+De los **test A/B** lo siguiente:
+
+Se mostraron dos versiones, una con **piano** en los ejercicios y otras sin él. Lo que pudimos observar es que las versiones con el piano generaban mayor **engagement** y **retención** por parte de los usuarios. Además los usuarios lo utilizaban para tener notas de referencia, lo que podía ayudar a la obtención de la respuesta correcta. Lo que en el ejercicio de notas resultó en una parte esencial.
+
+Cómo se puede observar gracias a este proceso iterativo de crear, medir, aprender pudimos corregir fallos ágilmente y añadir funcionalidades que ni nos habíamos planteado en un primer momento gracias al feedback de los propios usuarios.
+
+RESULTADOS
+
+Una vez pasado por todo este proceso iterativo, el resultado es un MVP que poder sacar al mercado. Y que se debe seguir mejorando. 
+
+Los **Early Adopters**, los primeros en utilizar el producto no serán muy exigentes con la calidad pero esto es así con los nuevos clientes que vendrán más tarde. 
+
+Todo se basa en un proceso de **Innovación Sostenida**, que se basaría en ir incrementando mejoras al producto ya existente.
+
+Para ver capturas de la aplicación tras todo este proceso puedes ir al apartado **Resultado Final.**
+
+\chapter{Prototipo}
+
+\chapter{Historias de Usuario}
+
 \chapter{Conceptos Musicales}
 \label{sec:apendice}
 
