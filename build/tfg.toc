@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\'{I}ndice de figuras}{X}{chapter*.4}%
-\contentsline {chapter}{Índice de códigos}{XII}{chapter*.5}%
+\contentsline {chapter}{\'{I}ndice de figuras}{IX}{chapter*.4}%
+\contentsline {chapter}{Índice de códigos}{XI}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Entrenamiento Auditivo}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Oído Absoluto}{2}{subsection.1.1.1}%
@@ -48,14 +48,14 @@
 \contentsline {section}{\numberline {2.4}Resultado Final}{32}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Conclusiones}{33}{chapter.3}%
 \contentsline {chapter}{Bibliografía}{35}{section*.51}%
-\contentsline {chapter}{Apéndices}{37}{section*.53}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{39}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{39}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{43}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Llegando a la Solución}{43}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Prototipo}{46}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{47}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Conceptos Musicales}{48}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Notas}{48}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Intervalos}{48}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Escalas}{48}{section.Alph4.3}%
+\contentsline {chapter}{Apéndices}{35}{section*.52}%
+\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{38}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{38}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{42}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Llegando a la Solución}{42}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Prototipo}{45}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{46}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Conceptos Musicales}{47}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Notas}{47}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Intervalos}{47}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Escalas}{47}{section.Alph4.3}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 FEB 2022 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 FEB 2022 22:28
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -423,14 +423,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 78.
  (C:\Users\alber\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
-)
+) (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux)
 \openout1 = `tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -531,7 +524,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Info: Redefining \. on input line 176.
 LaTeX Info: Redefining \% on input line 176.
-<logoURJC.pdf, id=143, 413.545pt x 158.5925pt>
+<logoURJC.pdf, id=3, 413.545pt x 158.5925pt>
 File: logoURJC.pdf Graphic file (type pdf)
 <use logoURJC.pdf>
 Package pdftex.def Info: logoURJC.pdf  used on input line 180.
@@ -565,40 +558,32 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 279.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5] [6
 
-] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
- [7])
+]
 \tf@toc=\write4
 \openout4 = `tfg.toc'.
 
- [8] [9
+ [7] [8
 
-] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-)
+]
 \tf@lof=\write5
 \openout5 = `tfg.lof'.
 
- [10] [11
+ [9] [10
 
-] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.lol)
+]
+
+Package hyperref Warning: old lol file detected, not used; run LaTeX again.
+
 \tf@lol=\write6
 \openout6 = `tfg.lol'.
 
- [12] [13
+[11] [12
 
 ]
 Cap\'{\i }tulo 1.
+
+LaTeX Warning: Citation `giaquinta' on page XIII undefined on input line 350.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -664,7 +649,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6]
 Cap\'{\i }tulo 2.
-<assets//leandesignagile.png, id=318, 1284.8pt x 722.7pt>
+<assets//leandesignagile.png, id=102, 1284.8pt x 722.7pt>
 File: assets//leandesignagile.png Graphic file (type png)
 <use assets//leandesignagile.png>
 Package pdftex.def Info: assets//leandesignagile.png  used on input line 526.
@@ -686,12 +671,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8 <./assets//leandesignagile.png (PNG copy)>]
-<assets//designthinking.png, id=327, 848.16875pt x 295.1025pt>
+<assets//designthinking.png, id=116, 848.16875pt x 295.1025pt>
 File: assets//designthinking.png Graphic file (type png)
 <use assets//designthinking.png>
 Package pdftex.def Info: assets//designthinking.png  used on input line 559.
 (pdftex.def)             Requested size: 373.1954pt x 129.84549pt.
-<assets//MINDMAP.jpg, id=329, 862.22125pt x 1168.365pt>
+<assets//MINDMAP.jpg, id=118, 862.22125pt x 1168.365pt>
 File: assets//MINDMAP.jpg Graphic file (type jpg)
 <use assets//MINDMAP.jpg>
 Package pdftex.def Info: assets//MINDMAP.jpg  used on input line 578.
@@ -733,12 +718,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <./assets//MINDMAP.jpg>]
-<assets//MOSCOW.jpg, id=349, 1045.9075pt x 962.59625pt>
+<assets//MOSCOW.jpg, id=139, 1045.9075pt x 962.59625pt>
 File: assets//MOSCOW.jpg Graphic file (type jpg)
 <use assets//MOSCOW.jpg>
 Package pdftex.def Info: assets//MOSCOW.jpg  used on input line 592.
 (pdftex.def)             Requested size: 366.0731pt x 336.91373pt.
-<assets//Wireframes.jpg, id=350, 1098.1025pt x 916.42375pt>
+<assets//Wireframes.jpg, id=140, 1098.1025pt x 916.42375pt>
 File: assets//Wireframes.jpg Graphic file (type jpg)
 <use assets//Wireframes.jpg>
 Package pdftex.def Info: assets//Wireframes.jpg  used on input line 619.
@@ -757,7 +742,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./assets//MOSCOW.jpg>]
-<assets//WireframePC.jpg, id=357, 1365.1pt x 736.7525pt>
+<assets//WireframePC.jpg, id=147, 1365.1pt x 736.7525pt>
 File: assets//WireframePC.jpg Graphic file (type jpg)
 <use assets//WireframePC.jpg>
 Package pdftex.def Info: assets//WireframePC.jpg  used on input line 626.
@@ -787,7 +772,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14 <./assets//WireframePC.jpg>]
-<assets//LeanStartup.png, id=367, 878.28125pt x 702.625pt>
+<assets//LeanStartup.png, id=161, 878.28125pt x 702.625pt>
 File: assets//LeanStartup.png Graphic file (type png)
 <use assets//LeanStartup.png>
 Package pdftex.def Info: assets//LeanStartup.png  used on input line 649.
@@ -806,7 +791,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./assets//LeanStartup.png (PNG copy)>]
-<assets//Scrum.png, id=372, 1044.90375pt x 570.63188pt>
+<assets//Scrum.png, id=167, 1044.90375pt x 570.63188pt>
 File: assets//Scrum.png Graphic file (type png)
 <use assets//Scrum.png>
 Package pdftex.def Info: assets//Scrum.png  used on input line 686.
@@ -822,7 +807,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [16]
-<assets//USERSTORYMAP.jpg, id=381, 1630.09pt x 617.30624pt>
+<assets//USERSTORYMAP.jpg, id=178, 1630.09pt x 617.30624pt>
 File: assets//USERSTORYMAP.jpg Graphic file (type jpg)
 <use assets//USERSTORYMAP.jpg>
 Package pdftex.def Info: assets//USERSTORYMAP.jpg  used on input line 701.
@@ -841,7 +826,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./assets//Scrum.png>]
-<assets//KANBAN.png, id=388, 873.2625pt x 526.21594pt>
+<assets//KANBAN.png, id=186, 873.2625pt x 526.21594pt>
 File: assets//KANBAN.png Graphic file (type png)
 <use assets//KANBAN.png>
 Package pdftex.def Info: assets//KANBAN.png  used on input line 712.
@@ -860,7 +845,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [18 <./assets//USERSTORYMAP.jpg> <./assets//KANBAN.png>]
-<assets//USERSTORY.png, id=396, 429.10312pt x 660.96938pt>
+<assets//USERSTORY.png, id=195, 429.10312pt x 660.96938pt>
 File: assets//USERSTORY.png Graphic file (type png)
 <use assets//USERSTORY.png>
 Package pdftex.def Info: assets//USERSTORY.png  used on input line 723.
@@ -879,7 +864,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19 <./assets//USERSTORY.png>]
-<assets//DevOps.png, id=403, 1204.5pt x 559.08875pt>
+<assets//DevOps.png, id=204, 1204.5pt x 559.08875pt>
 File: assets//DevOps.png Graphic file (type png)
 <use assets//DevOps.png>
 Package pdftex.def Info: assets//DevOps.png  used on input line 740.
@@ -898,7 +883,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [20 <./assets//DevOps.png>]
-<assets//Gitflow.png, id=409, 702.625pt x 387.4475pt>
+<assets//Gitflow.png, id=212, 702.625pt x 387.4475pt>
 File: assets//Gitflow.png Graphic file (type png)
 <use assets//Gitflow.png>
 Package pdftex.def Info: assets//Gitflow.png  used on input line 757.
@@ -914,7 +899,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21 <./assets//Gitflow.png (PNG copy)>]
-<assets//Vercel.png, id=416, 760.34062pt x 440.39531pt>
+<assets//Vercel.png, id=220, 760.34062pt x 440.39531pt>
 File: assets//Vercel.png Graphic file (type png)
 <use assets//Vercel.png>
 Package pdftex.def Info: assets//Vercel.png  used on input line 774.
@@ -930,17 +915,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22 <./assets//Vercel.png>]
-<assets//nextjs_routing.png, id=422, 883.3pt x 559.08875pt>
+<assets//nextjs_routing.png, id=229, 883.3pt x 559.08875pt>
 File: assets//nextjs_routing.png Graphic file (type png)
 <use assets//nextjs_routing.png>
 Package pdftex.def Info: assets//nextjs_routing.png  used on input line 798.
 (pdftex.def)             Requested size: 353.31374pt x 223.63153pt.
-<assets//nextjs_noprerendering.png, id=423, 1391.1975pt x 690.58pt>
+<assets//nextjs_noprerendering.png, id=230, 1391.1975pt x 690.58pt>
 File: assets//nextjs_noprerendering.png Graphic file (type png)
 <use assets//nextjs_noprerendering.png>
 Package pdftex.def Info: assets//nextjs_noprerendering.png  used on input line 808.
 (pdftex.def)             Requested size: 185.52412pt x 92.08623pt.
-<assets//nextjs_prerendering.png, id=424, 1391.1975pt x 827.09pt>
+<assets//nextjs_prerendering.png, id=231, 1391.1975pt x 827.09pt>
 File: assets//nextjs_prerendering.png Graphic file (type png)
 <use assets//nextjs_prerendering.png>
 Package pdftex.def Info: assets//nextjs_prerendering.png  used on input line 811.
@@ -956,17 +941,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23 <./assets//nextjs_routing.png>]
-<assets//nextjs_prerenderinggraph.png, id=431, 1393.205pt x 861.2175pt>
+<assets//nextjs_prerenderinggraph.png, id=239, 1393.205pt x 861.2175pt>
 File: assets//nextjs_prerenderinggraph.png Graphic file (type png)
 <use assets//nextjs_prerenderinggraph.png>
 Package pdftex.def Info: assets//nextjs_prerenderinggraph.png  used on input line 818.
 (pdftex.def)             Requested size: 222.91736pt x 137.7976pt.
-<assets//nextjs_ssr.png, id=432, 1391.1975pt x 803.0pt>
+<assets//nextjs_ssr.png, id=240, 1391.1975pt x 803.0pt>
 File: assets//nextjs_ssr.png Graphic file (type png)
 <use assets//nextjs_ssr.png>
 Package pdftex.def Info: assets//nextjs_ssr.png  used on input line 833.
 (pdftex.def)             Requested size: 185.52412pt x 107.07701pt.
-<assets//nextjs_ssg.png, id=433, 1391.1975pt x 746.79pt>
+<assets//nextjs_ssg.png, id=241, 1391.1975pt x 746.79pt>
 File: assets//nextjs_ssg.png Graphic file (type png)
 <use assets//nextjs_ssg.png>
 Package pdftex.def Info: assets//nextjs_ssg.png  used on input line 836.
@@ -985,22 +970,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24 <./assets//nextjs_noprerendering.png> <./assets//nextjs_prerendering.png> <./assets//nextjs_prerenderinggraph.png>]
-<assets//nextjs_nocodesplit.jpg, id=445, 1027.84pt x 770.88pt>
+<assets//nextjs_nocodesplit.jpg, id=254, 1027.84pt x 770.88pt>
 File: assets//nextjs_nocodesplit.jpg Graphic file (type jpg)
 <use assets//nextjs_nocodesplit.jpg>
 Package pdftex.def Info: assets//nextjs_nocodesplit.jpg  used on input line 846.
 (pdftex.def)             Requested size: 164.90894pt x 123.67267pt.
-<assets//nextjs_codesplit.jpg, id=446, 1027.84pt x 770.88pt>
+<assets//nextjs_codesplit.jpg, id=255, 1027.84pt x 770.88pt>
 File: assets//nextjs_codesplit.jpg Graphic file (type jpg)
 <use assets//nextjs_codesplit.jpg>
 Package pdftex.def Info: assets//nextjs_codesplit.jpg  used on input line 849.
 (pdftex.def)             Requested size: 164.90894pt x 123.67267pt.
-<assets//nextjs_prefetch.png, id=447, 825.0825pt x 369.38pt>
+<assets//nextjs_prefetch.png, id=256, 825.0825pt x 369.38pt>
 File: assets//nextjs_prefetch.png Graphic file (type png)
 <use assets//nextjs_prefetch.png>
 Package pdftex.def Info: assets//nextjs_prefetch.png  used on input line 856.
 (pdftex.def)             Requested size: 371.28369pt x 166.21945pt.
-<assets//nextjs_hmr.png, id=448, 803.0pt x 347.2975pt>
+<assets//nextjs_hmr.png, id=257, 803.0pt x 347.2975pt>
 File: assets//nextjs_hmr.png Graphic file (type png)
 <use assets//nextjs_hmr.png>
 Package pdftex.def Info: assets//nextjs_hmr.png  used on input line 863.
@@ -1038,7 +1023,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
-<assets//TYPESCRIPT.png, id=470, 829.0975pt x 471.7625pt>
+<assets//TYPESCRIPT.png, id=284, 829.0975pt x 471.7625pt>
 File: assets//TYPESCRIPT.png Graphic file (type png)
 <use assets//TYPESCRIPT.png>
 Package pdftex.def Info: assets//TYPESCRIPT.png  used on input line 911.
@@ -1104,13 +1089,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [32]
 Cap\'{\i }tulo 3.
+
+LaTeX Warning: Citation `giaquinta' on page 33 undefined on input line 1043.
+
+
+LaTeX Warning: Citation `fortune' on page 33 undefined on input line 1043.
+
+
+LaTeX Warning: Citation `fortuneB' on page 33 undefined on input line 1043.
+
+
+LaTeX Warning: Citation `mitchell' on page 33 undefined on input line 1043.
+
+
+LaTeX Warning: Citation `morrey' on page 33 undefined on input line 1043.
+
 [33
 
-] [34] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [35
-
-] [36] [37] [38]
+] [34]
+No file tfg.bbl.
+[35] [36] [37]
 Ap\'{e}ndice A.
-[39
+[38
 
 ]
 LaTeX Info: Redefining \. on input line 1152.
@@ -1123,8 +1123,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
-<assets//MVP.png, id=546, 1435.3625pt x 1265.72874pt>
+[39]
+<assets//MVP.png, id=354, 1435.3625pt x 1265.72874pt>
 File: assets//MVP.png Graphic file (type png)
 <use assets//MVP.png>
 Package pdftex.def Info: assets//MVP.png  used on input line 1160.
@@ -1139,7 +1139,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./assets//MVP.png (PNG copy)>]
+[40 <./assets//MVP.png (PNG copy)>]
 LaTeX Info: Redefining \. on input line 1233.
 LaTeX Info: Redefining \% on input line 1233.
 
@@ -1150,7 +1150,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
+[41]
 LaTeX Info: Redefining \. on input line 1264.
 LaTeX Info: Redefining \% on input line 1264.
 
@@ -1161,7 +1161,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
+[42]
 LaTeX Info: Redefining \. on input line 1293.
 LaTeX Info: Redefining \% on input line 1293.
 
@@ -1172,7 +1172,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44]
+[43]
 LaTeX Info: Redefining \. on input line 1309.
 LaTeX Info: Redefining \% on input line 1309.
 
@@ -1183,17 +1183,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
+[44]
 Ap\'{e}ndice B.
-[46
+[45
 
 ]
 Ap\'{e}ndice C.
-[47
+[46
 
 ]
 Ap\'{e}ndice D.
-[48
+[47
 
 ] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -1203,8 +1203,20 @@ LaTeX Info: Redefining \% on input line 26.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
-Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: AF59B275B04997AE806E98A788410A5B;4907.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `tfg.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tfg.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  F93EAFF4742561B361E04DF3176A267F;4907.
  )
 (\end occurred inside a group at level 2)
 
@@ -1212,17 +1224,17 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 ### semi simple group (level 1) entered at line 243 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15909 strings out of 478927
- 250128 string characters out of 2852535
- 657856 words of memory out of 3000000
- 33342 multiletter control sequences out of 15000+600000
- 413512 words of font info for 61 fonts, out of 8000000 for 9000
+ 15834 strings out of 478927
+ 248772 string characters out of 2852535
+ 655200 words of memory out of 3000000
+ 33284 multiletter control sequences out of 15000+600000
+ 413166 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,81p,823b,798s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\alber\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (61 pages, 2819357 bytes).
+ <C:\Users\alber\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (59 pages, 2772265 bytes).
 PDF statistics:
- 657 PDF objects out of 1000 (max. 8388607)
- 161 named destinations out of 1000 (max. 500000)
- 416 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
