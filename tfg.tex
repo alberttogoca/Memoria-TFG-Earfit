@@ -29,6 +29,7 @@
 \usepackage{quotchap}
 \usepackage{lipsum}
 \usepackage{verbatim} % comentarios
+\usepackage{subfig} %subfiguras
 
 %%%%%%%%%%%%%%%%%%%%%%% Definiciones básicas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -792,17 +793,77 @@ Next nos permite, instalando una sola dependencia, tener configurado todo lo que
 
 \begin{itemize}
     \item Un **sistema de enrutamiento** intuitivo **basado en páginas** con soporte para rutas dinámicas: En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio de páginas. Cada página está asociada con una ruta basada en su nombre de archivo.
-    \item **Pre-rendering**: De forma predeterminada, Next.js procesa previamente cada página. Esto significa que genera HTML para cada página por adelantado, en lugar de que JavaScript del lado del cliente lo haga todo. La renderización previa puede resultar en un mejor rendimiento y SEO.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{nextjs_routing}
+        \label{fig:nextjs_routing}
+        \caption{Nextjs Routing}
+    \end{figure}
     
+    \item **Pre-rendering**: De forma predeterminada, Next.js procesa previamente cada página. Esto significa que genera HTML para cada página por adelantado, en lugar de que JavaScript del lado del cliente lo haga todo. La renderización previa puede resultar en un mejor rendimiento y SEO. 
+    \begin{figure}[H]
+        \centering
+         \subfloat[Sin Pre-rendering]{
+          \label{f:nextjs_noprerendering}
+           \includegraphics[width=0.4\textwidth]{nextjs_noprerendering}}
+         \subfloat[Con Pre-rendering]{
+          \label{f:nextjs_prerendering}
+           \includegraphics[width=0.4\textwidth]{nextjs_prerendering}}
+        \caption{Prerendering}
+        \label{f:Prerendering}
+       \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.2]{nextjs_prerenderinggraph}
+        \label{fig:nextjs_prerenderinggraph}
+        \caption{Time to Interactive}
+    \end{figure}
+    
+
     Next.js tiene dos formas de pre-rendering:
     \begin{itemize}
-        \item **Generación Estática:** El HTML se genera en el momento de la compilación y se reutilizará en cada solicitud. Esta forma fue la utilizada por razones de rendimiento.
         \item **Server-side Rendering:** El HTML se genera en cada solicitud.
+        \item **Generación Estática:** El HTML se genera en el momento de la compilación y se reutilizará en cada solicitud. Esta forma fue la utilizada por razones de rendimiento.
     \end{itemize}
+    \begin{figure}[H]
+        \centering
+         \subfloat[Server-side Rendering]{
+          \label{f:nextjs_ssr}
+           \includegraphics[width=0.4\textwidth]{nextjs_ssr}}
+         \subfloat[Generación Estática]{
+          \label{f:nextjs_ssg}
+           \includegraphics[width=0.4\textwidth]{nextjs_ssg}}
+        \caption{Tipos de Pre-rendering}
+        \label{f:TiposPrerendering}
+       \end{figure}
 
-        \item Separación automática de código (**Code Spliting**) para cargas de página más rápidas.
-    \item Enrutamiento optimizado con prefetching para **Single-page Application:** sólo se precargan los elementos mostrados en la página actual.
+    \item Separación automática de código (**Code Splitting**) para cargas de página más rápidas.
+        \begin{figure}[H]
+            \centering
+            \subfloat[Sin Code Splitting]{
+            \label{f:nextjs_nocodesplit}
+            \includegraphics[width=0.2\textwidth]{nextjs_nocodesplit}}
+            \subfloat[Con Code Splitting]{
+            \label{f:nextjs_codesplit}
+            \includegraphics[width=0.2\textwidth]{nextjs_codesplit}}
+            \caption{Code Splitting}
+            \label{f:codesplit}
+        \end{figure}
+    \item Enrutamiento optimizado con prefetching para Single-page Application: sólo se precargan los elementos mostrados en la página actual.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.3]{nextjs_prefetch}
+            \label{fig:nextjs_prefetch}
+            \caption{Pre-fetching}
+        \end{figure}
     \item Entorno de desarrollo con soporte **Fast Refresh** y **HMR** (Hot Module Replacement): Permite actualizar todo tipo de módulos y componentes de React en tiempo de ejecución sin necesidad de un refresco completo.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.3]{nextjs_hmr}
+            \label{fig:nextjs_hmr}
+            \caption{Fast Refresh}
+        \end{figure}    
     \item Soporte integrado de **CSS y Sass**, y soporte para cualquier biblioteca **CSS-in-JS**. (completar)
     \item **Rutas API** para crear endpoints con funciones sin servidor: Cualquier archivo dentro de la carpeta pages/api se asigna a /api/* y se tratará como un endpoint en lugar de una página.
     \item Soporte para **TypeScript**. (completar)
