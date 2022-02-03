@@ -34,14 +34,14 @@
 \contentsline {subsubsection}{Next.js}{23}{section*.31}%
 \contentsline {subsubsection}{TypeScript}{27}{section*.39}%
 \contentsline {subsubsection}{Node.js}{28}{section*.41}%
-\contentsline {subsubsection}{VSCode}{28}{section*.42}%
+\contentsline {subsubsection}{VSCode}{29}{section*.42}%
 \contentsline {subsubsection}{ESLint}{29}{section*.43}%
-\contentsline {subsubsection}{Prettier}{29}{section*.44}%
+\contentsline {subsubsection}{Prettier}{30}{section*.44}%
 \contentsline {subsection}{\numberline {2.3.2}Desarrollo}{30}{subsection.2.3.2}%
 \contentsline {subsubsection}{Diseño de Arquitectura}{30}{section*.45}%
 \contentsline {subsubsection}{Modelo de Componentes}{30}{section*.46}%
 \contentsline {subsubsection}{Buenas Prácticas}{30}{section*.47}%
-\contentsline {subsection}{\numberline {2.3.3}Testing}{31}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Testing}{32}{subsection.2.3.3}%
 \contentsline {subsubsection}{Pruebas Unitarias}{32}{section*.48}%
 \contentsline {subsubsection}{Pruebas Funcionales}{32}{section*.49}%
 \contentsline {subsubsection}{Evaluación de la Interfaz}{32}{section*.50}%

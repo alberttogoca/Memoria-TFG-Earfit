@@ -873,29 +873,32 @@ Simplemente instalamos Next, así como React y React-dom como dependencias. Esta
 
 \textbf{React.js}
 
-Es una biblioteca de código abierto para proyectos de JavaScript, que permite a los desarrolladores crear aplicaciones web e interfaces de usuario mantenida por Facebook. 
+Es una biblioteca de código abierto para proyectos de JavaScript mantenida por Facebook, que permite a los desarrolladores crear aplicaciones web e interfaces de usuario de manera rápida y sencilla. Esto es posible mediante componentes interactivos y reutilizables.
 
-- Es fácil de aprender.
-- Es fácil de usar con un proyecto.
-- Es flexible.
-- Tiene componentes reutilizables.
-- Ofrece estabilidad de código.
-- Es de alto rendimiento.
-- Mejora la productividad.
-- Ofrece muchas herramientas para el desarrollador.
-- Tiene un vasto ecosistema.
-- Facilita un fuerte desarrollo web.
+React está basado en un paradigma llamado programación orientada a componentes en el que cada componente es una pieza con la que el usuario puede interactuar. Estas piezas se crean usando una sintaxis llamada JSX permitiendo escribir HTML (y opcionalmente CSS) dentro de objetos JavaScript. Estos componentes son reutilizables y se combinan para crear componentes mayores hasta configurar una web completa.
 
-To build a complete web application with React from scratch, there are many important details you need to consider:
+Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (DOM virtual) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez.
 
-- Code has to be bundled using a bundler like webpack and transformed using a compiler like Babel.
-- You need to do production optimizations such as code splitting.
-- You might want to statically pre-render some pages for performance and SEO. You might also want to use server-side rendering or client-side rendering.
-- You might have to write some server-side code to connect your React app to your data store.
+Esta es la forma de tener HTML con toda la funcionalidad de JavaScript y CSS centralizado y listo para ser abstraído y usado en cualquier otro proyecto.
 
 \textbf{Vercel}
 
-Es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión.
+Es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión. Fue creada por los desarrolladores de Next.js por lo que desplegar una aplicación con este framework tiene las siguientes ventajas:
+
+\begin{compactitem}
+    \item Las páginas que usan generación estática y assets (JS, CSS, imágenes, fuentes, etc.) se publican automáticamente desde el Vercel Edge Network, que es increíblemente rápido.
+    \item Las páginas que usan pre-rendering y rutas API se convierten automáticamente en serverless functions. Esto permite que el renderizado de páginas y las solicitudes API puedan escalar infinitamente.
+\end{compactitem}
+
+Aparte ofrece muchas más funciones, como: dominios personalizados, variables de entorno, HTTPS automático y una vista previa de cada rama de Github por cada subida de código.
+
+Usar Nextjs junto con Vercel nos permite seguir el flujo de trabajo DPS: Develop, Preview and Ship (Desarrollo, Vista previa y Enviar a producción).
+
+\begin{compactitem}
+    \item Desarrollo: escribimos código en Next.js y usamos su servidor de desarrollo para aprovechar su función de fast refresh.
+    \item Vista previa: subimos los cambios a una rama en GitHub y Vercel crea un despliegue que estará disponible a través de una URL. Podemos compartir esta URL con otros para recibir feedback.
+    \item Enviar a Producción: fusionamos la rama creada con la rama main para enviar a producción.
+\end{compactitem}
 
 \subsubsection{TypeScript}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 FEB 2022 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 FEB 2022 22:20
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -1016,8 +1016,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25 <./assets//nextjs_ssr.png> <./assets//nextjs_ssg.png> <./assets//nextjs_nocodesplit.jpg> <./assets//nextjs_codesplit.jpg> <./assets//nextjs_prefetch.png>]
-LaTeX Info: Redefining \. on input line 895.
-LaTeX Info: Redefining \% on input line 895.
+LaTeX Info: Redefining \. on input line 881.
+LaTeX Info: Redefining \% on input line 881.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1027,16 +1027,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26 <./assets//nextjs_hmr.png>]
-<assets//TYPESCRIPT.png, id=465, 829.0975pt x 471.7625pt>
-File: assets//TYPESCRIPT.png Graphic file (type png)
-<use assets//TYPESCRIPT.png>
-Package pdftex.def Info: assets//TYPESCRIPT.png  used on input line 908.
-(pdftex.def)             Requested size: 331.63313pt x 188.70164pt.
-
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 918.
-LaTeX Info: Redefining \% on input line 918.
+LaTeX Info: Redefining \. on input line 908.
+LaTeX Info: Redefining \% on input line 908.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1045,26 +1037,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27 <./assets//TYPESCRIPT.png (PNG copy)>]
-Overfull \hbox (0.66144pt too wide) in paragraph at lines 929--930
+[27]
+<assets//TYPESCRIPT.png, id=470, 829.0975pt x 471.7625pt>
+File: assets//TYPESCRIPT.png Graphic file (type png)
+<use assets//TYPESCRIPT.png>
+Package pdftex.def Info: assets//TYPESCRIPT.png  used on input line 911.
+(pdftex.def)             Requested size: 331.63313pt x 188.70164pt.
+LaTeX Info: Redefining \. on input line 929.
+LaTeX Info: Redefining \% on input line 929.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./assets//TYPESCRIPT.png (PNG copy)>]
+Overfull \hbox (0.66144pt too wide) in paragraph at lines 932--933
 []\OT1/cmr/m/n/12 Cada vez que se a~nade un modu-lo, Yarn crea (o ac-tua-li-za) un ar-chi-vo yarn.lock.
  []
 
-LaTeX Info: Redefining \. on input line 938.
-LaTeX Info: Redefining \% on input line 938.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 971.
-LaTeX Info: Redefining \% on input line 971.
-
+LaTeX Info: Redefining \. on input line 952.
+LaTeX Info: Redefining \% on input line 952.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1073,8 +1068,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
-LaTeX Info: Redefining \. on input line 1001.
-LaTeX Info: Redefining \% on input line 1001.
+LaTeX Info: Redefining \. on input line 984.
+LaTeX Info: Redefining \% on input line 984.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1086,8 +1081,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1033.
-LaTeX Info: Redefining \% on input line 1033.
+LaTeX Info: Redefining \. on input line 1019.
+LaTeX Info: Redefining \% on input line 1019.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1097,8 +1092,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-LaTeX Info: Redefining \. on input line 1033.
-LaTeX Info: Redefining \% on input line 1033.
+LaTeX Info: Redefining \. on input line 1036.
+LaTeX Info: Redefining \% on input line 1036.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1118,8 +1113,8 @@ Ap\'{e}ndice A.
 [39
 
 ]
-LaTeX Info: Redefining \. on input line 1149.
-LaTeX Info: Redefining \% on input line 1149.
+LaTeX Info: Redefining \. on input line 1152.
+LaTeX Info: Redefining \% on input line 1152.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1132,10 +1127,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <assets//MVP.png, id=546, 1435.3625pt x 1265.72874pt>
 File: assets//MVP.png Graphic file (type png)
 <use assets//MVP.png>
-Package pdftex.def Info: assets//MVP.png  used on input line 1157.
+Package pdftex.def Info: assets//MVP.png  used on input line 1160.
 (pdftex.def)             Requested size: 143.54465pt x 126.58028pt.
-LaTeX Info: Redefining \. on input line 1190.
-LaTeX Info: Redefining \% on input line 1190.
+LaTeX Info: Redefining \. on input line 1193.
+LaTeX Info: Redefining \% on input line 1193.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1145,8 +1140,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41 <./assets//MVP.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 1230.
-LaTeX Info: Redefining \% on input line 1230.
+LaTeX Info: Redefining \. on input line 1233.
+LaTeX Info: Redefining \% on input line 1233.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1156,8 +1151,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42]
-LaTeX Info: Redefining \. on input line 1261.
-LaTeX Info: Redefining \% on input line 1261.
+LaTeX Info: Redefining \. on input line 1264.
+LaTeX Info: Redefining \% on input line 1264.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1167,8 +1162,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [43]
-LaTeX Info: Redefining \. on input line 1290.
-LaTeX Info: Redefining \% on input line 1290.
+LaTeX Info: Redefining \. on input line 1293.
+LaTeX Info: Redefining \% on input line 1293.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1178,8 +1173,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [44]
-LaTeX Info: Redefining \. on input line 1306.
-LaTeX Info: Redefining \% on input line 1306.
+LaTeX Info: Redefining \. on input line 1309.
+LaTeX Info: Redefining \% on input line 1309.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1225,7 +1220,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  70i,13n,81p,823b,798s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\alber\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (61 pages, 2818032 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (61 pages, 2819357 bytes).
 PDF statistics:
  657 PDF objects out of 1000 (max. 8388607)
  161 named destinations out of 1000 (max. 500000)
