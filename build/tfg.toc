@@ -14,48 +14,48 @@
 \contentsline {chapter}{\numberline {2}Contenidos principales}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Ideación y Diseño}{8}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Design Thinking}{8}{subsection.2.1.1}%
-\contentsline {subsubsection}{Etapas}{8}{section*.6}%
+\contentsline {subsubsection}{Etapas}{9}{section*.6}%
 \contentsline {subsubsection}{Empatizar}{9}{section*.7}%
 \contentsline {subsubsection}{Definir}{9}{section*.8}%
-\contentsline {subsubsection}{Idear}{9}{section*.9}%
-\contentsline {subsubsection}{Prototipar}{11}{section*.10}%
-\contentsline {subsubsection}{Testear}{13}{section*.11}%
-\contentsline {subsection}{\numberline {2.1.2}Lean Startup}{13}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Metodología Ágiles}{15}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Scrum}{15}{subsection.2.2.1}%
-\contentsline {subsubsection}{User Story Map}{16}{section*.12}%
-\contentsline {subsubsection}{Scrum Board}{17}{section*.13}%
-\contentsline {subsubsection}{User Stories}{18}{section*.14}%
-\contentsline {subsection}{\numberline {2.2.2}DevOps}{19}{subsection.2.2.2}%
-\contentsline {subsubsection}{Integración Continua (CI)}{20}{section*.15}%
-\contentsline {subsubsection}{Despliegue Continuo (CD)}{20}{section*.16}%
-\contentsline {section}{\numberline {2.3}Descripción Informática}{21}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Stack Tecnológico}{21}{subsection.2.3.1}%
-\contentsline {subsubsection}{Next.js}{22}{section*.17}%
-\contentsline {subsubsection}{TypeScript}{23}{section*.18}%
-\contentsline {subsubsection}{Node.js}{24}{section*.19}%
-\contentsline {subsubsection}{VSCode}{25}{section*.20}%
-\contentsline {subsubsection}{ESLint}{25}{section*.21}%
-\contentsline {subsubsection}{Prettier}{26}{section*.22}%
-\contentsline {subsection}{\numberline {2.3.2}Desarrollo}{26}{subsection.2.3.2}%
-\contentsline {subsubsection}{Diseño de Arquitectura}{26}{section*.23}%
-\contentsline {subsubsection}{Modelo de Componentes}{26}{section*.24}%
-\contentsline {subsubsection}{Buenas Prácticas}{26}{section*.25}%
-\contentsline {subsection}{\numberline {2.3.3}Testing}{28}{subsection.2.3.3}%
-\contentsline {subsubsection}{Pruebas Unitarias}{28}{section*.26}%
-\contentsline {subsubsection}{Pruebas Funcionales}{28}{section*.27}%
-\contentsline {subsubsection}{Evaluación de la Interfaz}{28}{section*.28}%
-\contentsline {section}{\numberline {2.4}Resultado Final}{28}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Conclusiones}{29}{chapter.3}%
-\contentsline {chapter}{Bibliografía}{31}{section*.29}%
-\contentsline {chapter}{Apéndices}{33}{section*.31}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{35}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{35}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{39}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Llegando a la Solución}{39}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Prototipo}{42}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{43}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Conceptos Musicales}{44}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Notas}{44}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Intervalos}{44}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Escalas}{44}{section.Alph4.3}%
+\contentsline {subsubsection}{Idear}{10}{section*.9}%
+\contentsline {subsubsection}{Prototipar}{12}{section*.10}%
+\contentsline {subsubsection}{Testear}{14}{section*.11}%
+\contentsline {subsection}{\numberline {2.1.2}Lean Startup}{14}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Metodología Ágiles}{16}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Scrum}{16}{subsection.2.2.1}%
+\contentsline {subsubsection}{User Story Map}{17}{section*.12}%
+\contentsline {subsubsection}{Scrum Board}{18}{section*.13}%
+\contentsline {subsubsection}{User Stories}{19}{section*.14}%
+\contentsline {subsection}{\numberline {2.2.2}DevOps}{20}{subsection.2.2.2}%
+\contentsline {subsubsection}{Integración Continua (CI)}{21}{section*.15}%
+\contentsline {subsubsection}{Despliegue Continuo (CD)}{21}{section*.16}%
+\contentsline {section}{\numberline {2.3}Descripción Informática}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Stack Tecnológico}{22}{subsection.2.3.1}%
+\contentsline {subsubsection}{Next.js}{23}{section*.17}%
+\contentsline {subsubsection}{TypeScript}{24}{section*.18}%
+\contentsline {subsubsection}{Node.js}{25}{section*.19}%
+\contentsline {subsubsection}{VSCode}{26}{section*.20}%
+\contentsline {subsubsection}{ESLint}{26}{section*.21}%
+\contentsline {subsubsection}{Prettier}{27}{section*.22}%
+\contentsline {subsection}{\numberline {2.3.2}Desarrollo}{27}{subsection.2.3.2}%
+\contentsline {subsubsection}{Diseño de Arquitectura}{27}{section*.23}%
+\contentsline {subsubsection}{Modelo de Componentes}{27}{section*.24}%
+\contentsline {subsubsection}{Buenas Prácticas}{27}{section*.25}%
+\contentsline {subsection}{\numberline {2.3.3}Testing}{29}{subsection.2.3.3}%
+\contentsline {subsubsection}{Pruebas Unitarias}{29}{section*.26}%
+\contentsline {subsubsection}{Pruebas Funcionales}{29}{section*.27}%
+\contentsline {subsubsection}{Evaluación de la Interfaz}{29}{section*.28}%
+\contentsline {section}{\numberline {2.4}Resultado Final}{29}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Conclusiones}{30}{chapter.3}%
+\contentsline {chapter}{Bibliografía}{32}{section*.29}%
+\contentsline {chapter}{Apéndices}{34}{section*.31}%
+\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{36}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{36}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{40}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Llegando a la Solución}{40}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Prototipo}{43}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{44}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Conceptos Musicales}{45}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Notas}{45}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Intervalos}{45}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Escalas}{45}{section.Alph4.3}%
