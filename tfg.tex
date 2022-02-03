@@ -894,7 +894,58 @@ En definitiva, Prettier se usa para problemas de formato de código y ESLint par
 
 \subsubsection{Diseño de Arquitectura}
 \subsubsection{Modelo de Componentes}
-\subsubsection{Code Guidelines (Buenas Prácticas)}
+\subsubsection{Buenas Prácticas}
+
+Al hablar de buenas prácticas en programación nos referimos a un conjunto de técnicas, principios, metodologías que debemos implementar en nuestro software para que se vuelva fácil, rápido y seguro de desarrollar, mantener y desplegar.
+
+\textbf{Guía de Estilo de Código}
+
+Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden encontrar en el archivo `.eslintrc.js` y `.prettierrc.js`. Además se han añadido las siguientes reglas personales:
+
+\begin{compactitem}
+    \item Tipos de TypeScript para los componentes en lugar de `props`.
+    \item No es necesario importar React cuando se usa Next.js
+    \item Desactivar la regla para enlaces predeterminada, no es compatible con los componentes `<Link />` de Next.js
+    \item Eliminar variables sin usar
+    \item Las funciones tienen que devolver siempre un tipo.
+    \item Uso de comas finales
+    \item Indentación a 2 espacios
+    \item Uso de comillas simples para strings
+    \item Longitud de línea máximo 120 caracteres
+    \item No usar tabulaciones
+    \item Finales de linea automaticos (`LF` to `CRLF`).
+\end{compactitem}
+
+\textbf{Principios Clean Code}
+
+Los principios de Clean Code nos permiten obtener como resultado un código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principales principios que se han intentado tener presentes a la hora de desarrollar el código son:
+
+\begin{compactitem}
+    \item **Follow Standard Conventions:** Seguir convenciones estandarizadas.
+    \item **DRY Principle (Don’t Repeat Yourself):** No repetir código
+    \item **The Principle of Least Surprise:** Las funciones o clases deben hacer lo que se espera que hagan.
+    \item **The Boy Scout Rule:** Dejar el código más limpio de como te lo encontraste.
+    \item **Keep It Simple Stupid:** Reducir la complejidad tanto como sea posible.
+    \item **You Are Not Gonna Needed:** Sólo se debe añadir el código que sea estrictamente necesario.
+    \item **Choose Descriptive Names:** El código debe ser legible para otros desarrolladores.
+    \item **Be Consistent:** Si haces algo de cierta manera, haz todas las cosas similares de la misma manera.
+    \item **Single Responsibility Principle:** Las clases deben tener solo una razón para cambiar
+    \item **Open/Closed Principle:** Las clases deben estar abiertas a extensiones pero cerrada a modificaciones
+    \item **Liskov Substitution Principle:** Las clases derivadas deben poder sustituirse por sus clases base
+    \item **Interface Segregation Principle:** Hacer interfaces que sean específicas para un tipo de cliente
+    \item **Dependency Inversion Principle:** Depende de abstracciones, no de clases concretas (nuestras clases deben depender de abstracciones, nunca de detalles concretos).
+\end{compactitem}
+
+\textbf{Otras Buenas Prácticas}
+
+\begin{compactitem}
+    \item Visualizar el flujo de trabajo.
+    \item Limitar el trabajo en proceso (Work in Progress) mediante un sistema de arrastre (pull) sobre el flujo de trabajo. Es decir no multitasking.
+    \item Circuitos de retroalimentación: reuniones periódicas.
+    \item Fomentar la visibilidad. No se puede mejorar algo que no se entiende. Esta es la razón por la cual el proceso debe estar bien definido, publicado y promovido.
+    \item Mejorar colaborando (usando modelos y el método científico)
+    \item Calidad perfecta a la primera: Búsqueda de cero defectos, detección y solución de los problemas en su origen.
+\end{compactitem}
 
 \subsection{Testing}
 

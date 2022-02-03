@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  1 FEB 2022 19:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 FEB 2022 21:15
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -996,8 +996,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-LaTeX Info: Redefining \. on input line 911.
-LaTeX Info: Redefining \% on input line 911.
+LaTeX Info: Redefining \. on input line 916.
+LaTeX Info: Redefining \% on input line 916.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1007,49 +1007,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+LaTeX Info: Redefining \. on input line 962.
+LaTeX Info: Redefining \% on input line 962.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]
 Cap\'{\i }tulo 3.
-[27
+[29
 
-] [28] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [29
+] [30] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [31
 
-] [30] [31] [32]
+] [32] [33] [34]
 Ap\'{e}ndice A.
-[33
+[35
 
 ]
-LaTeX Info: Redefining \. on input line 1027.
-LaTeX Info: Redefining \% on input line 1027.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[34]
-<assets//MVP.png, id=483, 1435.3625pt x 1265.72874pt>
-File: assets//MVP.png Graphic file (type png)
-<use assets//MVP.png>
-Package pdftex.def Info: assets//MVP.png  used on input line 1035.
-(pdftex.def)             Requested size: 143.54465pt x 126.58028pt.
-LaTeX Info: Redefining \. on input line 1068.
-LaTeX Info: Redefining \% on input line 1068.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[35pdfTeX warning (ext4): destination with the same identifier (name{figure.Alph1.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1068 
-        <./assets//MVP.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 1108.
-LaTeX Info: Redefining \% on input line 1108.
+LaTeX Info: Redefining \. on input line 1078.
+LaTeX Info: Redefining \% on input line 1078.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1059,8 +1052,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36]
-LaTeX Info: Redefining \. on input line 1139.
-LaTeX Info: Redefining \% on input line 1139.
+<assets//MVP.png, id=492, 1435.3625pt x 1265.72874pt>
+File: assets//MVP.png Graphic file (type png)
+<use assets//MVP.png>
+Package pdftex.def Info: assets//MVP.png  used on input line 1086.
+(pdftex.def)             Requested size: 143.54465pt x 126.58028pt.
+LaTeX Info: Redefining \. on input line 1119.
+LaTeX Info: Redefining \% on input line 1119.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1069,9 +1067,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37]
-LaTeX Info: Redefining \. on input line 1168.
-LaTeX Info: Redefining \% on input line 1168.
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.Alph1.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1119 
+        <./assets//MVP.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 1159.
+LaTeX Info: Redefining \% on input line 1159.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1081,8 +1083,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
-LaTeX Info: Redefining \. on input line 1184.
-LaTeX Info: Redefining \% on input line 1184.
+LaTeX Info: Redefining \. on input line 1190.
+LaTeX Info: Redefining \% on input line 1190.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1092,16 +1094,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
+LaTeX Info: Redefining \. on input line 1219.
+LaTeX Info: Redefining \% on input line 1219.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+LaTeX Info: Redefining \. on input line 1235.
+LaTeX Info: Redefining \% on input line 1235.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]
 Ap\'{e}ndice B.
-[40
+[42
 
 ]
 Ap\'{e}ndice C.
-[41
+[43
 
 ]
 Ap\'{e}ndice D.
-[42
+[44
 
 ] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -1120,17 +1144,17 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 ### semi simple group (level 1) entered at line 242 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14405 strings out of 478927
- 219899 string characters out of 2852535
+ 14415 strings out of 478927
+ 220015 string characters out of 2852535
  629654 words of memory out of 3000000
- 31868 multiletter control sequences out of 15000+600000
+ 31876 multiletter control sequences out of 15000+600000
  413512 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,81p,823b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\alber\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (55 pages, 2473649 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (57 pages, 2478158 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
+ 598 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
  366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
