@@ -871,7 +871,7 @@ Las extensiones más importantes para mejorar la experiencia de desarrollo y bue
 
 ESLint es una herramienta de análisis de código para identificar patrones problemáticos que se puede instalar como extensión en VSCode.
 
-Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Cuenta con unas reglas por defecto pero en este caso lo vamos a configurar con una guía de estilo JavaScript llamada StandardJS. Lo que nos permitirá:
+Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Se pueden usar guías de estilo cómo Airbnb, Standard o Google, pero en este caso lo vamos a configurar con la guía de estilo recomendada de ESLint y añadiremos reglas para TypeScript y React. Lo que nos permitirá:
 
 \begin{compactitem}
  \item Corregir errores de sintaxis
@@ -886,7 +886,7 @@ ESLint está diseñado para ser flexible y configurable por lo que añadimos eje
 
 Prettier es un formateador de código que puede instalarse como extensión en VSCode. Aplica un estilo consistente analizando el código y formateándolo con sus propias reglas que toman en cuenta la longitud máxima de línea, ajustando el código cuando es necesario.
 
-Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el estilo del código.
+Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el estilo del código. Para usarlo junto con ESLint hay que configurar este último para que use Prettier.
 
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
