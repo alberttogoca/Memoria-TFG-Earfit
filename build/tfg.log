@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 FEB 2022 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 FEB 2022 22:16
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -934,19 +934,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: assets//nextjs_routing.png Graphic file (type png)
 <use assets//nextjs_routing.png>
 Package pdftex.def Info: assets//nextjs_routing.png  used on input line 798.
-(pdftex.def)             Requested size: 264.99205pt x 167.7279pt.
+(pdftex.def)             Requested size: 353.31374pt x 223.63153pt.
 <assets//nextjs_noprerendering.png, id=423, 1391.1975pt x 690.58pt>
 File: assets//nextjs_noprerendering.png Graphic file (type png)
 <use assets//nextjs_noprerendering.png>
 Package pdftex.def Info: assets//nextjs_noprerendering.png  used on input line 808.
-(pdftex.def)             Requested size: 164.90894pt x 81.85443pt.
+(pdftex.def)             Requested size: 185.52412pt x 92.08623pt.
 <assets//nextjs_prerendering.png, id=424, 1391.1975pt x 827.09pt>
 File: assets//nextjs_prerendering.png Graphic file (type png)
 <use assets//nextjs_prerendering.png>
 Package pdftex.def Info: assets//nextjs_prerendering.png  used on input line 811.
-(pdftex.def)             Requested size: 164.90894pt x 98.03496pt.
-LaTeX Info: Redefining \. on input line 815.
-LaTeX Info: Redefining \% on input line 815.
+(pdftex.def)             Requested size: 185.52412pt x 110.28932pt.
+LaTeX Info: Redefining \. on input line 814.
+LaTeX Info: Redefining \% on input line 814.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -960,50 +960,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: assets//nextjs_prerenderinggraph.png Graphic file (type png)
 <use assets//nextjs_prerenderinggraph.png>
 Package pdftex.def Info: assets//nextjs_prerenderinggraph.png  used on input line 818.
-(pdftex.def)             Requested size: 278.63606pt x 172.24045pt.
+(pdftex.def)             Requested size: 222.91736pt x 137.7976pt.
 <assets//nextjs_ssr.png, id=432, 1391.1975pt x 803.0pt>
 File: assets//nextjs_ssr.png Graphic file (type png)
 <use assets//nextjs_ssr.png>
 Package pdftex.def Info: assets//nextjs_ssr.png  used on input line 833.
-(pdftex.def)             Requested size: 164.90894pt x 95.17957pt.
+(pdftex.def)             Requested size: 185.52412pt x 107.07701pt.
 <assets//nextjs_ssg.png, id=433, 1391.1975pt x 746.79pt>
 File: assets//nextjs_ssg.png Graphic file (type png)
 <use assets//nextjs_ssg.png>
 Package pdftex.def Info: assets//nextjs_ssg.png  used on input line 836.
-(pdftex.def)             Requested size: 164.90894pt x 88.517pt.
-<assets//nextjs_nocodesplit.jpg, id=434, 1027.84pt x 770.88pt>
+(pdftex.def)             Requested size: 185.52412pt x 99.58162pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 840.
+LaTeX Info: Redefining \% on input line 840.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./assets//nextjs_noprerendering.png> <./assets//nextjs_prerendering.png> <./assets//nextjs_prerenderinggraph.png>]
+<assets//nextjs_nocodesplit.jpg, id=445, 1027.84pt x 770.88pt>
 File: assets//nextjs_nocodesplit.jpg Graphic file (type jpg)
 <use assets//nextjs_nocodesplit.jpg>
 Package pdftex.def Info: assets//nextjs_nocodesplit.jpg  used on input line 846.
-(pdftex.def)             Requested size: 82.45447pt x 61.83633pt.
-<assets//nextjs_codesplit.jpg, id=435, 1027.84pt x 770.88pt>
+(pdftex.def)             Requested size: 164.90894pt x 123.67267pt.
+<assets//nextjs_codesplit.jpg, id=446, 1027.84pt x 770.88pt>
 File: assets//nextjs_codesplit.jpg Graphic file (type jpg)
 <use assets//nextjs_codesplit.jpg>
 Package pdftex.def Info: assets//nextjs_codesplit.jpg  used on input line 849.
-(pdftex.def)             Requested size: 82.45447pt x 61.83633pt.
-LaTeX Info: Redefining \. on input line 852.
-LaTeX Info: Redefining \% on input line 852.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[24 <./assets//nextjs_noprerendering.png> <./assets//nextjs_prerendering.png> <./assets//nextjs_prerenderinggraph.png> <./assets//nextjs_ssr.png> <./assets//nextjs_ssg.png>]
-<assets//nextjs_prefetch.png, id=451, 825.0825pt x 369.38pt>
+(pdftex.def)             Requested size: 164.90894pt x 123.67267pt.
+<assets//nextjs_prefetch.png, id=447, 825.0825pt x 369.38pt>
 File: assets//nextjs_prefetch.png Graphic file (type png)
 <use assets//nextjs_prefetch.png>
 Package pdftex.def Info: assets//nextjs_prefetch.png  used on input line 856.
-(pdftex.def)             Requested size: 247.52666pt x 110.81485pt.
-<assets//nextjs_hmr.png, id=452, 803.0pt x 347.2975pt>
+(pdftex.def)             Requested size: 371.28369pt x 166.21945pt.
+<assets//nextjs_hmr.png, id=448, 803.0pt x 347.2975pt>
 File: assets//nextjs_hmr.png Graphic file (type png)
 <use assets//nextjs_hmr.png>
 Package pdftex.def Info: assets//nextjs_hmr.png  used on input line 863.
-(pdftex.def)             Requested size: 240.90186pt x 104.19005pt.
-LaTeX Info: Redefining \. on input line 869.
-LaTeX Info: Redefining \% on input line 869.
+(pdftex.def)             Requested size: 361.34666pt x 156.28242pt.
+LaTeX Info: Redefining \. on input line 866.
+LaTeX Info: Redefining \% on input line 866.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1012,25 +1015,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25 <./assets//nextjs_nocodesplit.jpg> <./assets//nextjs_codesplit.jpg> <./assets//nextjs_prefetch.png> <./assets//nextjs_hmr.png>]
-<assets//TYPESCRIPT.png, id=461, 829.0975pt x 471.7625pt>
+[25 <./assets//nextjs_ssr.png> <./assets//nextjs_ssg.png> <./assets//nextjs_nocodesplit.jpg> <./assets//nextjs_codesplit.jpg> <./assets//nextjs_prefetch.png>]
+LaTeX Info: Redefining \. on input line 895.
+LaTeX Info: Redefining \% on input line 895.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26 <./assets//nextjs_hmr.png>]
+<assets//TYPESCRIPT.png, id=465, 829.0975pt x 471.7625pt>
 File: assets//TYPESCRIPT.png Graphic file (type png)
 <use assets//TYPESCRIPT.png>
 Package pdftex.def Info: assets//TYPESCRIPT.png  used on input line 908.
 (pdftex.def)             Requested size: 331.63313pt x 188.70164pt.
-LaTeX Info: Redefining \. on input line 912.
-LaTeX Info: Redefining \% on input line 912.
 
+Underfull \vbox (badness 1360) has occurred while \output is active []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[26]
-LaTeX Info: Redefining \. on input line 928.
-LaTeX Info: Redefining \% on input line 928.
+LaTeX Info: Redefining \. on input line 918.
+LaTeX Info: Redefining \% on input line 918.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1044,8 +1050,8 @@ Overfull \hbox (0.66144pt too wide) in paragraph at lines 929--930
 []\OT1/cmr/m/n/12 Cada vez que se a~nade un modu-lo, Yarn crea (o ac-tua-li-za) un ar-chi-vo yarn.lock.
  []
 
-LaTeX Info: Redefining \. on input line 952.
-LaTeX Info: Redefining \% on input line 952.
+LaTeX Info: Redefining \. on input line 938.
+LaTeX Info: Redefining \% on input line 938.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1054,8 +1060,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-LaTeX Info: Redefining \. on input line 984.
-LaTeX Info: Redefining \% on input line 984.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 971.
+LaTeX Info: Redefining \% on input line 971.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1065,10 +1073,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1017.
-LaTeX Info: Redefining \% on input line 1017.
+LaTeX Info: Redefining \. on input line 1001.
+LaTeX Info: Redefining \% on input line 1001.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1078,6 +1084,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 1033.
 LaTeX Info: Redefining \% on input line 1033.
 
@@ -1089,14 +1097,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
+LaTeX Info: Redefining \. on input line 1033.
+LaTeX Info: Redefining \% on input line 1033.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
 Cap\'{\i }tulo 3.
-[32
+[33
 
-] [33] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [34
+] [34] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [35
 
-] [35] [36] [37]
+] [36] [37] [38]
 Ap\'{e}ndice A.
-[38
+[39
 
 ]
 LaTeX Info: Redefining \. on input line 1149.
@@ -1109,8 +1128,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
-<assets//MVP.png, id=542, 1435.3625pt x 1265.72874pt>
+[40]
+<assets//MVP.png, id=546, 1435.3625pt x 1265.72874pt>
 File: assets//MVP.png Graphic file (type png)
 <use assets//MVP.png>
 Package pdftex.def Info: assets//MVP.png  used on input line 1157.
@@ -1125,7 +1144,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./assets//MVP.png (PNG copy)>]
+[41 <./assets//MVP.png (PNG copy)>]
 LaTeX Info: Redefining \. on input line 1230.
 LaTeX Info: Redefining \% on input line 1230.
 
@@ -1136,7 +1155,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
+[42]
 LaTeX Info: Redefining \. on input line 1261.
 LaTeX Info: Redefining \% on input line 1261.
 
@@ -1147,7 +1166,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
+[43]
 LaTeX Info: Redefining \. on input line 1290.
 LaTeX Info: Redefining \% on input line 1290.
 
@@ -1158,7 +1177,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
+[44]
 LaTeX Info: Redefining \. on input line 1306.
 LaTeX Info: Redefining \% on input line 1306.
 
@@ -1169,17 +1188,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44]
+[45]
 Ap\'{e}ndice B.
-[45
-
-]
-Ap\'{e}ndice C.
 [46
 
 ]
-Ap\'{e}ndice D.
+Ap\'{e}ndice C.
 [47
+
+]
+Ap\'{e}ndice D.
+[48
 
 ] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -1198,17 +1217,17 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 ### semi simple group (level 1) entered at line 243 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15908 strings out of 478927
- 250121 string characters out of 2852535
+ 15909 strings out of 478927
+ 250128 string characters out of 2852535
  657856 words of memory out of 3000000
  33342 multiletter control sequences out of 15000+600000
  413512 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,13n,81p,823b,820s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,13n,81p,823b,798s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\alber\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (60 pages, 2816893 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (61 pages, 2818032 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 161 named destinations out of 1000 (max. 500000)
  416 words of extra memory for PDF output out of 10000 (max. 10000000)
 

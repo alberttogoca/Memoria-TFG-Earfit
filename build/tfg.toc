@@ -32,30 +32,30 @@
 \contentsline {section}{\numberline {2.3}Descripción Informática}{22}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Stack Tecnológico}{22}{subsection.2.3.1}%
 \contentsline {subsubsection}{Next.js}{23}{section*.31}%
-\contentsline {subsubsection}{TypeScript}{26}{section*.39}%
-\contentsline {subsubsection}{Node.js}{27}{section*.41}%
+\contentsline {subsubsection}{TypeScript}{27}{section*.39}%
+\contentsline {subsubsection}{Node.js}{28}{section*.41}%
 \contentsline {subsubsection}{VSCode}{28}{section*.42}%
-\contentsline {subsubsection}{ESLint}{28}{section*.43}%
+\contentsline {subsubsection}{ESLint}{29}{section*.43}%
 \contentsline {subsubsection}{Prettier}{29}{section*.44}%
-\contentsline {subsection}{\numberline {2.3.2}Desarrollo}{29}{subsection.2.3.2}%
-\contentsline {subsubsection}{Diseño de Arquitectura}{29}{section*.45}%
-\contentsline {subsubsection}{Modelo de Componentes}{29}{section*.46}%
-\contentsline {subsubsection}{Buenas Prácticas}{29}{section*.47}%
+\contentsline {subsection}{\numberline {2.3.2}Desarrollo}{30}{subsection.2.3.2}%
+\contentsline {subsubsection}{Diseño de Arquitectura}{30}{section*.45}%
+\contentsline {subsubsection}{Modelo de Componentes}{30}{section*.46}%
+\contentsline {subsubsection}{Buenas Prácticas}{30}{section*.47}%
 \contentsline {subsection}{\numberline {2.3.3}Testing}{31}{subsection.2.3.3}%
-\contentsline {subsubsection}{Pruebas Unitarias}{31}{section*.48}%
-\contentsline {subsubsection}{Pruebas Funcionales}{31}{section*.49}%
-\contentsline {subsubsection}{Evaluación de la Interfaz}{31}{section*.50}%
-\contentsline {section}{\numberline {2.4}Resultado Final}{31}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Conclusiones}{32}{chapter.3}%
-\contentsline {chapter}{Bibliografía}{34}{section*.51}%
-\contentsline {chapter}{Apéndices}{36}{section*.53}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{38}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{38}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{42}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Llegando a la Solución}{42}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Prototipo}{45}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{46}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Conceptos Musicales}{47}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Notas}{47}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Intervalos}{47}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Escalas}{47}{section.Alph4.3}%
+\contentsline {subsubsection}{Pruebas Unitarias}{32}{section*.48}%
+\contentsline {subsubsection}{Pruebas Funcionales}{32}{section*.49}%
+\contentsline {subsubsection}{Evaluación de la Interfaz}{32}{section*.50}%
+\contentsline {section}{\numberline {2.4}Resultado Final}{32}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Conclusiones}{33}{chapter.3}%
+\contentsline {chapter}{Bibliografía}{35}{section*.51}%
+\contentsline {chapter}{Apéndices}{37}{section*.53}%
+\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{39}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{39}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{43}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Llegando a la Solución}{43}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Prototipo}{46}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{47}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Conceptos Musicales}{48}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Notas}{48}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Intervalos}{48}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Escalas}{48}{section.Alph4.3}%
