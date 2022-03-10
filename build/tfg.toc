@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\'{I}ndice de figuras}{IX}{chapter*.4}%
-\contentsline {chapter}{Índice de códigos}{XI}{chapter*.5}%
+\contentsline {chapter}{\'{I}ndice de figuras}{X}{chapter*.4}%
+\contentsline {chapter}{Índice de códigos}{XII}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Entrenamiento Auditivo}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Oído Absoluto}{2}{subsection.1.1.1}%
@@ -42,20 +42,21 @@
 \contentsline {subsubsection}{Modelo de Componentes}{30}{section*.46}%
 \contentsline {subsubsection}{Buenas Prácticas}{30}{section*.47}%
 \contentsline {subsection}{\numberline {2.3.3}Testing}{32}{subsection.2.3.3}%
-\contentsline {subsubsection}{Pruebas Unitarias}{32}{section*.48}%
-\contentsline {subsubsection}{Pruebas Funcionales}{32}{section*.49}%
-\contentsline {subsubsection}{Evaluación de la Interfaz}{32}{section*.50}%
-\contentsline {section}{\numberline {2.4}Resultado Final}{32}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Conclusiones}{33}{chapter.3}%
-\contentsline {chapter}{Bibliografía}{35}{section*.51}%
-\contentsline {chapter}{Apéndices}{35}{section*.52}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{38}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{38}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{42}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Llegando a la Solución}{42}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Prototipo}{45}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{46}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Conceptos Musicales}{47}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Notas}{47}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Intervalos}{47}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Escalas}{47}{section.Alph4.3}%
+\contentsline {subsubsection}{Pruebas Unitarias}{33}{section*.48}%
+\contentsline {subsubsection}{Pruebas Funcionales}{33}{section*.49}%
+\contentsline {subsubsection}{Pruebas No Funcionales}{33}{section*.50}%
+\contentsline {subsubsection}{Evaluación de la Interfaz}{36}{section*.51}%
+\contentsline {section}{\numberline {2.4}Resultado Final}{36}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Conclusiones}{37}{chapter.3}%
+\contentsline {chapter}{Bibliografía}{39}{section*.52}%
+\contentsline {chapter}{Apéndices}{41}{section*.54}%
+\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{43}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{43}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{47}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Llegando a la Solución}{47}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Prototipo}{50}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{51}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Conceptos Musicales}{52}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Notas}{52}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Intervalos}{52}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Escalas}{52}{section.Alph4.3}%
