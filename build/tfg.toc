@@ -21,7 +21,7 @@
 \contentsline {subsubsection}{Prototipar}{12}{section*.13}%
 \contentsline {subsubsection}{Testear}{14}{section*.17}%
 \contentsline {subsection}{\numberline {2.1.2}Lean Startup}{14}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Metodología Ágiles}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Metodologías Ágiles}{16}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Scrum}{16}{subsection.2.2.1}%
 \contentsline {subsubsection}{User Story Map}{17}{section*.20}%
 \contentsline {subsubsection}{Scrum Board}{18}{section*.22}%
@@ -32,31 +32,47 @@
 \contentsline {section}{\numberline {2.3}Descripción Informática}{22}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Stack Tecnológico}{22}{subsection.2.3.1}%
 \contentsline {subsubsection}{Next.js}{23}{section*.31}%
-\contentsline {subsubsection}{TypeScript}{27}{section*.39}%
-\contentsline {subsubsection}{Node.js}{28}{section*.41}%
-\contentsline {subsubsection}{VSCode}{29}{section*.42}%
-\contentsline {subsubsection}{ESLint}{29}{section*.43}%
-\contentsline {subsubsection}{Prettier}{30}{section*.44}%
-\contentsline {subsection}{\numberline {2.3.2}Desarrollo}{30}{subsection.2.3.2}%
-\contentsline {subsubsection}{Diseño de Arquitectura}{30}{section*.45}%
-\contentsline {subsubsection}{Modelo de Componentes}{30}{section*.46}%
-\contentsline {subsubsection}{Buenas Prácticas}{30}{section*.47}%
-\contentsline {subsection}{\numberline {2.3.3}Testing}{32}{subsection.2.3.3}%
-\contentsline {subsubsection}{Pruebas Unitarias}{33}{section*.48}%
-\contentsline {subsubsection}{Pruebas Funcionales}{33}{section*.49}%
-\contentsline {subsubsection}{Pruebas No Funcionales}{33}{section*.50}%
-\contentsline {subsubsection}{Evaluación de la Interfaz}{36}{section*.51}%
-\contentsline {section}{\numberline {2.4}Resultado Final}{36}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Conclusiones}{37}{chapter.3}%
-\contentsline {chapter}{Bibliografía}{39}{section*.52}%
-\contentsline {chapter}{Apéndices}{41}{section*.54}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{43}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{43}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{47}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Llegando a la Solución}{47}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Prototipo}{50}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{51}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Conceptos Musicales}{52}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Notas}{52}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Intervalos}{52}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Escalas}{52}{section.Alph4.3}%
+\contentsline {subsubsection}{React.js}{26}{section*.39}%
+\contentsline {subsubsection}{Vercel}{27}{section*.40}%
+\contentsline {subsubsection}{TypeScript}{27}{section*.41}%
+\contentsline {subsubsection}{Node.js}{28}{section*.43}%
+\contentsline {subsubsection}{NPM o Yarn}{29}{section*.44}%
+\contentsline {subsubsection}{VSCode}{29}{section*.45}%
+\contentsline {subsubsection}{ESLint}{29}{section*.46}%
+\contentsline {subsubsection}{Prettier}{30}{section*.47}%
+\contentsline {subsection}{\numberline {2.3.2}Arquitectura}{30}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Modelo de Componentes}{30}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Buenas Prácticas}{30}{subsection.2.3.4}%
+\contentsline {subsubsection}{Guía de Estilo de Código}{30}{section*.48}%
+\contentsline {subsubsection}{Principios Clean Code}{31}{section*.49}%
+\contentsline {subsubsection}{Otras Buenas Prácticas}{32}{section*.50}%
+\contentsline {subsection}{\numberline {2.3.5}Pruebas Funcionales}{32}{subsection.2.3.5}%
+\contentsline {subsubsection}{Coste de las pruebas automáticas}{32}{section*.51}%
+\contentsline {subsubsection}{Objetivos de las pruebas}{32}{section*.52}%
+\contentsline {subsubsection}{Pruebas de sistema}{33}{section*.53}%
+\contentsline {subsubsection}{Pruebas manuales}{33}{section*.54}%
+\contentsline {subsubsection}{Pruebas de aceptación}{34}{section*.55}%
+\contentsline {subsection}{\numberline {2.3.6}Pruebas No Funcionales}{34}{subsection.2.3.6}%
+\contentsline {subsubsection}{Google Lighthouse}{34}{section*.56}%
+\contentsline {subsubsection}{Performance}{35}{section*.58}%
+\contentsline {subsubsection}{Accessibility}{35}{section*.59}%
+\contentsline {subsubsection}{Best Practices}{36}{section*.62}%
+\contentsline {subsubsection}{SEO}{37}{section*.64}%
+\contentsline {subsubsection}{Progressive Web Apps}{37}{section*.66}%
+\contentsline {subsubsection}{Vercel Analytics}{38}{section*.68}%
+\contentsline {subsubsection}{Real Experience Score}{39}{section*.70}%
+\contentsline {subsubsection}{Web Vitals}{39}{section*.72}%
+\contentsline {subsection}{\numberline {2.3.7}Evaluación de la Interfaz}{40}{subsection.2.3.7}%
+\contentsline {chapter}{\numberline {3}Conclusiones}{41}{chapter.3}%
+\contentsline {chapter}{Bibliografía}{43}{section*.73}%
+\contentsline {chapter}{Apéndices}{45}{section*.75}%
+\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{47}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{47}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{51}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Llegando a la Solución}{51}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Prototipo}{54}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{55}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Conceptos Musicales}{56}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Notas}{56}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Intervalos}{56}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Escalas}{56}{section.Alph4.3}%
