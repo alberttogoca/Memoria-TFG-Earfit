@@ -395,24 +395,6 @@ Las personas que disponen de oído relativo son capaces de:
 
 Los ejercicios más comunes de entrenamiento auditivo te ayudarán a desarrollar tu oído relativo.
 
-\section{Descripción del Proyecto}
-
-El presente Trabajo de Fin de Grado se centra en el diseño e implementación de una aplicación web con la finalidad de ayudar a músicos a desarrollar su oído musical mediante la realización de ejercicios de entrenamiento auditivo. 
-
-La aplicación se centrará en tres tipos diferentes de ejercicios divididos en la localización de notas, intervalos y escalas. Para cada uno de los ejercicios se ha diseñado una página específica, que incluirá:
-
-El propio ejercicio, que consistirá en un botón que reproducirá el sonido correspondiente al ejercicio (una nota, un intervalo o una escala), calculado aleatoriamente teniendo en cuenta las posibles respuestas disponibles. La idea es que el usuario trate de adivinar el sonido que está sonando. Cuando pulse sobre una respuesta se evaluará si es correcta o incorrecta. Si es incorrecta el botón cambiará a color rojo y podrá seguir probando. Si es correcta el botón cambiará a verde un segundo, se reseterán los colores de los botones de respuesta y se calculará un nuevo sonido. También existe un contador de racha que aparecerá cuando se den tres aciertos consecutivos y desaparecerá cuando se falle, lo que animará a seguir practicando.
-
-A su derecha aparecerán las opciones con las que podrá personalizar el ejercicio a su gusto, añadiendo o quitando respuestas disponibles del ejercicio lo que incrementará o disminuirá la dificultad. 
-
-Además, en el ejercicio de notas se podrá cambiar la escala de la que se seleccionan las notas y en los ejercicios de intervalos y escalas se podrá elegir si las sucesión de notas será ascendente o descendente. 
-
-También todos los ejercicios incorporarán un piano que los usuarios podrán usar para tocar notas de referencia y ayudarse en la obtención de la respuesta correcta. 
-
-Aparte, se ha incorporado la posibilidad de poder cambiar el instrumento que suena y que será persistente para toda la aplicación.
-
-Toda la aplicación se ha diseñado teniendo en mente que el diseño fuera simple, fácil de entender y limpio. Ha sido desarrollada utilizando Nextjs y Typescript. Y se ha seguido un despliegue continuo de la aplicación en Vercel. Utilizando Metodologías Ágiles y prácticas de DevOps para llevar a cabo la organización y el desarrollo del producto. Además de Design Thinking y Lean Startup para la ideación, diseño y creación de la solución.
-
 \section{Estado del Arte}
 
 En la actualidad ya existen algunas aplicaciones para entrenar el oído como pueden ser:
@@ -475,6 +457,24 @@ La mayoría de ellas está de acuerdo en qué el método más efectivo para prog
 
 Todas ellas plantean diferentes ejercicios para reconocer notas, intervalos y escalas. La mayor diferencia que se encuentra en ellas es su diseño y su nivel de personalización de los ejercicios, que es donde vamos a enfocar este trabajo. Dando no sólo una aplicación con ejercicios sino una herramienta que te dé la libertad de configurarla a tu gusto.
 
+\section{Descripción del Proyecto}
+
+El presente Trabajo de Fin de Grado se centra en el diseño e implementación de una aplicación web con la finalidad de ayudar a músicos a desarrollar su oído musical mediante la realización de ejercicios de entrenamiento auditivo. 
+
+La aplicación se centrará en tres tipos diferentes de ejercicios divididos en la localización de notas, intervalos y escalas. Para cada uno de los ejercicios se ha diseñado una página específica, que incluirá:
+
+El propio ejercicio, que consistirá en un botón que reproducirá el sonido correspondiente al ejercicio (una nota, un intervalo o una escala), calculado aleatoriamente teniendo en cuenta las posibles respuestas disponibles. La idea es que el usuario trate de adivinar el sonido que está sonando. Cuando pulse sobre una respuesta se evaluará si es correcta o incorrecta. Si es incorrecta el botón cambiará a color rojo y podrá seguir probando. Si es correcta el botón cambiará a verde un segundo, se reseterán los colores de los botones de respuesta y se calculará un nuevo sonido. También existe un contador de racha que aparecerá cuando se den tres aciertos consecutivos y desaparecerá cuando se falle, lo que animará a seguir practicando.
+
+A su derecha aparecerán las opciones con las que podrá personalizar el ejercicio a su gusto, añadiendo o quitando respuestas disponibles del ejercicio lo que incrementará o disminuirá la dificultad. 
+
+Además, en el ejercicio de notas se podrá cambiar la escala de la que se seleccionan las notas y en los ejercicios de intervalos y escalas se podrá elegir si las sucesión de notas será ascendente o descendente. 
+
+También todos los ejercicios incorporarán un piano que los usuarios podrán usar para tocar notas de referencia y ayudarse en la obtención de la respuesta correcta. 
+
+Aparte, se ha incorporado la posibilidad de poder cambiar el instrumento que suena y que será persistente para toda la aplicación.
+
+Toda la aplicación se ha diseñado teniendo en mente que el diseño fuera simple, fácil de entender y limpio. Ha sido desarrollada utilizando Nextjs y Typescript. Y se ha seguido un despliegue continuo de la aplicación en Vercel. Utilizando Metodologías Ágiles y prácticas de DevOps para llevar a cabo la organización y el desarrollo del producto. Además de Design Thinking y Lean Startup para la ideación, diseño y creación de la solución.
+
 \section{Objetivos}
 
 El objetivo principal del TFG es desarrollar una herramienta que permita ayudar a músicos a desarrollar su oído musical. Mediante el entrenamiento auditivo.
@@ -515,6 +515,7 @@ Se espera que sea lo suficientemente clarificador y que permita una lectura comp
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 Contenidos Principales %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \chapter{Contenidos principales}
 \label{chap:contenidos}
 
@@ -966,7 +967,7 @@ Para ello, analiza el código y lo da formato cada vez que se guarda el archivo.
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
 \subsection{Arquitectura}
-\subsection{Modelo de Componentes}
+
 \subsection{Buenas Prácticas}
 
 Al hablar de buenas prácticas en programación nos referimos a un conjunto de técnicas, principios, metodologías que debemos implementar en nuestro software para que se vuelva fácil, rápido y seguro de desarrollar, mantener y desplegar.
@@ -1096,8 +1097,8 @@ Cualquier problema detectado por CI debe repararse de forma inmediata antes de c
 
 El Product Backlog Item describia una funcionalidad que se testeaba en un entorno de desarrollo para validar los criterios de aceptacion del item desarrollado.
 
-
 \subsection{Pruebas No Funcionales}
+
 \subsubsection{Google Lighthouse}
 
 Google Lighthouse es una herramienta automatizada de código abierto para medir la calidad de las páginas web. Audita el rendimiento, la accesibilidad, y la optimización de páginas web.
@@ -1206,7 +1207,6 @@ Son una colección de métrica establecidas por Google(https://web.dev/vitals/) 
     \item\textbf{Cumulative Layout Shift (CLS):} Mide la estabilidad visual, o cuánto se mueven los elementos después de mostrarse al usuario. Por ejemplo, cuando un botón se mueve porque una imagen se cargó tarde, eso es CLS.
     \item\textbf{First Input Delay (FID):} Mide la capacidad de respuesta de la página, o cuánto tiempo esperan los usuarios para ver la reacción de su primera interacción con la página. Por ejemplo, la cantidad de tiempo entre el momento en que hago clic en "Agregar al carrito" y el incremento del número de artículos en el carrito es FID.
 \end{itemize}
-
 
 \subsection{Evaluación de la Interfaz}
 
@@ -1491,13 +1491,69 @@ Para ver capturas de la aplicación tras todo este proceso puedes ir al apartado
 \label{sec:apendice}
 
 \section{Notas}
-
-Sección del apéndice
-
 \section{Intervalos}
 \section{Escalas}
 
+\chapter{Manifiesto Ágil}
 
+\begin{table}[h]
+    \begin{center}
+        \begin{tabular}{| l | l | l |}
+            \hline
+            Individuos e Interacciones & sobre & Procesos y Herramientas. \\ \hline
+            Software que Funciona & sobre & Documentación Exhaustiva. \\ \hline
+            Colaboración con el Cliente & sobre & Negociación del Contrato. \\ \hline
+            Reaccionar al Cambio & sobre & Seguir un Plan. \\ \hline
+        \end{tabular}
+        \caption{Elementos del Manifiesto Ágil}
+        \label{tab:fruta}
+    \end{center}
+\end{table}
+
+“Valoramos los elementos de la derecha, pero valoramos más aún los elementos de la izquierda”
+Firmantes (17):
+
+\begin{compactitem}
+    \item Kent Beck, Alistair Cockburn, Ward Cunnigham, Martin Fowler.
+    \item Jim Highsmith, Andrew Hunt, Ron Jeffries, Robert C. Martin.
+    \item Steve Mellor, Ken Schwaber, Jeff Sutherland, Dave Thomas.
+    \item Además de Mike Beedle, Arie van Bennekum, James Greening, John Kern y Brian Marick.
+\end{compactitem}
+
+\section{Valores del Manifiesto Ágil}
+\begin{itemize}
+    \item Valorar a los individuos y las iteraciones del equipo de desarrollo sobre el proceso y las herramientas. Buenas prácticas de desarrollo y gestión de los participantes del proyecto.
+    \item Desarrollar software que funciona más que conseguir una documentación exhaustiva. Los documentos cortos y centrados en lo fundamental.
+    \item La colaboración con el cliente más que la negociación de un contrato. Interacción constante entre el cliente y el equipo de desarrollo.
+    \item Responder a los cambios más que seguir estrictamente un plan. Pasamos de la anticipación y la planificación estricta a la adaptación.
+\end{itemize}
+
+\section{Principios del Manifiesto Ágil}
+\begin{enumerate}
+    \item La prioridad es satisfacer al cliente mediante entregas tempranas y continuas de software con valor.
+    \item Dar bienvenida a los cambios. Los proyectos ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente.
+    \item Entregar frecuentemente software que funcione. Con periodicidad de entre dos semanas y un par de meses, con preferencia por periodos lo más cortos posible.
+    \item La gente del negocio y los desarrolladores deben trabajar juntos a lo largo del proyecto.
+    \item Construir proyectos en torno a individuos motivados. Dándoles el entorno y soporte que necesitan y confiando en ellos para que realicen el trabajo.
+    \item El diálogo cara a cara es más efectivo y eficiente para comunicar información en un equipo de desarrollo.
+    \item El software que funciona es la principal medida de progreso.
+    \item Los procesos ágiles promueven el desarrollo sostenible. Los promotores, desarrolladores y usuarios deben ser capaces de mantener un ritmo constante de forma indefinida.
+    \item La atención continua a la excelencia técnica y los buenos diseños mejoran la agilidad.
+    \item La simplicidad es esencial.
+    \item Las mejores arquitecturas, requisitos y diseños surgen de equipos que se autoorganizan.
+    \item En intervalos regulares el equipo reflexiona sobre cómo ser más efectivo, y según esto ajusta su comportamiento.
+\end{enumerate}
+
+\section{Malas interpretaciones del Manifiesto Ágil}
+\begin{itemize}
+    \item Ausencia total de documentación.
+    - Documentar de manera ágil, pero documentar. La documentación al servicio del proyecto.
+    \item Ausencia total de planificación.
+    - Planificar y ser flexibles es diferente de improvisar.
+    \item El cliente debe hacer todo el trabajo y ser el jefe del proyecto.
+    - Forma parte del equipo de desarrollo pero tiene un rol propio. No existe el rol tradicional de “jefe de proyecto”.
+    \item El equipo puede modificar la metodología sin justificación.
+\end{itemize}
 
 
 
