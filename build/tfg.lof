@@ -29,18 +29,24 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Con Code Splitting}}}{25}{subfigure.18.2}%
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Pre-fetching\relax }}{25}{figure.caption.37}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Fast Refresh\relax }}{26}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces TypeScript\relax }}{28}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Puntuaciones de Lighthouse\relax }}{34}{figure.caption.57}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Accesibility\relax }}{35}{figure.caption.60}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Contrast fail\relax }}{36}{figure.caption.61}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Best Practices\relax }}{36}{figure.caption.63}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces SEO\relax }}{37}{figure.caption.65}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces PWA\relax }}{38}{figure.caption.67}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Vercel Analytics\relax }}{38}{figure.caption.69}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Web Vitals\relax }}{39}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces React Components\relax }}{27}{figure.caption.40}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Diagrama de una página}}}{27}{subfigure.21.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagrama de un React Component}}}{27}{subfigure.21.2}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Reconciliación Virtual DOM\relax }}{27}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Flujo de trabajo DPS\relax }}{28}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces TypeScript\relax }}{29}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces ESLint, Prettier y VSCode\relax }}{31}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Puntuaciones de Lighthouse\relax }}{36}{figure.caption.61}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Accesibility\relax }}{37}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Contrast fail\relax }}{37}{figure.caption.65}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Best Practices\relax }}{38}{figure.caption.67}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces SEO\relax }}{39}{figure.caption.69}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces PWA\relax }}{40}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Vercel Analytics\relax }}{40}{figure.caption.73}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Web Vitals\relax }}{41}{figure.caption.75}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces MVP\relax }}{49}{figure.caption.76}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces MVP\relax }}{51}{figure.caption.80}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -802,7 +802,7 @@ Next nos permite, instalando una sola dependencia, tener configurado todo lo que
         \caption{Nextjs Routing}
     \end{figure}
     
-    \item **Pre-rendering**: De forma predeterminada, Next.js procesa previamente cada página. Esto significa que genera HTML para cada página por adelantado, en lugar de que JavaScript del lado del cliente lo haga todo. La renderización previa puede resultar en un mejor rendimiento y SEO. 
+    \item **Pre-rendering**: De forma predeterminada, Next.js procesa previamente cada página. Esto significa que genera HTML para cada página por adelantado, en lugar de que JavaScript del lado del cliente lo haga todo (Ver figuras 1, 2 y 3). 
     \begin{figure}[H]
         \centering
          \subfloat[Sin Pre-rendering]{
@@ -814,6 +814,8 @@ Next nos permite, instalando una sola dependencia, tener configurado todo lo que
         \caption{Prerendering}
         \label{f:Prerendering}
        \end{figure}
+
+       La renderización previa puede resultar en un mejor rendimiento y SEO. Cuando llegue el robot de Google podremos entregarle el contenido ya renderizado y esto nos permitirá posicionar igual de bien que una web estática.
 
     \begin{figure}[H]
         \centering
@@ -879,7 +881,26 @@ Es una biblioteca de código abierto para proyectos de JavaScript mantenida por 
 
 React está basado en un paradigma llamado programación orientada a componentes en el que cada componente es una pieza con la que el usuario puede interactuar. Estas piezas se crean usando una sintaxis llamada JSX permitiendo escribir HTML (y opcionalmente CSS) dentro de objetos JavaScript. Estos componentes son reutilizables y se combinan para crear componentes mayores hasta configurar una web completa.
 
+\begin{figure}[H]
+    \centering
+     \subfloat[Diagrama de una página]{
+      \label{f:React-components_w}
+       \includegraphics[width=0.4\textwidth]{React-components_w}}
+     \subfloat[Diagrama de un React Component]{
+      \label{f:ReactComponent}
+       \includegraphics[width=0.45\textwidth]{ReactComponent}}
+    \caption{React Components}
+    \label{f:ReactComponents}
+   \end{figure}
+
 Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (DOM virtual) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{React_VirtualDom}
+    \label{fig:React_VirtualDom}
+    \caption{Reconciliación Virtual DOM}
+\end{figure}
 
 Esta es la forma de tener HTML con toda la funcionalidad de JavaScript y CSS centralizado y listo para ser abstraído y usado en cualquier otro proyecto.
 
@@ -893,6 +914,13 @@ Es una plataforma en la nube que permite a los desarrolladores alojar sitios web
 \end{compactitem}
 
 Aparte ofrece muchas más funciones, como: dominios personalizados, variables de entorno, HTTPS automático y una vista previa de cada rama de Github por cada subida de código.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{vercel_workflow}
+    \label{fig:vercel_workflow}
+    \caption{Flujo de trabajo DPS}
+\end{figure}
 
 Usar Nextjs junto con Vercel nos permite seguir el flujo de trabajo DPS: Develop, Preview and Ship (Desarrollo, Vista previa y Enviar a producción).
 
@@ -942,6 +970,13 @@ Gracias a su integración de Git es sencillo revisar las diferencias, preparar l
 Además cuenta con una biblioteca de extensiones, las cuales nos da un sin número de opciones para ser más eficiente a la hora de estar programando. Desde extensiones de otros lenguajes de programación como diferentes herramientas para visualizar o estructurar el código de manera más eficiente.
 
 Las extensiones más importantes para mejorar la experiencia de desarrollo y buenas prácticas de este proyecto fueron las que se explican a continuación. Configurar estas herramientas será una inversión que haremos una vez y sus beneficios los notaremos durante todo el proyecto
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{VScode_extensions}
+    \label{fig:VScode_extensions}
+    \caption{ESLint, Prettier y VSCode}
+\end{figure}
 
 \subsubsection{ESLint}
 
