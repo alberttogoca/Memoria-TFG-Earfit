@@ -1058,79 +1058,64 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
 
 \subsection{Pruebas Funcionales}
 
-El testing de software o software QA, es un proceso para verificar y validar la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad.
-
-\subsubsection{Coste de las pruebas automáticas}
-
-- Implementar pruebas automáticas tiene asociado un coste de implementación y mantenimiento.
-
-- Hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente a coste.
-
-\subsubsection{Objetivos de las pruebas}
-
-- Verificar que el software funciona como fue diseñado.
+**Objetivos:**
 
 - Evaluar las suposiciones hechas en las especificaciones de requisitos y diseño a través de demostración concreta.
 
-- Encontrar errores en el software para que se puedan corregir antes de que el software llegue a producción.
+**Cómo se ejecutan:**
 
-Cada requisito, caso de uso o historia de usuario debería probarse para asegurarse de que se ha implementado y se obtienen los resultados esperados.
+- Las pruebas se realizaron de forma manual dado que es una aplicación pequeña y el desarrollo de pruebas automáticas tiene asociado un coste de implementación y mantenimiento. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente a coste.
 
-Característica del software (feature): funcionalidad o aspecto no funcional que ofrece un software y que se puede comprobar.
+**Para** **cada tipo de prueba:**
 
-- Sujeto bajo Prueba (Subject under Test - SUT): software que estamos probando. El SUT se define siempre desde la perspectiva de la prueba. A veces conocido como Sofware under Test.
+- El **SUT** (Subject under Test - Sujeto bajo Prueba) se define siempre desde la perspectiva de la prueba.
+- Cada tipo de prueba pretende abordar un **objetivo** en concreto.
+- Se han intentado probar todos los **Test Cases o Casos de prueba** posibles.
 
-- Prueba o Caso de Prueba (Test Case): Procedimiento para validar/verificar el SUT. Usualmente está formado por un estado inicial, una lista de pasos para interactuar con el SUT y el resultado esperado
+\subsubsection{Pruebas de Componentes}
 
-Existen muchas formas de clasificar las pruebas:
+**SUT:** Componente
 
-- Qué características prueban: **Funcionales o no funcionales**
+**Objetivo:**
 
-- Qué es el SUT: **Unidad, componente, integración, sistema**
-
-- Cómo se ejecutan: **Manuales o automáticas**
-
-- Con qué objetivo se hace la prueba: **Aceptación, smoke (humo), sanity (sanidad)**
-
-- Con qué conocimientos se diseñan: **Caja blanca frente a Caja negra**
-
-Ejemplo de prueba funcional:
-
-- Given: En una tienda de comercio electrónico, si el usuario está en la página de un producto y tiene la cesta vacía.
-
-- When: El usuario pulsa el botón de añadir producto a la cesta.
-
-- Then: El icono de la cesta aparece un 1 producto.
-
-\subsubsection{Pruebas de sistema}
-
+- Pruebas de aceptación que permiten validar si el software cumple con los objetivos para los que fue diseñado.
 - Las pruebas permiten verificar si el software se comporta como se espera.
+- Característica del software (feature): funcionalidad o aspecto no funcional que ofrece un software y que se puede comprobar.
 
-- Implícitamente estamos asumiendo que se prueba el sistema completo, que es sobre el que se definen los requisitos.
+**Prueba o Caso de Prueba (Test Case):** 
 
-- En estas pruebas el SUT (Sujeto bajo prueba) es el sistema completo.
+- El Product Backlog Item describia una funcionalidad que se testeaba en un entorno de desarrollo para validar los criterios de aceptacion del item desarrollado.
 
-- A veces se las llama pruebas extremo a extremo, end to end o e2e (aunque existen ciertas diferencias)
+\subsubsection{Pruebas de Integración}
 
-\subsubsection{Pruebas manuales}
+**SUT:** Sistema 
 
-- La prueba que es realizada por una persona interactuando con el SUT.
+**Objetivo:**
 
-- El usuario puede seguir algún orden o guión o con pruebas exploratorias.
-
-\subsubsection{Pruebas de aceptación}
-
-- Pruebas de sistema que permiten validar si el sistema cumple con los objetivos para los que fue diseñado.
-
-Pruebas de sanidad (sanity check):
-
-- Prueba las funcionalidades básicas del sistema. Usadas después de un despliegue.
-
-Cualquier problema detectado por CI debe repararse de forma inmediata antes de continuar con el desarrollo
-
+- Verificar que el sistema funciona como fue diseñado.
+- Encontrar errores en el software para que se puedan corregir antes de que el software llegue a producción.
+- Cualquier problema detectado por CI debe repararse de forma inmediata antes de continuar con el desarrollo
 - En cada momento tenemos una visión general del estado del proyecto software desarrollado.
 
-El Product Backlog Item describia una funcionalidad que se testeaba en un entorno de desarrollo para validar los criterios de aceptacion del item desarrollado.
+**Prueba o Caso de Prueba (Test Case):**
+
+- Cada requisito, caso de uso o historia de usuario debería probarse para asegurarse de que se ha implementado y se obtienen los resultados esperados.
+
+\subsubsection{Pruebas End to End (E2E)}
+
+**SUT:** Sistema 
+
+- Implícitamente estamos asumiendo que se prueba el sistema completo, que es sobre el que se definen los requisitos.
+- En estas pruebas el SUT (Sujeto bajo prueba) es el sistema completo.
+- A veces se las llama pruebas extremo a extremo, end to end o e2e (aunque existen ciertas diferencias)
+
+**Objetivo:**
+
+- Pruebas de sanidad (sanity check): Prueba las funcionalidades básicas del sistema. Usadas después de un despliegue.
+
+**Prueba o Caso de Prueba (Test Case):**
+
+- Cada requisito, caso de uso o historia de usuario debería probarse para asegurarse de que se ha implementado y se obtienen los resultados esperados.
 
 \subsection{Pruebas No Funcionales}
 

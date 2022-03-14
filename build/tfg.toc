@@ -46,36 +46,34 @@
 \contentsline {subsubsection}{Principios Clean Code}{32}{section*.53}%
 \contentsline {subsubsection}{Otras Buenas Prácticas}{33}{section*.54}%
 \contentsline {subsection}{\numberline {2.3.4}Pruebas Funcionales}{33}{subsection.2.3.4}%
-\contentsline {subsubsection}{Coste de las pruebas automáticas}{33}{section*.55}%
-\contentsline {subsubsection}{Objetivos de las pruebas}{34}{section*.56}%
-\contentsline {subsubsection}{Pruebas de sistema}{35}{section*.57}%
-\contentsline {subsubsection}{Pruebas manuales}{35}{section*.58}%
-\contentsline {subsubsection}{Pruebas de aceptación}{35}{section*.59}%
+\contentsline {subsubsection}{Pruebas de Componentes}{34}{section*.55}%
+\contentsline {subsubsection}{Pruebas de Integración}{34}{section*.56}%
+\contentsline {subsubsection}{Pruebas End to End (E2E)}{34}{section*.57}%
 \contentsline {subsection}{\numberline {2.3.5}Pruebas No Funcionales}{35}{subsection.2.3.5}%
-\contentsline {subsubsection}{Google Lighthouse}{35}{section*.60}%
-\contentsline {subsubsection}{Performance}{36}{section*.62}%
-\contentsline {subsubsection}{Accessibility}{36}{section*.63}%
-\contentsline {subsubsection}{Best Practices}{37}{section*.66}%
-\contentsline {subsubsection}{SEO}{38}{section*.68}%
-\contentsline {subsubsection}{Progressive Web Apps}{39}{section*.70}%
-\contentsline {subsubsection}{Vercel Analytics}{40}{section*.72}%
-\contentsline {subsubsection}{Real Experience Score}{41}{section*.74}%
-\contentsline {subsubsection}{Web Vitals}{41}{section*.76}%
-\contentsline {subsection}{\numberline {2.3.6}Evaluación de la Interfaz}{42}{subsection.2.3.6}%
-\contentsline {chapter}{\numberline {3}Conclusiones}{43}{chapter.3}%
-\contentsline {chapter}{Bibliografía}{45}{section*.77}%
-\contentsline {chapter}{Apéndices}{47}{section*.79}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{49}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{49}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{53}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Llegando a la Solución}{53}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Prototipo}{56}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{57}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Conceptos Musicales}{58}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Notas}{58}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Intervalos}{58}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Escalas}{58}{section.Alph4.3}%
-\contentsline {chapter}{\numberline {E}Manifiesto Ágil}{59}{appendix.Alph5}%
-\contentsline {section}{\numberline {E.1}Valores del Manifiesto Ágil}{59}{section.Alph5.1}%
-\contentsline {section}{\numberline {E.2}Principios del Manifiesto Ágil}{60}{section.Alph5.2}%
-\contentsline {section}{\numberline {E.3}Malas interpretaciones del Manifiesto Ágil}{60}{section.Alph5.3}%
+\contentsline {subsubsection}{Google Lighthouse}{35}{section*.58}%
+\contentsline {subsubsection}{Performance}{35}{section*.60}%
+\contentsline {subsubsection}{Accessibility}{36}{section*.61}%
+\contentsline {subsubsection}{Best Practices}{37}{section*.64}%
+\contentsline {subsubsection}{SEO}{38}{section*.66}%
+\contentsline {subsubsection}{Progressive Web Apps}{38}{section*.68}%
+\contentsline {subsubsection}{Vercel Analytics}{39}{section*.70}%
+\contentsline {subsubsection}{Real Experience Score}{40}{section*.72}%
+\contentsline {subsubsection}{Web Vitals}{40}{section*.74}%
+\contentsline {subsection}{\numberline {2.3.6}Evaluación de la Interfaz}{41}{subsection.2.3.6}%
+\contentsline {chapter}{\numberline {3}Conclusiones}{42}{chapter.3}%
+\contentsline {chapter}{Bibliografía}{44}{section*.75}%
+\contentsline {chapter}{Apéndices}{46}{section*.77}%
+\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{48}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{48}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{52}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Llegando a la Solución}{52}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Prototipo}{55}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{56}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Conceptos Musicales}{57}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Notas}{57}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Intervalos}{57}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Escalas}{57}{section.Alph4.3}%
+\contentsline {chapter}{\numberline {E}Manifiesto Ágil}{58}{appendix.Alph5}%
+\contentsline {section}{\numberline {E.1}Valores del Manifiesto Ágil}{58}{section.Alph5.1}%
+\contentsline {section}{\numberline {E.2}Principios del Manifiesto Ágil}{59}{section.Alph5.2}%
+\contentsline {section}{\numberline {E.3}Malas interpretaciones del Manifiesto Ágil}{59}{section.Alph5.3}%
