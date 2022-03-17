@@ -1056,66 +1056,54 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
     \item Calidad perfecta a la primera: Búsqueda de cero defectos, detección y solución de los problemas en su origen.
 \end{compactitem}
 
+\subsection{Testing}
+
+El testing de software o software QA, es un proceso para verificar y validar la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad.
+
 \subsection{Pruebas Funcionales}
 
-**Objetivos:**
+El objetivo de estas pruebas es evaluar las suposiciones hechas en las especificación de requisitos y diseño para asegurar que el software se comporta según lo definido.
 
-- Evaluar las suposiciones hechas en las especificaciones de requisitos y diseño a través de demostración concreta.
+Estas pruebas se realizaron de forma manual interactuando con el software. Dado que es una aplicación pequeña y el desarrollo de pruebas automáticas tiene asociado un coste de implementación y mantenimiento. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. 
 
-**Cómo se ejecutan:**
+En cada tipo de prueba el SUT ****(Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado probar todos los Test Cases o Casos de prueba ****posibles.
 
-- Las pruebas se realizaron de forma manual dado que es una aplicación pequeña y el desarrollo de pruebas automáticas tiene asociado un coste de implementación y mantenimiento. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente a coste.
+\subsubsection{Pruebas Unitarias}
 
-**Para** **cada tipo de prueba:**
+Estas pruebas permiten probar que los elementos más fundamentales del software como objetos, funciones, eventos, funcionan como se espera. 
 
-- El **SUT** (Subject under Test - Sujeto bajo Prueba) se define siempre desde la perspectiva de la prueba.
-- Cada tipo de prueba pretende abordar un **objetivo** en concreto.
-- Se han intentado probar todos los **Test Cases o Casos de prueba** posibles.
+En este caso según se iba desarrollando el código se comprobaba que cada hook, función, estado, devolvía el resultado esperado y funcionaba correctamente antes de darle uso en el código. 
+
+Realizando pequeños tests por consola y usando las herramientas para desarrolladores de Google Chrome cuando era necesario.
 
 \subsubsection{Pruebas de Componentes}
 
-**SUT:** Componente
+En estas pruebas se considera el SUT como cada componente de React. Con el objetivo de probar si la funcionalidad descrita en las historias de usuario se corresponde con su comportamiento.
 
-**Objetivo:**
+Permiten identificar fallos en los componentes que incluyen varias funciones o elementos internos para que se puedan corregir antes de que el software llegue a producción. 
 
-- Pruebas de aceptación que permiten validar si el software cumple con los objetivos para los que fue diseñado.
-- Las pruebas permiten verificar si el software se comporta como se espera.
-- Característica del software (feature): funcionalidad o aspecto no funcional que ofrece un software y que se puede comprobar.
-
-**Prueba o Caso de Prueba (Test Case):** 
-
-- El Product Backlog Item describia una funcionalidad que se testeaba en un entorno de desarrollo para validar los criterios de aceptacion del item desarrollado.
+En este tipo de pruebas se validaron los criterios de aceptación descritos en las historias de usuario. Probando cada componente según se desarrollaba. Cualquier problema detectado se reparó de forma inmediata antes de continuar con el desarrollo.
 
 \subsubsection{Pruebas de Integración}
 
-**SUT:** Sistema 
+El objetivo es probar la interacción entre componentes al integrar uno nuevo en la aplicación. Permiten probar el comportamiento y posibles fallos en la interacción entre los componentes entre sí, y demás elementos del software.
 
-**Objetivo:**
+De esta manera en cada momento tenemos una visión general del estado del proyecto alertándonos de regresiones en el código.
 
-- Verificar que el sistema funciona como fue diseñado.
-- Encontrar errores en el software para que se puedan corregir antes de que el software llegue a producción.
-- Cualquier problema detectado por CI debe repararse de forma inmediata antes de continuar con el desarrollo
-- En cada momento tenemos una visión general del estado del proyecto software desarrollado.
-
-**Prueba o Caso de Prueba (Test Case):**
-
-- Cada requisito, caso de uso o historia de usuario debería probarse para asegurarse de que se ha implementado y se obtienen los resultados esperados.
+En este caso, al integrar un nuevo componente en la aplicación, se probó si su funcionamiento y el de los componentes con los que interactúa seguía siendo el adecuado.
 
 \subsubsection{Pruebas End to End (E2E)}
 
-**SUT:** Sistema 
+Estas pruebas se realizaron sobre el sistema una vez desplegado desde el punto de vista de los usuarios. En estas pruebas el SUT es el sistema completo de principio a fin. Se realizan con el objetivo de verificar si el software se comporta como se espera según las historias de usuario.
 
-- Implícitamente estamos asumiendo que se prueba el sistema completo, que es sobre el que se definen los requisitos.
-- En estas pruebas el SUT (Sujeto bajo prueba) es el sistema completo.
-- A veces se las llama pruebas extremo a extremo, end to end o e2e (aunque existen ciertas diferencias)
+Estás pruebas se han realizado con los siguientes objetivos:
 
-**Objetivo:**
+\begin{compactitem}
+    \item Pruebas de sanidad (sanity check): Probar las funcionalidades básicas del sistema, usadas después de un despliegue.
+    \item Pruebas de instalación y desinstalación: Probar las funcionalidades básicas del sistema, después de instalarse como progressive web app.
+\end{compactitem}
 
-- Pruebas de sanidad (sanity check): Prueba las funcionalidades básicas del sistema. Usadas después de un despliegue.
-
-**Prueba o Caso de Prueba (Test Case):**
-
-- Cada requisito, caso de uso o historia de usuario debería probarse para asegurarse de que se ha implementado y se obtienen los resultados esperados.
+En este caso cada historia de usuario se probó para asegurarse de que siguen funcionando correctamente y se obtienen los resultados esperados.
 
 \subsection{Pruebas No Funcionales}
 
@@ -1227,8 +1215,6 @@ Son una colección de métrica establecidas por Google(https://web.dev/vitals/) 
     \item\textbf{Cumulative Layout Shift (CLS):} Mide la estabilidad visual, o cuánto se mueven los elementos después de mostrarse al usuario. Por ejemplo, cuando un botón se mueve porque una imagen se cargó tarde, eso es CLS.
     \item\textbf{First Input Delay (FID):} Mide la capacidad de respuesta de la página, o cuánto tiempo esperan los usuarios para ver la reacción de su primera interacción con la página. Por ejemplo, la cantidad de tiempo entre el momento en que hago clic en "Agregar al carrito" y el incremento del número de artículos en el carrito es FID.
 \end{itemize}
-
-\subsection{Evaluación de la Interfaz}
 
 \newpage
 

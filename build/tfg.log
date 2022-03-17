@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  14 MAR 2022 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  17 MAR 2022 17:34
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -1133,8 +1133,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
-LaTeX Info: Redefining \. on input line 1074.
-LaTeX Info: Redefining \% on input line 1074.
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1144,8 +1144,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
-LaTeX Info: Redefining \. on input line 1112.
-LaTeX Info: Redefining \% on input line 1112.
+LaTeX Info: Redefining \. on input line 1092.
+LaTeX Info: Redefining \% on input line 1092.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1158,10 +1158,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <assets//Lighthouse_resumen.png, id=581, 301.8778pt x 52.69687pt>
 File: assets//Lighthouse_resumen.png Graphic file (type png)
 <use assets//Lighthouse_resumen.png>
-Package pdftex.def Info: assets//Lighthouse_resumen.png  used on input line 1134.
+Package pdftex.def Info: assets//Lighthouse_resumen.png  used on input line 1122.
 (pdftex.def)             Requested size: 362.25154pt x 63.23592pt.
-LaTeX Info: Redefining \. on input line 1142.
-LaTeX Info: Redefining \% on input line 1142.
+LaTeX Info: Redefining \. on input line 1126.
+LaTeX Info: Redefining \% on input line 1126.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1170,22 +1170,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35 <./assets//Lighthouse_resumen.png>]
-<assets//Lighthouse_accesibility.png, id=590, 605.26125pt x 502.87875pt>
+[35]
+<assets//Lighthouse_accesibility.png, id=589, 605.26125pt x 502.87875pt>
 File: assets//Lighthouse_accesibility.png Graphic file (type png)
 <use assets//Lighthouse_accesibility.png>
-Package pdftex.def Info: assets//Lighthouse_accesibility.png  used on input line 1149.
+Package pdftex.def Info: assets//Lighthouse_accesibility.png  used on input line 1137.
 (pdftex.def)             Requested size: 363.15953pt x 301.72957pt.
-<assets//Lighthouse_contrast.png, id=591, 517.18219pt x 188.95593pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1141.
+LaTeX Info: Redefining \% on input line 1141.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./assets//Lighthouse_resumen.png>]
+<assets//Lighthouse_contrast.png, id=597, 517.18219pt x 188.95593pt>
 File: assets//Lighthouse_contrast.png Graphic file (type png)
 <use assets//Lighthouse_contrast.png>
-Package pdftex.def Info: assets//Lighthouse_contrast.png  used on input line 1158.
+Package pdftex.def Info: assets//Lighthouse_contrast.png  used on input line 1146.
 (pdftex.def)             Requested size: 310.3117pt x 113.37442pt.
-
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1162.
-LaTeX Info: Redefining \% on input line 1162.
+LaTeX Info: Redefining \. on input line 1154.
+LaTeX Info: Redefining \% on input line 1154.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1194,41 +1205,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36 <./assets//Lighthouse_accesibility.png>]
-<assets//Lighthouse_bestpractices.png, id=598, 600.74437pt x 444.15938pt>
+[37 <./assets//Lighthouse_accesibility.png> <./assets//Lighthouse_contrast.png>]
+<assets//Lighthouse_bestpractices.png, id=605, 600.74437pt x 444.15938pt>
 File: assets//Lighthouse_bestpractices.png Graphic file (type png)
 <use assets//Lighthouse_bestpractices.png>
-Package pdftex.def Info: assets//Lighthouse_bestpractices.png  used on input line 1169.
+Package pdftex.def Info: assets//Lighthouse_bestpractices.png  used on input line 1157.
 (pdftex.def)             Requested size: 360.4494pt x 266.49767pt.
-
-Underfull \vbox (badness 6978) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1177.
-LaTeX Info: Redefining \% on input line 1177.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[37 <./assets//Lighthouse_contrast.png> <./assets//Lighthouse_bestpractices.png>]
 <assets//Lighthouse_seo.png, id=606, 596.98032pt x 396.7322pt>
 File: assets//Lighthouse_seo.png Graphic file (type png)
 <use assets//Lighthouse_seo.png>
-Package pdftex.def Info: assets//Lighthouse_seo.png  used on input line 1180.
+Package pdftex.def Info: assets//Lighthouse_seo.png  used on input line 1168.
 (pdftex.def)             Requested size: 358.19095pt x 238.04114pt.
-<assets//Lighthouse_PWA.png, id=607, 593.21625pt x 518.6878pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1172.
+LaTeX Info: Redefining \% on input line 1172.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38 <./assets//Lighthouse_bestpractices.png>]
+<assets//Lighthouse_PWA.png, id=613, 593.21625pt x 518.6878pt>
 File: assets//Lighthouse_PWA.png Graphic file (type png)
 <use assets//Lighthouse_PWA.png>
-Package pdftex.def Info: assets//Lighthouse_PWA.png  used on input line 1191.
+Package pdftex.def Info: assets//Lighthouse_PWA.png  used on input line 1179.
 (pdftex.def)             Requested size: 355.9325pt x 311.21509pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1195.
-LaTeX Info: Redefining \% on input line 1195.
+LaTeX Info: Redefining \. on input line 1183.
+LaTeX Info: Redefining \% on input line 1183.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1237,14 +1248,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./assets//Lighthouse_seo.png>]
-<assets//Vercel_metrics_resume.png, id=615, 252.945pt x 155.83218pt>
+[39 <./assets//Lighthouse_seo.png>]
+<assets//Vercel_metrics_resume.png, id=620, 252.945pt x 155.83218pt>
 File: assets//Vercel_metrics_resume.png Graphic file (type png)
 <use assets//Vercel_metrics_resume.png>
-Package pdftex.def Info: assets//Vercel_metrics_resume.png  used on input line 1202.
+Package pdftex.def Info: assets//Vercel_metrics_resume.png  used on input line 1190.
 (pdftex.def)             Requested size: 202.35626pt x 124.66591pt.
-LaTeX Info: Redefining \. on input line 1208.
-LaTeX Info: Redefining \% on input line 1208.
+LaTeX Info: Redefining \. on input line 1196.
+LaTeX Info: Redefining \% on input line 1196.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1253,19 +1264,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39 <./assets//Lighthouse_PWA.png> <./assets//Vercel_metrics_resume.png>]
-<assets//Vercel_metrics.png, id=623, 766.36313pt x 699.36281pt>
+[40 <./assets//Lighthouse_PWA.png> <./assets//Vercel_metrics_resume.png>]
+<assets//Vercel_metrics.png, id=628, 766.36313pt x 699.36281pt>
 File: assets//Vercel_metrics.png Graphic file (type png)
 <use assets//Vercel_metrics.png>
-Package pdftex.def Info: assets//Vercel_metrics.png  used on input line 1215.
+Package pdftex.def Info: assets//Vercel_metrics.png  used on input line 1203.
 (pdftex.def)             Requested size: 383.18063pt x 349.68054pt.
 
-Overfull \hbox (2.57262pt too wide) in paragraph at lines 1222--1223
+Overfull \hbox (2.57262pt too wide) in paragraph at lines 1210--1211
 []\OT1/cmr/m/n/12 Son una co-lec-cion de metri-ca es-ta-ble-ci-das por Goo-gle(https://web.dev/vitals/)
  []
 
-LaTeX Info: Redefining \. on input line 1225.
-LaTeX Info: Redefining \% on input line 1225.
+LaTeX Info: Redefining \. on input line 1213.
+LaTeX Info: Redefining \% on input line 1213.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1273,9 +1284,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./assets//Vercel_metrics.png>]
-LaTeX Info: Redefining \. on input line 1233.
-LaTeX Info: Redefining \% on input line 1233.
+[41 <./assets//Vercel_metrics.png>]
+LaTeX Info: Redefining \. on input line 1219.
+LaTeX Info: Redefining \% on input line 1219.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1284,19 +1295,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
+[42]
 Cap\'{\i }tulo 3.
-[42
+[43
 
-] [43] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [44
+] [44] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl) [45
 
-] [45] [46] [47]
+] [46] [47] [48]
 Ap\'{e}ndice A.
-[48
+[49
 
 ]
-LaTeX Info: Redefining \. on input line 1349.
-LaTeX Info: Redefining \% on input line 1349.
+LaTeX Info: Redefining \. on input line 1335.
+LaTeX Info: Redefining \% on input line 1335.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1305,14 +1316,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
-<assets//MVP.png, id=681, 1435.3625pt x 1265.72874pt>
+[50]
+<assets//MVP.png, id=686, 1435.3625pt x 1265.72874pt>
 File: assets//MVP.png Graphic file (type png)
 <use assets//MVP.png>
-Package pdftex.def Info: assets//MVP.png  used on input line 1357.
+Package pdftex.def Info: assets//MVP.png  used on input line 1343.
 (pdftex.def)             Requested size: 143.54465pt x 126.58028pt.
-LaTeX Info: Redefining \. on input line 1390.
-LaTeX Info: Redefining \% on input line 1390.
+LaTeX Info: Redefining \. on input line 1376.
+LaTeX Info: Redefining \% on input line 1376.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1321,20 +1332,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./assets//MVP.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 1430.
-LaTeX Info: Redefining \% on input line 1430.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[51]
-LaTeX Info: Redefining \. on input line 1461.
-LaTeX Info: Redefining \% on input line 1461.
+[51 <./assets//MVP.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 1416.
+LaTeX Info: Redefining \% on input line 1416.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1344,8 +1344,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [52]
-LaTeX Info: Redefining \. on input line 1490.
-LaTeX Info: Redefining \% on input line 1490.
+LaTeX Info: Redefining \. on input line 1447.
+LaTeX Info: Redefining \% on input line 1447.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1355,8 +1355,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [53]
-LaTeX Info: Redefining \. on input line 1506.
-LaTeX Info: Redefining \% on input line 1506.
+LaTeX Info: Redefining \. on input line 1476.
+LaTeX Info: Redefining \% on input line 1476.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1366,24 +1366,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [54]
-Ap\'{e}ndice B.
-[55
+LaTeX Info: Redefining \. on input line 1492.
+LaTeX Info: Redefining \% on input line 1492.
 
-]
-Ap\'{e}ndice C.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+Ap\'{e}ndice B.
 [56
 
 ]
-Ap\'{e}ndice D.
+Ap\'{e}ndice C.
 [57
 
 ]
-Ap\'{e}ndice E.
+Ap\'{e}ndice D.
 [58
 
 ]
-LaTeX Info: Redefining \. on input line 1582.
-LaTeX Info: Redefining \% on input line 1582.
+Ap\'{e}ndice E.
+[59
+
+]
+LaTeX Info: Redefining \. on input line 1568.
+LaTeX Info: Redefining \% on input line 1568.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1392,7 +1403,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-[59] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
+[60] (c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 LaTeX Info: Redefining \. on input line 26.
@@ -1401,7 +1412,7 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 7EBC40F572381FA67E575BF1CEB9314E;6233.
+(rerunfilecheck)             Checksum: 71AF5D556D374B97E377DF36BAC76EAA;6131.
  )
 (\end occurred inside a group at level 2)
 
@@ -1409,17 +1420,17 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 ### semi simple group (level 1) entered at line 243 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16136 strings out of 478927
- 255914 string characters out of 2852535
+ 16138 strings out of 478927
+ 255932 string characters out of 2852535
  661157 words of memory out of 3000000
  33512 multiletter control sequences out of 15000+600000
  413512 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,81p,823b,798s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\alber\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (73 pages, 3160191 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (74 pages, 3161776 bytes).
 PDF statistics:
- 832 PDF objects out of 1000 (max. 8388607)
- 218 named destinations out of 1000 (max. 500000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 220 named destinations out of 1000 (max. 500000)
  529 words of extra memory for PDF output out of 10000 (max. 10000000)
 
