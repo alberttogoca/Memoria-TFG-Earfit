@@ -4,50 +4,51 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de Lean Design\relax }}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces MindMap\relax }}{11}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces MoSCoW\relax }}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Prototipo Smartphone\relax }}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Prototipo PC\relax }}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Lean Startup\relax }}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Scrum\relax }}{17}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces User Story Map\relax }}{18}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Scrum Board\relax }}{18}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces User Story\relax }}{19}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces DevOps\relax }}{20}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Gitflow\relax }}{21}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Vercel\relax }}{22}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Nextjs Routing\relax }}{23}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Prerendering\relax }}{24}{figure.caption.33}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sin Pre-rendering}}}{24}{subfigure.15.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Con Pre-rendering}}}{24}{subfigure.15.2}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Time to Interactive\relax }}{24}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Tipos de Pre-rendering\relax }}{25}{figure.caption.35}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Server-side Rendering}}}{25}{subfigure.17.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Generación Estática}}}{25}{subfigure.17.2}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Code Splitting\relax }}{25}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sin Code Splitting}}}{25}{subfigure.18.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Con Code Splitting}}}{25}{subfigure.18.2}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Pre-fetching\relax }}{25}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Fast Refresh\relax }}{26}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces React Components\relax }}{27}{figure.caption.40}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Diagrama de una página}}}{27}{subfigure.21.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagrama de un React Component}}}{27}{subfigure.21.2}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Reconciliación Virtual DOM\relax }}{27}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Flujo de trabajo DPS\relax }}{28}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces TypeScript\relax }}{29}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces ESLint, Prettier y VSCode\relax }}{31}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Puntuaciones de Lighthouse\relax }}{36}{figure.caption.60}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Accesibility\relax }}{37}{figure.caption.63}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Contrast fail\relax }}{37}{figure.caption.64}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Best Practices\relax }}{38}{figure.caption.66}%
-\contentsline {figure}{\numberline {2.30}{\ignorespaces SEO\relax }}{39}{figure.caption.68}%
-\contentsline {figure}{\numberline {2.31}{\ignorespaces PWA\relax }}{40}{figure.caption.70}%
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Vercel Analytics\relax }}{40}{figure.caption.72}%
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Web Vitals\relax }}{41}{figure.caption.74}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces MindMap\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces MoSCoW\relax }}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Prototipo Smartphone\relax }}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Prototipo PC\relax }}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Lean Startup\relax }}{14}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Scrum\relax }}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces User Story Map\relax }}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Scrum Board\relax }}{18}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces User Story\relax }}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces DevOps\relax }}{20}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gitflow\relax }}{21}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Vercel\relax }}{22}{figure.caption.24}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Nextjs Routing\relax }}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prerendering\relax }}{24}{figure.caption.26}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sin Pre-rendering}}}{24}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Con Pre-rendering}}}{24}{subfigure.2.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Time to Interactive\relax }}{25}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Tipos de Pre-rendering\relax }}{25}{figure.caption.28}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Server-side Rendering}}}{25}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Generación Estática}}}{25}{subfigure.4.2}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Code Splitting\relax }}{26}{figure.caption.29}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sin Code Splitting}}}{26}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Con Code Splitting}}}{26}{subfigure.5.2}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Pre-fetching\relax }}{26}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Fast Refresh\relax }}{27}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces React Components\relax }}{28}{figure.caption.33}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Diagrama de una página}}}{28}{subfigure.8.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagrama de un React Component}}}{28}{subfigure.8.2}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Reconciliación Virtual DOM\relax }}{28}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Flujo de trabajo DPS\relax }}{29}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces TypeScript\relax }}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces ESLint, Prettier y VSCode\relax }}{32}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Puntuaciones de Lighthouse\relax }}{37}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Accesibility\relax }}{38}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Contrast fail\relax }}{38}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Best Practices\relax }}{39}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces SEO\relax }}{40}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces PWA\relax }}{41}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Vercel Analytics\relax }}{41}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Web Vitals\relax }}{42}{figure.caption.64}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces MVP\relax }}{51}{figure.caption.79}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces MVP\relax }}{52}{figure.caption.69}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
