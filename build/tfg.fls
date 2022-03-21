@@ -945,18 +945,24 @@ INPUT .\assets\Design Thinking\MosCow.jpg
 INPUT .\assets\Design Thinking\MosCow.jpg
 INPUT .\assets\Design Thinking\MosCow.jpg
 INPUT .\assets\Design Thinking\MosCow.jpg
-INPUT .\assets\Design Thinking\Prototipo.jpg
-INPUT assets\Design Thinking\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo.jpg
-INPUT .\assets\Design Thinking\PrototipoPC.jpg
-INPUT assets\Design Thinking\PrototipoPC.jpg
-INPUT .\assets\Design Thinking\PrototipoPC.jpg
-INPUT .\assets\Design Thinking\PrototipoPC.jpg
-INPUT .\assets\Design Thinking\PrototipoPC.jpg
-INPUT .\assets\Design Thinking\PrototipoPC.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
+INPUT assets\Design Thinking\Prototipo\Small\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT .\assets\Lean Startup\CircuitoFeedback.png
 INPUT assets\Lean Startup\CircuitoFeedback.png
 INPUT .\assets\Lean Startup\CircuitoFeedback.png
@@ -1096,6 +1102,12 @@ INPUT .\assets\TypeScript\TypeScript.png
 INPUT .\assets\TypeScript\TypeScript.png
 INPUT .\assets\TypeScript\TypeScript.png
 INPUT .\assets\TypeScript\TypeScript.png
+INPUT .\assets\Nodejs\NodeNPMYarn.png
+INPUT assets\Nodejs\NodeNPMYarn.png
+INPUT .\assets\Nodejs\NodeNPMYarn.png
+INPUT .\assets\Nodejs\NodeNPMYarn.png
+INPUT .\assets\Nodejs\NodeNPMYarn.png
+INPUT .\assets\Nodejs\NodeNPMYarn.png
 INPUT .\assets\VSCode\VScodeExtensions.png
 INPUT assets\VSCode\VScodeExtensions.png
 INPUT .\assets\VSCode\VScodeExtensions.png
@@ -1162,11 +1174,14 @@ INPUT .\assets\Lean Startup\MVP.png
 INPUT .\assets\Lean Startup\MVP.png
 INPUT .\assets\Lean Startup\MVP.png
 INPUT .\assets\Lean Startup\MVP.png
+INPUT .\assets\Design Thinking\Prototipo\Small\Templates.jpg
+INPUT assets\Design Thinking\Prototipo\Small\Templates.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Templates.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Templates.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Templates.jpg
+INPUT .\assets\Design Thinking\Prototipo\Small\Templates.jpg
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT assets\Design Thinking\Prototipo\Small\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo2.jpg
 INPUT assets\Design Thinking\Prototipo\Small\Prototipo2.jpg
@@ -1182,9 +1197,6 @@ INPUT .\assets\Design Thinking\Prototipo\Medium\Menu.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Menu.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
 INPUT assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Intervals.jpg
 INPUT assets\Design Thinking\Prototipo\Medium\Intervals.jpg
@@ -1206,9 +1218,6 @@ INPUT .\assets\Design Thinking\Prototipo\Large\Menu.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Menu.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Intervals.jpg
 INPUT assets\Design Thinking\Prototipo\Large\Intervals.jpg
