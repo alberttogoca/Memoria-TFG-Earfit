@@ -68,11 +68,11 @@
 \contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{54}{section.Alph1.2}%
 \contentsline {section}{\numberline {A.3}Llegando a la Solución}{54}{section.Alph1.3}%
 \contentsline {chapter}{\numberline {B}Diseños del Prototipo}{57}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Prototipo Pequeño}{57}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Prototipo Mediano}{58}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Prototipo Grande}{60}{section.Alph2.3}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{63}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Manifiesto Ágil}{78}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Valores del Manifiesto Ágil}{78}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Principios del Manifiesto Ágil}{79}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Malas interpretaciones del Manifiesto Ágil}{79}{section.Alph4.3}%
+\contentsline {section}{\numberline {B.1}Prototipo Pequeño}{58}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Prototipo Mediano}{59}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Prototipo Grande}{61}{section.Alph2.3}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{64}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Manifiesto Ágil}{79}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Valores del Manifiesto Ágil}{79}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Principios del Manifiesto Ágil}{80}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Malas interpretaciones del Manifiesto Ágil}{80}{section.Alph4.3}%
