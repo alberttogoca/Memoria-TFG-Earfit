@@ -68,8 +68,8 @@
 \contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{54}{section.Alph1.2}%
 \contentsline {section}{\numberline {A.3}Llegando a la Solución}{54}{section.Alph1.3}%
 \contentsline {chapter}{\numberline {B}Diseños del Prototipo}{57}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{58}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Manifiesto Ágil}{59}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Valores del Manifiesto Ágil}{59}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Principios del Manifiesto Ágil}{60}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Malas interpretaciones del Manifiesto Ágil}{60}{section.Alph4.3}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{72}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Manifiesto Ágil}{73}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Valores del Manifiesto Ágil}{73}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Principios del Manifiesto Ágil}{74}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Malas interpretaciones del Manifiesto Ágil}{74}{section.Alph4.3}%

@@ -921,247 +921,331 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\bookman\pbkd7t.vf
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\bookman\pbkd8r.tfm
-INPUT .\assets\\leandesignagile.png
-INPUT assets\\leandesignagile.png
-INPUT .\assets\\leandesignagile.png
-INPUT .\assets\\leandesignagile.png
-INPUT .\assets\\leandesignagile.png
-INPUT .\assets\\leandesignagile.png
-INPUT .\assets\\designthinking.png
-INPUT assets\\designthinking.png
-INPUT .\assets\\designthinking.png
-INPUT .\assets\\designthinking.png
-INPUT .\assets\\designthinking.png
-INPUT .\assets\\designthinking.png
-INPUT .\assets\\MINDMAP.jpg
-INPUT assets\\MINDMAP.jpg
-INPUT .\assets\\MINDMAP.jpg
-INPUT .\assets\\MINDMAP.jpg
-INPUT .\assets\\MINDMAP.jpg
-INPUT .\assets\\MINDMAP.jpg
-INPUT .\assets\\MOSCOW.jpg
-INPUT assets\\MOSCOW.jpg
-INPUT .\assets\\MOSCOW.jpg
-INPUT .\assets\\MOSCOW.jpg
-INPUT .\assets\\MOSCOW.jpg
-INPUT .\assets\\MOSCOW.jpg
-INPUT .\assets\\Wireframes.jpg
-INPUT assets\\Wireframes.jpg
-INPUT .\assets\\Wireframes.jpg
-INPUT .\assets\\Wireframes.jpg
-INPUT .\assets\\Wireframes.jpg
-INPUT .\assets\\Wireframes.jpg
-INPUT .\assets\\WireframePC.jpg
-INPUT assets\\WireframePC.jpg
-INPUT .\assets\\WireframePC.jpg
-INPUT .\assets\\WireframePC.jpg
-INPUT .\assets\\WireframePC.jpg
-INPUT .\assets\\WireframePC.jpg
-INPUT .\assets\\LeanStartup.png
-INPUT assets\\LeanStartup.png
-INPUT .\assets\\LeanStartup.png
-INPUT .\assets\\LeanStartup.png
-INPUT .\assets\\LeanStartup.png
-INPUT .\assets\\LeanStartup.png
-INPUT .\assets\\Scrum.png
-INPUT assets\\Scrum.png
-INPUT .\assets\\Scrum.png
-INPUT .\assets\\Scrum.png
-INPUT .\assets\\Scrum.png
-INPUT .\assets\\Scrum.png
-INPUT .\assets\\USERSTORYMAP.jpg
-INPUT assets\\USERSTORYMAP.jpg
-INPUT .\assets\\USERSTORYMAP.jpg
-INPUT .\assets\\USERSTORYMAP.jpg
-INPUT .\assets\\USERSTORYMAP.jpg
-INPUT .\assets\\USERSTORYMAP.jpg
-INPUT .\assets\\KANBAN.png
-INPUT assets\\KANBAN.png
-INPUT .\assets\\KANBAN.png
-INPUT .\assets\\KANBAN.png
-INPUT .\assets\\KANBAN.png
-INPUT .\assets\\KANBAN.png
-INPUT .\assets\\USERSTORY.png
-INPUT assets\\USERSTORY.png
-INPUT .\assets\\USERSTORY.png
-INPUT .\assets\\USERSTORY.png
-INPUT .\assets\\USERSTORY.png
-INPUT .\assets\\USERSTORY.png
-INPUT .\assets\\DevOps.png
-INPUT assets\\DevOps.png
-INPUT .\assets\\DevOps.png
-INPUT .\assets\\DevOps.png
-INPUT .\assets\\DevOps.png
-INPUT .\assets\\DevOps.png
-INPUT .\assets\\Gitflow.png
-INPUT assets\\Gitflow.png
-INPUT .\assets\\Gitflow.png
-INPUT .\assets\\Gitflow.png
-INPUT .\assets\\Gitflow.png
-INPUT .\assets\\Gitflow.png
-INPUT .\assets\\Vercel.png
-INPUT assets\\Vercel.png
-INPUT .\assets\\Vercel.png
-INPUT .\assets\\Vercel.png
-INPUT .\assets\\Vercel.png
-INPUT .\assets\\Vercel.png
-INPUT .\assets\\nextjs_routing.png
-INPUT assets\\nextjs_routing.png
-INPUT .\assets\\nextjs_routing.png
-INPUT .\assets\\nextjs_routing.png
-INPUT .\assets\\nextjs_routing.png
-INPUT .\assets\\nextjs_routing.png
-INPUT .\assets\\nextjs_noprerendering.png
-INPUT assets\\nextjs_noprerendering.png
-INPUT .\assets\\nextjs_noprerendering.png
-INPUT .\assets\\nextjs_noprerendering.png
-INPUT .\assets\\nextjs_noprerendering.png
-INPUT .\assets\\nextjs_noprerendering.png
-INPUT .\assets\\nextjs_prerendering.png
-INPUT assets\\nextjs_prerendering.png
-INPUT .\assets\\nextjs_prerendering.png
-INPUT .\assets\\nextjs_prerendering.png
-INPUT .\assets\\nextjs_prerendering.png
-INPUT .\assets\\nextjs_prerendering.png
-INPUT .\assets\\nextjs_prerenderinggraph.png
-INPUT assets\\nextjs_prerenderinggraph.png
-INPUT .\assets\\nextjs_prerenderinggraph.png
-INPUT .\assets\\nextjs_prerenderinggraph.png
-INPUT .\assets\\nextjs_prerenderinggraph.png
-INPUT .\assets\\nextjs_prerenderinggraph.png
+INPUT .\assets\LeanDesignAgile.png
+INPUT assets\LeanDesignAgile.png
+INPUT .\assets\LeanDesignAgile.png
+INPUT .\assets\LeanDesignAgile.png
+INPUT .\assets\LeanDesignAgile.png
+INPUT .\assets\LeanDesignAgile.png
+INPUT .\assets\Design Thinking\Etapas.png
+INPUT assets\Design Thinking\Etapas.png
+INPUT .\assets\Design Thinking\Etapas.png
+INPUT .\assets\Design Thinking\Etapas.png
+INPUT .\assets\Design Thinking\Etapas.png
+INPUT .\assets\Design Thinking\Etapas.png
+INPUT .\assets\Design Thinking\MindMap.jpg
+INPUT assets\Design Thinking\MindMap.jpg
+INPUT .\assets\Design Thinking\MindMap.jpg
+INPUT .\assets\Design Thinking\MindMap.jpg
+INPUT .\assets\Design Thinking\MindMap.jpg
+INPUT .\assets\Design Thinking\MindMap.jpg
+INPUT .\assets\Design Thinking\MosCow.jpg
+INPUT assets\Design Thinking\MosCow.jpg
+INPUT .\assets\Design Thinking\MosCow.jpg
+INPUT .\assets\Design Thinking\MosCow.jpg
+INPUT .\assets\Design Thinking\MosCow.jpg
+INPUT .\assets\Design Thinking\MosCow.jpg
+INPUT .\assets\Design Thinking\Prototipo.jpg
+INPUT assets\Design Thinking\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo.jpg
+INPUT .\assets\Design Thinking\Prototipo.jpg
+INPUT .\assets\Design Thinking\PrototipoPC.jpg
+INPUT assets\Design Thinking\PrototipoPC.jpg
+INPUT .\assets\Design Thinking\PrototipoPC.jpg
+INPUT .\assets\Design Thinking\PrototipoPC.jpg
+INPUT .\assets\Design Thinking\PrototipoPC.jpg
+INPUT .\assets\Design Thinking\PrototipoPC.jpg
+INPUT .\assets\Lean Startup\CircuitoFeedback.png
+INPUT assets\Lean Startup\CircuitoFeedback.png
+INPUT .\assets\Lean Startup\CircuitoFeedback.png
+INPUT .\assets\Lean Startup\CircuitoFeedback.png
+INPUT .\assets\Lean Startup\CircuitoFeedback.png
+INPUT .\assets\Lean Startup\CircuitoFeedback.png
+INPUT .\assets\Scrum\Scrum.png
+INPUT assets\Scrum\Scrum.png
+INPUT .\assets\Scrum\Scrum.png
+INPUT .\assets\Scrum\Scrum.png
+INPUT .\assets\Scrum\Scrum.png
+INPUT .\assets\Scrum\Scrum.png
+INPUT .\assets\Scrum\UserStoryMap.jpg
+INPUT assets\Scrum\UserStoryMap.jpg
+INPUT .\assets\Scrum\UserStoryMap.jpg
+INPUT .\assets\Scrum\UserStoryMap.jpg
+INPUT .\assets\Scrum\UserStoryMap.jpg
+INPUT .\assets\Scrum\UserStoryMap.jpg
+INPUT .\assets\Scrum\ScrumBoard.png
+INPUT assets\Scrum\ScrumBoard.png
+INPUT .\assets\Scrum\ScrumBoard.png
+INPUT .\assets\Scrum\ScrumBoard.png
+INPUT .\assets\Scrum\ScrumBoard.png
+INPUT .\assets\Scrum\ScrumBoard.png
+INPUT .\assets\Scrum\UserStory.png
+INPUT assets\Scrum\UserStory.png
+INPUT .\assets\Scrum\UserStory.png
+INPUT .\assets\Scrum\UserStory.png
+INPUT .\assets\Scrum\UserStory.png
+INPUT .\assets\Scrum\UserStory.png
+INPUT .\assets\DevOps\DevOps.png
+INPUT assets\DevOps\DevOps.png
+INPUT .\assets\DevOps\DevOps.png
+INPUT .\assets\DevOps\DevOps.png
+INPUT .\assets\DevOps\DevOps.png
+INPUT .\assets\DevOps\DevOps.png
+INPUT .\assets\DevOps\Gitflow.png
+INPUT assets\DevOps\Gitflow.png
+INPUT .\assets\DevOps\Gitflow.png
+INPUT .\assets\DevOps\Gitflow.png
+INPUT .\assets\DevOps\Gitflow.png
+INPUT .\assets\DevOps\Gitflow.png
+INPUT .\assets\DevOps\Vercel.png
+INPUT assets\DevOps\Vercel.png
+INPUT .\assets\DevOps\Vercel.png
+INPUT .\assets\DevOps\Vercel.png
+INPUT .\assets\DevOps\Vercel.png
+INPUT .\assets\DevOps\Vercel.png
+INPUT .\assets\Nextjs\Routing.png
+INPUT assets\Nextjs\Routing.png
+INPUT .\assets\Nextjs\Routing.png
+INPUT .\assets\Nextjs\Routing.png
+INPUT .\assets\Nextjs\Routing.png
+INPUT .\assets\Nextjs\Routing.png
+INPUT .\assets\Nextjs\NoPrerender.png
+INPUT assets\Nextjs\NoPrerender.png
+INPUT .\assets\Nextjs\NoPrerender.png
+INPUT .\assets\Nextjs\NoPrerender.png
+INPUT .\assets\Nextjs\NoPrerender.png
+INPUT .\assets\Nextjs\NoPrerender.png
+INPUT .\assets\Nextjs\Prerender.png
+INPUT assets\Nextjs\Prerender.png
+INPUT .\assets\Nextjs\Prerender.png
+INPUT .\assets\Nextjs\Prerender.png
+INPUT .\assets\Nextjs\Prerender.png
+INPUT .\assets\Nextjs\Prerender.png
+INPUT .\assets\Nextjs\PrerenderComparation.png
+INPUT assets\Nextjs\PrerenderComparation.png
+INPUT .\assets\Nextjs\PrerenderComparation.png
+INPUT .\assets\Nextjs\PrerenderComparation.png
+INPUT .\assets\Nextjs\PrerenderComparation.png
+INPUT .\assets\Nextjs\PrerenderComparation.png
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT .\assets\\nextjs_ssr.png
-INPUT assets\\nextjs_ssr.png
-INPUT .\assets\\nextjs_ssr.png
-INPUT .\assets\\nextjs_ssr.png
-INPUT .\assets\\nextjs_ssr.png
-INPUT .\assets\\nextjs_ssr.png
-INPUT .\assets\\nextjs_ssg.png
-INPUT assets\\nextjs_ssg.png
-INPUT .\assets\\nextjs_ssg.png
-INPUT .\assets\\nextjs_ssg.png
-INPUT .\assets\\nextjs_ssg.png
-INPUT .\assets\\nextjs_ssg.png
-INPUT .\assets\\nextjs_nocodesplit_w.jpg
-INPUT assets\\nextjs_nocodesplit_w.jpg
-INPUT .\assets\\nextjs_nocodesplit_w.jpg
-INPUT .\assets\\nextjs_nocodesplit_w.jpg
-INPUT .\assets\\nextjs_nocodesplit_w.jpg
-INPUT .\assets\\nextjs_nocodesplit_w.jpg
-INPUT .\assets\\nextjs_codesplit_w.jpg
-INPUT assets\\nextjs_codesplit_w.jpg
-INPUT .\assets\\nextjs_codesplit_w.jpg
-INPUT .\assets\\nextjs_codesplit_w.jpg
-INPUT .\assets\\nextjs_codesplit_w.jpg
-INPUT .\assets\\nextjs_codesplit_w.jpg
-INPUT .\assets\\nextjs_prefetch.png
-INPUT assets\\nextjs_prefetch.png
-INPUT .\assets\\nextjs_prefetch.png
-INPUT .\assets\\nextjs_prefetch.png
-INPUT .\assets\\nextjs_prefetch.png
-INPUT .\assets\\nextjs_prefetch.png
-INPUT .\assets\\nextjs_hmr.png
-INPUT assets\\nextjs_hmr.png
-INPUT .\assets\\nextjs_hmr.png
-INPUT .\assets\\nextjs_hmr.png
-INPUT .\assets\\nextjs_hmr.png
-INPUT .\assets\\nextjs_hmr.png
-INPUT .\assets\\React-components_w.jpg
-INPUT assets\\React-components_w.jpg
-INPUT .\assets\\React-components_w.jpg
-INPUT .\assets\\React-components_w.jpg
-INPUT .\assets\\React-components_w.jpg
-INPUT .\assets\\React-components_w.jpg
-INPUT .\assets\\ReactComponent.png
-INPUT assets\\ReactComponent.png
-INPUT .\assets\\ReactComponent.png
-INPUT .\assets\\ReactComponent.png
-INPUT .\assets\\ReactComponent.png
-INPUT .\assets\\ReactComponent.png
-INPUT .\assets\\React_VirtualDom.png
-INPUT assets\\React_VirtualDom.png
-INPUT .\assets\\React_VirtualDom.png
-INPUT .\assets\\React_VirtualDom.png
-INPUT .\assets\\React_VirtualDom.png
-INPUT .\assets\\React_VirtualDom.png
-INPUT .\assets\\vercel_workflow.png
-INPUT assets\\vercel_workflow.png
-INPUT .\assets\\vercel_workflow.png
-INPUT .\assets\\vercel_workflow.png
-INPUT .\assets\\vercel_workflow.png
-INPUT .\assets\\vercel_workflow.png
-INPUT .\assets\\TYPESCRIPT.png
-INPUT assets\\TYPESCRIPT.png
-INPUT .\assets\\TYPESCRIPT.png
-INPUT .\assets\\TYPESCRIPT.png
-INPUT .\assets\\TYPESCRIPT.png
-INPUT .\assets\\TYPESCRIPT.png
-INPUT .\assets\\VScode_extensions.png
-INPUT assets\\VScode_extensions.png
-INPUT .\assets\\VScode_extensions.png
-INPUT .\assets\\VScode_extensions.png
-INPUT .\assets\\VScode_extensions.png
-INPUT .\assets\\VScode_extensions.png
-INPUT .\assets\\Lighthouse_resumen.png
-INPUT assets\\Lighthouse_resumen.png
-INPUT .\assets\\Lighthouse_resumen.png
-INPUT .\assets\\Lighthouse_resumen.png
-INPUT .\assets\\Lighthouse_resumen.png
-INPUT .\assets\\Lighthouse_resumen.png
-INPUT .\assets\\Lighthouse_accesibility.png
-INPUT assets\\Lighthouse_accesibility.png
-INPUT .\assets\\Lighthouse_accesibility.png
-INPUT .\assets\\Lighthouse_accesibility.png
-INPUT .\assets\\Lighthouse_accesibility.png
-INPUT .\assets\\Lighthouse_accesibility.png
-INPUT .\assets\\Lighthouse_contrast.png
-INPUT assets\\Lighthouse_contrast.png
-INPUT .\assets\\Lighthouse_contrast.png
-INPUT .\assets\\Lighthouse_contrast.png
-INPUT .\assets\\Lighthouse_contrast.png
-INPUT .\assets\\Lighthouse_contrast.png
-INPUT .\assets\\Lighthouse_bestpractices.png
-INPUT assets\\Lighthouse_bestpractices.png
-INPUT .\assets\\Lighthouse_bestpractices.png
-INPUT .\assets\\Lighthouse_bestpractices.png
-INPUT .\assets\\Lighthouse_bestpractices.png
-INPUT .\assets\\Lighthouse_bestpractices.png
-INPUT .\assets\\Lighthouse_seo.png
-INPUT assets\\Lighthouse_seo.png
-INPUT .\assets\\Lighthouse_seo.png
-INPUT .\assets\\Lighthouse_seo.png
-INPUT .\assets\\Lighthouse_seo.png
-INPUT .\assets\\Lighthouse_seo.png
-INPUT .\assets\\Lighthouse_PWA.png
-INPUT assets\\Lighthouse_PWA.png
-INPUT .\assets\\Lighthouse_PWA.png
-INPUT .\assets\\Lighthouse_PWA.png
-INPUT .\assets\\Lighthouse_PWA.png
-INPUT .\assets\\Lighthouse_PWA.png
-INPUT .\assets\\Vercel_metrics_resume.png
-INPUT assets\\Vercel_metrics_resume.png
-INPUT .\assets\\Vercel_metrics_resume.png
-INPUT .\assets\\Vercel_metrics_resume.png
-INPUT .\assets\\Vercel_metrics_resume.png
-INPUT .\assets\\Vercel_metrics_resume.png
-INPUT .\assets\\Vercel_metrics.png
-INPUT assets\\Vercel_metrics.png
-INPUT .\assets\\Vercel_metrics.png
-INPUT .\assets\\Vercel_metrics.png
-INPUT .\assets\\Vercel_metrics.png
-INPUT .\assets\\Vercel_metrics.png
+INPUT .\assets\Nextjs\SSR.png
+INPUT assets\Nextjs\SSR.png
+INPUT .\assets\Nextjs\SSR.png
+INPUT .\assets\Nextjs\SSR.png
+INPUT .\assets\Nextjs\SSR.png
+INPUT .\assets\Nextjs\SSR.png
+INPUT .\assets\Nextjs\SSG.png
+INPUT assets\Nextjs\SSG.png
+INPUT .\assets\Nextjs\SSG.png
+INPUT .\assets\Nextjs\SSG.png
+INPUT .\assets\Nextjs\SSG.png
+INPUT .\assets\Nextjs\SSG.png
+INPUT .\assets\Nextjs\NoCodeSplit.jpg
+INPUT assets\Nextjs\NoCodeSplit.jpg
+INPUT .\assets\Nextjs\NoCodeSplit.jpg
+INPUT .\assets\Nextjs\NoCodeSplit.jpg
+INPUT .\assets\Nextjs\NoCodeSplit.jpg
+INPUT .\assets\Nextjs\NoCodeSplit.jpg
+INPUT .\assets\Nextjs\CodeSplit.jpg
+INPUT assets\Nextjs\CodeSplit.jpg
+INPUT .\assets\Nextjs\CodeSplit.jpg
+INPUT .\assets\Nextjs\CodeSplit.jpg
+INPUT .\assets\Nextjs\CodeSplit.jpg
+INPUT .\assets\Nextjs\CodeSplit.jpg
+INPUT .\assets\Nextjs\Prefetch.png
+INPUT assets\Nextjs\Prefetch.png
+INPUT .\assets\Nextjs\Prefetch.png
+INPUT .\assets\Nextjs\Prefetch.png
+INPUT .\assets\Nextjs\Prefetch.png
+INPUT .\assets\Nextjs\Prefetch.png
+INPUT .\assets\Nextjs\FastRefresh.png
+INPUT assets\Nextjs\FastRefresh.png
+INPUT .\assets\Nextjs\FastRefresh.png
+INPUT .\assets\Nextjs\FastRefresh.png
+INPUT .\assets\Nextjs\FastRefresh.png
+INPUT .\assets\Nextjs\FastRefresh.png
+INPUT .\assets\Reactjs\ReactComponents.jpg
+INPUT assets\Reactjs\ReactComponents.jpg
+INPUT .\assets\Reactjs\ReactComponents.jpg
+INPUT .\assets\Reactjs\ReactComponents.jpg
+INPUT .\assets\Reactjs\ReactComponents.jpg
+INPUT .\assets\Reactjs\ReactComponents.jpg
+INPUT .\assets\Reactjs\ReactComponent.png
+INPUT assets\Reactjs\ReactComponent.png
+INPUT .\assets\Reactjs\ReactComponent.png
+INPUT .\assets\Reactjs\ReactComponent.png
+INPUT .\assets\Reactjs\ReactComponent.png
+INPUT .\assets\Reactjs\ReactComponent.png
+INPUT .\assets\Reactjs\VirtualDOM1.png
+INPUT assets\Reactjs\VirtualDOM1.png
+INPUT .\assets\Reactjs\VirtualDOM1.png
+INPUT .\assets\Reactjs\VirtualDOM1.png
+INPUT .\assets\Reactjs\VirtualDOM1.png
+INPUT .\assets\Reactjs\VirtualDOM1.png
+INPUT .\assets\Vercel\DPS.png
+INPUT assets\Vercel\DPS.png
+INPUT .\assets\Vercel\DPS.png
+INPUT .\assets\Vercel\DPS.png
+INPUT .\assets\Vercel\DPS.png
+INPUT .\assets\Vercel\DPS.png
+INPUT .\assets\TypeScript\TypeScript.png
+INPUT assets\TypeScript\TypeScript.png
+INPUT .\assets\TypeScript\TypeScript.png
+INPUT .\assets\TypeScript\TypeScript.png
+INPUT .\assets\TypeScript\TypeScript.png
+INPUT .\assets\TypeScript\TypeScript.png
+INPUT .\assets\VSCode\VScodeExtensions.png
+INPUT assets\VSCode\VScodeExtensions.png
+INPUT .\assets\VSCode\VScodeExtensions.png
+INPUT .\assets\VSCode\VScodeExtensions.png
+INPUT .\assets\VSCode\VScodeExtensions.png
+INPUT .\assets\VSCode\VScodeExtensions.png
+INPUT .\assets\Lighthouse\Resumen.png
+INPUT assets\Lighthouse\Resumen.png
+INPUT .\assets\Lighthouse\Resumen.png
+INPUT .\assets\Lighthouse\Resumen.png
+INPUT .\assets\Lighthouse\Resumen.png
+INPUT .\assets\Lighthouse\Resumen.png
+INPUT .\assets\Lighthouse\Accesibility.png
+INPUT assets\Lighthouse\Accesibility.png
+INPUT .\assets\Lighthouse\Accesibility.png
+INPUT .\assets\Lighthouse\Accesibility.png
+INPUT .\assets\Lighthouse\Accesibility.png
+INPUT .\assets\Lighthouse\Accesibility.png
+INPUT .\assets\Lighthouse\AccesibilityContrast.png
+INPUT assets\Lighthouse\AccesibilityContrast.png
+INPUT .\assets\Lighthouse\AccesibilityContrast.png
+INPUT .\assets\Lighthouse\AccesibilityContrast.png
+INPUT .\assets\Lighthouse\AccesibilityContrast.png
+INPUT .\assets\Lighthouse\AccesibilityContrast.png
+INPUT .\assets\Lighthouse\BestPractices.png
+INPUT assets\Lighthouse\BestPractices.png
+INPUT .\assets\Lighthouse\BestPractices.png
+INPUT .\assets\Lighthouse\BestPractices.png
+INPUT .\assets\Lighthouse\BestPractices.png
+INPUT .\assets\Lighthouse\BestPractices.png
+INPUT .\assets\Lighthouse\SEO.png
+INPUT assets\Lighthouse\SEO.png
+INPUT .\assets\Lighthouse\SEO.png
+INPUT .\assets\Lighthouse\SEO.png
+INPUT .\assets\Lighthouse\SEO.png
+INPUT .\assets\Lighthouse\SEO.png
+INPUT .\assets\Lighthouse\PWA.png
+INPUT assets\Lighthouse\PWA.png
+INPUT .\assets\Lighthouse\PWA.png
+INPUT .\assets\Lighthouse\PWA.png
+INPUT .\assets\Lighthouse\PWA.png
+INPUT .\assets\Lighthouse\PWA.png
+INPUT .\assets\Vercel\VercelAnalyticsResume.png
+INPUT assets\Vercel\VercelAnalyticsResume.png
+INPUT .\assets\Vercel\VercelAnalyticsResume.png
+INPUT .\assets\Vercel\VercelAnalyticsResume.png
+INPUT .\assets\Vercel\VercelAnalyticsResume.png
+INPUT .\assets\Vercel\VercelAnalyticsResume.png
+INPUT .\assets\Vercel\RealExperienceScore.png
+INPUT assets\Vercel\RealExperienceScore.png
+INPUT .\assets\Vercel\RealExperienceScore.png
+INPUT .\assets\Vercel\RealExperienceScore.png
+INPUT .\assets\Vercel\RealExperienceScore.png
+INPUT .\assets\Vercel\RealExperienceScore.png
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\assets\\MVP.png
-INPUT assets\\MVP.png
-INPUT .\assets\\MVP.png
-INPUT .\assets\\MVP.png
-INPUT .\assets\\MVP.png
-INPUT .\assets\\MVP.png
+INPUT .\assets\Lean Startup\MVP.png
+INPUT assets\Lean Startup\MVP.png
+INPUT .\assets\Lean Startup\MVP.png
+INPUT .\assets\Lean Startup\MVP.png
+INPUT .\assets\Lean Startup\MVP.png
+INPUT .\assets\Lean Startup\MVP.png
+INPUT .\assets\Scrum\User Stories\MenuMain.png
+INPUT assets\Scrum\User Stories\MenuMain.png
+INPUT .\assets\Scrum\User Stories\MenuMain.png
+INPUT .\assets\Scrum\User Stories\MenuMain.png
+INPUT .\assets\Scrum\User Stories\MenuMain.png
+INPUT .\assets\Scrum\User Stories\MenuMain.png
+INPUT .\assets\Scrum\User Stories\MenuLateral.png
+INPUT assets\Scrum\User Stories\MenuLateral.png
+INPUT .\assets\Scrum\User Stories\MenuLateral.png
+INPUT .\assets\Scrum\User Stories\MenuLateral.png
+INPUT .\assets\Scrum\User Stories\MenuLateral.png
+INPUT .\assets\Scrum\User Stories\MenuLateral.png
+INPUT .\assets\Scrum\User Stories\Notas.png
+INPUT assets\Scrum\User Stories\Notas.png
+INPUT .\assets\Scrum\User Stories\Notas.png
+INPUT .\assets\Scrum\User Stories\Notas.png
+INPUT .\assets\Scrum\User Stories\Notas.png
+INPUT .\assets\Scrum\User Stories\Notas.png
+INPUT .\assets\Scrum\User Stories\NotasRespuestas.png
+INPUT assets\Scrum\User Stories\NotasRespuestas.png
+INPUT .\assets\Scrum\User Stories\NotasRespuestas.png
+INPUT .\assets\Scrum\User Stories\NotasRespuestas.png
+INPUT .\assets\Scrum\User Stories\NotasRespuestas.png
+INPUT .\assets\Scrum\User Stories\NotasRespuestas.png
+INPUT .\assets\Scrum\User Stories\Intervalos.png
+INPUT assets\Scrum\User Stories\Intervalos.png
+INPUT .\assets\Scrum\User Stories\Intervalos.png
+INPUT .\assets\Scrum\User Stories\Intervalos.png
+INPUT .\assets\Scrum\User Stories\Intervalos.png
+INPUT .\assets\Scrum\User Stories\Intervalos.png
+INPUT .\assets\Scrum\User Stories\IntervalosRespuestas.png
+INPUT assets\Scrum\User Stories\IntervalosRespuestas.png
+INPUT .\assets\Scrum\User Stories\IntervalosRespuestas.png
+INPUT .\assets\Scrum\User Stories\IntervalosRespuestas.png
+INPUT .\assets\Scrum\User Stories\IntervalosRespuestas.png
+INPUT .\assets\Scrum\User Stories\IntervalosRespuestas.png
+INPUT .\assets\Scrum\User Stories\Escalas.png
+INPUT assets\Scrum\User Stories\Escalas.png
+INPUT .\assets\Scrum\User Stories\Escalas.png
+INPUT .\assets\Scrum\User Stories\Escalas.png
+INPUT .\assets\Scrum\User Stories\Escalas.png
+INPUT .\assets\Scrum\User Stories\Escalas.png
+INPUT .\assets\Scrum\User Stories\EscalasRespuestas.png
+INPUT assets\Scrum\User Stories\EscalasRespuestas.png
+INPUT .\assets\Scrum\User Stories\EscalasRespuestas.png
+INPUT .\assets\Scrum\User Stories\EscalasRespuestas.png
+INPUT .\assets\Scrum\User Stories\EscalasRespuestas.png
+INPUT .\assets\Scrum\User Stories\EscalasRespuestas.png
+INPUT .\assets\Scrum\User Stories\Piano.png
+INPUT assets\Scrum\User Stories\Piano.png
+INPUT .\assets\Scrum\User Stories\Piano.png
+INPUT .\assets\Scrum\User Stories\Piano.png
+INPUT .\assets\Scrum\User Stories\Piano.png
+INPUT .\assets\Scrum\User Stories\Piano.png
+INPUT .\assets\Scrum\User Stories\CambiarRespuestas.png
+INPUT assets\Scrum\User Stories\CambiarRespuestas.png
+INPUT .\assets\Scrum\User Stories\CambiarRespuestas.png
+INPUT .\assets\Scrum\User Stories\CambiarRespuestas.png
+INPUT .\assets\Scrum\User Stories\CambiarRespuestas.png
+INPUT .\assets\Scrum\User Stories\CambiarRespuestas.png
+INPUT .\assets\Scrum\User Stories\Instrumentos.png
+INPUT assets\Scrum\User Stories\Instrumentos.png
+INPUT .\assets\Scrum\User Stories\Instrumentos.png
+INPUT .\assets\Scrum\User Stories\Instrumentos.png
+INPUT .\assets\Scrum\User Stories\Instrumentos.png
+INPUT .\assets\Scrum\User Stories\Instrumentos.png
+INPUT .\assets\Scrum\User Stories\NotasSelectorEscalas.png
+INPUT assets\Scrum\User Stories\NotasSelectorEscalas.png
+INPUT .\assets\Scrum\User Stories\NotasSelectorEscalas.png
+INPUT .\assets\Scrum\User Stories\NotasSelectorEscalas.png
+INPUT .\assets\Scrum\User Stories\NotasSelectorEscalas.png
+INPUT .\assets\Scrum\User Stories\NotasSelectorEscalas.png
+INPUT .\assets\Scrum\User Stories\IntervalosDireccion.png
+INPUT assets\Scrum\User Stories\IntervalosDireccion.png
+INPUT .\assets\Scrum\User Stories\IntervalosDireccion.png
+INPUT .\assets\Scrum\User Stories\IntervalosDireccion.png
+INPUT .\assets\Scrum\User Stories\IntervalosDireccion.png
+INPUT .\assets\Scrum\User Stories\IntervalosDireccion.png
+INPUT .\assets\Scrum\User Stories\EscalasDireccion.png
+INPUT assets\Scrum\User Stories\EscalasDireccion.png
+INPUT .\assets\Scrum\User Stories\EscalasDireccion.png
+INPUT .\assets\Scrum\User Stories\EscalasDireccion.png
+INPUT .\assets\Scrum\User Stories\EscalasDireccion.png
+INPUT .\assets\Scrum\User Stories\EscalasDireccion.png
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.aux
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
