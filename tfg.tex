@@ -347,7 +347,6 @@ Todo ello en una aplicación con renderizado en el lado del servidor que tiene c
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1 Introducción %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Introducción}
 
-\cite{giaquinta}
 En este capítulo daremos un poco de explicación sobre qué consiste el entrenamiento auditivo para que pueda comprender mejor el objetivo general y alcance del trabajo. Además, se realizará una pequeña descripción del proyecto y se comentará brevemente el estado del arte actual. Por último, se establecerán los objetivos y la estructura del documento.
 
 % Estilo resto de páginas
@@ -510,23 +509,15 @@ Se espera que sea lo suficientemente clarificador y que permita una lectura comp
 
 \end{itemize}
 
-% \afterpage{\blankpage} % puede generar problema en índice de contenidos
-% \newpage
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 Contenidos Principales %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\chapter{Ideación y Diseño}
-
 En este capítulo se detalla el proceso de creación de la aplicación. Este proceso se centra en la utilización de Design Thinking y Lean Startup, para la fase de ideación y puesta en marcha, y Metologías Ágiles, para llevar a cabo la gestión y desarrollo del software. Con este proceso se consiguió desarrollar un Producto Mínimo Viable. 
 
 Con todo esto conseguimos un proceso que parte de la nada, se centra en el usuario, gestiona el caos, integra el error y es iterable. Este proceso se puede ver ilustrado en la figura X.
 
 \begin{figure}[H] 
-    \includegraphics[scale=0.3]{LeanDesignAgile}
+    \includegraphics[scale=0.45]{LeanDesignAgile}
     \centering
     \label{fig:Lean Design Agile}
-    \caption{Diagrama de Lean Design}
+    \caption{Diagrama Design Thinking + Lean Startup + Agile}
 \end{figure}
 
 Para explicar mejor cada fase se ha decido dividir en tres partes: 
@@ -536,6 +527,15 @@ Para explicar mejor cada fase se ha decido dividir en tres partes:
     \item Metodologías Ágiles, donde se habla de la metodología seguida para gestionar el desarrollo.
     \item Descripción Informática, donde se habla de la implementación de la solución.
 \end{compactitem}
+
+
+% \afterpage{\blankpage} % puede generar problema en índice de contenidos
+% \newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 Contenidos Principales %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Ideación y Diseño}
 
 Para encontrar una solución viable al problema que se plantea y qué aporte un valor real a los usuarios, necesitamos de algún método que nos permita diseñar una solución de manera efectiva bajo unas condiciones de incertidumbre extrema.
 
@@ -598,20 +598,6 @@ Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teni
 
 Una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First.
 
-\begin{comment}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.18]{Design Thinking/PrototipoSteps}
-        \label{fig:WireframeSteps}
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.3]{Design Thinking/Prototipo}
-        \label{fig:Wireframe}
-        \caption{Prototipo Smartphone}
-    \end{figure}
-    \end{comment}
-    
     \begin{figure}[H]
         \centering
         \includegraphics[scale=0.33]{Design Thinking/Prototipo/Small/Prototipo}
@@ -961,7 +947,7 @@ Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquete
     \centering
     \includegraphics[scale=0.1]{Nodejs/NodeNPMYarn}
     \label{fig:NodeNPMYarn}
-    \caption{Nodejs, NPM y YARN}
+    \caption{Nodejs, NPM y Yarn}
 \end{figure}
 
 \subsubsection{NPM o Yarn}
@@ -970,7 +956,9 @@ A veces, la instalación de paquetes con NPM no es lo suficiente consistente o r
 
 En package.json, el archivo donde tanto NPM como Yarn hacen un seguimiento de las dependencias del proyecto, los números de versión no siempre son exactos. En su lugar, se puede definir una gama de versiones.
 
-Cada vez que se añade un módulo, Yarn crea (o actualiza) un archivo "yarn.lock". De esta manera se puede garantizar que en otra máquina se pueda instalar exactamente el mismo paquete, sin dejar de tener una gama de versiones permitidas definidas en package.json. Lo cual nos permitió resolver algunos errores en la instalación de librerias.
+Cada vez que se añade un módulo, Yarn crea o actualiza un archivo yarn.lock.
+De esta manera se puede garantizar que en otra máquina se pueda instalar exactamente el mismo paquete, sin dejar de tener una gama de versiones permitidas definidas en package.json. 
+Lo cual nos permitió resolver algunos errores en la instalación de librerias.
 
 \subsection{VSCode}
 
@@ -1012,7 +1000,26 @@ Para ello, analiza el código y lo da formato cada vez que se guarda el archivo.
 
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
-\section{Arquitectura}
+\section{Detalles de Implementación}
+\subsection{Arquitectura}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{Detalles de Implementación/Arquitectura}
+    \label{fig:Arquitectura}
+    \caption{Arquitectura}
+\end{figure}
+
+\subsection{Estructura de archivos}
+\subsection{Infraestructura}
+\subsection{Datos y Servicios}
+\subsection{Componentes y Pages}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.28]{Detalles de Implementación/JerarquíaComponentes}
+    \label{fig:JerarquíaComponentes}
+    \caption{Jerarquía de Componentes}
+\end{figure}
+\subsection{Hooks y Context}
 
 \subsection{Buenas Prácticas}
 
@@ -1218,7 +1225,7 @@ En función de todas las métricas que se mencionan a continuación, Vercel calc
 
 \subsubsection{Web Vitals}
 
-Son una colección de métrica establecidas por Google(https://web.dev/vitals/) junto con el \textbf{Web Performance Working Group}  (Grupo de trabajo de rendimiento web (https://www.w3.org/webperf/)) que rastrean la velocidad de carga , capacidad de respuesta y estabilidad visual de una aplicación web. El análisis consta de las siguientes cuatro categorías:
+Son una colección de métrica establecidas por Google \cite{webdev} junto con el \textbf{Web Performance Working Group} \cite{w3} que rastrean la velocidad de carga , capacidad de respuesta y estabilidad visual de una aplicación web. El análisis consta de las siguientes cuatro categorías:
 
 \begin{itemize}
     \item\textbf{First Contentful Paint (FCP):} Mide la velocidad de carga, o cuando se muestra el primer contenido de la página.
@@ -1233,9 +1240,6 @@ Son una colección de métrica establecidas por Google(https://web.dev/vitals/) 
 \chapter{Conclusiones}
 
 En este capítulo se detallan las conclusiones derivadas del TFG y la propuesta de posibles trabajos futuros.
-
-Las citas del texto Autor \cite{giaquinta}, Autor \cite{fortune}, Autor \cite{fortuneB}, Autor \cite{mitchell} y Autor \cite{morrey} deben ir referenciadas en la bibliografia.
-
 
 Qué he aprendidos
 Qué debo mejorar

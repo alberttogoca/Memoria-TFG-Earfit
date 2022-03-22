@@ -21,26 +21,15 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{giaquinta}
-M.~Giaquinta and S.~Hildebrandt, \emph{Calculus of variations II}.\hskip 1em
-  plus 0.5em minus 0.4em\relax Springer Science and Business Media, 2013, vol.
-  311.
+\bibitem{webdev}
+\BIBentryALTinterwordspacing
+Google, \emph{Web Vitals}. [Online]. Available: \url{https://web.dev/vitals/}
+\BIBentrySTDinterwordspacing
 
-\bibitem{fortune}
-S.~Fortune and C.~J. Van~Wyk, ``Efficient exact arithmetic for computational
-  geometry,'' in \emph{Proceedings of the Ninth Annual Symposium on
-  Computational Geometry}, 1993, pp. 163--172.
-
-\bibitem{fortuneB}
-S.~Fortune, ``Voronoi diagrams and delaunay triangulations,'' \emph{Computing
-  in Euclidean geometry}, pp. 225--265, 1995.
-
-\bibitem{mitchell}
-J.~C. Mitchell, ``Social networks,'' \emph{Annual review of anthropology},
-  vol.~3, no.~1, pp. 279--299, 1974.
-
-\bibitem{morrey}
-C.~B. Morrey~Jr, \emph{Multiple integrals in the calculus of variations}.\hskip
-  1em plus 0.5em minus 0.4em\relax Springer Science and Business Media, 2009.
+\bibitem{w3}
+\BIBentryALTinterwordspacing
+G.~de~Trabajo~de Rendimiento~Web, \emph{Application Performance of User Agent
+  Features and APIs}. [Online]. Available: \url{https://www.w3.org/webperf/}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
