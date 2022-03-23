@@ -42,43 +42,33 @@
 \contentsline {section}{\numberline {4.2}Detalles de Implementación}{33}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Arquitectura}{33}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Estructura de Archivos}{33}{subsection.4.2.2}%
-\contentsline {subsubsection}{Pages}{33}{section*.45}%
-\contentsline {subsubsection}{Public}{34}{section*.46}%
-\contentsline {subsubsection}{Components}{34}{section*.47}%
-\contentsline {subsubsection}{Types}{34}{section*.48}%
-\contentsline {subsubsection}{Lib}{34}{section*.49}%
-\contentsline {subsubsection}{Utils}{35}{section*.50}%
-\contentsline {subsubsection}{Styles}{35}{section*.51}%
-\contentsline {subsubsection}{Services}{35}{section*.52}%
-\contentsline {subsubsection}{Context}{35}{section*.53}%
-\contentsline {subsubsection}{Hooks}{35}{section*.54}%
 \contentsline {subsection}{\numberline {4.2.3}Infraestructura}{36}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Datos y Servicios}{36}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Componentes y Pages}{36}{subsection.4.2.5}%
 \contentsline {subsection}{\numberline {4.2.6}Hooks y Context}{36}{subsection.4.2.6}%
 \contentsline {subsection}{\numberline {4.2.7}Buenas Prácticas}{36}{subsection.4.2.7}%
-\contentsline {subsubsection}{Guía de Estilo de Código}{36}{section*.56}%
-\contentsline {subsubsection}{Principios Clean Code}{37}{section*.57}%
-\contentsline {subsubsection}{Otras Buenas Prácticas}{37}{section*.58}%
+\contentsline {subsubsection}{Guía de Estilo de Código}{36}{section*.47}%
+\contentsline {subsubsection}{Principios Clean Code}{37}{section*.48}%
+\contentsline {subsubsection}{Otras Buenas Prácticas}{37}{section*.49}%
 \contentsline {section}{\numberline {4.3}Testing}{38}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Pruebas Funcionales}{38}{subsection.4.3.1}%
-\contentsline {subsubsection}{Pruebas Unitarias}{38}{section*.59}%
-\contentsline {subsubsection}{Pruebas de Componentes}{39}{section*.60}%
-\contentsline {subsubsection}{Pruebas de Integración}{39}{section*.61}%
-\contentsline {subsubsection}{Pruebas End to End (E2E)}{39}{section*.62}%
+\contentsline {subsubsection}{Pruebas Unitarias}{38}{section*.50}%
+\contentsline {subsubsection}{Pruebas de Componentes}{39}{section*.51}%
+\contentsline {subsubsection}{Pruebas de Integración}{39}{section*.52}%
+\contentsline {subsubsection}{Pruebas End to End (E2E)}{39}{section*.53}%
 \contentsline {subsection}{\numberline {4.3.2}Pruebas No Funcionales}{40}{subsection.4.3.2}%
-\contentsline {subsubsection}{Google Lighthouse}{40}{section*.63}%
-\contentsline {subsubsection}{Performance}{40}{section*.65}%
-\contentsline {subsubsection}{Accessibility}{41}{section*.66}%
-\contentsline {subsubsection}{Best Practices}{42}{section*.69}%
-\contentsline {subsubsection}{SEO}{42}{section*.71}%
-\contentsline {subsubsection}{Progressive Web Apps}{43}{section*.73}%
-\contentsline {subsubsection}{Vercel Analytics}{44}{section*.75}%
-\contentsline {subsubsection}{Real Experience Score}{45}{section*.77}%
-\contentsline {subsubsection}{Web Vitals}{45}{section*.79}%
+\contentsline {subsubsection}{Google Lighthouse}{40}{section*.54}%
+\contentsline {subsubsection}{Performance}{40}{section*.56}%
+\contentsline {subsubsection}{Accessibility}{41}{section*.57}%
+\contentsline {subsubsection}{Best Practices}{42}{section*.60}%
+\contentsline {subsubsection}{SEO}{42}{section*.62}%
+\contentsline {subsubsection}{Progressive Web Apps}{43}{section*.64}%
+\contentsline {subsubsection}{Vercel Analytics}{44}{section*.66}%
+\contentsline {subsubsection}{Real Experience Score}{45}{section*.68}%
+\contentsline {subsubsection}{Web Vitals}{45}{section*.70}%
 \contentsline {chapter}{\numberline {5}Conclusiones}{47}{chapter.5}%
-\contentsline {chapter}{Bibliografía}{49}{section*.80}%
-\contentsline {chapter}{Apéndices}{51}{section*.82}%
+\contentsline {chapter}{Bibliografía}{49}{section*.71}%
+\contentsline {chapter}{Apéndices}{51}{section*.73}%
 \contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{53}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{53}{section.Alph1.1}%
 \contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{57}{section.Alph1.2}%
