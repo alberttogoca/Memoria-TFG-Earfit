@@ -1009,7 +1009,58 @@ En definitiva, Prettier se usa para problemas de formato de código y ESLint par
     \caption{Arquitectura}
 \end{figure}
 
-\subsection{Estructura de archivos}
+\subsection{Estructura de Archivos}
+
+React no tiene opiniones sobre cómo poner los archivos en carpetas. Una forma popular de estructurar proyectos es agrupar archivos similares. En este caso se han separado los archivos por conceptos o intereses, donde cada carpeta se enfoca en un interés concreto:
+
+\subsubsection{Pages}
+
+En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio 'pages'. Cada página está asociada con una ruta basada en su nombre de archivo. Ejemplo: En 'pages/notes' se exporta un componente de React que será accesible en '/notes'.
+
+Aquí se encuentran todas las páginas de la aplicación y además se encuentran los archivos '\_app.tsx' y '\_document.tsx' personalizados. 
+
+Para tener un Layout persistente para toda la aplicación, se puede crear un archivo '\_app.tsx' personalizado y envolver la aplicación con el componente.
+También se encuentran aquí los metadatos de la aplicación. 
+Por otro lado, en el archivo '\_document.tsx' se pueden actualizar las etiquetas '<html>' y '<body>', por ejemplo añadiendo 'lang='en'' a la etiqueta '<html>'. 
+
+\subsubsection{Public}
+
+Next.js puede servir archivos estáticos, como imágenes, en una carpeta llamada 'public' en el directorio raíz. El código puede hacer referencia a los archivos dentro de 'public' a partir de la URL base (/). Aquí se pueden encontrar los iconos, imágenes y archivos de fuente de sonido (soundfonts en formato MIDI.js) de la aplicación.
+
+\subsubsection{Components}
+
+El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas. Aquí se pueden encontrar todos los componentes de la aplicación agrupados por carpetas.
+
+\subsubsection{Types}
+
+Para usar Typescript todos los archivos '.js' se convierten en '.ts' y '.jsx' en '.tsx'. Aquí se encuentran en un archivo todos los tipos personalizados usados en los demás archivos de la aplicación.
+
+\subsubsection{Lib}
+
+Normalmente las librerías se definen en el 'package.json' y se instalan en 'node\_modules'. Aquí se puede encontrar 'soundfont-wrapper', una librería personalizada para la aplicación. 
+Para hacer uso de la librería 'soundfont-player', que se encarga de cargar los archivos de fuente de sonido (soundfonts) y reproducir sonidos MIDI utilizando la WebAudio API. 
+Se decidió crear esta librería envoltorio (Wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
+
+\subsubsection{Utils}
+
+Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación. Por ejemplo: en 'arrayUtils.ts' está el método 'getRandomItem' que devuelve un elemento al azar de un array.
+
+\subsubsection{Styles}
+
+Aquí se pueden encontrar algunos estilos css globales para la aplicación. Aunque en general se hace uso de 'react-bootstrap' junto con 'bootswatch' para los estilos de la aplicación.
+
+\subsubsection{Services}
+
+Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica siendo independientes de la capa IU. Aquí puedes encontrar los servicios que son consumidos desde los Hooks.
+
+\subsubsection{Context}
+
+El Context está diseñado para compartir datos que pueden considerarse “globales” para un árbol de componentes en React. Como es un componente algo especial, como las pages, tiene su propio directorio.
+
+\subsubsection{Hooks}
+
+Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase. Aquí puedes encontrar todos los Custom Hooks creados, para extraer la lógica de los componentes en funciones reutilizables.
+
 \subsection{Infraestructura}
 \subsection{Datos y Servicios}
 \subsection{Componentes y Pages}
