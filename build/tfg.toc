@@ -41,7 +41,7 @@
 \contentsline {subsubsection}{Prettier}{32}{section*.43}%
 \contentsline {section}{\numberline {4.2}Detalles de Implementación}{33}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Arquitectura}{33}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Estructura de archivos}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Estructura de Archivos}{33}{subsection.4.2.2}%
 \contentsline {subsubsection}{Pages}{33}{section*.45}%
 \contentsline {subsubsection}{Public}{34}{section*.46}%
 \contentsline {subsubsection}{Components}{34}{section*.47}%
