@@ -1053,6 +1053,50 @@ En este caso se han separado los archivos por conceptos o intereses, donde cada 
 \end{figure}
 \subsection{Hooks y Context}
 
+\subsection{Progressive Web App}
+Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en Progressive Web App. Con la Progressive Web App, el usuario puede instalar la app en su dispositivo y seguir consultándola, aunque haya perdido la conexión.
+
+Para poder llamar PWA a una aplicación web, debe tener las siguientes características:
+
+\begin{compactitem}
+
+    \item \textbf{Una conexión segura:} La aplicación web se debe servir a través de una red segura HTTPS.
+    \item \textbf{Cargue sin conexión:} Esto significa que las aplicaciones web progresivas requieren de un \textbf{service worker}.
+    \item \textbf{Información sobre la aplicación:} como nombre, autor, icono y descripción en un documento JSON llamado \textbf{manifest}.
+    \item \textbf{Un icono} de al menos 144x144 de tamaño grande en formato PNG.
+\end{compactitem}
+
+Siendo una PWA, al visitarla cualquier navegador ya nos da la opción de instalarla en nuestro dispositivo. En iOS, la opción se llama 'añadir a pantalla de inicio' desde el menú 'compartir' de Safari y en Chrome por ejemplo es de la siguiente manera:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.9]{Detalles de Implementación/InstalarPWA}
+    \label{fig:InstalarPWA}
+    \caption{Instalar PWA desde Chrome}
+\end{figure}
+
+Al instalarla se crea un icono en la pantalla de inicio y ya está lista para usar. Puede usarse sin conexión y en cualquier tamaño de ventana ya que al ser responsiva se adapta. Para desinstalar se puede hacer como una aplicación normal o simplemente pulsando en los tres puntos de la ventana nos da la opción.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.28]{Detalles de Implementación/PWA}
+    \label{fig:PWA}
+    \caption{Earfit como PWA en Windows}
+\end{figure}
+
+Observación: En el entorno desarrollo, se ha deshabilitado la opción de PWA en next.config.js porque genera muchos mensajes de consola.
+
+\subsubsection{Service Worker}
+Se puede encontrar en la carpeta public con el nombre de sw.js. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin next-pwa, que permite registrar y generar un service worker optimizado sin apenas configuración. El archivo workbox también está relacionado con este plugin.
+
+\subsubsection{Manifest}
+Se puede encontrar en la caperta public con el nombre de manifest.json. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
+
+IOS Safari no implementa manifiestos, por lo que la mayoría de los metadatos de PWA se pueden definir a través de extensiones específicas de Apple para las metaetiquetas. Estos están definidos en el archivo personalizado '\_app.tsx'
+
+Los iconos de la aplicación a los que se hacen referencia se pueden encontrar en la carpeta 'public/icons'.
+
+
 \subsection{Buenas Prácticas}
 
 Al hablar de buenas prácticas en programación nos referimos a un conjunto de técnicas, principios, metodologías que debemos implementar en nuestro software para que se vuelva fácil, rápido y seguro de desarrollar, mantener y desplegar.
