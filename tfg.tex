@@ -397,83 +397,37 @@ Los ejercicios más comunes de entrenamiento auditivo te ayudarán a desarrollar
 
 \section{Estado del Arte}
 
-En la actualidad ya existen algunas aplicaciones para entrenar el oído como pueden ser:
+En la actualidad ya existen algunas aplicaciones que contemplan el entrenamiento auditivo como pueden ser ToneGym, TonedEar y EarMaster. En esta sección vamos a analizar cada una de ellas con el objetivo de obtener información útil para nuestra aplicación. Vamos a centrarnos en descubrir los pros y los contras de cada una, que tendremos en cuenta en la fase de ideación y diseño, para mejorar nuestra solución.
 
-ToneGym: \url{https://www.tonegym.co/}
+\subsection{ToneGym}
 
-Pros:
+Esta aplicación cuenta con los ejercicios clásicos de entrenamiento musical. Una vez en un ejercicio cuenta con varios tipos del mismo y un menú siempre visible a la izquierda para que puedas moverte entre ellos fácilmente. Cuando aciertas la respuesta en un ejercicio recibes un feedback del botón como correcto mediante sonido, el botón se vuelve verde unos segundos y automáticamente se pasa al siguiente sonido, lo que agiliza la práctica.
 
-Varios tipos de ejercicios
+(IMAGEN)
 
-Menu de facil acceso a la izquierda
+Sin embargo, lo primero que vemos al entrar en la aplicación es una landing page en la que si pulsas Lets Start Training nos lleva a crearnos una cuenta en lugar de a los ejercicios. Esto es algo que echa para atrás a probar una aplicación que no conoces. La sección de ejercicios esta un poco escondida y hay que deslizar hacia abajo para encontrarla. Aunque el diseño está bastante bien, la personalización de los ejercicios es nula. Además, una vez hayas fallado en la respuesta no se te permite continuar probando. Por último no incorpora ninguna opción para cambiar el instrumento que suena.
 
-Contras:
+\subsection{TonedEar}
 
-Primero parece que necesitas login
+Esta aplicación es la que más se parece a lo que queremos construir. Contiene varios tipos de ejercicios como identificación de intervalos, escalas, etc. Permite la personalización de los ejercicios mediante un panel a la derecha, aunque no es inmediato. Y ofrece la posibilidad de continuar con el ejercicio aunque falles en la primera respuesta. Además, es una aplicación web gratuita, sencilla, fácil de entender y usar.
 
-Ejercicios un poco ocultos
+(IMAGEN)
 
-Si fallas no puedes continuar
+El único fallo encontrado analizando el código la aplicación es que en el ejercicio de identificación de intervalos, no se encuentran todos los intervalos existentes. Podemos observar que siempre una de las dos notas del intervalo será un número MIDI desde 40 hasta 65 y la segunda nota será la primera más un número del 1 al 14 (el atributo interval). Lo que nos da un rango de notas desde 40 hasta 79 cuando el rango de notas MIDI va desde 20 hasta 108 para un piano. Además, este ejercicio no está bien implementado y tiene fallos. Puede ocurrir que la primera nota del intervalo suene después de la segunda como se puede apreciar en las capturas en la función 'playInterval'.
 
-No los puedes personalizar
+(IMAGEN)
 
-Solo piano
+Por último, la aplicación permite personalizar los ejercicios pero no permite cambiar entre instrumentos. El instrumento que suena siempre al pulsar el botón de pregunta es un piano.
 
-ToneDear \url{https://tonedear.com/}
+\subsection{EarMaster}
 
-Pros:
+Parece ser la más completa y elaborada de todas con más de 2500 ejercicios. Contiene ejercicios para que puedas reconocer, transcribir, leer, cantar y tocar: Intervalos, acordes, progresiones armónicas, escalas, ritmos y melodías.
 
-Varios tipos de ejercicios
+(IMAGEN)
 
-Puedes personalizar los ejercicios aunque no es inmediato
+Sin embargo, su contenido gratuito sólo consta de identificación de intervalos y acordes. Para poder hacer uso de la aplicación completa ofrece precios desde los 59,95€ hasta los 99,95€. Aparte, necesitas tener la aplicación instalada para utilizarla, no es una aplicación web. Todo esto resulta en que el usuario al que nos estamos enfocando no pueda usarla. Esta aplicación parece estar más destinada a centros educativos que puedan hacerse cargo de la licencia.
 
-Si fallas puedes continuar
-
-Contras:
-
-Solo piano
-
-No estan todos los intervalos
-
-El ejercicio intervalos está un poco roto
-
-EarMaster: \url{https://www.earmaster.com/es/}
-
-Directamente de pide que la descargues
-
-La mayoría de ellas está de acuerdo en qué el método más efectivo para progresar en el entrenamiento auditivo es el siguiente:
-
-\begin{itemize}
-    \item Aumentar la frecuencia que se practica, no la duración. Esto se debe a que, después de haber pasado un tiempo practicando, el cerebro continúa pensando en ello y haciendo nuevas conexiones neuronales en segundo plano, incluso mientras se duerme (especialmente mientras se duerme). Por esta razón, se recomienda marcar tus ejercicios favoritos y hacerlos todos los días durante un tiempo determinado.
-    
-    \item Empezar de forma simple y aumentar gradualmente la dificultad. La práctica debe ser un desafío, pero no tanto como para sentirse abrumado.
-    
-    \item Realizar un seguimiento del progreso. Tener en un cuaderno, un archivo de texto o incluso una hoja de cálculo con el seguimiento del progreso. Esto permite saber con certeza si se está mejorando. Si puedes ver tu mejora, te alentará a continuar. También puede ayudar anotar cuándo se está estancado para poder encontrar la causa. Quizá no practicas con la suficiente frecuencia o aumentaste la dificultad demasiado rápido.
-    
-    \item Cantar escalas e intervalos. Todos los ejercicios de estos sitios implican identificar notas en lugar de generarlas, pero eso no significa que no debas cantar junto con ellas. Esto ayuda a internalizar los tonos. Es especialmente útil para el ejercicio de escalas. Intentar cantar hacia arriba y hacia abajo todas las escalas te ayudará a interiorizarlas.
-    
-    \item Transcribir música con un instrumento. Elegir tus canciones favoritas e intentar descubrir las notas con un instrumento es una buena práctica. Puedes comenzar con la melodía y luego intentar descifrar los acordes, o puedes empezar con los acordes y luego intentar descifrar la melodía. Practica en ambos sentidos.
-\end{itemize}
-
-Todas ellas plantean diferentes ejercicios para reconocer notas, intervalos y escalas. La mayor diferencia que se encuentra en ellas es su diseño y su nivel de personalización de los ejercicios, que es donde vamos a enfocar este trabajo. Dando no sólo una aplicación con ejercicios sino una herramienta que te dé la libertad de configurarla a tu gusto.
-
-\section{Descripción del Proyecto}
-
-El presente Trabajo de Fin de Grado se centra en el diseño e implementación de una aplicación web con la finalidad de ayudar a músicos a desarrollar su oído musical mediante la realización de ejercicios de entrenamiento auditivo. 
-
-La aplicación se centrará en tres tipos diferentes de ejercicios divididos en la localización de notas, intervalos y escalas. Para cada uno de los ejercicios se ha diseñado una página específica, que incluirá:
-
-El propio ejercicio, que consistirá en un botón que reproducirá el sonido correspondiente al ejercicio (una nota, un intervalo o una escala), calculado aleatoriamente teniendo en cuenta las posibles respuestas disponibles. La idea es que el usuario trate de adivinar el sonido que está sonando. Cuando pulse sobre una respuesta se evaluará si es correcta o incorrecta. Si es incorrecta el botón cambiará a color rojo y podrá seguir probando. Si es correcta el botón cambiará a verde un segundo, se reseterán los colores de los botones de respuesta y se calculará un nuevo sonido. También existe un contador de racha que aparecerá cuando se den tres aciertos consecutivos y desaparecerá cuando se falle, lo que animará a seguir practicando.
-
-A su derecha aparecerán las opciones con las que podrá personalizar el ejercicio a su gusto, añadiendo o quitando respuestas disponibles del ejercicio lo que incrementará o disminuirá la dificultad. 
-
-Además, en el ejercicio de notas se podrá cambiar la escala de la que se seleccionan las notas y en los ejercicios de intervalos y escalas se podrá elegir si las sucesión de notas será ascendente o descendente. 
-
-También todos los ejercicios incorporarán un piano que los usuarios podrán usar para tocar notas de referencia y ayudarse en la obtención de la respuesta correcta. 
-
-Aparte, se ha incorporado la posibilidad de poder cambiar el instrumento que suena y que será persistente para toda la aplicación.
-
-Toda la aplicación se ha diseñado teniendo en mente que el diseño fuera simple, fácil de entender y limpio. Ha sido desarrollada utilizando Nextjs y Typescript. Y se ha seguido un despliegue continuo de la aplicación en Vercel. Utilizando Metodologías Ágiles y prácticas de DevOps para llevar a cabo la organización y el desarrollo del producto. Además de Design Thinking y Lean Startup para la ideación, diseño y creación de la solución.
+(IMAGEN)
 
 \section{Objetivos}
 

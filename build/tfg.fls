@@ -932,6 +932,7 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\bookman\pbkd7t.vf
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\bookman\pbkd8r.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\assets\LeanDesignAgile.png
 INPUT assets\LeanDesignAgile.png
 INPUT .\assets\LeanDesignAgile.png
@@ -1046,7 +1047,6 @@ INPUT .\assets\Nextjs\PrerenderComparation.png
 INPUT .\assets\Nextjs\PrerenderComparation.png
 INPUT .\assets\Nextjs\PrerenderComparation.png
 INPUT .\assets\Nextjs\PrerenderComparation.png
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\assets\Nextjs\SSR.png
 INPUT assets\Nextjs\SSR.png
 INPUT .\assets\Nextjs\SSR.png
