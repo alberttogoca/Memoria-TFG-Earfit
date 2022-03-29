@@ -50,46 +50,46 @@
 \contentsline {figure}{\numberline {4.13}{\ignorespaces ESLint, Prettier y VSCode\relax }}{33}{figure.caption.47}%
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Arquitectura\relax }}{34}{figure.caption.50}%
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Estructura de Archivos\relax }}{35}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Jerarquía de Componentes\relax }}{37}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Instalar PWA desde Chrome\relax }}{38}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Earfit como PWA en Windows\relax }}{38}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Puntuaciones de Lighthouse\relax }}{43}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Accesibility\relax }}{44}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Contrast fail\relax }}{44}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Best Practices\relax }}{45}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces SEO\relax }}{46}{figure.caption.73}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces PWA\relax }}{47}{figure.caption.75}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Vercel Analytics\relax }}{47}{figure.caption.77}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Web Vitals\relax }}{48}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Jerarquía de Componentes\relax }}{39}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Instalar PWA desde Chrome\relax }}{40}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Earfit como PWA en Windows\relax }}{40}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Puntuaciones de Lighthouse\relax }}{45}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Accesibility\relax }}{46}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Contrast fail\relax }}{46}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Best Practices\relax }}{47}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces SEO\relax }}{48}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces PWA\relax }}{49}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Vercel Analytics\relax }}{49}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Web Vitals\relax }}{50}{figure.caption.82}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces MVP\relax }}{58}{figure.caption.84}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces MVP\relax }}{60}{figure.caption.87}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Templates\relax }}{65}{figure.caption.94}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Home y Notas\relax }}{66}{figure.caption.95}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Intervals y Scales\relax }}{67}{figure.caption.96}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Home\relax }}{67}{figure.caption.97}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Notes\relax }}{68}{figure.caption.98}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Intervals\relax }}{68}{figure.caption.99}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Scales\relax }}{69}{figure.caption.100}%
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Home\relax }}{69}{figure.caption.101}%
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Notes\relax }}{70}{figure.caption.102}%
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Intervals\relax }}{70}{figure.caption.103}%
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Scales\relax }}{71}{figure.caption.104}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Templates\relax }}{67}{figure.caption.97}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Home y Notas\relax }}{68}{figure.caption.98}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Intervals y Scales\relax }}{69}{figure.caption.99}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Home\relax }}{69}{figure.caption.100}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Notes\relax }}{70}{figure.caption.101}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Intervals\relax }}{70}{figure.caption.102}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Scales\relax }}{71}{figure.caption.103}%
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Home\relax }}{71}{figure.caption.104}%
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Notes\relax }}{72}{figure.caption.105}%
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Intervals\relax }}{72}{figure.caption.106}%
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Scales\relax }}{73}{figure.caption.107}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Product Backlog\relax }}{72}{figure.caption.105}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces User Story\relax }}{73}{figure.caption.106}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces User Story\relax }}{74}{figure.caption.107}%
-\contentsline {figure}{\numberline {C.4}{\ignorespaces User Story\relax }}{75}{figure.caption.108}%
-\contentsline {figure}{\numberline {C.5}{\ignorespaces User Story\relax }}{76}{figure.caption.109}%
-\contentsline {figure}{\numberline {C.6}{\ignorespaces User Story\relax }}{77}{figure.caption.110}%
-\contentsline {figure}{\numberline {C.7}{\ignorespaces User Story\relax }}{78}{figure.caption.111}%
-\contentsline {figure}{\numberline {C.8}{\ignorespaces User Story\relax }}{79}{figure.caption.112}%
-\contentsline {figure}{\numberline {C.9}{\ignorespaces User Story\relax }}{80}{figure.caption.113}%
-\contentsline {figure}{\numberline {C.10}{\ignorespaces User Story\relax }}{81}{figure.caption.114}%
-\contentsline {figure}{\numberline {C.11}{\ignorespaces User Story\relax }}{82}{figure.caption.115}%
-\contentsline {figure}{\numberline {C.12}{\ignorespaces User Story\relax }}{83}{figure.caption.116}%
-\contentsline {figure}{\numberline {C.13}{\ignorespaces User Story\relax }}{84}{figure.caption.117}%
-\contentsline {figure}{\numberline {C.14}{\ignorespaces User Story\relax }}{85}{figure.caption.118}%
-\contentsline {figure}{\numberline {C.15}{\ignorespaces User Story\relax }}{86}{figure.caption.119}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Product Backlog\relax }}{74}{figure.caption.108}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces User Story\relax }}{75}{figure.caption.109}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces User Story\relax }}{76}{figure.caption.110}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces User Story\relax }}{77}{figure.caption.111}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces User Story\relax }}{78}{figure.caption.112}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces User Story\relax }}{79}{figure.caption.113}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces User Story\relax }}{80}{figure.caption.114}%
+\contentsline {figure}{\numberline {C.8}{\ignorespaces User Story\relax }}{81}{figure.caption.115}%
+\contentsline {figure}{\numberline {C.9}{\ignorespaces User Story\relax }}{82}{figure.caption.116}%
+\contentsline {figure}{\numberline {C.10}{\ignorespaces User Story\relax }}{83}{figure.caption.117}%
+\contentsline {figure}{\numberline {C.11}{\ignorespaces User Story\relax }}{84}{figure.caption.118}%
+\contentsline {figure}{\numberline {C.12}{\ignorespaces User Story\relax }}{85}{figure.caption.119}%
+\contentsline {figure}{\numberline {C.13}{\ignorespaces User Story\relax }}{86}{figure.caption.120}%
+\contentsline {figure}{\numberline {C.14}{\ignorespaces User Story\relax }}{87}{figure.caption.121}%
+\contentsline {figure}{\numberline {C.15}{\ignorespaces User Story\relax }}{88}{figure.caption.122}%
 \addvspace {10\p@ }

@@ -44,57 +44,60 @@
 \contentsline {section}{\numberline {4.2}Detalles de Implementación}{34}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Arquitectura}{34}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Estructura de Archivos}{34}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Infraestructura}{37}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Infraestructura}{36}{subsection.4.2.3}%
+\contentsline {subsubsection}{Tipos}{36}{section*.52}%
+\contentsline {subsubsection}{Librerías}{36}{section*.53}%
+\contentsline {subsubsection}{Utils}{37}{section*.54}%
 \contentsline {subsection}{\numberline {4.2.4}Datos y Servicios}{37}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Componentes y Pages}{37}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Hooks y Context}{37}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Progressive Web App}{37}{subsection.4.2.7}%
-\contentsline {subsubsection}{Service Worker}{39}{section*.55}%
-\contentsline {subsubsection}{Manifest}{39}{section*.56}%
-\contentsline {subsection}{\numberline {4.2.8}Buenas Prácticas}{39}{subsection.4.2.8}%
-\contentsline {subsubsection}{Guía de Estilo de Código}{39}{section*.57}%
-\contentsline {subsubsection}{Principios Clean Code}{40}{section*.58}%
-\contentsline {subsubsection}{Otras Buenas Prácticas}{40}{section*.59}%
-\contentsline {section}{\numberline {4.3}Testing}{41}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Pruebas Funcionales}{41}{subsection.4.3.1}%
-\contentsline {subsubsection}{Pruebas Unitarias}{41}{section*.60}%
-\contentsline {subsubsection}{Pruebas de Componentes}{42}{section*.61}%
-\contentsline {subsubsection}{Pruebas de Integración}{42}{section*.62}%
-\contentsline {subsubsection}{Pruebas End to End (E2E)}{42}{section*.63}%
-\contentsline {subsection}{\numberline {4.3.2}Pruebas No Funcionales}{43}{subsection.4.3.2}%
-\contentsline {subsubsection}{Google Lighthouse}{43}{section*.64}%
-\contentsline {subsubsection}{Performance}{43}{section*.66}%
-\contentsline {subsubsection}{Accessibility}{44}{section*.67}%
-\contentsline {subsubsection}{Best Practices}{45}{section*.70}%
-\contentsline {subsubsection}{SEO}{45}{section*.72}%
-\contentsline {subsubsection}{Progressive Web Apps}{46}{section*.74}%
-\contentsline {subsubsection}{Vercel Analytics}{47}{section*.76}%
-\contentsline {subsubsection}{Real Experience Score}{48}{section*.78}%
-\contentsline {subsubsection}{Web Vitals}{48}{section*.80}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{50}{chapter.5}%
-\contentsline {chapter}{Bibliografía}{52}{section*.81}%
-\contentsline {chapter}{Apéndices}{54}{section*.83}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{56}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{56}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{60}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Proceso de Creación Detallado}{60}{section.Alph1.3}%
-\contentsline {subsection}{\numberline {A.3.1}Design Thinking}{61}{subsection.Alph1.3.1}%
-\contentsline {subsubsection}{Empatizar}{61}{section*.85}%
-\contentsline {subsubsection}{Definir}{61}{section*.86}%
-\contentsline {subsubsection}{Idear}{61}{section*.87}%
-\contentsline {subsubsection}{Prototipar}{62}{section*.88}%
-\contentsline {subsubsection}{Testear}{62}{section*.89}%
-\contentsline {subsection}{\numberline {A.3.2}Lean Startup}{62}{subsection.Alph1.3.2}%
-\contentsline {subsubsection}{Crear}{62}{section*.90}%
-\contentsline {subsubsection}{Medir}{63}{section*.91}%
-\contentsline {subsubsection}{Aprender}{63}{section*.92}%
-\contentsline {subsubsection}{Resultados}{64}{section*.93}%
-\contentsline {chapter}{\numberline {B}Diseños del Prototipo}{65}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Prototipo Pequeño}{66}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Prototipo Mediano}{67}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Prototipo Grande}{69}{section.Alph2.3}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{72}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Manifiesto Ágil}{87}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Valores del Manifiesto Ágil}{87}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Principios del Manifiesto Ágil}{88}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Malas interpretaciones del Manifiesto Ágil}{88}{section.Alph4.3}%
+\contentsline {subsection}{\numberline {4.2.5}Componentes y Pages}{39}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Hooks y Context}{39}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Progressive Web App}{39}{subsection.4.2.7}%
+\contentsline {subsubsection}{Service Worker}{40}{section*.58}%
+\contentsline {subsubsection}{Manifest}{41}{section*.59}%
+\contentsline {subsection}{\numberline {4.2.8}Buenas Prácticas}{41}{subsection.4.2.8}%
+\contentsline {subsubsection}{Guía de Estilo de Código}{41}{section*.60}%
+\contentsline {subsubsection}{Principios Clean Code}{42}{section*.61}%
+\contentsline {subsubsection}{Otras Buenas Prácticas}{42}{section*.62}%
+\contentsline {section}{\numberline {4.3}Testing}{43}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Pruebas Funcionales}{43}{subsection.4.3.1}%
+\contentsline {subsubsection}{Pruebas Unitarias}{43}{section*.63}%
+\contentsline {subsubsection}{Pruebas de Componentes}{43}{section*.64}%
+\contentsline {subsubsection}{Pruebas de Integración}{44}{section*.65}%
+\contentsline {subsubsection}{Pruebas End to End (E2E)}{44}{section*.66}%
+\contentsline {subsection}{\numberline {4.3.2}Pruebas No Funcionales}{44}{subsection.4.3.2}%
+\contentsline {subsubsection}{Google Lighthouse}{44}{section*.67}%
+\contentsline {subsubsection}{Performance}{45}{section*.69}%
+\contentsline {subsubsection}{Accessibility}{45}{section*.70}%
+\contentsline {subsubsection}{Best Practices}{46}{section*.73}%
+\contentsline {subsubsection}{SEO}{47}{section*.75}%
+\contentsline {subsubsection}{Progressive Web Apps}{48}{section*.77}%
+\contentsline {subsubsection}{Vercel Analytics}{49}{section*.79}%
+\contentsline {subsubsection}{Real Experience Score}{50}{section*.81}%
+\contentsline {subsubsection}{Web Vitals}{50}{section*.83}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{52}{chapter.5}%
+\contentsline {chapter}{Bibliografía}{54}{section*.84}%
+\contentsline {chapter}{Apéndices}{56}{section*.86}%
+\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{58}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{58}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{62}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Proceso de Creación Detallado}{62}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Design Thinking}{63}{subsection.Alph1.3.1}%
+\contentsline {subsubsection}{Empatizar}{63}{section*.88}%
+\contentsline {subsubsection}{Definir}{63}{section*.89}%
+\contentsline {subsubsection}{Idear}{63}{section*.90}%
+\contentsline {subsubsection}{Prototipar}{64}{section*.91}%
+\contentsline {subsubsection}{Testear}{64}{section*.92}%
+\contentsline {subsection}{\numberline {A.3.2}Lean Startup}{64}{subsection.Alph1.3.2}%
+\contentsline {subsubsection}{Crear}{64}{section*.93}%
+\contentsline {subsubsection}{Medir}{65}{section*.94}%
+\contentsline {subsubsection}{Aprender}{65}{section*.95}%
+\contentsline {subsubsection}{Resultados}{66}{section*.96}%
+\contentsline {chapter}{\numberline {B}Diseños del Prototipo}{67}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Prototipo Pequeño}{68}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Prototipo Mediano}{69}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Prototipo Grande}{71}{section.Alph2.3}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{74}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Manifiesto Ágil}{89}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Valores del Manifiesto Ágil}{89}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Principios del Manifiesto Ágil}{90}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Malas interpretaciones del Manifiesto Ágil}{90}{section.Alph4.3}%

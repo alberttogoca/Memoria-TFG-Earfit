@@ -1014,7 +1014,45 @@ En este caso se han separado los archivos por conceptos o intereses, donde cada 
 \end{itemize}
 
 \subsection{Infraestructura}
+\subsubsection{Tipos}
+\subsubsection{Librerías}
+Los paquetes de Node o librerías usadas en la implementación son las siguientes:
+\begin{itemize}
+    \item \textbf{Tonaljs:} Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales. Se usan en los servicios para obtener las notas de un modo griego o calcular intervalos por ejemplo.
+    \item \textbf{Soundfont-player-js:} Sirve para cargar soundfonts en formato MIDI.js y reproducir sonidos MIDI utilizando la API de WebAudio. Los archivos MIDI.js contienen los sonidos de los instrumentos codificados.
+    \item \textbf{Soundfont-wrapper:} Es una librería personalizada para refinar la complejidad de soundfont-player-js y simplificar su uso. Proporciona la función ‘getSoundfontInstrument’ que devuelve el instrumento (noteplayer) con funciones para tocar notas. Se encarga de crear el audioContext, gestionar los nodos de audio e implementa un patrón singleton para no crear noteplayer repetidos.
+    \item \textbf{React-piano:} Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por props dos funciones: playNote y stopNote.
+    \item \textbf{React-use-measure:} Se usa para conseguir que react-piano sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano.
+    \item \textbf{React-bootstrap:} Es la librería de estilos CSS usada. Cada componente de React-Bootstrap es un verdadero componente de React, sin dependencias innecesarias como jQuery.
+    \item \textbf{Next-pwa:} Es un plugin que permite registrar y generar un service worker para convertir la web en PWA.
+\end{itemize}
+
+Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo package.json o en la carpeta lib en el caso de soundfont-wrapper.
+
+\subsubsection{Utils}
+En el archivo ‘arrayUtils.ts’ está el método ‘getRandomItem’ que devuelve un elemento al azar de un array usado en el hook useAnswer para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
+
 \subsection{Datos y Servicios}
+Por comodidad y el tamaño reducido de los datos, los datos y servicios del mismo tipo se encuentran en el mismo archivo. De este modo, por ejemplo: el array con los datos de tipo Instrument se encuentra en InstrumentService en lugar de en su propio archivo, ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
+A continuación se explican los servicios creados para la aplicación:
+
+\begin{itemize}
+    \item \textbf{InstrumentService:} Este servicio proporciona una función 'getInstruments' que devuelve un array de instrumentos. Lo utiliza principalmente el contexto de la aplicación ya que los instrumentos tienen que ser accesibles por varios componentes.
+    
+    En la llamada a 'getInstruments' se usa la librería ‘soundfont-wrapper’ para obtener los noteplayers correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’. 
+    
+    Los nombres de instrumentos existentes se pueden encontrar en ‘public/soundfonts/instrumentNames.txt’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos online en https://github.com/gleitz/midi-js-soundfonts aunque para no depender de datos externos lo ideal sería contar con ellos en este directorio.
+    
+    \item \textbf{NoteService:} Este servicio proporciona una función ‘getNotes’ que recibe un nombre de escala y devuelve el array de respuestas (de tipo Answer). Se usa para la variante de ejercicio ‘notes’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \textbf{IntervalService:} Este servicio proporciona una función ‘getIntervals’ que devuelve el array de respuestas (de tipo Answer). Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’.
+    
+    En este caso cómo hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
+    
+    \item \textbf{ScaleService:} Este servicio proporciona una función ‘getScales’ que devuelve el array de respuestas (de tipo Answer). Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \textbf{MenuService:} Este servicio proporciona una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
+\end{itemize}
+
+
 \subsection{Componentes y Pages}
 \begin{figure}[H]
     \centering
