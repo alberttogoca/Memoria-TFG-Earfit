@@ -403,19 +403,48 @@ En la actualidad ya existen algunas aplicaciones que contemplan el entrenamiento
 
 Esta aplicación cuenta con los ejercicios clásicos de entrenamiento musical. Una vez en un ejercicio cuenta con varios tipos del mismo y un menú siempre visible a la izquierda para que puedas moverte entre ellos fácilmente. Cuando aciertas la respuesta en un ejercicio recibes un feedback del botón como correcto mediante sonido, el botón se vuelve verde unos segundos y automáticamente se pasa al siguiente sonido, lo que agiliza la práctica.
 
-(IMAGEN)
+\begin{figure}[H] 
+    \includegraphics[scale=0.25]{Estado del Arte/tonegym}
+    \centering
+    \label{fig:tonegym}
+    \caption{ToneGym}
+\end{figure}
 
-Sin embargo, lo primero que vemos al entrar en la aplicación es una landing page en la que si pulsas Lets Start Training nos lleva a crearnos una cuenta en lugar de a los ejercicios. Esto es algo que echa para atrás a probar una aplicación que no conoces. La sección de ejercicios esta un poco escondida y hay que deslizar hacia abajo para encontrarla. Aunque el diseño está bastante bien, la personalización de los ejercicios es nula. Además, una vez hayas fallado en la respuesta no se te permite continuar probando. Por último no incorpora ninguna opción para cambiar el instrumento que suena.
+Sin embargo, lo primero que vemos al entrar en la aplicación es una landing page en la que si pulsas Lets Start Training nos lleva a crearnos una cuenta en lugar de a los ejercicios. Esto es algo que echa para atrás a probar una aplicación que no conoces. 
+
+\begin{figure}[H]
+    \centering
+     \subfloat[ToneGym Landing Page]{
+      \label{f:tonegymmain2}
+       \includegraphics[width=0.45\textwidth]{Estado del Arte/tonegymmain2}}
+     \subfloat[ToneGym Login]{
+      \label{f:tonegymlogin}
+       \includegraphics[width=0.45\textwidth]{Estado del Arte/tonegymlogin}}
+    \caption{ToneGym}
+    \label{f:ToneGym2}
+   \end{figure}
+
+La sección de ejercicios esta un poco escondida y hay que deslizar hacia abajo para encontrarla. Aunque el diseño está bastante bien, la personalización de los ejercicios es nula. Además, una vez hayas fallado en la respuesta no se te permite continuar probando. Por último, no incorpora ninguna opción para cambiar el instrumento que suena.
 
 \subsection{TonedEar}
 
 Esta aplicación es la que más se parece a lo que queremos construir. Contiene varios tipos de ejercicios como identificación de intervalos, escalas, etc. Permite la personalización de los ejercicios mediante un panel a la derecha, aunque no es inmediato. Y ofrece la posibilidad de continuar con el ejercicio aunque falles en la primera respuesta. Además, es una aplicación web gratuita, sencilla, fácil de entender y usar.
 
-(IMAGEN)
+\begin{figure}[H] 
+    \includegraphics[scale=0.25]{Estado del Arte/tonedear}
+    \centering
+    \label{fig:tonedear}
+    \caption{TonedEar}
+\end{figure}
 
 El único fallo encontrado analizando el código la aplicación es que en el ejercicio de identificación de intervalos, no se encuentran todos los intervalos existentes. Podemos observar que siempre una de las dos notas del intervalo será un número MIDI desde 40 hasta 65 y la segunda nota será la primera más un número del 1 al 14 (el atributo interval). Lo que nos da un rango de notas desde 40 hasta 79 cuando el rango de notas MIDI va desde 20 hasta 108 para un piano. Además, este ejercicio no está bien implementado y tiene fallos. Puede ocurrir que la primera nota del intervalo suene después de la segunda como se puede apreciar en las capturas en la función 'playInterval'.
 
-(IMAGEN)
+\begin{figure}[H] 
+    \includegraphics[scale=0.25]{Estado del Arte/tonedearerror}
+    \centering
+    \label{fig:tonedearerror}
+    \caption{TonedEar Error}
+\end{figure}
 
 Por último, la aplicación permite personalizar los ejercicios pero no permite cambiar entre instrumentos. El instrumento que suena siempre al pulsar el botón de pregunta es un piano.
 
@@ -423,11 +452,21 @@ Por último, la aplicación permite personalizar los ejercicios pero no permite 
 
 Parece ser la más completa y elaborada de todas con más de 2500 ejercicios. Contiene ejercicios para que puedas reconocer, transcribir, leer, cantar y tocar: Intervalos, acordes, progresiones armónicas, escalas, ritmos y melodías.
 
-(IMAGEN)
+\begin{figure}[H] 
+    \includegraphics[scale=0.25]{Estado del Arte/earmaster}
+    \centering
+    \label{fig:earmaster}
+    \caption{EarMaster}
+\end{figure}
 
 Sin embargo, su contenido gratuito sólo consta de identificación de intervalos y acordes. Para poder hacer uso de la aplicación completa ofrece precios desde los 59,95€ hasta los 99,95€. Aparte, necesitas tener la aplicación instalada para utilizarla, no es una aplicación web. Todo esto resulta en que el usuario al que nos estamos enfocando no pueda usarla. Esta aplicación parece estar más destinada a centros educativos que puedan hacerse cargo de la licencia.
 
-(IMAGEN)
+\begin{figure}[H] 
+    \includegraphics[scale=0.5]{Estado del Arte/earmasterprices}
+    \centering
+    \label{fig:earmasterprices}
+    \caption{EarMaster Precios}
+\end{figure}
 
 \section{Objetivos}
 
