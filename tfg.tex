@@ -533,8 +533,7 @@ El proceso de Design Thinking se compone de cinco etapas. No es lineal. En cualq
 
 \subsubsection{Empatizar}
 
-Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Como se explica en el anexo.
-
+Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Se puede encontrar una explicación más detallada en el anexo.
 \subsubsection{Definir}
 
 La idea parte de la necesidad de músicos amateur que quieren mejorar su nivel de percepción de la música. Sin los medios adecuados resulta imposible llevar a cabo el entrenamiento auditivo que es una parte fundamental para llevar a cabo su propósito. 
@@ -564,13 +563,11 @@ Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teni
     \caption{MoSCoW}
 \end{figure}
 
-Para crear nuestro producto mínimo viable nos centramos en desarrollar lo que debe tener (must have) y más tarde lo que debería incluir (should have).
+Nos hacemos la pregunta: ¿Cuál es el producto mínimo viable (MVP) que puedo crear para obtener resultados? Para crear nuestro MVP nos centramos en desarrollar lo que debe tener (Must have) y más tarde lo que debería incluir (Should have).
 
-Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. ¿Cuál es el producto mínimo viable (MVP) que puedo crear para obtener resultados?
-
-Una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First.
-
-    \begin{figure}[H]
+Una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes.
+    
+\begin{figure}[H]
         \centering
         \includegraphics[scale=0.33]{Design Thinking/Prototipo/Small/Prototipo}
         \label{fig:PrototipoSmall}
@@ -618,8 +615,7 @@ El Lean Startup sirve para acortar los ciclos de desarrollo, medir el progreso y
 
 Aunque por su nombre pueda parecer que sólo esta enfocado al mundo Startup y crear una nueva empresa, en realidad es una herramienta imprescindible para la puesta en marcha de soluciones software. Por eso, hemos decidido usar este método para crear nuestra solución.
 
-Por ahora, sólo saber que se ha seguido este proceso de crear, medir, aprender. Y que los diseños, los requisitos y la aplicación han ido adoptando cambios según el desarrollo. Para la fase de creación se utilizaron Metodologías Ágiles y para no alargar mucho este trabajo las partes de medir y aprender, donde aparecen cosas cómo la técnica del Conserje, métricas de engagement, tiempo en el producto, retención, referencia, Test A/B y lecciones aprendidas para pivotar; se explicarán en el anexo junto con una explicación más detallada de todo el proceso. 
-(revisar)
+Para no extender mucho este trabajo se puede encontrar una explicación detalla de como fue este proceso de crear, medir, aprender en el anexo. A continuación, nos centraremos sólo en la parte de creación, es decir, la parte de ingeniería del software e implementación.
 
 \chapter{Metodologías Ágiles}
 
@@ -639,7 +635,7 @@ Con Scrum, un producto se basa en una serie de iteraciones llamadas sprints que 
     \item Un Product Owner ordena el trabajo de un problema complejo en un Product Backlog.
     \item El Equipo Scrum convierte una selección del trabajo en un Incremento de valor durante un Sprint.
     \item El Equipo Scrum y sus partes interesadas inspeccionan los resultados y se ajustan para el próximo Sprint.
-    \item *Repetir*
+    \item \textit{Repetir}
 \end{enumerate}
 
 Scrum no es un proceso o una técnica para desarrollar/construir productos, realmente es un marco de trabajo donde podemos emplear un conjunto de diferentes procesos y técnicas, siendo muy fácil de implantar y muy popular en el desarrollo software por los resultados rápidos que consigue.
@@ -887,9 +883,9 @@ Aparte ofrece muchas más funciones, como: dominios personalizados, variables de
 Usar Nextjs junto con Vercel nos permite seguir el flujo de trabajo DPS: Develop, Preview and Ship (Desarrollo, Vista previa y Enviar a producción).
 
 \begin{compactitem}
-    \item Desarrollo: escribimos código en Next.js y usamos su servidor de desarrollo para aprovechar su función de fast refresh.
-    \item Vista previa: subimos los cambios a una rama en GitHub y Vercel crea un despliegue que estará disponible a través de una URL. Podemos compartir esta URL con otros para recibir feedback.
-    \item Enviar a Producción: fusionamos la rama creada con la rama main para enviar a producción.
+    \item \textbf{Desarrollo}: escribimos código en Next.js y usamos su servidor de desarrollo para aprovechar su función de fast refresh.
+    \item \textbf{Vista previa}: subimos los cambios a una rama en GitHub y Vercel crea un despliegue que estará disponible a través de una URL. Podemos compartir esta URL con otros para recibir feedback.
+    \item \textbf{Enviar a Producción}: fusionamos la rama creada con la rama main para enviar a producción.
 \end{compactitem}
 
 \subsection{TypeScript}
@@ -1015,7 +1011,7 @@ En este caso se han separado los archivos por conceptos o intereses, donde cada 
 
 \subsection{Infraestructura}
 \subsubsection{Tipos}
-A continuación se explican los tipos creados para la implementación:
+A continuación se explican los tipos creados para la implementación.
 
 \begin{figure}[H]
     \centering
@@ -1053,7 +1049,7 @@ En la aplicación se tratan todas las páginas de ejercicio como variantes del m
     \caption{Answer}
 \end{figure}
 
-Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. Answer es el tipo base, SelectableAnswer y SelectableAnswerWithColor ****añaden propiedades necesarias para implementar los botones de selección y respuesta. 
+Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. Answer es el tipo base, SelectableAnswer y SelectableAnswerWithColor añaden propiedades por composición, necesarias para implementar los botones de selección y respuesta. 
 
 \begin{figure}[H]
     \centering
@@ -1097,14 +1093,14 @@ A continuación se explican los servicios creados para la aplicación.
     
     En la llamada a 'getInstruments' se usa la librería ‘soundfont-wrapper’ para obtener los noteplayers correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’. 
     
-    Los nombres de instrumentos existentes se pueden encontrar en ‘public/soundfonts/instrumentNames.txt’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos online en https://github.com/gleitz/midi-js-soundfonts pero para no depender de datos externos lo ideal es contar con ellos en este directorio.
+    Los nombres de instrumentos existentes son de tipo ‘InstrumentName’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos en https://github.com/gleitz/midi-js-soundfonts pero para no depender de datos externos lo ideal es contar con ellos en este directorio.
     
-    \item \textbf{NoteService:} Este servicio proporciona una función ‘getNotes’ que recibe un nombre de escala y devuelve el array de respuestas (de tipo Answer). Se usa para la variante de ejercicio ‘notes’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
-    \item \textbf{IntervalService:} Este servicio proporciona una función ‘getIntervals’ que devuelve el array de respuestas (de tipo Answer). Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’.
+    \item \textbf{NoteService:} Este servicio proporciona una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \textbf{IntervalService:} Este servicio proporciona una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’. 
     
     En este caso cómo hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
     
-    \item \textbf{ScaleService:} Este servicio proporciona una función ‘getScales’ que devuelve el array de respuestas (de tipo Answer). Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \textbf{ScaleService:} Este servicio proporciona una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
     \item \textbf{MenuService:} Este servicio proporciona una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
 \end{itemize}
 
@@ -1224,11 +1220,11 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
     \item You Are Not Gonna Needed: Sólo se debe añadir el código que sea estrictamente necesario.
     \item Choose Descriptive Names: El código debe ser legible para otros desarrolladores.
     \item Be Consistent: Si haces algo de cierta manera, haz todas las cosas similares de la misma manera.
-    \item Single Responsibility Principle: Las clases deben tener solo una razón para cambiar
-    \item Open/Closed Principle: Las clases deben estar abiertas a extensiones pero cerrada a modificaciones
-    \item Liskov Substitution Principle: Las clases derivadas deben poder sustituirse por sus clases base
-    \item Interface Segregation Principle: Hacer interfaces que sean específicas para un tipo de cliente
-    \item Dependency Inversion Principle: Depende de abstracciones, no de clases concretas (nuestras clases deben depender de abstracciones, nunca de detalles concretos).
+    \item Single Responsibility Principle:  Los componentes/hooks deben tener responsabilidad sobre una sola parte de la funcionalidad proporcionada.
+    \item Open/Closed Principle: Los componentes/hooks deben estar abiertos a extensiones pero cerrados a modificaciones.
+    \item Liskov Substitution Principle: Los componentes derivados deben poder sustituirse por sus componentes base.
+    \item Interface Segregation Principle: Los componentes/hooks sólo deberían conocer los métodos que realmente usan.
+    \item Dependency Inversion Principle: Depende de abstracciones, no de detalles concretos.
 \end{compactitem}
 
 \subsubsection{Otras Buenas Prácticas}
@@ -1236,7 +1232,7 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
 \begin{compactitem}
     \item Visualizar el flujo de trabajo.
     \item Limitar el trabajo en proceso (Work in Progress) mediante un sistema de arrastre (pull) sobre el flujo de trabajo. Es decir no multitasking.
-    \item Circuitos de retroalimentación: reuniones periódicas.
+    \item Circuitos de retroalimentación: reuniones periódicas con el tutor.
     \item Fomentar la visibilidad. No se puede mejorar algo que no se entiende. Esta es la razón por la cual el proceso debe estar bien definido, publicado y promovido.
     \item Mejorar colaborando, usando modelos y el método científico.
     \item Calidad perfecta a la primera: Búsqueda de cero defectos, detección y solución de los problemas en su origen.
@@ -1248,7 +1244,7 @@ El testing de software o software QA, es un proceso para verificar y validar la 
 
 \subsection{Pruebas Funcionales}
 
-El objetivo de estas pruebas es evaluar las suposiciones hechas en las especificación de requisitos y diseño para asegurar que el software se comporta según lo definido.
+El objetivo de estas pruebas es evaluar las suposiciones hechas en las especificación de historias de usuario y diseño para asegurar que el software se comporta según lo definido.
 
 Estas pruebas se realizaron de forma manual interactuando con el software. Dado que es una aplicación pequeña y el desarrollo de pruebas automáticas tiene asociado un coste de implementación y mantenimiento. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. 
 
@@ -1292,6 +1288,8 @@ Estás pruebas se han realizado con los siguientes objetivos:
 En este caso cada historia de usuario se probó para asegurarse de que siguen funcionando correctamente y se obtienen los resultados esperados.
 
 \subsection{Pruebas No Funcionales}
+
+El objetivo de estas pruebas es evaluar el rendimiento, accesibilidad, buenas prácticas, SEO y si es progresiva, para la optimización del software y asegurar su calidad. Siendo el SUT el sistema una vez desplegado. Estas pruebas se ejecutan de manera automática mediante Google Lighthouse y Vercel Analytics.
 
 \subsubsection{Google Lighthouse}
 
