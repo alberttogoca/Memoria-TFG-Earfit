@@ -1173,30 +1173,90 @@ INPUT .\assets\Detalles de Implementación\Arquitectura.jpg
 INPUT .\assets\Detalles de Implementación\Arquitectura.jpg
 INPUT .\assets\Detalles de Implementación\Arquitectura.jpg
 INPUT .\assets\Detalles de Implementación\Arquitectura.jpg
-INPUT .\assets\Detalles de Implementación\Archivos.png
-INPUT assets\Detalles de Implementación\Archivos.png
-INPUT .\assets\Detalles de Implementación\Archivos.png
-INPUT .\assets\Detalles de Implementación\Archivos.png
-INPUT .\assets\Detalles de Implementación\Archivos.png
-INPUT .\assets\Detalles de Implementación\Archivos.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Archivos.png
+INPUT assets\Detalles de Implementación\Estructura de Archivos\Archivos.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Archivos.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Archivos.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Archivos.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Archivos.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Instrument.png
+INPUT assets\Detalles de Implementación\Code\Types\Instrument.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Instrument.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Instrument.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Instrument.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Instrument.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Noteplayer.png
+INPUT assets\Detalles de Implementación\Code\Types\Noteplayer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Noteplayer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Noteplayer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Noteplayer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Noteplayer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\VariantExercise.png
+INPUT assets\Detalles de Implementación\Code\Types\VariantExercise.png
+INPUT .\assets\Detalles de Implementación\Code\Types\VariantExercise.png
+INPUT .\assets\Detalles de Implementación\Code\Types\VariantExercise.png
+INPUT .\assets\Detalles de Implementación\Code\Types\VariantExercise.png
+INPUT .\assets\Detalles de Implementación\Code\Types\VariantExercise.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Answer.png
+INPUT assets\Detalles de Implementación\Code\Types\Answer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Answer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Answer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Answer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\Answer.png
+INPUT .\assets\Detalles de Implementación\Code\Types\MenuItemInfo.png
+INPUT assets\Detalles de Implementación\Code\Types\MenuItemInfo.png
+INPUT .\assets\Detalles de Implementación\Code\Types\MenuItemInfo.png
+INPUT .\assets\Detalles de Implementación\Code\Types\MenuItemInfo.png
+INPUT .\assets\Detalles de Implementación\Code\Types\MenuItemInfo.png
+INPUT .\assets\Detalles de Implementación\Code\Types\MenuItemInfo.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Services.png
+INPUT assets\Detalles de Implementación\Estructura de Archivos\Services.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Services.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Services.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Services.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Services.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Context.png
+INPUT assets\Detalles de Implementación\Estructura de Archivos\Context.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Context.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Context.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Context.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Context.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Hooks.png
+INPUT assets\Detalles de Implementación\Estructura de Archivos\Hooks.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Hooks.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Hooks.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Hooks.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Hooks.png
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
-INPUT .\assets\Detalles de Implementación\InstalarPWA.png
-INPUT assets\Detalles de Implementación\InstalarPWA.png
-INPUT .\assets\Detalles de Implementación\InstalarPWA.png
-INPUT .\assets\Detalles de Implementación\InstalarPWA.png
-INPUT .\assets\Detalles de Implementación\InstalarPWA.png
-INPUT .\assets\Detalles de Implementación\InstalarPWA.png
-INPUT .\assets\Detalles de Implementación\PWA.png
-INPUT assets\Detalles de Implementación\PWA.png
-INPUT .\assets\Detalles de Implementación\PWA.png
-INPUT .\assets\Detalles de Implementación\PWA.png
-INPUT .\assets\Detalles de Implementación\PWA.png
-INPUT .\assets\Detalles de Implementación\PWA.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
+INPUT assets\Detalles de Implementación\Estructura de Archivos\Components.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
+INPUT assets\Detalles de Implementación\Estructura de Archivos\Pages.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
+INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
+INPUT .\assets\Detalles de Implementación\PWA\InstalarPWA.png
+INPUT assets\Detalles de Implementación\PWA\InstalarPWA.png
+INPUT .\assets\Detalles de Implementación\PWA\InstalarPWA.png
+INPUT .\assets\Detalles de Implementación\PWA\InstalarPWA.png
+INPUT .\assets\Detalles de Implementación\PWA\InstalarPWA.png
+INPUT .\assets\Detalles de Implementación\PWA\InstalarPWA.png
+INPUT .\assets\Detalles de Implementación\PWA\PWA.png
+INPUT assets\Detalles de Implementación\PWA\PWA.png
+INPUT .\assets\Detalles de Implementación\PWA\PWA.png
+INPUT .\assets\Detalles de Implementación\PWA\PWA.png
+INPUT .\assets\Detalles de Implementación\PWA\PWA.png
+INPUT .\assets\Detalles de Implementación\PWA\PWA.png
 INPUT .\assets\Lighthouse\Resumen.png
 INPUT assets\Lighthouse\Resumen.png
 INPUT .\assets\Lighthouse\Resumen.png
