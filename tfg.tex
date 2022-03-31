@@ -1087,28 +1087,34 @@ A continuación se explican los servicios creados para la aplicación.
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{InstrumentService:} Este servicio provee una función 'getInstruments' que devuelve un array de instrumentos. Lo utiliza principalmente el contexto de la aplicación ya que los instrumentos tienen que ser accesibles por varios componentes.
+    \item \textbf{instrumentService.ts:} Este servicio provee una función 'getInstruments' que devuelve un array de instrumentos. Lo utiliza principalmente el contexto de la aplicación ya que los instrumentos tienen que ser accesibles por varios componentes.
     
-    Usa la librería ‘soundfont-wrapper’ para obtener los noteplayers correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’. 
+        Usa la librería ‘soundfont-wrapper’ para obtener los noteplayers correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’. 
+        
+        Los nombres de instrumentos existentes son de tipo ‘InstrumentName’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos en https://github.com/gleitz/midi-js-soundfonts pero para no depender de datos externos lo ideal es contar con ellos en este directorio.
     
-    Los nombres de instrumentos existentes son de tipo ‘InstrumentName’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos en https://github.com/gleitz/midi-js-soundfonts pero para no depender de datos externos lo ideal es contar con ellos en este directorio.
+    \item \textbf{noteService.ts:} Este servicio provee una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el hook ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \textbf{intervalService.ts:} Este servicio provee una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’. 
     
-    \item \textbf{NoteService:} Este servicio provee una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el hook ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
-    \item \textbf{IntervalService:} Este servicio provee una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’. 
+        En este caso cómo hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
     
-    En este caso cómo hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
-    
-    \item \textbf{ScaleService:} Este servicio provee una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
-    \item \textbf{MenuService:} Este servicio provee una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
+    \item \textbf{scaleService.ts:} Este servicio provee una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \textbf{menuService.ts:} Este servicio provee una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
 \end{itemize}
 
 \subsection{Hooks y Context}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Context}
-    \label{fig:Context}
-    \caption{Context}
-\end{figure}
+
+Las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y según React, las clases confunden tanto a las personas como a las máquinas ([https://es.reactjs.org/docs/hooks-intro.html](https://es.reactjs.org/docs/hooks-intro.html)).
+
+Para resolver estos problemas, **Hooks permite usar más de las funciones de React sin clases.** Conceptualmente, los componentes de React siempre han estado más cerca de las funciones. Aunque se necesita un poco de cambio de mentalidad para empezar a “pensar en Hooks”. Es por esto por lo que se usan funciones en lugar de clases para guardar el estado de la aplicación.
+
+\subsubsection{Hooks}
+
+Los Hooks sirven para extraer lógica de estado de tal forma que un componente pueda ser reusado independientemente. Cuando se tiene una lógica que debe ser utilizada por varios componentes, podemos extraer esa lógica a un Custom Hook. Lo que permite dividir un componente en funciones más pequeñas.
+
+El estado de cada componente es completamente independiente. De hecho, cada llamada a un Hook tiene un estado completamente aislado. Además, cómo los Hooks son funciones, podemos pasar información entre ellos.
+
+Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un caso de uso específico. Se puede encontrar una relación entre el nombre de los hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno. Estos componentes suelen reciben los datos y funciones de los hooks mediante props.
 
 \begin{figure}[H]
     \centering
@@ -1116,6 +1122,35 @@ A continuación se explican los servicios creados para la aplicación.
     \label{fig:Hooks}
     \caption{Hooks}
 \end{figure}
+
+\begin{itemize}
+    \item \textbf{useDirectionSelector.tsx}: Este hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
+    \item \textbf{useExercise.tsx}: Este hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
+    \item \textbf{useAnswerToggles.tsx}: Este hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ‘isSelected’. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
+    \item \textbf{useAnswer.tsx}: Este hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
+    \item \textbf{usePlayButton.tsx}: Este hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
+    \item \textbf{useAnswerButtons.tsx}: Este hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas que estaban seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de useStreak para proveer la racha actual de respuestas correctas.
+    \item \textbf{useStreak.tsx}: Este hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
+    \item \textbf{usePiano.tsx}: Este hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
+    \item \textbf{useScaleDropdown.tsx}: Este hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
+\end{itemize}
+
+\subsubsection{Context}
+
+En una aplicación típica de React, los datos se pasan de padre a hijo a través de props, pero esta forma puede resultar incómoda para ciertos tipos de props que son necesarias para muchos componentes. Context proporciona una forma de compartir valores como estos entre componentes sin tener que pasar explícitamente una prop a través de cada nivel del árbol.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Context}
+    \label{fig:Context}
+    \caption{Context}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{EarfitContext.tsx}: Este contexto provee el array de instrumentos, el instrumento seleccionado y una función para actualizar el instrumento seleccionado. Obtiene estos instrumentos gracias a los servicios.
+        
+    Este contexto se puede encontrar envolviendo a la aplicación en el archivo ‘\_app.tsx’ y es llamado con el Hook ‘useInstrumentContext’ por varios Hooks y componentes. Por ejemplo: ‘usePlayButton’ ,’usePiano’ y ‘InstrumentSelector’ entre otros.
+\end{itemize}
 
 \subsection{Componentes y Pages}
 \begin{figure}[H]
