@@ -979,11 +979,9 @@ En definitiva, Prettier se usa para problemas de formato de código y ESLint par
 
 \subsection{Estructura de Archivos}
 
-React no tiene opiniones sobre cómo poner los archivos en carpetas. Una forma popular de estructurar proyectos es agrupar archivos similares.
+React no tiene opiniones sobre cómo poner los archivos en carpetas. Nextjs en cambio tiene algunos archivos y directorios especiales. Como mínimo, se necesita una carpeta "pages" y un archivo " index.js" dentro de él. Además, la carpeta “ public ” tiene una función específica en Nextjs. Aparte de estos archivos y directorios, todo vale.****
 
-Nextjs en cambio tiene algunos archivos y directorios especiales. Como mínimo, se necesita una carpeta 'pages' y un archivo 'index.js' dentro de él. Además, la carpeta 'public' tiene una función específica en Nextjs. Aparte de estos archivos y directorios, todo vale.
-
-En este caso se han separado los archivos por conceptos o intereses, donde cada carpeta se enfoca en un concepto concreto.
+En este caso se han separado las carpetas por conceptos o intereses, donde cada carpeta contiene archivos similares:
 
 \begin{figure}[H]
     \centering
@@ -1049,7 +1047,7 @@ En la aplicación se tratan todas las páginas de ejercicio como variantes del m
     \caption{Answer}
 \end{figure}
 
-Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. Answer es el tipo base, SelectableAnswer y SelectableAnswerWithColor añaden propiedades por composición, necesarias para implementar los botones de selección y respuesta. 
+Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. Answer es el tipo base, SelectableAnswer y SelectableAnswerWithColor añaden propiedades por intersección, necesarias para implementar los botones de selección y respuesta. 
 
 \begin{figure}[H]
     \centering
@@ -1089,19 +1087,19 @@ A continuación se explican los servicios creados para la aplicación.
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{InstrumentService:} Este servicio proporciona una función 'getInstruments' que devuelve un array de instrumentos. Lo utiliza principalmente el contexto de la aplicación ya que los instrumentos tienen que ser accesibles por varios componentes.
+    \item \textbf{InstrumentService:} Este servicio provee una función 'getInstruments' que devuelve un array de instrumentos. Lo utiliza principalmente el contexto de la aplicación ya que los instrumentos tienen que ser accesibles por varios componentes.
     
-    En la llamada a 'getInstruments' se usa la librería ‘soundfont-wrapper’ para obtener los noteplayers correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’. 
+    Usa la librería ‘soundfont-wrapper’ para obtener los noteplayers correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’. 
     
     Los nombres de instrumentos existentes son de tipo ‘InstrumentName’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos en https://github.com/gleitz/midi-js-soundfonts pero para no depender de datos externos lo ideal es contar con ellos en este directorio.
     
-    \item \textbf{NoteService:} Este servicio proporciona una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
-    \item \textbf{IntervalService:} Este servicio proporciona una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’. 
+    \item \textbf{NoteService:} Este servicio provee una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el hook ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \textbf{IntervalService:} Este servicio provee una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’. 
     
     En este caso cómo hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
     
-    \item \textbf{ScaleService:} Este servicio proporciona una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
-    \item \textbf{MenuService:} Este servicio proporciona una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
+    \item \textbf{ScaleService:} Este servicio provee una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \textbf{MenuService:} Este servicio provee una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
 \end{itemize}
 
 \subsection{Hooks y Context}

@@ -52,7 +52,7 @@
 \contentsline {subsection}{\numberline {4.2.5}Hooks y Context}{41}{subsection.4.2.5}%
 \contentsline {subsection}{\numberline {4.2.6}Componentes y Pages}{41}{subsection.4.2.6}%
 \contentsline {subsection}{\numberline {4.2.7}Progressive Web App}{42}{subsection.4.2.7}%
-\contentsline {subsubsection}{Service Worker}{43}{section*.68}%
+\contentsline {subsubsection}{Service Worker}{44}{section*.68}%
 \contentsline {subsubsection}{Manifest}{44}{section*.69}%
 \contentsline {subsection}{\numberline {4.2.8}Buenas Prácticas}{44}{subsection.4.2.8}%
 \contentsline {subsubsection}{Guía de Estilo de Código}{44}{section*.70}%
