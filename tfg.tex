@@ -981,7 +981,7 @@ En definitiva, Prettier se usa para problemas de formato de código y ESLint par
 
 React no tiene opiniones sobre cómo poner los archivos en carpetas. Nextjs en cambio tiene algunos archivos y directorios especiales. Como mínimo, se necesita una carpeta "pages" y un archivo " index.js" dentro de él. Además, la carpeta “ public ” tiene una función específica en Nextjs. Aparte de estos archivos y directorios, todo vale.****
 
-En este caso se han separado las carpetas por conceptos o intereses, donde cada carpeta contiene archivos similares:
+En este caso se han separado las carpetas por conceptos o intereses, donde cada carpeta contiene archivos similares según la arquitectura:
 
 \begin{figure}[H]
     \centering
@@ -1038,7 +1038,7 @@ El tipo ‘InstrumentName’ esta definido por una lista de posibles valores que
     \caption{VariantExercise}
 \end{figure}
 
-En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en el hooks. De tal manera que hay tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’. 
+En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en el Hooks. De tal manera que hay tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’. 
 
 \begin{figure}[H]
     \centering
@@ -1072,7 +1072,7 @@ A continuación se explican los paquetes de Node o librerías usadas en la imple
 \end{itemize}
 
 \subsubsection{Utils}
-En el archivo ‘arrayUtils.ts’ está el método ‘getRandomItem’ que devuelve un elemento al azar de un array usado en el hook useAnswer para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
+En el archivo ‘arrayUtils.ts’ está el método ‘getRandomItem’ que devuelve un elemento al azar de un array usado en el Hook useAnswer para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
 
 \subsection{Datos y Servicios}
 Por comodidad y el tamaño reducido de los datos, los datos y servicios del mismo tipo se encuentran en el mismo archivo. De este modo, por ejemplo: el array con los datos de tipo Instrument se encuentra en InstrumentService en lugar de en su propio archivo, ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
@@ -1093,12 +1093,12 @@ A continuación se explican los servicios creados para la aplicación.
         
         Los nombres de instrumentos existentes son de tipo ‘InstrumentName’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos en https://github.com/gleitz/midi-js-soundfonts pero para no depender de datos externos lo ideal es contar con ellos en este directorio.
     
-    \item \textbf{noteService.ts:} Este servicio provee una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el hook ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
-    \item \textbf{intervalService.ts:} Este servicio provee una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el hook  ‘useExercise’. 
+    \item \textbf{noteService.ts:} Este servicio provee una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el Hook ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \textbf{intervalService.ts:} Este servicio provee una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el Hook  ‘useExercise’. 
     
         En este caso cómo hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
     
-    \item \textbf{scaleService.ts:} Este servicio provee una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \textbf{scaleService.ts:} Este servicio provee una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el Hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
     \item \textbf{menuService.ts:} Este servicio provee una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
 \end{itemize}
 
@@ -1114,7 +1114,7 @@ Los Hooks sirven para extraer lógica de estado de tal forma que un componente p
 
 El estado de cada componente es completamente independiente. De hecho, cada llamada a un Hook tiene un estado completamente aislado. Además, cómo los Hooks son funciones, podemos pasar información entre ellos.
 
-Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un caso de uso específico. Se puede encontrar una relación entre el nombre de los hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno. Estos componentes suelen reciben los datos y funciones de los hooks mediante props.
+Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un caso de uso específico. Se puede encontrar una relación entre el nombre de los Hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno.
 
 \begin{figure}[H]
     \centering
@@ -1124,15 +1124,15 @@ Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un 
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{useDirectionSelector.tsx}: Este hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
-    \item \textbf{useExercise.tsx}: Este hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
-    \item \textbf{useAnswerToggles.tsx}: Este hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ‘isSelected’. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
-    \item \textbf{useAnswer.tsx}: Este hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
-    \item \textbf{usePlayButton.tsx}: Este hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
-    \item \textbf{useAnswerButtons.tsx}: Este hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas que estaban seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de useStreak para proveer la racha actual de respuestas correctas.
-    \item \textbf{useStreak.tsx}: Este hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
-    \item \textbf{usePiano.tsx}: Este hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
-    \item \textbf{useScaleDropdown.tsx}: Este hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
+    \item \textbf{useDirectionSelector.tsx}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
+    \item \textbf{useExercise.tsx}: Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
+    \item \textbf{useAnswerToggles.tsx}: Este Hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ‘isSelected’. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
+    \item \textbf{useAnswer.tsx}: Este Hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
+    \item \textbf{usePlayButton.tsx}: Este Hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
+    \item \textbf{useAnswerButtons.tsx}: Este Hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas que estaban seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de useStreak para proveer la racha actual de respuestas correctas.
+    \item \textbf{useStreak.tsx}: Este Hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
+    \item \textbf{usePiano.tsx}: Este Hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
+    \item \textbf{useScaleDropdown.tsx}: Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
 \end{itemize}
 
 \subsubsection{Context}
@@ -1153,12 +1153,69 @@ En una aplicación típica de React, los datos se pasan de padre a hijo a travé
 \end{itemize}
 
 \subsection{Componentes y Pages}
+
+Los componentes permiten separar la interfaz de usuario en piezas independientes, reutilizables y pensar en cada pieza de forma aislada. Son como las funciones de JavaScript. Aceptan entradas llamadas “Props” y retornan elementos de React que describen lo que debe aparecer en la pantalla. También pueden tener estado, que es similar a las Props, pero es privado.
+
+Los componentes deben actuar como funciones puras, es decir, no tratar de cambiar sus entradas, y devolver siempre el mismo resultado para las mismas entradas. En consecuencia, las Props deben ser de solo lectura. 
+
+En esta figura se puede observar todos los componentes de los que se compone la aplicación y que son reutilizados entre páginas.
+
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.28]{Detalles de Implementación/JerarquíaComponentes}
     \label{fig:JerarquíaComponentes}
     \caption{Jerarquía de Componentes}
 \end{figure}
+
+En las aplicaciones de React, si un componente tiene o no estado se considera un detalle de implementación del componente que puede cambiar con el tiempo.
+
+El estado no es accesible desde otro componente excepto de aquel que lo posee y lo asigna. Normalmente, el estado se agrega primero al componente que lo necesita. Luego, si otro componente también lo necesita, se puede levantar el estado hacia el ancestro común más cercano. Este componente puede elegir pasar su estado como Props a sus componentes hijos. A esto se le llama flujo de datos «descendente» o «unidireccional». 
+
+En este caso varios estados de los componentes Exercise y Options están ligados. Dando lugar a que sus estados se eleven hasta la página, que es el componente que los contiene. Ocasionando el siguiente patrón entre páginas y componentes:
+
+\subsubsection{Pages}
+
+\begin{compactitem}
+    \item Se preocupan por cómo funcionan las cosas.
+    \item Contienen a los componentes de presentación en su interior, generalmente no tienen etiquetas HTML, excepto algunos divs, y nunca tienen estilo.
+    \item Llaman a los Hooks y proporcionan los datos y el comportamiento a los componentes de presentación mediante Props. Tienden a servir como fuentes de datos.
+    \item Estos componentes se encuentran en la carpeta 'pages'.
+\end{compactitem}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Pages}
+    \label{fig:Pages}
+    \caption{Pages}
+\end{figure}
+
+Este es un ejemplo de como funciona el flujo de datos unidireccional de la página de intervalos. El funcionamiento es igual para todas las demás: 
+
+\begin{enumerate}
+    \item  Se importan los Hooks y Componentes necesarios.
+    \item  Se hacen las llamadas a los Hooks que aportan los datos y Callbacks.
+    \item  Se le pasan estos datos y Callbacks a los componentes.
+\end{enumerate}
+
+(Como los componentes solo pueden actualizar su propio estado, el componente superior necesita pasar funciones al hijo que este ejecutará cada vez que el estado deba actualizarse).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Pages/Intervals}
+    \label{fig:Intervals}
+    \caption{Intervals Page}
+\end{figure}
+
+\subsubsection{Components}
+
+\begin{compactitem}
+    \item Se preocupan por cómo se ven las cosas.
+    \item Puede contener otros componentes en su interior y, por lo general, tienen etiquetas HTML y estilos propios.
+    \item A menudo permiten la contención a través de la propiedad children.
+    \item No tienen dependencias con el resto de la aplicación.
+    \item Suelen recibir datos y Callbacks exclusivamente a través de Props.
+    \item Estos componentes se encuentran en la carpeta 'components'.
+\end{compactitem}
 
 \begin{figure}[H]
     \centering
@@ -1167,11 +1224,13 @@ En una aplicación típica de React, los datos se pasan de padre a hijo a travé
     \caption{Components}
 \end{figure}
 
+Este es un ejemplo de como el componente AnswerButtons recibe los datos y Callbacks pertinentes mediante Props, y los utiliza para renderizar los botones de respuesta. Cada vez que se pulse en uno de estos botones, este llamará a ‘handleAnswerButtonClick’ que actualizará el estado que recibe mediante Props. Como el componente recibirá nuevas Props, se actualizará mostrando los cambios.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Pages}
-    \label{fig:Pages}
-    \caption{Pages}
+    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Components/AnswerButtons}
+    \label{fig:AnswerButtons}
+    \caption{AnswerButtons Component}
 \end{figure}
 
 \subsection{Progressive Web App}
@@ -1287,7 +1346,7 @@ En cada tipo de prueba el SUT ****(Subject under Test - Sujeto bajo Prueba) se d
 
 Estas pruebas permiten probar que los elementos más fundamentales del software como objetos, funciones, eventos, funcionan como se espera. 
 
-En este caso según se iba desarrollando el código se comprobaba que cada hook, función, estado, devolvía el resultado esperado y funcionaba correctamente antes de darle uso en el código. 
+En este caso según se iba desarrollando el código se comprobaba que cada Hook, función, estado, devolvía el resultado esperado y funcionaba correctamente antes de darle uso en el código. 
 
 Realizando pequeños tests por consola y usando las herramientas para desarrolladores de Google Chrome cuando era necesario.
 
