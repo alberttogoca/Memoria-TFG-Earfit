@@ -841,15 +841,10 @@ React está basado en un paradigma llamado programación orientada a componentes
 
 \begin{figure}[H]
     \centering
-     \subfloat[Diagrama de una página]{
-      \label{f:React-components_w}
-       \includegraphics[width=0.4\textwidth]{Reactjs/ReactComponents}}
-     \subfloat[Diagrama de un React Component]{
-      \label{f:ReactComponent}
-       \includegraphics[width=0.45\textwidth]{Reactjs/ReactComponent}}
-    \caption{React Components}
-    \label{f:ReactComponents}
-   \end{figure}
+    \includegraphics[scale=0.25]{Reactjs/ReactComponents}
+    \label{fig:ReactComponents}
+    \caption{Diagrama de una página}
+\end{figure}
 
 Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (DOM virtual) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez.
 
@@ -901,7 +896,7 @@ Como TypeScript es un superconjunto de JavaScript, todo el código escrito en Ja
     \caption{TypeScript}
 \end{figure}
 
-Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo que es un lenguaje más limpio. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño SOLID e incrementa la agilidad en el refactoring del código.
+Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo que es un lenguaje más limpio. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño e incrementa la agilidad en el refactoring del código.
 
 \subsection{Node.js}
 
@@ -1008,55 +1003,62 @@ En este caso se han separado las carpetas por conceptos o intereses, donde cada 
 \end{itemize}
 
 \subsection{Infraestructura}
+
 \subsubsection{Tipos}
+
 A continuación se explican los tipos creados para la implementación.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/Instrument}
-    \label{fig:Instrument}
-    \caption{Instrument}
-\end{figure}
+\begin{itemize}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/Instrument}
+        \label{fig:Instrument}
+        \caption{Instrument}
+    \end{figure}
 
-El tipo ‘Instrument’ representa a los instrumentos en la aplicación. Su atributo ‘instrumentName’ se usa en ‘instrumentService’ para buscar el archivo MIDI de dicho instrumento y crear su ‘notePlayer’.
+    \item \textbf{Instrument}: Este tipo representa a los instrumentos en la aplicación. Cada respuesta tiene un nombre para mostrar, un emoji que actúa de icono, un nombre identificador del instrumento, un ‘notePlayer’ para tocar notas y un booleano que especifica si se tiene el archivo de sonido en una carpeta local.
+    \item \textbf{InstrumentName}: Este tipo representa el nombre identificador del instrumento. Esta definido por la librería ‘Soundfont-player-js’ como una lista de instrumentos disponibles. Sirve para buscar el archivo MIDI de dicho instrumento y crear su ‘notePlayer’. Si un instrumento no está en esta lista, significa que no existe su archivo MIDI en el repositorio fuente de la librería, pero se podría tener este archivo en local.
 
-El tipo ‘InstrumentName’ esta definido por una lista de posibles valores que se pueden encontrar en el archivo ‘index.d.ts’ de la librería ‘Soundfont-player-js’ o en ‘public/soundfonts/instrumentNames.txt’.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/Noteplayer}
+        \label{fig:Noteplayer}
+        \caption{Noteplayer}
+    \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/Noteplayer}
-    \label{fig:Noteplayer}
-    \caption{Noteplayer}
-\end{figure}
+    \item \textbf{Noteplayer}: Es un tipo que proporciona funciones para reproducir los sonidos de dicho instrumento. Este tipo es proporcionado por la librería ‘Soundfont-wrapper’.
 
-‘Noteplayer’ es un tipo que proporciona funciones para reproducir los sonidos de dicho instrumento. Este tipo es proporcionado por la librería ‘Soundfont-wrapper’.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/VariantExercise}
+        \label{fig:VariantExercise}
+        \caption{VariantExercise}
+    \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/VariantExercise}
-    \label{fig:VariantExercise}
-    \caption{VariantExercise}
-\end{figure}
+    \item \textbf{VariantExercise}: En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en el hooks. De tal manera que hay tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’.  
 
-En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en el Hooks. De tal manera que hay tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’. 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/Answer}
+        \label{fig:Answer}
+        \caption{Answer}
+    \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/Answer}
-    \label{fig:Answer}
-    \caption{Answer}
-\end{figure}
+    Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. 
 
-Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. Answer es el tipo base, SelectableAnswer y SelectableAnswerWithColor añaden propiedades por intersección, necesarias para implementar los botones de selección y respuesta. 
+    \item \textbf{Answer}: Este tipo representa a una respuesta del ejercicio. Cada respuesta tiene un id, un nombre para mostrar y un array de notas para ser reproducidas. Es el tipo base del ejercicio.
+    \item \textbf{SelectableAnswer}: Añade propiedades por intersección al tipo Answer, necesarias para implementar los botones de selección (AnswerToggles). La propiedad ‘isSelected’ especifica si la respuesta está disponible como pregunta.
+    \item \textbf{SelectableAnswerWithColor}: Añade propiedades por intersección al tipo SelectableAnswer, necesarias para implementar los botones de respuesta (AnswerButtons). La propiedad ‘color’ especifica el color que debe tomar el botón de respuesta.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/MenuItemInfo}
-    \label{fig:MenuItemInfo}
-    \caption{MenuItemInfo}
-\end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/MenuItemInfo}
+        \label{fig:MenuItemInfo}
+        \caption{MenuItemInfo}
+    \end{figure}
 
-Por último, el tipo ‘MenuItemInfo’ simplemente define la información necesaria para cada ítem del componente menú.
+    \item \textbf{MenuItemInfo}: Este tipo simplemente define la información necesaria para cada ítem del componente menú.
+\end{itemize}
 
 \subsubsection{Librerías}
 A continuación se explican los paquetes de Node o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo package.json o en la carpeta lib en el caso de soundfont-wrapper.
@@ -1156,6 +1158,13 @@ En una aplicación típica de React, los datos se pasan de padre a hijo a travé
 
 Los componentes permiten separar la interfaz de usuario en piezas independientes, reutilizables y pensar en cada pieza de forma aislada. Son como las funciones de JavaScript. Aceptan entradas llamadas “Props” y retornan elementos de React que describen lo que debe aparecer en la pantalla. También pueden tener estado, que es similar a las Props, pero es privado.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{Reactjs/ReactComponent}
+    \label{fig:ReactComponent}
+    \caption{Diagrama de un componente}
+\end{figure}
+
 Los componentes deben actuar como funciones puras, es decir, no tratar de cambiar sus entradas, y devolver siempre el mismo resultado para las mismas entradas. En consecuencia, las Props deben ser de solo lectura. 
 
 En esta figura se puede observar todos los componentes de los que se compone la aplicación y que son reutilizados entre páginas.
@@ -1224,7 +1233,16 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional de la pági
     \caption{Components}
 \end{figure}
 
-Este es un ejemplo de como el componente AnswerButtons recibe los datos y Callbacks pertinentes mediante Props, y los utiliza para renderizar los botones de respuesta. Cada vez que se pulse en uno de estos botones, este llamará a ‘handleAnswerButtonClick’ que actualizará el estado que recibe mediante Props. Como el componente recibirá nuevas Props, se actualizará mostrando los cambios.
+Este es un ejemplo de como funciona el flujo de datos unidireccional del componente AnswerButtons. El funcionamiento es igual para todos las demás: 
+
+\begin{enumerate}
+    \item Le llegan los datos y Callbacks a través de Props.
+    \item Renderiza el componente usando estos datos.
+    \item El usuario interactúa con el componente.
+    \item El componente hace la llamada a su función Callback.
+    \item Esta función actualizará los datos que le llegan por Props.
+    \item Al llegar nuevas Props al componente se vuelve a renderizar mostrando los cambios.
+\end{enumerate}
 
 \begin{figure}[H]
     \centering
