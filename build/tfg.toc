@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\'{I}ndice de figuras}{XIII}{chapter*.4}%
-\contentsline {chapter}{Índice de códigos}{XV}{chapter*.5}%
+\contentsline {chapter}{\'{I}ndice de figuras}{XII}{chapter*.4}%
+\contentsline {chapter}{Índice de códigos}{XIV}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Entrenamiento Auditivo}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Oído Absoluto}{2}{subsection.1.1.1}%
@@ -82,30 +82,28 @@
 \contentsline {chapter}{Bibliografía}{63}{section*.99}%
 \contentsline {chapter}{Apéndices}{65}{section*.101}%
 \contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{67}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Lean Startup (Ampliación)}{67}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking (Ampliación)}{71}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}Proceso de Creación Detallado}{71}{section.Alph1.3}%
-\contentsline {subsection}{\numberline {A.3.1}Design Thinking}{72}{subsection.Alph1.3.1}%
-\contentsline {subsubsection}{Empatizar}{72}{section*.103}%
-\contentsline {subsubsection}{Definir}{72}{section*.104}%
-\contentsline {subsubsection}{Idear}{72}{section*.105}%
-\contentsline {subsubsection}{Prototipar}{73}{section*.106}%
-\contentsline {subsubsection}{Testear}{73}{section*.107}%
-\contentsline {subsection}{\numberline {A.3.2}Lean Startup}{73}{subsection.Alph1.3.2}%
-\contentsline {subsubsection}{Crear}{73}{section*.108}%
-\contentsline {subsubsection}{Medir}{74}{section*.109}%
-\contentsline {subsubsection}{Aprender}{74}{section*.110}%
-\contentsline {subsubsection}{Resultados}{75}{section*.111}%
-\contentsline {chapter}{\numberline {B}Diseños del Prototipo}{76}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Prototipo Pequeño}{77}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Prototipo Mediano}{78}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Prototipo Grande}{80}{section.Alph2.3}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{83}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Capturas de la Aplicación}{98}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Pantalla Pequeña}{98}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Pantalla Mediana}{100}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Pantalla Grande}{103}{section.Alph4.3}%
-\contentsline {chapter}{\numberline {E}Manifiesto Ágil}{107}{appendix.Alph5}%
-\contentsline {section}{\numberline {E.1}Valores del Manifiesto Ágil}{107}{section.Alph5.1}%
-\contentsline {section}{\numberline {E.2}Principios del Manifiesto Ágil}{108}{section.Alph5.2}%
-\contentsline {section}{\numberline {E.3}Malas interpretaciones del Manifiesto Ágil}{108}{section.Alph5.3}%
+\contentsline {section}{\numberline {A.1}Proceso de Creación Detallado (Revisar)}{67}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Design Thinking}{67}{subsection.Alph1.1.1}%
+\contentsline {subsubsection}{Empatizar}{68}{section*.102}%
+\contentsline {subsubsection}{Definir}{68}{section*.103}%
+\contentsline {subsubsection}{Idear}{68}{section*.104}%
+\contentsline {subsubsection}{Prototipar}{68}{section*.105}%
+\contentsline {subsubsection}{Testear}{69}{section*.106}%
+\contentsline {subsection}{\numberline {A.1.2}Lean Startup}{69}{subsection.Alph1.1.2}%
+\contentsline {subsubsection}{Crear}{69}{section*.107}%
+\contentsline {subsubsection}{Medir}{69}{section*.108}%
+\contentsline {subsubsection}{Aprender}{70}{section*.109}%
+\contentsline {subsubsection}{Resultados}{71}{section*.110}%
+\contentsline {chapter}{\numberline {B}Diseños del Prototipo}{72}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Prototipo Pequeño}{73}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Prototipo Mediano}{74}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Prototipo Grande}{76}{section.Alph2.3}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{79}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Capturas de la Aplicación}{94}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Pantalla Pequeña}{94}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Pantalla Mediana}{96}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Pantalla Grande}{99}{section.Alph4.3}%
+\contentsline {chapter}{\numberline {E}Manifiesto Ágil}{103}{appendix.Alph5}%
+\contentsline {section}{\numberline {E.1}Valores del Manifiesto Ágil}{103}{section.Alph5.1}%
+\contentsline {section}{\numberline {E.2}Principios del Manifiesto Ágil}{104}{section.Alph5.2}%
+\contentsline {section}{\numberline {E.3}Malas interpretaciones del Manifiesto Ágil}{104}{section.Alph5.3}%
