@@ -1005,18 +1005,6 @@ INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
-INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT .\assets\Lean Startup\CircuitoFeedback.png
 INPUT assets\Lean Startup\CircuitoFeedback.png
 INPUT .\assets\Lean Startup\CircuitoFeedback.png
@@ -1234,11 +1222,6 @@ INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
 INPUT .\assets\Detalles de Implementación\JerarquíaComponentes.jpg
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
 INPUT assets\Detalles de Implementación\Estructura de Archivos\Pages.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
@@ -1367,6 +1350,9 @@ INPUT .\assets\Design Thinking\Prototipo\Medium\Menu.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
 INPUT assets\Design Thinking\Prototipo\Medium\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Medium\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Intervals.jpg
 INPUT assets\Design Thinking\Prototipo\Medium\Intervals.jpg
 INPUT .\assets\Design Thinking\Prototipo\Medium\Intervals.jpg
@@ -1387,6 +1373,9 @@ INPUT .\assets\Design Thinking\Prototipo\Large\Menu.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Menu.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
+INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Notes.jpg
 INPUT .\assets\Design Thinking\Prototipo\Large\Intervals.jpg
 INPUT assets\Design Thinking\Prototipo\Large\Intervals.jpg
@@ -1514,7 +1503,5 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\lasy10.pfb
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\lasy10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\urw\bookman\ubkd8a.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\urw\bookman\ubkd8a.pfb

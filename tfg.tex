@@ -275,7 +275,7 @@ Consistirá en una aplicación web basada Next.js y TypeScript y que será despl
 
 La aplicación se basa en un conjunto de ejercicios de entrenamiento musical divididos en la identificación de notas, intervalos y escalas. Donde los usuarios tratarán de adivinar el sonido de cada ejercicio al pulsar el botón de pregunta. Además, los usuarios cuentan con las posibilidad de personalizar estos ejercicios, variar el instrumento que suena, así como de tocar un pequeño piano para ayudarse en la obtención de sus respuestas.
 
-Todo ello en una aplicación con renderizado en el lado del servidor que tiene como nombre Earfit y se puede visitar en el siguiente enlace:
+Todo ello en una aplicación web progresiva (PWA) con renderizado en el lado del servidor que tiene como nombre Earfit. La aplicación se puede visitar y descargar en el siguiente enlace:
 
 \url{https://earfit-alberttogoca.vercel.app/}
 
@@ -348,7 +348,7 @@ Todo ello en una aplicación con renderizado en el lado del servidor que tiene c
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1 Introducción %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Introducción}
 
-En este capítulo daremos un poco de explicación sobre qué consiste el entrenamiento auditivo para que pueda comprender mejor el objetivo general y alcance del trabajo. Además, se realizará una pequeña descripción del proyecto y se comentará brevemente el estado del arte actual. Por último, se establecerán los objetivos y la estructura del documento.
+En este capítulo se explica en qué consiste el entrenamiento auditivo para que se pueda comprender mejor el objetivo general y alcance del trabajo. Además, se realiza una pequeña descripción del proyecto y se comenta brevemente el estado del arte actual. Por último, se establecen los objetivos y la estructura del documento.
 
 % Estilo resto de páginas
 \pagestyle{fancy}
@@ -366,13 +366,13 @@ En este capítulo daremos un poco de explicación sobre qué consiste el entrena
 
 \section{Entrenamiento Auditivo}
 
-Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca desarrollarán toda su potencia. Los músicos, productores y DJs se pueden beneficiar del entrenamiento de sus oídos. Puede resultar muy útil a la hora de mezclar música y componer canciones.
+Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca desarrollarán toda su potencia. Los músicos, productores y DJs se pueden beneficiar del entrenamiento de sus oídos. Ya que puede resultar muy útil a la hora de mezclar música y componer canciones.
 
 El entrenamiento auditivo es el proceso de identificar los elementos de la música en su forma más sencilla y conectarlos con la forma en que sentimos el sonido físicamente. Tradicionalmente, el entrenamiento auditivo para los músicos incluye habilidades como identificar intervalos o escalas. 
 
-Muchas personas suponen que tener “oído musical” es tener la capacidad de identificar una nota al oírla. Tener oído musical es, también, ser capaz de escuchar y comprender música interiormente, sin que ésta este físicamente presente, igual que reflexionamos sobre palabras que hemos escuchado.
+Tener oído musical es ser capaz de escuchar y comprender música interiormente, sin que ésta este físicamente presente, igual que reflexionamos sobre palabras que hemos escuchado.
 
-El entrenamiento auditivo es importante porque la escucha es una habilidad, al igual que tocar el piano. Por ejemplo, las melodías son simplemente series de intervalos. Con el entrenamiento necesario para identificar los intervalos, se puede aprender a tocar una melodía de oído.
+El entrenamiento auditivo es importante porque la escucha es una habilidad al igual que tocar el piano. Por ejemplo, las melodías son simplemente series de intervalos. Con el entrenamiento necesario para identificar los intervalos, los músicos pueden aprender a tocar una melodía de oído.
 
 Para los productores de música y DJs, el entrenamiento auditivo sirve para identificar los rangos de frecuencias más rápidamente y ayudarlos también a conseguir los efectos buscados.
 
@@ -393,7 +393,7 @@ Las personas que disponen de oído relativo son capaces de:
     \item Identificar intervalos entre notas dadas, de manera independiente a la afinación elegida.
 \end{compactitem}
 
-Los ejercicios más comunes de entrenamiento auditivo te ayudarán a desarrollar tu oído relativo.
+Los ejercicios más comunes de entrenamiento auditivo ayudan a desarrollar el oído relativo principalmente.
 
 \section{Estado del Arte}
 
@@ -470,7 +470,7 @@ Sin embargo, su contenido gratuito sólo consta de identificación de intervalos
 
 \section{Objetivos}
 
-El objetivo principal del TFG es desarrollar una herramienta que permita ayudar a músicos a desarrollar su oído musical. Mediante el entrenamiento auditivo.
+El objetivo principal del TFG es desarrollar una herramienta que permita ayudar a músicos a desarrollar su oído musical mediante el entrenamiento auditivo.
 
 Subobjetivos:
 \begin{compactitem}
@@ -509,7 +509,7 @@ Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 
 \chapter{Ideación y Diseño}
 
-Para encontrar una solución viable al problema que se plantea y qué aporte un valor real a los usuarios, necesitamos de algún método que nos permita diseñar una solución de manera efectiva bajo unas condiciones de incertidumbre extrema.
+Para encontrar una solución viable al problema que se plantea y que aporte un valor real a los usuarios, necesitamos de algún método que nos permita diseñar una solución de manera efectiva bajo unas condiciones de incertidumbre.
 
 Para crear esta propuesta de valor, se puede utilizar Design Thinking como método de generación de ideas innovadoras y Lean Startup como método de aprendizaje validado.
 
@@ -549,7 +549,7 @@ Para idear una solución que aporte valor realizamos este MindMap donde nos enfo
     \caption{MindMap}
 \end{figure}
 
-Concluimos que una posible forma de solucionar estos problemas es mediante una Aplicación Web con ejercicios de Entrenamiento Auditivo. 
+Se concluye que una posible forma de solucionar estos problemas es mediante una Aplicación Web con ejercicios de Entrenamiento Auditivo. 
 
 
 \subsubsection{Prototipar}
@@ -565,27 +565,13 @@ Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teni
 
 Nos hacemos la pregunta: ¿Cuál es el producto mínimo viable (MVP) que puedo crear para obtener resultados? Para crear nuestro MVP nos centramos en desarrollar lo que debe tener (Must have) y más tarde lo que debería incluir (Should have).
 
-Una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes.
+Una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. Todos los diseños del prototipo se pueden encontrar en el apéndice.
     
 \begin{figure}[H]
         \centering
         \includegraphics[scale=0.33]{Design Thinking/Prototipo/Small/Prototipo}
         \label{fig:PrototipoSmall}
         \caption{Prototipo Pantallas Pequeñas}
-    \end{figure}
-
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.3]{Design Thinking/Prototipo/Medium/Notes}
-        \label{fig:PrototipoMedium}
-        \caption{Prototipo Pantallas Medianas}
-    \end{figure}
-    
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.28]{Design Thinking/Prototipo/Large/Notes}
-        \label{fig:PrototipoLarge}
-        \caption{Prototipo Pantallas Grandes}
     \end{figure}
 
 La ventaja principal del uso de prototipos en UX o Experiencia de Usuario es que, ayudan a plasmar visualmente los objetivos y como se alinean con las expectativas y necesidades de los usuarios y si son satisfechas a través del producto diseñado.
@@ -619,11 +605,11 @@ Para no extender mucho este trabajo se puede encontrar una explicación detalla 
 
 \chapter{Metodologías Ágiles}
 
-Para llevar a cabo la idea de manera exitosa necesitamos asegurar un proceso visible, controlado, repetitivo, eficiente y predecible. Necesitamos adaptar las formas de trabajo a las necesidades del proyecto, prolongando respuestas rápidas y flexibles para acomodar el desarrollo.
+Para gestionar el desarrollo del software de manera exitosa necesitamos asegurar un proceso visible, controlado, repetitivo, eficiente y predecible. Necesitamos adaptar las formas de trabajo a las necesidades del proyecto, prolongando respuestas rápidas y flexibles para acomodar el desarrollo.
 
 La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste.
 
-Para ser ágiles mientras desarrollamos podemos beneficiarnos de DevOps, como filosofía de desarrollo y Scrum, como modelo organizativo.
+Para ser ágiles mientras desarrollamos podemos beneficiarnos de \textbf{DevOps} como filosofía de desarrollo y \textbf{Scrum} como modelo organizativo.
 
 \section{Scrum}
 
@@ -662,6 +648,8 @@ Es un método de mapeo de UX (experiencia de usuario) que se utiliza para deline
     \caption{User Story Map}
 \end{figure}
 
+En la figura podemos observar el Roadmap del producto donde residen las historias de usuario. Y la planificación de las releases. Este Roadmap se puede encontrar también en el siguiente enlace: \url{https://miro.com/app/board/uXjVOMmPLjM=/?share_link_id=588058562303}
+
 \subsection{Scrum Board}
 
 Para visualizar el trabajo utilizamos un Scrum Board. Esto nos permite separar en pequeñas tareas cada historia de usuario y minimizar los riesgos de entrega. Realizando una construcción iterativa incremental donde se integra al final de cada sprint para validar el resultado. 
@@ -673,6 +661,10 @@ Para visualizar el trabajo utilizamos un Scrum Board. Esto nos permite separar e
     \caption{Scrum Board}
 \end{figure}
 
+En la figura podemos observar el Scrum Board donde cada Product Backlog Item es una historia de usuario. Estas historias se dividen en tareas más pequeñas en el Sprint Backlog. Se puede visitar este Scrum Board en el siguiente enlace: \url{https://trello.com/b/ZnsnNP2h/earfit}.
+
+Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Lo que nos permite aprovechar el cambio y mejorar continuamente.
+
 \subsection{User Stories}
 
 Las historias de usuarios son descripciones breves y sencillas de las características o requisitos del sistema contadas desde la perspectiva de un usuario o cliente del sistema. Estas historias se dividen en tareas más pequeñas que ir completando hasta cumplir con los criterios de aceptación. Cada historia de usuario es un incremento en el valor del producto.
@@ -683,6 +675,10 @@ Las historias de usuarios son descripciones breves y sencillas de las caracterí
     \label{fig:UserStory}
     \caption{User Story}
 \end{figure}
+
+En la figura podemos observar la historia de usuario 'Cambiar Instrumento'. Todas las historias de usuario se encuentran en el Anexo. También se pueden ver en el ScrumBoard en el siguiente enlace: \url{https://trello.com/b/ZnsnNP2h/earfit](https://trello.com/b/ZnsnNP2h/earfit}.
+
+Todas siguen el método INVEST para garantizar que ofrecen valor. Estas siglas significan que las historias deben ser: Independent, Negotiable, Valuable, Estimable, Small y Testable.
 
 \section{DevOps}
 
@@ -737,11 +733,11 @@ El flujo consistía en que cada vez que se actualizaba el repositorio mediante u
 
 \chapter{Descripción Informática}
 
-Para desarrollar una aplicación de calidad es necesario el uso de unas guías de estándares de calidad de código y un moderno stack tecnológico. A continuación se encuentra una detallada descripción informática incluyendo tecnologías, diseño, implementación y pruebas.
+Para desarrollar una aplicación de calidad es necesario el uso de unas guías de estándares de calidad de código, un moderno stack tecnológico, así como buenas prácticas. A continuación se encuentra una detallada descripción informática incluyendo tecnologías, diseño, implementación y pruebas.
 
 \section{Stack Tecnológico}
 
-Después de una larga investigación y comparación de tecnologías teniendo en mente las necesidades del proyecto. Se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los necesarios para implementar esta aplicación. Es necesario explicar cómo funcionan estas tecnologías para entender más tarde la arquitectura y el código de la aplicación.
+Después de una investigación y comparación de tecnologías teniendo en mente las necesidades del proyecto. Se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los ideales para implementar esta aplicación. Es necesario explicar cómo funcionan estas tecnologías para entender más tarde la arquitectura y el código de la aplicación.
 
 Otras herramientas no relacionadas con la implementación en sí fueron: Miro, Notion, Trello.
 
@@ -964,7 +960,14 @@ Para ello, analiza el código y lo da formato cada vez que se guarda el archivo.
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
 \section{Detalles de Implementación}
+La principal documentación con la que contamos es el estilo de nomenclatura, la coherencia a la hora de nombrar cosas y una arquitectura general coherente. Esta debe emanar de una serie de patrones que se repiten a lo largo del proyecto, tanto a nivel arquitectónico como de diseño. Esta información reside en el código: en el nombre de los componentes, de las variables y de las funciones. Este código se puede encontrar en el siguiente enlace: \url{https://github.com/alberttogoca/EarFit}.
+
+Para dejar reflejados estos detalles en la memoria se explicarán todas las partes de las que se compone esta implementación: \textbf{arquitectura, estructura de archivos, tipos, librerías, datos, servicios, Hooks y componentes}. No hará falta estar familiarizado con los conceptos propios de React para haber entendido está documentación al acabar.
+
 \subsection{Arquitectura}
+
+La arquitectura indica la estructura, funcionamiento e interacción entre las diferentes partes de las que esta compuesto el software. En este diagrama se muestra el diseño de más alto nivel de la estructura del sistema.
+
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.25]{Detalles de Implementación/Arquitectura}
@@ -972,11 +975,20 @@ En definitiva, Prettier se usa para problemas de formato de código y ESLint par
     \caption{Arquitectura}
 \end{figure}
 
+Esta arquitectura esta formada por varias capas desacopladas: infraestructura, datos, servicios e interfaz de usuario. Estas capas interactúan de la siguiente manera:
+
+\begin{itemize}
+    \item La infraestructura se compone de funciones, librerías y tipos de Typescript que apoyan la lógica de los servicios y de la interfaz.
+    \item Los servicios proveen los datos y alguna lógica independiente a la capa IU.
+    \item El contexto y los Hooks usan los servicios y se hacen cargo de crear y manejar los estados necesarios para los componentes.
+    \item Las páginas y los componentes usan el contexto y los Hooks, y renderizan la interfaz de usuario.
+\end{itemize}
+
 \subsection{Estructura de Archivos}
 
-React no tiene opiniones sobre cómo poner los archivos en carpetas. Nextjs en cambio tiene algunos archivos y directorios especiales. Como mínimo, se necesita una carpeta "pages" y un archivo " index.js" dentro de él. Además, la carpeta “ public ” tiene una función específica en Nextjs. Aparte de estos archivos y directorios, todo vale.****
+React no tiene opiniones sobre cómo poner los archivos en carpetas. Nextjs en cambio tiene algunos archivos y directorios especiales. Como mínimo, se necesita una carpeta "pages" y un archivo "index.js" dentro de él. Además, la carpeta “public” tiene una función específica en Nextjs. Aparte de estos archivos y directorios, todo vale.
 
-En este caso se han separado las carpetas por conceptos o intereses, donde cada carpeta contiene archivos similares según la arquitectura:
+En este caso se han separado las carpetas por conceptos o intereses, donde cada carpeta contiene archivos similares siguiendo la arquitectura previa.
 
 \begin{figure}[H]
     \centering
@@ -986,27 +998,26 @@ En este caso se han separado las carpetas por conceptos o intereses, donde cada 
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{Pages}: En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio 'pages'. Cada página está asociada con una ruta basada en su nombre de archivo. Ejemplo: En 'pages/notes' se exporta un componente de React que será accesible en '/notes'.
-
-    Aquí se encuentran todas las páginas de la aplicación y además se encuentran los archivos '\_app.tsx' y '\_document.tsx' personalizados. 
+    \item \textbf{Pages}: Aquí se encuentran todas las páginas de la aplicación y además se encuentran los archivos ‘\_app.tsx’ y ‘\_document.tsx’ personalizados. Cada página está asociada con una ruta basada en su nombre de archivo. Ejemplo: En ‘pages/notes’ se exporta un componente de React que será accesible en ‘/notes’.
     
-    Para tener un Layout persistente para toda la aplicación, se puede crear un archivo '\_app.tsx' personalizado y envolver la aplicación con el componente. También se encuentran aquí los metadatos de la aplicación. Por otro lado, en el archivo '\_document.tsx' se pueden actualizar las etiquetas '<html>' y '<body>', por ejemplo añadiendo 'lang='en'' a la etiqueta '<html>'. 
-    \item \textbf{Public}: Next.js puede servir archivos estáticos, como imágenes, en una carpeta llamada 'public' en el directorio raíz. El código puede hacer referencia a los archivos dentro de 'public' a partir de la URL base (/). Aquí se pueden encontrar los iconos, imágenes y archivos de fuente de sonido (soundfonts en formato MIDI.js) de la aplicación.
-    \item \textbf{Components}: El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas. Aquí se pueden encontrar todos los componentes de la aplicación agrupados por carpetas.
-    \item \textbf{Types}: Para usar Typescript todos los archivos '.js' se convierten en '.ts' y '.jsx' en '.tsx'. Aquí se encuentran en un archivo todos los tipos personalizados usados en los demás archivos de la aplicación.
-    \item \textbf{Lib}:  Aquí se puede encontrar 'soundfont-wrapper', una librería personalizada para la aplicación. Para hacer uso de la librería 'soundfont-player', que se encarga de cargar los archivos de fuente de sonido (soundfonts) y reproducir sonidos MIDI utilizando la WebAudio API.  Se decidió crear esta librería envoltorio (Wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
-    \item \textbf{Utils}: Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación. Por ejemplo: en 'arrayUtils.ts' está el método 'getRandomItem' que devuelve un elemento al azar de un array.
-    \item \textbf{Styles}: Aquí se pueden encontrar algunos estilos css globales para la aplicación. Aunque en general se hace uso de 'react-bootstrap' junto con 'bootswatch' para los estilos de la aplicación.
-    \item \textbf{Services}: Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica siendo independientes de la capa IU. Aquí puedes encontrar los servicios que son consumidos desde los Hooks.
-    \item \textbf{Context}: El Context está diseñado para compartir datos que pueden considerarse “globales” para un árbol de componentes en React. Como es un componente algo especial, como las pages, tiene su propio directorio.
-    \item \textbf{Hooks}: Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase. Aquí puedes encontrar todos los Custom Hooks creados, para extraer la lógica de los componentes en funciones reutilizables.
+        Para tener un Layout persistente para toda la aplicación, se puede crear un archivo ‘\_app.tsx’ personalizado y envolver la aplicación con el componente. Además, en este archivo se encuentran los metadatos de la aplicación. Por otro lado, en el archivo ‘\_document.tsx’ se pueden actualizar las etiquetas ‘<html>’ y ‘<body>’ .
+    
+    \item \textbf{Public}: Aquí se pueden encontrar los iconos, imágenes y archivos de fuente de sonido en formato MIDI.js de la aplicación. Aparte, también se encuentran aquí el service worker y manifest de la aplicación. Next.js puede servir archivos estáticos, como imágenes, en una carpeta llamada ‘public’ en el directorio raíz. El código puede hacer referencia a los archivos dentro de ‘public’ a partir de la URL base (/).
+    \item \textbf{Components}: Aquí se pueden encontrar todos los componentes de la aplicación agrupados por carpetas. El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas.
+    \item \textbf{Types}: Aquí se encuentran en un archivo todos los tipos personalizados usados en los demás archivos de la aplicación. Para usar Typescript todos los archivos ‘.js’ se convierten en ‘.ts’ y ‘.jsx’ en ‘.tsx’.
+    \item \textbf{Lib}: Aquí se puede encontrar ‘soundfont-wrapper’, una librería personalizada para la aplicación. Para hacer uso de la librería ‘soundfont-player’, que se encarga de cargar los archivos de fuente de sonido y reproducir sonidos MIDI utilizando la WebAudio API. Se decidió crear esta librería envoltorio (Wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
+    \item \textbf{Hooks}: Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación. Por ejemplo: en ‘arrayUtils.ts’ está el método ‘getRandomItem’ que devuelve un elemento al azar de un array.
+    \item \textbf{Styles}: Aquí se pueden encontrar algunos estilos css globales para la aplicación. Aunque en general se hace uso de ‘react-bootstrap’ junto con ‘bootswatch’ para los estilos de la aplicación.
+    \item \textbf{Services}: Aquí puedes encontrar los servicios que serán consumidos desde los Hooks. Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica independiente a la interfaz.
+    \item \textbf{Context}: Aquí puedes encontrar el contexto de la aplicación. El Context está diseñado para compartir estados que pueden considerarse “globales” para un árbol de componentes en React. Como es un componente algo especial, como las pages, tiene su propio directorio.
+    \item \textbf{Hooks}: Aquí puedes encontrar todos los Custom Hooks creados para extraer la lógica de los componentes en funciones reutilizables. Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase.
 \end{itemize}
 
 \subsection{Infraestructura}
 
 \subsubsection{Tipos}
 
-A continuación se explican los tipos creados para la implementación.
+A continuación se explican los tipos de Typescript creados para la implementación. Estos tipos son una manera de documentar el código y evitar errores que Javascript no proporciona. Ayudan a leer y entender el código de una forma más efectiva.
 
 \begin{itemize}
     \begin{figure}[H]
@@ -1016,9 +1027,9 @@ A continuación se explican los tipos creados para la implementación.
         \caption{Instrument}
     \end{figure}
 
-    \item \textbf{Instrument}: Este tipo representa a los instrumentos en la aplicación. Cada respuesta tiene un nombre para mostrar, un emoji que actúa de icono, un nombre identificador del instrumento, un ‘notePlayer’ para tocar notas y un booleano que especifica si se tiene el archivo de sonido en una carpeta local.
+    \item \textbf{Instrument}:Este tipo representa a los instrumentos en la aplicación. Cada respuesta tiene un nombre para mostrar, un emoji que actúa de icono, un nombre identificador del instrumento, un ‘notePlayer’ para tocar notas y un booleano que especifica si se tiene el archivo de sonido en una carpeta local.
     \item \textbf{InstrumentName}: Este tipo representa el nombre identificador del instrumento. Esta definido por la librería ‘Soundfont-player-js’ como una lista de instrumentos disponibles. Sirve para buscar el archivo MIDI de dicho instrumento y crear su ‘notePlayer’. Si un instrumento no está en esta lista, significa que no existe su archivo MIDI en el repositorio fuente de la librería, pero se podría tener este archivo en local.
-
+    
     \begin{figure}[H]
         \centering
         \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/Noteplayer}
@@ -1035,7 +1046,7 @@ A continuación se explican los tipos creados para la implementación.
         \caption{VariantExercise}
     \end{figure}
 
-    \item \textbf{VariantExercise}: En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en el hooks. De tal manera que hay tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’.  
+    \item \textbf{VariantExercise}: Este tipo define la tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’. En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en el Hooks.
 
     \begin{figure}[H]
         \centering
@@ -1047,8 +1058,8 @@ A continuación se explican los tipos creados para la implementación.
     Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. 
 
     \item \textbf{Answer}: Este tipo representa a una respuesta del ejercicio. Cada respuesta tiene un id, un nombre para mostrar y un array de notas para ser reproducidas. Es el tipo base del ejercicio.
-    \item \textbf{SelectableAnswer}: Añade propiedades por intersección al tipo Answer, necesarias para implementar los botones de selección (AnswerToggles). La propiedad ‘isSelected’ especifica si la respuesta está disponible como pregunta.
-    \item \textbf{SelectableAnswerWithColor}: Añade propiedades por intersección al tipo SelectableAnswer, necesarias para implementar los botones de respuesta (AnswerButtons). La propiedad ‘color’ especifica el color que debe tomar el botón de respuesta.
+    \item \textbf{SelectableAnswer}: Añade propiedades por intersección al tipo Answer, necesarias para implementar los botones de selección (componente AnswerToggles). La propiedad ‘isSelected’ especifica si la respuesta está disponible como pregunta.
+    \item \textbf{SelectableAnswerWithColor}: Añade propiedades por intersección al tipo SelectableAnswer, necesarias para implementar los botones de respuesta (componente AnswerButtons). La propiedad ‘color’ especifica el color que debe tomar el botón de respuesta.
 
     \begin{figure}[H]
         \centering
@@ -1061,25 +1072,23 @@ A continuación se explican los tipos creados para la implementación.
 \end{itemize}
 
 \subsubsection{Librerías}
-A continuación se explican los paquetes de Node o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo package.json o en la carpeta lib en el caso de soundfont-wrapper.
+A continuación se explican los paquetes de Node o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo package.json o en la carpeta ‘lib’ en el caso de soundfont-wrapper.
 
 \begin{itemize}
-    \item \textbf{Tonaljs:} Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales. Se usan en los servicios para obtener las notas de un modo griego o calcular intervalos por ejemplo.
-    \item \textbf{Soundfont-player-js:} Sirve para cargar soundfonts en formato MIDI.js y reproducir sonidos MIDI utilizando la API de WebAudio. Los archivos MIDI.js contienen los sonidos de los instrumentos codificados.
-    \item \textbf{Soundfont-wrapper:} Es una librería personalizada para refinar la complejidad de soundfont-player-js y simplificar su uso. Proporciona la función ‘getSoundfontInstrument’ que devuelve el instrumento (Noteplayer) con funciones para tocar notas. Se encarga de crear el audioContext, gestionar los nodos de audio e implementa un patrón singleton para no crear Noteplayers repetidos.
-    \item \textbf{React-piano:} Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por props dos funciones: playNote y stopNote.
-    \item \textbf{React-use-measure:} Se usa para conseguir que react-piano sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano.
+    \item \textbf{Tonaljs:} Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales.
+    \item \textbf{Soundfont-player-js:} Sirve para cargar archivos de fuente de sonido en formato MIDI.js y reproducir sonidos MIDI utilizando la API de WebAudio. Los archivos MIDI.js contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos ya que en tal caso los buscaría en el siguiente repositorio: https://github.com/gleitz/midi-js-soundfonts. Aunque para no depender de datos externos lo ideal es contar con ellos en local.
+    \item \textbf{Soundfont-wrapper:} Es una librería personalizada para refinar la complejidad de ‘soundfont-player-js’ y simplificar su uso. Proporciona la función ‘getSoundfontInstrument’ que devuelve un ‘notePlayer’ con funciones para tocar notas. Se encarga de crear el audioContext, gestionar los nodos de audio e implementa un patrón singleton para no crear ‘notePlayers’ repetidos.
+    \item \textbf{React-piano:} Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por Props dos funciones: playNote y stopNote.
+    \item \textbf{React-use-measure:} Se usa para conseguir que ’react-piano’ sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano.
     \item \textbf{React-bootstrap:} Es la librería de estilos CSS usada. Cada componente de React-Bootstrap es un verdadero componente de React, sin dependencias innecesarias como jQuery.
-    \item \textbf{Next-pwa:} Es un plugin que permite registrar y generar un service worker para convertir la web en PWA.
+    \item \textbf{Next-pwa:} Es un plugin que permite registrar y generar un Service Worker para convertir una aplicación web en una aplicación web progresiva (PWA).
 \end{itemize}
 
 \subsubsection{Utils}
-En el archivo ‘arrayUtils.ts’ está el método ‘getRandomItem’ que devuelve un elemento al azar de un array usado en el Hook useAnswer para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
+En el archivo ‘arrayUtils.ts’ está el método ‘getRandomItem’ que recibe un array y devuelve un elemento al azar. Usado en el Hook ‘useAnswer’ para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
 
 \subsection{Datos y Servicios}
-Por comodidad y el tamaño reducido de los datos, los datos y servicios del mismo tipo se encuentran en el mismo archivo. De este modo, por ejemplo: el array con los datos de tipo Instrument se encuentra en InstrumentService en lugar de en su propio archivo, ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
-
-A continuación se explican los servicios creados para la aplicación.
+A continuación se explican los servicios creados para la aplicación. Por comodidad y tamaño, los datos y servicios del mismo tipo se encuentran en el mismo archivo. Por ejemplo: el array con los datos de tipo ‘Instrument’ se encuentra en ‘InstrumentService’ en lugar de en su propio archivo, ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
 
 \begin{figure}[H]
     \centering
@@ -1089,32 +1098,24 @@ A continuación se explican los servicios creados para la aplicación.
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{instrumentService.ts:} Este servicio provee una función 'getInstruments' que devuelve un array de instrumentos. Lo utiliza principalmente el contexto de la aplicación ya que los instrumentos tienen que ser accesibles por varios componentes.
-    
-        Usa la librería ‘soundfont-wrapper’ para obtener los noteplayers correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’. 
-        
-        Los nombres de instrumentos existentes son de tipo ‘InstrumentName’ y no hace falta contar con su archivo MIDI ya que la librería se encargaría en tal caso de buscarlos en https://github.com/gleitz/midi-js-soundfonts pero para no depender de datos externos lo ideal es contar con ellos en este directorio.
-    
-    \item \textbf{noteService.ts:} Este servicio provee una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘notes’ en el Hook ‘useExercise’. Utiliza la librería Tonal para obtener las notas según la escala.
-    \item \textbf{intervalService.ts:} Este servicio provee una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘intervals’ en el Hook  ‘useExercise’. 
-    
-        En este caso cómo hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
-    
-    \item \textbf{scaleService.ts:} Este servicio provee una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’. Se usa para la variante de ejercicio ‘scales’ en el Hook  ‘useExercise’. Utiliza la librería Tonal para obtener las escalas con sus notas.
-    \item \textbf{menuService.ts:} Este servicio provee una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. Se usa en el componente ‘Menu’.
+    \item \textbf{instrumentService.ts:} Este servicio provee una función ‘getInstruments’ que devuelve un array de instrumentos. Usa la librería ‘soundfont-wrapper’ para obtener los ‘notePlayers’ correspondientes para cada instrumento definido en la constante ‘InstrumentData’. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ‘InstrumentData’.
+    \item \textbf{noteService.ts:} Este servicio provee una función ‘getNotes’ que recibe un nombre de escala y devuelve un array de respuestas de tipo ‘Answer’ correspondiente a la variante de ejercicio ‘notes’. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \textbf{intervalService.ts:}Este servicio provee una función ‘getIntervals’ que devuelve un array de respuestas de tipo ‘Answer’ correspondiente a la  variante de ejercicio ‘intervals’. En este caso como hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ‘calcInterval’ que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
+    \item \textbf{scaleService.ts:} Este servicio provee una función ‘getScales’ que devuelve un array de respuestas de tipo ‘Answer’ correspondiente a la  variante de ejercicio ‘scales’. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \textbf{menuService.ts:} Este servicio provee una función ‘getMenuInfo’ que devuelve un array con la información de cada item del menú principal. 
 \end{itemize}
 
 \subsection{Hooks y Context}
 
-Las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y según React, las clases confunden tanto a las personas como a las máquinas ([https://es.reactjs.org/docs/hooks-intro.html](https://es.reactjs.org/docs/hooks-intro.html)).
+Según React, las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y las clases confunden tanto a las personas como a las máquinas ([https://es.reactjs.org/docs/hooks-intro.html](https://es.reactjs.org/docs/hooks-intro.html)).
 
-Para resolver estos problemas, **Hooks permite usar más de las funciones de React sin clases.** Conceptualmente, los componentes de React siempre han estado más cerca de las funciones. Aunque se necesita un poco de cambio de mentalidad para empezar a “pensar en Hooks”. Es por esto por lo que se usan funciones en lugar de clases para guardar el estado de la aplicación.
+Para resolver estos problemas, Hooks permite usar más de las funciones de React sin clases. Conceptualmente, los componentes de React siempre han estado más cerca de las funciones. Aunque se necesita un poco de cambio de mentalidad para empezar a “pensar en Hooks”. Es por esto por lo que se usan funciones en lugar de clases para guardar el estado de la aplicación.
 
 \subsubsection{Hooks}
 
 Los Hooks sirven para extraer lógica de estado de tal forma que un componente pueda ser reusado independientemente. Cuando se tiene una lógica que debe ser utilizada por varios componentes, podemos extraer esa lógica a un Custom Hook. Lo que permite dividir un componente en funciones más pequeñas.
 
-El estado de cada componente es completamente independiente. De hecho, cada llamada a un Hook tiene un estado completamente aislado. Además, cómo los Hooks son funciones, podemos pasar información entre ellos.
+El estado de cada componente es completamente independiente. De hecho, cada llamada a un Hook tiene un estado completamente aislado. Además, como los Hooks son funciones, podemos pasar información entre ellos.
 
 Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un caso de uso específico. Se puede encontrar una relación entre el nombre de los Hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno.
 
@@ -1127,19 +1128,19 @@ Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un 
 
 \begin{itemize}
     \item \textbf{useDirectionSelector.tsx}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
-    \item \textbf{useExercise.tsx}: Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
+    \item \textbf{useExercise.tsx}:Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
     \item \textbf{useAnswerToggles.tsx}: Este Hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ‘isSelected’. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
     \item \textbf{useAnswer.tsx}: Este Hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
     \item \textbf{usePlayButton.tsx}: Este Hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
-    \item \textbf{useAnswerButtons.tsx}: Este Hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas que estaban seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de useStreak para proveer la racha actual de respuestas correctas.
+    \item \textbf{useAnswerButtons.tsx}:  Este Hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas que estaban seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de useStreak para proveer la racha actual de respuestas correctas.
     \item \textbf{useStreak.tsx}: Este Hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
     \item \textbf{usePiano.tsx}: Este Hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
-    \item \textbf{useScaleDropdown.tsx}: Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
+    \item \textbf{useScaleDropdown.tsx}:  Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
 \end{itemize}
 
 \subsubsection{Context}
 
-En una aplicación típica de React, los datos se pasan de padre a hijo a través de props, pero esta forma puede resultar incómoda para ciertos tipos de props que son necesarias para muchos componentes. Context proporciona una forma de compartir valores como estos entre componentes sin tener que pasar explícitamente una prop a través de cada nivel del árbol.
+En una aplicación típica de React, los datos se pasan de padre a hijo a través de Props, pero esta forma puede resultar incómoda para ciertos tipos de Props que son necesarias para muchos componentes. Context proporciona una forma de compartir valores como estos entre componentes sin tener que pasar explícitamente una Prop a través de cada nivel del árbol.
 
 \begin{figure}[H]
     \centering
@@ -1160,7 +1161,7 @@ Los componentes permiten separar la interfaz de usuario en piezas independientes
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{Reactjs/ReactComponent}
+    \includegraphics[scale=0.3]{Reactjs/ReactComponent}
     \label{fig:ReactComponent}
     \caption{Diagrama de un componente}
 \end{figure}
@@ -1178,7 +1179,7 @@ En esta figura se puede observar todos los componentes de los que se compone la 
 
 En las aplicaciones de React, si un componente tiene o no estado se considera un detalle de implementación del componente que puede cambiar con el tiempo.
 
-El estado no es accesible desde otro componente excepto de aquel que lo posee y lo asigna. Normalmente, el estado se agrega primero al componente que lo necesita. Luego, si otro componente también lo necesita, se puede levantar el estado hacia el ancestro común más cercano. Este componente puede elegir pasar su estado como Props a sus componentes hijos. A esto se le llama flujo de datos «descendente» o «unidireccional». 
+El estado no es accesible desde otro componente excepto de aquel que lo posee y lo asigna. Normalmente, el estado se agrega primero al componente que lo necesita. Luego, si otro componente también lo necesita, se puede levantar el estado hacia el ancestro común más cercano. Este componente puede elegir pasar su estado como Props a sus componentes hijos. A esto se le llama flujo de datos descendente o unidireccional. 
 
 En este caso varios estados de los componentes Exercise y Options están ligados. Dando lugar a que sus estados se eleven hasta la página, que es el componente que los contiene. Ocasionando el siguiente patrón entre páginas y componentes:
 
@@ -1206,12 +1207,12 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional de la pági
     \item  Se le pasan estos datos y Callbacks a los componentes.
 \end{enumerate}
 
-(Como los componentes solo pueden actualizar su propio estado, el componente superior necesita pasar funciones al hijo que este ejecutará cada vez que el estado deba actualizarse).
+Como los componentes solo pueden actualizar su propio estado, el componente superior necesita pasar funciones al hijo que este ejecutará cada vez que el estado deba actualizarse.
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.6]{Detalles de Implementación/Code/Pages/Intervals}
-    \label{fig:Intervals}
+    \label{fig:IntervalsPage}
     \caption{Intervals Page}
 \end{figure}
 
@@ -1233,7 +1234,7 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional de la pági
     \caption{Components}
 \end{figure}
 
-Este es un ejemplo de como funciona el flujo de datos unidireccional del componente AnswerButtons. El funcionamiento es igual para todos las demás: 
+Este es un ejemplo de como funciona el flujo de datos unidireccional del componente 'AnswerButtons'. El funcionamiento es igual para todos las demás: 
 
 \begin{enumerate}
     \item Le llegan los datos y Callbacks a través de Props.
@@ -1304,17 +1305,17 @@ Al hablar de buenas prácticas en programación nos referimos a un conjunto de t
 Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden encontrar en el archivo `.eslintrc.js` y `.prettierrc.js`. Además se han añadido las siguientes reglas personales:
 
 \begin{compactitem}
-    \item Tipos de TypeScript para los componentes en lugar de `props`.
-    \item No es necesario importar React cuando se usa Next.js
-    \item Desactivar la regla para enlaces predeterminada, no es compatible con los componentes `<Link />` de Next.js
-    \item Eliminar variables sin usar
+    \item Tipos de TypeScript para los componentes en lugar de Props.
+    \item No es necesario importar React cuando se usa Next.js.
+    \item Desactivar la regla para enlaces predeterminada, no es compatible con los componentes '<Link />' de Next.js.
+    \item Eliminar variables sin usar.
     \item Las funciones tienen que devolver siempre un tipo.
-    \item Uso de comas finales
-    \item Indentación a 2 espacios
-    \item Uso de comillas simples para strings
-    \item Longitud de línea máximo 120 caracteres
-    \item No usar tabulaciones
-    \item Finales de linea automaticos (`LF` to `CRLF`).
+    \item Uso de comas finales.
+    \item Indentación a 2 espacios.
+    \item Uso de comillas simples para strings.
+    \item Longitud de línea máximo 120 caracteres.
+    \item No usar tabulaciones.
+    \item Finales de linea automaticos ('LF' to 'CRLF').
 \end{compactitem}
 
 \subsubsection{Principios Clean Code}
@@ -1323,17 +1324,17 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
 
 \begin{compactitem}
     \item Follow Standard Conventions: Seguir convenciones estandarizadas.
-    \item DRY Principle (Don't Repeat Yourself): No repetir código
-    \item The Principle of Least Surprise: Las funciones o clases deben hacer lo que se espera que hagan.
+    \item DRY Principle (Don't Repeat Yourself): No repetir código.
+    \item The Principle of Least Surprise: Las funciones o Hooks deben hacer lo que se espera que hagan.
     \item The Boy Scout Rule: Dejar el código más limpio de como te lo encontraste.
     \item Keep It Simple Stupid: Reducir la complejidad tanto como sea posible.
     \item You Are Not Gonna Needed: Sólo se debe añadir el código que sea estrictamente necesario.
     \item Choose Descriptive Names: El código debe ser legible para otros desarrolladores.
     \item Be Consistent: Si haces algo de cierta manera, haz todas las cosas similares de la misma manera.
-    \item Single Responsibility Principle:  Los componentes/hooks deben tener responsabilidad sobre una sola parte de la funcionalidad proporcionada.
-    \item Open/Closed Principle: Los componentes/hooks deben estar abiertos a extensiones pero cerrados a modificaciones.
+    \item Single Responsibility Principle: Los Hooks deben tener responsabilidad sobre una sola parte de la funcionalidad proporcionada.
+    \item Open/Closed Principle: Los Hooks deben estar abiertos a extensiones pero cerrados a modificaciones.
     \item Liskov Substitution Principle: Los componentes derivados deben poder sustituirse por sus componentes base.
-    \item Interface Segregation Principle: Los componentes/hooks sólo deberían conocer los métodos que realmente usan.
+    \item Interface Segregation Principle: Los componentes/Hooks sólo deberían conocer los métodos que realmente usan.
     \item Dependency Inversion Principle: Depende de abstracciones, no de detalles concretos.
 \end{compactitem}
 
@@ -1358,7 +1359,7 @@ El objetivo de estas pruebas es evaluar las suposiciones hechas en las especific
 
 Estas pruebas se realizaron de forma manual interactuando con el software. Dado que es una aplicación pequeña y el desarrollo de pruebas automáticas tiene asociado un coste de implementación y mantenimiento. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. 
 
-En cada tipo de prueba el SUT ****(Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado probar todos los Test Cases o Casos de prueba ****posibles.
+En cada tipo de prueba el SUT (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado probar todos los Test Cases o Casos de prueba posibles.
 
 \subsubsection{Pruebas Unitarias}
 
@@ -1392,10 +1393,10 @@ Estás pruebas se han realizado con los siguientes objetivos:
 
 \begin{compactitem}
     \item Pruebas de sanidad (sanity check): Probar las funcionalidades básicas del sistema, usadas después de un despliegue.
-    \item Pruebas de instalación y desinstalación: Probar las funcionalidades básicas del sistema, después de instalarse como progressive web app.
+    \item Pruebas de instalación y desinstalación: Probar las funcionalidades básicas del sistema, después de instalarse como Progressive Web App.
 \end{compactitem}
 
-En este caso cada historia de usuario se probó para asegurarse de que siguen funcionando correctamente y se obtienen los resultados esperados.
+En este caso cada historia de usuario se probó para asegurarse de que siguen funcionando correctamente y se obtienen los resultados esperados. Estas pruebas fueron realizadas en Windows, MacOS, Android y Iphone usando Chrome y Safari.
 
 \subsection{Pruebas No Funcionales}
 
