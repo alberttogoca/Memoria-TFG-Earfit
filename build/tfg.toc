@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\'{I}ndice de figuras}{XII}{chapter*.4}%
-\contentsline {chapter}{Índice de códigos}{XIV}{chapter*.5}%
+\contentsline {chapter}{\'{I}ndice de figuras}{XIII}{chapter*.4}%
+\contentsline {chapter}{Índice de códigos}{XV}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Entrenamiento Auditivo}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Oído Absoluto}{2}{subsection.1.1.1}%
@@ -101,7 +101,11 @@
 \contentsline {section}{\numberline {B.2}Prototipo Mediano}{78}{section.Alph2.2}%
 \contentsline {section}{\numberline {B.3}Prototipo Grande}{80}{section.Alph2.3}%
 \contentsline {chapter}{\numberline {C}Historias de Usuario}{83}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Manifiesto Ágil}{98}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Valores del Manifiesto Ágil}{98}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Principios del Manifiesto Ágil}{99}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Malas interpretaciones del Manifiesto Ágil}{99}{section.Alph4.3}%
+\contentsline {chapter}{\numberline {D}Capturas de la Aplicación}{98}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Pantalla Pequeña}{98}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Pantalla Mediana}{100}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Pantalla Grande}{103}{section.Alph4.3}%
+\contentsline {chapter}{\numberline {E}Manifiesto Ágil}{107}{appendix.Alph5}%
+\contentsline {section}{\numberline {E.1}Valores del Manifiesto Ágil}{107}{section.Alph5.1}%
+\contentsline {section}{\numberline {E.2}Principios del Manifiesto Ágil}{108}{section.Alph5.2}%
+\contentsline {section}{\numberline {E.3}Malas interpretaciones del Manifiesto Ágil}{108}{section.Alph5.3}%
