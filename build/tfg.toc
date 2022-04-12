@@ -1,8 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\'{I}ndice de figuras}{XII}{chapter*.4}%
-\contentsline {chapter}{Índice de códigos}{XIV}{chapter*.5}%
+\contentsline {chapter}{\'{I}ndice de figuras}{XIII}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Entrenamiento Auditivo}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Oído Absoluto}{2}{subsection.1.1.1}%
@@ -16,11 +15,11 @@
 \contentsline {chapter}{\numberline {2}Ideación y Diseño}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Design Thinking}{9}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Etapas}{10}{subsection.2.1.1}%
-\contentsline {subsubsection}{Empatizar}{10}{section*.14}%
-\contentsline {subsubsection}{Definir}{10}{section*.15}%
-\contentsline {subsubsection}{Idear}{10}{section*.16}%
-\contentsline {subsubsection}{Prototipar}{12}{section*.18}%
-\contentsline {subsubsection}{Testear}{13}{section*.21}%
+\contentsline {subsubsection}{Empatizar}{10}{section*.13}%
+\contentsline {subsubsection}{Definir}{10}{section*.14}%
+\contentsline {subsubsection}{Idear}{10}{section*.15}%
+\contentsline {subsubsection}{Prototipar}{12}{section*.17}%
+\contentsline {subsubsection}{Testear}{13}{section*.20}%
 \contentsline {section}{\numberline {2.2}Lean Startup}{14}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Metodologías Ágiles}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Scrum}{15}{section.3.1}%
@@ -33,67 +32,66 @@
 \contentsline {chapter}{\numberline {4}Descripción Informática}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Stack Tecnológico}{23}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Next.js}{23}{subsection.4.1.1}%
-\contentsline {subsubsection}{React.js}{27}{section*.37}%
-\contentsline {subsubsection}{Vercel}{29}{section*.40}%
-\contentsline {subsection}{\numberline {4.1.2}TypeScript}{30}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Node.js}{30}{subsection.4.1.3}%
-\contentsline {subsubsection}{NPM o Yarn}{31}{section*.44}%
-\contentsline {subsection}{\numberline {4.1.4}VSCode}{31}{subsection.4.1.4}%
-\contentsline {subsubsection}{ESLint}{32}{section*.46}%
-\contentsline {subsubsection}{Prettier}{32}{section*.47}%
+\contentsline {subsection}{\numberline {4.1.2}React}{27}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Vercel}{29}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}TypeScript}{30}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Node.js}{30}{subsection.4.1.5}%
+\contentsline {subsubsection}{NPM o Yarn}{31}{section*.41}%
+\contentsline {subsection}{\numberline {4.1.6}VSCode}{31}{subsection.4.1.6}%
+\contentsline {subsubsection}{ESLint}{32}{section*.43}%
+\contentsline {subsubsection}{Prettier}{32}{section*.44}%
 \contentsline {section}{\numberline {4.2}Detalles de Implementación}{33}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Arquitectura}{33}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Estructura de Archivos}{34}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Infraestructura}{36}{subsection.4.2.3}%
-\contentsline {subsubsection}{Tipos}{36}{section*.50}%
-\contentsline {subsubsection}{Librerías}{38}{section*.56}%
-\contentsline {subsubsection}{Utils}{39}{section*.57}%
+\contentsline {subsubsection}{Tipos}{36}{section*.47}%
+\contentsline {subsubsection}{Librerías}{38}{section*.53}%
+\contentsline {subsubsection}{Utils}{39}{section*.54}%
 \contentsline {subsection}{\numberline {4.2.4}Datos y Servicios}{40}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Hooks y Context}{41}{subsection.4.2.5}%
-\contentsline {subsubsection}{Hooks}{41}{section*.59}%
-\contentsline {subsubsection}{Context}{42}{section*.61}%
+\contentsline {subsubsection}{Hooks}{41}{section*.56}%
+\contentsline {subsubsection}{Context}{42}{section*.58}%
 \contentsline {subsection}{\numberline {4.2.6}Componentes y Pages}{43}{subsection.4.2.6}%
-\contentsline {subsubsection}{Pages}{44}{section*.65}%
-\contentsline {subsubsection}{Components}{46}{section*.68}%
+\contentsline {subsubsection}{Pages}{44}{section*.62}%
+\contentsline {subsubsection}{Components}{46}{section*.65}%
 \contentsline {subsection}{\numberline {4.2.7}Progressive Web App}{48}{subsection.4.2.7}%
-\contentsline {subsubsection}{Service Worker}{49}{section*.73}%
-\contentsline {subsubsection}{Manifest}{50}{section*.74}%
+\contentsline {subsubsection}{Service Worker}{49}{section*.70}%
+\contentsline {subsubsection}{Manifest}{50}{section*.71}%
 \contentsline {subsection}{\numberline {4.2.8}Buenas Prácticas}{50}{subsection.4.2.8}%
-\contentsline {subsubsection}{Guía de Estilo de Código}{50}{section*.75}%
-\contentsline {subsubsection}{Principios Clean Code}{51}{section*.76}%
-\contentsline {subsubsection}{Otras Buenas Prácticas}{51}{section*.77}%
+\contentsline {subsubsection}{Guía de Estilo de Código}{50}{section*.72}%
+\contentsline {subsubsection}{Principios Clean Code}{51}{section*.73}%
+\contentsline {subsubsection}{Otras Buenas Prácticas}{51}{section*.74}%
 \contentsline {section}{\numberline {4.3}Testing}{52}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Pruebas Funcionales}{52}{subsection.4.3.1}%
-\contentsline {subsubsection}{Pruebas Unitarias}{52}{section*.78}%
-\contentsline {subsubsection}{Pruebas de Componentes}{52}{section*.79}%
-\contentsline {subsubsection}{Pruebas de Integración}{53}{section*.80}%
-\contentsline {subsubsection}{Pruebas End to End (E2E)}{53}{section*.81}%
+\contentsline {subsubsection}{Pruebas Unitarias}{52}{section*.75}%
+\contentsline {subsubsection}{Pruebas de Componentes}{52}{section*.76}%
+\contentsline {subsubsection}{Pruebas de Integración}{53}{section*.77}%
+\contentsline {subsubsection}{Pruebas End to End (E2E)}{53}{section*.78}%
 \contentsline {subsection}{\numberline {4.3.2}Pruebas No Funcionales}{53}{subsection.4.3.2}%
-\contentsline {subsubsection}{Google Lighthouse}{54}{section*.82}%
-\contentsline {subsubsection}{Performance}{54}{section*.84}%
-\contentsline {subsubsection}{Accessibility}{55}{section*.85}%
-\contentsline {subsubsection}{Best Practices}{56}{section*.88}%
-\contentsline {subsubsection}{SEO}{56}{section*.90}%
-\contentsline {subsubsection}{Progressive Web Apps}{57}{section*.92}%
-\contentsline {subsubsection}{Vercel Analytics}{58}{section*.94}%
-\contentsline {subsubsection}{Real Experience Score}{59}{section*.96}%
-\contentsline {subsubsection}{Web Vitals}{59}{section*.98}%
+\contentsline {subsubsection}{Google Lighthouse}{54}{section*.79}%
+\contentsline {subsubsection}{Performance}{54}{section*.81}%
+\contentsline {subsubsection}{Accessibility}{55}{section*.82}%
+\contentsline {subsubsection}{Best Practices}{56}{section*.85}%
+\contentsline {subsubsection}{SEO}{56}{section*.87}%
+\contentsline {subsubsection}{Progressive Web Apps}{57}{section*.89}%
+\contentsline {subsubsection}{Vercel Analytics}{58}{section*.91}%
+\contentsline {subsubsection}{Real Experience Score}{59}{section*.93}%
+\contentsline {subsubsection}{Web Vitals}{59}{section*.95}%
 \contentsline {chapter}{\numberline {5}Conclusiones}{61}{chapter.5}%
-\contentsline {chapter}{Bibliografía}{63}{section*.99}%
-\contentsline {chapter}{Apéndices}{65}{section*.101}%
-\contentsline {chapter}{\numberline {A}Ideación y Diseño (Ampliación)}{67}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Proceso de Creación Detallado (Revisar)}{67}{section.Alph1.1}%
-\contentsline {subsection}{\numberline {A.1.1}Design Thinking}{67}{subsection.Alph1.1.1}%
-\contentsline {subsubsection}{Empatizar}{68}{section*.102}%
-\contentsline {subsubsection}{Definir}{68}{section*.103}%
-\contentsline {subsubsection}{Idear}{68}{section*.104}%
-\contentsline {subsubsection}{Prototipar}{68}{section*.105}%
-\contentsline {subsubsection}{Testear}{69}{section*.106}%
-\contentsline {subsection}{\numberline {A.1.2}Lean Startup}{69}{subsection.Alph1.1.2}%
-\contentsline {subsubsection}{Crear}{69}{section*.107}%
-\contentsline {subsubsection}{Medir}{69}{section*.108}%
-\contentsline {subsubsection}{Aprender}{70}{section*.109}%
-\contentsline {subsubsection}{Resultados}{71}{section*.110}%
+\contentsline {chapter}{Bibliografía}{63}{section*.96}%
+\contentsline {chapter}{Apéndices}{65}{section*.98}%
+\contentsline {chapter}{\numberline {A}Proceso de Creación Detallado (Revisar)}{67}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Design Thinking}{67}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Empatizar}{68}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Definir}{68}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Idear}{68}{subsection.Alph1.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Prototipar}{68}{subsection.Alph1.1.4}%
+\contentsline {subsection}{\numberline {A.1.5}Testear}{69}{subsection.Alph1.1.5}%
+\contentsline {section}{\numberline {A.2}Lean Startup}{69}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Crear}{69}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Medir}{69}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Aprender}{70}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Resultados}{71}{subsection.Alph1.2.4}%
 \contentsline {chapter}{\numberline {B}Diseños del Prototipo}{72}{appendix.Alph2}%
 \contentsline {section}{\numberline {B.1}Prototipo Pequeño}{73}{section.Alph2.1}%
 \contentsline {section}{\numberline {B.2}Prototipo Mediano}{74}{section.Alph2.2}%

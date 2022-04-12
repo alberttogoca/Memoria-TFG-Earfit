@@ -314,13 +314,13 @@ Todo ello en una aplicación web progresiva (PWA) con renderizado en el lado del
 \addcontentsline{toc}{chapter}{\listfigurename}
 
 % Índice de códigos/algoritmos (OPCIONAL).   El término "Códigos" se puede cambiar por "Métodos", "Funciones", "Algoritmos", etc.
-\renewcommand\lstlistlistingname{Códigos}
-\renewcommand\lstlistingname{Código}
-\renewcommand\lstlistlistingname{Índice de códigos}
+% \renewcommand\lstlistlistingname{Códigos}
+% \renewcommand\lstlistingname{Código}
+% \renewcommand\lstlistlistingname{Índice de códigos}
 
-\lstlistoflistings
-\afterpage{\blankpage}
-\addcontentsline{toc}{chapter}{\lstlistlistingname}
+%\lstlistoflistings
+%\afterpage{\blankpage}
+%\addcontentsline{toc}{chapter}{\lstlistlistingname}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -368,7 +368,7 @@ En este capítulo se explica en qué consiste el entrenamiento auditivo para que
 
 Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca desarrollarán toda su potencia. Los músicos, productores y DJs se pueden beneficiar del entrenamiento de sus oídos. Ya que puede resultar muy útil a la hora de mezclar música y componer canciones.
 
-El entrenamiento auditivo es el proceso de identificar los elementos de la música en su forma más sencilla y conectarlos con la forma en que sentimos el sonido físicamente. Tradicionalmente, el entrenamiento auditivo para los músicos incluye habilidades como identificar intervalos o escalas. 
+El entrenamiento auditivo es el proceso de identificar los elementos de la música en su forma más sencilla y conectarlos con la forma en que sentimos el sonido físicamente. Tradicionalmente, el entrenamiento auditivo para los músicos incluye habilidades como identificar notas, intervalos y escalas. 
 
 Tener oído musical es ser capaz de escuchar y comprender música interiormente, sin que ésta este físicamente presente, igual que reflexionamos sobre palabras que hemos escuchado.
 
@@ -401,7 +401,7 @@ En la actualidad ya existen algunas aplicaciones que contemplan el entrenamiento
 
 \subsection{ToneGym}
 
-Esta aplicación cuenta con los ejercicios clásicos de entrenamiento musical. Una vez en un ejercicio cuenta con varios tipos del mismo y un menú siempre visible a la izquierda para que puedas moverte entre ellos fácilmente. Cuando aciertas la respuesta en un ejercicio recibes un feedback del botón como correcto mediante sonido, el botón se vuelve verde unos segundos y automáticamente se pasa al siguiente sonido, lo que agiliza la práctica.
+Esta aplicación cuenta con los ejercicios clásicos de entrenamiento musical. Una vez en un ejercicio cuenta con varios tipos del mismo y un menú siempre visible a la izquierda para que puedas moverte entre ellos fácilmente. Cuando aciertas la respuesta en un ejercicio recibes feedback del botón mediante sonido, el botón se vuelve verde unos segundos y automáticamente se pasa al siguiente sonido, lo que agiliza la práctica.
 
 \begin{figure}[H] 
     \includegraphics[scale=0.25]{Estado del Arte/tonegym}
@@ -481,7 +481,7 @@ Subobjetivos:
 
 \section{Estructura del documento}
 
-En este apartado se especificará la estructura que plantea este breve trabajo o memoria. El objetivo de dicho punto es acercar al lector las diferentes partes que componen este proyecto, así como ayudarle en la comprensión de este. Se espera que sea lo suficientemente clarificador y que permita una lectura comprensible, rápida y amena del trabajo que nos ocupa.
+En este apartado se especificará la estructura que plantea este breve trabajo o memoria. El objetivo es acercar al lector las diferentes partes que componen este proyecto, así como ayudarle en la comprensión de este. Se espera que sea lo suficientemente clarificador y que permita una lectura comprensible y rápida del trabajo.
 
 Este trabajo se centra en el siguiente proceso combinando de Design Thinking, Lean Startup y Metodologías Agile para la creación de un Producto Mínimo Viable. De esta manera conseguimos un proceso que parte de la nada, **se centra** en el usuario, **gestiona** el desarrollo, **integra** el error y es **iterable**.
 
@@ -511,13 +511,13 @@ Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 
 Para encontrar una solución viable al problema que se plantea y que aporte un valor real a los usuarios, necesitamos de algún método que nos permita diseñar una solución de manera efectiva bajo unas condiciones de incertidumbre.
 
-Para crear esta propuesta de valor, se puede utilizar Design Thinking como método de generación de ideas innovadoras y Lean Startup como método de aprendizaje validado.
+Para crear esta propuesta de valor, se puede utilizar Design Thinking como método de generación de ideas innovadoras y Lean Startup como método de aprendizaje validado para la puesta en marcha de la solución.
 
 \section{Design Thinking}
 
 Es un método para generar ideas innovadoras que centra su eficacia en entender y dar solución a las necesidades reales de los usuarios. Proviene de la forma en la que trabajan los diseñadores de producto. De ahí su nombre, que en español se traduce de forma literal como "Pensamiento de Diseño" o "La forma en la que piensan los diseñadores".
 
-Mientras que Lean startup surge como una metodología que permite impactar en el mercado con éxito, el Design Thinking busca el diseño de experiencias de alto valor, centradas en el usuario.
+Mientras que Lean startup surge como una metodología que permite impactar en el mercado con éxito, Design Thinking busca el diseño de experiencias de alto valor, centradas en el usuario.
 
 Dado que Lean Startup no se centra en el usuario, lo ideal es coger lo mejor de ambas metodologías. Añadir esta metodología al proceso de creación ayuda a conocer al cliente en profundidad y encontrar soluciones prácticas ante sus problemas en un proceso ágil.
 
@@ -554,7 +554,7 @@ Se concluye que una posible forma de solucionar estos problemas es mediante una 
 
 \subsubsection{Prototipar}
 
-Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. 
+Primero, utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. 
 
 \begin{figure}[H]
     \centering
@@ -563,9 +563,9 @@ Utilizamos la técnica MoSCoW para establecer las prioridades del proyecto. Teni
     \caption{MoSCoW}
 \end{figure}
 
-Nos hacemos la pregunta: ¿Cuál es el producto mínimo viable (MVP) que puedo crear para obtener resultados? Para crear nuestro MVP nos centramos en desarrollar lo que debe tener (Must have) y más tarde lo que debería incluir (Should have).
+Después, nos hacemos la pregunta: ¿Cuál es el producto mínimo viable (MVP) que puedo crear para obtener resultados? Para crear nuestro MVP nos centramos en desarrollar lo que debe tener (Must have) y más tarde lo que debería incluir (Should have).
 
-Una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. Todos los diseños del prototipo se pueden encontrar en el apéndice.
+Por último, una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el Prototipo teniendo en cuenta la filosofía de diseño Mobile First. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. Todos los diseños del prototipo se pueden encontrar en el apéndice.
     
 \begin{figure}[H]
         \centering
@@ -633,7 +633,7 @@ Scrum no es un proceso o una técnica para desarrollar/construir productos, real
     \caption{Scrum}
 \end{figure}
 
-Implementar este marco de trabajo nos permite obtener resultados pronto, reduciendo el Time to Market, es decir, a tener lo antes posible en el mercado nuestro producto o una característica de nuestro producto, aumentando la satisfacción del cliente. Donde los requisitos son cambiantes o poco definidos, aportando tolerancia al cambio.
+Implementar este marco de trabajo nos permite obtener resultados pronto, reduciendo el Time to Market, es decir, a tener lo antes posible en el mercado nuestro producto o una característica de nuestro producto, aumentando la satisfacción del cliente. Nos permite lidiar con requisitos cambiantes o poco definidos, aportando tolerancia al cambio.
 
 Es ideal para crear nuevos productos poniendo el foco en el cliente y detectar fallos pronto. Lo que se traduce en una mayor calidad del producto, reducción de costes y optimización del riesgo.
 
@@ -714,7 +714,7 @@ En nuestro caso usamos Github, que es un servicio basado en la nube, cómo herra
     \caption{Gitflow}
 \end{figure}
 
-Su funcionamiento se basa en dos ramas principales: la rama de producción y la rama de desarrollo. De la rama de desarrollo se van sacando nuevas ramas de funcionalidades y uniendo a está a medida que se completan. Un vez una nueva versión está lista se une la rama de desarrollo con la de producción generando una nueva release.
+Su funcionamiento se basa en dos ramas principales: la rama de producción y la rama de desarrollo. De la rama de desarrollo se van sacando nuevas ramas de funcionalidades y uniendo a está a medida que se completan. Una vez una nueva versión está lista se une la rama de desarrollo con la de producción generando una nueva release.
 
 \subsection{Despliegue Continuo (CD)}
 
@@ -737,7 +737,7 @@ Para desarrollar una aplicación de calidad es necesario el uso de unas guías d
 
 \section{Stack Tecnológico}
 
-Después de una investigación y comparación de tecnologías teniendo en mente las necesidades del proyecto. Se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los ideales para implementar esta aplicación. Es necesario explicar cómo funcionan estas tecnologías para entender más tarde la arquitectura y el código de la aplicación.
+Después de una investigación y comparación de tecnologías teniendo en mente las necesidades del proyecto. Se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los ideales para implementar esta aplicación. Es necesario entender cómo funcionan estas tecnologías para entender más tarde la arquitectura y el código de la aplicación.
 
 Otras herramientas no relacionadas con la implementación en sí fueron: Miro, Notion, Trello.
 
@@ -745,7 +745,7 @@ Otras herramientas no relacionadas con la implementación en sí fueron: Miro, N
 
 Creado por Vercel, Next.js es un framework de trabajo creado sobre Node.js y basado en React que permite crear Single-page Applications (SPA) y aplicaciones web de alto rendimiento a través de la renderización del lado del servidor (Server-side Rendering).
 
-Next nos permite, instalando una sola dependencia, tener configurado todo lo que necesitamos para crear una aplicación de **React** usando Babel y Webpack.  Estas son las características que nos ofrece sin apenas tener que configurarlo:
+Next nos permite, instalando una sola dependencia, tener configurado todo lo que necesitamos para crear una aplicación de **React** usando SWC y Webpack. Estas son las características que nos ofrece sin apenas tener que configurarlo:
 
 \begin{itemize}
     \item Un **sistema de enrutamiento** intuitivo **basado en páginas** con soporte para rutas dinámicas: En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio de "pages". Cada página está asociada con una ruta basada en su nombre de archivo.
@@ -796,7 +796,7 @@ Next nos permite, instalando una sola dependencia, tener configurado todo lo que
         \label{f:TiposPrerendering}
        \end{figure}
 
-    \item Separación automática de código (**Code Splitting**) para cargas de página más rápidas.
+    \item Separación automática de código (**Code Splitting**) para cargas de página más rápidas: La división del código en varios paquetes o componentes que luego se pueden cargar a medida y en paralelo.
         \begin{figure}[H]
             \centering
             \subfloat[Sin Code Splitting]{
@@ -808,28 +808,28 @@ Next nos permite, instalando una sola dependencia, tener configurado todo lo que
             \caption{Code Splitting}
             \label{f:codesplit}
         \end{figure}
-    \item Enrutamiento optimizado con prefetching para Single-page Application: se precargan los elementos mostrados en la página actual.
+    \item Enrutamiento optimizado con prefetching para Single-page Application: La aplicación precarga los recursos mostrados en la página actual para que su acceso sea mucho más rápido al navegar.
         \begin{figure}[H]
             \centering
             \includegraphics[scale=0.45]{Nextjs/Prefetch}
             \label{fig:nextjs_prefetch}
             \caption{Pre-fetching}
         \end{figure}
-    \item Entorno de desarrollo con soporte **Fast Refresh** y **HMR** (Hot Module Replacement): Permite actualizar todo tipo de módulos y componentes de React en tiempo de ejecución sin necesidad de un refresco completo.
+    \item Entorno de desarrollo con soporte **Fast Refresh** y **HMR** (Hot Module Replacement): Permite actualizar todo tipo de módulos y componentes de React en tiempo de ejecución sin necesidad de un refresco completo. Lo que mejora la experiencia y velocidad del desarrollo.
         \begin{figure}[H]
             \centering
             \includegraphics[scale=0.45]{Nextjs/FastRefresh}
             \label{fig:nextjs_hmr}
             \caption{Fast Refresh}
         \end{figure}    
-    \item Soporte integrado de **CSS y Sass**, y soporte para cualquier biblioteca **CSS-in-JS**. (completar)
+    \item Soporte integrado de **CSS y Sass**, y soporte para cualquier biblioteca **CSS-in-JS**. Lo que permite abstraer CSS al propio nivel del componente, utilizando JavaScript para describir estilos de forma declarativa y mantenible.
     \item **Rutas API** para crear endpoints con Serverless Functions: Cualquier archivo dentro de la carpeta pages/api se asigna a /api/* y se tratará como un endpoint en lugar de una página.
-    \item Soporte para **TypeScript** completamente integrado. 
+    \item Compatible con TypeScript de forma predeterminada y con tipos integrados para las páginas y la API.
 \end{itemize}
 
-Simplemente instalamos Next, así como React y React-dom como dependencias. Estas dos últimas son necesarias para que Next pueda trabajar sin ningún tipo de problemas.
+Simplemente instalamos Nextjs, así como TypeScript, React y React-dom como dependencias. Estas dos últimas son necesarias para que Next pueda trabajar sin ningún tipo de problemas.
 
-\subsubsection{React.js}
+\subsection{React}
 
 Es una biblioteca de código abierto para proyectos de JavaScript mantenida por Facebook, que permite a los desarrolladores crear aplicaciones web e interfaces de usuario de manera rápida y sencilla. Esto es posible mediante componentes interactivos y reutilizables.
 
@@ -853,7 +853,7 @@ Además, React genera el DOM de forma dinámica, hace los cambios en una copia e
 
 Esta es la forma de tener HTML con toda la funcionalidad de JavaScript y CSS centralizado y listo para ser abstraído y usado en cualquier otro proyecto.
 
-\subsubsection{Vercel}
+\subsection{Vercel}
 
 Es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión. Fue creada por los desarrolladores de Next.js por lo que desplegar una aplicación con este framework tiene las siguientes ventajas:
 
@@ -883,7 +883,7 @@ Usar Nextjs junto con Vercel nos permite seguir el flujo de trabajo DPS: Develop
 
 TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.
 
-Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con Nextjs ya obtenemos compilación y empaquetado automáticos (con webpack y babel).
+Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con Nextjs ya obtenemos transpilación y empaquetado automáticos (con SWC y Webpack respectivamente).
 
 \begin{figure}[H]
     \centering
@@ -896,11 +896,11 @@ Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo qu
 
 \subsection{Node.js}
 
-Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables.
+Node.js es un entorno de tiempo de ejecución de JavaScript. Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables.
 
 Permite utilizar un único lenguaje de programación para el Backend y el FrontEnd. Además cuenta con un repositorio de código abierto lleno de librerías útiles lo que ayuda en el desarrollo a una generación rápida de un producto mínimo viable.
 
-Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquetes para trabajar con proyecto de Node.js. Es necesario instalar una extensión para VScode y comenzar un proyecto nuevo con NPM o Yarn e instalar algunas dependencias necesarias como las de Typescript.
+Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquetes para trabajar con proyectos de Node.js. Es necesario instalar una extensión para VScode y comenzar un proyecto nuevo con NPM o Yarn e instalar algunas dependencias necesarias como las de Typescript.
 
 \begin{figure}[H]
     \centering
@@ -911,13 +911,12 @@ Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquete
 
 \subsubsection{NPM o Yarn}
 
-A veces, la instalación de paquetes con NPM no es lo suficiente consistente o rápida, dando incluso a errores. Es por ese el motivo que en este proyecto se tuvo que cambiar a Yarn, que es una alternativa construida por Facebook, Google, Exponent y Tilde.
-
+A veces, la instalación de paquetes con NPM no es lo suficiente consistente o rápida, dando incluso a errores. Es por ese el motivo que en este proyecto se tuvo que cambiar a Yarn, que es una alternativa construida por Facebook, Google, Exponent y Tilde. Lo cual nos permitió resolver algunos errores en la instalación de librerias.
 En package.json, el archivo donde tanto NPM como Yarn hacen un seguimiento de las dependencias del proyecto, los números de versión no siempre son exactos. En su lugar, se puede definir una gama de versiones.
 
 Cada vez que se añade un módulo, Yarn crea o actualiza un archivo yarn.lock.
 De esta manera se puede garantizar que en otra máquina se pueda instalar exactamente el mismo paquete, sin dejar de tener una gama de versiones permitidas definidas en package.json. 
-Lo cual nos permitió resolver algunos errores en la instalación de librerias.
+
 
 \subsection{VSCode}
 
@@ -1088,7 +1087,7 @@ A continuación se explican los paquetes de Node o librerías usadas en la imple
 En el archivo ‘arrayUtils.ts’ está el método ‘getRandomItem’ que recibe un array y devuelve un elemento al azar. Usado en el Hook ‘useAnswer’ para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
 
 \subsection{Datos y Servicios}
-A continuación se explican los servicios creados para la aplicación. Por comodidad y tamaño, los datos y servicios del mismo tipo se encuentran en el mismo archivo. Por ejemplo: el array con los datos de tipo ‘Instrument’ se encuentra en ‘InstrumentService’ en lugar de en su propio archivo, ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
+A continuación se explican los servicios creados para la aplicación. Por comodidad y tamaño, los datos que proporcionan los servicios se encuentran en su mismo archivo. Ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
 
 \begin{figure}[H]
     \centering
@@ -1117,7 +1116,7 @@ Los Hooks sirven para extraer lógica de estado de tal forma que un componente p
 
 El estado de cada componente es completamente independiente. De hecho, cada llamada a un Hook tiene un estado completamente aislado. Además, como los Hooks son funciones, podemos pasar información entre ellos.
 
-Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un caso de uso específico. Se puede encontrar una relación entre el nombre de los Hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno.
+Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un caso de uso específico. Se puede encontrar una relación entre el nombre de los Hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno más adelante.
 
 \begin{figure}[H]
     \centering
@@ -1128,14 +1127,14 @@ Estos son los Custom Hooks desarrollados para la aplicación, cada uno cubre un 
 
 \begin{itemize}
     \item \textbf{useDirectionSelector.tsx}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
-    \item \textbf{useExercise.tsx}:Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
+    \item \textbf{useExercise.tsx}: Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
     \item \textbf{useAnswerToggles.tsx}: Este Hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ‘isSelected’. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
     \item \textbf{useAnswer.tsx}: Este Hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
     \item \textbf{usePlayButton.tsx}: Este Hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
     \item \textbf{useAnswerButtons.tsx}:  Este Hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas que estaban seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de useStreak para proveer la racha actual de respuestas correctas.
     \item \textbf{useStreak.tsx}: Este Hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
     \item \textbf{usePiano.tsx}: Este Hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
-    \item \textbf{useScaleDropdown.tsx}:  Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
+    \item \textbf{useScaleDropdown.tsx}: Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
 \end{itemize}
 
 \subsubsection{Context}
@@ -1341,6 +1340,7 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
 \subsubsection{Otras Buenas Prácticas}
 
 \begin{compactitem}
+    \item Crear un archivo .gitignore para excluir archivos generados y sensibles.
     \item Visualizar el flujo de trabajo.
     \item Limitar el trabajo en proceso (Work in Progress) mediante un sistema de arrastre (pull) sobre el flujo de trabajo. Es decir no multitasking.
     \item Circuitos de retroalimentación: reuniones periódicas con el tutor.
