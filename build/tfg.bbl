@@ -21,6 +21,12 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{reactHooks}
+\BIBentryALTinterwordspacing
+React, \emph{Presentando Hooks}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/hooks-intro.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{webdev}
 \BIBentryALTinterwordspacing
 Google, \emph{Web Vitals}. [Online]. Available: \url{https://web.dev/vitals/}

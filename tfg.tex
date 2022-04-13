@@ -533,14 +533,15 @@ El proceso de Design Thinking se compone de cinco etapas. No es lineal. En cualq
 
 \subsubsection{Empatizar}
 
-Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Se puede encontrar una explicación más detallada en el apéndice.
+Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Además, se analizaron diversas herramientas ya existentes de entrenamiento musical como se ha explicado en el estado del arte. Se puede encontrar una explicación más detallada en el apéndice.
+
 \subsubsection{Definir}
 
-La idea parte de la necesidad de músicos amateur que quieren mejorar su nivel de percepción de la música. Sin los medios adecuados resulta imposible llevar a cabo el entrenamiento auditivo que es una parte fundamental para llevar a cabo su propósito. 
+El problema parte de la necesidad de músicos amateur que quieren mejorar su nivel de percepción de la música. Sin los medios adecuados resulta imposible llevar a cabo el entrenamiento auditivo que es una parte fundamental para llevar a cabo su propósito. 
 
 \subsubsection{Idear}
 
-Para idear una solución que aporte valor realizamos este MindMap donde nos enfocamos en los principales problemas del usuario y sus posibles soluciones.
+Para idear una solución que aporte valor realizamos este MindMap donde nos enfocamos en los principales problemas del usuario y sus posibles soluciones, teniendo en cuenta las aplicaciones analizadas en el estado del arte.
 
 \begin{figure}[H]
     \centering
@@ -599,9 +600,11 @@ La metodología Lean Startup se basa en el Circuito de feedback de información:
 
 El Lean Startup sirve para acortar los ciclos de desarrollo, medir el progreso y ganar feedback por parte de los usuarios. Esto se consigue porque se basa en el aprendizaje validado, la experimentación científica y la iteración en los lanzamientos del producto. 
 
-Aunque por su nombre pueda parecer que sólo esta enfocado al mundo Startup y crear una nueva empresa, en realidad es una herramienta imprescindible para la puesta en marcha de soluciones software. Por eso, hemos decidido usar este método para crear nuestra solución.
+Aunque por su nombre pueda parecer que sólo esta enfocado al mundo Startup, en realidad es una herramienta imprescindible para la puesta en marcha de soluciones software. Por eso, se ha decidido usar este método para crear nuestra solución.
 
-Para no extender mucho este trabajo se puede encontrar una explicación detalla de como fue este proceso de crear, medir, aprender en el apéndice. A continuación, nos centraremos sólo en la parte de creación, es decir, la parte de ingeniería del software e implementación.
+Para no extender este trabajo se puede encontrar una explicación detalla de como fue este proceso de crear, medir, aprender en el apéndice. A continuación, nos centraremos sólo en la parte de creación.
+
+Después haber creado nuestra hipótesis y haber diseñado un producto mínimo viable usando Design Thinking pasamos a crearlo usando Metodologías Ágiles.
 
 \chapter{Metodologías Ágiles}
 
@@ -859,14 +862,12 @@ Es una biblioteca de código abierto para proyectos de JavaScript mantenida por 
 
 React está basado en un paradigma llamado programación orientada a componentes en el que cada componente es una pieza con la que el usuario puede interactuar. Estas piezas se crean usando una sintaxis llamada JSX permitiendo escribir HTML (y opcionalmente CSS) dentro de objetos JavaScript. Estos componentes son reutilizables y se combinan para crear componentes mayores hasta configurar una web completa.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.3]{React/ReactComponents}
-    \label{fig:ReactComponents}
-    \caption{Diagrama de una página}
-\end{figure}
-
-Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (DOM virtual) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez.
+%\begin{figure}[H]
+   % \centering
+  %  \includegraphics[scale=0.3]{React/ReactComponents}
+ %   \label{fig:ReactComponents}
+%    \caption{Diagrama de una página}
+%\end{figure}
 
 \begin{figure}[H]
     \centering
@@ -874,6 +875,9 @@ Además, React genera el DOM de forma dinámica, hace los cambios en una copia e
     \label{fig:React_VirtualDom}
     \caption{Reconciliación Virtual DOM}
 \end{figure}
+
+Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (DOM virtual) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez.
+
 
 Esta es la forma de tener HTML con toda la funcionalidad de JavaScript y CSS centralizado y listo para ser abstraído y usado en cualquier otro proyecto.
 
@@ -1006,7 +1010,15 @@ Para ello, analiza el código y lo da formato cada vez que se guarda el archivo.
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
 \section{Detalles de Implementación}
-La principal documentación con la que contamos es el estilo de nomenclatura, la coherencia a la hora de nombrar cosas y una arquitectura general coherente. Esta debe emanar de una serie de patrones que se repiten a lo largo del proyecto, tanto a nivel arquitectónico como de diseño. Esta información reside en el código: en el nombre de los componentes, de las variables y de las funciones. Este código se puede encontrar en el siguiente enlace: \url{https://github.com/alberttogoca/EarFit}.
+La principal documentación con la que contamos es el estilo de nomenclatura, la coherencia a la hora de nombrar cosas y una arquitectura general coherente. Esta debe emanar de una serie de patrones que se repiten a lo largo del proyecto, tanto a nivel arquitectónico como de diseño. Esta información reside en el código: en el nombre de los componentes, de las variables y de las funciones. Este código se puede encontrar en el siguiente repositorio de Github: \url{https://github.com/alberttogoca/EarFit}.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.03]{Detalles de Implementación/GitHub}
+    \label{fig:GitHubLogo}
+    \caption{Logo de GitHub}
+\end{figure}
 
 Para dejar reflejados estos detalles en la memoria se explicarán todas las partes de las que se compone esta implementación: \textbf{arquitectura, estructura de archivos, tipos, librerías, datos, servicios, Hooks y componentes}. No hará falta estar familiarizado con los conceptos propios de React para haber entendido está documentación al acabar.
 
@@ -1052,7 +1064,7 @@ En este caso se han separado las carpetas por conceptos o intereses, donde cada 
     \item \textbf{Components}: Aquí se pueden encontrar todos los componentes de la aplicación agrupados por carpetas. El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas.
     \item \textbf{Types}: Aquí se encuentran en un archivo todos los tipos personalizados usados en los demás archivos de la aplicación. Para usar Typescript todos los archivos ‘.js’ se convierten en ‘.ts’ y ‘.jsx’ en ‘.tsx’.
     \item \textbf{Lib}: Aquí se puede encontrar ‘soundfont-wrapper’, una librería personalizada para la aplicación. Para hacer uso de la librería ‘soundfont-player’, que se encarga de cargar los archivos de fuente de sonido y reproducir sonidos MIDI utilizando la WebAudio API. Se decidió crear esta librería envoltorio (Wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
-    \item \textbf{Hooks}: Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación. Por ejemplo: en ‘arrayUtils.ts’ está el método ‘getRandomItem’ que devuelve un elemento al azar de un array.
+    \item \textbf{Utils}: Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación.
     \item \textbf{Styles}: Aquí se pueden encontrar algunos estilos css globales para la aplicación. Aunque en general se hace uso de ‘react-bootstrap’ junto con ‘bootswatch’ para los estilos de la aplicación.
     \item \textbf{Services}: Aquí puedes encontrar los servicios que serán consumidos desde los Hooks. Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica independiente a la interfaz.
     \item \textbf{Context}: Aquí puedes encontrar el contexto de la aplicación. El Context está diseñado para compartir estados que pueden considerarse “globales” para un árbol de componentes en React. Como es un componente algo especial, como las pages, tiene su propio directorio.
@@ -1092,7 +1104,7 @@ A continuación se explican los tipos de Typescript creados para la implementaci
         \caption{VariantExercise}
     \end{figure}
 
-    \item \textbf{VariantExercise}: Este tipo define la tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’. En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en el Hooks.
+    \item \textbf{VariantExercise}: Este tipo define la tres variantes del ejercicio: ‘notes’, ‘intervals’ y ‘scales’. En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en los Hooks.
 
     \begin{figure}[H]
         \centering
@@ -1118,11 +1130,11 @@ A continuación se explican los tipos de Typescript creados para la implementaci
 \end{itemize}
 
 \subsubsection{Librerías}
-A continuación se explican los paquetes de Node o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo package.json o en la carpeta ‘lib’ en el caso de soundfont-wrapper.
+A continuación se explican los paquetes de Node o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo package.json o en la carpeta ‘lib’ en el caso de 'soundfont-wrapper'.
 
 \begin{itemize}
     \item \textbf{Tonaljs:} Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales.
-    \item \textbf{Soundfont-player-js:} Sirve para cargar archivos de fuente de sonido en formato MIDI.js y reproducir sonidos MIDI utilizando la API de WebAudio. Los archivos MIDI.js contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos ya que en tal caso los buscaría en el siguiente repositorio: https://github.com/gleitz/midi-js-soundfonts. Aunque para no depender de datos externos lo ideal es contar con ellos en local.
+    \item \textbf{Soundfont-player-js:} Sirve para cargar archivos de fuente de sonido en formato MIDI.js y reproducir sonidos MIDI utilizando la API de WebAudio. Los archivos MIDI.js contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos ya que en tal caso los buscaría en el siguiente repositorio: \url{https://github.com/gleitz/midi-js-soundfonts}. Aunque para no depender de datos externos lo ideal es contar con ellos en local.
     \item \textbf{Soundfont-wrapper:} Es una librería personalizada para refinar la complejidad de ‘soundfont-player-js’ y simplificar su uso. Proporciona la función ‘getSoundfontInstrument’ que devuelve un ‘notePlayer’ con funciones para tocar notas. Se encarga de crear el audioContext, gestionar los nodos de audio e implementa un patrón singleton para no crear ‘notePlayers’ repetidos.
     \item \textbf{React-piano:} Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por Props dos funciones: playNote y stopNote.
     \item \textbf{React-use-measure:} Se usa para conseguir que ’react-piano’ sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano.
@@ -1153,7 +1165,7 @@ A continuación se explican los servicios creados para la aplicación. Por comod
 
 \subsection{Hooks y Context}
 
-Según React, las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y las clases confunden tanto a las personas como a las máquinas ([https://es.reactjs.org/docs/hooks-intro.html](https://es.reactjs.org/docs/hooks-intro.html)).
+Según React, las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y las clases confunden tanto a las personas como a las máquinas. \cite{reactHooks}
 
 Para resolver estos problemas, Hooks permite usar más de las funciones de React sin clases. Conceptualmente, los componentes de React siempre han estado más cerca de las funciones. Aunque se necesita un poco de cambio de mentalidad para empezar a “pensar en Hooks”. Es por esto por lo que se usan funciones en lugar de clases para guardar el estado de la aplicación.
 
@@ -1247,6 +1259,13 @@ En este caso varios estados de los componentes Exercise y Options están ligados
 
 Este es un ejemplo de como funciona el flujo de datos unidireccional de la página de intervalos. El funcionamiento es igual para todas las demás: 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Pages/Intervals}
+    \label{fig:IntervalsPage}
+    \caption{Intervals Page}
+\end{figure}
+
 \begin{enumerate}
     \item  Se importan los Hooks y Componentes necesarios.
     \item  Se hacen las llamadas a los Hooks que aportan los datos y Callbacks.
@@ -1254,13 +1273,6 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional de la pági
 \end{enumerate}
 
 Como los componentes solo pueden actualizar su propio estado, el componente superior necesita pasar funciones al hijo que este ejecutará cada vez que el estado deba actualizarse.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Pages/Intervals}
-    \label{fig:IntervalsPage}
-    \caption{Intervals Page}
-\end{figure}
 
 \subsubsection{Components}
 
@@ -1282,6 +1294,13 @@ Como los componentes solo pueden actualizar su propio estado, el componente supe
 
 Este es un ejemplo de como funciona el flujo de datos unidireccional del componente 'AnswerButtons'. El funcionamiento es igual para todos las demás: 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Components/AnswerButtons}
+    \label{fig:AnswerButtons}
+    \caption{AnswerButtons Component}
+\end{figure}
+
 \begin{enumerate}
     \item Le llegan los datos y Callbacks a través de Props.
     \item Renderiza el componente usando estos datos.
@@ -1291,12 +1310,6 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional del compone
     \item Al llegar nuevas Props al componente se vuelve a renderizar mostrando los cambios.
 \end{enumerate}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Components/AnswerButtons}
-    \label{fig:AnswerButtons}
-    \caption{AnswerButtons Component}
-\end{figure}
 
 \subsection{Progressive Web App}
 Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en Progressive Web App. Con la Progressive Web App, el usuario puede instalar la app en su dispositivo y seguir consultándola, aunque haya perdido la conexión.
@@ -1563,10 +1576,64 @@ Son una colección de métrica establecidas por Google \cite{webdev} junto con e
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 4 Conclusiones %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusiones}
 
-En este capítulo se detallan las conclusiones derivadas del TFG y la propuesta de posibles trabajos futuros.
+En este capítulo se detallan las conclusiones derivadas del trabajo, los objetivos alcanzados, las limitaciones que afectaron al desarrollo y la propuesta para posibles trabajos futuros. Por último, habrá una pequeña opinión personal que dará cierre a esta memoria.
+\section{Objetivos Alcanzados}
 
-Qué he aprendidos
-Qué debo mejorar
+El presente trabajo se proponía el desarrollo de una herramienta que permitiera a los músicos desarrollar su oído musical mediante ejercicios de entrenamiento auditivo.
+
+Para lograr una solución que aportase valor, se definieron las necesidades del usuario, se establecieron una serie de hipótesis que solucionasen sus problemas y se priorizaron las funcionalidades más relevantes para diseñar un prototipo de un producto mínimo viable aplicando Design Thinking.
+
+Este producto mínimo viable se desarrolló aplicando Lean Startup, en un proceso de aprendizaje validado siguiendo un circuito iterativo de crear, medir, aprender. Los requisitos podían cambiar al aprender del impacto en los usuarios de una versión del software y tener que pivotar.
+
+Por eso se aplicó Scrum para planificar y gestionar el proyecto. Un User Story Map definía el viaje o casos de uso del usuario en el producto y las releases de cada versión. Las historias de usuario definían los requisitos del sistema y se encontraban en el Scrum Board que servía para visualizar el flujo de trabajo de cada sprint. Al final de cada sprint se producía un incremento en el software generando una nueva versión que era directamente entregada al usuario para obtener su feedback.
+
+Usar prácticas DevOps agilizó este proceso. Aplicando Integración Continua (CI) en Github siguiendo el modelo Gitflow. Y Despliegue Continuo (CD), utilizando Github Actions para tener un despliegue por cada rama en Vercel siguiendo el flujo de trabajo Develop, Preview and Ship.
+
+Para su implementación se usaron diferentes tecnologías cómo Nextjs (un framework de React), TypeScript, Nodejs y VSCode. Convirtiendo la solución en una aplicación web progresiva (PWA), confiable e instalable como una app nativa en ordenador, móvil y tablet. Se aplicaron buenas prácticas cómo guías de estilo de código y principios de Clean Code. Mientras, se testeaba su rendimiento usando Google Lighthouse y Vercel Analytics asegurando una buena experiencia de usuario.
+
+Al final, se logró desarrollar el MVP propuesto y cumplir con los objetivos que se habían establecido en este trabajo. Aportando una solución única para el entrenamiento auditivo, con diferentes tipos de ejercicios personalizables y varios instrumentos. 
+
+Los resultados de esta aplicación se puede encontrar en el apéndice, escaneando el código QR y en el siguiente enlace: \url{https://earfit.vercel.app/}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{Conclusiones/EarfitQR}
+    \label{fig:EarfitQR}
+    \caption{Earfit QR}
+\end{figure}
+
+\section{Limitaciones}
+
+Hay que tener en cuenta algunas de las limitaciones que obstaculizaron y aumentaron el tiempo de desarrollo del proyecto. Este proyecto se realizó en el tiempo libre que me quedaba entre mi trabajo de ocho horas y el master que estaba cursando a la vez. Lo que se traduce en poco tiempo para desarrollar, aprender teoría musical, nuevas tecnologías, metodologías y realizar la memoria. 
+
+Mis conocimientos sobre **teoría musical** al inicio del proyecto eran muy básicos. Prácticamente todo lo aplicado sobre música lo he tenido que aprender de cero para el desarrollo de los ejercicios. Algo que no es fácil si nunca has estudiado sobre notación musical, semitonos, modos griegos, etc. Lo que produjo algún que otro error sobre todo en el ejercicio de intervalos.
+
+Sobre las **metodologías** empleadas, ya había utilizado Design Thinking en la carrera. Pero nunca había implementado metodologías ágiles cómo Scrum, por lo que he tenido que aprender sobre cómo realizar historias de usuario, el Scrum Board, el User Story Map y cómo gestionarlas. Tampoco había tratado de implementar Lean Startup aunque tenía una ligera idea. Por último, si que había llevado control de versiones anteriormente pero nunca usando el flujo Gitflow.
+
+Sobre las **tecnologías** empleadas, nunca había utilizado ninguna aparte de Nodejs y VSCode. Por lo que hay una gran cantidad de tiempo invertido en aprender Nextjs, React y TypeScript. Tampoco había utilizado nunca Github Actions y Vercel para realizar un despliegue continuo de la aplicación. 
+
+Cómo consecuencias el desarrollo se vio entorpecido por algunos errores que tenía al actualizar el estado cuando era un array o tener que hacer una migración de Bootstrap a react-bootstrap a mitad del proyecto, cuando me di cuenta que algunos componentes no funcionaban bien. 
+
+Por último, tampoco había usado nunca la Web Audio API algo que fue un quebradero de cabeza para hacer funcionar la aplicación en IOS, ya que su documentación es complicada.
+
+\section{Trabajos futuros}
+
+Esta memoria contiene todo lo necesario para seguir con el trabajo aún si no se conocen las tecnologías y metodologías empleadas. Ya que se ha explicado todo su funcionamiento.
+
+Algunas de las posibles extensiones de la aplicación, que no se llevaron a cabo por falta de tiempo son:
+
+\begin{itemize}
+    \item Las funcionalidades que no se establecieron cómo prioridad en la etapa de diseño. Éstas se pueden encontrar en la figura de la técnica de MosCow o en el Mindmap de Design Thinking: ejercicio de acordes, ritmos, progresiones, modo nocturno y varios idiomas.
+    \item Implementación de test automáticos. Debido al coste de aprender, implementar y mantener estos test automáticos de los componentes, se optó por realizarlos manuales. Se podrían añadir estos test al flujo de desarrollo en un futuro.
+    \item Software libre vs Negocio. De momento esta aplicación es gratuita para todo el mundo. Se podría plantear alguna forma de monetización si se llega a un punto en que la aplicación sea lo suficientemente relevante.
+\end{itemize}
+
+\section{Opinión Personal}
+En general este trabajo ha sido demasiado ambicioso por mi parte. El tener que aprender prácticamente todo desde cero me ha servido mucho para crecer pero también me ha limitado a la hora de desarrollar la aplicación.
+
+En cuanto al tiempo de desarrollo de la aplicación no fue muy elevado si no se cuenta con la fase de aprender todas estas tecnologías. Lo que más tiempo ha llevado ha sido realizar esta memoria explicando todos estos conceptos que no se dan en la carrera y me siento en la obligación de explicar por si no se entiende la manera ágil en la que se han hecho las cosas.
+
+En general, estoy contento con el resultado de la aplicación y la forma moderna en que la he hecho. Y creo que la memoria es muy completa y se puede entender todo sin haberlo visto antes.
 
 \blankpage
 
@@ -1609,7 +1676,7 @@ Qué debo mejorar
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Apendices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Proceso de Creación Detallado (Revisar)}
+\chapter{Proceso de Creación Detallado (Cambiar)}
 
 La idea parte de la necesidad de jóvenes músicos que quieren aprender a tocar un instrumento. Una parte fundamental del aprendizaje consiste en entrenar el oído, que sin los medios adecuados puede resultar difícil.
 
