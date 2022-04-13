@@ -692,7 +692,7 @@ El desarrollo de aplicaciones modernas requiere procesos diferentes a los enfoqu
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.24]{DevOps/DevOps}
+    \includegraphics[scale=0.2]{DevOps/DevOps}
     \label{fig:DevOps}
     \caption{DevOps}
 \end{figure}
@@ -714,22 +714,34 @@ En nuestro caso usamos Github, que es un servicio basado en la nube, cómo herra
     \caption{Gitflow}
 \end{figure}
 
-Su funcionamiento se basa en dos ramas principales: la rama de producción y la rama de desarrollo. De la rama de desarrollo se van sacando nuevas ramas de funcionalidades y uniendo a está a medida que se completan. Una vez una nueva versión está lista se une la rama de desarrollo con la de producción generando una nueva release.
+Su funcionamiento se basa en dos ramas principales: 
+
+\begin{compactitem}
+    \item \textbf{Rama de Desarrollo:} De la rama de desarrollo se van sacando nuevas ramas de funcionalidades y uniendo a ésta a medida que se completan.
+    \item \textbf{Rama de Producción:} Una vez una nueva versión está lista se une la rama de desarrollo con la de producción generando una nueva Release.
+\end{compactitem}
 
 \subsection{Despliegue Continuo (CD)}
 
 El despliegue continuo es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente.
 
-Para entregar funcionalidades de software de forma frecuente a través de la automatización de despliegues utilizamos GitHub Actions el cuál nos permite automatizar, personalizar y ejecutar estos flujos de trabajo directamente desde nuestro repositorio.
-
-El flujo consistía en que cada vez que se actualizaba el repositorio mediante una subida de código, éste automáticamente desplegaba las nuevas actualizaciones en Vercel, que es una plataforma en la nube que permite a los desarrolladores alojar sitios web y servicios web que escalan automáticamente y no requieren supervisión.
+Para entregar funcionalidades de software de forma frecuente a través de la automatización de despliegues utilizamos GitHub Actions el cuál nos permite automatizar, personalizar y ejecutar estos flujos de trabajo directamente desde nuestro repositorio. Y para alojar nuestra aplicación web usamos Vercel, que es una plataforma en la nube optimizada para proyectos Nextjs.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.54]{DevOps/Vercel}
-    \label{fig:Vercel}
-    \caption{Vercel}
+    \includegraphics[scale=0.3]{DevOps/DPS}
+    \label{fig:vercel_workflow}
+    \caption{Flujo de trabajo DPS}
 \end{figure}
+
+El flujo consistía en que cada vez que se actualizaba el repositorio mediante una subida de código, Github Actions automáticamente desplegaba las nuevas actualizaciones en Vercel siguiendo el flujo de trabajo DPS: Develop, Preview and Ship (Desarrollo, Vista previa y Enviar a producción).
+
+\begin{compactitem}
+    \item \textbf{Desarrollo}: Escribimos código en Next.js y subimos los cambios a una rama en Github.
+    \item \textbf{Vista previa}: Vercel crea un despliegue de cada rama que estará disponible a través de una URL. Podemos compartir esta URL con otros para recibir feedback. 
+    \item \textbf{Enviar a Producción}: Fusionamos la rama creada con la rama 'main' para enviar a producción.
+\end{compactitem}
+
 
 \chapter{Descripción Informática}
 
@@ -739,11 +751,16 @@ Para desarrollar una aplicación de calidad es necesario el uso de unas guías d
 
 Después de una investigación y comparación de tecnologías teniendo en mente las necesidades del proyecto. Se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los ideales para implementar esta aplicación. Es necesario entender cómo funcionan estas tecnologías para entender más tarde la arquitectura y el código de la aplicación.
 
-Otras herramientas no relacionadas con la implementación en sí fueron: Miro, Notion, Trello.
-
 \subsection{Next.js}
 
-Creado por Vercel, Next.js es un framework de trabajo creado sobre Node.js y basado en React que permite crear Single-page Applications (SPA) y aplicaciones web de alto rendimiento a través de la renderización del lado del servidor (Server-side Rendering).
+Creado por Vercel, Next.js es un framework de trabajo creado sobre Node.js y basado en React que permite crear Single-page Applications (SPA) y aplicaciones web de alto rendimiento.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.14]{Nextjs/Nextjs}
+    \label{fig:NextjsLogo}
+    \caption{Logo de Nextjs}
+\end{figure}
 
 Next nos permite, instalando una sola dependencia, tener configurado todo lo que necesitamos para crear una aplicación de **React** usando SWC y Webpack. Estas son las características que nos ofrece sin apenas tener que configurarlo:
 
@@ -751,7 +768,7 @@ Next nos permite, instalando una sola dependencia, tener configurado todo lo que
     \item Un **sistema de enrutamiento** intuitivo **basado en páginas** con soporte para rutas dinámicas: En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio de "pages". Cada página está asociada con una ruta basada en su nombre de archivo.
     \begin{figure}[H]
         \centering
-        \includegraphics[scale=0.4]{Nextjs/Routing}
+        \includegraphics[scale=0.3]{Nextjs/Routing}
         \label{fig:nextjs_routing}
         \caption{Nextjs Routing}
     \end{figure}
@@ -811,14 +828,14 @@ Next nos permite, instalando una sola dependencia, tener configurado todo lo que
     \item Enrutamiento optimizado con prefetching para Single-page Application: La aplicación precarga los recursos mostrados en la página actual para que su acceso sea mucho más rápido al navegar.
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=0.45]{Nextjs/Prefetch}
+            \includegraphics[scale=0.3]{Nextjs/Prefetch}
             \label{fig:nextjs_prefetch}
             \caption{Pre-fetching}
         \end{figure}
     \item Entorno de desarrollo con soporte **Fast Refresh** y **HMR** (Hot Module Replacement): Permite actualizar todo tipo de módulos y componentes de React en tiempo de ejecución sin necesidad de un refresco completo. Lo que mejora la experiencia y velocidad del desarrollo.
         \begin{figure}[H]
             \centering
-            \includegraphics[scale=0.45]{Nextjs/FastRefresh}
+            \includegraphics[scale=0.33]{Nextjs/FastRefresh}
             \label{fig:nextjs_hmr}
             \caption{Fast Refresh}
         \end{figure}    
@@ -833,11 +850,18 @@ Simplemente instalamos Nextjs, así como TypeScript, React y React-dom como depe
 
 Es una biblioteca de código abierto para proyectos de JavaScript mantenida por Facebook, que permite a los desarrolladores crear aplicaciones web e interfaces de usuario de manera rápida y sencilla. Esto es posible mediante componentes interactivos y reutilizables.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.07]{React/React}
+    \label{fig:ReactLogo}
+    \caption{Logo de React}
+\end{figure}
+
 React está basado en un paradigma llamado programación orientada a componentes en el que cada componente es una pieza con la que el usuario puede interactuar. Estas piezas se crean usando una sintaxis llamada JSX permitiendo escribir HTML (y opcionalmente CSS) dentro de objetos JavaScript. Estos componentes son reutilizables y se combinan para crear componentes mayores hasta configurar una web completa.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{Reactjs/ReactComponents}
+    \includegraphics[scale=0.3]{React/ReactComponents}
     \label{fig:ReactComponents}
     \caption{Diagrama de una página}
 \end{figure}
@@ -846,7 +870,7 @@ Además, React genera el DOM de forma dinámica, hace los cambios en una copia e
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{Reactjs/VirtualDOM1}
+    \includegraphics[scale=0.5]{React/VirtualDOM1}
     \label{fig:React_VirtualDom}
     \caption{Reconciliación Virtual DOM}
 \end{figure}
@@ -862,32 +886,33 @@ Es una plataforma en la nube que permite a los desarrolladores alojar sitios web
     \item Las páginas que usan pre-rendering y rutas API se convierten automáticamente en Serverless Functions. Esto permite que el renderizado de páginas y las solicitudes API puedan escalar infinitamente.
 \end{compactitem}
 
-Aparte ofrece muchas más funciones, como: dominios personalizados, variables de entorno, HTTPS automático y una vista previa de cada rama de Github por cada subida de código.
-
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.2]{Vercel/DPS}
-    \label{fig:vercel_workflow}
-    \caption{Flujo de trabajo DPS}
+    \includegraphics[scale=0.5]{Vercel/Vercel}
+    \label{fig:VercelLogo}
+    \caption{Logo de Vercel}
 \end{figure}
 
-Usar Nextjs junto con Vercel nos permite seguir el flujo de trabajo DPS: Develop, Preview and Ship (Desarrollo, Vista previa y Enviar a producción).
+Aparte ofrece muchas más funciones, como: dominios personalizados, variables de entorno, HTTPS automático y una vista previa de cada rama de Github por cada subida de código.
 
-\begin{compactitem}
-    \item \textbf{Desarrollo}: escribimos código en Next.js y usamos su servidor de desarrollo para aprovechar su función de fast refresh.
-    \item \textbf{Vista previa}: subimos los cambios a una rama en GitHub y Vercel crea un despliegue que estará disponible a través de una URL. Podemos compartir esta URL con otros para recibir feedback.
-    \item \textbf{Enviar a Producción}: fusionamos la rama creada con la rama main para enviar a producción.
-\end{compactitem}
+Desplegar nuestra aplicación de Nextjs en Vercel nos permite seguir el flujo de trabajo DPS. Y además, nos ofrece Vercel Analytics para medir el rendimiento, recopilando web vitals de los dispositivos reales que utilizan los usuarios.
 
 \subsection{TypeScript}
 
 TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.03]{TypeScript/TypeScript}
+    \label{fig:TypeScriptLogo}
+    \caption{Logo de TypeScript}
+\end{figure}
+
 Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con Nextjs ya obtenemos transpilación y empaquetado automáticos (con SWC y Webpack respectivamente).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{TypeScript/TypeScript}
+    \includegraphics[scale=0.35]{TypeScript/TypeScriptTranspile}
     \label{fig:TypeScript}
     \caption{TypeScript}
 \end{figure}
@@ -898,20 +923,28 @@ Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo qu
 
 Node.js es un entorno de tiempo de ejecución de JavaScript. Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Nodejs/Nodejs}
+    \label{fig:NodejsLogo}
+    \caption{Logo de Nodejs}
+\end{figure}
+
 Permite utilizar un único lenguaje de programación para el Backend y el FrontEnd. Además cuenta con un repositorio de código abierto lleno de librerías útiles lo que ayuda en el desarrollo a una generación rápida de un producto mínimo viable.
 
 Debemos tenerlo instalado con NPM o Yarn los cuales son unos gestores de paquetes para trabajar con proyectos de Node.js. Es necesario instalar una extensión para VScode y comenzar un proyecto nuevo con NPM o Yarn e instalar algunas dependencias necesarias como las de Typescript.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.1]{Nodejs/NodeNPMYarn}
-    \label{fig:NodeNPMYarn}
-    \caption{Nodejs, NPM y Yarn}
-\end{figure}
-
 \subsubsection{NPM o Yarn}
 
 A veces, la instalación de paquetes con NPM no es lo suficiente consistente o rápida, dando incluso a errores. Es por ese el motivo que en este proyecto se tuvo que cambiar a Yarn, que es una alternativa construida por Facebook, Google, Exponent y Tilde. Lo cual nos permitió resolver algunos errores en la instalación de librerias.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{Nodejs/NPMvsYarn}
+    \label{fig:NPMYarnLogo}
+    \caption{Logo de NPM y Yarn}
+\end{figure}
+
 En package.json, el archivo donde tanto NPM como Yarn hacen un seguimiento de las dependencias del proyecto, los números de versión no siempre son exactos. En su lugar, se puede definir una gama de versiones.
 
 Cada vez que se añade un módulo, Yarn crea o actualiza un archivo yarn.lock.
@@ -922,22 +955,29 @@ De esta manera se puede garantizar que en otra máquina se pueda instalar exacta
 
 Visual Studio Code es un editor de código redefinido y optimizado para crear y depurar aplicaciones web y en la nube modernas. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.035]{VSCode/VSCode}
+    \label{fig:VSCodeLogo}
+    \caption{Logo de VSCode}
+\end{figure}
+
 Gracias a su integración de Git es sencillo revisar las diferencias, preparar los archivos y realizar confirmaciones directamente desde el editor antes de subirlo al repositorio en la nube.
 
 Además cuenta con una biblioteca de extensiones, las cuales nos da un sin número de opciones para ser más eficiente a la hora de estar programando. Desde extensiones de otros lenguajes de programación como diferentes herramientas para visualizar o estructurar el código de manera más eficiente.
 
 Las extensiones más importantes para mejorar la experiencia de desarrollo y buenas prácticas de este proyecto fueron ESLint y Prettier. Configurar estas herramientas será una inversión que haremos una vez y sus beneficios los notaremos durante todo el proyecto
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.8]{VSCode/VScodeExtensions}
-    \label{fig:VScode_extensions}
-    \caption{ESLint, Prettier y VSCode}
-\end{figure}
-
 \subsubsection{ESLint}
 
 ESLint es una herramienta de análisis de código para identificar patrones problemáticos que se puede instalar como extensión en VSCode.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.05]{VSCode/ESLint}
+    \label{fig:ESLintLogo}
+    \caption{Logo de ESLint}
+\end{figure}
 
 Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Se pueden usar guías de estilo cómo Airbnb, Standard o Google, pero en este caso lo vamos a configurar con la guía de estilo recomendada de ESLint y añadiremos reglas para TypeScript y React. Lo que nos permitirá:
 
@@ -953,6 +993,13 @@ ESLint está diseñado para ser flexible y configurable por lo que añadimos eje
 \subsubsection{Prettier}
 
 Prettier es un formateador de código que puede instalarse como extensión en VSCode. Aplica un estilo consistente analizando el código y formateándolo con sus propias reglas que toman en cuenta la longitud máxima de línea, ajustando el código cuando es necesario.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.02]{VSCode/Prettier}
+    \label{fig:PrettierLogo}
+    \caption{Logo de Prettier}
+\end{figure}
 
 Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el estilo del código. Para usarlo junto con ESLint hay que configurar este último para que use Prettier.
 
@@ -1160,7 +1207,7 @@ Los componentes permiten separar la interfaz de usuario en piezas independientes
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{Reactjs/ReactComponent}
+    \includegraphics[scale=0.3]{React/ReactComponent}
     \label{fig:ReactComponent}
     \caption{Diagrama de un componente}
 \end{figure}
@@ -1210,7 +1257,7 @@ Como los componentes solo pueden actualizar su propio estado, el componente supe
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Pages/Intervals}
+    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Pages/Intervals}
     \label{fig:IntervalsPage}
     \caption{Intervals Page}
 \end{figure}
@@ -1246,7 +1293,7 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional del compone
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Code/Components/AnswerButtons}
+    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Components/AnswerButtons}
     \label{fig:AnswerButtons}
     \caption{AnswerButtons Component}
 \end{figure}
