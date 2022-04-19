@@ -45,14 +45,14 @@
 \contentsline {subsection}{\numberline {4.2.2}Estructura de Archivos}{34}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Infraestructura}{36}{subsection.4.2.3}%
 \contentsline {subsubsection}{Tipos}{36}{section*.53}%
-\contentsline {subsubsection}{Librerías}{38}{section*.59}%
-\contentsline {subsubsection}{Utils}{39}{section*.60}%
+\contentsline {subsubsection}{Librerías}{39}{section*.59}%
+\contentsline {subsubsection}{Utils}{40}{section*.60}%
 \contentsline {subsection}{\numberline {4.2.4}Datos y Servicios}{40}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Hooks y Context}{41}{subsection.4.2.5}%
 \contentsline {subsubsection}{Hooks}{41}{section*.62}%
-\contentsline {subsubsection}{Context}{42}{section*.64}%
+\contentsline {subsubsection}{Context}{43}{section*.64}%
 \contentsline {subsection}{\numberline {4.2.6}Componentes y Pages}{43}{subsection.4.2.6}%
-\contentsline {subsubsection}{Pages}{44}{section*.68}%
+\contentsline {subsubsection}{Pages}{45}{section*.68}%
 \contentsline {subsubsection}{Components}{47}{section*.71}%
 \contentsline {subsection}{\numberline {4.2.7}Progressive Web App}{48}{subsection.4.2.7}%
 \contentsline {subsubsection}{Service Worker}{50}{section*.76}%
@@ -79,11 +79,11 @@
 \contentsline {subsubsection}{Web Vitals}{59}{section*.101}%
 \contentsline {chapter}{\numberline {5}Conclusiones}{61}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Objetivos Alcanzados}{61}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Limitaciones}{62}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Trabajos futuros}{63}{section.5.3}%
+\contentsline {section}{\numberline {5.2}Limitaciones}{63}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Trabajos futuros}{64}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Opinión Personal}{64}{section.5.4}%
-\contentsline {chapter}{Bibliografía}{66}{section*.103}%
-\contentsline {chapter}{Apéndices}{68}{section*.105}%
+\contentsline {chapter}{Bibliografía}{66}{section*.104}%
+\contentsline {chapter}{Apéndices}{68}{section*.106}%
 \contentsline {chapter}{\numberline {A}Proceso de Creación Detallado (Cambiar)}{70}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}Design Thinking}{70}{section.Alph1.1}%
 \contentsline {subsection}{\numberline {A.1.1}Empatizar}{71}{subsection.Alph1.1.1}%
