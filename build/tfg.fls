@@ -952,19 +952,13 @@ INPUT .\assets\Estado del Arte\tonedear.png
 INPUT .\assets\Estado del Arte\tonedear.png
 INPUT .\assets\Estado del Arte\tonedear.png
 INPUT .\assets\Estado del Arte\tonedear.png
-INPUT .\assets\Estado del Arte\tonedearerror.png
-INPUT assets\Estado del Arte\tonedearerror.png
-INPUT .\assets\Estado del Arte\tonedearerror.png
-INPUT .\assets\Estado del Arte\tonedearerror.png
-INPUT .\assets\Estado del Arte\tonedearerror.png
-INPUT .\assets\Estado del Arte\tonedearerror.png
 INPUT .\assets\Estado del Arte\earmaster.png
 INPUT assets\Estado del Arte\earmaster.png
 INPUT .\assets\Estado del Arte\earmaster.png
 INPUT .\assets\Estado del Arte\earmaster.png
 INPUT .\assets\Estado del Arte\earmaster.png
 INPUT .\assets\Estado del Arte\earmaster.png
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcbx1200.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\assets\Estado del Arte\earmasterprices.png
 INPUT assets\Estado del Arte\earmasterprices.png
 INPUT .\assets\Estado del Arte\earmasterprices.png
@@ -1080,7 +1074,6 @@ INPUT .\assets\Nextjs\PrerenderComparation.png
 INPUT .\assets\Nextjs\PrerenderComparation.png
 INPUT .\assets\Nextjs\PrerenderComparation.png
 INPUT .\assets\Nextjs\PrerenderComparation.png
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\assets\Nextjs\SSR.png
 INPUT assets\Nextjs\SSR.png
 INPUT .\assets\Nextjs\SSR.png
@@ -1261,18 +1254,24 @@ INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Pages.png
-INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
-INPUT assets\Detalles de Implementación\Code\Pages\Intervals.png
-INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
-INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
-INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
-INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
 INPUT assets\Detalles de Implementación\Estructura de Archivos\Components.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
 INPUT .\assets\Detalles de Implementación\Estructura de Archivos\Components.png
+INPUT .\assets\Capturas Earfit\PC\Intervals.png
+INPUT assets\Capturas Earfit\PC\Intervals.png
+INPUT .\assets\Capturas Earfit\PC\Intervals.png
+INPUT .\assets\Capturas Earfit\PC\Intervals.png
+INPUT .\assets\Capturas Earfit\PC\Intervals.png
+INPUT .\assets\Capturas Earfit\PC\Intervals.png
+INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
+INPUT assets\Detalles de Implementación\Code\Pages\Intervals.png
+INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
+INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
+INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
+INPUT .\assets\Detalles de Implementación\Code\Pages\Intervals.png
 INPUT .\assets\Detalles de Implementación\Code\Components\AnswerButtons.png
 INPUT assets\Detalles de Implementación\Code\Components\AnswerButtons.png
 INPUT .\assets\Detalles de Implementación\Code\Components\AnswerButtons.png
@@ -1339,12 +1338,6 @@ INPUT .\assets\Vercel\RealExperienceScore.png
 INPUT .\assets\Vercel\RealExperienceScore.png
 INPUT .\assets\Vercel\RealExperienceScore.png
 INPUT .\assets\Vercel\RealExperienceScore.png
-INPUT .\assets\Capturas Earfit\PC\Scales.png
-INPUT assets\Capturas Earfit\PC\Scales.png
-INPUT .\assets\Capturas Earfit\PC\Scales.png
-INPUT .\assets\Capturas Earfit\PC\Scales.png
-INPUT .\assets\Capturas Earfit\PC\Scales.png
-INPUT .\assets\Capturas Earfit\PC\Scales.png
 INPUT .\assets\Conclusiones\EarfitQR.png
 INPUT assets\Conclusiones\EarfitQR.png
 INPUT .\assets\Conclusiones\EarfitQR.png
@@ -1599,11 +1592,11 @@ INPUT .\assets\Capturas Earfit\PC\Notes.png
 INPUT .\assets\Capturas Earfit\PC\Intervals.png
 INPUT assets\Capturas Earfit\PC\Intervals.png
 INPUT .\assets\Capturas Earfit\PC\Intervals.png
-INPUT .\assets\Capturas Earfit\PC\Intervals.png
-INPUT .\assets\Capturas Earfit\PC\Intervals.png
-INPUT .\assets\Capturas Earfit\PC\Intervals.png
 INPUT .\assets\Capturas Earfit\PC\Scales.png
 INPUT assets\Capturas Earfit\PC\Scales.png
+INPUT .\assets\Capturas Earfit\PC\Scales.png
+INPUT .\assets\Capturas Earfit\PC\Scales.png
+INPUT .\assets\Capturas Earfit\PC\Scales.png
 INPUT .\assets\Capturas Earfit\PC\Scales.png
 INPUT .\assets\Capturas Earfit\PC\Piano.png
 INPUT assets\Capturas Earfit\PC\Piano.png
@@ -1628,8 +1621,6 @@ INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
 INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
 INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1200.pk
-INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1200.pk
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
