@@ -84,18 +84,19 @@
 \contentsline {section}{\numberline {5.4}Opinión Personal}{65}{section.5.4}%
 \contentsline {chapter}{Bibliografía}{67}{section*.99}%
 \contentsline {chapter}{Apéndices}{69}{section*.101}%
-\contentsline {chapter}{\numberline {A}Proceso de Creación Detallado (Cambiar)}{71}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Design Thinking}{71}{section.Alph1.1}%
-\contentsline {subsection}{\numberline {A.1.1}Empatizar}{72}{subsection.Alph1.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Definir}{72}{subsection.Alph1.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Idear}{72}{subsection.Alph1.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Prototipar}{72}{subsection.Alph1.1.4}%
-\contentsline {subsection}{\numberline {A.1.5}Testear}{73}{subsection.Alph1.1.5}%
-\contentsline {section}{\numberline {A.2}Lean Startup}{73}{section.Alph1.2}%
-\contentsline {subsection}{\numberline {A.2.1}Crear}{73}{subsection.Alph1.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Medir}{73}{subsection.Alph1.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}Aprender}{74}{subsection.Alph1.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Resultados}{75}{subsection.Alph1.2.4}%
+\contentsline {chapter}{\numberline {A}Proceso de Creación Detallado}{71}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Resumen}{71}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking}{72}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Empatizar}{72}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Definir}{72}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Idear}{72}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Prototipar}{73}{subsection.Alph1.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}Testear}{73}{subsection.Alph1.2.5}%
+\contentsline {section}{\numberline {A.3}Lean Startup}{73}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Crear}{73}{subsection.Alph1.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Medir}{73}{subsection.Alph1.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}Aprender}{74}{subsection.Alph1.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}Conclusión}{75}{subsection.Alph1.3.4}%
 \contentsline {chapter}{\numberline {B}Diseños del Prototipo}{76}{appendix.Alph2}%
 \contentsline {section}{\numberline {B.1}Prototipo Pantallas Pequeñas}{77}{section.Alph2.1}%
 \contentsline {section}{\numberline {B.2}Prototipo Pantallas Medias}{78}{section.Alph2.2}%

@@ -1358,12 +1358,13 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.jpg
-INPUT assets\Design Thinking\Prototipo\AtomicDesign.jpg
-INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.jpg
-INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.jpg
-INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.jpg
-INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.jpg
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.png
+INPUT assets\Design Thinking\Prototipo\AtomicDesign.png
+INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.png
+INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.png
+INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.png
+INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.png
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT assets\Design Thinking\Prototipo\Small\Prototipo.jpg
 INPUT .\assets\Design Thinking\Prototipo\Small\Prototipo.jpg
@@ -1628,6 +1629,8 @@ INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
 INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\alber\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
