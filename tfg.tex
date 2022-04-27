@@ -1315,7 +1315,7 @@ En este caso, sucede para los componentes ``Exercise'' y ``Options''. Dando luga
     \label{fig:IntervalsPage}
 \end{figure}
 
-Este es un \textbf{ejemplo} de como funciona el flujo de datos unidireccional de la \textbf{página de intervalos} (ver figura \ref{fig:PCIntervals1}) basandonos en su código (ver figura \ref{fig:IntervalsPage}). El funcionamiento es igual para todas las demás: 
+Este es un ejemplo de como funciona el flujo de datos unidireccional de la \textbf{página de intervalos} (ver figura \ref{fig:PCIntervals1}) basandonos en su código (ver figura \ref{fig:IntervalsPage}). El funcionamiento es igual para todas las demás: 
 
 \begin{enumerate}
     \item  Se importan los Hooks y Componentes necesarios.
@@ -1332,7 +1332,7 @@ Como los componentes solo pueden actualizar su propio estado, el componente supe
     \label{fig:AnswerButtons}
 \end{figure}
 
-Este es un \textbf{ejemplo} de como funciona el flujo de datos unidireccional del \textbf{componente AnswerButtons} (ver figura \ref{fig:AnswerButtons}). El funcionamiento es igual para todos las demás: 
+Este es un ejemplo de como funciona el flujo de datos unidireccional del \textbf{componente AnswerButtons} (ver figura \ref{fig:AnswerButtons}). El funcionamiento es igual para todos las demás: 
 
 \begin{enumerate}
     \item Le llegan los datos y Callbacks a través de Props.
@@ -1345,15 +1345,15 @@ Este es un \textbf{ejemplo} de como funciona el flujo de datos unidireccional de
 
 
 \subsection{Progressive Web App}
-Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en Progressive Web App. Con la Progressive Web App, el usuario puede \textbf{instalar la app en su dispositivo} y seguir consultándola, aunque haya perdido la conexión.
+Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en Progressive Web App. Con la Progressive Web App, el usuario puede \textbf{instalar la app} en su dispositivo y seguir consultándola, aunque haya perdido la conexión.
 
 Para poder llamar PWA a una aplicación web, debe tener las siguientes características:
 
 \begin{compactitem}
 
     \item \textbf{Una conexión segura:} La aplicación web se debe servir a través de una red segura HTTPS.
-    \item \textbf{Cargue sin conexión:} Esto significa que las aplicaciones web progresivas requieren de un \textbf{Service Worker}.
-    \item \textbf{Información sobre la aplicación:} como nombre, autor, icono y descripción en un documento JSON llamado \textbf{Manifest}.
+    \item \textbf{Cargue sin conexión:} Esto significa que las aplicaciones web progresivas requieren de un service worker.
+    \item \textbf{Información sobre la aplicación:} como nombre, autor, icono y descripción en un documento JSON llamado manifest.
     \item \textbf{Un icono} de al menos 144x144 de tamaño grande en formato PNG.
 \end{compactitem}
 
@@ -1378,14 +1378,14 @@ Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está list
 \textbf{Observación:} En el entorno desarrollo, se ha deshabilitado la opción de PWA en ``next.config.js'' porque genera muchos mensajes de consola.
 
 \subsubsection{Service Worker}
-Se puede encontrar en la carpeta \textbf{``public''} con el nombre de \textbf{``sw.js''}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin \textbf{``next-pwa''}, que permite registrar y generar un service worker optimizado sin apenas configuración. El archivo \textbf{``workbox.js''} también está relacionado con este plugin.
+Se puede encontrar en la carpeta ``public'' con el nombre de \textbf{``sw.js''}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin ``next-pwa'', que permite registrar y generar un service worker optimizado sin apenas configuración. El archivo \textbf{``workbox.js''} también está relacionado con este plugin.
 
 \subsubsection{Manifest}
-Se puede encontrar en la caperta \textbf{``public''} con el nombre de \textbf{``manifest.json''}. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
+Se puede encontrar en la caperta ``public'' con el nombre de \textbf{``manifest.json''}. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
 
-\textbf{IOS Safari no implementa manifiestos}, por lo que la mayoría de los metadatos de PWA se pueden definir a través de extensiones específicas de Apple para las metaetiquetas. Estos están definidos en el archivo personalizado \textbf{``\_app.tsx''}
+\textbf{IOS Safari} no implementa manifiestos, por lo que la mayoría de los metadatos de PWA se pueden definir a través de extensiones específicas de Apple para las metaetiquetas. Estos están definidos en el archivo personalizado ``\_app.tsx''.
 
-Los iconos de la aplicación a los que se hacen referencia se pueden encontrar en la carpeta \textbf{``public/icons''}.
+Los iconos de la aplicación a los que se hacen referencia se pueden encontrar en la carpeta ``public/icons''.
 
 
 \subsection{Buenas Prácticas}
@@ -1394,12 +1394,12 @@ Al hablar de buenas prácticas en programación nos referimos a un conjunto de \
 
 \subsubsection{Guía de Estilo de Código}
 
-Se han usado las reglas recomendadas de \textbf{ESLint} y \textbf{Prettier}. Las reglas se pueden encontrar en el archivo \textbf{``.eslintrc.js''} y \textbf{``.prettierrc.js''}. Además se han añadido las siguientes \textbf{reglas personales}:
+Se han usado las reglas recomendadas de \textbf{ESLint} y \textbf{Prettier}. Las reglas se pueden encontrar en el archivo \textbf{``.eslintrc.js''} y \textbf{``.prettierrc.js''}. Además se han añadido las siguientes reglas personales:
 
 \begin{compactitem}
     \item Tipos de TypeScript para los componentes en lugar de Props.
     \item No es necesario importar React cuando se usa Next.js.
-    \item Desactivar la regla para enlaces predeterminada, no es compatible con los componentes ``<Link />'' de Next.js.
+    \item Desactivar la regla para enlaces predeterminada, no es compatible con los componentes ``\texttt{<Link />}'' de Next.js.
     \item Eliminar variables sin usar.
     \item Las funciones tienen que devolver siempre un tipo.
     \item Uso de comas finales.
@@ -1412,7 +1412,7 @@ Se han usado las reglas recomendadas de \textbf{ESLint} y \textbf{Prettier}. Las
 
 \subsubsection{Principios Clean Code}
 
-Los principios de Clean Code nos permiten obtener como resultado un \textbf{código limpio, reutilizable, escalable} y con \textbf{mayor cambiabilidad}. Algunos de los principales principios que se han intentado tener presentes a la hora de desarrollar el código son:
+Los principios de Clean Code nos permiten obtener como resultado un código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principales principios que se han intentado tener presentes a la hora de desarrollar el código son:
 
 \begin{compactitem}
     \item Follow Standard Conventions: Seguir convenciones estandarizadas.
@@ -1444,13 +1444,13 @@ Los principios de Clean Code nos permiten obtener como resultado un \textbf{cód
 
 \section{Testing}
 
-El testing de software o software QA, es un proceso para \textbf{verificar y validar} la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los \textbf{estándares} y se ofrezca al cliente un producto de \textbf{calidad}.
+El testing de software o software QA, es un proceso para \textbf{verificar y validar} la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad.
 
 \subsection{Pruebas Funcionales}
 
 El objetivo de estas pruebas es evaluar las suposiciones hechas en las especificación de historias de usuario y diseño para asegurar que el \textbf{software se comporta según lo definido}.
 
-Estas pruebas se realizaron de forma manual interactuando con el software. Dado que es una aplicación pequeña y el desarrollo de \textbf{pruebas automáticas} tiene asociado un \textbf{coste de implementación y mantenimiento}. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. 
+Estas pruebas se realizaron de forma manual interactuando con el software. Dado que es una aplicación pequeña y el desarrollo de \textbf{pruebas automáticas} tiene asociado un coste de implementación y mantenimiento. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. 
 
 En cada tipo de prueba el \textbf{SUT} (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un \textbf{objetivo} en concreto donde se han intentado probar todos los \textbf{test cases} o casos de prueba posibles.
 
