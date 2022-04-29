@@ -574,20 +574,14 @@ Después, para crear nuestro \textbf{producto mínimo viable} decidimos centrarn
 
 Por último, una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el prototipo teniendo en cuenta la filosofía de diseño \textbf{Mobile First}. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. 
 
-En la figura \ref{fig:PrototipoSmall} se puede apreciar una pequeña parte del prototipo para pantallas pequeñas. Todos los demás diseños se pueden encontrar en el apéndice \ref{sec:Prototipos}.
-    
 \begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Design Thinking/Prototipo/Small/Prototipo}
-        \caption{Prototipo para pantallas pequeñas.}
-        \label{fig:PrototipoSmall}
+    \centering
+    \includegraphics[width=\textwidth]{Design Thinking/Prototipo/Small/Prototipo}
+    \caption{Prototipo para pantallas pequeñas.}
+    \label{fig:PrototipoSmall}
 \end{figure}
 
-La ventaja principal del uso de \textbf{prototipos en UX} o Experiencia de Usuario es que, ayudan a plasmar visualmente los objetivos y como se alinean con las expectativas y necesidades de los usuarios y si son satisfechas a través del producto diseñado.
-
-Modificar un prototipo, tiene un coste menor que modificar el producto digital, por lo que supone también una ventaja en el ahorro de costes dentro del proceso de desarrollo.
-
-Ayuda a que el cliente ya tenga una visión sobre parte del proyecto y que nos pueda proporcionar su feedback desde las fases tempranas.
+En la figura \ref{fig:PrototipoSmall} se puede apreciar una pequeña parte del prototipo para pantallas pequeñas. Todos los demás diseños del prototipo incluyendo pantallas pequeñas, medias y grandes se pueden encontrar en el apéndice \ref{sec:Prototipos}.
 
 \subsection{Testear}
 
@@ -617,7 +611,7 @@ Después haber establecido nuestra hipótesis y diseñado un producto mínimo vi
 
 Para gestionar el desarrollo del software de manera exitosa necesitamos asegurar un proceso visible, controlado, repetitivo, eficiente y predecible. Necesitamos adaptar las formas de trabajo a las necesidades del proyecto, prolongando respuestas rápidas y flexibles para acomodar el desarrollo.
 
-La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste. \ref{sec:ManifiestoAgil}
+La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste. (Ver apéndice \ref{sec:ManifiestoAgil}).
 
 Para ser ágiles mientras desarrollamos podemos beneficiarnos de \textbf{DevOps} como filosofía de desarrollo y \textbf{Scrum} como modelo organizativo.
 
@@ -655,18 +649,24 @@ Es un método de mapeo de UX (experiencia de usuario) que se utiliza para deline
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{Scrum/UserStoryMap}
+    \includegraphics[width=\textwidth]{Scrum/UserStoryMap}
     \caption{User Story Map del producto.}
     \label{fig:UserStoryMap}
 \end{figure}
 
-En la figura \ref{fig:UserStoryMap} podemos observar el User Story Map del producto donde residen las historias de usuario y la planificación de las releases. Se recomienda visitar este roadmap en el siguiente enlace: 
+En la figura \ref{fig:UserStoryMap} podemos observar el User Story Map del producto. 
+Las User Activities son los objetivos del usuario en la aplicación. 
+Estas se descomponen en User Task, que son las actividades a realizar por el usuario y siguen un flujo narrativo. 
+A su vez estas se descomponen en User Stories o historias de usuario, que definen las funcionalidades del producto. 
+Estas historias de usuario están agrupadas por releases.  
+
+Se recomienda visitar este mural de Miro, donde se puede encontrar este roadmap junto con más esquemas y diseños de la aplicación, en el siguiente enlace: 
 
 \url{https://miro.com/app/board/uXjVOMmPLjM=/?share_link_id=588058562303}
 
 \subsection{Scrum Board}
 
-Para \textbf{visualizar el trabajo} utilizamos un Scrum Board. Esto nos permite separar en pequeñas tareas cada historia de usuario y minimizar los riesgos de entrega. Realizando una construcción iterativa incremental donde se integra al final de cada sprint para validar el resultado. 
+Es un método para \textbf{visualizar el trabajo} y gestionar el desarrollo. Esto nos permite separar en pequeñas tareas cada historia de usuario y minimizar los riesgos de entrega. Realizando una construcción iterativa incremental donde se integra al final de cada sprint para validar el resultado. 
 
 \begin{figure}[H]
     \centering
@@ -675,11 +675,12 @@ Para \textbf{visualizar el trabajo} utilizamos un Scrum Board. Esto nos permite 
     \label{fig:ScrumBoard}
 \end{figure}
 
-En la figura \ref{fig:ScrumBoard} podemos observar el Scrum Board donde cada Product Backlog Item es una historia de usuario. Estas historias se dividen en tareas más pequeñas en el Sprint Backlog. Se puede visitar este Scrum Board en el siguiente enlace: 
+En la figura \ref{fig:ScrumBoard} podemos observar el Scrum Board del proyecto. Este tablero está compuesto por el Product Backlog, que es una la lista de todas las tareas o historias de usuario a realizar, y el Sprint Backlog, donde cada tarea se divide en tareas más pequeñas a completar durante un sprint. 
+Estas tareas pasan por diferentes etapas hasta completarse.
+
+Este Scrum Board se puede visitar en el siguiente enlace: 
 
 \url{https://trello.com/b/ZnsnNP2h/earfit}.
-
-Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Lo que nos permite aprovechar el cambio y mejorar continuamente.
 
 \subsection{User Stories}
 
@@ -692,11 +693,14 @@ Las historias de usuarios son descripciones breves y sencillas de las \textbf{ca
     \label{fig:UserStory}
 \end{figure}
 
-En la figura \ref{fig:UserStory} podemos observar la historia de usuario ``Cambiar Instrumento''. Todas las historias de usuario se encuentran en el apéndice \ref{sec:UserStories}. También se pueden ver en el ScrumBoard en el siguiente enlace: 
+En la figura \ref{fig:UserStory} podemos observar la historia de usuario ``Cambiar Instrumento''.
+Todas las historias siguen el método \textbf{INVEST} para garantizar que ofrecen valor. Estas siglas significan que las historias deben ser: Independent, Negotiable, Valuable, Estimable, Small y Testable.
+
+Estas historias de usuario se encuentran en el apéndice \ref{sec:UserStories}. También se pueden ver en el ScrumBoard en el siguiente enlace: 
 
 \url{https://trello.com/b/ZnsnNP2h/earfit}.
 
-Todas siguen el método \textbf{INVEST} para garantizar que ofrecen valor. Estas siglas significan que las historias deben ser: Independent, Negotiable, Valuable, Estimable, Small y Testable.
+
 
 \section{DevOps}
 
@@ -892,8 +896,6 @@ React está basado en un paradigma llamado \textbf{programación orientada a com
 
 Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (\textbf{DOM virtual}) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez.
 (Ver figura \ref{fig:React_VirtualDom}).
-
-%Esta es la forma de tener HTML con toda la funcionalidad de JavaScript y CSS centralizado y listo para ser abstraído y usado en cualquier otro proyecto.
 
 \subsection{Vercel}
 
@@ -1394,7 +1396,7 @@ Al hablar de buenas prácticas en programación nos referimos a un conjunto de \
 
 \subsubsection{Guía de Estilo de Código}
 
-Se han usado las reglas recomendadas de \textbf{ESLint} y \textbf{Prettier}. Las reglas se pueden encontrar en el archivo \textbf{``.eslintrc.js''} y \textbf{``.prettierrc.js''}. Además se han añadido las siguientes reglas personales:
+Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden encontrar en el archivo \textbf{``.eslintrc.js''} y \textbf{``.prettierrc.js''}. Además se han añadido las siguientes reglas personales:
 
 \begin{compactitem}
     \item Tipos de TypeScript para los componentes en lugar de Props.
@@ -1435,7 +1437,7 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
 \begin{compactitem}
     \item Crear un archivo \textbf{``.gitignore''} para excluir archivos generados y sensibles.
     \item Visualizar el flujo de trabajo.
-    \item Limitar el trabajo en proceso (Work in Progress) mediante un sistema de arrastre (pull) sobre el flujo de trabajo. Es decir no multitasking.
+    \item Limitar el trabajo en proceso (Work in Progress). Es decir no multitasking.
     \item Circuitos de retroalimentación: reuniones periódicas con el tutor.
     \item Fomentar la visibilidad. No se puede mejorar algo que no se entiende. Esta es la razón por la cual el proceso debe estar bien definido, publicado y promovido.
     \item Mejorar colaborando, usando modelos y el método científico.
@@ -1444,43 +1446,40 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
 
 \section{Testing}
 
-El testing de software o software QA, es un proceso para \textbf{verificar y validar} la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad.
+El testing de software o \textbf{software QA}, es un proceso para verificar y validar la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad.
 
 \subsection{Pruebas Funcionales}
 
-El objetivo de estas pruebas es evaluar las suposiciones hechas en las especificación de historias de usuario y diseño para asegurar que el \textbf{software se comporta según lo definido}.
+El objetivo de estas pruebas es evaluar las suposiciones hechas en las especificación de historias de usuario y diseño para asegurar que el software se comporta según lo definido.
 
-Estas pruebas se realizaron de forma manual interactuando con el software. Dado que es una aplicación pequeña y el desarrollo de \textbf{pruebas automáticas} tiene asociado un coste de implementación y mantenimiento. Por lo que hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. 
+Dado que es una aplicación pequeña y el desarrollo de \textbf{pruebas automáticas} tiene asociado un coste de implementación y mantenimiento, hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. Debido a esto, las pruebas se realizaron de forma manual. 
 
-En cada tipo de prueba el \textbf{SUT} (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un \textbf{objetivo} en concreto donde se han intentado probar todos los \textbf{test cases} o casos de prueba posibles.
+En cada tipo de prueba el SUT (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado probar todos los test cases o casos de prueba posibles.
 
 \subsubsection{Pruebas Unitarias}
 
 Estas pruebas permiten probar que los elementos más fundamentales del software como objetos, funciones, eventos, funcionan como se espera. 
 
-En este caso según se iba desarrollando el código se comprobaba que cada \textbf{Hook, función, estado}, devolvía el resultado esperado y \textbf{funcionaba correctamente} antes de darle uso en el código. 
-
-Realizando pequeños \textbf{tests por consola} y usando las \textbf{herramientas para desarrolladores} de Google Chrome cuando era necesario.
+En este caso según se iba desarrollando el código se comprobaba que cada \textbf{Hook, función, estado}, devolvía el resultado esperado y funcionaba correctamente antes de darle uso en el código. 
+Realizando pequeños tests por consola y usando las herramientas para desarrolladores de Google Chrome cuando era necesario.
 
 \subsubsection{Pruebas de Componentes}
 
-En estas pruebas se considera el \textbf{SUT} como cada \textbf{componente de React}. Con el objetivo de probar si la funcionalidad descrita en las historias de usuario se corresponde con su comportamiento.
-
+En estas pruebas se considera el SUT como cada \textbf{componente de React}. Con el objetivo de probar si la funcionalidad descrita en las historias de usuario se corresponde con su comportamiento.
 Permiten identificar fallos en los componentes que incluyen varias funciones o elementos internos para que se puedan corregir antes de que el software llegue a producción. 
 
-En este tipo de pruebas se validaron los \textbf{criterios de aceptación} descritos en las \textbf{historias de usuario}. Probando cada componente según se desarrollaba. Cualquier problema detectado se reparó de forma inmediata antes de continuar con el desarrollo.
+En este tipo de pruebas se validaron los \textbf{criterios de aceptación} descritos en las historias de usuario. Probando cada componente según se desarrollaba. Cualquier problema detectado se reparó de forma inmediata antes de continuar con el desarrollo.
 
 \subsubsection{Pruebas de Integración}
 
 El objetivo es probar la \textbf{interacción entre componentes} al integrar uno nuevo en la aplicación. Permiten probar el comportamiento y posibles fallos en la interacción entre los componentes entre sí, y demás elementos del software.
-
-De esta manera en cada momento tenemos una \textbf{visión general} del estado del proyecto alertándonos de \textbf{regresiones en el código}.
+De esta manera en cada momento tenemos una visión general del estado del proyecto alertándonos de \textbf{regresiones en el código}.
 
 En este caso, al integrar un nuevo componente en la aplicación, se probó si su funcionamiento y el de los componentes con los que interactúa seguía siendo el adecuado.
 
 \subsubsection{Pruebas End to End (E2E)}
 
-Estas pruebas se realizaron \textbf{sobre el sistema} una vez \textbf{desplegado} desde el punto de vista de los usuarios. En estas pruebas el SUT es el sistema completo de principio a fin. Se realizan con el objetivo de \textbf{verificar si el software se comporta como se espera} según las historias de usuario.
+Estas pruebas se realizaron sobre el sistema una vez desplegado desde el punto de vista de los usuarios. En estas pruebas el SUT es el sistema completo de principio a fin. Se realizan con el objetivo de verificar si el software se comporta como se espera según las historias de usuario.
 
 Estás pruebas se han realizado con los siguientes objetivos:
 
@@ -1489,19 +1488,18 @@ Estás pruebas se han realizado con los siguientes objetivos:
     \item \textbf{Pruebas de instalación y desinstalación}: Probar las funcionalidades básicas del sistema, después de instalarse como Progressive Web App.
 \end{compactitem}
 
-En este caso cada historia de usuario se probó para asegurarse de que siguen funcionando correctamente y se obtienen los resultados esperados. Estas pruebas fueron realizadas en \textbf{Windows, MacOS, Android} y \textbf{Iphone} usando \textbf{Chrome y Safari}.
+En este caso cada historia de usuario se probó para asegurarse de que se siguen obteniendo los resultados esperados. Estas pruebas fueron realizadas en Windows, MacOS, Android y Iphone usando Chrome y Safari.
 
 \subsection{Pruebas No Funcionales}
 
-El objetivo de estas pruebas es evaluar el \textbf{rendimiento, accesibilidad, buenas prácticas, SEO y si es progresiva}, para la optimización del software y asegurar su calidad. Siendo el SUT el sistema una vez desplegado. Estas pruebas se ejecutan de manera automática mediante \textbf{Google Lighthouse} y \textbf{Vercel Analytics}.
+El objetivo de estas pruebas es evaluar el rendimiento, accesibilidad, buenas prácticas, SEO y si es progresiva, para la optimización del software y asegurar su calidad. Siendo el SUT el sistema una vez desplegado. Estas pruebas se ejecutan de manera automática mediante \textbf{Google Lighthouse} y \textbf{Vercel Analytics}.
 
 \subsubsection{Google Lighthouse}
 
-Google Lighthouse es una \textbf{herramienta automatizada} de código abierto para medir la calidad de las páginas web. Audita el rendimiento, la accesibilidad, y la optimización de páginas web.
+Google Lighthouse es una herramienta automatizada de código abierto para medir la calidad de las páginas web. Audita el rendimiento, la accesibilidad, y la optimización de páginas web.
+También incluye la capacidad de probar \textbf{aplicaciones web progresivas} para el cumplimiento de estándares y mejores prácticas.
 
-También incluye la capacidad de probar \textbf{aplicaciones web progresivas} (PWA) para el cumplimiento de estándares y mejores prácticas.
-
-Para que estas aplicaciones web progresivas (PWA) causen la sensación a los usuarios de estar manejando una aplicación nativa, deben cumplir con determinadas características y parámetros de rendimiento. El test de Lighthouse permite \textbf{medir y optimizar estos indicadores.}
+%Para que estas aplicaciones web progresivas (PWA) causen la sensación a los usuarios de estar manejando una aplicación nativa, deben cumplir con determinadas características y parámetros de rendimiento. El test de Lighthouse permite medir y optimizar estos indicadores.
 
 Una vez hecho el análisis, Lighthouse emite \textbf{puntuaciones del 0 al 100} que pueden tomarse como guía para detectar errores potenciales u oportunidades de optimización. En nuestra aplicación las puntuaciones fueron las siguientes, sin variaciones entre unas páginas y otras: ver figura \ref{fig:Lighthouse_resumen}.
 
@@ -1514,11 +1512,13 @@ Una vez hecho el análisis, Lighthouse emite \textbf{puntuaciones del 0 al 100} 
 
 \subsubsection{Performance}
 
-En el ámbito del rendimiento, Lighthouse analiza la velocidad de la aplicación web y comprueba que los elementos que se han cargado se visualizan correctamente. En este apartado, \textbf{Lighthouse no está optimizado} y da algunas falsas mediciones \textbf{para aplicaciones Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación usando Vercel, \textbf{podemos hacer uso de Vercel Analytics}, que además nos \textbf{aporta algunas ventajas}. En lugar de medir en nuestro PC, Vercel Analytics recopila datos de los dispositivos reales que utilizan los usuarios. 
+%En el ámbito del rendimiento, Lighthouse analiza la velocidad de la aplicación web y comprueba que los elementos que se han cargado se visualizan correctamente. 
+En este apartado, Lighthouse no está optimizado y da algunas falsas mediciones para aplicaciones \textbf{Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación usando Vercel, podemos hacer uso de \textbf{Vercel Analytics}, que además nos aporta algunas ventajas como veremos más adelante.
+% En lugar de medir en nuestro PC, Vercel Analytics recopila datos de los dispositivos reales que utilizan los usuarios. 
 
 \subsubsection{Accessibility}
 
-En el ámbito de la accesibilidad, Lighthouse comprueba si la página o la aplicación es \textbf{fácil de usar para personas con limitaciones físicas}. Se comprueba si los elementos importantes, como los botones y los enlaces, se describen de forma clara. Estos son los resultados de la aplicación final: ver figura \ref{fig:Lighthouse_accesibility}.
+En el ámbito de la accesibilidad, Lighthouse comprueba si la página o la aplicación es fácil de usar para personas con limitaciones físicas. Se comprueba si los elementos importantes, como los botones y los enlaces, se describen de forma clara. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_accesibility}).
 
 \begin{figure}[H]
     \centering
@@ -1538,7 +1538,7 @@ En este apartado nos resta tres puntos y nos dice que el texto del Footer tiene 
 
 \subsubsection{Best Practices}
 
-En el área {de mejores prácticas, Lighthouse analiza, sobre todo, los \textbf{aspectos de seguridad} de la web. Aquí, la herramienta comprueba si se han usado tecnologías de codificación como \textbf{TLS}, si los recursos integrados de la página web provienen de \textbf{fuentes seguras} o si las \textbf{bibliotecas JavaScript} se pueden catalogar como seguras. También analiza si las bases de datos son seguras (si las hay) y destaca el uso de \textbf{API anticuadas}. Estos son los resultados de la aplicación final: ver figura \ref{fig:Lighthouse_bestpractices}.
+En el área {de mejores prácticas, Lighthouse analiza, sobre todo, los aspectos de seguridad de la web. Aquí, la herramienta comprueba si se han usado tecnologías de codificación como TLS, si los recursos integrados de la página web provienen de fuentes seguras o si las bibliotecas JavaScript se pueden catalogar como seguras. También analiza si las bases de datos son seguras (si las hay) y destaca el uso de API anticuadas. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_bestpractices}).
 
 \begin{figure}[H]
     \centering
@@ -1549,7 +1549,7 @@ En el área {de mejores prácticas, Lighthouse analiza, sobre todo, los \textbf{
 
 \subsubsection{SEO}
 
-En este ámbito Lighthouse analiza el \textbf{nivel de visibilidad} de la web en diferentes \textbf{buscadores}. Se comprueba especialmente la \textbf{idoneidad} de la web para terminales \textbf{móviles}, es decir, si las etiquetas y los metadatos se han optimizado. Estos son los resultados de la aplicación final: ver figura \ref{fig:Lighthouse_seo}.
+En este ámbito Lighthouse analiza el nivel de visibilidad de la web en diferentes buscadores. Se comprueba especialmente la idoneidad de la web para terminales móviles, es decir, si las etiquetas y los metadatos se han optimizado. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_seo}).
 
 \begin{figure}[H]
     \centering
@@ -1560,7 +1560,7 @@ En este ámbito Lighthouse analiza el \textbf{nivel de visibilidad} de la web en
 
 \subsubsection{Progressive Web Apps}
 
-El análisis de aplicaciones web progresivas es la \textbf{función principal} de Google Lighthouse. El software analiza si la página web funciona según lo previsto. Comprueba \textbf{si todos los elementos y contenidos dinámicos se representan correctamente}, si la página registra un \textbf{Service Worker} y si está disponible la \textbf{función offline}. Un Service Worker es un script que se ejecuta para que determinada información de la página web también esté disponible offline. Estos son los resultados de la aplicación final:  ver figura \ref{fig:Lighthouse_PWA}.
+El análisis de aplicaciones web progresivas es la función principal de Google Lighthouse. El software analiza si la página web funciona según lo previsto. Comprueba si todos los elementos y contenidos dinámicos se representan correctamente, si la página registra un Service Worker y si está disponible la función offline. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_PWA}).
 
 \begin{figure}[H]
     \centering
@@ -1571,8 +1571,8 @@ El análisis de aplicaciones web progresivas es la \textbf{función principal} d
 
 \subsubsection{Vercel Analytics}
 
-Mientras que otras herramientas como Lighthouse estiman la experiencia de usuario ejecutando una simulación en el ordenador del desarrollador, el \textbf{Real Experience Score} de Vercel se calcula utilizando \textbf{datos reales} recopilados de los \textbf{dispositivos de los usuarios reales}. Por eso, proporciona una calificación real de cómo los usuarios realmente experimentan la aplicación.
-(Ver figura \ref{fig:Vercel_metrics_resume}.
+Mientras que otras herramientas como Lighthouse estiman la experiencia de usuario ejecutando una simulación en el ordenador del desarrollador, el \textbf{Real Experience Score} de Vercel se calcula utilizando datos reales recopilados de los dispositivos de los usuarios reales. Por eso, proporciona una calificación real de cómo los usuarios realmente experimentan la aplicación.
+(Ver figura \ref{fig:Vercel_metrics_resume}).
 
 \begin{figure}[H]
     \centering
@@ -1581,12 +1581,12 @@ Mientras que otras herramientas como Lighthouse estiman la experiencia de usuari
     \label{fig:Vercel_metrics_resume}
 \end{figure}
 
-Esto permite un \textbf{flujo continuo de mediciones} de rendimiento, a lo largo del tiempo, \textbf{integrado en el flujo de trabajo de desarrollo}. Con lo que se puede correlacionar fácilmente los cambios en el rendimiento con las nuevas implementaciones.
+Esto permite un flujo continuo de mediciones de rendimiento, a lo largo del tiempo, integrado en el flujo de trabajo de desarrollo. Con lo que se puede correlacionar fácilmente los cambios en el rendimiento con las nuevas implementaciones.
 
 \subsubsection{Real Experience Score}
 
-En función de \textbf{todas las métricas} que se mencionan a continuación, Vercel calcula la Real Experience Score. Y nos muestra esta \textbf{vista de análisis}, que nos aporta información útil que permitirá \textbf{mejorar la experiencia de usuario.}
-(Ver figura \ref{fig:Vercel_metrics}.
+En función de todas las métricas que se mencionan a continuación, Vercel calcula la Real Experience Score. Y nos muestra esta \textbf{vista de análisis}, que nos aporta información útil que permitirá mejorar la experiencia de usuario.
+(Ver figura \ref{fig:Vercel_metrics}).
 
 \begin{figure}[H]
     \centering
@@ -1597,7 +1597,7 @@ En función de \textbf{todas las métricas} que se mencionan a continuación, Ve
 
 \subsubsection{Web Vitals}
 
-Son una colección de métrica establecidas por Google \cite{webdev} junto con el \textbf{Web Performance Working Group} \cite{w3} que rastrean la velocidad de carga , capacidad de respuesta y estabilidad visual de una aplicación web. El análisis consta de las siguientes cuatro categorías:
+Son una colección de métrica establecidas por Google \cite{webdev} junto con el Web Performance Working Group \cite{w3} que rastrean la velocidad de carga , capacidad de respuesta y estabilidad visual de una aplicación web. El análisis consta de las siguientes cuatro categorías:
 
 \begin{itemize}
     \item\textbf{First Contentful Paint (FCP):} Mide la velocidad de carga, o cuando se muestra el primer contenido de la página.
@@ -1611,45 +1611,31 @@ Son una colección de métrica establecidas por Google \cite{webdev} junto con e
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 4 Conclusiones %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusiones}
 
-En este capítulo se detallan las conclusiones derivadas del trabajo, los \textbf{objetivos alcanzados}, las \textbf{limitaciones} que afectaron al desarrollo y la propuesta para posibles \textbf{trabajos futuros}. Por último, habrá una pequeña \textbf{opinión personal} que dará cierre a esta memoria.
+En este capítulo se detallan las conclusiones derivadas del trabajo, los \textbf{objetivos alcanzados} y la propuesta para posibles \textbf{trabajos futuros}. Por último, habrá una pequeña \textbf{opinión personal} que dará cierre a esta memoria.
 \section{Objetivos Alcanzados}
 
-El presente trabajo se proponía el desarrollo de una \textbf{herramienta} que permitiera a los músicos desarrollar su oído musical mediante ejercicios de \textbf{entrenamiento auditivo}.
+El presente trabajo se proponía el desarrollo de una herramienta que permitiera a los músicos desarrollar su oído musical mediante ejercicios de \textbf{entrenamiento auditivo}.
 
 Para lograr una solución que aportase valor, se definieron las necesidades del usuario, se establecieron una serie de hipótesis que solucionasen sus problemas y se priorizaron las funcionalidades más relevantes para diseñar un prototipo de un producto mínimo viable aplicando \textbf{Design Thinking}.
 
 Este producto mínimo viable se desarrolló aplicando \textbf{Lean Startup}, en un proceso de aprendizaje validado siguiendo un circuito iterativo de crear, medir, aprender. Los requisitos podían cambiar al aprender del impacto en los usuarios de una versión del software y tener que pivotar.
 
-Por eso se aplicó \textbf{Scrum} para planificar y gestionar el proyecto. Un \textbf{User Story Map} definía el viaje o casos de uso del usuario en el producto y las releases de cada versión. Las \textbf{historias de usuario} definían los requisitos del sistema y se encontraban en el \textbf{Scrum Board} que servía para visualizar el flujo de trabajo de cada sprint. Al final de cada sprint se producía un incremento en el software generando una nueva versión que era directamente entregada al usuario para obtener su feedback.
+Por eso se aplicó \textbf{Scrum} para planificar y gestionar el proyecto. Un User Story Map definía el viaje o casos de uso del usuario en el producto y las releases de cada versión. Las historias de usuario definían los requisitos del sistema y se encontraban en el Scrum Board que servía para visualizar el flujo de trabajo de cada sprint. Al final de cada sprint se producía un incremento en el software generando una nueva versión que era directamente entregada al usuario para obtener su feedback.
 
-Usar prácticas DevOps agilizó este proceso. Aplicando Integración Continua (CI) en Github siguiendo el modelo Gitflow. Y Despliegue Continuo (CD), utilizando Github Actions para tener un despliegue por cada rama en Vercel siguiendo el flujo de trabajo Develop, Preview and Ship.
+Usar prácticas \textbf{DevOps} agilizó este proceso. Aplicando integración continua en Github siguiendo el modelo Gitflow. Y despliegue continuo, utilizando Github Actions para tener un despliegue por cada rama de desarrollo en Vercel siguiendo el flujo de trabajo Develop, Preview and Ship.
 
-Para su implementación se usaron diferentes tecnologías cómo \textbf{Nextjs (un framework de React), TypeScript, Nodejs y VSCode}. Convirtiendo la solución en una \textbf{aplicación web progresiva} (PWA), confiable e instalable como una app nativa en ordenador, móvil y tablet. Se aplicaron \textbf{buenas prácticas} cómo guías de estilo de código y principios de Clean Code. Mientras, se testeaba su rendimiento usando \textbf{Google Lighthouse} y \textbf{Vercel Analytics} asegurando una buena experiencia de usuario.
+Para su implementación se usaron diferentes tecnologías cómo \textbf{Nextjs}, \textbf{React}, \textbf{TypeScript}, \textbf{Nodejs} y \textbf{VSCode}. Convirtiendo la solución en una aplicación web progresiva, confiable e instalable como una app nativa en ordenador, móvil y tablet. Se aplicaron \textbf{buenas prácticas} cómo guías de estilo de código y principios de Clean Code. Mientras, se testeaba su rendimiento usando \textbf{Google Lighthouse} y \textbf{Vercel Analytics} asegurando una buena experiencia de usuario.
 
-Al final, se logró desarrollar el MVP propuesto y cumplir con los objetivos que se habían establecido en este trabajo. Aportando una \textbf{solución única} para el entrenamiento auditivo, con diferentes tipos de \textbf{ejercicios personalizables y varios instrumentos}. 
+Al final, se logró desarrollar el MVP propuesto y cumplir con los objetivos que se habían establecido en este trabajo. Aportando una solución única para el entrenamiento auditivo, con diferentes tipos de ejercicios personalizables y varios instrumentos. 
 
-El resultado final de esta aplicación \textbf{se puede encontrar en el apéndice, escaneando el código QR y en el siguiente enlace}: \url{https://earfit.vercel.app/}
+El resultado final de esta aplicación se puede encontrar en el apéndice \ref{sec:Capturas}, escaneando el código QR (ver figura \ref{fig:EarfitQR}) y en el siguiente enlace: \url{https://earfit.vercel.app/}
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.25]{Conclusiones/EarfitQR}
-    \label{fig:EarfitQR}
     \caption{Código QR de Earfit.}
+    \label{fig:EarfitQR}
 \end{figure}
-
-\section{Limitaciones}
-
-Hay que tener en cuenta algunas de las \textbf{limitaciones que obstaculizaron} y aumentaron el tiempo de desarrollo del proyecto. Este proyecto se realizó en el tiempo libre que me quedaba entre mi trabajo de ocho horas y el master que estaba cursando a la vez. Lo que se traduce en \textbf{poco tiempo} para desarrollar, aprender teoría musical, nuevas tecnologías, metodologías y realizar la memoria. 
-
-Mis conocimientos sobre \textbf{teoría musical} al inicio del proyecto eran muy básicos. Prácticamente todo lo aplicado sobre música lo he tenido que aprender de cero para el desarrollo de los ejercicios. Algo que no es fácil si nunca has estudiado sobre notación musical, semitonos, modos griegos, etc. Lo que produjo algún que otro error sobre todo en el ejercicio de intervalos.
-
-Sobre las \textbf{metodologías} empleadas, ya había utilizado Design Thinking en la carrera. Pero nunca había implementado metodologías ágiles cómo Scrum, por lo que he tenido que aprender sobre cómo realizar historias de usuario, el Scrum Board, el User Story Map y cómo gestionarlas. Tampoco había tratado de implementar Lean Startup aunque tenía una ligera idea. Por último, si que había llevado control de versiones anteriormente pero nunca usando el flujo Gitflow.
-
-Sobre las \textbf{tecnologías} empleadas, nunca había utilizado ninguna aparte de Nodejs y VSCode. Por lo que hay una gran cantidad de tiempo invertido en aprender Nextjs, React y TypeScript. Tampoco había utilizado nunca Github Actions y Vercel para realizar un despliegue continuo de la aplicación. 
-
-Cómo consecuencias el desarrollo se vio entorpecido por algunos errores que tenía al actualizar el estado cuando era un array o tener que hacer una migración de Bootstrap a react-bootstrap a mitad del proyecto, cuando me di cuenta que algunos componentes no funcionaban bien. 
-
-Por último, tampoco había usado nunca la Web Audio API algo que fue un quebradero de cabeza para hacer funcionar la aplicación en IOS, ya que su documentación es complicada.
 
 \section{Trabajos futuros}
 
@@ -1666,9 +1652,9 @@ Algunas de las \textbf{posibles extensiones} de la aplicación, que no se llevar
 \section{Opinión Personal}
 En general este trabajo ha sido \textbf{demasiado ambicioso} por mi parte. El tener que aprender prácticamente todo desde cero me ha servido mucho para crecer pero también me ha limitado a la hora de desarrollar la aplicación.
 
-En cuanto al \textbf{tiempo de desarrollo} de la aplicación no fue muy elevado si no se cuenta con la fase de aprender todas estas tecnologías. Lo que más tiempo ha llevado ha sido realizar \textbf{esta memoria} explicando todos estos conceptos que no se dan en la carrera y me siento en la obligación de explicar por si no se entiende la manera ágil en la que se han hecho las cosas.
+En cuanto al \textbf{tiempo de desarrollo} de la aplicación no fue muy elevado si no se cuenta con la fase de aprender todas estas tecnologías. Lo que más tiempo ha llevado ha sido realizar esta memoria explicando todos estos conceptos que no se dan en la carrera y me siento en la obligación de explicar por si no se entiende la manera ágil en la que se han hecho las cosas.
 
-En general, \textbf{estoy contento} con el resultado de la aplicación y la forma moderna en que la he hecho. Y espero que la memoria sea lo suficente completa y se pueda entender todo sin haberlo visto antes.
+En conclusión, estoy contento con el resultado de la aplicación y la forma moderna en que se ha hecho. Y espero que la memoria sea lo suficente completa y se pueda entender todo sin haberlo visto antes.
 
 \blankpage
 
@@ -1829,6 +1815,7 @@ Los Early Adopters, los primeros en utilizar el producto no son muy exigentes co
 Por lo que habría que seguir un proceso de innovación sostenida, que se basaría en ir incrementando mejoras al producto ya existente.
 
 \chapter{Diseños del Prototipo}
+
 \label{sec:Prototipos}
 \begin{figure}[H]
     \centering
@@ -2029,7 +2016,7 @@ Por lo que habría que seguir un proceso de innovación sostenida, que se basar�
 \end{figure}
 
 \chapter{Capturas de la Aplicación}
-
+\label{sec:Capturas}
 \section{Pantalla Pequeña}
 
 \begin{figure}[H]
@@ -2161,6 +2148,22 @@ Por lo que habría que seguir un proceso de innovación sostenida, que se basar�
     \caption{Captura de la Página de About 2 (Pantallas Grandes).}
     \label{fig:PCAbout2}
 \end{figure}
+
+
+\chapter{Limitaciones Personales}
+
+Hay que tener en cuenta algunas de las limitaciones que obstaculizaron y aumentaron el tiempo de desarrollo del proyecto. Este proyecto se realizó en el tiempo libre que me quedaba entre mi trabajo de ocho horas y el master que estaba cursando a la vez. Lo que se traduce en \textbf{poco tiempo} para desarrollar, aprender teoría musical, nuevas tecnologías, metodologías y realizar la memoria. 
+
+Mis conocimientos sobre \textbf{teoría musical} al inicio del proyecto eran muy básicos. Prácticamente todo lo aplicado sobre música lo he tenido que aprender de cero para el desarrollo de los ejercicios. Algo que no es fácil si nunca has estudiado sobre notación musical, semitonos, modos griegos, etc. Lo que produjo algún que otro error sobre todo en el ejercicio de intervalos.
+
+Sobre las \textbf{metodologías} empleadas, ya había utilizado Design Thinking en la carrera. Pero nunca había implementado metodologías ágiles cómo Scrum, por lo que he tenido que aprender sobre cómo realizar historias de usuario, el Scrum Board, el User Story Map y cómo gestionarlas. Tampoco había tratado de implementar Lean Startup aunque tenía una ligera idea. Por último, si que había llevado control de versiones anteriormente pero nunca usando el flujo Gitflow.
+
+Sobre las \textbf{tecnologías} empleadas, nunca había utilizado ninguna aparte de Nodejs y VSCode. Por lo que hay una gran cantidad de tiempo invertido en aprender Nextjs, React y TypeScript. Tampoco había utilizado nunca Github Actions y Vercel para realizar un despliegue continuo de la aplicación. 
+
+Cómo consecuencias el desarrollo se vio entorpecido por algunos errores que tenía al actualizar el estado cuando era un array o tener que hacer una migración de Bootstrap a react-bootstrap a mitad del proyecto, cuando me di cuenta que algunos componentes no funcionaban bien. 
+
+Por último, tampoco había usado nunca la WebAudio API algo que fue un quebradero de cabeza para hacer funcionar la aplicación en IOS, ya que su documentación es complicada.
+
 
 \chapter{Manifiesto Ágil}
 \label{sec:ManifiestoAgil}
