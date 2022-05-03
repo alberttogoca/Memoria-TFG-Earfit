@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 MAY 2022 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.7)  3 MAY 2022 20:06
 entering extended mode
 **"c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex"
 (c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex
@@ -765,13 +765,13 @@ Cap\'{\i }tulo 2.
 [8
 
 ]
-<assets/Design Thinking/Etapas.png, id=771, 848.16875pt x 295.1025pt>
+<assets/Design Thinking/Etapas.png, id=775, 848.16875pt x 295.1025pt>
 File: assets/Design Thinking/Etapas.png Graphic file (type png)
 <use assets/Design Thinking/Etapas.png>
-Package pdftex.def Info: assets/Design Thinking/Etapas.png  used on input line 546.
+Package pdftex.def Info: assets/Design Thinking/Etapas.png  used on input line 548.
 (pdftex.def)             Requested size: 373.1954pt x 129.84549pt.
-LaTeX Info: Redefining \. on input line 564.
-LaTeX Info: Redefining \% on input line 564.
+LaTeX Info: Redefining \. on input line 566.
+LaTeX Info: Redefining \% on input line 566.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -781,16 +781,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./assets/Design Thinking/Etapas.png>]
-<assets/Design Thinking/MindMap.jpg, id=784, 864.22874pt x 1165.35374pt>
+<assets/Design Thinking/MindMap.jpg, id=788, 864.22874pt x 1165.35374pt>
 File: assets/Design Thinking/MindMap.jpg Graphic file (type jpg)
 <use assets/Design Thinking/MindMap.jpg>
-Package pdftex.def Info: assets/Design Thinking/MindMap.jpg  used on input line 567.
+Package pdftex.def Info: assets/Design Thinking/MindMap.jpg  used on input line 569.
 (pdftex.def)             Requested size: 406.18756pt x 547.71634pt.
 
 Underfull \vbox (badness 6204) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 576.
-LaTeX Info: Redefining \% on input line 576.
+LaTeX Info: Redefining \. on input line 578.
+LaTeX Info: Redefining \% on input line 578.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -800,21 +800,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./assets/Design Thinking/MindMap.jpg>]
-<assets/Design Thinking/MosCow.jpg, id=790, 1045.9075pt x 962.59625pt>
+<assets/Design Thinking/MosCow.jpg, id=794, 1045.9075pt x 962.59625pt>
 File: assets/Design Thinking/MosCow.jpg Graphic file (type jpg)
 <use assets/Design Thinking/MosCow.jpg>
-Package pdftex.def Info: assets/Design Thinking/MosCow.jpg  used on input line 579.
+Package pdftex.def Info: assets/Design Thinking/MosCow.jpg  used on input line 581.
 (pdftex.def)             Requested size: 366.0731pt x 336.91373pt.
-<assets/Design Thinking/Prototipo/Small/Prototipo.jpg, id=791, 1709.38625pt x 1324.95pt>
+<assets/Design Thinking/Prototipo/Small/Prototipo.jpg, id=795, 1709.38625pt x 1324.95pt>
 File: assets/Design Thinking/Prototipo/Small/Prototipo.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Small/Prototipo.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Small/Prototipo.jpg  used on input line 590.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Small/Prototipo.jpg  used on input line 592.
 (pdftex.def)             Requested size: 412.27864pt x 319.55121pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 594.
-LaTeX Info: Redefining \% on input line 594.
+LaTeX Info: Redefining \. on input line 596.
+LaTeX Info: Redefining \% on input line 596.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -824,8 +824,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <./assets/Design Thinking/MosCow.jpg>]
-LaTeX Info: Redefining \. on input line 606.
-LaTeX Info: Redefining \% on input line 606.
+LaTeX Info: Redefining \. on input line 608.
+LaTeX Info: Redefining \% on input line 608.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -835,13 +835,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./assets/Design Thinking/Prototipo/Small/Prototipo.jpg>]
-<assets/Lean Startup/CircuitoFeedback.png, id=804, 878.28125pt x 702.625pt>
+<assets/Lean Startup/CircuitoFeedback.png, id=808, 878.28125pt x 702.625pt>
 File: assets/Lean Startup/CircuitoFeedback.png Graphic file (type png)
 <use assets/Lean Startup/CircuitoFeedback.png>
-Package pdftex.def Info: assets/Lean Startup/CircuitoFeedback.png  used on input line 609.
+Package pdftex.def Info: assets/Lean Startup/CircuitoFeedback.png  used on input line 611.
 (pdftex.def)             Requested size: 263.4864pt x 210.78912pt.
-LaTeX Info: Redefining \. on input line 621.
-LaTeX Info: Redefining \% on input line 621.
+LaTeX Info: Redefining \. on input line 623.
+LaTeX Info: Redefining \% on input line 623.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -858,13 +858,13 @@ Underfull \vbox (badness 6110) has occurred while \output is active []
  [14
 
 ]
-<assets/Scrum/Scrum.png, id=816, 1044.90375pt x 570.63188pt>
+<assets/Scrum/Scrum.png, id=820, 1044.90375pt x 570.63188pt>
 File: assets/Scrum/Scrum.png Graphic file (type png)
 <use assets/Scrum/Scrum.png>
-Package pdftex.def Info: assets/Scrum/Scrum.png  used on input line 648.
+Package pdftex.def Info: assets/Scrum/Scrum.png  used on input line 650.
 (pdftex.def)             Requested size: 407.51082pt x 222.54553pt.
-LaTeX Info: Redefining \. on input line 660.
-LaTeX Info: Redefining \% on input line 660.
+LaTeX Info: Redefining \. on input line 662.
+LaTeX Info: Redefining \% on input line 662.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -874,26 +874,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [15 <./assets/Scrum/Scrum.png>]
-<assets/Scrum/UserStoryMap.jpg, id=827, 2452.16125pt x 923.45pt>
+<assets/Scrum/UserStoryMap.jpg, id=831, 2452.16125pt x 923.45pt>
 File: assets/Scrum/UserStoryMap.jpg Graphic file (type jpg)
 <use assets/Scrum/UserStoryMap.jpg>
-Package pdftex.def Info: assets/Scrum/UserStoryMap.jpg  used on input line 663.
+Package pdftex.def Info: assets/Scrum/UserStoryMap.jpg  used on input line 665.
 (pdftex.def)             Requested size: 412.27864pt x 155.25127pt.
 
-Overfull \hbox (19.07138pt too wide) in paragraph at lines 676--677
+Overfull \hbox (19.07138pt too wide) in paragraph at lines 678--679
 [][][]$\OT1/cmtt/m/n/12 https : / / miro . com / app / board / uXjVOMmPLjM = / ? share _ link _ id = 588058562303$[][] 
  []
 
-<assets/Scrum/ScrumBoard.png, id=830, 834.86906pt x 556.32843pt>
+<assets/Scrum/ScrumBoard.png, id=834, 834.86906pt x 556.32843pt>
 File: assets/Scrum/ScrumBoard.png Graphic file (type png)
 <use assets/Scrum/ScrumBoard.png>
-Package pdftex.def Info: assets/Scrum/ScrumBoard.png  used on input line 684.
+Package pdftex.def Info: assets/Scrum/ScrumBoard.png  used on input line 686.
 (pdftex.def)             Requested size: 392.38852pt x 261.4744pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 688.
-LaTeX Info: Redefining \% on input line 688.
+LaTeX Info: Redefining \. on input line 690.
+LaTeX Info: Redefining \% on input line 690.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -903,16 +903,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./assets/Scrum/UserStoryMap.jpg>]
-<assets/Scrum/UserStory.png, id=837, 429.10312pt x 660.96938pt>
+<assets/Scrum/UserStory.png, id=841, 429.10312pt x 660.96938pt>
 File: assets/Scrum/UserStory.png Graphic file (type png)
 <use assets/Scrum/UserStory.png>
-Package pdftex.def Info: assets/Scrum/UserStory.png  used on input line 702.
+Package pdftex.def Info: assets/Scrum/UserStory.png  used on input line 704.
 (pdftex.def)             Requested size: 300.37013pt x 462.6754pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 706.
-LaTeX Info: Redefining \% on input line 706.
+LaTeX Info: Redefining \. on input line 708.
+LaTeX Info: Redefining \% on input line 708.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -922,8 +922,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [17 <./assets/Scrum/ScrumBoard.png>]
-LaTeX Info: Redefining \. on input line 719.
-LaTeX Info: Redefining \% on input line 719.
+LaTeX Info: Redefining \. on input line 721.
+LaTeX Info: Redefining \% on input line 721.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -933,13 +933,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18 <./assets/Scrum/UserStory.png>]
-<assets/DevOps/DevOps.png, id=853, 1204.5pt x 559.08875pt>
+<assets/DevOps/DevOps.png, id=857, 1204.5pt x 559.08875pt>
 File: assets/DevOps/DevOps.png Graphic file (type png)
 <use assets/DevOps/DevOps.png>
-Package pdftex.def Info: assets/DevOps/DevOps.png  used on input line 729.
+Package pdftex.def Info: assets/DevOps/DevOps.png  used on input line 731.
 (pdftex.def)             Requested size: 240.89574pt x 111.81577pt.
-LaTeX Info: Redefining \. on input line 741.
-LaTeX Info: Redefining \% on input line 741.
+LaTeX Info: Redefining \. on input line 743.
+LaTeX Info: Redefining \% on input line 743.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -949,18 +949,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [19 <./assets/DevOps/DevOps.png>]
-<assets/DevOps/Gitflow.png, id=861, 702.625pt x 387.4475pt>
+<assets/DevOps/Gitflow.png, id=865, 702.625pt x 387.4475pt>
 File: assets/DevOps/Gitflow.png Graphic file (type png)
 <use assets/DevOps/Gitflow.png>
-Package pdftex.def Info: assets/DevOps/Gitflow.png  used on input line 746.
+Package pdftex.def Info: assets/DevOps/Gitflow.png  used on input line 748.
 (pdftex.def)             Requested size: 407.52278pt x 224.7197pt.
-<assets/DevOps/DPS.png, id=862, 1138.2525pt x 925.4575pt>
+<assets/DevOps/DPS.png, id=866, 1138.2525pt x 925.4575pt>
 File: assets/DevOps/DPS.png Graphic file (type png)
 <use assets/DevOps/DPS.png>
-Package pdftex.def Info: assets/DevOps/DPS.png  used on input line 766.
+Package pdftex.def Info: assets/DevOps/DPS.png  used on input line 768.
 (pdftex.def)             Requested size: 341.4784pt x 277.63939pt.
-LaTeX Info: Redefining \. on input line 770.
-LaTeX Info: Redefining \% on input line 770.
+LaTeX Info: Redefining \. on input line 772.
+LaTeX Info: Redefining \% on input line 772.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -970,8 +970,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20 <./assets/DevOps/Gitflow.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 780.
-LaTeX Info: Redefining \% on input line 780.
+LaTeX Info: Redefining \. on input line 782.
+LaTeX Info: Redefining \% on input line 782.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -982,10 +982,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21 <./assets/DevOps/DPS.png>]
 Cap\'{\i }tulo 4.
-<assets/Nextjs/Nextjs.png, id=874, 803.0pt x 480.79625pt>
+<assets/Nextjs/Nextjs.png, id=878, 803.0pt x 480.79625pt>
 File: assets/Nextjs/Nextjs.png Graphic file (type png)
 <use assets/Nextjs/Nextjs.png>
-Package pdftex.def Info: assets/Nextjs/Nextjs.png  used on input line 796.
+Package pdftex.def Info: assets/Nextjs/Nextjs.png  used on input line 798.
 (pdftex.def)             Requested size: 112.41924pt x 67.311pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -993,26 +993,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [22
 
 ]
-<assets/Nextjs/Routing.png, id=880, 883.3pt x 559.08875pt>
+<assets/Nextjs/Routing.png, id=884, 883.3pt x 559.08875pt>
 File: assets/Nextjs/Routing.png Graphic file (type png)
 <use assets/Nextjs/Routing.png>
-Package pdftex.def Info: assets/Nextjs/Routing.png  used on input line 807.
+Package pdftex.def Info: assets/Nextjs/Routing.png  used on input line 809.
 (pdftex.def)             Requested size: 264.99205pt x 167.7279pt.
-<assets/Nextjs/NoPrerender.png, id=882, 1391.1975pt x 690.58pt>
+<assets/Nextjs/NoPrerender.png, id=886, 1391.1975pt x 690.58pt>
 File: assets/Nextjs/NoPrerender.png Graphic file (type png)
 <use assets/Nextjs/NoPrerender.png>
-Package pdftex.def Info: assets/Nextjs/NoPrerender.png  used on input line 817.
+Package pdftex.def Info: assets/Nextjs/NoPrerender.png  used on input line 819.
 (pdftex.def)             Requested size: 185.52412pt x 92.08623pt.
-<assets/Nextjs/Prerender.png, id=883, 1391.1975pt x 827.09pt>
+<assets/Nextjs/Prerender.png, id=887, 1391.1975pt x 827.09pt>
 File: assets/Nextjs/Prerender.png Graphic file (type png)
 <use assets/Nextjs/Prerender.png>
-Package pdftex.def Info: assets/Nextjs/Prerender.png  used on input line 820.
+Package pdftex.def Info: assets/Nextjs/Prerender.png  used on input line 822.
 (pdftex.def)             Requested size: 185.52412pt x 110.28932pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 824.
-LaTeX Info: Redefining \% on input line 824.
+LaTeX Info: Redefining \. on input line 826.
+LaTeX Info: Redefining \% on input line 826.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1022,26 +1022,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23 <./assets/Nextjs/Nextjs.png> <./assets/Nextjs/Routing.png>]
-<assets/Nextjs/PrerenderComparation.png, id=892, 1393.205pt x 861.2175pt>
+<assets/Nextjs/PrerenderComparation.png, id=896, 1393.205pt x 861.2175pt>
 File: assets/Nextjs/PrerenderComparation.png Graphic file (type png)
 <use assets/Nextjs/PrerenderComparation.png>
-Package pdftex.def Info: assets/Nextjs/PrerenderComparation.png  used on input line 829.
+Package pdftex.def Info: assets/Nextjs/PrerenderComparation.png  used on input line 831.
 (pdftex.def)             Requested size: 278.63606pt x 172.24045pt.
-<assets/Nextjs/SSR.png, id=895, 1391.1975pt x 803.0pt>
+<assets/Nextjs/SSR.png, id=899, 1391.1975pt x 803.0pt>
 File: assets/Nextjs/SSR.png Graphic file (type png)
 <use assets/Nextjs/SSR.png>
-Package pdftex.def Info: assets/Nextjs/SSR.png  used on input line 844.
+Package pdftex.def Info: assets/Nextjs/SSR.png  used on input line 846.
 (pdftex.def)             Requested size: 185.52412pt x 107.07701pt.
-<assets/Nextjs/SSG.png, id=896, 1391.1975pt x 746.79pt>
+<assets/Nextjs/SSG.png, id=900, 1391.1975pt x 746.79pt>
 File: assets/Nextjs/SSG.png Graphic file (type png)
 <use assets/Nextjs/SSG.png>
-Package pdftex.def Info: assets/Nextjs/SSG.png  used on input line 847.
+Package pdftex.def Info: assets/Nextjs/SSG.png  used on input line 849.
 (pdftex.def)             Requested size: 185.52412pt x 99.58162pt.
 
 Underfull \vbox (badness 2529) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 851.
-LaTeX Info: Redefining \% on input line 851.
+LaTeX Info: Redefining \. on input line 853.
+LaTeX Info: Redefining \% on input line 853.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1051,23 +1051,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24 <./assets/Nextjs/NoPrerender.png> <./assets/Nextjs/Prerender.png> <./assets/Nextjs/PrerenderComparation.png>]
-<assets/Nextjs/NoCodeSplit.jpg, id=909, 1027.84pt x 770.88pt>
+<assets/Nextjs/NoCodeSplit.jpg, id=913, 1027.84pt x 770.88pt>
 File: assets/Nextjs/NoCodeSplit.jpg Graphic file (type jpg)
 <use assets/Nextjs/NoCodeSplit.jpg>
-Package pdftex.def Info: assets/Nextjs/NoCodeSplit.jpg  used on input line 857.
+Package pdftex.def Info: assets/Nextjs/NoCodeSplit.jpg  used on input line 859.
 (pdftex.def)             Requested size: 164.90894pt x 123.67267pt.
-<assets/Nextjs/CodeSplit.jpg, id=910, 1027.84pt x 770.88pt>
+<assets/Nextjs/CodeSplit.jpg, id=914, 1027.84pt x 770.88pt>
 File: assets/Nextjs/CodeSplit.jpg Graphic file (type jpg)
 <use assets/Nextjs/CodeSplit.jpg>
-Package pdftex.def Info: assets/Nextjs/CodeSplit.jpg  used on input line 860.
+Package pdftex.def Info: assets/Nextjs/CodeSplit.jpg  used on input line 862.
 (pdftex.def)             Requested size: 164.90894pt x 123.67267pt.
-<assets/Nextjs/Prefetch.png, id=912, 825.0825pt x 369.38pt>
+<assets/Nextjs/Prefetch.png, id=916, 825.0825pt x 369.38pt>
 File: assets/Nextjs/Prefetch.png Graphic file (type png)
 <use assets/Nextjs/Prefetch.png>
-Package pdftex.def Info: assets/Nextjs/Prefetch.png  used on input line 867.
+Package pdftex.def Info: assets/Nextjs/Prefetch.png  used on input line 869.
 (pdftex.def)             Requested size: 247.52666pt x 110.81485pt.
-LaTeX Info: Redefining \. on input line 880.
-LaTeX Info: Redefining \% on input line 880.
+LaTeX Info: Redefining \. on input line 882.
+LaTeX Info: Redefining \% on input line 882.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1077,18 +1077,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25 <./assets/Nextjs/SSR.png> <./assets/Nextjs/SSG.png> <./assets/Nextjs/NoCodeSplit.jpg> <./assets/Nextjs/CodeSplit.jpg> <./assets/Nextjs/Prefetch.png>]
-<assets/React/React.png, id=923, 1204.5pt x 1046.91125pt>
+<assets/React/React.png, id=927, 1204.5pt x 1046.91125pt>
 File: assets/React/React.png Graphic file (type png)
 <use assets/React/React.png>
-Package pdftex.def Info: assets/React/React.png  used on input line 895.
+Package pdftex.def Info: assets/React/React.png  used on input line 897.
 (pdftex.def)             Requested size: 84.32361pt x 73.29128pt.
-<assets/React/VirtualDOM1.png, id=924, 396.48125pt x 319.1925pt>
+<assets/React/VirtualDOM1.png, id=928, 396.48125pt x 319.1925pt>
 File: assets/React/VirtualDOM1.png Graphic file (type png)
 <use assets/React/VirtualDOM1.png>
-Package pdftex.def Info: assets/React/VirtualDOM1.png  used on input line 904.
+Package pdftex.def Info: assets/React/VirtualDOM1.png  used on input line 906.
 (pdftex.def)             Requested size: 198.24013pt x 159.59586pt.
-LaTeX Info: Redefining \. on input line 908.
-LaTeX Info: Redefining \% on input line 908.
+LaTeX Info: Redefining \. on input line 910.
+LaTeX Info: Redefining \% on input line 910.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1098,13 +1098,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26 <./assets/React/React.png>]
-<assets/Vercel/Vercel.png, id=932, 312.16624pt x 162.6075pt>
+<assets/Vercel/Vercel.png, id=936, 312.16624pt x 162.6075pt>
 File: assets/Vercel/Vercel.png Graphic file (type png)
 <use assets/Vercel/Vercel.png>
-Package pdftex.def Info: assets/Vercel/Vercel.png  used on input line 924.
+Package pdftex.def Info: assets/Vercel/Vercel.png  used on input line 926.
 (pdftex.def)             Requested size: 156.08273pt x 81.30354pt.
-LaTeX Info: Redefining \. on input line 930.
-LaTeX Info: Redefining \% on input line 930.
+LaTeX Info: Redefining \. on input line 932.
+LaTeX Info: Redefining \% on input line 932.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1114,18 +1114,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27 <./assets/React/VirtualDOM1.png (PNG copy)> <./assets/Vercel/Vercel.png (PNG copy)>]
-<assets/TypeScript/TypeScript.png, id=938, 2509.375pt x 2509.375pt>
+<assets/TypeScript/TypeScript.png, id=942, 2509.375pt x 2509.375pt>
 File: assets/TypeScript/TypeScript.png Graphic file (type png)
 <use assets/TypeScript/TypeScript.png>
-Package pdftex.def Info: assets/TypeScript/TypeScript.png  used on input line 940.
+Package pdftex.def Info: assets/TypeScript/TypeScript.png  used on input line 942.
 (pdftex.def)             Requested size: 75.278pt x 75.278pt.
-<assets/TypeScript/TypeScriptTranspile.png, id=940, 829.0975pt x 471.7625pt>
+<assets/TypeScript/TypeScriptTranspile.png, id=944, 829.0975pt x 471.7625pt>
 File: assets/TypeScript/TypeScriptTranspile.png Graphic file (type png)
 <use assets/TypeScript/TypeScriptTranspile.png>
-Package pdftex.def Info: assets/TypeScript/TypeScriptTranspile.png  used on input line 949.
+Package pdftex.def Info: assets/TypeScript/TypeScriptTranspile.png  used on input line 951.
 (pdftex.def)             Requested size: 290.18848pt x 165.11934pt.
-LaTeX Info: Redefining \. on input line 955.
-LaTeX Info: Redefining \% on input line 955.
+LaTeX Info: Redefining \. on input line 957.
+LaTeX Info: Redefining \% on input line 957.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1135,21 +1135,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28 <./assets/TypeScript/TypeScript.png> <./assets/TypeScript/TypeScriptTranspile.png (PNG copy)>]
-<assets/Nodejs/Nodejs.png, id=947, 288.07625pt x 175.65625pt>
+<assets/Nodejs/Nodejs.png, id=951, 288.07625pt x 175.65625pt>
 File: assets/Nodejs/Nodejs.png Graphic file (type png)
 <use assets/Nodejs/Nodejs.png>
-Package pdftex.def Info: assets/Nodejs/Nodejs.png  used on input line 963.
+Package pdftex.def Info: assets/Nodejs/Nodejs.png  used on input line 965.
 (pdftex.def)             Requested size: 115.22844pt x 70.26125pt.
-<assets/Nodejs/NPMvsYarn.png, id=949, 348.30125pt x 145.54375pt>
+<assets/Nodejs/NPMvsYarn.png, id=953, 348.30125pt x 145.54375pt>
 File: assets/Nodejs/NPMvsYarn.png Graphic file (type png)
 <use assets/Nodejs/NPMvsYarn.png>
-Package pdftex.def Info: assets/Nodejs/NPMvsYarn.png  used on input line 979.
+Package pdftex.def Info: assets/Nodejs/NPMvsYarn.png  used on input line 981.
 (pdftex.def)             Requested size: 139.31802pt x 58.21646pt.
 
 Underfull \vbox (badness 6204) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 983.
-LaTeX Info: Redefining \% on input line 983.
+LaTeX Info: Redefining \. on input line 985.
+LaTeX Info: Redefining \% on input line 985.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1159,18 +1159,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29 <./assets/Nodejs/Nodejs.png (PNG copy)>]
-<assets/VSCode/VSCode.png, id=957, 2055.68pt x 2055.68pt>
+<assets/VSCode/VSCode.png, id=961, 2055.68pt x 2055.68pt>
 File: assets/VSCode/VSCode.png Graphic file (type png)
 <use assets/VSCode/VSCode.png>
-Package pdftex.def Info: assets/VSCode/VSCode.png  used on input line 997.
+Package pdftex.def Info: assets/VSCode/VSCode.png  used on input line 999.
 (pdftex.def)             Requested size: 71.95615pt x 71.95615pt.
-<assets/VSCode/ESLint.png, id=959, 1204.5pt x 1059.96pt>
+<assets/VSCode/ESLint.png, id=963, 1204.5pt x 1059.96pt>
 File: assets/VSCode/ESLint.png Graphic file (type png)
 <use assets/VSCode/ESLint.png>
-Package pdftex.def Info: assets/VSCode/ESLint.png  used on input line 1015.
+Package pdftex.def Info: assets/VSCode/ESLint.png  used on input line 1017.
 (pdftex.def)             Requested size: 60.22852pt x 53.0011pt.
-LaTeX Info: Redefining \. on input line 1018.
-LaTeX Info: Redefining \% on input line 1018.
+LaTeX Info: Redefining \. on input line 1020.
+LaTeX Info: Redefining \% on input line 1020.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1180,13 +1180,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30 <./assets/Nodejs/NPMvsYarn.png (PNG copy)> <./assets/VSCode/VSCode.png>]
-<assets/VSCode/Prettier.png, id=966, 2509.375pt x 2509.375pt>
+<assets/VSCode/Prettier.png, id=970, 2509.375pt x 2509.375pt>
 File: assets/VSCode/Prettier.png Graphic file (type png)
 <use assets/VSCode/Prettier.png>
-Package pdftex.def Info: assets/VSCode/Prettier.png  used on input line 1038.
+Package pdftex.def Info: assets/VSCode/Prettier.png  used on input line 1040.
 (pdftex.def)             Requested size: 50.19809pt x 50.19809pt.
-LaTeX Info: Redefining \. on input line 1047.
-LaTeX Info: Redefining \% on input line 1047.
+LaTeX Info: Redefining \. on input line 1049.
+LaTeX Info: Redefining \% on input line 1049.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1196,21 +1196,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31 <./assets/VSCode/ESLint.png> <./assets/VSCode/Prettier.png>]
-<assets/Detalles de Implementación/GitHub.png, id=977, 2055.68pt x 2055.68pt>
+<assets/Detalles de Implementación/GitHub.png, id=981, 2055.68pt x 2055.68pt>
 File: assets/Detalles de Implementación/GitHub.png Graphic file (type png)
 <use assets/Detalles de Implementación/GitHub.png>
-Package pdftex.def Info: assets/Detalles de Implementación/GitHub.png  used on input line 1054.
+Package pdftex.def Info: assets/Detalles de Implementación/GitHub.png  used on input line 1056.
 (pdftex.def)             Requested size: 61.66774pt x 61.66774pt.
-<assets/Detalles de Implementación/Arquitectura.jpg, id=979, 1216.545pt x 827.09pt>
+<assets/Detalles de Implementación/Arquitectura.jpg, id=983, 1216.545pt x 827.09pt>
 File: assets/Detalles de Implementación/Arquitectura.jpg Graphic file (type jpg)
 <use assets/Detalles de Implementación/Arquitectura.jpg>
-Package pdftex.def Info: assets/Detalles de Implementación/Arquitectura.jpg  used on input line 1067.
+Package pdftex.def Info: assets/Detalles de Implementación/Arquitectura.jpg  used on input line 1069.
 (pdftex.def)             Requested size: 304.1355pt x 206.77199pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1071.
-LaTeX Info: Redefining \% on input line 1071.
+LaTeX Info: Redefining \. on input line 1073.
+LaTeX Info: Redefining \% on input line 1073.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1220,13 +1220,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./assets/Detalles de Implementación/GitHub.png>]
-<assets/Detalles de Implementación/Estructura de Archivos/Archivos.png, id=986, 264.99pt x 271.0125pt>
+<assets/Detalles de Implementación/Estructura de Archivos/Archivos.png, id=990, 264.99pt x 271.0125pt>
 File: assets/Detalles de Implementación/Estructura de Archivos/Archivos.png Graphic file (type png)
 <use assets/Detalles de Implementación/Estructura de Archivos/Archivos.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Archivos.png  used on input line 1090.
+Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Archivos.png  used on input line 1092.
 (pdftex.def)             Requested size: 158.99522pt x 162.60875pt.
-LaTeX Info: Redefining \. on input line 1094.
-LaTeX Info: Redefining \% on input line 1094.
+LaTeX Info: Redefining \. on input line 1096.
+LaTeX Info: Redefining \% on input line 1096.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1236,8 +1236,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33 <./assets/Detalles de Implementación/Arquitectura.jpg>]
-LaTeX Info: Redefining \. on input line 1104.
-LaTeX Info: Redefining \% on input line 1104.
+LaTeX Info: Redefining \. on input line 1106.
+LaTeX Info: Redefining \% on input line 1106.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1247,13 +1247,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34 <./assets/Detalles de Implementación/Estructura de Archivos/Archivos.png>]
-<assets/Detalles de Implementación/Code/Types/Instrument.png, id=996, 541.27219pt x 164.86594pt>
+<assets/Detalles de Implementación/Code/Types/Instrument.png, id=1000, 541.27219pt x 164.86594pt>
 File: assets/Detalles de Implementación/Code/Types/Instrument.png Graphic file (type png)
 <use assets/Detalles de Implementación/Code/Types/Instrument.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/Instrument.png  used on input line 1118.
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/Instrument.png  used on input line 1120.
 (pdftex.def)             Requested size: 324.76581pt x 98.9203pt.
-LaTeX Info: Redefining \. on input line 1125.
-LaTeX Info: Redefining \% on input line 1125.
+LaTeX Info: Redefining \. on input line 1127.
+LaTeX Info: Redefining \% on input line 1127.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1263,26 +1263,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./assets/Detalles de Implementación/Code/Types/Instrument.png>]
-<assets/Detalles de Implementación/Code/Types/Noteplayer.png, id=1005, 537.50812pt x 347.04657pt>
+<assets/Detalles de Implementación/Code/Types/Noteplayer.png, id=1009, 537.50812pt x 347.04657pt>
 File: assets/Detalles de Implementación/Code/Types/Noteplayer.png Graphic file (type png)
 <use assets/Detalles de Implementación/Code/Types/Noteplayer.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/Noteplayer.png  used on input line 1128.
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/Noteplayer.png  used on input line 1130.
 (pdftex.def)             Requested size: 322.50735pt x 208.22954pt.
-<assets/Detalles de Implementación/Code/Types/VariantExercise.png, id=1007, 539.76656pt x 73.02281pt>
+<assets/Detalles de Implementación/Code/Types/VariantExercise.png, id=1011, 539.76656pt x 73.02281pt>
 File: assets/Detalles de Implementación/Code/Types/VariantExercise.png Graphic file (type png)
 <use assets/Detalles de Implementación/Code/Types/VariantExercise.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/VariantExercise.png  used on input line 1137.
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/VariantExercise.png  used on input line 1139.
 (pdftex.def)             Requested size: 323.86243pt x 43.81401pt.
-<assets/Detalles de Implementación/Code/Types/Answer.png, id=1009, 540.51938pt x 243.15843pt>
+<assets/Detalles de Implementación/Code/Types/Answer.png, id=1013, 540.51938pt x 243.15843pt>
 File: assets/Detalles de Implementación/Code/Types/Answer.png Graphic file (type png)
 <use assets/Detalles de Implementación/Code/Types/Answer.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/Answer.png  used on input line 1147.
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/Answer.png  used on input line 1149.
 (pdftex.def)             Requested size: 324.31412pt x 145.89618pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1151.
-LaTeX Info: Redefining \% on input line 1151.
+LaTeX Info: Redefining \. on input line 1153.
+LaTeX Info: Redefining \% on input line 1153.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1292,13 +1292,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36 <./assets/Detalles de Implementación/Code/Types/Noteplayer.png> <./assets/Detalles de Implementación/Code/Types/VariantExercise.png>]
-<assets/Detalles de Implementación/Code/Types/MenuItemInfo.png, id=1017, 541.27219pt x 134.00063pt>
+<assets/Detalles de Implementación/Code/Types/MenuItemInfo.png, id=1021, 541.27219pt x 134.00063pt>
 File: assets/Detalles de Implementación/Code/Types/MenuItemInfo.png Graphic file (type png)
 <use assets/Detalles de Implementación/Code/Types/MenuItemInfo.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/MenuItemInfo.png  used on input line 1160.
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Types/MenuItemInfo.png  used on input line 1162.
 (pdftex.def)             Requested size: 324.76581pt x 80.40097pt.
-LaTeX Info: Redefining \. on input line 1170.
-LaTeX Info: Redefining \% on input line 1170.
+LaTeX Info: Redefining \. on input line 1172.
+LaTeX Info: Redefining \% on input line 1172.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1308,8 +1308,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37 <./assets/Detalles de Implementación/Code/Types/Answer.png> <./assets/Detalles de Implementación/Code/Types/MenuItemInfo.png>]
-LaTeX Info: Redefining \. on input line 1187.
-LaTeX Info: Redefining \% on input line 1187.
+LaTeX Info: Redefining \. on input line 1189.
+LaTeX Info: Redefining \% on input line 1189.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1319,13 +1319,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
-<assets/Detalles de Implementación/Estructura de Archivos/Services.png, id=1033, 252.19218pt x 148.30406pt>
+<assets/Detalles de Implementación/Estructura de Archivos/Services.png, id=1037, 252.19218pt x 148.30406pt>
 File: assets/Detalles de Implementación/Estructura de Archivos/Services.png Graphic file (type png)
 <use assets/Detalles de Implementación/Estructura de Archivos/Services.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Services.png  used on input line 1190.
+Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Services.png  used on input line 1192.
 (pdftex.def)             Requested size: 151.31647pt x 88.98311pt.
-LaTeX Info: Redefining \. on input line 1207.
-LaTeX Info: Redefining \% on input line 1207.
+LaTeX Info: Redefining \. on input line 1209.
+LaTeX Info: Redefining \% on input line 1209.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1335,13 +1335,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39 <./assets/Detalles de Implementación/Estructura de Archivos/Services.png>]
-<assets/Detalles de Implementación/Estructura de Archivos/Hooks.png, id=1041, 251.43938pt x 273.27094pt>
+<assets/Detalles de Implementación/Estructura de Archivos/Hooks.png, id=1045, 251.43938pt x 273.27094pt>
 File: assets/Detalles de Implementación/Estructura de Archivos/Hooks.png Graphic file (type png)
 <use assets/Detalles de Implementación/Estructura de Archivos/Hooks.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Hooks.png  used on input line 1219.
+Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Hooks.png  used on input line 1221.
 (pdftex.def)             Requested size: 150.86478pt x 163.9638pt.
-LaTeX Info: Redefining \. on input line 1228.
-LaTeX Info: Redefining \% on input line 1228.
+LaTeX Info: Redefining \. on input line 1230.
+LaTeX Info: Redefining \% on input line 1230.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1351,13 +1351,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40 <./assets/Detalles de Implementación/Estructura de Archivos/Hooks.png>]
-<assets/Detalles de Implementación/Estructura de Archivos/Context.png, id=1049, 254.45062pt x 51.94406pt>
+<assets/Detalles de Implementación/Estructura de Archivos/Context.png, id=1053, 254.45062pt x 51.94406pt>
 File: assets/Detalles de Implementación/Estructura de Archivos/Context.png Graphic file (type png)
 <use assets/Detalles de Implementación/Estructura de Archivos/Context.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Context.png  used on input line 1242.
+Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Context.png  used on input line 1244.
 (pdftex.def)             Requested size: 152.67154pt x 31.16666pt.
-LaTeX Info: Redefining \. on input line 1251.
-LaTeX Info: Redefining \% on input line 1251.
+LaTeX Info: Redefining \. on input line 1253.
+LaTeX Info: Redefining \% on input line 1253.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1367,18 +1367,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41 <./assets/Detalles de Implementación/Estructura de Archivos/Context.png>]
-<assets/React/ReactComponent.jpg, id=1059, 555.57562pt x 215.30438pt>
+<assets/React/ReactComponent.jpg, id=1063, 555.57562pt x 215.30438pt>
 File: assets/React/ReactComponent.jpg Graphic file (type jpg)
 <use assets/React/ReactComponent.jpg>
-Package pdftex.def Info: assets/React/ReactComponent.jpg  used on input line 1260.
+Package pdftex.def Info: assets/React/ReactComponent.jpg  used on input line 1262.
 (pdftex.def)             Requested size: 166.67397pt x 64.5918pt.
-<assets/Detalles de Implementación/JerarquíaComponentes.jpg, id=1061, 1410.26875pt x 713.66624pt>
+<assets/Detalles de Implementación/JerarquíaComponentes.jpg, id=1065, 1410.26875pt x 713.66624pt>
 File: assets/Detalles de Implementación/JerarquíaComponentes.jpg Graphic file (type jpg)
 <use assets/Detalles de Implementación/JerarquíaComponentes.jpg>
-Package pdftex.def Info: assets/Detalles de Implementación/JerarquíaComponentes.jpg  used on input line 1271.
+Package pdftex.def Info: assets/Detalles de Implementación/JerarquíaComponentes.jpg  used on input line 1273.
 (pdftex.def)             Requested size: 394.87256pt x 199.82518pt.
-LaTeX Info: Redefining \. on input line 1280.
-LaTeX Info: Redefining \% on input line 1280.
+LaTeX Info: Redefining \. on input line 1282.
+LaTeX Info: Redefining \% on input line 1282.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1388,21 +1388,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42 <./assets/React/ReactComponent.jpg> <./assets/Detalles de Implementación/JerarquíaComponentes.jpg>]
-<assets/Detalles de Implementación/Estructura de Archivos/Pages.png, id=1067, 255.95625pt x 225.09094pt>
+<assets/Detalles de Implementación/Estructura de Archivos/Pages.png, id=1071, 255.95625pt x 225.09094pt>
 File: assets/Detalles de Implementación/Estructura de Archivos/Pages.png Graphic file (type png)
 <use assets/Detalles de Implementación/Estructura de Archivos/Pages.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Pages.png  used on input line 1287.
+Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Pages.png  used on input line 1289.
 (pdftex.def)             Requested size: 127.9778pt x 112.54518pt.
-<assets/Detalles de Implementación/Estructura de Archivos/Components.png, id=1069, 252.945pt x 296.60812pt>
+<assets/Detalles de Implementación/Estructura de Archivos/Components.png, id=1073, 252.945pt x 296.60812pt>
 File: assets/Detalles de Implementación/Estructura de Archivos/Components.png Graphic file (type png)
 <use assets/Detalles de Implementación/Estructura de Archivos/Components.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Components.png  used on input line 1305.
+Package pdftex.def Info: assets/Detalles de Implementación/Estructura de Archivos/Components.png  used on input line 1307.
 (pdftex.def)             Requested size: 126.47218pt x 148.3037pt.
 
 Underfull \vbox (badness 7064) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1314.
-LaTeX Info: Redefining \% on input line 1314.
+LaTeX Info: Redefining \. on input line 1316.
+LaTeX Info: Redefining \% on input line 1316.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1412,21 +1412,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [43 <./assets/Detalles de Implementación/Estructura de Archivos/Pages.png> <./assets/Detalles de Implementación/Estructura de Archivos/Components.png>]
-<assets/Capturas Earfit/PC/Intervals.png, id=1078, 1397.22pt x 890.32625pt>
+<assets/Capturas Earfit/PC/Intervals.png, id=1082, 1397.22pt x 890.32625pt>
 File: assets/Capturas Earfit/PC/Intervals.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/Intervals.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/Intervals.png  used on input line 1320.
+Package pdftex.def Info: assets/Capturas Earfit/PC/Intervals.png  used on input line 1322.
 (pdftex.def)             Requested size: 412.27864pt x 262.7119pt.
-<assets/Detalles de Implementación/Code/Pages/Intervals.png, id=1079, 540.51938pt x 651.18282pt>
+<assets/Detalles de Implementación/Code/Pages/Intervals.png, id=1083, 540.51938pt x 651.18282pt>
 File: assets/Detalles de Implementación/Code/Pages/Intervals.png Graphic file (type png)
 <use assets/Detalles de Implementación/Code/Pages/Intervals.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Code/Pages/Intervals.png  used on input line 1327.
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Pages/Intervals.png  used on input line 1329.
 (pdftex.def)             Requested size: 378.36098pt x 455.82486pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1331.
-LaTeX Info: Redefining \% on input line 1331.
+LaTeX Info: Redefining \. on input line 1333.
+LaTeX Info: Redefining \% on input line 1333.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1436,8 +1436,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [44 <./assets/Capturas Earfit/PC/Intervals.png>]
-LaTeX Info: Redefining \. on input line 1341.
-LaTeX Info: Redefining \% on input line 1341.
+LaTeX Info: Redefining \. on input line 1343.
+LaTeX Info: Redefining \% on input line 1343.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1447,13 +1447,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [45 <./assets/Detalles de Implementación/Code/Pages/Intervals.png>]
-<assets/Detalles de Implementación/Code/Components/AnswerButtons.png, id=1095, 540.51938pt x 395.97937pt>
+<assets/Detalles de Implementación/Code/Components/AnswerButtons.png, id=1099, 540.51938pt x 395.97937pt>
 File: assets/Detalles de Implementación/Code/Components/AnswerButtons.png Graphic file (type png)
 <use assets/Detalles de Implementación/Code/Components/AnswerButtons.png>
-Package pdftex.def Info: assets/Detalles de Implementación/Code/Components/AnswerButtons.png  used on input line 1344.
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Components/AnswerButtons.png  used on input line 1346.
 (pdftex.def)             Requested size: 378.36098pt x 277.18367pt.
-LaTeX Info: Redefining \. on input line 1363.
-LaTeX Info: Redefining \% on input line 1363.
+LaTeX Info: Redefining \. on input line 1365.
+LaTeX Info: Redefining \% on input line 1365.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1463,21 +1463,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [46 <./assets/Detalles de Implementación/Code/Components/AnswerButtons.png>]
-<assets/Detalles de Implementación/PWA/InstalarPWA.png, id=1109, 170.6375pt x 126.97438pt>
+<assets/Detalles de Implementación/PWA/InstalarPWA.png, id=1113, 170.6375pt x 126.97438pt>
 File: assets/Detalles de Implementación/PWA/InstalarPWA.png Graphic file (type png)
 <use assets/Detalles de Implementación/PWA/InstalarPWA.png>
-Package pdftex.def Info: assets/Detalles de Implementación/PWA/InstalarPWA.png  used on input line 1378.
+Package pdftex.def Info: assets/Detalles de Implementación/PWA/InstalarPWA.png  used on input line 1380.
 (pdftex.def)             Requested size: 153.57231pt x 114.27588pt.
-<assets/Detalles de Implementación/PWA/PWA.png, id=1111, 411.03563pt x 705.38531pt>
+<assets/Detalles de Implementación/PWA/PWA.png, id=1115, 411.03563pt x 705.38531pt>
 File: assets/Detalles de Implementación/PWA/PWA.png Graphic file (type png)
 <use assets/Detalles de Implementación/PWA/PWA.png>
-Package pdftex.def Info: assets/Detalles de Implementación/PWA/PWA.png  used on input line 1387.
+Package pdftex.def Info: assets/Detalles de Implementación/PWA/PWA.png  used on input line 1389.
 (pdftex.def)             Requested size: 115.08919pt x 197.50653pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1391.
-LaTeX Info: Redefining \% on input line 1391.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1487,8 +1487,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [47 <./assets/Detalles de Implementación/PWA/InstalarPWA.png>]
-LaTeX Info: Redefining \. on input line 1408.
-LaTeX Info: Redefining \% on input line 1408.
+LaTeX Info: Redefining \. on input line 1410.
+LaTeX Info: Redefining \% on input line 1410.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1498,8 +1498,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [48 <./assets/Detalles de Implementación/PWA/PWA.png>]
-LaTeX Info: Redefining \. on input line 1440.
-LaTeX Info: Redefining \% on input line 1440.
+LaTeX Info: Redefining \. on input line 1442.
+LaTeX Info: Redefining \% on input line 1442.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1509,8 +1509,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [49]
-LaTeX Info: Redefining \. on input line 1468.
-LaTeX Info: Redefining \% on input line 1468.
+LaTeX Info: Redefining \. on input line 1470.
+LaTeX Info: Redefining \% on input line 1470.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1520,8 +1520,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [50]
-LaTeX Info: Redefining \. on input line 1495.
-LaTeX Info: Redefining \% on input line 1495.
+LaTeX Info: Redefining \. on input line 1497.
+LaTeX Info: Redefining \% on input line 1497.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1531,13 +1531,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [51]
-<assets/Lighthouse/Resumen.png, id=1144, 301.8778pt x 52.69687pt>
+<assets/Lighthouse/Resumen.png, id=1148, 301.8778pt x 52.69687pt>
 File: assets/Lighthouse/Resumen.png Graphic file (type png)
 <use assets/Lighthouse/Resumen.png>
-Package pdftex.def Info: assets/Lighthouse/Resumen.png  used on input line 1520.
+Package pdftex.def Info: assets/Lighthouse/Resumen.png  used on input line 1522.
 (pdftex.def)             Requested size: 362.25154pt x 63.23592pt.
-LaTeX Info: Redefining \. on input line 1530.
-LaTeX Info: Redefining \% on input line 1530.
+LaTeX Info: Redefining \. on input line 1532.
+LaTeX Info: Redefining \% on input line 1532.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1547,18 +1547,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [52 <./assets/Lighthouse/Resumen.png>]
-<assets/Lighthouse/Accesibility.png, id=1153, 605.26125pt x 502.87875pt>
+<assets/Lighthouse/Accesibility.png, id=1157, 605.26125pt x 502.87875pt>
 File: assets/Lighthouse/Accesibility.png Graphic file (type png)
 <use assets/Lighthouse/Accesibility.png>
-Package pdftex.def Info: assets/Lighthouse/Accesibility.png  used on input line 1537.
+Package pdftex.def Info: assets/Lighthouse/Accesibility.png  used on input line 1539.
 (pdftex.def)             Requested size: 363.15953pt x 301.72957pt.
-<assets/Lighthouse/AccesibilityContrast.png, id=1155, 517.18219pt x 188.95593pt>
+<assets/Lighthouse/AccesibilityContrast.png, id=1159, 517.18219pt x 188.95593pt>
 File: assets/Lighthouse/AccesibilityContrast.png Graphic file (type png)
 <use assets/Lighthouse/AccesibilityContrast.png>
-Package pdftex.def Info: assets/Lighthouse/AccesibilityContrast.png  used on input line 1546.
+Package pdftex.def Info: assets/Lighthouse/AccesibilityContrast.png  used on input line 1548.
 (pdftex.def)             Requested size: 310.3117pt x 113.37442pt.
-LaTeX Info: Redefining \. on input line 1550.
-LaTeX Info: Redefining \% on input line 1550.
+LaTeX Info: Redefining \. on input line 1552.
+LaTeX Info: Redefining \% on input line 1552.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1568,16 +1568,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [53 <./assets/Lighthouse/Accesibility.png>]
-<assets/Lighthouse/BestPractices.png, id=1165, 600.74437pt x 444.15938pt>
+<assets/Lighthouse/BestPractices.png, id=1169, 600.74437pt x 444.15938pt>
 File: assets/Lighthouse/BestPractices.png Graphic file (type png)
 <use assets/Lighthouse/BestPractices.png>
-Package pdftex.def Info: assets/Lighthouse/BestPractices.png  used on input line 1557.
+Package pdftex.def Info: assets/Lighthouse/BestPractices.png  used on input line 1559.
 (pdftex.def)             Requested size: 360.4494pt x 266.49767pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1565.
-LaTeX Info: Redefining \% on input line 1565.
+LaTeX Info: Redefining \. on input line 1567.
+LaTeX Info: Redefining \% on input line 1567.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1587,21 +1587,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [54 <./assets/Lighthouse/AccesibilityContrast.png> <./assets/Lighthouse/BestPractices.png>]
-<assets/Lighthouse/SEO.png, id=1174, 596.98032pt x 396.7322pt>
+<assets/Lighthouse/SEO.png, id=1178, 596.98032pt x 396.7322pt>
 File: assets/Lighthouse/SEO.png Graphic file (type png)
 <use assets/Lighthouse/SEO.png>
-Package pdftex.def Info: assets/Lighthouse/SEO.png  used on input line 1568.
+Package pdftex.def Info: assets/Lighthouse/SEO.png  used on input line 1570.
 (pdftex.def)             Requested size: 358.19095pt x 238.04114pt.
-<assets/Lighthouse/PWA.png, id=1176, 593.21625pt x 518.6878pt>
+<assets/Lighthouse/PWA.png, id=1180, 593.21625pt x 518.6878pt>
 File: assets/Lighthouse/PWA.png Graphic file (type png)
 <use assets/Lighthouse/PWA.png>
-Package pdftex.def Info: assets/Lighthouse/PWA.png  used on input line 1579.
+Package pdftex.def Info: assets/Lighthouse/PWA.png  used on input line 1581.
 (pdftex.def)             Requested size: 355.9325pt x 311.21509pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1583.
-LaTeX Info: Redefining \% on input line 1583.
+LaTeX Info: Redefining \. on input line 1585.
+LaTeX Info: Redefining \% on input line 1585.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1611,13 +1611,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [55 <./assets/Lighthouse/SEO.png>]
-<assets/Vercel/VercelAnalyticsResume.png, id=1185, 252.945pt x 155.83218pt>
+<assets/Vercel/VercelAnalyticsResume.png, id=1189, 252.945pt x 155.83218pt>
 File: assets/Vercel/VercelAnalyticsResume.png Graphic file (type png)
 <use assets/Vercel/VercelAnalyticsResume.png>
-Package pdftex.def Info: assets/Vercel/VercelAnalyticsResume.png  used on input line 1591.
+Package pdftex.def Info: assets/Vercel/VercelAnalyticsResume.png  used on input line 1593.
 (pdftex.def)             Requested size: 202.35626pt x 124.66591pt.
-LaTeX Info: Redefining \. on input line 1597.
-LaTeX Info: Redefining \% on input line 1597.
+LaTeX Info: Redefining \. on input line 1599.
+LaTeX Info: Redefining \% on input line 1599.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1627,13 +1627,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [56 <./assets/Lighthouse/PWA.png> <./assets/Vercel/VercelAnalyticsResume.png>]
-<assets/Vercel/RealExperienceScore.png, id=1194, 766.36313pt x 699.36281pt>
+<assets/Vercel/RealExperienceScore.png, id=1198, 766.36313pt x 699.36281pt>
 File: assets/Vercel/RealExperienceScore.png Graphic file (type png)
 <use assets/Vercel/RealExperienceScore.png>
-Package pdftex.def Info: assets/Vercel/RealExperienceScore.png  used on input line 1605.
+Package pdftex.def Info: assets/Vercel/RealExperienceScore.png  used on input line 1607.
 (pdftex.def)             Requested size: 383.18063pt x 349.68054pt.
-LaTeX Info: Redefining \. on input line 1615.
-LaTeX Info: Redefining \% on input line 1615.
+LaTeX Info: Redefining \. on input line 1617.
+LaTeX Info: Redefining \% on input line 1617.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1643,8 +1643,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [57 <./assets/Vercel/RealExperienceScore.png>]
-LaTeX Info: Redefining \. on input line 1621.
-LaTeX Info: Redefining \% on input line 1621.
+LaTeX Info: Redefining \. on input line 1623.
+LaTeX Info: Redefining \% on input line 1623.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1658,13 +1658,13 @@ Cap\'{\i }tulo 5.
 [59
 
 ]
-<assets/Conclusiones/EarfitQR.png, id=1219, 451.6875pt x 451.6875pt>
+<assets/Conclusiones/EarfitQR.png, id=1223, 451.6875pt x 451.6875pt>
 File: assets/Conclusiones/EarfitQR.png Graphic file (type png)
 <use assets/Conclusiones/EarfitQR.png>
-Package pdftex.def Info: assets/Conclusiones/EarfitQR.png  used on input line 1649.
+Package pdftex.def Info: assets/Conclusiones/EarfitQR.png  used on input line 1651.
 (pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
-LaTeX Info: Redefining \. on input line 1659.
-LaTeX Info: Redefining \% on input line 1659.
+LaTeX Info: Redefining \. on input line 1661.
+LaTeX Info: Redefining \% on input line 1661.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1674,8 +1674,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [60 <./assets/Conclusiones/EarfitQR.png>]
-LaTeX Info: Redefining \. on input line 1673.
-LaTeX Info: Redefining \% on input line 1673.
+LaTeX Info: Redefining \. on input line 1675.
+LaTeX Info: Redefining \% on input line 1675.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1701,8 +1701,8 @@ Ap\'{e}ndice A.
 [67
 
 ]
-LaTeX Info: Redefining \. on input line 1759.
-LaTeX Info: Redefining \% on input line 1759.
+LaTeX Info: Redefining \. on input line 1761.
+LaTeX Info: Redefining \% on input line 1761.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1712,8 +1712,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
-LaTeX Info: Redefining \. on input line 1786.
-LaTeX Info: Redefining \% on input line 1786.
+LaTeX Info: Redefining \. on input line 1788.
+LaTeX Info: Redefining \% on input line 1788.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1723,8 +1723,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
-LaTeX Info: Redefining \. on input line 1824.
-LaTeX Info: Redefining \% on input line 1824.
+LaTeX Info: Redefining \. on input line 1826.
+LaTeX Info: Redefining \% on input line 1826.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1734,8 +1734,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [70]
-LaTeX Info: Redefining \. on input line 1831.
-LaTeX Info: Redefining \% on input line 1831.
+LaTeX Info: Redefining \. on input line 1833.
+LaTeX Info: Redefining \% on input line 1833.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1746,30 +1746,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [71]
 Ap\'{e}ndice B.
-<assets/Design Thinking/Prototipo/AtomicDesign.png, id=1298, 792.71156pt x 478.78876pt>
+<assets/Design Thinking/Prototipo/AtomicDesign.png, id=1306, 792.71156pt x 478.78876pt>
 File: assets/Design Thinking/Prototipo/AtomicDesign.png Graphic file (type png)
 <use assets/Design Thinking/Prototipo/AtomicDesign.png>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/AtomicDesign.png  used on input line 1836.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/AtomicDesign.png  used on input line 1838.
 (pdftex.def)             Requested size: 396.35481pt x 239.39378pt.
 File: assets/Design Thinking/Prototipo/Small/Prototipo.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Small/Prototipo.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Small/Prototipo.jpg  used on input line 1845.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Small/Prototipo.jpg  used on input line 1847.
 (pdftex.def)             Requested size: 341.8712pt x 264.9853pt.
 [72
 
  <./assets/Design Thinking/Prototipo/AtomicDesign.png>]
-<assets/Design Thinking/Prototipo/Small/Prototipo2.jpg, id=1304, 1313.90875pt x 765.86125pt>
+<assets/Design Thinking/Prototipo/Small/Prototipo2.jpg, id=1312, 1313.90875pt x 765.86125pt>
 File: assets/Design Thinking/Prototipo/Small/Prototipo2.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Small/Prototipo2.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Small/Prototipo2.jpg  used on input line 1852.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Small/Prototipo2.jpg  used on input line 1854.
 (pdftex.def)             Requested size: 394.17567pt x 229.76015pt.
-<assets/Design Thinking/Prototipo/Medium/Menu.jpg, id=1305, 1149.29375pt x 876.27374pt>
+<assets/Design Thinking/Prototipo/Medium/Menu.jpg, id=1313, 1149.29375pt x 876.27374pt>
 File: assets/Design Thinking/Prototipo/Medium/Menu.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Medium/Menu.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Menu.jpg  used on input line 1861.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Menu.jpg  used on input line 1863.
 (pdftex.def)             Requested size: 344.79079pt x 262.88414pt.
-LaTeX Info: Redefining \. on input line 1865.
-LaTeX Info: Redefining \% on input line 1865.
+LaTeX Info: Redefining \. on input line 1867.
+LaTeX Info: Redefining \% on input line 1867.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1779,18 +1779,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [73 <./assets/Design Thinking/Prototipo/Small/Prototipo2.jpg>]
-<assets/Design Thinking/Prototipo/Medium/Notes.jpg, id=1310, 1152.305pt x 873.2625pt>
+<assets/Design Thinking/Prototipo/Medium/Notes.jpg, id=1318, 1152.305pt x 873.2625pt>
 File: assets/Design Thinking/Prototipo/Medium/Notes.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Medium/Notes.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Notes.jpg  used on input line 1868.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Notes.jpg  used on input line 1870.
 (pdftex.def)             Requested size: 345.69417pt x 261.98076pt.
-<assets/Design Thinking/Prototipo/Medium/Intervals.jpg, id=1311, 1149.29375pt x 876.27374pt>
+<assets/Design Thinking/Prototipo/Medium/Intervals.jpg, id=1319, 1149.29375pt x 876.27374pt>
 File: assets/Design Thinking/Prototipo/Medium/Intervals.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Medium/Intervals.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Intervals.jpg  used on input line 1875.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Intervals.jpg  used on input line 1877.
 (pdftex.def)             Requested size: 344.79079pt x 262.88414pt.
-LaTeX Info: Redefining \. on input line 1879.
-LaTeX Info: Redefining \% on input line 1879.
+LaTeX Info: Redefining \. on input line 1881.
+LaTeX Info: Redefining \% on input line 1881.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1800,18 +1800,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [74 <./assets/Design Thinking/Prototipo/Medium/Menu.jpg> <./assets/Design Thinking/Prototipo/Medium/Notes.jpg>]
-<assets/Design Thinking/Prototipo/Medium/Scales.jpg, id=1316, 1148.29pt x 876.27374pt>
+<assets/Design Thinking/Prototipo/Medium/Scales.jpg, id=1324, 1148.29pt x 876.27374pt>
 File: assets/Design Thinking/Prototipo/Medium/Scales.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Medium/Scales.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Scales.jpg  used on input line 1882.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Medium/Scales.jpg  used on input line 1884.
 (pdftex.def)             Requested size: 344.48965pt x 262.88414pt.
-<assets/Design Thinking/Prototipo/Large/Menu.jpg, id=1317, 1372.12625pt x 733.74126pt>
+<assets/Design Thinking/Prototipo/Large/Menu.jpg, id=1325, 1372.12625pt x 733.74126pt>
 File: assets/Design Thinking/Prototipo/Large/Menu.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Large/Menu.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Menu.jpg  used on input line 1891.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Menu.jpg  used on input line 1893.
 (pdftex.def)             Requested size: 411.64105pt x 220.12407pt.
-LaTeX Info: Redefining \. on input line 1895.
-LaTeX Info: Redefining \% on input line 1895.
+LaTeX Info: Redefining \. on input line 1897.
+LaTeX Info: Redefining \% on input line 1897.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1821,18 +1821,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [75 <./assets/Design Thinking/Prototipo/Medium/Intervals.jpg> <./assets/Design Thinking/Prototipo/Medium/Scales.jpg>]
-<assets/Design Thinking/Prototipo/Large/Notes.jpg, id=1322, 1376.14125pt x 730.73pt>
+<assets/Design Thinking/Prototipo/Large/Notes.jpg, id=1330, 1376.14125pt x 730.73pt>
 File: assets/Design Thinking/Prototipo/Large/Notes.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Large/Notes.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Notes.jpg  used on input line 1898.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Notes.jpg  used on input line 1900.
 (pdftex.def)             Requested size: 399.07074pt x 211.90627pt.
-<assets/Design Thinking/Prototipo/Large/Intervals.jpg, id=1323, 1376.14125pt x 730.73pt>
+<assets/Design Thinking/Prototipo/Large/Intervals.jpg, id=1331, 1376.14125pt x 730.73pt>
 File: assets/Design Thinking/Prototipo/Large/Intervals.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Large/Intervals.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Intervals.jpg  used on input line 1905.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Intervals.jpg  used on input line 1907.
 (pdftex.def)             Requested size: 399.07074pt x 211.90627pt.
-LaTeX Info: Redefining \. on input line 1909.
-LaTeX Info: Redefining \% on input line 1909.
+LaTeX Info: Redefining \. on input line 1911.
+LaTeX Info: Redefining \% on input line 1911.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1842,13 +1842,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [76 <./assets/Design Thinking/Prototipo/Large/Menu.jpg> <./assets/Design Thinking/Prototipo/Large/Notes.jpg>]
-<assets/Design Thinking/Prototipo/Large/Scales.jpg, id=1328, 1374.13374pt x 732.7375pt>
+<assets/Design Thinking/Prototipo/Large/Scales.jpg, id=1336, 1374.13374pt x 732.7375pt>
 File: assets/Design Thinking/Prototipo/Large/Scales.jpg Graphic file (type jpg)
 <use assets/Design Thinking/Prototipo/Large/Scales.jpg>
-Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Scales.jpg  used on input line 1912.
+Package pdftex.def Info: assets/Design Thinking/Prototipo/Large/Scales.jpg  used on input line 1914.
 (pdftex.def)             Requested size: 412.2433pt x 219.82294pt.
-LaTeX Info: Redefining \. on input line 1918.
-LaTeX Info: Redefining \% on input line 1918.
+LaTeX Info: Redefining \. on input line 1920.
+LaTeX Info: Redefining \% on input line 1920.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1859,26 +1859,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [77 <./assets/Design Thinking/Prototipo/Large/Intervals.jpg> <./assets/Design Thinking/Prototipo/Large/Scales.jpg>]
 Ap\'{e}ndice C.
-<assets/Scrum/User Stories/ProductBacklog.png, id=1334, 838.63312pt x 359.09157pt>
+<assets/Scrum/User Stories/ProductBacklog.png, id=1342, 838.63312pt x 359.09157pt>
 File: assets/Scrum/User Stories/ProductBacklog.png Graphic file (type png)
 <use assets/Scrum/User Stories/ProductBacklog.png>
-Package pdftex.def Info: assets/Scrum/User Stories/ProductBacklog.png  used on input line 1922.
+Package pdftex.def Info: assets/Scrum/User Stories/ProductBacklog.png  used on input line 1924.
 (pdftex.def)             Requested size: 402.53932pt x 172.36198pt.
-<assets/Scrum/User Stories/MenuMain.png, id=1335, 287.57437pt x 402.50375pt>
+<assets/Scrum/User Stories/MenuMain.png, id=1343, 287.57437pt x 402.50375pt>
 File: assets/Scrum/User Stories/MenuMain.png Graphic file (type png)
 <use assets/Scrum/User Stories/MenuMain.png>
-Package pdftex.def Info: assets/Scrum/User Stories/MenuMain.png  used on input line 1929.
+Package pdftex.def Info: assets/Scrum/User Stories/MenuMain.png  used on input line 1931.
 (pdftex.def)             Requested size: 373.84663pt x 523.2548pt.
 [78
 
  <./assets/Scrum/User Stories/ProductBacklog.png>]
-<assets/Scrum/User Stories/MenuLateral.png, id=1341, 289.08pt x 432.11438pt>
+<assets/Scrum/User Stories/MenuLateral.png, id=1349, 289.08pt x 432.11438pt>
 File: assets/Scrum/User Stories/MenuLateral.png Graphic file (type png)
 <use assets/Scrum/User Stories/MenuLateral.png>
-Package pdftex.def Info: assets/Scrum/User Stories/MenuLateral.png  used on input line 1936.
+Package pdftex.def Info: assets/Scrum/User Stories/MenuLateral.png  used on input line 1938.
 (pdftex.def)             Requested size: 375.80394pt x 561.74861pt.
-LaTeX Info: Redefining \. on input line 1940.
-LaTeX Info: Redefining \% on input line 1940.
+LaTeX Info: Redefining \. on input line 1942.
+LaTeX Info: Redefining \% on input line 1942.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1888,10 +1888,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [79 <./assets/Scrum/User Stories/MenuMain.png>]
-<assets/Scrum/User Stories/Notas.png, id=1347, 286.57062pt x 411.03563pt>
+<assets/Scrum/User Stories/Notas.png, id=1355, 286.57062pt x 411.03563pt>
 File: assets/Scrum/User Stories/Notas.png Graphic file (type png)
 <use assets/Scrum/User Stories/Notas.png>
-Package pdftex.def Info: assets/Scrum/User Stories/Notas.png  used on input line 1943.
+Package pdftex.def Info: assets/Scrum/User Stories/Notas.png  used on input line 1945.
 (pdftex.def)             Requested size: 372.54176pt x 534.34625pt.
 
 
@@ -1902,13 +1902,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [80 <./assets/Scrum/User Stories/MenuLateral.png>]
-<assets/Scrum/User Stories/NotasRespuestas.png, id=1353, 255.95625pt x 468.75125pt>
+<assets/Scrum/User Stories/NotasRespuestas.png, id=1361, 255.95625pt x 468.75125pt>
 File: assets/Scrum/User Stories/NotasRespuestas.png Graphic file (type png)
 <use assets/Scrum/User Stories/NotasRespuestas.png>
-Package pdftex.def Info: assets/Scrum/User Stories/NotasRespuestas.png  used on input line 1950.
+Package pdftex.def Info: assets/Scrum/User Stories/NotasRespuestas.png  used on input line 1952.
 (pdftex.def)             Requested size: 332.74307pt x 609.37654pt.
-LaTeX Info: Redefining \. on input line 1954.
-LaTeX Info: Redefining \% on input line 1954.
+LaTeX Info: Redefining \. on input line 1956.
+LaTeX Info: Redefining \% on input line 1956.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1918,10 +1918,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [81 <./assets/Scrum/User Stories/Notas.png>]
-<assets/Scrum/User Stories/Intervalos.png, id=1359, 284.56313pt x 408.02437pt>
+<assets/Scrum/User Stories/Intervalos.png, id=1367, 284.56313pt x 408.02437pt>
 File: assets/Scrum/User Stories/Intervalos.png Graphic file (type png)
 <use assets/Scrum/User Stories/Intervalos.png>
-Package pdftex.def Info: assets/Scrum/User Stories/Intervalos.png  used on input line 1957.
+Package pdftex.def Info: assets/Scrum/User Stories/Intervalos.png  used on input line 1959.
 (pdftex.def)             Requested size: 369.932pt x 530.43163pt.
 
 
@@ -1932,13 +1932,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [82 <./assets/Scrum/User Stories/NotasRespuestas.png>]
-<assets/Scrum/User Stories/IntervalosRespuestas.png, id=1365, 253.44687pt x 468.24937pt>
+<assets/Scrum/User Stories/IntervalosRespuestas.png, id=1373, 253.44687pt x 468.24937pt>
 File: assets/Scrum/User Stories/IntervalosRespuestas.png Graphic file (type png)
 <use assets/Scrum/User Stories/IntervalosRespuestas.png>
-Package pdftex.def Info: assets/Scrum/User Stories/IntervalosRespuestas.png  used on input line 1964.
+Package pdftex.def Info: assets/Scrum/User Stories/IntervalosRespuestas.png  used on input line 1966.
 (pdftex.def)             Requested size: 329.48088pt x 608.7241pt.
-LaTeX Info: Redefining \. on input line 1968.
-LaTeX Info: Redefining \% on input line 1968.
+LaTeX Info: Redefining \. on input line 1970.
+LaTeX Info: Redefining \% on input line 1970.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1948,10 +1948,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [83 <./assets/Scrum/User Stories/Intervalos.png>]
-<assets/Scrum/User Stories/Escalas.png, id=1372, 283.55937pt x 411.03563pt>
+<assets/Scrum/User Stories/Escalas.png, id=1380, 283.55937pt x 411.03563pt>
 File: assets/Scrum/User Stories/Escalas.png Graphic file (type png)
 <use assets/Scrum/User Stories/Escalas.png>
-Package pdftex.def Info: assets/Scrum/User Stories/Escalas.png  used on input line 1971.
+Package pdftex.def Info: assets/Scrum/User Stories/Escalas.png  used on input line 1973.
 (pdftex.def)             Requested size: 368.62714pt x 534.34625pt.
 
 
@@ -1962,13 +1962,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [84 <./assets/Scrum/User Stories/IntervalosRespuestas.png>]
-<assets/Scrum/User Stories/EscalasRespuestas.png, id=1378, 254.9525pt x 468.24937pt>
+<assets/Scrum/User Stories/EscalasRespuestas.png, id=1386, 254.9525pt x 468.24937pt>
 File: assets/Scrum/User Stories/EscalasRespuestas.png Graphic file (type png)
 <use assets/Scrum/User Stories/EscalasRespuestas.png>
-Package pdftex.def Info: assets/Scrum/User Stories/EscalasRespuestas.png  used on input line 1978.
+Package pdftex.def Info: assets/Scrum/User Stories/EscalasRespuestas.png  used on input line 1980.
 (pdftex.def)             Requested size: 331.43819pt x 608.7241pt.
-LaTeX Info: Redefining \. on input line 1982.
-LaTeX Info: Redefining \% on input line 1982.
+LaTeX Info: Redefining \. on input line 1984.
+LaTeX Info: Redefining \% on input line 1984.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1978,10 +1978,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [85 <./assets/Scrum/User Stories/Escalas.png>]
-<assets/Scrum/User Stories/Piano.png, id=1384, 282.05376pt x 411.5375pt>
+<assets/Scrum/User Stories/Piano.png, id=1392, 282.05376pt x 411.5375pt>
 File: assets/Scrum/User Stories/Piano.png Graphic file (type png)
 <use assets/Scrum/User Stories/Piano.png>
-Package pdftex.def Info: assets/Scrum/User Stories/Piano.png  used on input line 1985.
+Package pdftex.def Info: assets/Scrum/User Stories/Piano.png  used on input line 1987.
 (pdftex.def)             Requested size: 366.66983pt x 534.9987pt.
 
 
@@ -1992,13 +1992,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [86 <./assets/Scrum/User Stories/EscalasRespuestas.png>]
-<assets/Scrum/User Stories/CambiarRespuestas.png, id=1390, 283.55937pt x 417.56pt>
+<assets/Scrum/User Stories/CambiarRespuestas.png, id=1398, 283.55937pt x 417.56pt>
 File: assets/Scrum/User Stories/CambiarRespuestas.png Graphic file (type png)
 <use assets/Scrum/User Stories/CambiarRespuestas.png>
-Package pdftex.def Info: assets/Scrum/User Stories/CambiarRespuestas.png  used on input line 1992.
+Package pdftex.def Info: assets/Scrum/User Stories/CambiarRespuestas.png  used on input line 1994.
 (pdftex.def)             Requested size: 368.62714pt x 542.82791pt.
-LaTeX Info: Redefining \. on input line 1996.
-LaTeX Info: Redefining \% on input line 1996.
+LaTeX Info: Redefining \. on input line 1998.
+LaTeX Info: Redefining \% on input line 1998.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2008,10 +2008,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [87 <./assets/Scrum/User Stories/Piano.png>]
-<assets/Scrum/User Stories/Instrumentos.png, id=1396, 285.065pt x 434.12187pt>
+<assets/Scrum/User Stories/Instrumentos.png, id=1404, 285.065pt x 434.12187pt>
 File: assets/Scrum/User Stories/Instrumentos.png Graphic file (type png)
 <use assets/Scrum/User Stories/Instrumentos.png>
-Package pdftex.def Info: assets/Scrum/User Stories/Instrumentos.png  used on input line 1999.
+Package pdftex.def Info: assets/Scrum/User Stories/Instrumentos.png  used on input line 2001.
 (pdftex.def)             Requested size: 370.58446pt x 564.35837pt.
 
 
@@ -2022,13 +2022,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [88 <./assets/Scrum/User Stories/CambiarRespuestas.png>]
-<assets/Scrum/User Stories/NotasSelectorEscalas.png, id=1402, 283.55937pt x 415.5525pt>
+<assets/Scrum/User Stories/NotasSelectorEscalas.png, id=1410, 283.55937pt x 415.5525pt>
 File: assets/Scrum/User Stories/NotasSelectorEscalas.png Graphic file (type png)
 <use assets/Scrum/User Stories/NotasSelectorEscalas.png>
-Package pdftex.def Info: assets/Scrum/User Stories/NotasSelectorEscalas.png  used on input line 2006.
+Package pdftex.def Info: assets/Scrum/User Stories/NotasSelectorEscalas.png  used on input line 2008.
 (pdftex.def)             Requested size: 368.62714pt x 540.21819pt.
-LaTeX Info: Redefining \. on input line 2010.
-LaTeX Info: Redefining \% on input line 2010.
+LaTeX Info: Redefining \. on input line 2012.
+LaTeX Info: Redefining \% on input line 2012.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2038,10 +2038,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [89 <./assets/Scrum/User Stories/Instrumentos.png>]
-<assets/Scrum/User Stories/IntervalosDireccion.png, id=1409, 282.05376pt x 426.59375pt>
+<assets/Scrum/User Stories/IntervalosDireccion.png, id=1417, 282.05376pt x 426.59375pt>
 File: assets/Scrum/User Stories/IntervalosDireccion.png Graphic file (type png)
 <use assets/Scrum/User Stories/IntervalosDireccion.png>
-Package pdftex.def Info: assets/Scrum/User Stories/IntervalosDireccion.png  used on input line 2013.
+Package pdftex.def Info: assets/Scrum/User Stories/IntervalosDireccion.png  used on input line 2015.
 (pdftex.def)             Requested size: 366.66983pt x 554.57181pt.
 
 
@@ -2052,13 +2052,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [90 <./assets/Scrum/User Stories/NotasSelectorEscalas.png>]
-<assets/Scrum/User Stories/EscalasDireccion.png, id=1415, 284.56313pt x 417.56pt>
+<assets/Scrum/User Stories/EscalasDireccion.png, id=1423, 284.56313pt x 417.56pt>
 File: assets/Scrum/User Stories/EscalasDireccion.png Graphic file (type png)
 <use assets/Scrum/User Stories/EscalasDireccion.png>
-Package pdftex.def Info: assets/Scrum/User Stories/EscalasDireccion.png  used on input line 2020.
+Package pdftex.def Info: assets/Scrum/User Stories/EscalasDireccion.png  used on input line 2022.
 (pdftex.def)             Requested size: 369.932pt x 542.82791pt.
-LaTeX Info: Redefining \. on input line 2024.
-LaTeX Info: Redefining \% on input line 2024.
+LaTeX Info: Redefining \. on input line 2026.
+LaTeX Info: Redefining \% on input line 2026.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2077,36 +2077,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [92 <./assets/Scrum/User Stories/EscalasDireccion.png>]
 Ap\'{e}ndice D.
-<assets/Capturas Earfit/Movil/Movil1.png, id=1426, 518.6878pt x 215.30438pt>
+<assets/Capturas Earfit/Movil/Movil1.png, id=1434, 518.6878pt x 215.30438pt>
 File: assets/Capturas Earfit/Movil/Movil1.png Graphic file (type png)
 <use assets/Capturas Earfit/Movil/Movil1.png>
-Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil1.png  used on input line 2040.
+Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil1.png  used on input line 2042.
 (pdftex.def)             Requested size: 363.07898pt x 150.71204pt.
-<assets/Capturas Earfit/Movil/Movil2.png, id=1427, 521.69907pt x 216.05719pt>
+<assets/Capturas Earfit/Movil/Movil2.png, id=1435, 521.69907pt x 216.05719pt>
 File: assets/Capturas Earfit/Movil/Movil2.png Graphic file (type png)
 <use assets/Capturas Earfit/Movil/Movil2.png>
-Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil2.png  used on input line 2047.
+Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil2.png  used on input line 2049.
 (pdftex.def)             Requested size: 365.18684pt x 151.23898pt.
 [93
 
  <./assets/Capturas Earfit/Movil/Movil1.png>]
-<assets/Capturas Earfit/Movil/Movil3.png, id=1433, 525.46312pt x 215.30438pt>
+<assets/Capturas Earfit/Movil/Movil3.png, id=1441, 525.46312pt x 215.30438pt>
 File: assets/Capturas Earfit/Movil/Movil3.png Graphic file (type png)
 <use assets/Capturas Earfit/Movil/Movil3.png>
-Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil3.png  used on input line 2054.
+Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil3.png  used on input line 2056.
 (pdftex.def)             Requested size: 367.82167pt x 150.71204pt.
-<assets/Capturas Earfit/Movil/Movil4.png, id=1434, 526.21594pt x 249.93375pt>
+<assets/Capturas Earfit/Movil/Movil4.png, id=1442, 526.21594pt x 249.93375pt>
 File: assets/Capturas Earfit/Movil/Movil4.png Graphic file (type png)
 <use assets/Capturas Earfit/Movil/Movil4.png>
-Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil4.png  used on input line 2061.
+Package pdftex.def Info: assets/Capturas Earfit/Movil/Movil4.png  used on input line 2063.
 (pdftex.def)             Requested size: 368.34865pt x 174.95242pt.
-<assets/Capturas Earfit/Tablet/Menu.png, id=1435, 1081.03876pt x 890.32625pt>
+<assets/Capturas Earfit/Tablet/Menu.png, id=1443, 1081.03876pt x 890.32625pt>
 File: assets/Capturas Earfit/Tablet/Menu.png Graphic file (type png)
 <use assets/Capturas Earfit/Tablet/Menu.png>
-Package pdftex.def Info: assets/Capturas Earfit/Tablet/Menu.png  used on input line 2070.
+Package pdftex.def Info: assets/Capturas Earfit/Tablet/Menu.png  used on input line 2072.
 (pdftex.def)             Requested size: 324.31413pt x 267.09993pt.
-LaTeX Info: Redefining \. on input line 2074.
-LaTeX Info: Redefining \% on input line 2074.
+LaTeX Info: Redefining \. on input line 2076.
+LaTeX Info: Redefining \% on input line 2076.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2116,18 +2116,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [94 <./assets/Capturas Earfit/Movil/Movil2.png> <./assets/Capturas Earfit/Movil/Movil3.png> <./assets/Capturas Earfit/Movil/Movil4.png>]
-<assets/Capturas Earfit/Tablet/Notes.png, id=1443, 1081.03876pt x 890.32625pt>
+<assets/Capturas Earfit/Tablet/Notes.png, id=1451, 1081.03876pt x 890.32625pt>
 File: assets/Capturas Earfit/Tablet/Notes.png Graphic file (type png)
 <use assets/Capturas Earfit/Tablet/Notes.png>
-Package pdftex.def Info: assets/Capturas Earfit/Tablet/Notes.png  used on input line 2077.
+Package pdftex.def Info: assets/Capturas Earfit/Tablet/Notes.png  used on input line 2079.
 (pdftex.def)             Requested size: 324.31413pt x 267.09993pt.
-<assets/Capturas Earfit/Tablet/Intervals.png, id=1444, 1081.03876pt x 890.32625pt>
+<assets/Capturas Earfit/Tablet/Intervals.png, id=1452, 1081.03876pt x 890.32625pt>
 File: assets/Capturas Earfit/Tablet/Intervals.png Graphic file (type png)
 <use assets/Capturas Earfit/Tablet/Intervals.png>
-Package pdftex.def Info: assets/Capturas Earfit/Tablet/Intervals.png  used on input line 2084.
+Package pdftex.def Info: assets/Capturas Earfit/Tablet/Intervals.png  used on input line 2086.
 (pdftex.def)             Requested size: 324.31413pt x 267.09993pt.
-LaTeX Info: Redefining \. on input line 2088.
-LaTeX Info: Redefining \% on input line 2088.
+LaTeX Info: Redefining \. on input line 2090.
+LaTeX Info: Redefining \% on input line 2090.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2137,18 +2137,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [95 <./assets/Capturas Earfit/Tablet/Menu.png> <./assets/Capturas Earfit/Tablet/Notes.png>]
-<assets/Capturas Earfit/Tablet/Scales.png, id=1452, 1081.03876pt x 890.32625pt>
+<assets/Capturas Earfit/Tablet/Scales.png, id=1460, 1081.03876pt x 890.32625pt>
 File: assets/Capturas Earfit/Tablet/Scales.png Graphic file (type png)
 <use assets/Capturas Earfit/Tablet/Scales.png>
-Package pdftex.def Info: assets/Capturas Earfit/Tablet/Scales.png  used on input line 2091.
+Package pdftex.def Info: assets/Capturas Earfit/Tablet/Scales.png  used on input line 2093.
 (pdftex.def)             Requested size: 324.31413pt x 267.09993pt.
-<assets/Capturas Earfit/Tablet/Piano.png, id=1453, 1081.03876pt x 890.32625pt>
+<assets/Capturas Earfit/Tablet/Piano.png, id=1461, 1081.03876pt x 890.32625pt>
 File: assets/Capturas Earfit/Tablet/Piano.png Graphic file (type png)
 <use assets/Capturas Earfit/Tablet/Piano.png>
-Package pdftex.def Info: assets/Capturas Earfit/Tablet/Piano.png  used on input line 2098.
+Package pdftex.def Info: assets/Capturas Earfit/Tablet/Piano.png  used on input line 2100.
 (pdftex.def)             Requested size: 324.31413pt x 267.09993pt.
-LaTeX Info: Redefining \. on input line 2102.
-LaTeX Info: Redefining \% on input line 2102.
+LaTeX Info: Redefining \. on input line 2104.
+LaTeX Info: Redefining \% on input line 2104.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2158,18 +2158,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [96 <./assets/Capturas Earfit/Tablet/Intervals.png> <./assets/Capturas Earfit/Tablet/Scales.png>]
-<assets/Capturas Earfit/Tablet/About1.png, id=1460, 1081.03876pt x 890.32625pt>
+<assets/Capturas Earfit/Tablet/About1.png, id=1468, 1081.03876pt x 890.32625pt>
 File: assets/Capturas Earfit/Tablet/About1.png Graphic file (type png)
 <use assets/Capturas Earfit/Tablet/About1.png>
-Package pdftex.def Info: assets/Capturas Earfit/Tablet/About1.png  used on input line 2105.
+Package pdftex.def Info: assets/Capturas Earfit/Tablet/About1.png  used on input line 2107.
 (pdftex.def)             Requested size: 324.31413pt x 267.09993pt.
-<assets/Capturas Earfit/Tablet/About2.png, id=1461, 1081.03876pt x 890.32625pt>
+<assets/Capturas Earfit/Tablet/About2.png, id=1469, 1081.03876pt x 890.32625pt>
 File: assets/Capturas Earfit/Tablet/About2.png Graphic file (type png)
 <use assets/Capturas Earfit/Tablet/About2.png>
-Package pdftex.def Info: assets/Capturas Earfit/Tablet/About2.png  used on input line 2112.
+Package pdftex.def Info: assets/Capturas Earfit/Tablet/About2.png  used on input line 2114.
 (pdftex.def)             Requested size: 324.31413pt x 267.09993pt.
-LaTeX Info: Redefining \. on input line 2116.
-LaTeX Info: Redefining \% on input line 2116.
+LaTeX Info: Redefining \. on input line 2118.
+LaTeX Info: Redefining \% on input line 2118.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2179,18 +2179,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [97 <./assets/Capturas Earfit/Tablet/Piano.png> <./assets/Capturas Earfit/Tablet/About1.png>]
-<assets/Capturas Earfit/PC/Menu.png, id=1468, 1397.22pt x 890.32625pt>
+<assets/Capturas Earfit/PC/Menu.png, id=1476, 1397.22pt x 890.32625pt>
 File: assets/Capturas Earfit/PC/Menu.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/Menu.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/Menu.png  used on input line 2121.
+Package pdftex.def Info: assets/Capturas Earfit/PC/Menu.png  used on input line 2123.
 (pdftex.def)             Requested size: 391.21893pt x 249.28964pt.
-<assets/Capturas Earfit/PC/Notes.png, id=1469, 1397.22pt x 890.32625pt>
+<assets/Capturas Earfit/PC/Notes.png, id=1477, 1397.22pt x 890.32625pt>
 File: assets/Capturas Earfit/PC/Notes.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/Notes.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/Notes.png  used on input line 2128.
+Package pdftex.def Info: assets/Capturas Earfit/PC/Notes.png  used on input line 2130.
 (pdftex.def)             Requested size: 391.21893pt x 249.28964pt.
-LaTeX Info: Redefining \. on input line 2132.
-LaTeX Info: Redefining \% on input line 2132.
+LaTeX Info: Redefining \. on input line 2134.
+LaTeX Info: Redefining \% on input line 2134.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2202,15 +2202,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [98 <./assets/Capturas Earfit/Tablet/About2.png> <./assets/Capturas Earfit/PC/Menu.png>]
 File: assets/Capturas Earfit/PC/Intervals.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/Intervals.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/Intervals.png  used on input line 2135.
+Package pdftex.def Info: assets/Capturas Earfit/PC/Intervals.png  used on input line 2137.
 (pdftex.def)             Requested size: 391.21893pt x 249.28964pt.
-<assets/Capturas Earfit/PC/Scales.png, id=1476, 1397.22pt x 890.32625pt>
+<assets/Capturas Earfit/PC/Scales.png, id=1484, 1397.22pt x 890.32625pt>
 File: assets/Capturas Earfit/PC/Scales.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/Scales.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/Scales.png  used on input line 2142.
+Package pdftex.def Info: assets/Capturas Earfit/PC/Scales.png  used on input line 2144.
 (pdftex.def)             Requested size: 391.21893pt x 249.28964pt.
-LaTeX Info: Redefining \. on input line 2146.
-LaTeX Info: Redefining \% on input line 2146.
+LaTeX Info: Redefining \. on input line 2148.
+LaTeX Info: Redefining \% on input line 2148.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2220,18 +2220,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [99 <./assets/Capturas Earfit/PC/Notes.png>]
-<assets/Capturas Earfit/PC/Piano.png, id=1482, 1397.22pt x 890.32625pt>
+<assets/Capturas Earfit/PC/Piano.png, id=1490, 1397.22pt x 890.32625pt>
 File: assets/Capturas Earfit/PC/Piano.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/Piano.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/Piano.png  used on input line 2149.
+Package pdftex.def Info: assets/Capturas Earfit/PC/Piano.png  used on input line 2151.
 (pdftex.def)             Requested size: 391.21893pt x 249.28964pt.
-<assets/Capturas Earfit/PC/About1.png, id=1483, 1397.22pt x 890.32625pt>
+<assets/Capturas Earfit/PC/About1.png, id=1491, 1397.22pt x 890.32625pt>
 File: assets/Capturas Earfit/PC/About1.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/About1.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/About1.png  used on input line 2156.
+Package pdftex.def Info: assets/Capturas Earfit/PC/About1.png  used on input line 2158.
 (pdftex.def)             Requested size: 391.21893pt x 249.28964pt.
-LaTeX Info: Redefining \. on input line 2160.
-LaTeX Info: Redefining \% on input line 2160.
+LaTeX Info: Redefining \. on input line 2162.
+LaTeX Info: Redefining \% on input line 2162.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2241,13 +2241,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [100 <./assets/Capturas Earfit/PC/Scales.png> <./assets/Capturas Earfit/PC/Piano.png>]
-<assets/Capturas Earfit/PC/About2.png, id=1490, 1397.22pt x 890.32625pt>
+<assets/Capturas Earfit/PC/About2.png, id=1498, 1397.22pt x 890.32625pt>
 File: assets/Capturas Earfit/PC/About2.png Graphic file (type png)
 <use assets/Capturas Earfit/PC/About2.png>
-Package pdftex.def Info: assets/Capturas Earfit/PC/About2.png  used on input line 2163.
+Package pdftex.def Info: assets/Capturas Earfit/PC/About2.png  used on input line 2165.
 (pdftex.def)             Requested size: 391.21893pt x 249.28964pt.
-LaTeX Info: Redefining \. on input line 2169.
-LaTeX Info: Redefining \% on input line 2169.
+LaTeX Info: Redefining \. on input line 2171.
+LaTeX Info: Redefining \% on input line 2171.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2265,8 +2265,8 @@ Ap\'{e}ndice F.
 [103
 
 ]
-LaTeX Info: Redefining \. on input line 2249.
-LaTeX Info: Redefining \% on input line 2249.
+LaTeX Info: Redefining \. on input line 2251.
+LaTeX Info: Redefining \% on input line 2251.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2288,22 +2288,22 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
  )
 (\end occurred inside a group at level 3)
 
-### simple group (level 3) entered at line 1553 ({)
+### simple group (level 3) entered at line 1555 ({)
 ### semi simple group (level 2) entered at line 361 (\begingroup)
 ### semi simple group (level 1) entered at line 244 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17445 strings out of 478927
- 304342 string characters out of 2852535
- 675242 words of memory out of 3000000
- 34476 multiletter control sequences out of 15000+600000
+ 17450 strings out of 478927
+ 304431 string characters out of 2852535
+ 675320 words of memory out of 3000000
+ 34479 multiletter control sequences out of 15000+600000
  415866 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,81p,610b,812s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\alber\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX/fonts/type1/urw/bookman/ubkd8a.pfb>
-Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (118 pages, 11924864 bytes).
+Output written on "c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf" (118 pages, 11927325 bytes).
 PDF statistics:
- 1656 PDF objects out of 1728 (max. 8388607)
- 389 named destinations out of 1000 (max. 500000)
+ 1665 PDF objects out of 1728 (max. 8388607)
+ 391 named destinations out of 1000 (max. 500000)
  1194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -36,14 +36,15 @@ J.~D. Lopera, ``Introducción al entrenamiento auditivo,'' 2014. [Online].
 
 \bibitem{oidoAbsRel}
 \BIBentryALTinterwordspacing
-C.~T. Flix, ``El oído musical,'' \emph{Research Gate}, 2003. [Online].
+C.~T. Flix, ``El oído musical,'' \emph{ResearchGate}, 2003. [Online].
   Available:
   \url{https://www.researchgate.net/publication/46772334_El_oido_musical}
 \BIBentrySTDinterwordspacing
 
 \bibitem{tonegym1}
 \BIBentryALTinterwordspacing
-ToneGym, ``Tonegym.'' [Online]. Available: \url{https://www.tonegym.co/}
+ToneGym, ``Ear training for musicians.'' [Online]. Available:
+  \url{https://www.tonegym.co/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{tonegym2}
@@ -60,7 +61,8 @@ ToneGym, ``Tonegym.'' [Online]. Available: \url{https://www.tonegym.co/}
 
 \bibitem{tonedear1}
 \BIBentryALTinterwordspacing
-TonedEar, ``Tonedear.'' [Online]. Available: \url{https://tonedear.com/}
+TonedEar, ``Ear training practice.'' [Online]. Available:
+  \url{https://tonedear.com/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{tonedear2}
@@ -71,7 +73,7 @@ TonedEar, ``Tonedear.'' [Online]. Available: \url{https://tonedear.com/}
 
 \bibitem{earmaster1}
 \BIBentryALTinterwordspacing
-EarMaster, ``Earmaster.'' [Online]. Available:
+EarMaster, ``Conviértete en un mejor músico.'' [Online]. Available:
   \url{https://www.earmaster.com/es/}
 \BIBentrySTDinterwordspacing
 
@@ -87,6 +89,19 @@ D.~P. Gámir, ``Cómo se aplican las metodologías design-thinking, lean, agile
   y growth hacking de manera eficiente,'' \emph{Emprende a Conciencia}, 2017.
   [Online]. Available:
   \url{https://www.emprendeaconciencia.com/blog/como-se-aplican-las-metodologas-design-thinking-lean-agile-y-growth-hacking}
+\BIBentrySTDinterwordspacing
+
+\bibitem{desingThinking1}
+\BIBentryALTinterwordspacing
+Dinngo, ``Design thinking en español.'' [Online]. Available:
+  \url{https://www.designthinking.es/inicio/index.php}
+\BIBentrySTDinterwordspacing
+
+\bibitem{desingThinking2}
+\BIBentryALTinterwordspacing
+D.~A. Carrasco, ``Despierta a tu creativo en 5 etapas,'' \emph{ENAE Business
+  School}, 2020. [Online]. Available:
+  \url{https://www.enae.es/blog/despierta-tu-creativo-en-5-etapas}
 \BIBentrySTDinterwordspacing
 
 \bibitem{reactHooks}
