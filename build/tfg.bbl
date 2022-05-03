@@ -21,6 +21,25 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{entrenamientoAutitivo0}
+\BIBentryALTinterwordspacing
+Joan, ``Entrena tus oídos,'' \emph{LANDR}, 2018. [Online]. Available:
+  \url{https://blog.landr.com/es/entrena-tus-oidos-las-8-mejores-aplicaciones-para-mejorar-tus-habilidades-de-escucha/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{entrenamientoAutitivo3}
+\BIBentryALTinterwordspacing
+J.~D. Lopera, ``Introducción al entrenamiento auditivo,'' 2014. [Online].
+  Available:
+  \url{https://www.ladomicilio.com/es/cursos-de-musica/entrenamiento-auditivo/introduccion-entrenamiento-auditivo}
+\BIBentrySTDinterwordspacing
+
+\bibitem{oidoAbsRel}
+\BIBentryALTinterwordspacing
+C.~T. Flix, ``El oído musical.'' [Online]. Available:
+  \url{http://diposit.ub.edu/dspace/bitstream/2445/11525/1/EL%20OIDO%20MUSICAL.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{reactHooks}
 \BIBentryALTinterwordspacing
 React, \emph{Presentando Hooks}. [Online]. Available:
