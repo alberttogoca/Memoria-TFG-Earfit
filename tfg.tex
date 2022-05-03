@@ -403,6 +403,7 @@ En la actualidad ya existen algunas aplicaciones que contemplan el entrenamiento
 \subsection{ToneGym}
 
 Esta aplicación cuenta con los ejercicios clásicos de entrenamiento musical y un menú siempre visible a la izquierda para que puedas moverte entre ellos fácilmente (ver figura \ref{fig:ToneGym}). Cuando aciertas la respuesta en un ejercicio recibes feedback del botón mediante sonido, el botón se vuelve verde unos segundos y automáticamente se pasa al siguiente sonido, lo que agiliza la práctica.
+\cite{tonegym1}
 
 \begin{figure}[H] 
     \includegraphics[width=0.9\textwidth]{Estado del Arte/tonegym}
@@ -412,6 +413,7 @@ Esta aplicación cuenta con los ejercicios clásicos de entrenamiento musical y 
 \end{figure}
 
 Sin embargo, lo primero que vemos al entrar en la aplicación es una landing page en la que si pulsas Lets Start Training nos lleva a crearnos una cuenta en lugar de a los ejercicios. Esto es algo que echa para atrás a probar una aplicación que no conoces. 
+\cite{tonegym2}
 
 \begin{comment}
 \begin{figure}[H]
@@ -428,10 +430,12 @@ Sin embargo, lo primero que vemos al entrar en la aplicación es una landing pag
 \end{comment}
 
 La sección de ejercicios esta un poco escondida y hay que deslizar hacia abajo para encontrarla. Aunque el diseño está bastante bien, la personalización de los ejercicios es nula. Además, una vez hayas fallado en la respuesta no se te permite continuar probando. Por último, no incorpora ninguna opción para cambiar el instrumento que suena.
+\cite{tonegym3}
 
 \subsection{TonedEar}
 
 Esta aplicación es la que más se parece a lo que queremos construir (ver figura \ref{fig:tonedear}). Contiene varios tipos de ejercicios como identificación de intervalos, escalas, etc. Permite la personalización de los ejercicios mediante un panel a la derecha, aunque no es inmediato. Y ofrece la posibilidad de continuar con el ejercicio aunque falles en la primera respuesta. Además, es una aplicación web gratuita, sencilla, fácil de entender y usar.
+\cite{tonedear1}
 
 \begin{figure}[H] 
     \includegraphics[width=0.9\textwidth]{Estado del Arte/tonedear}
@@ -452,11 +456,13 @@ Algo que se hace notar analizando el código de la aplicación es que en el ejer
 \end{comment}
 
 Por último, la aplicación permite personalizar los ejercicios pero no permite cambiar entre instrumentos. El instrumento que suena siempre al pulsar el botón de pregunta es un piano.
+\cite{tonedear2}
 
 \subsection{EarMaster}
 
 Parece ser la más completa y elaborada de todas con más de 2500 ejercicios. Contiene ejercicios para que puedas reconocer, transcribir, leer, cantar y tocar: Intervalos, acordes, progresiones armónicas, escalas, ritmos y melodías.
 (ver figura \ref{fig:earmaster})
+\cite{earmaster1}
 
 \begin{figure}[H] 
     \includegraphics[width=0.75\textwidth]{Estado del Arte/earmaster}
@@ -466,6 +472,7 @@ Parece ser la más completa y elaborada de todas con más de 2500 ejercicios. Co
 \end{figure}
 
 Sin embargo, su contenido gratuito sólo consta de identificación de intervalos y acordes. Para poder hacer uso de la aplicación completa ofrece precios desde los 59,95€ hasta los 99,95€ (ver figura \ref{fig:earmasterprices}). Aparte, necesitas tener la aplicación instalada para utilizarla, no es una aplicación web. Todo esto resulta en que el usuario al que nos estamos enfocando no pueda usarla. Esta aplicación parece estar más destinada a centros educativos que puedan hacerse cargo de la licencia.
+\cite{earmaster2}
 
 \begin{figure}[H] 
     \includegraphics[width=0.85\textwidth]{Estado del Arte/earmasterprices}
@@ -488,6 +495,7 @@ Subobjetivos:
 \section{Estructura del documento}
 
 Este trabajo se centra en el siguiente proceso combinando de Design Thinking, Lean Startup y Metodologías Ágiles para la creación de un producto mínimo viable (ver figura \ref{fig:LeanDesignAgile}). De esta manera conseguimos un proceso que parte de la nada, se centra en el usuario, gestiona el desarrollo, integra el error y es iterable.
+\cite{estructura}
 
 \begin{figure}[H] 
     \includegraphics[scale=0.46]{LeanDesignAgile}
@@ -499,9 +507,9 @@ Este trabajo se centra en el siguiente proceso combinando de Design Thinking, Le
 Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 
 \begin{itemize}
-    \item \textbf{Análisis y Diseño:} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y los prototipos de la aplicación.
-    \item \textbf{Metodologías Ágiles:} Este capítulo recoge lo relacionado para llevar a cabo la gestión y desarrollo del software utilizando Scrum y prácticas DevOps. Aquí se puede encontrar cómo se ha realizado la gestión, especificación de requisitos, integración continua y despliegue continuo.
-    \item \textbf{Descripción Informática:} Este capítulo se centra en lo relacionado con la implementación de la solución. Aquí se puede encontrar las tecnologías usadas, los detalles de implementación del código, buenas prácticas y testing.
+    \item \textbf{Análisis y Diseño:} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y los prototipos de la aplicación. (Ver capítulo \ref{sec:diseño}).
+    \item \textbf{Metodologías Ágiles:} Este capítulo recoge lo relacionado para llevar a cabo la gestión y desarrollo del software utilizando Scrum y prácticas DevOps. Aquí se puede encontrar cómo se ha realizado la gestión, especificación de requisitos, integración continua y despliegue continuo. (Ver capítulo \ref{sec:agile}).
+    \item \textbf{Descripción Informática:} Este capítulo se centra en lo relacionado con la implementación de la solución. Aquí se puede encontrar las tecnologías usadas, los detalles de implementación del código, buenas prácticas y testing. (Ver capítulo \ref{sec:desarrollo}).
 \end{itemize}
 
 
@@ -512,7 +520,7 @@ Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 Contenidos Principales %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Análisis y Diseño}
-
+\label{sec:diseño}
 Para encontrar una solución viable al problema que se plantea y que aporte un valor real a los usuarios, necesitamos de algún método que nos permita diseñar una solución de manera efectiva bajo unas condiciones de incertidumbre.
 
 Para crear esta propuesta de valor, se puede utilizar \textbf{Design Thinking} como método de generación de ideas innovadoras y \textbf{Lean Startup} como método de aprendizaje validado para la puesta en marcha de la solución.
@@ -611,7 +619,7 @@ Para no extender este trabajo se puede encontrar una explicación detalla de com
 Después haber establecido nuestra hipótesis y diseñado un producto mínimo viable usando \textbf{Design Thinking} pasamos a desarrollarlo aplicando \textbf{Metodologías Ágiles}.
 
 \chapter{Metodologías Ágiles}
-
+\label{sec:agile}
 Para gestionar el desarrollo del software de manera exitosa necesitamos asegurar un proceso visible, controlado, repetitivo, eficiente y predecible. Necesitamos adaptar las formas de trabajo a las necesidades del proyecto, prolongando respuestas rápidas y flexibles para acomodar el desarrollo.
 
 La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste. (Ver apéndice \ref{sec:ManifiestoAgil}).
@@ -770,6 +778,7 @@ El flujo consistía en que cada vez que se actualizaba el repositorio mediante u
 
 
 \chapter{Descripción Informática}
+\label{sec:desarrollo}
 
 Para desarrollar una aplicación de calidad es necesario el uso de unas guías de estándares de calidad de código, un moderno stack tecnológico, así como buenas prácticas. A continuación se encuentra una detallada descripción informática incluyendo \textbf{tecnologías, diseño, implementación y pruebas}.
 
