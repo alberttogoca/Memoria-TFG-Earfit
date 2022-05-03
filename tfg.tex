@@ -366,7 +366,7 @@ En este capítulo se explica en qué consiste el entrenamiento auditivo para que
 
 \section{Entrenamiento Auditivo}
 
-Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca desarrollarán toda su potencia. Los músicos, productores y DJs pueden beneficiarse del entrenamiento auditivo, ya que puede resultar muy útil a la hora de mezclar música y componer canciones.
+Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca se desarrollarán por completo. Los músicos, productores y DJs pueden beneficiarse del entrenamiento auditivo, ya que puede resultar muy útil a la hora de mezclar música y componer canciones.
 
 El entrenamiento auditivo es el proceso de identificar los elementos de la música en su forma más sencilla y conectarlos con la forma en que sentimos el sonido físicamente. Tradicionalmente, el entrenamiento auditivo incluye habilidades como identificar notas, intervalos y escalas. 
 
@@ -496,7 +496,7 @@ Este trabajo se centra en el siguiente proceso combinando de Design Thinking, Le
 Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 
 \begin{itemize}
-    \item \textbf{Ideación y Diseño:} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y los prototipos de la aplicación.
+    \item \textbf{Análisis y Diseño:} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y los prototipos de la aplicación.
     \item \textbf{Metodologías Ágiles:} Este capítulo recoge lo relacionado para llevar a cabo la gestión y desarrollo del software utilizando Scrum y prácticas DevOps. Aquí se puede encontrar cómo se ha realizado la gestión, especificación de requisitos, integración continua y despliegue continuo.
     \item \textbf{Descripción Informática:} Este capítulo se centra en lo relacionado con la implementación de la solución. Aquí se puede encontrar las tecnologías usadas, los detalles de implementación del código, buenas prácticas y testing.
 \end{itemize}
@@ -508,7 +508,7 @@ Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 Contenidos Principales %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Ideación y Diseño}
+\chapter{Análisis y Diseño}
 
 Para encontrar una solución viable al problema que se plantea y que aporte un valor real a los usuarios, necesitamos de algún método que nos permita diseñar una solución de manera efectiva bajo unas condiciones de incertidumbre.
 
@@ -570,7 +570,7 @@ Primero, utilizamos la técnica \textbf{MoSCoW} para establecer las prioridades 
     \label{fig:MoSCoW}
 \end{figure}
 
-Después, para crear nuestro \textbf{producto mínimo viable} o MVP decidimos centrarnos en desarrollar lo que debe tener (Must have) y más tarde lo que debería tener (Should have).
+Después, para crear nuestro \textbf{producto mínimo viable} o decidimos centrarnos en desarrollar lo que debe tener (Must have) y más tarde lo que debería tener (Should have).
 
 Por último, una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el prototipo teniendo en cuenta la filosofía de diseño \textbf{Mobile First}. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. 
 
@@ -1295,7 +1295,7 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
     \label{fig:Components}
 \end{figure}
 
-\subsubsection{Funcionamiento}
+\subsection{Funcionamiento}
 
 En las aplicaciones de React, si un componente tiene o no estado se considera un detalle de implementación del componente que puede cambiar con el tiempo.
 
@@ -1454,7 +1454,7 @@ El objetivo de estas pruebas es evaluar las suposiciones hechas en las especific
 
 Dado que es una aplicación pequeña y el desarrollo de \textbf{pruebas automáticas} tiene asociado un coste de implementación y mantenimiento, hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. Debido a esto, las pruebas se realizaron de forma manual. 
 
-En cada tipo de prueba el SUT (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado probar todos los test cases o casos de prueba posibles.
+En cada tipo de prueba el SUT (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado abordar todos los test cases o casos de prueba posibles.
 
 \subsubsection{Pruebas Unitarias}
 
@@ -1646,17 +1646,17 @@ Esta memoria contiene todo lo necesario para seguir con el trabajo aún si no se
 Algunas de las \textbf{posibles extensiones} de la aplicación, que no se llevaron a cabo por falta de tiempo son:
 
 \begin{itemize}
-    \item Las \textbf{funcionalidades} que no se establecieron cómo prioridad en la etapa de diseño. Éstas se pueden encontrar en la figura de la técnica de MosCow o en el Mindmap de Design Thinking: ejercicio de acordes, ritmos, progresiones, modo nocturno y varios idiomas.
-    \item Implementación de \textbf{test automáticos}. Debido al coste de aprender, implementar y mantener estos test automáticos de los componentes, se optó por realizarlos manuales. Se podrían añadir estos test al flujo de desarrollo en un futuro.
+    \item \textbf{Funcionalidades} que no se establecieron cómo prioridad en la etapa de diseño. Éstas se pueden encontrar en la figura \ref{fig:MoSCoW} de la técnica de MosCow o en la figura \ref{fig:Mindmap} del Mindmap de Design Thinking: ejercicio de acordes, ritmos, progresiones, modo nocturno y varios idiomas.
+    \item \textbf{Cobertura de código} y test automáticos. Debido al coste de aprender, implementar y mantener estos test automáticos de los componentes, se optó por realizarlos manuales. Se podrían añadir estos test al flujo de desarrollo en un futuro.
     \item \textbf{Software libre vs Negocio}. De momento esta aplicación es gratuita para todo el mundo. Se podría plantear alguna forma de monetización si se llega a un punto en que la aplicación sea lo suficientemente relevante.
 \end{itemize}
 
 \section{Opinión Personal}
 En general este trabajo ha sido demasiado ambicioso por mi parte. El tener que aprender prácticamente todo desde cero me ha servido mucho para crecer pero también me ha limitado a la hora de desarrollar la aplicación.
 
-En cuanto al tiempo de desarrollo de la aplicación no fue muy elevado si no se cuenta con la fase de aprender todas estas tecnologías. Lo que más tiempo ha llevado ha sido realizar esta memoria explicando todos estos conceptos que no se dan en la carrera y me siento en la obligación de explicar por si no se entiende la manera ágil en la que se han hecho las cosas.
+El tiempo de desarrollo de la aplicación no fue muy elevado si no se cuenta la fase de aprendizaje de todas las metodologías y tecnologías empleadas. En cambio, lo que más tiempo llevó fue realizar esta memoria explicando todos estos conceptos que no se dan en la carrera y me siento en la obligación de explicar, por si no se entiende la manera ágil en la que se han hecho las cosas.
 
-En conclusión, estoy contento con el resultado de la aplicación y la forma moderna en que se ha hecho. Y espero que la memoria sea lo suficente completa y se pueda entender todo sin haberlo visto antes.
+En conclusión, estoy contento con el resultado de la aplicación y la forma moderna en que se ha desarrollado. Y espero que la memoria sea lo suficente completa y se pueda entender todo sin conocimientos previos.
 
 \blankpage
 
@@ -2010,12 +2010,14 @@ Por lo que habría que seguir un proceso de innovación sostenida, que se basar�
     \label{fig:EscalasDireccion}
 \end{figure}
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.52]{Scrum/User Stories/UserStoryMapRotate}
     \caption{User Story Map con User Activities, User Task y User Stories.}
     \label{fig:UserStoryMapRotate}
 \end{figure}
+\end{comment}
 
 \chapter{Capturas de la Aplicación}
 \label{sec:Capturas}

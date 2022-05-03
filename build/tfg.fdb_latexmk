@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/tfg"] 1651585970 "build/tfg.aux" "build/tfg.bbl" "build/tfg" 1651587363
+["bibtex build/tfg"] 1651592260 "build/tfg.aux" "build/tfg.bbl" "build/tfg" 1651592260
   "./IEEEtran.bst" 1622625814 59215 bc5380b3434a66b895bbc75d3d380540 ""
-  "bibliografia.bib" 1650558427 2180 791e4b4fe6d739ee9bd301ae60821dfb ""
-  "build/tfg.aux" 1651587360 47553 5001b187dc034e5beb4571ea33a7c619 "pdflatex"
+  "bibliografia.bib" 1651592258 2857 c10c8ff54a5d42a933de6a11483acca0 ""
+  "build/tfg.aux" 1651590985 47238 0b524fc58093e52e79457800990d0607 "pdflatex"
   (generated)
   "build/tfg.bbl"
   "build/tfg.blg"
-["pdflatex"] 1651587334 "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" "build/tfg.pdf" "tfg" 1651587363
+["pdflatex"] 1651590956 "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" "build/tfg.pdf" "tfg" 1651592260
   "C:/Users/alber/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1643745508 14064 764a1724b1106fa6850f1f1e3c6dc47c ""
   "C:/Users/alber/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1633631920 9715384 2987d9db0bf343c977b005dfae6ee9b6 ""
   "C:/Users/alber/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1650558688 84158 d77284a6843bde1e4b9764f09fb2e89e ""
@@ -221,7 +221,6 @@
   "assets/Scrum/User Stories/NotasSelectorEscalas.png" 1647882476 52048 f541b66100b98fe67b7facc7ba5cc228 ""
   "assets/Scrum/User Stories/Piano.png" 1647882400 44641 76b3b07ab49720ee9d9c4690d7b504b3 ""
   "assets/Scrum/User Stories/ProductBacklog.png" 1650986709 177620 ba71c613cfeb660e138f60bb7ab023a5 ""
-  "assets/Scrum/User Stories/UserStoryMapRotate.jpg" 1650986884 104691 643a9b3586d74af74cc512da2a59b5c3 ""
   "assets/Scrum/UserStory.png" 1643211324 54279 d9ffc267569093341ceb352b0eac3b35 ""
   "assets/Scrum/UserStoryMap.jpg" 1651253720 113227 616ab1e40dc26efdb7aa9adcb84693c0 ""
   "assets/TypeScript/TypeScript.png" 1649847705 74104 229438f51b29dc88b554ff3f8e196445 ""
@@ -232,18 +231,18 @@
   "assets/Vercel/RealExperienceScore.png" 1647870566 68807 bf92c8fd75f4cc470488507814e4a81a ""
   "assets/Vercel/Vercel.png" 1649846186 4001 48fe3080c452eee3c0810eed1138d6af ""
   "assets/Vercel/VercelAnalyticsResume.png" 1647870552 8829 875bc4a51ea60e4f049384d02241d9a7 ""
-  "build/tfg.aux" 1651587360 47553 5001b187dc034e5beb4571ea33a7c619 "pdflatex"
-  "build/tfg.bbl" 1651585971 1487 07ef8acd417e8c8f2af31a7de4db3872 "bibtex build/tfg"
-  "build/tfg.lof" 1651587360 14935 9efaef2db295b2619eef41236fe73519 "pdflatex"
-  "build/tfg.out" 1651587360 10953 3951091132737764a2ebec5eff8b2cfe "pdflatex"
-  "build/tfg.toc" 1651587360 8426 4b83771778ae1458b2888a47ae0fad2b "pdflatex"
-  "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" 1651587330 132025 3811a7e8cd4429c5997da74afbc2dde9 ""
+  "build/tfg.aux" 1651590985 47238 0b524fc58093e52e79457800990d0607 "pdflatex"
+  "build/tfg.bbl" 1651592260 1487 07ef8acd417e8c8f2af31a7de4db3872 "bibtex build/tfg"
+  "build/tfg.lof" 1651590985 14780 2ea5c9b97e62f80e0d844a11b3af203f "pdflatex"
+  "build/tfg.out" 1651590985 11085 0424dc01233baadaea97467635dd72ea "pdflatex"
+  "build/tfg.toc" 1651590985 8448 0fda8c0c67d5dea39e4b8c7c701bf3a8 "pdflatex"
+  "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" 1651590952 132125 dc657fc8f5eeb6a313646750934aeb90 ""
   "logoURJC.pdf" 1622625814 5182 651875f76151b177b4add295405456c2 ""
-  "tfg.tex" 1651587330 132025 3811a7e8cd4429c5997da74afbc2dde9 ""
+  "tfg.tex" 1651590952 132125 dc657fc8f5eeb6a313646750934aeb90 ""
   (generated)
-  "build/tfg.lof"
   "build/tfg.out"
-  "build/tfg.log"
-  "build/tfg.toc"
+  "build/tfg.lof"
   "build/tfg.pdf"
   "build/tfg.aux"
+  "build/tfg.log"
+  "build/tfg.toc"
