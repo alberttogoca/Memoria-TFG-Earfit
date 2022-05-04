@@ -21,13 +21,13 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{entrenamientoAutitivo0}
+\bibitem{entrenamientoAutitivo1}
 \BIBentryALTinterwordspacing
 J.~Plana, ``Entrena tus oídos,'' \emph{LANDR}, 2018. [Online]. Available:
   \url{https://blog.landr.com/es/entrena-tus-oidos-las-8-mejores-aplicaciones-para-mejorar-tus-habilidades-de-escucha/}
 \BIBentrySTDinterwordspacing
 
-\bibitem{entrenamientoAutitivo3}
+\bibitem{entrenamientoAutitivo2}
 \BIBentryALTinterwordspacing
 J.~D. Lopera, ``Introducción al entrenamiento auditivo,'' 2014. [Online].
   Available:
@@ -91,9 +91,16 @@ D.~P. Gámir, ``Cómo se aplican las metodologías design-thinking, lean, agile
   \url{https://www.emprendeaconciencia.com/blog/como-se-aplican-las-metodologas-design-thinking-lean-agile-y-growth-hacking}
 \BIBentrySTDinterwordspacing
 
+\bibitem{analisis}
+\BIBentryALTinterwordspacing
+ContentLab, ``Lean startup vs. design thinking: Ventajas y desventajas,''
+  \emph{Gestión}, 2019. [Online]. Available:
+  \url{https://gestion.pe/especial/businessstyle/innovacion/lean-startup-vs-design-thinking-ventajas-y-desventajas-noticia-1994455}
+\BIBentrySTDinterwordspacing
+
 \bibitem{desingThinking1}
 \BIBentryALTinterwordspacing
-Dinngo, ``Design thinking en español.'' [Online]. Available:
+D.~L. de~Innovación, ``Design thinking en español.'' [Online]. Available:
   \url{https://www.designthinking.es/inicio/index.php}
 \BIBentrySTDinterwordspacing
 
@@ -104,10 +111,324 @@ D.~A. Carrasco, ``Despierta a tu creativo en 5 etapas,'' \emph{ENAE Business
   \url{https://www.enae.es/blog/despierta-tu-creativo-en-5-etapas}
 \BIBentrySTDinterwordspacing
 
-\bibitem{reactHooks}
+\bibitem{mindmap}
+\BIBentryALTinterwordspacing
+S.~Gibbons, ``Cognitive maps, mind maps, and concept maps: Definitions,''
+  \emph{NNgroup}, 2019. [Online]. Available:
+  \url{https://www.nngroup.com/articles/cognitive-mind-concept/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{moscow}
+\BIBentryALTinterwordspacing
+------, ``5 prioritization methods in ux roadmapping,'' \emph{NNgroup}, 2021.
+  [Online]. Available:
+  \url{https://www.nngroup.com/articles/prioritization-methods/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{mobilefirst}
+\BIBentryALTinterwordspacing
+QualityDevs, ``Qué es «mobile first» y por qué es importante,'' 2019.
+  [Online]. Available:
+  \url{https://www.qualitydevs.com/2019/02/07/que-es-mobile-first-y-por-que-es-importante/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{leanstartup1}
+
+
+\bibitem{leanstartup2}
+
+
+\bibitem{agile}
+\BIBentryALTinterwordspacing
+S.~G. Sotomayor, ``Las metodologías ágiles más utilizadas y sus ventajas
+  dentro de la empresa,'' \emph{IEBS}, 2021. [Online]. Available:
+  \url{https://www.iebschool.com/blog/que-son-metodologias-agiles-agile-scrum/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{scrum1}
+\BIBentryALTinterwordspacing
+J.~S. Ken~Schwaber, \emph{The Definitive Guide to Scrum: The Rules of the
+  Game}, 2020. [Online]. Available:
+  \url{https://scrumguides.org/scrum-guide.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{scrum2}
+\BIBentryALTinterwordspacing
+C.~Drumond, ``Scrum: Aprende a utilizar scrum con lo mejor de él,''
+  \emph{Atlassian}. [Online]. Available:
+  \url{https://www.atlassian.com/es/agile/scrum}
+\BIBentrySTDinterwordspacing
+
+\bibitem{userStoryMap1}
+\BIBentryALTinterwordspacing
+G.~H. Sola, ``¿cómo hacer un user story mapping?'' \emph{Scrum.org}.
+  [Online]. Available:
+  \url{https://www.scrum.org/resources/blog/como-hacer-un-user-story-mapping}
+\BIBentrySTDinterwordspacing
+
+\bibitem{userStoryMap2}
+\BIBentryALTinterwordspacing
+A.~Kaley, ``Mapping user stories in agile,'' \emph{NNgroup}, 2021. [Online].
+  Available: \url{https://www.nngroup.com/articles/user-story-mapping/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{userStoryMap3}
+\BIBentryALTinterwordspacing
+A.~Alonso, ``5 pasos para construir nuestro user story mapping,''
+  \emph{Medium}, 2019. [Online]. Available:
+  \url{https://adrianalonsodev.medium.com/5-pasos-para-construir-nuestro-user-story-mapping-2674be8aeb60}
+\BIBentrySTDinterwordspacing
+
+\bibitem{scrumboard1}
+\BIBentryALTinterwordspacing
+P.~Galiana, ``Scrum board: qué es y cómo hacer uno,'' \emph{IEBS}, 2021.
+  [Online]. Available:
+  \url{https://www.iebschool.com/blog/scrum-board-que-es-y-como-hacer-uno/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{scrumboard2}
+\BIBentryALTinterwordspacing
+R.~G. Tamarit, ``Product backlog y sprint backlog,'' \emph{Muy Agile}, 2019.
+  [Online]. Available:
+  \url{https://muyagile.com/product-backlog-y-sprint-backlog/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{userstories1}
+\BIBentryALTinterwordspacing
+S.~Mexico, ``Escribiendo historias de usuario,'' \emph{Scrum.mx}, 2018.
+  [Online]. Available: \url{https://scrum.mx/informate/historias-de-usuario}
+\BIBentrySTDinterwordspacing
+
+\bibitem{userstories2}
+\BIBentryALTinterwordspacing
+M.~Rehkopf, ``Historias de usuario con ejemplos y plantilla,''
+  \emph{Atlassian}. [Online]. Available:
+  \url{https://www.atlassian.com/es/agile/project-management/user-stories}
+\BIBentrySTDinterwordspacing
+
+\bibitem{invest}
+\BIBentryALTinterwordspacing
+B.~A.~M. Friend, ``Las mejores historias de usuario invest y smart.'' [Online].
+  Available:
+  \url{https://beagilemyfriend.com/historias-de-usuario-invest-smart/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{devops1}
+\BIBentryALTinterwordspacing
+Microsoft, ``¿qué es devops?'' [Online]. Available:
+  \url{https://azure.microsoft.com/es-es/overview/what-is-devops/#devops-overview}
+\BIBentrySTDinterwordspacing
+
+\bibitem{devops2}
+\BIBentryALTinterwordspacing
+RedHat, ``El concepto de devops.'' [Online]. Available:
+  \url{https://www.redhat.com/es/topics/devops}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ic}
+\BIBentryALTinterwordspacing
+J.~Garzas, ``Aprende a implantar integración continua desde cero,'' 2014.
+  [Online]. Available:
+  \url{https://www.javiergarzas.com/2014/08/implantar-integracion-continua.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{github}
+\BIBentryALTinterwordspacing
+Github, \emph{Github Docs}. [Online]. Available:
+  \url{https://docs.github.com/es/get-started}
+\BIBentrySTDinterwordspacing
+
+\bibitem{git}
+\BIBentryALTinterwordspacing
+B.~S. Scott~Chacon, \emph{Pro Git}. [Online]. Available:
+  \url{https://git-scm.com/book/en/v2}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gitflow}
+\BIBentryALTinterwordspacing
+Atlassian, \emph{Flujo de trabajo de Gitflow}. [Online]. Available:
+  \url{https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow}
+\BIBentrySTDinterwordspacing
+
+\bibitem{dc}
+\BIBentryALTinterwordspacing
+I.~C. Education, ``Despliegue continuo,'' 2019. [Online]. Available:
+  \url{https://www.ibm.com/es-es/cloud/learn/continuous-deployment}
+\BIBentrySTDinterwordspacing
+
+\bibitem{githubActions}
+\BIBentryALTinterwordspacing
+GitHub, \emph{GitHub Actions}. [Online]. Available:
+  \url{https://docs.github.com/es/actions}
+\BIBentrySTDinterwordspacing
+
+\bibitem{vercelNext}
+\BIBentryALTinterwordspacing
+Vercel, \emph{Next.js on Vercel}. [Online]. Available:
+  \url{https://vercel.com/docs/concepts/next.js/overview}
+\BIBentrySTDinterwordspacing
+
+\bibitem{dps}
+\BIBentryALTinterwordspacing
+Nextjs, \emph{Deploying Your Next.js App}. [Online]. Available:
+  \url{https://nextjs.org/learn/basics/deploying-nextjs-app}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nextjs1}
+\BIBentryALTinterwordspacing
+------, \emph{Introduction a Nextjs}. [Online]. Available:
+  \url{https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nextjs2}
+\BIBentryALTinterwordspacing
+------, \emph{Documentación de Nextjs}. [Online]. Available:
+  \url{https://nextjs.org/docs}
+\BIBentrySTDinterwordspacing
+
+\bibitem{react1}
+\BIBentryALTinterwordspacing
+Meta, \emph{Documentación de React}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/getting-started.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{react2}
+\BIBentryALTinterwordspacing
+Drauta, ``¿qué es react y para qué sirve?'' [Online]. Available:
+  \url{https://www.drauta.com/que-es-react-y-para-que-sirve}
+\BIBentrySTDinterwordspacing
+
+\bibitem{vercel1}
+\BIBentryALTinterwordspacing
+Vercel, \emph{Documentación de Vercel}. [Online]. Available:
+  \url{https://vercel.com/docs}
+\BIBentrySTDinterwordspacing
+
+\bibitem{vercelAnalytics}
+\BIBentryALTinterwordspacing
+------, \emph{Vercel Analytics}. [Online]. Available:
+  \url{https://vercel.com/docs/concepts/analytics}
+\BIBentrySTDinterwordspacing
+
+\bibitem{typescript}
+\BIBentryALTinterwordspacing
+Microsoft, \emph{Documentación de TypeScript}. [Online]. Available:
+  \url{https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{typescript2}
+\BIBentryALTinterwordspacing
+J.~L. Chacón, ``Typescript: qué es, diferencias con javascript y por qué
+  aprenderlo.'' [Online]. Available:
+  \url{https://profile.es/blog/que-es-typescript-vs-javascript}
+\BIBentrySTDinterwordspacing
+
+\bibitem{node}
+\BIBentryALTinterwordspacing
+O.~Foundation, \emph{Acerca de Node.js}. [Online]. Available:
+  \url{https://nodejs.org/es/about/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{npm}
+\BIBentryALTinterwordspacing
+NPM, \emph{About NPM}. [Online]. Available:
+  \url{https://docs.npmjs.com/about-npm}
+\BIBentrySTDinterwordspacing
+
+\bibitem{npmyarn}
+\BIBentryALTinterwordspacing
+J.~Salazar, ``Yarn vs. npm, todo lo que necesitas saber,'' \emph{Tekzup}.
+  [Online]. Available: \url{https://tekzup.com/yarn-vs-npm-lo-necesitas-saber/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{yarn}
+\BIBentryALTinterwordspacing
+Yarn, \emph{Introduction to Yarn}. [Online]. Available:
+  \url{https://yarnpkg.com/getting-started}
+\BIBentrySTDinterwordspacing
+
+\bibitem{vscode}
+\BIBentryALTinterwordspacing
+Microsoft, \emph{Documentación de VSCode}. [Online]. Available:
+  \url{https://code.visualstudio.com/docs}
+\BIBentrySTDinterwordspacing
+
+\bibitem{eslint}
+\BIBentryALTinterwordspacing
+O.~Foundation, \emph{Documentación de ESLint}. [Online]. Available:
+  \url{https://eslint.org/docs/about/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{prettier}
+\BIBentryALTinterwordspacing
+Prettier, \emph{Documentación de Prettier}. [Online]. Available:
+  \url{https://prettier.io/docs/en/index.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{reactArchivos}
+\BIBentryALTinterwordspacing
+React, \emph{Estructura de archivos}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/faq-structure.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{tonal}
+\BIBentryALTinterwordspacing
+Tonaljs, \emph{A functional music theory library for Javascript}. [Online].
+  Available: \url{https://github.com/tonaljs/tonal}
+\BIBentrySTDinterwordspacing
+
+\bibitem{soundfont-player}
+\BIBentryALTinterwordspacing
+D.~G. B., \emph{Quick soundfont loader and player for browser}. [Online].
+  Available: \url{https://github.com/danigb/soundfont-player}
+\BIBentrySTDinterwordspacing
+
+\bibitem{react-piano}
+\BIBentryALTinterwordspacing
+K.~Qi, \emph{An interactive piano keyboard for React}. [Online]. Available:
+  \url{https://github.com/kevinsqi/react-piano}
+\BIBentrySTDinterwordspacing
+
+\bibitem{react-use-measure}
+\BIBentryALTinterwordspacing
+Poimandres, \emph{Utility to measure view bounds}. [Online]. Available:
+  \url{https://github.com/pmndrs/react-use-measure}
+\BIBentrySTDinterwordspacing
+
+\bibitem{react-bootstrap}
+\BIBentryALTinterwordspacing
+R.~Bootstrap, \emph{The most popular front-end framework}. [Online]. Available:
+  \url{https://react-bootstrap.github.io/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{next-pwa}
+\BIBentryALTinterwordspacing
+W.~Wang, \emph{Zero Config PWA Plugin for Next.js}. [Online]. Available:
+  \url{https://github.com/shadowwalker/next-pwa}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hooks1}
 \BIBentryALTinterwordspacing
 React, \emph{Presentando Hooks}. [Online]. Available:
   \url{https://es.reactjs.org/docs/hooks-intro.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hooks3}
+\BIBentryALTinterwordspacing
+------, \emph{Construyendo tus propios Hooks}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/hooks-custom.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hooks2}
+\BIBentryALTinterwordspacing
+------, \emph{Un vistazo a los Hooks}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/hooks-overview.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{context1}
+\BIBentryALTinterwordspacing
+------, \emph{Context}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/context.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{webdev}

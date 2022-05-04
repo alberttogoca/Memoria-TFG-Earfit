@@ -1339,6 +1339,11 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.png
@@ -1623,5 +1628,7 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\lasy10.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\lasy10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\urw\bookman\ubkd8a.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\urw\bookman\ubkd8a.pfb
