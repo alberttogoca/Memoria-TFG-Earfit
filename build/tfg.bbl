@@ -377,6 +377,12 @@ Tonaljs, \emph{A functional music theory library for Javascript}. [Online].
   Available: \url{https://github.com/tonaljs/tonal}
 \BIBentrySTDinterwordspacing
 
+\bibitem{webAudioAPI}
+\BIBentryALTinterwordspacing
+M.~W. Docs, \emph{Web Audio API}, Mozilla Corporation. [Online]. Available:
+  \url{https://developer.mozilla.org/es/docs/Web/API/Web_Audio_API}
+\BIBentrySTDinterwordspacing
+
 \bibitem{soundfont-player}
 \BIBentryALTinterwordspacing
 D.~G. B., \emph{Quick soundfont loader and player for browser}. [Online].
@@ -409,7 +415,7 @@ W.~Wang, \emph{Zero Config PWA Plugin for Next.js}. [Online]. Available:
 
 \bibitem{hooks1}
 \BIBentryALTinterwordspacing
-React, \emph{Presentando Hooks}. [Online]. Available:
+Meta, \emph{Presentando Hooks}. [Online]. Available:
   \url{https://es.reactjs.org/docs/hooks-intro.html}
 \BIBentrySTDinterwordspacing
 
@@ -429,6 +435,41 @@ React, \emph{Presentando Hooks}. [Online]. Available:
 \BIBentryALTinterwordspacing
 ------, \emph{Context}. [Online]. Available:
   \url{https://es.reactjs.org/docs/context.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{components1}
+\BIBentryALTinterwordspacing
+------, \emph{Componentes y propiedades}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/components-and-props.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{pwa1}
+\BIBentryALTinterwordspacing
+M.~W. Docs, \emph{Aplicaciones Web Progresivas}, Mozilla Corporation. [Online].
+  Available:
+  \url{https://developer.mozilla.org/es/docs/Web/Progressive_web_apps}
+\BIBentrySTDinterwordspacing
+
+\bibitem{serviceworker}
+\BIBentryALTinterwordspacing
+------, \emph{Service Worker API}, Mozilla Corporation. [Online]. Available:
+  \url{https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API}
+\BIBentrySTDinterwordspacing
+
+\bibitem{manifest}
+\BIBentryALTinterwordspacing
+------, \emph{Web App Manifest}, Mozilla Corporation. [Online]. Available:
+  \url{https://developer.mozilla.org/es/docs/Web/Manifest}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cleancode}
+R.~C. Martin, \emph{Clean Code: A Handbook of Agile Software
+  Craftsmanship}.\hskip 1em plus 0.5em minus 0.4em\relax Pearson.
+
+\bibitem{testing}
+\BIBentryALTinterwordspacing
+M.~M. Canelo, ``Qué es el testing de software.'' [Online]. Available:
+  \url{https://profile.es/blog/que-es-el-testing-de-software/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{webdev}

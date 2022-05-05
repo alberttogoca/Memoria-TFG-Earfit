@@ -507,11 +507,16 @@ Este trabajo se centra en el siguiente proceso combinando de Design Thinking, Le
 Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 
 \begin{itemize}
-    \item \textbf{Análisis y Diseño:} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y los prototipos de la aplicación. (Ver capítulo \ref{sec:diseño}).
+    \item \textbf{Análisis y Diseño:} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y el prototipo de la aplicación. (Ver capítulo \ref{sec:diseño}).
     \item \textbf{Metodologías Ágiles:} Este capítulo recoge lo relacionado para llevar a cabo la gestión y desarrollo del software utilizando Scrum y prácticas DevOps. Aquí se puede encontrar cómo se ha realizado la gestión, especificación de requisitos, integración continua y despliegue continuo. (Ver capítulo \ref{sec:agile}).
     \item \textbf{Descripción Informática:} Este capítulo se centra en lo relacionado con la implementación de la solución. Aquí se puede encontrar las tecnologías usadas, los detalles de implementación del código, buenas prácticas y testing. (Ver capítulo \ref{sec:desarrollo}).
 \end{itemize}
 
+Por último, se pueden encontrar las conclusiones derivadas del trabajo con los objetivos alcanzados y una propuesta para posibles trabajos futuros. Y los apéndices, que complementan la memoria principal con un mayor desarrollo de alguno de sus apartados, capturas de la aplicación e imágenes grandes. (Ver capítulo \ref{sec:conclusiones} y apéndice \ref{sec:apendices}).
+
+%Luego, el capítulo \ref{sec:conclusiones} Conclusiones recoge las conclusiones derivadas del trabajo, los objetivos alcanzados y la propuesta para posibles trabajos futuros. Además, de una pequeña opinión personal.
+%Por último, la sección \ref{sec:apendices} Apéndices tiene como objetivo principal complementar la memoria principal con un mayor desarrollo de alguno de sus apartados.
+%Aquí se puede encontrar más detalles sobre el proceso de Design Thinking y Lean Startup, todos los diseños del prototipo, todas las historias de usuario, todas las capturas de la aplicación y un apartado de limitaciones personales.
 
 % \afterpage{\blankpage} % puede generar problema en índice de contenidos
 % \newpage
@@ -1186,7 +1191,7 @@ A continuación se explican los paquetes de \textbf{Node.js} o librerías usadas
 
 \begin{itemize}
     \item \textbf{Tonaljs:} Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales \cite{tonal}.
-    \item \textbf{Soundfont-player:} Sirve para cargar archivos MIDI.js y reproducir sonidos utilizando la WebAudio API \cite{soundfont-player}. Estos archivos contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos en local ya que en tal caso los buscaría en el siguiente repositorio: \textbf{midi-js-soundfonts} (\url{https://github.com/gleitz/midi-js-soundfonts}).
+    \item \textbf{Soundfont-player:} Sirve para cargar archivos MIDI.js y reproducir sonidos utilizando la WebAudio API \cite{webAudioAPI}. Estos archivos contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos en local ya que en tal caso los buscaría en el siguiente repositorio: \href{https://github.com/gleitz/midi-js-soundfonts}{{\textbf{midi-js-soundfonts}}} \cite{soundfont-player}.
     \item \textbf{Soundfont-wrapper:} Es una librería personalizada para refinar la complejidad de ``soundfont-player'' y simplificar su uso. Proporciona la función ``getSoundfontInstrument'' que devuelve un ``notePlayer'' con funciones para tocar notas. Se encarga de crear el ``audioContext'', gestionar los nodos de audio.
     \item \textbf{React-piano:} Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por Props dos funciones: playNote y stopNote \cite{react-piano}.
     \item \textbf{React-use-measure:} Se usa para conseguir que ``react-piano'' sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano \cite{react-use-measure}.
@@ -1219,9 +1224,9 @@ A continuación se explican los servicios creados para la aplicación. Por comod
 \subsection{Hooks y Context}
 
 Según React: ``Las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y las clases confunden tanto a las personas como a las máquinas.'' 
-\cite{hooks1}
 
 Para resolver estos problemas, Hooks permite usar más de las funciones de \textbf{React sin clases}. Aunque se necesita de cambio de mentalidad para empezar a “pensar en Hooks”. Conceptualmente, los componentes de React siempre han estado más cerca de las funciones. Es por esto por lo que se usan funciones en lugar de clases para guardar el estado de la aplicación.
+\cite{hooks1}
 
 \subsubsection{Hooks}
 
@@ -1283,6 +1288,7 @@ Los componentes permiten separar la interfaz de usuario en piezas independientes
 \end{figure}
 
 Los componentes deben actuar como \textbf{funciones puras}, es decir, no tratar de cambiar sus entradas, y devolver siempre el mismo resultado para las mismas entradas. En consecuencia, las Props deben ser de solo lectura. 
+\cite{components1}
 
 En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componentes de los que se compone la aplicación y que son \textbf{reutilizados entre páginas}.
 
@@ -1380,6 +1386,7 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional del \textbf
 
 \subsection{Progressive Web App}
 Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en Progressive Web App. Con la Progressive Web App, el usuario puede \textbf{instalar la app} en su dispositivo y seguir consultándola, aunque haya perdido la conexión.
+\cite{pwa1}
 
 Para poder llamar PWA a una aplicación web, debe tener las siguientes características:
 
@@ -1400,7 +1407,7 @@ Siendo una PWA, al visitarla cualquier navegador ya nos da la opción de instala
     \label{fig:InstalarPWA}
 \end{figure}
 
-Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está lista para usar (Ver figura \ref{fig:PWA}). Puede usarse sin conexión y en cualquier tamaño de ventana ya que al ser responsiva se adapta. Para desinstalar se puede hacer como una aplicación normal o simplemente pulsando en los tres puntos de la ventana nos da la opción.
+Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está lista para usar (ver figura \ref{fig:PWA}). Puede usarse sin conexión y en cualquier tamaño de ventana ya que al ser responsiva se adapta. Para desinstalar se puede hacer como una aplicación normal o simplemente pulsando en los tres puntos de la ventana nos da la opción.
 
 \begin{figure}[H]
     \centering
@@ -1413,9 +1420,11 @@ Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está list
 
 \subsubsection{Service Worker}
 Se puede encontrar en la carpeta ``public'' con el nombre de \textbf{``sw.js''}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin ``next-pwa'', que permite registrar y generar un service worker optimizado sin apenas configuración. El archivo \textbf{``workbox.js''} también está relacionado con este plugin.
+\cite{serviceworker}
 
 \subsubsection{Manifest}
 Se puede encontrar en la caperta ``public'' con el nombre de \textbf{``manifest.json''}. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
+\cite{manifest}
 
 \textbf{IOS Safari} no implementa manifiestos, por lo que la mayoría de los metadatos de PWA se pueden definir a través de extensiones específicas de Apple para las metaetiquetas. Estos están definidos en el archivo personalizado ``\_app.tsx''.
 
@@ -1446,7 +1455,7 @@ Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden 
 
 \subsubsection{Principios Clean Code}
 
-Los principios de Clean Code nos permiten obtener como resultado un código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principales principios que se han intentado tener presentes a la hora de desarrollar el código son:
+Los principios de Clean Code \cite{cleancode} nos permiten obtener como resultado un código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principales principios que se han intentado tener presentes a la hora de desarrollar el código son:
 
 \begin{compactitem}
     \item Follow Standard Conventions: Seguir convenciones estandarizadas.
@@ -1479,6 +1488,7 @@ Los principios de Clean Code nos permiten obtener como resultado un código limp
 \section{Testing}
 
 El testing de software o \textbf{software QA}, es un proceso para verificar y validar la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad.
+\cite{testing}
 
 \subsection{Pruebas Funcionales}
 
@@ -1642,6 +1652,7 @@ Son una colección de métrica establecidas por Google \cite{webdev} junto con e
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 4 Conclusiones %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusiones}
+\label{sec:conclusiones}
 
 En este capítulo se detallan las conclusiones derivadas del trabajo, los objetivos alcanzados y la propuesta para posibles trabajos futuros. Por último, habrá una pequeña opinión personal que dará cierre a esta memoria.
 \section{Objetivos Alcanzados}
@@ -1730,8 +1741,9 @@ En conclusión, estoy contento con el resultado de la aplicación y la forma mod
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Apendices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \chapter{Proceso de Creación Detallado}
+\label{sec:apendices}
+
 Este apéndice recoge una descripción detallada de lo que no se ha podido incluir en la memoria principal sobre el proceso de creación de la solución. El objetivo principal es complementar el apartado de Lean Startup explicando su proceso de crear, medir, aprender. También incluye un mayor desarrollo para las primeras etapas de Design Thinking. Se espera que estos dos apartados sirvan para entender mejor cómo se han implementado y para qué han servido estas dos metodologías. 
 
 Este apéndice consta de tres secciones:
@@ -1839,7 +1851,8 @@ Lo que pudimos aprender en este continuo proceso de crear, medir, aprender fue l
 \end{itemize}
 
 
-\subsection{Conclusión}
+\subsection{Conclusión} 
+
 Cómo se puede observar gracias a este proceso iterativo de crear, medir, aprender pudimos corregir fallos ágilmente y añadir funcionalidades que ni nos habíamos planteado en un primer momento gracias al feedback de los propios usuarios.
 
 Este proceso es necesario para mantenerse ágiles mientras crecemos. No invertir demasiado en grandes mejoras, sino hacer lotes de pequeñas mejoras más a menudo para aprender más. Lo que lleva a un circulo de interacción más rápido ya que puedes detectar problemas de calidad y tener mayor feedback sin tener que esperar a que el trabajo este hecho lo que propicia a que haya menos trabajo que rehacer.
