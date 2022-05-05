@@ -512,11 +512,7 @@ Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
     \item \textbf{Descripción Informática:} Este capítulo se centra en lo relacionado con la implementación de la solución. Aquí se puede encontrar las tecnologías usadas, los detalles de implementación del código, buenas prácticas y testing. (Ver capítulo \ref{sec:desarrollo}).
 \end{itemize}
 
-Por último, se pueden encontrar las conclusiones derivadas del trabajo con los objetivos alcanzados y una propuesta para posibles trabajos futuros. Y los apéndices, que complementan la memoria principal con un mayor desarrollo de alguno de sus apartados, capturas de la aplicación e imágenes grandes. (Ver capítulo \ref{sec:conclusiones} y apéndice \ref{sec:apendices}).
-
-%Luego, el capítulo \ref{sec:conclusiones} Conclusiones recoge las conclusiones derivadas del trabajo, los objetivos alcanzados y la propuesta para posibles trabajos futuros. Además, de una pequeña opinión personal.
-%Por último, la sección \ref{sec:apendices} Apéndices tiene como objetivo principal complementar la memoria principal con un mayor desarrollo de alguno de sus apartados.
-%Aquí se puede encontrar más detalles sobre el proceso de Design Thinking y Lean Startup, todos los diseños del prototipo, todas las historias de usuario, todas las capturas de la aplicación y un apartado de limitaciones personales.
+Por último, se encuentran las conclusiones derivadas del trabajo con los objetivos alcanzados y una propuesta para trabajos futuros. Y los apéndices, que complementan la memoria principal con un mayor desarrollo de alguno de sus apartados, capturas de la aplicación e imágenes grandes. (Ver capítulo \ref{sec:conclusiones} y apéndice \ref{sec:apendices}).
 
 % \afterpage{\blankpage} % puede generar problema en índice de contenidos
 % \newpage
@@ -672,6 +668,7 @@ Es ideal para crear nuevos productos poniendo el foco en el cliente y detectar f
 Es un método de mapeo de UX (experiencia de usuario) que se utiliza para delinear las interacciones que se espera que realicen los usuarios para completar sus objetivos en un producto digital. Ayuda a definir el \textbf{viaje o casos de uso} del usuario en el producto.
 \cite{userStoryMap1}
 \cite{userStoryMap2}
+\cite{userStoryMap3}
 
 \begin{figure}[H]
     \centering
@@ -680,31 +677,37 @@ Es un método de mapeo de UX (experiencia de usuario) que se utiliza para deline
     \label{fig:UserStoryMap}
 \end{figure}
 
-En la figura \ref{fig:UserStoryMap} podemos observar el User Story Map del producto. 
-Las \textbf{User Activities} son los objetivos del usuario en la aplicación. 
-Estas se descomponen en \textbf{User Task}, que son las actividades a realizar por el usuario y siguen un flujo narrativo. 
-A su vez estas se descomponen en \textbf{User Stories} o historias de usuario, que definen las funcionalidades del producto. 
-Estas historias de usuario están agrupadas por releases.  
-\cite{userStoryMap3}
+En la figura \ref{fig:UserStoryMap} podemos observar el User Story Map o mapa de historias de usuario del producto. Este User Story Map representa 3 tipos de acciones:
+\begin{itemize}
+    \item Las \textbf{User Activities}: Representan las tareas de alto nivel que los usuarios pretenden completar en el producto. Son los principales objetivos del usuario en la aplicación. 
+    \item Las \textbf{User Task}: Representan las subtareas específicas que los usuarios realizarán en el producto para completar la actividad superior. Son las actividades a realizar por el usuario y siguen un flujo narrativo. 
+    \item Las \textbf{User Stories} o historias de usuario: Describen las interacciones concretas que experimentarán los usuarios para completar el paso anterior. Definen las funcionalidades del producto y están agrupadas por releases.  
+\end{itemize}
+
+Las User Activities y User Task se muestran horizontalmente en la parte superior y las User Stories se apilan verticalmente debajo en orden de prioridad.
 
 Se recomienda visitar este mural de Miro, donde se puede encontrar este roadmap junto con más esquemas y diseños de la aplicación, en el siguiente enlace: 
 
-\url{https://miro.com/app/board/uXjVOMmPLjM=/?share_link_id=588058562303}
+\href{https://miro.com/app/board/uXjVOMmPLjM=/?share_link_id=588058562303}{https://miro.com/app/board/uXjVOMmPLjM=/}
 
 \subsection{Scrum Board}
 
 Es un método para \textbf{visualizar el trabajo} y gestionar el desarrollo. Esto nos permite separar en pequeñas tareas cada historia de usuario y minimizar los riesgos de entrega. Realizando una construcción iterativa incremental donde se integra al final de cada sprint para validar el resultado. 
 \cite{scrumboard1}
+\cite{scrumboard2}
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.47]{Scrum/ScrumBoard}
-    \caption{Scrum Board con el Product Backlog y Sprint Backlog (captura tomada a mitad del desarrollo).}
+    \caption{Scrum Board con el Product Backlog y Sprint Backlog.}
     \label{fig:ScrumBoard}
 \end{figure}
 
-En la figura \ref{fig:ScrumBoard} podemos observar el Scrum Board del proyecto. Este tablero está compuesto por el \textbf{Product Backlog}, que es una la lista de todas las tareas o historias de usuario a realizar, y el \textbf{Sprint Backlog}, donde cada tarea se divide en tareas más pequeñas a completar durante un sprint. 
-Estas tareas pasan por diferentes etapas hasta completarse.\cite{scrumboard2}
+En la figura \ref{fig:ScrumBoard} podemos observar el Scrum Board del proyecto en un punto a mitad del desarrollo. Este Scrum Board está compuesto por:
+\begin{itemize}
+    \item El \textbf{Product Backlog}: Es la lista de todas las tareas o historias de usuario detalladas pendientes para el desarrollo. Es una evolución de los documentos de requisitos tradicionales y desglosa el roadmap del producto en un documento vivo de tareas realizables.
+    \item El \textbf{Sprint Backlog}: Es una lista con todas las tareas técnicas que se compromete a llevar a cabo dentro de un Sprint. Cada historia de usuario se divide en estas tareas más pequeñas a completar. Estas tareas pasan por diferentes etapas hasta completarse.
+\end{itemize}
 
 Este Scrum Board se puede visitar en el siguiente enlace: 
 
@@ -712,18 +715,28 @@ Este Scrum Board se puede visitar en el siguiente enlace:
 
 \subsection{User Stories}
 
-Las historias de usuarios son descripciones breves y sencillas de las \textbf{características o requisitos} del sistema contadas desde la perspectiva de un usuario o cliente del sistema. Estas historias se dividen en tareas más pequeñas que ir completando hasta cumplir con los criterios de aceptación. Cada historia de usuario es un incremento en el valor del producto.
+Las historias de usuarios son descripciones breves y sencillas de las \textbf{características o requisitos} del sistema contadas desde la perspectiva del usuario o cliente del sistema. Cada una es un incremento en el valor del producto.
 \cite{userstories1}
+\cite{userstories2}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{Scrum/UserStory}
+    \includegraphics[scale=0.6]{Scrum/UserStory}
     \caption{Historia de usuario ``Cambiar Instrumento''.}
     \label{fig:UserStory}
 \end{figure}
 
-En la figura \ref{fig:UserStory} podemos observar la descripción de la historia de usuario ``Cambiar Instrumento'' y sus criterios de aceptación \cite{userstories2}.
-Todas las historias siguen el método INVEST \cite{invest} para garantizar que ofrecen valor. Estas siglas significan que las historias deben ser: Independent, Negotiable, Valuable, Estimable, Small y Testable.
+En la figura \ref{fig:UserStory} podemos observar una de las historias de usuario. Todas siguen el método INVEST para garantizar que ofrecen valor. Y el método SMART para descomponerlas en tareas. \cite{invest}
+ 
+\begin{comment}
+Estas historias se componen de:
+\begin{itemize}
+    \item Una \textbf{Etiqueta} que la asocia a una User Activity de alto nivel.
+    \item Una \textbf{Descripción} que sigue la estructura “Como [rol], Quiero [objetivo], Para [motivación]”
+    \item Una \textbf{Código Identificador} y \textbf{tamaño}, que es una estimación del tiempo que llevará desarrollarla.
+    \item Unos \textbf{Criterios de aceptación} que validan la implementación y la dan por completada.
+\end{itemize}
+\end{comment}
 
 Estas historias de usuario se encuentran en el apéndice \ref{sec:UserStories}. También se pueden ver en el ScrumBoard en el siguiente enlace: 
 
@@ -744,19 +757,19 @@ El desarrollo de \textbf{aplicaciones modernas} requiere procesos diferentes a l
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.2]{DevOps/DevOps}
+    \includegraphics[width=0.6\textwidth]{DevOps/DevOps}
     \caption{Diagrama de DevOps.}
     \label{fig:DevOps}
 \end{figure}
 
 DevOps permite fabricar software más rápidamente, con mayor calidad, menor coste y una alta frecuencia de releases. Al adoptar prácticas de DevOps, se asegura la confiabilidad, la alta disponibilidad y el objetivo de ningún tiempo de inactividad del sistema.
 
-El primero de los 12 principios del Manifiesto Ágil es el siguiente: "Satisfacer a los clientes mediante la distribución de software continua y oportuna" \ref{sec:ManifiestoAgil}. Este es el motivo por el que es importante aplicar \textbf{prácticas de DevOps}, cómo la integración continua y el despliegue continuo.
+El primero de los 12 principios del Manifiesto Ágil es el siguiente: ``Satisfacer a los clientes mediante la distribución de software continua y oportuna'' (ver Apéndice \ref{sec:ManifiestoAgil}). Este es el motivo por el que es importante aplicar \textbf{prácticas de DevOps}, cómo la integración continua y el despliegue continuo.
 \cite{devops2}
 
 \subsection{Integración Continua (CI)}
 
-La integración continua es una práctica de DevOps mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica. Para implantar integración continua solemos definir un ``pipeline'', un conjunto de etapas, de fases por las que va pasando el software y que se automatizan. 
+La integración continua es una práctica de DevOps mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica. Para implantar integración continua se suele definir un ``pipeline'', es decir, un conjunto de etapas y de fases automátizadas por las que va pasando el software hasta integrarse con el resto. 
 \cite{ic}
 
 En nuestro caso usamos \textbf{Github} \cite{github}, que es un servicio basado en la nube, cómo herramienta de control de versiones \textbf{Git} \cite{git}. Y utilizamos \textbf{Gitflow} \cite{gitflow}, que es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales como se observa en la figura \ref{fig:Gitflow}.
@@ -1114,17 +1127,17 @@ En este caso se han separado las \textbf{carpetas por conceptos} o intereses, do
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{Pages}: Aquí se encuentran todas las páginas de la aplicación y además se encuentran los archivos ``\_app.tsx'' y ``\_document.tsx'' personalizados. Cada página está asociada con una ruta basada en su nombre de archivo. Por ejemplo: en ``pages/notes'' se exporta un componente de React que será accesible en ``/notes''.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/pages}{\textbf{Pages}}: Aquí se encuentran todas las páginas de la aplicación y además se encuentran los archivos ``\_app.tsx'' y ``\_document.tsx'' personalizados. Cada página está asociada con una ruta basada en su nombre de archivo. Por ejemplo: en ``pages/notes'' se exporta un componente de React que será accesible en ``/notes''.
     Aparte, para tener un Layout persistente está el archivo ``\_app.tsx'' donde se envuelve la aplicación con él. Además, en este archivo se encuentran los metadatos de la aplicación. Por otro lado, en el archivo ``\_document.tsx'' se actualizan las etiquetas ``\texttt{<html>}'' y ``\texttt{<body>}''.
-    \item \textbf{Public}: Aquí se pueden encontrar los iconos, imágenes, service worker, manifest y archivos de fuente de sonido en formato MIDI.js de la aplicación. En Next.js el código puede hacer referencia a los archivos estáticos dentro de una ``public'' en el directorio raíz a partir de la URL base (/).
-    \item \textbf{Components}: Aquí se pueden encontrar todos los componentes de la aplicación agrupados por carpetas. El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas.
-    \item \textbf{Types}: Aquí se encuentran en un archivo todos los tipo personalizados usados en los demás archivos de la aplicación. Para usar Typescript todos los archivos ``.js'' se convierten en ``.ts'' y ``.jsx'' en ``.tsx''.
-    \item \textbf{Lib}: Aquí se puede encontrar ``soundfont-wrapper'', una librería personalizada para la aplicación. Para hacer uso de la librería ``soundfont-player'', que se encarga de cargar los archivos de fuente de sonido y usarlos mediante la WebAudio API. Se creó esta librería envoltorio (wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
-    \item \textbf{Utils}: Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación.
-    \item \textbf{Styles}: Aquí se pueden encontrar algunos estilos css globales para la aplicación. Aunque en general se hace uso de ``react-bootstrap'' junto con ``bootswatch'' para los estilos de la aplicación.
-    \item \textbf{Services}: Aquí puedes encontrar los servicios que serán consumidos desde los Hooks. Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica independiente a la interfaz.
-    \item \textbf{Context}: Aquí puedes encontrar el contexto de la aplicación. El Context está diseñado para compartir estados que pueden considerarse “globales” para un árbol de componentes en React. Como es un componente algo especial, como las pages, tiene su propio directorio.
-    \item \textbf{Hooks}: Aquí puedes encontrar todos los Custom Hooks creados para extraer la lógica de los componentes en funciones reutilizables. Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/public}{\textbf{Public}}: Aquí se pueden encontrar los iconos, imágenes, service worker, manifest y archivos de fuente de sonido en formato MIDI.js de la aplicación. En Next.js el código puede hacer referencia a los archivos estáticos dentro de una ``public'' en el directorio raíz a partir de la URL base (/).
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/components}{\textbf{Components}}: Aquí se pueden encontrar todos los componentes de la aplicación agrupados por carpetas. El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/types}{\textbf{Types}}: Aquí se encuentran en un archivo todos los tipo personalizados usados en los demás archivos de la aplicación. Para usar Typescript todos los archivos ``.js'' se convierten en ``.ts'' y ``.jsx'' en ``.tsx''.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/lib}{\textbf{Lib}}: Aquí se puede encontrar ``soundfont-wrapper'', una librería personalizada para la aplicación. Para hacer uso de la librería ``soundfont-player'', que se encarga de cargar los archivos de fuente de sonido y usarlos mediante la WebAudio API. Se creó esta librería envoltorio (wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/utils}{\textbf{Utils}}: Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/styles}{\textbf{Styles}}: Aquí se pueden encontrar algunos estilos css globales para la aplicación. Aunque en general se hace uso de ``react-bootstrap'' junto con ``bootswatch'' para los estilos de la aplicación.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/services}{\textbf{Services}}: Aquí puedes encontrar los servicios que serán consumidos desde los Hooks. Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica independiente a la interfaz.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/context}{\textbf{Context}}: Aquí puedes encontrar el contexto de la aplicación. El Context está diseñado para compartir estados que pueden considerarse “globales” para un árbol de componentes en React. Como es un componente algo especial, como las pages, tiene su propio directorio.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/hooks}{\textbf{Hooks}}: Aquí puedes encontrar todos los Custom Hooks creados para extraer la lógica de los componentes en funciones reutilizables. Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase.
 \end{itemize}
 
 \subsection{Infraestructura}
@@ -1141,8 +1154,8 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
         \label{fig:Instrument}
     \end{figure}
 
-    \item \textbf{Instrument}: Este tipo define a los instrumentos en la aplicación. Cada instrumento tiene un nombre para mostrar, un emoji que actúa de icono, un nombre identificador del instrumento, un ``notePlayer'' para tocar notas y un booleano que especifica si se tiene el archivo de sonido en una carpeta local. (Ver figura \ref{fig:Instrument}).
-    \item \textbf{InstrumentName}: Este tipo define el nombre identificador del instrumento. Esta definido por la librería ``Soundfont-player-js'' como una lista de instrumentos disponibles. Sirve para buscar el archivo MIDI de dicho instrumento y crear su ``notePlayer''. Si un instrumento no está en esta lista, significa que no existe su archivo MIDI en el repositorio fuente de la librería, pero se podría tener este archivo en local.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{Instrument}}: Este tipo define a los instrumentos en la aplicación. Cada instrumento tiene un nombre para mostrar, un emoji que actúa de icono, un nombre identificador del instrumento, un ``notePlayer'' para tocar notas y un booleano que especifica si se tiene el archivo de sonido en una carpeta local. (Ver figura \ref{fig:Instrument}).
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{InstrumentName}}: Este tipo define el nombre identificador del instrumento. Esta definido por la librería ``Soundfont-player-js'' como una lista de instrumentos disponibles. Sirve para buscar el archivo MIDI de dicho instrumento y crear su ``notePlayer''. Si un instrumento no está en esta lista, significa que no existe su archivo MIDI en el repositorio fuente de la librería, pero se podría tener este archivo en local.
     
     \begin{figure}[H]
         \centering
@@ -1151,7 +1164,7 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
         \label{fig:Noteplayer}
     \end{figure}
 
-    \item \textbf{Noteplayer}: Este tipo proporciona funciones para reproducir los sonidos de dicho instrumento. Este tipo es proporcionado por la librería ``Soundfont-wrapper''. (Ver figura \ref{fig:Noteplayer}).
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{Noteplayer}}: Este tipo proporciona funciones para reproducir los sonidos de dicho instrumento. Este tipo es proporcionado por la librería ``Soundfont-wrapper''. (Ver figura \ref{fig:Noteplayer}).
 
     \begin{figure}[H]
         \centering
@@ -1160,7 +1173,7 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
         \label{fig:VariantExercise}
     \end{figure}
 
-    \item \textbf{VariantExercise}: Este tipo define la tres variantes del ejercicio: ``notes'', ``intervals'' y ``scales''. En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Es decir, todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en los Hooks.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{VariantExercise}}: Este tipo define la tres variantes del ejercicio: ``notes'', ``intervals'' y ``scales''. En la aplicación se tratan todas las páginas de ejercicio como variantes del mismo. Es decir, todas son el mismo ejercicio pero con valores distintos. Lo que nos permite reutilizar toda la lógica como veremos en los Hooks.
     (Ver figura \ref{fig:VariantExercise}).
 
     \begin{figure}[H]
@@ -1172,9 +1185,9 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
 
     Cada variante de ejercicio utiliza los tipos Answer, SelectableAnswer y SelectableAnswerWithColor. (Ver figura \ref{fig:Answer}).
 
-    \item \textbf{Answer}: Este tipo define a una respuesta del ejercicio. Cada respuesta tiene un id, un nombre para mostrar y un array de notas para ser reproducidas. Es el tipo base del ejercicio.
-    \item \textbf{SelectableAnswer}: Este tipo añade propiedades por intersección al tipo Answer, necesarias para implementar los botones de selección renderizados por el componente ``AnswerToggles''. La propiedad ``isSelected'' especifica si la respuesta está disponible para preguntar.
-    \item \textbf{SelectableAnswerWithColor}: Este tipo añade propiedades por intersección al tipo SelectableAnswer, necesarias para implementar los botones de respuesta renderizados por el componente ``AnswerButtons''. La propiedad ``color'' especifica el color que debe tomar el botón de respuesta.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{Answer}}: Este tipo define a una respuesta del ejercicio. Cada respuesta tiene un id, un nombre para mostrar y un array de notas para ser reproducidas. Es el tipo base del ejercicio.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{SelectableAnswer}}: Este tipo añade propiedades por intersección al tipo Answer, necesarias para implementar los botones de selección renderizados por el componente ``AnswerToggles''. La propiedad ``isSelected'' especifica si la respuesta está disponible para preguntar.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{SelectableAnswerWithColor}}: Este tipo añade propiedades por intersección al tipo SelectableAnswer, necesarias para implementar los botones de respuesta renderizados por el componente ``AnswerButtons''. La propiedad ``color'' especifica el color que debe tomar el botón de respuesta.
 
     \begin{figure}[H]
         \centering
@@ -1183,24 +1196,24 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
         \label{fig:MenuItemInfo}
     \end{figure}
 
-    \item \textbf{MenuItemInfo}: Este tipo define la información necesaria para cada ítem del componente menú. (Ver figura \ref{fig:MenuItemInfo}).
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{MenuItemInfo}}: Este tipo define la información necesaria para cada ítem del componente menú. (Ver figura \ref{fig:MenuItemInfo}).
 \end{itemize}
 
 \subsubsection{Librerías}
 A continuación se explican los paquetes de \textbf{Node.js} o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo ``package.json'' o en la carpeta ``lib'' en el caso de ``soundfont-wrapper''.
 
 \begin{itemize}
-    \item \textbf{Tonaljs:} Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales \cite{tonal}.
-    \item \textbf{Soundfont-player:} Sirve para cargar archivos MIDI.js y reproducir sonidos utilizando la WebAudio API \cite{webAudioAPI}. Estos archivos contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos en local ya que en tal caso los buscaría en el siguiente repositorio: \href{https://github.com/gleitz/midi-js-soundfonts}{{\textbf{midi-js-soundfonts}}} \cite{soundfont-player}.
-    \item \textbf{Soundfont-wrapper:} Es una librería personalizada para refinar la complejidad de ``soundfont-player'' y simplificar su uso. Proporciona la función ``getSoundfontInstrument'' que devuelve un ``notePlayer'' con funciones para tocar notas. Se encarga de crear el ``audioContext'', gestionar los nodos de audio.
-    \item \textbf{React-piano:} Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por Props dos funciones: playNote y stopNote \cite{react-piano}.
-    \item \textbf{React-use-measure:} Se usa para conseguir que ``react-piano'' sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano \cite{react-use-measure}.
-    \item \textbf{React-bootstrap:} Es la librería de estilos CSS usada. Cada componente de React-Bootstrap es un verdadero componente de React, sin dependencias innecesarias como jQuery \cite{react-bootstrap}.
-    \item \textbf{Next-pwa:} Es un plugin que permite registrar y generar un service worker para convertir una aplicación web en una aplicación web progresiva (PWA) \cite{next-pwa}.
+    \item \href{https://github.com/tonaljs/tonal}{\textbf{Tonaljs}}: Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales \cite{tonal}.
+    \item \href{https://github.com/danigb/soundfont-player}{\textbf{Soundfont-player}}: Sirve para cargar archivos MIDI.js y reproducir sonidos utilizando la WebAudio API \cite{webAudioAPI}. Estos archivos contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos en local ya que en tal caso los buscaría en el siguiente repositorio: \href{https://github.com/gleitz/midi-js-soundfonts}{{\textbf{midi-js-soundfonts}}} \cite{soundfont-player}.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/lib/soundfont-wrapper.ts}{\textbf{Soundfont-wrapper}}: Es una librería personalizada para refinar la complejidad de ``soundfont-player'' y simplificar su uso. Proporciona la función ``getSoundfontInstrument'' que devuelve un ``notePlayer'' con funciones para tocar notas. Se encarga de crear el ``audioContext'', gestionar los nodos de audio.
+    \item \href{https://github.com/kevinsqi/react-piano}{\textbf{React-piano}}: Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por Props dos funciones: playNote y stopNote \cite{react-piano}.
+    \item \href{https://github.com/pmndrs/react-use-measure}{\textbf{React-use-measure}}: Se usa para conseguir que ``react-piano'' sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano \cite{react-use-measure}.
+    \item \href{https://github.com/react-bootstrap/react-bootstrap}{\textbf{React-bootstrap}}: Es la librería de estilos CSS usada. Cada componente de React-Bootstrap es un verdadero componente de React, sin dependencias innecesarias como jQuery \cite{react-bootstrap}.
+    \item \href{https://github.com/shadowwalker/next-pwa}{\textbf{Next-pwa}}: Es un plugin que permite registrar y generar un service worker para convertir una aplicación web en una aplicación web progresiva \cite{next-pwa}.
 \end{itemize}
 
 \subsubsection{Utils}
-En el archivo \textbf{``arrayUtils.ts''} está el método ``getRandomItem'' que recibe un array y devuelve un elemento al azar. Usado en el Hook ``useAnswer'' para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
+En el archivo \href{https://github.com/alberttogoca/EarFit/blob/main/src/utils/arrayUtils.ts}{\textbf{``arrayUtils.ts''}} está el método ``getRandomItem'' que recibe un array y devuelve un elemento al azar. Usado en el Hook ``useAnswer'' para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
 
 \subsection{Datos y Servicios}
 A continuación se explican los servicios creados para la aplicación. Por comodidad y tamaño, los datos que proporcionan los servicios se encuentran en su mismo archivo. Ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
@@ -1214,11 +1227,11 @@ A continuación se explican los servicios creados para la aplicación. Por comod
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{instrumentService.ts:} Este servicio provee una función ``getInstruments'' que devuelve un array de instrumentos de tipo ``Instrument''. Usa la librería ``soundfont-wrapper'' para obtener los ``notePlayer'' para cada instrumento definido en la constante ``InstrumentData''. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ``InstrumentData''.
-    \item \textbf{noteService.ts:} Este servicio provee una función ``getNotes'' que recibe un nombre de escala y devuelve un array de respuestas de tipo ``Answer'' correspondiente a la variante de ejercicio ``notes''. Utiliza la librería Tonal para obtener las notas según la escala.
-    \item \textbf{intervalService.ts:} Este servicio provee una función ``getIntervals'' que devuelve un array de respuestas de tipo ``Answer'' correspondiente a la  variante de ejercicio ``intervals''. En este caso como hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ``calcInterval'' que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
-    \item \textbf{scaleService.ts:} Este servicio provee una función ``getScales'' que devuelve un array de respuestas de tipo ``Answer'' correspondiente a la  variante de ejercicio ``scales''. Utiliza la librería Tonal para obtener las escalas con sus notas.
-    \item \textbf{menuService.ts:} Este servicio provee una función ``getMenuInfo'' que devuelve un array con la información de cada ítem del menú principal. 
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/instrumentService.ts}{\textbf{instrumentService.ts}}: Este servicio provee una función ``getInstruments'' que devuelve un array de instrumentos de tipo ``Instrument''. Usa la librería ``soundfont-wrapper'' para obtener los ``notePlayer'' para cada instrumento definido en la constante ``InstrumentData''. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ``InstrumentData''.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/noteService.ts}{\textbf{noteService.ts}}: Este servicio provee una función ``getNotes'' que recibe un nombre de escala y devuelve un array de respuestas de tipo ``Answer'' correspondiente a la variante de ejercicio ``notes''. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/intervalService.ts}{\textbf{intervalService.ts}}: Este servicio provee una función ``getIntervals'' que devuelve un array de respuestas de tipo ``Answer'' correspondiente a la  variante de ejercicio ``intervals''. En este caso como hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ``calcInterval'' que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/scaleService.ts}{\textbf{scaleService.ts}}: Este servicio provee una función ``getScales'' que devuelve un array de respuestas de tipo ``Answer'' correspondiente a la  variante de ejercicio ``scales''. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/menuService.ts}{\textbf{menuService.ts}}: Este servicio provee una función ``getMenuInfo'' que devuelve un array con la información de cada ítem del menú principal. 
 \end{itemize}
 
 \subsection{Hooks y Context}
@@ -1246,15 +1259,15 @@ Estos son los \textbf{Custom Hooks} (ver figura \ref{fig:Hooks}) desarrollados p
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{useDirectionSelector.tsx}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
-    \item \textbf{useExercise.tsx}: Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
-    \item \textbf{useAnswerToggles.tsx}: Este Hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ``isSelected''. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
-    \item \textbf{useAnswer.tsx}: Este Hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
-    \item \textbf{usePlayButton.tsx}: Este Hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
-    \item \textbf{useAnswerButtons.tsx}:  Este Hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de ``useStreak'' para proveer la racha actual de respuestas correctas.
-    \item \textbf{useStreak.tsx}: Este Hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
-    \item \textbf{usePiano.tsx}: Este Hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
-    \item \textbf{useScaleDropdown.tsx}: Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useDirectionSelector.tsx}{\textbf{useDirectionSelector.tsx}}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useExercise.tsx}{\textbf{useExercise.tsx}}: Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswerToggles.tsx}{\textbf{useAnswerToggles.tsx}}: Este Hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ``isSelected''. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswer.tsx}{\textbf{useAnswer.tsx}}: Este Hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePlayButton.tsx}{\textbf{usePlayButton.tsx}}: Este Hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswerButtons.tsx}{\textbf{useAnswerButtons.tsx}}:  Este Hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de ``useStreak'' para proveer la racha actual de respuestas correctas.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useStreak.tsx}{\textbf{useStreak.tsx}}: Este Hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePiano.tsx}{\textbf{usePiano.tsx}}: Este Hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useScaleDropdown.tsx}{\textbf{useScaleDropdown.tsx}}: Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
 \end{itemize}
 
 \subsubsection{Context}
@@ -1270,7 +1283,7 @@ En una aplicación típica de React, los datos se pasan de padre a hijo a travé
 \end{figure}
 
 \begin{itemize}
-    \item \textbf{EarfitContext.tsx}: Este contexto provee el array de instrumentos, el instrumento seleccionado y una función para actualizar el instrumento seleccionado. Obtiene estos instrumentos gracias a los servicios.    
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/context/EarfitContext.tsx}{\textbf{EarfitContext.tsx}}: Este contexto provee el array de instrumentos, el instrumento seleccionado y una función para actualizar el instrumento seleccionado. Obtiene estos instrumentos gracias a los servicios.    
     Este contexto se puede encontrar envolviendo a la aplicación en el archivo ``\_app.tsx'' y es llamado con el Hook ``useInstrumentContext'' por varios Hooks y componentes.
     (Ver figura \ref{fig:Context}).       
 \end{itemize}

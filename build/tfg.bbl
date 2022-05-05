@@ -468,8 +468,8 @@ R.~C. Martin, \emph{Clean Code: A Handbook of Agile Software
 
 \bibitem{testing}
 \BIBentryALTinterwordspacing
-M.~M. Canelo, ``Qué es el testing de software.'' [Online]. Available:
-  \url{https://profile.es/blog/que-es-el-testing-de-software/}
+M.~M. Canelo, ``Qué es el testing de software,'' \emph{Profile}. [Online].
+  Available: \url{https://profile.es/blog/que-es-el-testing-de-software/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{webdev}

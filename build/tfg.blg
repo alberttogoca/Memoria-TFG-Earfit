@@ -10,8 +10,6 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: bibliografia.bib
-Warning--entry type for "testing" isn't style-file defined
---line 463 of file bibliografia.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -35,47 +33,48 @@ Warning--empty journal in typescript2
 Warning--empty year in typescript2
 Warning--empty year in npmyarn
 Warning--empty year in cleancode
+Warning--empty year in testing
 
 Done.
 You've used 75 entries,
             4024 wiz_defined-function locations,
             1116 strings with 14993 characters,
-and the built_in function-call counts, 24354 in all, are:
-= -- 1880
+and the built_in function-call counts, 24381 in all, are:
+= -- 1886
 > -- 294
 < -- 0
 + -- 148
 - -- 73
-* -- 943
-:= -- 4907
+* -- 950
+:= -- 4920
 add.period$ -- 109
 call.type$ -- 75
 change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 2108
-empty$ -- 2323
+cite$ -- 96
+duplicate$ -- 2111
+empty$ -- 2322
 format.name$ -- 73
-if$ -- 5006
+if$ -- 5010
 int.to.chr$ -- 0
 int.to.str$ -- 75
-missing$ -- 468
+missing$ -- 466
 newline$ -- 392
 num.names$ -- 73
-pop$ -- 1262
+pop$ -- 1252
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1924
+skip$ -- 1927
 stack$ -- 0
 substring$ -- 35
-swap$ -- 1079
+swap$ -- 1080
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 75
-warning$ -- 20
+warning$ -- 21
 while$ -- 73
 width$ -- 77
-write$ -- 724
+write$ -- 725
 (There were 21 warnings)
