@@ -721,12 +721,12 @@ Las historias de usuarios son descripciones breves y sencillas de las \textbf{ca
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{Scrum/UserStory}
+    \includegraphics[width=0.64\textwidth]{Scrum/UserStory}
     \caption{Historia de usuario ``Cambiar Instrumento''.}
     \label{fig:UserStory}
 \end{figure}
 
-En la figura \ref{fig:UserStory} podemos observar una de las historias de usuario. Todas siguen el método INVEST para garantizar que ofrecen valor. Y el método SMART para descomponerlas en tareas. \cite{invest}
+En la figura \ref{fig:UserStory} se puede observar una de las historias de usuario. Todas siguen el método INVEST para garantizar que ofrecen valor. Y el método SMART para descomponerlas en tareas. \cite{invest}
  
 \begin{comment}
 Estas historias se componen de:
@@ -750,21 +750,22 @@ DevOps, es una combinación de los términos desarrollo (development) y operacio
 Se enfoca en \textbf{agilizar los procesos} con los que una nueva funcionalidad, mejora o corrección pasa del desarrollo a la implementación, a un entorno de producción que pueda generar valor para el usuario.
 (Ver figura \ref{fig:DevOps}).
 
-Algunas de las formas en las que los equipos de DevOps planean con agilidad y visibilidad son la creación de registros de trabajo pendiente, seguimiento de errores, administración ágil con Scrum, uso de tableros Kanban y visualización del progreso entre otros.
+%Algunas de las formas en las que los equipos de DevOps planean con agilidad y visibilidad son la creación de registros de trabajo pendiente, seguimiento de errores, administración ágil con Scrum, uso de tableros Kanban y visualización del progreso entre otros.
+Algunas de las prácticas recomendadas de DevOps que ya se han visto son: la gestión de proyectos de manera ágil con Scrum, creación de registros de trabajo pendiente, visualización del progreso y recopilación de feedback continuo entre otros.
 
 El desarrollo de \textbf{aplicaciones modernas} requiere procesos diferentes a los enfoques del pasado. Las nuevas empresas utilizan enfoques ágiles para desarrollar sistemas de software.
 \cite{devops1}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{DevOps/DevOps}
+    \includegraphics[width=0.63\textwidth]{DevOps/DevOps}
     \caption{Diagrama de DevOps.}
     \label{fig:DevOps}
 \end{figure}
 
 DevOps permite fabricar software más rápidamente, con mayor calidad, menor coste y una alta frecuencia de releases. Al adoptar prácticas de DevOps, se asegura la confiabilidad, la alta disponibilidad y el objetivo de ningún tiempo de inactividad del sistema.
 
-El primero de los 12 principios del Manifiesto Ágil es el siguiente: ``Satisfacer a los clientes mediante la distribución de software continua y oportuna'' (ver Apéndice \ref{sec:ManifiestoAgil}). Este es el motivo por el que es importante aplicar \textbf{prácticas de DevOps}, cómo la integración continua y el despliegue continuo.
+El primero de los 12 principios del Manifiesto Ágil es el siguiente: ``Satisfacer a los clientes mediante la distribución de software continua y oportuna'' (ver Apéndice \ref{sec:ManifiestoAgil}). Este es uno de los motivos por el que es importante aplicar \textbf{prácticas de DevOps}, cómo la integración continua y el despliegue continuo.
 \cite{devops2}
 
 \subsection{Integración Continua (CI)}
@@ -772,7 +773,7 @@ El primero de los 12 principios del Manifiesto Ágil es el siguiente: ``Satisfac
 La integración continua es una práctica de DevOps mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica. Para implantar integración continua se suele definir un ``pipeline'', es decir, un conjunto de etapas y de fases automátizadas por las que va pasando el software hasta integrarse con el resto. 
 \cite{ic}
 
-En nuestro caso usamos \textbf{Github} \cite{github}, que es un servicio basado en la nube, cómo herramienta de control de versiones \textbf{Git} \cite{git}. Y utilizamos \textbf{Gitflow} \cite{gitflow}, que es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales como se observa en la figura \ref{fig:Gitflow}.
+En nuestro caso usamos \textbf{Github} \cite{github}, que es un servicio basado en la nube, cómo herramienta de control de versiones \textbf{Git} \cite{git}. Y utilizamos \textbf{Gitflow} \cite{gitflow}, que es un modelo alternativo de creación de ramas en Git como se ilustra en la Figura \ref{fig:Gitflow}.
 
 \begin{figure}[H]
     \centering
@@ -781,19 +782,20 @@ En nuestro caso usamos \textbf{Github} \cite{github}, que es un servicio basado 
     \label{fig:Gitflow}
 \end{figure}
 
-Su funcionamiento se basa en dos ramas principales: 
+El funcionamiento de este modelo se caracteriza por el uso de varias ramas de función, una rama de desarrollo y una rama de producción:
 
-\begin{compactitem}
-    \item \textbf{Rama de Desarrollo:} De la rama de desarrollo se van sacando nuevas ramas de funcionalidades y uniendo a ésta a medida que se completan.
-    \item \textbf{Rama de Producción:} Una vez una nueva versión está lista se une la rama de desarrollo con la de producción generando una nueva release.
-\end{compactitem}
+\begin{itemize}
+    \item \textbf{Ramas de Función:} Cada una de estas ramas se crea desde la rama de desarrollo para implementar una nueva funcionalidad del sistema.
+    \item \textbf{Rama de Desarrollo:} Cada vez que una rama de funcionalidad es completada se une a ésta integrando los nuevos cambios.
+    \item \textbf{Rama de Producción:} Cada vez que una nueva versión está lista en la rama de desarrollo se une a ésta generando una nueva release.
+\end{itemize}
 
 \subsection{Despliegue Continuo (CD)}
 
-El despliegue continuo es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente.
+El despliegue continuo es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente. Es útil para entregar funcionalidades del software de forma frecuente.
 \cite{dc}
 
-Para entregar funcionalidades de software de forma frecuente a través de la automatización de despliegues utilizamos \textbf{GitHub Actions} \cite{githubActions} el cuál nos permite automatizar, personalizar y ejecutar estos flujos de trabajo directamente desde nuestro repositorio. Y para alojar nuestra aplicación web usamos \textbf{Vercel}, que es una plataforma en la nube optimizada para proyectos \textbf{Nextjs} \cite{vercelNext}.
+Para ello utilizamos \textbf{GitHub Actions} \cite{githubActions} el cuál nos permite personalizar y automatizar estos despliegues desde nuestro repositorio. Y para alojar nuestra aplicación web usamos \textbf{Vercel}, que es una plataforma en la nube optimizada para proyectos \textbf{Nextjs} \cite{vercelNext}.
 
 \begin{figure}[H]
     \centering
@@ -802,13 +804,13 @@ Para entregar funcionalidades de software de forma frecuente a través de la aut
     \label{fig:vercel_workflow}
 \end{figure}
 
-El flujo consistía en que cada vez que se actualizaba el repositorio mediante una subida de código, Github Actions automáticamente desplegaba las nuevas actualizaciones en Vercel siguiendo el \textbf{flujo de trabajo DPS} \cite{dps}: Develop, Preview and Ship (Desarrollo, Vista previa y Enviar a producción) como ilustra la figura \ref{fig:vercel_workflow}.
+Cada vez que se realiza una subida de código, Github Actions hace un despliegue en Vercel siguiendo el \textbf{flujo de trabajo DPS} \cite{dps} (ver Figura \ref{fig:vercel_workflow}):
 
-\begin{compactitem}
+\begin{itemize}
     \item \textbf{Desarrollo}: Escribimos código en Next.js y subimos los cambios a una rama en Github.
     \item \textbf{Vista previa}: Vercel crea un despliegue de cada rama que estará disponible a través de una URL. Podemos compartir esta URL con otros para recibir feedback. 
     \item \textbf{Enviar a Producción}: Fusionamos la rama creada con la rama ``main'' para enviar a producción.
-\end{compactitem}
+\end{itemize}
 
 
 \chapter{Descripción Informática}
