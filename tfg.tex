@@ -538,13 +538,13 @@ El proceso de Design Thinking se compone de cinco etapas y no es lineal (ver fig
 \cite{desingThinking2}
 
 Las etapas de Design Thinking son las siguientes:
-\begin{enumerate}
+\begin{compactitem}
     \item \textbf{Empatizar}: Comprender el entorno y necesidades del usuario. 
     \item \textbf{Definir}: Identificar los problemas a solucionar. 
     \item \textbf{Idear}: Dar solución a estos problemas. 
     \item \textbf{Prototipar}: Convertir las soluciones en un prototipo. 
     \item \textbf{Testear}: Probar el prototipo con el usuario.
-\end{enumerate}
+\end{compactitem}
 
 \begin{figure}[H] 
     \includegraphics[scale=0.44]{Design Thinking/Etapas}
@@ -820,93 +820,116 @@ Para desarrollar una aplicación de calidad es necesario el uso de unas guías d
 
 \section{Stack Tecnológico}
 
-Después de una comparación de tecnologías actuales se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los ideales para el desarrollo. Es necesario comprender cómo funcionan estas tecnologías para entender más tarde la implementación de la aplicación.
-
-\subsection{Next.js}
-
-Creado por Vercel, Next.js es un framework de trabajo creado sobre \textbf{Node.js} y basado en \textbf{React} que permite crear Single-page Applications (SPA) y aplicaciones web de alto rendimiento \cite{nextjs1}.
-(Ver figura \ref{fig:NextjsLogo}).
+Después de una comparación de tecnologías actuales se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los ideales para el desarrollo (ver Figura \ref{fig:logos}). Es necesario comprender cómo funcionan estas tecnologías para entender más tarde la implementación de la aplicación.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.14]{Nextjs/Nextjs}
-    \caption{Logo de Next.js.}
-    \label{fig:NextjsLogo}
+    \includegraphics[width=\textwidth]{Logos/Logos}
+    \caption{Stack Tecnológico.}
+    \label{fig:logos}
 \end{figure}
 
-Next.js nos permite, instalando una sola dependencia, tener configurado todo lo que necesitamos para crear una aplicación de React usando \textbf{SWC} y \textbf{Webpack}. Estas son las características que nos ofrece sin apenas tener que configurarlo \cite{nextjs2}:
+\subsection{Next.js}
+
+Creado por Vercel, Next.js es un framework creado sobre \textbf{Node.js} y basado en \textbf{React} para crear aplicaciones web de alto rendimiento \cite{nextjs1}.
+Permite, instalando una sola dependencia, tener todo configurado para crear una aplicación de React usando \textbf{SWC} y \textbf{Webpack}. 
+%(Ver figura \ref{fig:NextjsLogo}).
+
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.25\textwidth]{Nextjs/Nextjs}
+        \caption{Logo de Next.js.}
+        \label{fig:NextjsLogo}
+    \end{figure}
+\end{comment}
+
+Estas son las características \cite{nextjs2} que ofrece sin apenas configuración:
 
 \begin{itemize}
-    \item \textbf{Sistema de enrutamiento basado en páginas} con soporte para rutas dinámicas: En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio de ``pages''. Cada página está asociada con una ruta basada en su nombre de archivo. (Ver figura \ref{fig:nextjs_routing}).
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.3]{Nextjs/Routing}
-        \caption{Sistema de enrutamiento de Next.js.}
-        \label{fig:nextjs_routing}
-    \end{figure}
-    
-    \item \textbf{Pre-rendering}: De forma predeterminada, Next.js procesa previamente cada página. Esto significa que genera HTML para cada página por adelantado, en lugar de que JavaScript del lado del cliente lo haga todo. (Ver figura \ref{fig:Prerendering}).
-    \begin{figure}[H]
-        \centering
-         \subfloat[Sin Pre-rendering.]{
-          \label{fig:nextjs_noprerendering}
-           \includegraphics[width=0.45\textwidth]{Nextjs/NoPrerender}}
-         \subfloat[Con Pre-rendering.]{
-          \label{fig:nextjs_prerendering}
-           \includegraphics[width=0.45\textwidth]{Nextjs/Prerender}}
-        \caption{Prerendering de páginas de Next.js.}
-        \label{fig:Prerendering}
+    \item \textbf{Sistema de enrutamiento basado en páginas} con soporte para rutas dinámicas: Cada página está asociada con una ruta basada en su nombre de archivo. 
+    %(Ver figura \ref{fig:nextjs_routing}).
+
+    \begin{comment}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{Nextjs/Routing}
+            \caption{Sistema de enrutamiento de Next.js.}
+            \label{fig:nextjs_routing}
+        \end{figure}
+    \end{comment}
+
+    \item \textbf{Pre-rendering}: El HTML para cada página es generado por adelantado, en lugar de que JavaScript en el cliente lo haga todo. Esto resulta en un mejor \textbf{rendimiento} y \textbf{SEO}. Cuando llegue el robot de Google recibirá el contenido ya renderizado, esto permitirá posicionar igual de bien que una web estática. 
+    %(Ver figura \ref{fig:Prerendering}).
+
+    \begin{comment}
+        \begin{figure}[H]
+            \centering
+            \subfloat[Sin Pre-rendering.]{
+                \label{fig:nextjs_noprerendering}
+                \includegraphics[width=0.45\textwidth]{Nextjs/NoPrerender}}
+            \subfloat[Con Pre-rendering.]{
+                \label{fig:nextjs_prerendering}
+                \includegraphics[width=0.45\textwidth]{Nextjs/Prerender}}
+            \caption{Prerendering de páginas de Next.js.}
+            \label{fig:Prerendering}
        \end{figure}
-
-       La renderización previa puede resultar en un mejor \textbf{rendimiento} y \textbf{SEO}. Cuando llegue el robot de Google podremos entregarle el contenido ya renderizado y esto nos permitirá posicionar igual de bien que una web estática. (Ver figura \ref{fig:nextjs_prerenderinggraph}).
-
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.2]{Nextjs/PrerenderComparation}
-        \caption{Comparativa del Time to Interactive.}
-        \label{fig:nextjs_prerenderinggraph}
-    \end{figure}
-    
+    \end{comment}
 
     Next.js tiene dos formas de pre-rendering:
     \begin{itemize}
-        \item \textbf{Server-side Rendering:} El HTML se genera en cada solicitud. (Ver figura \ref{fig:nextjs_ssr}).
-        \item \textbf{Generación Estática:} El HTML se genera en el momento de la compilación y se reutilizará en cada solicitud. Esta forma fue la utilizada por razones de rendimiento. (Ver figura \ref{fig:nextjs_ssg})
+        \item \textbf{Server-side Rendering:} El HTML se genera en cada solicitud. %(Ver figura \ref{fig:nextjs_ssr}).
+        \item \textbf{Generación Estática:} El HTML se genera en el momento de la compilación y se reutilizará en cada solicitud. Esta forma fue la utilizada por razones de rendimiento. %(Ver figura \ref{fig:nextjs_ssg})
     \end{itemize}
-    \begin{figure}[H]
-        \centering
-         \subfloat[Server-side Rendering.]{
-          \label{fig:nextjs_ssr}
-           \includegraphics[width=0.45\textwidth]{Nextjs/SSR}}
-         \subfloat[Generación Estática.]{
-          \label{fig:nextjs_ssg}
-           \includegraphics[width=0.45\textwidth]{Nextjs/SSG}}
-        \caption{Tipos de Pre-rendering de Next.js.}
-        \label{fig:TiposPrerendering}
-       \end{figure}
 
-    \item \textbf{Code Splitting} (separación automática de código) para cargas de página más rápidas: La división del código en varios paquetes o componentes que luego se pueden cargar a medida y en paralelo. (Ver figura \ref{fig:codesplit}).
+    \begin{comment}
+        \begin{figure}[H]
+            \centering
+            \subfloat[Server-side Rendering.]{
+                \label{fig:nextjs_ssr}
+                \includegraphics[width=0.45\textwidth]{Nextjs/SSR}}
+            \subfloat[Generación Estática.]{
+                \label{fig:nextjs_ssg}
+                \includegraphics[width=0.45\textwidth]{Nextjs/SSG}}
+            \caption{Tipos de Pre-rendering de Next.js.}
+            \label{fig:TiposPrerendering}
+       \end{figure}
+    \end{comment}
+
+    \item \textbf{Code Splitting} para cargas de página más rápidas: La división automática del código en varios paquetes o componentes que luego se pueden cargar a medida y en paralelo. 
+    %(Ver figura \ref{fig:codesplit}).
+    
+    \begin{comment}
         \begin{figure}[H]
             \centering
             \subfloat[Sin Code Splitting.]{
             \label{fig:nextjs_nocodesplit}
-            \includegraphics[width=0.4\textwidth]{Nextjs/NoCodeSplit}}
+            \includegraphics[width=0.35\textwidth]{Nextjs/NoCodeSplit}}
             \subfloat[Con Code Splitting.]{
             \label{fig:nextjs_codesplit}
-            \includegraphics[width=0.4\textwidth]{Nextjs/CodeSplit}}
+            \includegraphics[width=0.35\textwidth]{Nextjs/CodeSplit}}
             \caption{Code Splitting con Next.js y Webpack.}
             \label{fig:codesplit}
         \end{figure}
-    \item \textbf{Enrutamiento optimizado con prefetching} para Single-page Application: La aplicación precarga los recursos mostrados en la página actual para que su acceso sea mucho más rápido al navegar. (Ver figura \ref{fig:nextjs_prefetch}).
+    \end{comment}
+
+    \item \textbf{Enrutamiento optimizado con prefetching} para Single-page Application: La aplicación precarga los recursos mostrados en la página actual para que su acceso sea mucho más rápido al navegar. 
+    %(Ver figura \ref{fig:nextjs_prefetch}).
+
+    \begin{comment}
         \begin{figure}[H]
             \centering
             \includegraphics[scale=0.3]{Nextjs/Prefetch}
             \caption{Prefetching de recursos de Next.js.}
             \label{fig:nextjs_prefetch}
         \end{figure}
-    \item \textbf{Fast Refresh y HMR} (Hot Module Replacement) para el entorno de desarrollo: Permite actualizar todo tipo de módulos y componentes de React en tiempo de ejecución sin necesidad de un refresco completo. Lo que mejora la experiencia y velocidad del desarrollo. %(Ver figura \ref{fig:nextjs_hmr}).
+    \end{comment}
+
+    \item \textbf{Fast Refresh y HMR} (Hot Module Replacement) para el entorno de desarrollo: Permite actualizar todo tipo de módulos y componentes de React en tiempo de ejecución sin necesidad de un refresco completo. Lo que mejora la experiencia y velocidad del desarrollo.
+    %(Ver figura \ref{fig:nextjs_hmr}).
+
     \begin{comment}
-    \begin{figure}[H]
+        \begin{figure}[H]
             \centering
             \includegraphics[scale=0.33]{Nextjs/FastRefresh}
             \caption{Fast Refresh de Next.js.}
@@ -914,7 +937,7 @@ Next.js nos permite, instalando una sola dependencia, tener configurado todo lo 
         \end{figure}   
     \end{comment}
 
-    \item \textbf{Soporte integrado de CSS y Sass}, y soporte para cualquier biblioteca \textbf{CSS-in-JS}. Lo que permite abstraer CSS al propio nivel del componente, utilizando JavaScript para describir estilos de forma declarativa y mantenible.
+    \item \textbf{Soporte integrado de CSS y Sass}, y soporte para cualquier biblioteca \textbf{CSS-in-JS}. Lo que permite abstraer CSS al nivel del componente, utilizando JavaScript para describir estilos de forma declarativa y mantenible.
     \item \textbf{Rutas API} para crear endpoints con Serverless Functions: Cualquier archivo dentro de la carpeta ``pages/api'' se asigna a ``/api/*'' y se tratará como un endpoint en lugar de una página.
     \item \textbf{Compatible con TypeScript} de forma predeterminada y con tipos integrados para las páginas y la API.
 \end{itemize}
@@ -923,43 +946,48 @@ Simplemente instalamos Nextjs, así como TypeScript, React y React-dom como depe
 
 \subsection{React}
 
-Es una biblioteca de código abierto para proyectos de \textbf{JavaScript} mantenida por Facebook, que permite a los desarrolladores crear aplicaciones web e interfaces de usuario de manera rápida y sencilla. Esto es posible mediante componentes interactivos y reutilizables \cite{react1}.
-(Ver figura \ref{fig:ReactLogo}).
+Es una biblioteca para proyectos de \textbf{JavaScript} mantenida por Facebook, que permite crear aplicaciones web e interfaces de usuario mediante componentes interactivos y reutilizables \cite{react1}.
+%(Ver figura \ref{fig:ReactLogo}).
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.07]{React/React}
     \caption{Logo de React.}
     \label{fig:ReactLogo}
 \end{figure}
+\end{comment}
 
 React está basado en un paradigma llamado \textbf{programación orientada a componentes} en el que cada componente es una pieza con la que el usuario puede interactuar. Estas piezas se crean usando una sintaxis llamada JSX permitiendo escribir HTML (y opcionalmente CSS) dentro de objetos JavaScript. Estos componentes son reutilizables y se combinan para crear componentes mayores hasta configurar una web completa.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{React/VirtualDOM1}
-    \caption{Proceso de reconciliación del Virtual DOM de React.}
-    \label{fig:React_VirtualDom}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{React/VirtualDOM1}
+        \caption{Proceso de reconciliación del Virtual DOM de React.}
+        \label{fig:React_VirtualDom}
+    \end{figure}
+\end{comment}
 
 Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (\textbf{DOM virtual}) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez \cite{react2}.
-(Ver figura \ref{fig:React_VirtualDom}).
+%(Ver figura \ref{fig:React_VirtualDom}).
 
 \subsection{Vercel}
 
-Es una plataforma en la nube que permite a los desarrolladores \textbf{alojar sitios web} y servicios web que escalan automáticamente y no requieren supervisión \cite{vercel1}. (Ver figura \ref{fig:VercelLogo}). 
+Es una plataforma en la nube que permite a los desarrolladores \textbf{alojar sitios web} y servicios web que escalan automáticamente y no requieren supervisión \cite{vercel1}. %(Ver figura \ref{fig:VercelLogo}). 
 
 \begin{compactitem}
     \item Las páginas que usan generación estática y assets (JS, CSS, imágenes, fuentes, etc.) se publican automáticamente desde el \textbf{Vercel Edge Network}, que es increíblemente rápido.
     \item Las páginas que usan pre-rendering y rutas API se convierten automáticamente en \textbf{Serverless Functions}. Esto permite que el renderizado de páginas y las solicitudes API puedan escalar infinitamente.
 \end{compactitem}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{Vercel/Vercel}
-    \caption{Logo de Vercel.}
-    \label{fig:VercelLogo}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Vercel/Vercel}
+        \caption{Logo de Vercel.}
+        \label{fig:VercelLogo}
+    \end{figure}
+\end{comment}
 
 Aparte ofrece muchas más funciones, como: dominios personalizados, variables de entorno, HTTPS automático y una vista previa de cada rama de Github por cada subida de código, lo que permite seguir el flujo de trabajo DPS.
 
@@ -968,23 +996,28 @@ Por último, ofrece \textbf{Vercel Analytics} para medir el rendimiento de la we
 \subsection{TypeScript}
 
 TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de \textbf{JavaScript}, que esencialmente añade \textbf{tipos estáticos} y objetos basados en clases \cite{typescript}.
-(Ver figura \ref{fig:TypeScriptLogo}).
+%(Ver figura \ref{fig:TypeScriptLogo}).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.03]{TypeScript/TypeScript}
-    \caption{Logo de TypeScript.}
-    \label{fig:TypeScriptLogo}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.03]{TypeScript/TypeScript}
+        \caption{Logo de TypeScript.}
+        \label{fig:TypeScriptLogo}
+    \end{figure}
+\end{comment}
 
-Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador (ver figura \ref{fig:TypeScript}). Al crear nuestra aplicación con \textbf{Nextjs} ya obtenemos transpilación y empaquetado automáticos con \textbf{SWC} y \textbf{Webpack} respectivamente.
+Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con \textbf{Nextjs} ya obtenemos transpilación y empaquetado automáticos con \textbf{SWC} y \textbf{Webpack} respectivamente.
+%(ver figura \ref{fig:TypeScript})
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.35]{TypeScript/TypeScriptTranspile}
-    \caption{Diagrama de transpilación de TypeScript a JavaScript.}
-    \label{fig:TypeScript}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.35]{TypeScript/TypeScriptTranspile}
+        \caption{Diagrama de transpilación de TypeScript a JavaScript.}
+        \label{fig:TypeScript}
+    \end{figure}
+\end{comment}
 
 Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo que es un lenguaje más limpio. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño e incrementa la agilidad en el refactoring del código.
 \cite{typescript2}
@@ -992,14 +1025,16 @@ Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo qu
 \subsection{Node.js}
 
 Node.js es un entorno de tiempo de ejecución de \textbf{JavaScript}. Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables \cite{node}.
-(Ver figura \ref{fig:NodejsLogo}).
+%(Ver figura \ref{fig:NodejsLogo}).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{Nodejs/Nodejs}
-    \caption{Logo de Node.js.}
-    \label{fig:NodejsLogo}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{Nodejs/Nodejs}
+        \caption{Logo de Node.js.}
+        \label{fig:NodejsLogo}
+    \end{figure}
+\end{comment}
 
 Permite utilizar un único lenguaje de programación para el Backend y el FrontEnd. Además cuenta con un repositorio de código abierto lleno de \textbf{librerías} útiles lo que ayuda en el desarrollo a una generación rápida de un producto mínimo viable.
 
@@ -1008,14 +1043,16 @@ Debemos tenerlo instalado con \textbf{NPM} o \textbf{Yarn} los cuales son unos g
 \subsubsection{NPM o Yarn}
 
 A veces, la \textbf{instalación de paquetes} con NPM no es lo suficiente consistente o rápida, dando incluso a errores. Es por ese el motivo que en este proyecto se tuvo que cambiar a Yarn, que es una alternativa construida por Facebook, Google, Exponent y Tilde. Lo cual nos permitió resolver algunos errores en la instalación de librerias \cite{npmyarn}.
-(Ver figura \ref{fig:NPMYarnLogo}).
+%(Ver figura \ref{fig:NPMYarnLogo}).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{Nodejs/NPMvsYarn}
-    \caption{Logo de NPM y Yarn.}
-    \label{fig:NPMYarnLogo}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{Nodejs/NPMvsYarn}
+        \caption{Logo de NPM y Yarn.}
+        \label{fig:NPMYarnLogo}
+    \end{figure}
+\end{comment}
 
 En \textbf{package.json}, el archivo donde tanto NPM como Yarn hacen un seguimiento de las dependencias del proyecto, los números de versión no siempre son exactos. En su lugar, se puede definir una gama de versiones.
 
@@ -1026,14 +1063,16 @@ De esta manera se puede garantizar que en otra máquina se pueda instalar exacta
 \subsection{VSCode}
 
 Visual Studio Code es un \textbf{editor de código} optimizado para crear y depurar aplicaciones web modernas. Incluye depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente y refactorización de código \cite{vscode}.
-(Ver figura \ref{fig:VSCodeLogo}).
+%(Ver figura \ref{fig:VSCodeLogo}).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.035]{VSCode/VSCode}
-    \caption{Logo de VSCode.}
-    \label{fig:VSCodeLogo}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.035]{VSCode/VSCode}
+        \caption{Logo de VSCode.}
+        \label{fig:VSCodeLogo}
+    \end{figure}
+\end{comment}
 
 Gracias a su \textbf{integración de Git} es sencillo revisar las diferencias, preparar los archivos y realizar confirmaciones directamente desde el editor antes de subirlo al repositorio en la nube.
 
@@ -1044,14 +1083,16 @@ Las extensiones más importantes para mejorar la experiencia de desarrollo y bue
 \subsubsection{ESLint}
 
 ESLint es una herramienta de \textbf{análisis de código} para identificar patrones problemáticos que se puede instalar como extensión en VSCode \cite{eslint}.
-(Ver figura \ref{fig:ESLintLogo}).
+%(Ver figura \ref{fig:ESLintLogo}).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.05]{VSCode/ESLint}
-    \caption{Logo de ESLint.}
-    \label{fig:ESLintLogo}
-\end{figure}
+\begin{comment}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.05]{VSCode/ESLint}
+        \caption{Logo de ESLint.}
+        \label{fig:ESLintLogo}
+    \end{figure}
+\end{comment}
 
 Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Se pueden usar guías de estilo cómo Airbnb, Standard o Google, pero en este caso lo vamos a configurar con la \textbf{guía de estilo} recomendada de ESLint y añadiremos reglas para TypeScript y React. Lo que nos permitirá:
 
@@ -1067,30 +1108,35 @@ ESLint está diseñado para ser flexible y configurable por lo que añadimos eje
 \subsubsection{Prettier}
 
 Prettier es un \textbf{formateador de código} que puede instalarse como extensión en VSCode. Aplica un estilo consistente analizando el código y formateándolo con sus propias reglas que toman en cuenta la longitud máxima de línea, ajustando el código cuando es necesario \cite{prettier}.
-(Ver figura \ref{fig:PrettierLogo}).
+%(Ver figura \ref{fig:PrettierLogo}).
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.02]{VSCode/Prettier}
     \caption{Logo de Prettier.}
     \label{fig:PrettierLogo}
 \end{figure}
+\end{comment}
 
 Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el \textbf{estilo del código}. Para usarlo junto con ESLint hay que configurar este último para que use Prettier.
 
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
 \section{Detalles de Implementación}
-La principal documentación con la que contamos es el estilo de nomenclatura, la coherencia a la hora de nombrar cosas y una arquitectura general coherente. Esta debe emanar de una serie de patrones que se repiten a lo largo del proyecto, tanto a nivel arquitectónico como de diseño. Esta información reside en el código: en el nombre de los componentes, de las variables y de las funciones. Este código se puede encontrar en el siguiente \textbf{repositorio de Github} (ver figura \ref{fig:GitHubLogo}):
+La principal documentación con la que contamos es el estilo de nomenclatura, la coherencia a la hora de nombrar cosas y una arquitectura general coherente. Esta debe emanar de una serie de patrones que se repiten a lo largo del proyecto, tanto a nivel arquitectónico como de diseño. Esta información reside en el código: en el nombre de los componentes, de las variables y de las funciones. Este código se puede encontrar en el siguiente \textbf{repositorio de Github}: 
+%(ver figura \ref{fig:GitHubLogo}):
 
 \url{https://github.com/alberttogoca/EarFit}.
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.03]{Detalles de Implementación/GitHub}
     \caption{Logo de GitHub.}
     \label{fig:GitHubLogo}
 \end{figure}
+\end{comment}
 
 Para dejar reflejados estos detalles en la memoria se explicarán todas las partes de las que se compone esta implementación: \textbf{arquitectura, estructura de archivos, tipos, librerías, datos, servicios, Hooks} y \textbf{componentes}. No hará falta estar familiarizado con los conceptos propios de React para haber entendido está documentación al acabar.
 
