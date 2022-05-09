@@ -253,11 +253,8 @@ upquote=true,
 \chapter*{Agradecimientos}
 
 Quiero agradecer este TFG a mi familia por siempre estar a mi lado aconsejándome en los momentos más difíciles de mi carrera. 
-
 A mi novia por aguantar mis frustraciones y animarme a seguir adelante. 
-
 A mi tutor académico Manuel Rubio Sánchez que me ha apoyado para realizar este trabajo. 
-
 Y finalmente, me gustaría agradecer a todos mis compañeros que han compartido esta carrera conmigo.
 
 ¡A todos, mil gracias!
@@ -847,8 +844,8 @@ Después de una comparación de tecnologías actuales se llegó a la conclusión
 \subsection{Next.js}
 \label{sec:Next}
 
-Creado por Vercel, Next.js es un framework creado sobre \textbf{Node.js} y basado en \textbf{React} para crear aplicaciones web de alto rendimiento \cite{nextjs1}.
-Permite, instalando una sola dependencia, tener todo configurado para crear una aplicación de React usando \textbf{SWC} y \textbf{Webpack}. 
+Creado por Vercel, es un framework creado sobre \textbf{Node.js} y basado en \textbf{React} \cite{nextjs1}.
+Permite, con una sola dependencia, tener todo configurado para crear una aplicación web de alto rendimiento de React usando \textbf{SWC} y \textbf{Webpack}. 
 %(Ver figura \ref{fig:NextjsLogo}).
 
 \begin{comment}
@@ -875,7 +872,7 @@ Estas son las características \cite{nextjs2} que ofrece sin apenas configuraci�
         \end{figure}
     \end{comment}
 
-    \item \textbf{Pre-rendering}: El HTML para cada página es generado por adelantado, en lugar de que JavaScript en el cliente lo haga todo. Esto resulta en un mejor \textbf{rendimiento} y \textbf{SEO}. Cuando llegue el robot de Google recibirá el contenido ya renderizado, esto permitirá posicionar igual de bien que una web estática. 
+    \item \textbf{Pre-rendering}: El HTML para cada página es generado por adelantado, en lugar de que JavaScript en el cliente lo haga todo. Esto resulta en un mejor rendimiento y SEO. Cuando llegue el robot de Google recibirá el contenido ya renderizado, esto permitirá posicionar igual que una web estática. 
     %(Ver figura \ref{fig:Prerendering}).
 
     \begin{comment}
@@ -895,7 +892,7 @@ Estas son las características \cite{nextjs2} que ofrece sin apenas configuraci�
     Next.js tiene dos formas de pre-rendering:
     \begin{itemize}
         \item \textbf{Server-side Rendering:} El HTML se genera en cada solicitud. %(Ver figura \ref{fig:nextjs_ssr}).
-        \item \textbf{Generación Estática:} El HTML se genera en el momento de la compilación y se reutilizará en cada solicitud. Esta forma fue la utilizada por razones de rendimiento. %(Ver figura \ref{fig:nextjs_ssg})
+        \item \textbf{Generación Estática:} El HTML se genera en el momento de la compilación y se reutilizará en cada solicitud. Esta forma es la utilizada por razones de rendimiento. %(Ver figura \ref{fig:nextjs_ssg})
     \end{itemize}
 
     \begin{comment}
@@ -929,7 +926,7 @@ Estas son las características \cite{nextjs2} que ofrece sin apenas configuraci�
         \end{figure}
     \end{comment}
 
-    \item \textbf{Enrutamiento optimizado con prefetching} para Single-page Application: La aplicación precarga los recursos mostrados en la página actual para que su acceso sea mucho más rápido al navegar. 
+    \item \textbf{Enrutamiento optimizado con prefetching} para SPA: La aplicación precarga los recursos mostrados en la página actual para que su acceso sea mucho más rápido al navegar. 
     %(Ver figura \ref{fig:nextjs_prefetch}).
 
     \begin{comment}
@@ -953,17 +950,17 @@ Estas son las características \cite{nextjs2} que ofrece sin apenas configuraci�
         \end{figure}   
     \end{comment}
 
-    \item \textbf{Soporte integrado de CSS y Sass}, y soporte para cualquier biblioteca \textbf{CSS-in-JS}. Lo que permite abstraer CSS al nivel del componente, utilizando JavaScript para describir estilos de forma declarativa y mantenible.
+    \item \textbf{Soporte integrado de CSS, Sass} y \textbf{CSS-in-JS}: Lo que permite abstraer CSS al nivel del componente, utilizando JavaScript para describir estilos de forma declarativa y mantenible.
     \item \textbf{Rutas API} para crear endpoints con Serverless Functions: Cualquier archivo dentro de la carpeta ``pages/api'' se asigna a ``/api/*'' y se tratará como un endpoint en lugar de una página.
     \item \textbf{Compatible con TypeScript} de forma predeterminada y con tipos integrados para las páginas y la API.
 \end{itemize}
 
-Simplemente instalamos Nextjs, así como TypeScript, React y React-dom como dependencias. Estas dos últimas son necesarias para que Next pueda trabajar sin ningún tipo de problemas.
+%Simplemente instalamos Nextjs, así como TypeScript, React y React-dom como dependencias. Estas dos últimas son necesarias para que Next pueda trabajar sin ningún tipo de problemas.
 
 \subsection{React}
 \label{sec:React}
 
-Es una biblioteca para proyectos de \textbf{JavaScript} mantenida por Facebook, que permite crear aplicaciones web e interfaces de usuario mediante componentes interactivos y reutilizables \cite{react1}.
+Es una biblioteca de \textbf{JavaScript} mantenida por Facebook, que permite crear interfaces de usuario mediante componentes interactivos y reutilizables \cite{react1}.
 %(Ver figura \ref{fig:ReactLogo}).
 
 \begin{comment}
@@ -975,7 +972,9 @@ Es una biblioteca para proyectos de \textbf{JavaScript} mantenida por Facebook, 
 \end{figure}
 \end{comment}
 
-React está basado en un paradigma llamado \textbf{programación orientada a componentes} en el que cada componente es una pieza con la que el usuario puede interactuar. Estas piezas se crean usando una sintaxis llamada JSX permitiendo escribir HTML (y opcionalmente CSS) dentro de objetos JavaScript. Estos componentes son reutilizables y se combinan para crear componentes mayores hasta configurar una web completa.
+%React está basado en un paradigma llamado \textbf{programación orientada a componentes} en el que cada componente es una pieza con la que el usuario puede interactuar. 
+Estos componentes se crean usando una sintaxis llamada JSX permitiendo escribir HTML y CSS dentro de objetos JavaScript y se combinan para crear componentes mayores hasta configurar una web completa.
+
 \begin{comment}
     \begin{figure}[H]
         \centering
@@ -985,17 +984,20 @@ React está basado en un paradigma llamado \textbf{programación orientada a com
     \end{figure}
 \end{comment}
 
-Además, React genera el DOM de forma dinámica, hace los cambios en una copia en memoria (\textbf{DOM virtual}) y después la compara con la versión actual del DOM, de esta forma evita renderizar toda la página cada vez que haya cambios, simplemente se aplica dicho cambio al componente que haya sido actualizado. Esto propicia una mejor experiencia de usuario, además de un gran rendimiento y fluidez \cite{react2}.
+Además, genera el DOM de forma dinámica, hace los cambios en un \textbf{DOM virtual} y después la compara con la versión actual del DOM. Aplica los cambios sólo al componente actualizado, evitando renderizar toda la página. Esto propicia una mejor experiencia de usuario, gran rendimiento y fluidez \cite{react2}.
 %(Ver figura \ref{fig:React_VirtualDom}).
 
 \subsection{Vercel}
 \label{sec:Vercel}
 
-Es una plataforma en la nube que permite a los desarrolladores \textbf{alojar sitios web} y servicios web que escalan automáticamente y no requieren supervisión \cite{vercel1}. %(Ver figura \ref{fig:VercelLogo}). 
+Es una plataforma en la nube que permite \textbf{alojar sitios web} y servicios web que escalan automáticamente y no requieren supervisión \cite{vercel1}. %(Ver figura \ref{fig:VercelLogo}). 
+
+Proporciona dominios personalizados, variables de entorno, HTTPS automático y una vista previa de cada rama de Github.
+Además, desplegar una aplicación \textbf{Next.js} tiene las siguientes ventajas:
 
 \begin{compactitem}
-    \item Las páginas que usan generación estática y assets (JS, CSS, imágenes, fuentes, etc.) se publican automáticamente desde el \textbf{Vercel Edge Network}, que es increíblemente rápido.
-    \item Las páginas que usan pre-rendering y rutas API se convierten automáticamente en \textbf{Serverless Functions}. Esto permite que el renderizado de páginas y las solicitudes API puedan escalar infinitamente.
+    \item Las páginas que usan generación estática y assets se publican automáticamente desde el \textbf{Vercel Edge Network}, que es increíblemente rápido.
+    \item Las páginas que usan pre-rendering y rutas API se convierten en \textbf{Serverless Functions}, permitiendo que el renderizado y las solicitudes puedan escalar.
 \end{compactitem}
 
 \begin{comment}
@@ -1007,14 +1009,12 @@ Es una plataforma en la nube que permite a los desarrolladores \textbf{alojar si
     \end{figure}
 \end{comment}
 
-Aparte ofrece muchas más funciones, como: dominios personalizados, variables de entorno, HTTPS automático y una vista previa de cada rama de Github por cada subida de código, lo que permite seguir el flujo de trabajo DPS.
-
 Por último, ofrece \textbf{Vercel Analytics} para medir el rendimiento de la web, recopilando las web vitals de los dispositivos reales que utilizan los usuarios \cite{vercelAnalytics}.
 
 \subsection{TypeScript}
 \label{sec:TypeScript}
 
-TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de \textbf{JavaScript}, que esencialmente añade \textbf{tipos estáticos} y objetos basados en clases \cite{typescript}.
+Es un lenguaje de programación desarrollado y mantenido por Microsoft. Es un superconjunto de \textbf{JavaScript}, que añade \textbf{tipos estáticos} y objetos basados en clases \cite{typescript}.
 %(Ver figura \ref{fig:TypeScriptLogo}).
 
 \begin{comment}
@@ -1026,7 +1026,7 @@ TypeScript es un lenguaje de programación libre y de código abierto desarrolla
     \end{figure}
 \end{comment}
 
-Como TypeScript es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con \textbf{Nextjs} ya obtenemos transpilación y empaquetado automáticos con \textbf{SWC} y \textbf{Webpack} respectivamente.
+%Como es un superconjunto de JavaScript, todo el código escrito en JavaScript es válido para TypeScript. Pero lo contrario no es cierto. Es decir, como los navegadores no entienden TypeScript, es necesario transpilarlo a JavaScript antes de usarlo en un navegador. Al crear nuestra aplicación con \textbf{Nextjs} ya obtenemos transpilación y empaquetado automáticos con \textbf{SWC} y \textbf{Webpack} respectivamente.
 %(ver figura \ref{fig:TypeScript})
 
 \begin{comment}
@@ -1038,13 +1038,15 @@ Como TypeScript es un superconjunto de JavaScript, todo el código escrito en Ja
     \end{figure}
 \end{comment}
 
-Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo que es un lenguaje más limpio. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño e incrementa la agilidad en el refactoring del código.
+Es un lenguaje más limpio, robusto y mantenible. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño e incrementa la agilidad en el refactoring.
+
+Los navegadores no entienden TypeScript, por lo que es necesario transpilarlo a JavaScript antes de usarlo. Al crear nuestra aplicación con \textbf{Nextjs} ya obtenemos transpilación y empaquetado automáticos con \textbf{SWC} y \textbf{Webpack}.
 \cite{typescript2}
 
 \subsection{Node.js}
 \label{sec:Node}
 
-Node.js es un entorno de tiempo de ejecución de \textbf{JavaScript}. Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables \cite{node}.
+Es un entorno de tiempo de ejecución de \textbf{JavaScript}. Orientado a eventos asíncronos, incluye todo lo necesario para ejecutar un programa JavaScript \cite{node}.
 %(Ver figura \ref{fig:NodejsLogo}).
 
 \begin{comment}
@@ -1056,34 +1058,29 @@ Node.js es un entorno de tiempo de ejecución de \textbf{JavaScript}. Este entor
     \end{figure}
 \end{comment}
 
-Permite utilizar un único lenguaje de programación para el Backend y el FrontEnd. Además cuenta con un repositorio de código abierto lleno de \textbf{librerías} útiles lo que ayuda en el desarrollo a una generación rápida de un producto mínimo viable.
+Permite utilizar un único lenguaje para el Backend y el FrontEnd. Además, cuenta con un repositorio de código abierto lleno de \textbf{librerías} útiles. %, lo que ayuda a una generación rápida de un producto mínimo viable.
 
-Debemos tenerlo instalado con \textbf{NPM} o \textbf{Yarn} los cuales son unos gestores de paquetes para trabajar con proyectos de Node.js \cite{npm}. Es necesario instalar una extensión para VScode y comenzar un proyecto nuevo con NPM o Yarn e instalar algunas dependencias necesarias como las de Typescript.
-
-\subsubsection{NPM o Yarn}
-
-A veces, la \textbf{instalación de paquetes} con NPM no es lo suficiente consistente o rápida, dando incluso a errores. Es por ese el motivo que en este proyecto se tuvo que cambiar a Yarn, que es una alternativa construida por Facebook, Google, Exponent y Tilde. Lo cual nos permitió resolver algunos errores en la instalación de librerias \cite{npmyarn}.
-%(Ver figura \ref{fig:NPMYarnLogo}).
+Debe estar instalado con \textbf{NPM} o \textbf{Yarn}, dos gestores de paquetes para proyectos de Node.js \cite{npm}. A veces, la \textbf{instalación de paquetes} con NPM no es lo suficiente consistente o rápida, dando incluso errores. Este es el motivo para usar Yarn, una alternativa construida por Facebook, Google, Exponent y Tilde \cite{yarn}\cite{npmyarn}.
 
 \begin{comment}
+\subsubsection{NPM vs. Yarn}
+A veces, la \textbf{instalación de paquetes} con NPM no es lo suficiente consistente o rápida, dando incluso errores. Este es el motivo para usar Yarn, una alternativa construida por Facebook, Google, Exponent y Tilde \cite{npmyarn}.
+(Ver figura \ref{fig:NPMYarnLogo}).
     \begin{figure}[H]
         \centering
         \includegraphics[scale=0.4]{Nodejs/NPMvsYarn}
         \caption{Logo de NPM y Yarn.}
         \label{fig:NPMYarnLogo}
     \end{figure}
-\end{comment}
-
-En \textbf{package.json}, el archivo donde tanto NPM como Yarn hacen un seguimiento de las dependencias del proyecto, los números de versión no siempre son exactos. En su lugar, se puede definir una gama de versiones.
-
+Una diferencia es que en el \textbf{package.json}, el archivo donde se hace un seguimiento de las dependencias del proyecto, los números de versión no siempre son exactos. En su lugar, se puede definir una gama de versiones.
 Cada vez que se añade un módulo, Yarn crea o actualiza un archivo \textbf{yarn.lock}.
-De esta manera se puede garantizar que en otra máquina se pueda instalar exactamente el mismo paquete, sin dejar de tener una gama de versiones permitidas definidas en package.json. 
-\cite{yarn}
+De esta manera se puede garantizar que se vuelva a instalar exactamente el mismo paquete, sin dejar de tener una gama de versiones permitidas en package.json. 
+\end{comment}
 
 \subsection{VSCode}
 \label{sec:VSCode}
 
-Visual Studio Code es un \textbf{editor de código} optimizado para crear y depurar aplicaciones web modernas. Incluye depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente y refactorización de código \cite{vscode}.
+Es un \textbf{editor de código} optimizado para crear aplicaciones modernas. Incluye depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente y refactorización de código \cite{vscode}.
 %(Ver figura \ref{fig:VSCodeLogo}).
 
 \begin{comment}
@@ -1095,15 +1092,15 @@ Visual Studio Code es un \textbf{editor de código} optimizado para crear y depu
     \end{figure}
 \end{comment}
 
-Gracias a su \textbf{integración de Git} es sencillo revisar las diferencias, preparar los archivos y realizar confirmaciones directamente desde el editor antes de subirlo al repositorio en la nube.
+%Gracias a su \textbf{integración de Git} es sencillo revisar las diferencias, preparar los archivos y realizar confirmaciones directamente desde el editor antes de subirlo al repositorio en la nube.
 
-Además cuenta con una biblioteca de \textbf{extensiones}, las cuales nos dan numerosas opciones para ser más eficiente programando. Desde extensiones de otros lenguajes de programación hasta diferentes herramientas para visualizar o estructurar el código.
+Además, cuenta con una biblioteca de \textbf{extensiones} para ser más eficiente programando. Desde extensiones de lenguajes de programación hasta herramientas para visualizar o estructurar el código.
 
-Las extensiones más importantes para mejorar la experiencia de desarrollo y buenas prácticas de este proyecto fueron \textbf{ESLint} y \textbf{Prettier}. Configurar estas herramientas será una inversión que haremos una vez y sus beneficios los notaremos durante todo el proyecto.
+Las extensiones más importantes para mejorar la experiencia de desarrollo y buenas prácticas de este proyecto fueron \textbf{ESLint} y \textbf{Prettier}. Configurar estas herramientas es una inversión que se hace una vez y sus beneficios notan durante todo el desarrollo.
 
 \subsubsection{ESLint}
 
-ESLint es una herramienta de \textbf{análisis de código} para identificar patrones problemáticos que se puede instalar como extensión en VSCode \cite{eslint}.
+Es una herramienta de \textbf{análisis de código} para identificar patrones problemáticos que se puede instalar como extensión en VSCode \cite{eslint}.
 %(Ver figura \ref{fig:ESLintLogo}).
 
 \begin{comment}
@@ -1115,21 +1112,31 @@ ESLint es una herramienta de \textbf{análisis de código} para identificar patr
     \end{figure}
 \end{comment}
 
-Su función es analizar el código de nuestra aplicación, detectar problemas por medio de patrones y si está a su alcance resolverlos. Se pueden usar guías de estilo cómo Airbnb, Standard o Google, pero en este caso lo vamos a configurar con la \textbf{guía de estilo} recomendada de ESLint y añadiremos reglas para TypeScript y React. Lo que nos permitirá:
+Su función es analizar el código, detectar problemas y si puede:
 
 \begin{compactitem}
- \item Corregir errores de sintaxis
- \item Corregir código poco intuitivo o difícil de mantener
- \item Evitar el uso de ``malas practicas''
+ \item Corregir errores de sintaxis.
+ \item Corregir código poco intuitivo o difícil de mantener.
+ \item Evitar el uso de ``malas prácticas''.
  \item Hacer uso de un estilo de código consistente.
 \end{compactitem}
 
-ESLint está diseñado para ser flexible y configurable por lo que añadimos ejecutar ESLint como parte del proceso de integración continua.
+Está diseñado para ser flexible y configurable por lo que añadimos ejecutarlo como parte del proceso de integración continua. 
+Se pueden usar guías de estilo cómo Airbnb, Standard o Google. En este caso la configuración es la \textbf{guía de estilo} recomendada de ESLint con reglas para TypeScript y React. 
 
 \subsubsection{Prettier}
 
-Prettier es un \textbf{formateador de código} que puede instalarse como extensión en VSCode. Aplica un estilo consistente analizando el código y formateándolo con sus propias reglas que toman en cuenta la longitud máxima de línea, ajustando el código cuando es necesario \cite{prettier}.
+Es una herramienta para \textbf{formatear el código} que se puede instalar como extensión en VSCode \cite{prettier}. 
+
+Su función es analizar el código y aplicar un estilo consistente, dando formato según sus propias reglas a cosas como: 
 %(Ver figura \ref{fig:PrettierLogo}).
+
+\begin{compactitem}
+    \item La longitud máxima de línea.
+    \item El tipo de identación.
+    \item Los saltos de línea.
+    \item El orden de los imports.
+   \end{compactitem}
 
 \begin{comment}
 \begin{figure}[H]
@@ -1140,7 +1147,7 @@ Prettier es un \textbf{formateador de código} que puede instalarse como extensi
 \end{figure}
 \end{comment}
 
-Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Su objetivo es acabar con los debates sobre el \textbf{estilo del código}. Para usarlo junto con ESLint hay que configurar este último para que use Prettier.
+Su objetivo es acabar con los debates sobre el \textbf{estilo del código}. Para ello, analiza el código y lo da formato cada vez que se guarda el archivo. Para usarlo junto con ESLint hay que configurar este último para que use Prettier.
 
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 

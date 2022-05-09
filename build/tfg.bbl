@@ -341,16 +341,16 @@ NPM, \emph{About NPM}. [Online]. Available:
   \url{https://docs.npmjs.com/about-npm}
 \BIBentrySTDinterwordspacing
 
-\bibitem{npmyarn}
-\BIBentryALTinterwordspacing
-J.~Salazar, ``Yarn vs. npm, todo lo que necesitas saber,'' \emph{Tekzup}.
-  [Online]. Available: \url{https://tekzup.com/yarn-vs-npm-lo-necesitas-saber/}
-\BIBentrySTDinterwordspacing
-
 \bibitem{yarn}
 \BIBentryALTinterwordspacing
 Yarn, \emph{Introduction to Yarn}. [Online]. Available:
   \url{https://yarnpkg.com/getting-started}
+\BIBentrySTDinterwordspacing
+
+\bibitem{npmyarn}
+\BIBentryALTinterwordspacing
+J.~Salazar, ``Yarn vs. npm, todo lo que necesitas saber,'' \emph{Tekzup}.
+  [Online]. Available: \url{https://tekzup.com/yarn-vs-npm-lo-necesitas-saber/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{vscode}
