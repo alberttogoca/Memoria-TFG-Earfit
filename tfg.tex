@@ -770,7 +770,7 @@ El desarrollo de \textbf{aplicaciones modernas} requiere procesos diferentes a l
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.65\textwidth]{DevOps/DevOps}
+    \includegraphics[width=0.68\textwidth]{DevOps/DevOps}
     \caption{Diagrama de DevOps.}
     \label{fig:DevOps}
 \end{figure}
@@ -1664,106 +1664,56 @@ Una vez hecho el análisis, Lighthouse emite puntuaciones del 0 al 100 que puede
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=1.2]{Lighthouse/Resumen}
+    \includegraphics[width=\textwidth]{Lighthouse/Resumen}
     \caption{Puntuaciones de Lighthouse.}
     \label{fig:Lighthouse_resumen}
 \end{figure}
 
-\subsubsection{Performance}
+\begin{itemize}
+    %En el ámbito del rendimiento, Lighthouse analiza la velocidad de la aplicación web y comprueba que los elementos que se han cargado se visualizan correctamente. 
+    \item \textbf{Performance}: En este apartado, Lighthouse no está optimizado y da algunas falsas mediciones para aplicaciones \textbf{Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación usando Vercel, podemos hacer uso de \textbf{Vercel Analytics}, que además nos aporta algunas ventajas como veremos más adelante.
+    % En lugar de medir en nuestro PC, Vercel Analytics recopila datos de los dispositivos reales que utilizan los usuarios. 
+    \item \textbf{Accessibility}: En el ámbito de la accesibilidad, Lighthouse comprueba si la página o la aplicación es fácil de usar para personas con limitaciones físicas. Se comprueba si los elementos importantes, como los botones y los enlaces, se describen de forma clara. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_accesibility}).
 
-%En el ámbito del rendimiento, Lighthouse analiza la velocidad de la aplicación web y comprueba que los elementos que se han cargado se visualizan correctamente. 
-En este apartado, Lighthouse no está optimizado y da algunas falsas mediciones para aplicaciones \textbf{Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación usando Vercel, podemos hacer uso de \hyperref[sec:funcionales]{\textbf{Vercel Analytics}}, que además nos aporta algunas ventajas como veremos más adelante.
-% En lugar de medir en nuestro PC, Vercel Analytics recopila datos de los dispositivos reales que utilizan los usuarios. 
-
-\subsubsection{Accessibility}
-
-En el ámbito de la accesibilidad, Lighthouse comprueba si la página o la aplicación es fácil de usar para personas con limitaciones físicas. Se comprueba si los elementos importantes, como los botones y los enlaces, se describen de forma clara. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_accesibility}).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/Accesibility}
-    \caption{Auditoría de accesibilidad.}
-    \label{fig:Lighthouse_accesibility}
-\end{figure}
-
-En este apartado nos resta tres puntos y nos dice que el texto del Footer tiene poco contraste. No lo tenemos en cuenta, ya que este es un mensaje secundario que no tiene que resaltar, por eso su bajo contraste. (Ver figura \ref{fig:Lighthouse_contrast}).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/AccesibilityContrast}
-    \caption{Fallo en contraste.}
-    \label{fig:Lighthouse_contrast}
-\end{figure}
-
-\subsubsection{Best Practices}
-
-En el área de mejores prácticas, Lighthouse analiza, sobre todo, los aspectos de seguridad de la web. Aquí, la herramienta comprueba si se han usado tecnologías de codificación como TLS, si los recursos integrados de la página web provienen de fuentes seguras o si las bibliotecas JavaScript se pueden catalogar como seguras. También analiza si las bases de datos son seguras (si las hay) y destaca el uso de API anticuadas. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_bestpractices}).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/BestPractices}
-    \caption{Auditoría de buenas prácticas.}
-    \label{fig:Lighthouse_bestpractices}
-\end{figure}
-
-\subsubsection{SEO}
-
-En este ámbito Lighthouse analiza el nivel de visibilidad de la web en diferentes buscadores. Se comprueba especialmente la idoneidad de la web para terminales móviles, es decir, si las etiquetas y los metadatos se han optimizado. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_seo}).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/SEO}
-    \caption{Auditoría de SEO.}
-    \label{fig:Lighthouse_seo}
-\end{figure}
-
-\subsubsection{Progressive Web Apps}
-
-El análisis de aplicaciones web progresivas es la función principal de Google Lighthouse. El software analiza si la página web funciona según lo previsto. Comprueba si todos los elementos y contenidos dinámicos se representan correctamente, si la página registra un Service Worker y si está disponible la función offline. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_PWA}).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/PWA}
-    \caption{Auditoría de aplicación web progresiva.}
-    \label{fig:Lighthouse_PWA}
-\end{figure}
+    En este apartado nos resta tres puntos y nos dice que el texto del Footer tiene poco contraste. No lo tenemos en cuenta, ya que este es un mensaje secundario que no tiene que resaltar, por eso su bajo contraste. (Ver figura \ref{fig:Lighthouse_contrast}).
+    \item \textbf{Best Practices}: En el área de mejores prácticas, Lighthouse analiza, sobre todo, los aspectos de seguridad de la web. Aquí, la herramienta comprueba si se han usado tecnologías de codificación como TLS, si los recursos integrados de la página web provienen de fuentes seguras o si las bibliotecas JavaScript se pueden catalogar como seguras. También analiza si las bases de datos son seguras (si las hay) y destaca el uso de API anticuadas. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_bestpractices}).
+    \item \textbf{SEO}: En este ámbito Lighthouse analiza el nivel de visibilidad de la web en diferentes buscadores. Se comprueba especialmente la idoneidad de la web para terminales móviles, es decir, si las etiquetas y los metadatos se han optimizado. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_seo}).
+    \item \textbf{Progressive Web Apps}: El análisis de aplicaciones web progresivas es la función principal de Google Lighthouse. El software analiza si la página web funciona según lo previsto. Comprueba si todos los elementos y contenidos dinámicos se representan correctamente, si la página registra un Service Worker y si está disponible la función offline. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_PWA}).
+\end{itemize}
 
 \subsubsection{Vercel Analytics}
 \label{sec:analytics}
 
 Mientras que otras herramientas como Lighthouse estiman la experiencia de usuario ejecutando una simulación en el ordenador del desarrollador, el \textbf{Real Experience Score} de Vercel se calcula utilizando datos reales recopilados de los dispositivos de los usuarios reales. Por eso, proporciona una calificación real de cómo los usuarios realmente experimentan la aplicación.
-(Ver figura \ref{fig:Vercel_metrics_resume}).
+(Ver Figura \ref{fig:Vercel_metrics}).
+%(Ver figura \ref{fig:Vercel_metrics_resume}).
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{Vercel/VercelAnalyticsResume}
     \caption{Puntuación de Vercel Analytics.}
     \label{fig:Vercel_metrics_resume}
 \end{figure}
+\end{comment}
 
 Esto permite un flujo continuo de mediciones de rendimiento, a lo largo del tiempo, integrado en el flujo de trabajo de desarrollo. Con lo que se puede correlacionar fácilmente los cambios en el rendimiento con las nuevas implementaciones.
 
-\subsubsection{Real Experience Score}
+%\textbf{Real Experience Score}: En función de todas las métricas que se mencionan a continuación, Vercel calcula la Real Experience Score. Y nos muestra esta \textbf{vista de análisis}, que nos aporta información útil que permitirá mejorar la experiencia de usuario.
 
-En función de todas las métricas que se mencionan a continuación, Vercel calcula la Real Experience Score. Y nos muestra esta \textbf{vista de análisis}, que nos aporta información útil que permitirá mejorar la experiencia de usuario.
-(Ver figura \ref{fig:Vercel_metrics}).
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Vercel/RealExperienceScore}
+        \caption{Vista de análisis de las Web Vitals.}
+        \label{fig:Vercel_metrics}
+    \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{Vercel/RealExperienceScore}
-    \caption{Vista de análisis de las Web Vitals.}
-    \label{fig:Vercel_metrics}
-\end{figure}
-
-\subsubsection{Web Vitals}
-
-Son una colección de métrica establecidas por Google \cite{webdev} junto con el Web Performance Working Group \cite{w3} que rastrean la velocidad de carga , capacidad de respuesta y estabilidad visual de una aplicación web. El análisis consta de las siguientes cuatro categorías:
-
+El Real Experience Score se calcula en base a las \textbf{Web Vitals}. Estas son una colección de métricas establecidas por Google \cite{webdev} y el Web Performance Working Group \cite{w3}. El análisis consta de las siguientes cuatro categorías:
 \begin{itemize}
     \item\textbf{First Contentful Paint (FCP):} Mide la velocidad de carga, o cuando se muestra el primer contenido de la página.
     \item\textbf{Largest Contentful Paint (LCP):} Mide la velocidad de carga percibida, o cuando se puede visualizar todo el contenido de la página.
     \item\textbf{Cumulative Layout Shift (CLS):} Mide la estabilidad visual, o cuánto se mueven los elementos después de mostrarse al usuario. Por ejemplo, cuando un botón se mueve porque una imagen se cargó tarde, eso es CLS.
-    \item\textbf{First Input Delay (FID):} Mide la capacidad de respuesta de la página, o cuánto tiempo esperan los usuarios para ver la reacción de su primera interacción con la página. Por ejemplo, la cantidad de tiempo entre el momento en que hago clic en "Agregar al carrito" y el incremento del número de artículos en el carrito es FID.
+    \item\textbf{First Input Delay (FID):} Mide la capacidad de respuesta de la página, o cuánto tiempo esperan los usuarios para ver la reacción de su primera interacción con la página. Por ejemplo, la cantidad de tiempo entre que se hace click en ``Agregar al carrito'' y el incremento del número de artículos en el carrito es FID.
 \end{itemize}
 
 \newpage
@@ -2318,6 +2268,43 @@ Por lo que habría que seguir un proceso de innovación sostenida, que se basar�
     \label{fig:PCAbout2}
 \end{figure}
 
+\chapter{Tests de Google Lighthouse}
+\label{sec:lighthousetest}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Lighthouse/Accesibility}
+    \caption{Auditoría de accesibilidad.}
+    \label{fig:Lighthouse_accesibility}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Lighthouse/AccesibilityContrast}
+    \caption{Fallo en contraste.}
+    \label{fig:Lighthouse_contrast}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Lighthouse/BestPractices}
+    \caption{Auditoría de buenas prácticas.}
+    \label{fig:Lighthouse_bestpractices}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Lighthouse/SEO}
+    \caption{Auditoría de SEO.}
+    \label{fig:Lighthouse_seo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Lighthouse/PWA}
+    \caption{Auditoría de aplicación web progresiva.}
+    \label{fig:Lighthouse_PWA}
+\end{figure}
 
 \chapter{Limitaciones Personales}
 
