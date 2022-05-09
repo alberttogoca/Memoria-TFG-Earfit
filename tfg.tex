@@ -252,9 +252,9 @@ upquote=true,
 
 \chapter*{Agradecimientos}
 
-Quiero agradecer este TFG a mi familia por siempre estar a mi lado aconsejándome en los momentos más difíciles de mi carrera. 
-A mi novia por aguantar mis frustraciones y animarme a seguir adelante. 
-A mi tutor académico Manuel Rubio Sánchez que me ha apoyado para realizar este trabajo. 
+Quiero agradecer este TFG a mi familia, por siempre estar a mi lado aconsejándome en los momentos más difíciles de la carrera. 
+A mi novia, por aguantar mis frustraciones y animarme a seguir adelante. 
+A mi tutor académico, Manuel Rubio Sánchez, que me ha apoyado para realizar este trabajo. 
 Y finalmente, me gustaría agradecer a todos mis compañeros que han compartido esta carrera conmigo.
 
 ¡A todos, mil gracias!
@@ -1188,55 +1188,63 @@ La arquitectura indica la \textbf{estructura, funcionamiento e interacción} ent
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{Detalles de Implementación/Arquitectura}
+    \includegraphics[width=0.85\textwidth]{Detalles de Implementación/Arquitectura}
     \caption{Arquitectura de la aplicación.}
     \label{fig:Arquitectura}
 \end{figure}
 
-Esta arquitectura esta formada por \textbf{varias capas desacopladas}: infraestructura, datos, servicios e interfaz de usuario. Estas capas interactúan de la siguiente manera:
+Esta arquitectura esta formada por \textbf{varias capas desacopladas}: infraestructura, datos, servicios e interfaz de usuario. Estas capas interactúan entre sí de la siguiente manera:
 
 \begin{itemize}
     \item \textbf{La infraestructura} se compone de funciones, librerías y tipos de Typescript que apoyan la lógica de los servicios y de la interfaz.
-    \item \textbf{Los servicios} proveen los datos y alguna lógica independiente a la capa IU.
+    \item \textbf{Los servicios} proveen los datos y alguna lógica independiente a la capa de interfaz de usuario.
     \item \textbf{El contexto y los Hooks} usan los servicios y se hacen cargo de crear y manejar los estados necesarios para los componentes.
-    \item \textbf{Las páginas y los componentes} usan el contexto y los Hooks, y renderizan la interfaz de usuario.
+    \item \textbf{Las páginas y los componentes} hacen uso del contexto y los Hooks, y renderizan la interfaz de usuario.
 \end{itemize}
 
 \subsection{Estructura de Archivos}
 \label{sec:archivos}
 
-React no tiene opiniones sobre cómo poner los archivos en carpetas \cite{reactArchivos}. \textbf{Nextjs} en cambio tiene algunos archivos y \textbf{directorios especiales}. Como mínimo, se necesita una carpeta ``pages'' y un archivo ``index.js'' dentro de él. Además, la carpeta ``public'' tiene una función específica en Nextjs. Aparte de estos archivos y directorios, todo vale \cite{nextjs2}.
+%React no tiene opiniones sobre cómo estructurar los archivos \cite{reactArchivos}. 
+\textbf{Nextjs} tiene algunos archivos y \textbf{directorios especiales} \cite{reactArchivos}. Como mínimo, se necesita una carpeta ``pages'' con un archivo ``index.js''. Además, la carpeta ``public'' tiene una función específica. Aparte de estos archivos y directorios, todo vale \cite{nextjs2}.
 
-En este caso se han separado las \textbf{carpetas por conceptos} o intereses, donde cada carpeta contiene archivos similares siguiendo la arquitectura previa.
-(Ver figura \ref{fig:Archivos}).
+En este caso se han separado las \textbf{carpetas por conceptos} o intereses (Ver figura \ref{fig:Archivos}). Cada carpeta contiene archivos similares siguiendo la arquitectura:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Archivos}
+    \includegraphics[width=0.45\textwidth]{Detalles de Implementación/Estructura de Archivos/Archivos}
     \caption{Estructura de Archivos.}
     \label{fig:Archivos}
 \end{figure}
 
 \begin{itemize}
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/pages}{\textbf{Pages}}: Aquí se encuentran todas las páginas de la aplicación y además se encuentran los archivos ``\_app.tsx'' y ``\_document.tsx'' personalizados. Cada página está asociada con una ruta basada en su nombre de archivo. Por ejemplo: en ``pages/notes'' se exporta un componente de React que será accesible en ``/notes''.
-    Aparte, para tener un Layout persistente está el archivo ``\_app.tsx'' donde se envuelve la aplicación con él. Además, en este archivo se encuentran los metadatos de la aplicación. Por otro lado, en el archivo ``\_document.tsx'' se actualizan las etiquetas ``\texttt{<html>}'' y ``\texttt{<body>}''.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/public}{\textbf{Public}}: Aquí se pueden encontrar los iconos, imágenes, service worker, manifest y archivos de fuente de sonido en formato MIDI.js de la aplicación. En Next.js el código puede hacer referencia a los archivos estáticos dentro de una ``public'' en el directorio raíz a partir de la URL base (/).
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/components}{\textbf{Components}}: Aquí se pueden encontrar todos los componentes de la aplicación agrupados por carpetas. El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/types}{\textbf{Types}}: Aquí se encuentran en un archivo todos los tipo personalizados usados en los demás archivos de la aplicación. Para usar Typescript todos los archivos ``.js'' se convierten en ``.ts'' y ``.jsx'' en ``.tsx''.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/lib}{\textbf{Lib}}: Aquí se puede encontrar ``soundfont-wrapper'', una librería personalizada para la aplicación. Para hacer uso de la librería ``soundfont-player'', que se encarga de cargar los archivos de fuente de sonido y usarlos mediante la WebAudio API. Se creó esta librería envoltorio (wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/utils}{\textbf{Utils}}: Aquí se pueden encontrar archivos con métodos genéricos para ser usados en cualquier parte de la aplicación.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/styles}{\textbf{Styles}}: Aquí se pueden encontrar algunos estilos css globales para la aplicación. Aunque en general se hace uso de ``react-bootstrap'' junto con ``bootswatch'' para los estilos de la aplicación.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/services}{\textbf{Services}}: Aquí puedes encontrar los servicios que serán consumidos desde los Hooks. Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica independiente a la interfaz.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/context}{\textbf{Context}}: Aquí puedes encontrar el contexto de la aplicación. El Context está diseñado para compartir estados que pueden considerarse “globales” para un árbol de componentes en React. Como es un componente algo especial, como las pages, tiene su propio directorio.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/hooks}{\textbf{Hooks}}: Aquí puedes encontrar todos los Custom Hooks creados para extraer la lógica de los componentes en funciones reutilizables. Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/pages}{\textbf{Pages}}: Aquí se encuentran todas las páginas de la aplicación. Cada página está asociada con una ruta basada en su nombre de archivo. Por ejemplo: en ``pages/notes'' se exporta un componente de React que será accesible en ``/notes''.
+    
+    El archivo ``index.js'' es la página que se representa cuando el usuario visita la ruta raíz de la aplicación.
+
+    Aparte, para tener un Layout persistente está el archivo ``\_app.tsx''. En este archivo se encuentran los metadatos de la aplicación y se envuelve la aplicación con el Layout. 
+    
+    Por otro lado, en el archivo ``\_document.tsx'' se actualizan las etiquetas ``\texttt{<html>}'' y ``\texttt{<body>}''.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/public}{\textbf{Public}}: Aquí se encuentran los iconos, imágenes, service worker, manifest y archivos fuente de sonido en formato MIDI.js. En Next.js el código puede hacer referencia a los archivos estáticos dentro de una ``public'' en el directorio raíz a partir de la URL base (/).
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/components}{\textbf{Components}}: Aquí se encuentran todos los componentes de la aplicación agrupados por carpetas. El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/context}{\textbf{Context}}: Aquí se encuentra el contexto de la aplicación. El Context está diseñado para compartir estados que pueden considerarse “globales” para un árbol de componentes en React. %Como es un componente especial, como las pages, tiene su propio directorio.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/hooks}{\textbf{Hooks}}: Aquí se encuentran todos los Custom Hooks creados para extraer la lógica de los componentes en funciones reutilizables. Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/lib}{\textbf{Lib}}: Aquí se encuentra ``soundfont-wrapper'', una librería personalizada para la aplicación. Para hacer uso de la librería ``soundfont-player'', que se encarga de cargar los archivos fuente de sonido y usarlos mediante la Web Audio API. Se creó esta librería envoltorio (wrapper library) para refinar la complejidad de su interfaz y simplificar su uso.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/services}{\textbf{Services}}: Aquí se encuentran los servicios que serán consumidos desde los Hooks. Los servicios proporcionan los datos y un conjunto de métodos responsables de alguna lógica específica independiente a la interfaz.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/styles}{\textbf{Styles}}: Aquí se encuentran algunos estilos css globales. Aunque en general se hace uso de ``react-bootstrap'' junto con ``bootswatch'' para los estilos de la aplicación.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/types}{\textbf{Types}}: Aquí se encuentran todos los tipos usados en los demás archivos de la aplicación. Para usar Typescript todos los archivos ``.js'' se convierten en ``.ts'' y ``.jsx'' en ``.tsx''.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/utils}{\textbf{Utils}}: Aquí encuentran los archivos con métodos genéricos para ser usados en cualquier parte de la aplicación.
 \end{itemize}
+
+Por otro lado, en el directorio raíz del proyecto se encuentran los archivos de configuración: ``.eslintrc.js'', ``.gitignore'', ``.prettier.js'', ``next-env.d.ts'', ``next.config.js'', ``tsconfig.json'', ``package.json'' y ``yarn.lock''. 
+Y por último, también se encuentra un archivo ``README.md'' con una breve presentación y explicación de la aplicación.
 
 \subsection{Infraestructura}
 
 \subsubsection{Tipos}
 \label{sec:tipos}
 
-A continuación se explican los tipos de \textbf{Typescript} creados para la implementación. Estos tipos son una manera de documentar el código y evitar errores que Javascript no proporciona. Ayudan a leer y entender el código de una forma más efectiva.
+A continuación, se explican los tipos de \textbf{Typescript} creados para la implementación. Estos tipos son una manera de documentar el código y evitar errores que Javascript no proporciona. Ayudan a leer y entender el código de una forma más efectiva.
 
 \begin{itemize}
     \begin{figure}[H]
@@ -1246,8 +1254,8 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
         \label{fig:Instrument}
     \end{figure}
 
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{Instrument}}: Este tipo define a los instrumentos en la aplicación. Cada instrumento tiene un nombre para mostrar, un emoji que actúa de icono, un nombre identificador del instrumento, un ``notePlayer'' para tocar notas y un booleano que especifica si se tiene el archivo de sonido en una carpeta local. (Ver figura \ref{fig:Instrument}).
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{InstrumentName}}: Este tipo define el nombre identificador del instrumento. Esta definido por la librería ``Soundfont-player-js'' como una lista de instrumentos disponibles. Sirve para buscar el archivo MIDI de dicho instrumento y crear su ``notePlayer''. Si un instrumento no está en esta lista, significa que no existe su archivo MIDI en el repositorio fuente de la librería, pero se podría tener este archivo en local.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{Instrument}}: Este tipo define a los instrumentos en la aplicación. Cada instrumento tiene un nombre, un emoji, un nombre identificador del instrumento, un ``notePlayer'' para tocar notas y un booleano que especifica si se tiene el archivo de sonido en una carpeta local. (Ver figura \ref{fig:Instrument}).
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{InstrumentName}}: Este tipo define el nombre identificador del instrumento. Esta definido por la librería ``Soundfont-player-js'' como una lista de instrumentos disponibles. Sirve para buscar el archivo MIDI de dicho instrumento y crear su ``notePlayer''. %Si un instrumento no está en esta lista, significa que no existe su archivo MIDI en el repositorio fuente de la librería, pero se podría tener este archivo en local.
     
     \begin{figure}[H]
         \centering
@@ -1281,20 +1289,23 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{SelectableAnswer}}: Este tipo añade propiedades por intersección al tipo Answer, necesarias para implementar los botones de selección renderizados por el componente ``AnswerToggles''. La propiedad ``isSelected'' especifica si la respuesta está disponible para preguntar.
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{SelectableAnswerWithColor}}: Este tipo añade propiedades por intersección al tipo SelectableAnswer, necesarias para implementar los botones de respuesta renderizados por el componente ``AnswerButtons''. La propiedad ``color'' especifica el color que debe tomar el botón de respuesta.
 
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/MenuItemInfo}
-        \caption{Tipo MenuItemInfo.}
-        \label{fig:MenuItemInfo}
-    \end{figure}
+    \begin{comment}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.6]{Detalles de Implementación/Code/Types/MenuItemInfo}
+            \caption{Tipo MenuItemInfo.}
+            \label{fig:MenuItemInfo}
+        \end{figure}
 
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{MenuItemInfo}}: Este tipo define la información necesaria para cada ítem del componente menú. (Ver figura \ref{fig:MenuItemInfo}).
+        \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/types/index.ts}{\textbf{MenuItemInfo}}: Este tipo define la información necesaria para cada ítem del componente menú. (Ver figura \ref{fig:MenuItemInfo}).
+    \end{comment}
+
 \end{itemize}
 
 \subsubsection{Librerías}
 \label{sec:lib}
 
-A continuación se explican los paquetes de \textbf{Node.js} o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo ``package.json'' o en la carpeta ``lib'' en el caso de ``soundfont-wrapper''.
+A continuación, se explican los paquetes de \textbf{Node.js} o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo ``package.json'' o en la carpeta ``lib'' en el caso de ``soundfont-wrapper''.
 
 \begin{itemize}
     \item \href{https://github.com/tonaljs/tonal}{\textbf{Tonaljs}}: Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales \cite{tonal}.
@@ -1313,15 +1324,17 @@ En el archivo \href{https://github.com/alberttogoca/EarFit/blob/main/src/utils/a
 \label{sec:datos}
 \label{sec:servicios}
 
-A continuación se explican los servicios creados para la aplicación. Por comodidad y tamaño, los datos que proporcionan los servicios se encuentran en su mismo archivo. Ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
-(Ver figura \ref{fig:Services}).
+A continuación, se explican los servicios creados para la aplicación. Por comodidad y tamaño, los datos que proporcionan los servicios se encuentran en su mismo archivo. Ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
+\begin{comment}
+    (Ver figura \ref{fig:Services}).
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Services}
-    \caption{Servicios de la aplicación.}
-    \label{fig:Services}
-\end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Services}
+        \caption{Servicios de la aplicación.}
+        \label{fig:Services}
+    \end{figure}
+\end{comment}
 
 \begin{itemize}
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/instrumentService.ts}{\textbf{instrumentService.ts}}: Este servicio provee una función ``getInstruments'' que devuelve un array de instrumentos de tipo ``Instrument''. Usa la librería ``soundfont-wrapper'' para obtener los ``notePlayer'' para cada instrumento definido en la constante ``InstrumentData''. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ``InstrumentData''.
@@ -1347,14 +1360,17 @@ Los Hooks sirven para extraer \textbf{lógica de estado} de tal forma que un com
 El estado de cada componente es completamente independiente. De hecho, cada llamada a un Hook tiene un estado completamente aislado. Además, como los Hooks son funciones, podemos pasar información entre ellos.
 \cite{hooks2}
 
-Estos son los \textbf{Custom Hooks} (ver figura \ref{fig:Hooks}) desarrollados para la aplicación, cada uno cubre un caso de uso específico (se puede encontrar una relación entre el nombre de los Hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno más adelante):
+Estos son los \textbf{Custom Hooks} desarrollados para la aplicación, cada uno cubre un caso de uso específico (se puede encontrar una relación entre el nombre de los Hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno más adelante):
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Hooks}
-    \caption{Custom Hooks de la aplicación.}
-    \label{fig:Hooks}
-\end{figure}
+\begin{comment}
+    (ver figura \ref{fig:Hooks})
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Hooks}
+        \caption{Custom Hooks de la aplicación.}
+        \label{fig:Hooks}
+    \end{figure}
+\end{comment}
 
 \begin{itemize}
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useDirectionSelector.tsx}{\textbf{useDirectionSelector.tsx}}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
@@ -1373,17 +1389,19 @@ Estos son los \textbf{Custom Hooks} (ver figura \ref{fig:Hooks}) desarrollados p
 En una aplicación típica de React, los datos se pasan de padre a hijo a través de Props, pero esta forma puede resultar incómoda para ciertos tipos de Props que son necesarias para muchos componentes. Context proporciona una forma de \textbf{compartir valores} como estos entre componentes sin tener que pasar explícitamente una Prop a través de cada nivel del árbol.
 \cite{context1}
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.6]{Detalles de Implementación/Estructura de Archivos/Context}
     \caption{Context de la aplicación.}
     \label{fig:Context}
 \end{figure}
+\end{comment}
 
 \begin{itemize}
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/context/EarfitContext.tsx}{\textbf{EarfitContext.tsx}}: Este contexto provee el array de instrumentos, el instrumento seleccionado y una función para actualizar el instrumento seleccionado. Obtiene estos instrumentos gracias a los servicios.    
     Este contexto se puede encontrar envolviendo a la aplicación en el archivo ``\_app.tsx'' y es llamado con el Hook ``useInstrumentContext'' por varios Hooks y componentes.
-    (Ver figura \ref{fig:Context}).       
+    %(Ver figura \ref{fig:Context}).       
 \end{itemize}
 
 \subsection{Componentes y Pages}
