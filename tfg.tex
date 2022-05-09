@@ -365,6 +365,7 @@ En este capítulo se explica en qué consiste el entrenamiento auditivo para que
 \setcounter{page}{1}
 
 \section{Entrenamiento Auditivo}
+\label{sec:eartraining}
 
 Los oídos son la herramienta más importante a la hora de hacer música. Pero si no se entrenan, nunca se desarrollarán por completo. Los músicos, productores y DJs pueden beneficiarse del entrenamiento auditivo, ya que puede resultar muy útil a la hora de mezclar música y componer canciones.
 
@@ -398,9 +399,10 @@ Los ejercicios más comunes de entrenamiento auditivo ayudan a desarrollar este 
 
 \section{Estado del Arte}
 
-En la actualidad ya existen algunas aplicaciones que contemplan el entrenamiento auditivo como pueden ser \textbf{ToneGym, TonedEar} y \textbf{EarMaster}. En esta sección se describen sus pros y contras con el objetivo de obtener información útil de cara a las fases de análisis y diseño de este trabajo.
+En la actualidad ya existen algunas aplicaciones que contemplan el entrenamiento auditivo como pueden ser \hyperref[sec:ToneGym]{\textbf{ToneGym}}, \hyperref[sec:TonedEar]{\textbf{TonedEar}} y \hyperref[sec:EarMaster]{\textbf{EarMaster}}. En esta sección se describen sus pros y contras con el objetivo de obtener información útil de cara a las fases de análisis y diseño de este trabajo.
 
 \subsection{ToneGym}
+\label{sec:ToneGym}
 
 Esta aplicación cuenta con los ejercicios clásicos de entrenamiento musical y un menú siempre visible a la izquierda para que puedas moverte entre ellos fácilmente (ver figura \ref{fig:ToneGym}). Cuando aciertas la respuesta en un ejercicio recibes feedback del botón mediante sonido, el botón se vuelve verde unos segundos y automáticamente se pasa al siguiente sonido, lo que agiliza la práctica.
 \cite{tonegym1}
@@ -433,6 +435,7 @@ La sección de ejercicios esta un poco escondida y hay que deslizar hacia abajo 
 \cite{tonegym3}
 
 \subsection{TonedEar}
+\label{sec:TonedEar}
 
 Esta aplicación es la que más se parece a lo que queremos construir (ver figura \ref{fig:tonedear}). Contiene varios tipos de ejercicios como identificación de intervalos, escalas, etc. Permite la personalización de los ejercicios mediante un panel a la derecha, aunque no es inmediato. Y ofrece la posibilidad de continuar con el ejercicio aunque falles en la primera respuesta. Además, es una aplicación web gratuita, sencilla, fácil de entender y usar.
 \cite{tonedear1}
@@ -459,6 +462,7 @@ Por último, la aplicación permite personalizar los ejercicios pero no permite 
 \cite{tonedear2}
 
 \subsection{EarMaster}
+\label{sec:EarMaster}
 
 Parece ser la más completa y elaborada de todas con más de 2500 ejercicios. Contiene ejercicios para que puedas reconocer, transcribir, leer, cantar y tocar: Intervalos, acordes, progresiones armónicas, escalas, ritmos y melodías.
 (ver figura \ref{fig:earmaster})
@@ -507,13 +511,12 @@ Este trabajo se centra en el siguiente proceso combinando de Design Thinking, Le
 Este proceso se ha dividido en la memoria en los siguientes tres capítulos:
 
 \begin{itemize}
-    \item \textbf{Análisis y Diseño:} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y el prototipo de la aplicación. (Ver capítulo \ref{sec:diseño}).
-    \item \textbf{Metodologías Ágiles:} Este capítulo recoge lo relacionado para llevar a cabo la gestión y desarrollo del software utilizando Scrum y prácticas DevOps. Aquí se puede encontrar cómo se ha realizado la gestión, especificación de requisitos, integración continua y despliegue continuo. (Ver capítulo \ref{sec:agile}).
-    \item \textbf{Descripción Informática:} Este capítulo se centra en lo relacionado con la implementación de la solución. Aquí se puede encontrar las tecnologías usadas, los detalles de implementación del código, buenas prácticas y testing. (Ver capítulo \ref{sec:desarrollo}).
+    \item \hyperref[sec:diseño]{\textbf{Análisis y Diseño:}} Este capítulo recoge todo lo relacionado con la fase de ideación y puesta en marcha de la solución. Recoge explicaciones del proceso de Design Thinking y Lean Startup. Aquí se pueden encontrar el diseño y el prototipo de la aplicación. %(Ver capítulo \ref{sec:diseño}).
+    \item \hyperref[sec:agile]{\textbf{Metodologías Ágiles:}} Este capítulo recoge lo relacionado para llevar a cabo la gestión y desarrollo del software utilizando Scrum y prácticas DevOps. Aquí se puede encontrar cómo se ha realizado la gestión, especificación de requisitos, integración continua y despliegue continuo. %(Ver capítulo \ref{sec:agile}).
+    \item \hyperref[sec:desarrollo]{\textbf{Descripción Informática:}} Este capítulo se centra en lo relacionado con la implementación de la solución. Aquí se puede encontrar las tecnologías usadas, los detalles de implementación del código, buenas prácticas y testing. %(Ver capítulo \ref{sec:desarrollo}).
 \end{itemize}
 
-Por último, se encuentran las conclusiones derivadas del trabajo con los objetivos alcanzados y una propuesta para trabajos futuros. Y los apéndices, que complementan la memoria principal con un mayor desarrollo de alguno de sus apartados, capturas de la aplicación e imágenes grandes. (Ver capítulo \ref{sec:conclusiones} y apéndice \ref{sec:apendices}).
-
+Por último, se encuentran las \hyperref[sec:conclusiones]{\textbf{Conclusiones}} derivadas del trabajo con los objetivos alcanzados y una propuesta para trabajos futuros. Y los \hyperref[sec:apendices]{\textbf{Apéndices}}, que complementan la memoria principal con un mayor desarrollo de alguno de sus apartados, capturas de la aplicación e imágenes grandes. %(Ver capítulo \ref{sec:conclusiones} y apéndice \ref{sec:apendices}).
 % \afterpage{\blankpage} % puede generar problema en índice de contenidos
 % \newpage
 
@@ -524,10 +527,11 @@ Por último, se encuentran las conclusiones derivadas del trabajo con los objeti
 \label{sec:diseño}
 Para encontrar una solución viable al problema que se plantea y que aporte un valor real a los usuarios, necesitamos de algún método que nos permita diseñar una solución de manera efectiva bajo unas condiciones de incertidumbre.
 
-Para crear esta propuesta de valor, se puede utilizar \textbf{Design Thinking} como método de generación de ideas innovadoras y \textbf{Lean Startup} como método de aprendizaje validado para la puesta en marcha de la solución.
+Para crear esta propuesta de valor, se puede utilizar \hyperref[sec:design]{\textbf{Design Thinking}} como método de generación de ideas innovadoras y \hyperref[sec:lean]{\textbf{Lean Startup}} como método de aprendizaje validado para la puesta en marcha de la solución.
 \cite{analisis}
 
 \section{Design Thinking}
+\label{sec:design}
 
 Design Thinking es un método para \textbf{generar ideas innovadoras} que centra su eficacia en entender y dar solución a las necesidades reales de los usuarios. Proviene de la Universidad de Stanford en California (EEUU) y la forma en la que trabajan los diseñadores de producto, de ahí su nombre.
 \cite{desingThinking1}
@@ -539,11 +543,11 @@ El proceso de Design Thinking se compone de cinco etapas y no es lineal (ver fig
 
 Las etapas de Design Thinking son las siguientes:
 \begin{compactitem}
-    \item \textbf{Empatizar}: Comprender el entorno y necesidades del usuario. 
-    \item \textbf{Definir}: Identificar los problemas a solucionar. 
-    \item \textbf{Idear}: Dar solución a estos problemas. 
-    \item \textbf{Prototipar}: Convertir las soluciones en un prototipo. 
-    \item \textbf{Testear}: Probar el prototipo con el usuario.
+    \item \hyperref[sec:empatizar]{\textbf{Empatizar}}: Comprender el entorno y necesidades del usuario. 
+    \item \hyperref[sec:definir]{\textbf{Definir}}: Identificar los problemas a solucionar. 
+    \item \hyperref[sec:idear]{\textbf{Idear}}: Dar solución a estos problemas. 
+    \item \hyperref[sec:prototipar]{\textbf{Prototipar}}: Convertir las soluciones en un prototipo. 
+    \item \hyperref[sec:testear]{\textbf{Testear}}: Probar el prototipo con el usuario.
 \end{compactitem}
 
 \begin{figure}[H] 
@@ -554,14 +558,17 @@ Las etapas de Design Thinking son las siguientes:
 \end{figure}
 
 \subsection{Empatizar}
+\label{sec:empatizar}
 
-Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Además, se analizaron diversas herramientas ya existentes de entrenamiento musical como se ha explicado en el estado del arte. Se puede encontrar una explicación más detallada en el apéndice \ref{sec:DesignThinking}.
+Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Además, se analizaron diversas herramientas ya existentes de entrenamiento musical como se ha explicado en el estado del arte. Se puede encontrar una explicación más detallada en el apéndice \hyperref[sec:DesignThinking]{\textbf{A.2 Design Thinking}}.
 
 \subsection{Definir}
+\label{sec:definir}
 
 El problema parte de la necesidad de músicos amateur que quieren mejorar su nivel de percepción de la música. Sin los medios adecuados resulta imposible llevar a cabo el entrenamiento auditivo que es una parte fundamental para llevar a cabo su propósito. 
 
 \subsection{Idear}
+\label{sec:idear}
 
 Para idear una solución que aporte valor, realizamos un \textbf{MindMap} \cite{mindmap} donde nos enfocamos en los principales problemas del usuario y sus posibles soluciones.
 Cómo se puede observar en la figura \ref{fig:Mindmap}, se concluye que una posible forma de solucionar estos problemas es mediante una aplicación web con ejercicios de entrenamiento auditivo. 
@@ -574,6 +581,7 @@ Cómo se puede observar en la figura \ref{fig:Mindmap}, se concluye que una posi
 \end{figure}
 
 \subsection{Prototipar}
+\label{sec:prototipar}
 
 Primero, utilizamos la técnica \textbf{MoSCoW} \cite{moscow} para establecer las prioridades del proyecto. Teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. 
 (Ver figura \ref{fig:MoSCoW}).
@@ -596,13 +604,15 @@ Por último, una vez establecidas las prioridades del proyecto pasamos a visuali
     \label{fig:PrototipoSmall}
 \end{figure}
 
-En la figura \ref{fig:PrototipoSmall} se puede apreciar una pequeña parte del prototipo para pantallas pequeñas. Todos los demás diseños del prototipo incluyendo pantallas pequeñas, medias y grandes se pueden encontrar en el apéndice \ref{sec:Prototipos}.
+En la figura \ref{fig:PrototipoSmall} se puede apreciar una pequeña parte del prototipo para pantallas pequeñas. Todos los demás diseños del prototipo incluyendo pantallas pequeñas, medias y grandes se pueden encontrar en el apéndice \hyperref[sec:Prototipos]{\textbf{B. Prototipos}}.
 
 \subsection{Testear}
+\label{sec:testear}
 
 Después de haber testeado los primeros diseños con el usuario, haber hecho correcciones y haber validado el último prototipo que hemos visto anteriormente, pasamos a crear la solución aplicando el método \textbf{Lean Startup}.
 
 \section{Lean Startup}
+\label{sec:lean}
 
 Es un método riguroso para \textbf{agilizar la puesta en marcha} de soluciones y optimizarlas con base en un proceso de aprendizaje y de corrección iterativa. Comenzó con el método de desarrollo de clientes y el método Lean en los sistemas de fabricación japoneses popularizado por Toyota.
 
@@ -619,7 +629,7 @@ La metodología Lean Startup se basa en el circuito de feedback de información:
 Lean Startup sirve para acortar los ciclos de desarrollo, medir el progreso y ganar feedback por parte de los usuarios. Esto se consigue porque se basa en el aprendizaje validado, la experimentación científica y la iteración en los lanzamientos del producto. 
 Debido a esto es considerado una herramienta imprescindible para la puesta en marcha de soluciones software. 
 
-Para no extender este trabajo se puede encontrar una explicación detalla de como fue este proceso de crear, medir, aprender en el apéndice \ref{sec:LeanStartup}. A continuación, nos centraremos sólo en la fase de creación del software.
+Para no extender este trabajo se puede encontrar una explicación detalla de como fue este proceso de crear, medir, aprender en el apéndice \hyperref[sec:LeanStartup]{\textbf{A.3 Lean Startup}}. A continuación, nos centraremos sólo en la fase de creación del software.
 \cite{leanstartup2}
 
 Después haber establecido nuestra hipótesis y diseñado un producto mínimo viable usando \textbf{Design Thinking} pasamos a desarrollarlo aplicando \textbf{Metodologías Ágiles}.
@@ -628,12 +638,13 @@ Después haber establecido nuestra hipótesis y diseñado un producto mínimo vi
 \label{sec:agile}
 Para gestionar el desarrollo del software de manera exitosa necesitamos asegurar un proceso visible, controlado, repetitivo, eficiente y predecible. Necesitamos adaptar las formas de trabajo a las necesidades del proyecto, prolongando respuestas rápidas y flexibles para acomodar el desarrollo.
 
-La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste. (Ver apéndice \ref{sec:ManifiestoAgil}).
+La agilidad es la habilidad, que facilita la adaptación, de manera rápida y efectiva en circunstancias cambiantes, para garantizar la entrega de valor continuo, en ciclos cortos de tiempo y con el mínimo coste. \cite{manifiestoAgil} %(Ver apéndice \ref{sec:ManifiestoAgil}).
 
-Para ser ágiles mientras desarrollamos podemos beneficiarnos de \textbf{DevOps} como filosofía de desarrollo y \textbf{Scrum} como modelo organizativo.
+Para ser ágiles mientras desarrollamos podemos beneficiarnos de \hyperref[sec:DevOps]{\textbf{DevOps}} como filosofía de desarrollo y \hyperref[sec:Scrum]{\textbf{Scrum}} como modelo organizativo.
 \cite{agile}
 
 \section{Scrum}
+\label{sec:Scrum}
 
 Scrum es un \textbf{proceso de gestión} que reduce la complejidad en el desarrollo de productos para satisfacer las necesidades de los clientes. Se considera un marco de gestión de proyectos ágil.
 
@@ -738,12 +749,13 @@ Estas historias se componen de:
 \end{itemize}
 \end{comment}
 
-Estas historias de usuario se encuentran en el apéndice \ref{sec:UserStories}. También se pueden ver en el ScrumBoard en el siguiente enlace: 
+Estas historias de usuario se encuentran en el apéndice \hyperref[sec:UserStories]{\textbf{C. Historias de Usuario}}. También se pueden ver en el ScrumBoard en el siguiente enlace: 
 
 \url{https://trello.com/b/ZnsnNP2h/earfit}.
 
 
 \section{DevOps}
+\label{sec:DevOps}
 
 DevOps, es una combinación de los términos desarrollo (development) y operaciones (operations), significa la unión de personas, procesos y tecnología para ofrecer valor a los clientes de forma constante.
 
@@ -758,17 +770,18 @@ El desarrollo de \textbf{aplicaciones modernas} requiere procesos diferentes a l
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.63\textwidth]{DevOps/DevOps}
+    \includegraphics[width=0.65\textwidth]{DevOps/DevOps}
     \caption{Diagrama de DevOps.}
     \label{fig:DevOps}
 \end{figure}
 
 DevOps permite fabricar software más rápidamente, con mayor calidad, menor coste y una alta frecuencia de releases. Al adoptar prácticas de DevOps, se asegura la confiabilidad, la alta disponibilidad y el objetivo de ningún tiempo de inactividad del sistema.
 
-El primero de los 12 principios del Manifiesto Ágil es el siguiente: ``Satisfacer a los clientes mediante la distribución de software continua y oportuna'' (ver Apéndice \ref{sec:ManifiestoAgil}). Este es uno de los motivos por el que es importante aplicar \textbf{prácticas de DevOps}, cómo la integración continua y el despliegue continuo.
+El primero de los 12 principios del Manifiesto Ágil es el siguiente: ``Satisfacer a los clientes mediante la distribución de software continua y oportuna'' \cite{manifiestoAgil}. Este es uno de los motivos por el que es importante aplicar prácticas de DevOps, cómo la \hyperref[sec:ic]{\textbf{Integración Continua}} y el \hyperref[sec:dc]{\textbf{Despliegue Continuo}}.
 \cite{devops2}
 
 \subsection{Integración Continua (CI)}
+\label{sec:ic}
 
 La integración continua es una práctica de DevOps mediante la cual los desarrolladores combinan los cambios en el código en un repositorio central de forma periódica. Para implantar integración continua se suele definir un ``pipeline'', es decir, un conjunto de etapas y de fases automátizadas por las que va pasando el software hasta integrarse con el resto. 
 \cite{ic}
@@ -791,6 +804,7 @@ El funcionamiento de este modelo se caracteriza por el uso de varias ramas de fu
 \end{itemize}
 
 \subsection{Despliegue Continuo (CD)}
+\label{sec:dc}
 
 El despliegue continuo es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente. Es útil para entregar funcionalidades del software de forma frecuente.
 \cite{dc}
@@ -816,9 +830,10 @@ Cada vez que se realiza una subida de código, Github Actions hace un despliegue
 \chapter{Descripción Informática}
 \label{sec:desarrollo}
 
-Para desarrollar una aplicación de calidad es necesario el uso de unas guías de estándares de calidad de código, un moderno stack tecnológico, así como buenas prácticas. A continuación se encuentra una detallada descripción informática incluyendo \textbf{tecnologías, diseño, implementación y pruebas}.
+Para desarrollar una aplicación de calidad es necesario el uso de unas guías de estándares de calidad de código, un moderno stack tecnológico, así como buenas prácticas. A continuación se encuentra una detallada descripción informática incluyendo \hyperref[sec:stack]{\textbf{tecnologías}}, \hyperref[sec:implementacion]{\textbf{implementación}} y \hyperref[sec:pruebas]{\textbf{pruebas}}.
 
 \section{Stack Tecnológico}
+\label{sec:stack}
 
 Después de una comparación de tecnologías actuales se llegó a la conclusión de que estás herramientas, frameworks y lenguajes eran los ideales para el desarrollo (ver Figura \ref{fig:logos}). Es necesario comprender cómo funcionan estas tecnologías para entender más tarde la implementación de la aplicación.
 
@@ -830,6 +845,7 @@ Después de una comparación de tecnologías actuales se llegó a la conclusión
 \end{figure}
 
 \subsection{Next.js}
+\label{sec:Next}
 
 Creado por Vercel, Next.js es un framework creado sobre \textbf{Node.js} y basado en \textbf{React} para crear aplicaciones web de alto rendimiento \cite{nextjs1}.
 Permite, instalando una sola dependencia, tener todo configurado para crear una aplicación de React usando \textbf{SWC} y \textbf{Webpack}. 
@@ -945,6 +961,7 @@ Estas son las características \cite{nextjs2} que ofrece sin apenas configuraci�
 Simplemente instalamos Nextjs, así como TypeScript, React y React-dom como dependencias. Estas dos últimas son necesarias para que Next pueda trabajar sin ningún tipo de problemas.
 
 \subsection{React}
+\label{sec:React}
 
 Es una biblioteca para proyectos de \textbf{JavaScript} mantenida por Facebook, que permite crear aplicaciones web e interfaces de usuario mediante componentes interactivos y reutilizables \cite{react1}.
 %(Ver figura \ref{fig:ReactLogo}).
@@ -972,6 +989,7 @@ Además, React genera el DOM de forma dinámica, hace los cambios en una copia e
 %(Ver figura \ref{fig:React_VirtualDom}).
 
 \subsection{Vercel}
+\label{sec:Vercel}
 
 Es una plataforma en la nube que permite a los desarrolladores \textbf{alojar sitios web} y servicios web que escalan automáticamente y no requieren supervisión \cite{vercel1}. %(Ver figura \ref{fig:VercelLogo}). 
 
@@ -994,6 +1012,7 @@ Aparte ofrece muchas más funciones, como: dominios personalizados, variables de
 Por último, ofrece \textbf{Vercel Analytics} para medir el rendimiento de la web, recopilando las web vitals de los dispositivos reales que utilizan los usuarios \cite{vercelAnalytics}.
 
 \subsection{TypeScript}
+\label{sec:TypeScript}
 
 TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de \textbf{JavaScript}, que esencialmente añade \textbf{tipos estáticos} y objetos basados en clases \cite{typescript}.
 %(Ver figura \ref{fig:TypeScriptLogo}).
@@ -1023,6 +1042,7 @@ Promueve que se escriba un lenguaje más robusto y fácil de mantener. Por lo qu
 \cite{typescript2}
 
 \subsection{Node.js}
+\label{sec:Node}
 
 Node.js es un entorno de tiempo de ejecución de \textbf{JavaScript}. Este entorno incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. Orientado a eventos asíncronos, Node.js está diseñado para crear aplicaciones escalables \cite{node}.
 %(Ver figura \ref{fig:NodejsLogo}).
@@ -1061,6 +1081,7 @@ De esta manera se puede garantizar que en otra máquina se pueda instalar exacta
 \cite{yarn}
 
 \subsection{VSCode}
+\label{sec:VSCode}
 
 Visual Studio Code es un \textbf{editor de código} optimizado para crear y depurar aplicaciones web modernas. Incluye depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente y refactorización de código \cite{vscode}.
 %(Ver figura \ref{fig:VSCodeLogo}).
@@ -1124,6 +1145,8 @@ Para ello, analiza el código y lo da formato cada vez que se guarda el archivo.
 En definitiva, Prettier se usa para problemas de formato de código y ESLint para problemas de calidad de código.
 
 \section{Detalles de Implementación}
+\label{sec:implementacion}
+
 La principal documentación con la que contamos es el estilo de nomenclatura, la coherencia a la hora de nombrar cosas y una arquitectura general coherente. Esta debe emanar de una serie de patrones que se repiten a lo largo del proyecto, tanto a nivel arquitectónico como de diseño. Esta información reside en el código: en el nombre de los componentes, de las variables y de las funciones. Este código se puede encontrar en el siguiente \textbf{repositorio de Github}: 
 %(ver figura \ref{fig:GitHubLogo}):
 
@@ -1138,9 +1161,21 @@ La principal documentación con la que contamos es el estilo de nomenclatura, la
 \end{figure}
 \end{comment}
 
-Para dejar reflejados estos detalles en la memoria se explicarán todas las partes de las que se compone esta implementación: \textbf{arquitectura, estructura de archivos, tipos, librerías, datos, servicios, Hooks} y \textbf{componentes}. No hará falta estar familiarizado con los conceptos propios de React para haber entendido está documentación al acabar.
+Para dejar reflejados estos detalles en la memoria se explicarán todas las partes de las que se compone esta implementación:
+\begin{compactitem} 
+\item \hyperref[sec:arquitectura]{\textbf{Arquitectura}}. 
+\item \hyperref[sec:archivos]{\textbf{Estructura de Archivos}}.
+\item \hyperref[sec:tipos]{\textbf{Tipos}}.
+\item \hyperref[sec:lib]{\textbf{Librerías}}.
+\item \hyperref[sec:servicios]{\textbf{Servicios}}.
+\item \hyperref[sec:Hooks]{\textbf{Hooks}}.
+\item \hyperref[sec:componentes]{\textbf{Componentes}}.
+\end{compactitem} 
+
+No hará falta estar familiarizado con los conceptos propios de React para haber entendido está documentación al acabar.
 
 \subsection{Arquitectura}
+\label{sec:arquitectura}
 
 La arquitectura indica la \textbf{estructura, funcionamiento e interacción} entre las diferentes partes de las que esta compuesto el software. En este diagrama se muestra el diseño de más alto nivel de la estructura del sistema (ver figura \ref{fig:Arquitectura}).
 
@@ -1161,6 +1196,7 @@ Esta arquitectura esta formada por \textbf{varias capas desacopladas}: infraestr
 \end{itemize}
 
 \subsection{Estructura de Archivos}
+\label{sec:archivos}
 
 React no tiene opiniones sobre cómo poner los archivos en carpetas \cite{reactArchivos}. \textbf{Nextjs} en cambio tiene algunos archivos y \textbf{directorios especiales}. Como mínimo, se necesita una carpeta ``pages'' y un archivo ``index.js'' dentro de él. Además, la carpeta ``public'' tiene una función específica en Nextjs. Aparte de estos archivos y directorios, todo vale \cite{nextjs2}.
 
@@ -1191,6 +1227,7 @@ En este caso se han separado las \textbf{carpetas por conceptos} o intereses, do
 \subsection{Infraestructura}
 
 \subsubsection{Tipos}
+\label{sec:tipos}
 
 A continuación se explican los tipos de \textbf{Typescript} creados para la implementación. Estos tipos son una manera de documentar el código y evitar errores que Javascript no proporciona. Ayudan a leer y entender el código de una forma más efectiva.
 
@@ -1248,6 +1285,8 @@ A continuación se explican los tipos de \textbf{Typescript} creados para la imp
 \end{itemize}
 
 \subsubsection{Librerías}
+\label{sec:lib}
+
 A continuación se explican los paquetes de \textbf{Node.js} o librerías usadas en la implementación. Todas estas librerías se pueden encontrar definidas con sus versiones en el archivo ``package.json'' o en la carpeta ``lib'' en el caso de ``soundfont-wrapper''.
 
 \begin{itemize}
@@ -1264,6 +1303,9 @@ A continuación se explican los paquetes de \textbf{Node.js} o librerías usadas
 En el archivo \href{https://github.com/alberttogoca/EarFit/blob/main/src/utils/arrayUtils.ts}{\textbf{``arrayUtils.ts''}} está el método ``getRandomItem'' que recibe un array y devuelve un elemento al azar. Usado en el Hook ``useAnswer'' para seleccionar la respuesta para el ejercicio. El objetivo era ir añadiendo aquí todas funciones complementarias que se fuesen necesitando. Al final resultó ser una.
 
 \subsection{Datos y Servicios}
+\label{sec:datos}
+\label{sec:servicios}
+
 A continuación se explican los servicios creados para la aplicación. Por comodidad y tamaño, los datos que proporcionan los servicios se encuentran en su mismo archivo. Ahorrándonos los pertinentes imports y ganando sencillez a la hora de leer el código.
 (Ver figura \ref{fig:Services}).
 
@@ -1283,6 +1325,7 @@ A continuación se explican los servicios creados para la aplicación. Por comod
 \end{itemize}
 
 \subsection{Hooks y Context}
+\label{sec:Hooks}
 
 Según React: ``Las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y las clases confunden tanto a las personas como a las máquinas.'' 
 
@@ -1337,6 +1380,7 @@ En una aplicación típica de React, los datos se pasan de padre a hijo a travé
 \end{itemize}
 
 \subsection{Componentes y Pages}
+\label{sec:componentes}
 
 Los componentes permiten separar la interfaz de usuario en piezas independientes y reutilizables. Aceptan entradas llamadas Props y retornan \textbf{elementos de React}. También pueden tener estado, que es similar a las Props, pero es privado.
 (Ver figura \ref{fig:ReactComponent}).
@@ -1446,16 +1490,16 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional del \textbf
 
 
 \subsection{Progressive Web App}
-Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en Progressive Web App. Con la Progressive Web App, el usuario puede \textbf{instalar la app} en su dispositivo y seguir consultándola, aunque haya perdido la conexión.
+Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en PWA o Progressive Web App. Con ella, el usuario puede \textbf{instalar la app} en su dispositivo y seguir consultándola, aunque haya perdido la conexión.
 \cite{pwa1}
 
-Para poder llamar PWA a una aplicación web, debe tener las siguientes características:
+Las PWA deben tener las siguientes características:
 
 \begin{compactitem}
 
     \item \textbf{Una conexión segura:} La aplicación web se debe servir a través de una red segura HTTPS.
-    \item \textbf{Cargue sin conexión:} Esto significa que las aplicaciones web progresivas requieren de un service worker.
-    \item \textbf{Información sobre la aplicación:} como nombre, autor, icono y descripción en un documento JSON llamado manifest.
+    \item \textbf{Cargue sin conexión:} Esto significa que las aplicaciones web progresivas requieren de un \hyperref[sec:serviceWorker]{\textbf{Service Worker}}.
+    \item \textbf{Información sobre la aplicación:} como nombre, autor, icono y descripción en un documento JSON llamado \hyperref[sec:manifest]{\textbf{Manifest}}.
     \item \textbf{Un icono} de al menos 144x144 de tamaño grande en formato PNG.
 \end{compactitem}
 
@@ -1463,7 +1507,7 @@ Siendo una PWA, al visitarla cualquier navegador ya nos da la opción de instala
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.9]{Detalles de Implementación/PWA/InstalarPWA}
+    \includegraphics[width=0.5\textwidth]{Detalles de Implementación/PWA/InstalarPWA}
     \caption{Instalar la aplicación cómo PWA desde Chrome.}
     \label{fig:InstalarPWA}
 \end{figure}
@@ -1472,19 +1516,23 @@ Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está list
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.28]{Detalles de Implementación/PWA/PWA}
+    \includegraphics[width=0.27\textwidth]{Detalles de Implementación/PWA/PWA}
     \caption{Captura de Earfit como PWA en Windows.}
     \label{fig:PWA}
 \end{figure}
 
-\textbf{Observación:} En el entorno desarrollo, se ha deshabilitado la opción de PWA en ``next.config.js'' porque genera muchos mensajes de consola.
+\textbf{Observación:} En el entorno desarrollo, se ha deshabilitado la opción de PWA en \href{https://github.com/alberttogoca/EarFit/blob/main/next.config.js}{``next.config.js''} porque genera muchos mensajes de consola.
 
 \subsubsection{Service Worker}
-Se puede encontrar en la carpeta ``public'' con el nombre de \textbf{``sw.js''}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin ``next-pwa'', que permite registrar y generar un service worker optimizado sin apenas configuración. El archivo \textbf{``workbox.js''} también está relacionado con este plugin.
+\label{sec:serviceWorker}
+
+Se puede encontrar en la carpeta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/sw.js}{\textbf{``sw.js''}}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin ``next-pwa'', que permite registrar y generar un service worker optimizado sin apenas configuración. El archivo \href{https://github.com/alberttogoca/EarFit/blob/main/public/workbox-1846d813.js}{\textbf{``workbox.js''}} también está relacionado con este plugin.
 \cite{serviceworker}
 
 \subsubsection{Manifest}
-Se puede encontrar en la caperta ``public'' con el nombre de \textbf{``manifest.json''}. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
+\label{sec:manifest}
+
+Se puede encontrar en la caperta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/manifest.json}{\textbf{``manifest.json''}}. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
 \cite{manifest}
 
 \textbf{IOS Safari} no implementa manifiestos, por lo que la mayoría de los metadatos de PWA se pueden definir a través de extensiones específicas de Apple para las metaetiquetas. Estos están definidos en el archivo personalizado ``\_app.tsx''.
@@ -1494,11 +1542,13 @@ Los iconos de la aplicación a los que se hacen referencia se pueden encontrar e
 
 \subsection{Buenas Prácticas}
 
-Al hablar de buenas prácticas en programación nos referimos a un conjunto de \textbf{técnicas, principios, metodologías} que debemos implementar en nuestro software para que se vuelva fácil, rápido y seguro de desarrollar, mantener y desplegar.
+Al hablar de buenas prácticas en programación nos referimos a un conjunto de técnicas, principios, metodologías que debemos implementar en nuestro software para que se vuelva fácil, rápido y seguro de desarrollar, mantener y desplegar.
+En este caso se han usado \hyperref[sec:estiloCodigo]{\textbf{Guías de Estilo de Código}}, \hyperref[sec:cleancode]{\textbf{Principios de Clean Code}} y \hyperref[sec:otrasPracticas]{\textbf{Otras Buenas Prácticas}}.
 
 \subsubsection{Guía de Estilo de Código}
+\label{sec:estiloCodigo}
 
-Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden encontrar en el archivo \textbf{``.eslintrc.js''} y \textbf{``.prettierrc.js''}. Además se han añadido las siguientes reglas personales:
+Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden encontrar en el archivo \href{https://github.com/alberttogoca/EarFit/blob/main/.eslintrc.js}{\textbf{``.eslintrc.js''}} y \href{https://github.com/alberttogoca/EarFit/blob/main/.prettierrc.js}{\textbf{``.prettierrc.js''}}. Además se han añadido las siguientes reglas personales:
 
 \begin{compactitem}
     \item Tipos de TypeScript para los componentes en lugar de Props.
@@ -1515,6 +1565,7 @@ Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden 
 \end{compactitem}
 
 \subsubsection{Principios Clean Code}
+\label{sec:cleancode}
 
 Los principios de Clean Code \cite{cleancode} nos permiten obtener como resultado un código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principales principios que se han intentado tener presentes a la hora de desarrollar el código son:
 
@@ -1535,23 +1586,26 @@ Los principios de Clean Code \cite{cleancode} nos permiten obtener como resultad
 \end{compactitem}
 
 \subsubsection{Otras Buenas Prácticas}
+\label{sec:otrasPracticas}
 
 \begin{compactitem}
-    \item Crear un archivo \textbf{``.gitignore''} para excluir archivos generados y sensibles.
-    \item Visualizar el flujo de trabajo.
-    \item Limitar el trabajo en proceso (Work in Progress). Es decir no multitasking.
-    \item Circuitos de retroalimentación: reuniones periódicas con el tutor.
-    \item Fomentar la visibilidad. No se puede mejorar algo que no se entiende. Esta es la razón por la cual el proceso debe estar bien definido, publicado y promovido.
-    \item Mejorar colaborando, usando modelos y el método científico.
+    \item Crear un archivo \href{https://github.com/alberttogoca/EarFit/blob/main/.gitignore}{\textbf{``.gitignore''}}: Para excluir archivos generados y sensibles.
+    \item Visualizar el flujo de trabajo: Usando un Scrum Board y un User Story Map.
+    \item Limitar el trabajo en proceso (Work in Progress): Es decir no multitasking.
+    \item Circuitos de retroalimentación: Haciendo reuniones periódicas con el tutor y recogiendo feedback de los usuarios constantemente.
+    \item Fomentar la visibilidad con el proceso bien definido, publicado y promovido: Usando las herramientas Notion, Miro y Trello.
+    \item Mejorar colaborando, usando modelos y el método científico: Aplicando Lean Startup y otras metodologías.
     \item Calidad perfecta a la primera: Búsqueda de cero defectos, detección y solución de los problemas en su origen.
 \end{compactitem}
 
 \section{Testing}
+\label{sec:pruebas}
 
-El testing de software o \textbf{software QA}, es un proceso para verificar y validar la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad.
-\cite{testing}
+El testing de software o \textbf{software QA}, es un proceso para verificar y validar la funcionalidad de un programa o una aplicación de software. Su propósito principal es asegurar que la aplicación desarrollada cumpla con los estándares y se ofrezca al cliente un producto de calidad
+\cite{testing}. Para asegurarlo es importante realizar tanto \hyperref[sec:funcionales]{\textbf{Pruebas Funcionales}} como \hyperref[sec:nofuncionales]{\textbf{Pruebas No Funcionales}}.
 
 \subsection{Pruebas Funcionales}
+\label{sec:funcionales}
 
 El objetivo de estas pruebas es evaluar las suposiciones hechas en las especificación de historias de usuario y diseño para asegurar que el software se comporta según lo definido.
 
@@ -1594,10 +1648,12 @@ Estás pruebas se han realizado con los siguientes objetivos:
 En este caso cada historia de usuario se probó para asegurarse de que se siguen obteniendo los resultados esperados. Estas pruebas fueron realizadas en Windows, MacOS, Android y Iphone usando Chrome y Safari.
 
 \subsection{Pruebas No Funcionales}
+\label{sec:nofuncionales}
 
-El objetivo de estas pruebas es evaluar el rendimiento, accesibilidad, buenas prácticas, SEO y si es progresiva, para la optimización del software y asegurar su calidad. Siendo el SUT el sistema una vez desplegado. Estas pruebas se ejecutan de manera automática mediante \textbf{Google Lighthouse} y \textbf{Vercel Analytics}.
+El objetivo de estas pruebas es evaluar el rendimiento, accesibilidad, buenas prácticas, SEO y si es progresiva, para la optimización del software y asegurar su calidad. Siendo el SUT el sistema una vez desplegado. Estas pruebas se ejecutan de manera automática mediante \hyperref[sec:lighthouse]{\textbf{Google Lighthouse}} y \hyperref[sec:analytics]{\textbf{Vercel Analytics}}.
 
 \subsubsection{Google Lighthouse}
+\label{sec:lighthouse}
 
 Google Lighthouse es una herramienta automatizada de código abierto para medir la calidad de las páginas web. Audita el rendimiento, la accesibilidad, y la optimización de páginas web.
 También incluye la capacidad de probar aplicaciones web progresivas para el cumplimiento de estándares y mejores prácticas.
@@ -1616,7 +1672,7 @@ Una vez hecho el análisis, Lighthouse emite puntuaciones del 0 al 100 que puede
 \subsubsection{Performance}
 
 %En el ámbito del rendimiento, Lighthouse analiza la velocidad de la aplicación web y comprueba que los elementos que se han cargado se visualizan correctamente. 
-En este apartado, Lighthouse no está optimizado y da algunas falsas mediciones para aplicaciones \textbf{Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación usando Vercel, podemos hacer uso de \textbf{Vercel Analytics}, que además nos aporta algunas ventajas como veremos más adelante.
+En este apartado, Lighthouse no está optimizado y da algunas falsas mediciones para aplicaciones \textbf{Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación usando Vercel, podemos hacer uso de \hyperref[sec:funcionales]{\textbf{Vercel Analytics}}, que además nos aporta algunas ventajas como veremos más adelante.
 % En lugar de medir en nuestro PC, Vercel Analytics recopila datos de los dispositivos reales que utilizan los usuarios. 
 
 \subsubsection{Accessibility}
@@ -1641,7 +1697,7 @@ En este apartado nos resta tres puntos y nos dice que el texto del Footer tiene 
 
 \subsubsection{Best Practices}
 
-En el área {de mejores prácticas, Lighthouse analiza, sobre todo, los aspectos de seguridad de la web. Aquí, la herramienta comprueba si se han usado tecnologías de codificación como TLS, si los recursos integrados de la página web provienen de fuentes seguras o si las bibliotecas JavaScript se pueden catalogar como seguras. También analiza si las bases de datos son seguras (si las hay) y destaca el uso de API anticuadas. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_bestpractices}).
+En el área de mejores prácticas, Lighthouse analiza, sobre todo, los aspectos de seguridad de la web. Aquí, la herramienta comprueba si se han usado tecnologías de codificación como TLS, si los recursos integrados de la página web provienen de fuentes seguras o si las bibliotecas JavaScript se pueden catalogar como seguras. También analiza si las bases de datos son seguras (si las hay) y destaca el uso de API anticuadas. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_bestpractices}).
 
 \begin{figure}[H]
     \centering
@@ -1673,6 +1729,7 @@ El análisis de aplicaciones web progresivas es la función principal de Google 
 \end{figure}
 
 \subsubsection{Vercel Analytics}
+\label{sec:analytics}
 
 Mientras que otras herramientas como Lighthouse estiman la experiencia de usuario ejecutando una simulación en el ordenador del desarrollador, el \textbf{Real Experience Score} de Vercel se calcula utilizando datos reales recopilados de los dispositivos de los usuarios reales. Por eso, proporciona una calificación real de cómo los usuarios realmente experimentan la aplicación.
 (Ver figura \ref{fig:Vercel_metrics_resume}).
@@ -1718,23 +1775,25 @@ Son una colección de métrica establecidas por Google \cite{webdev} junto con e
 En este capítulo se detallan las conclusiones derivadas del trabajo, los objetivos alcanzados y la propuesta para posibles trabajos futuros. Por último, habrá una pequeña opinión personal que dará cierre a esta memoria.
 \section{Objetivos Alcanzados}
 
-El presente trabajo se proponía el desarrollo de una herramienta que permitiera a los músicos desarrollar su oído musical mediante ejercicios de \textbf{entrenamiento auditivo}.
+El presente trabajo se proponía el desarrollo de una herramienta que permitiera a los músicos desarrollar su oído musical mediante ejercicios de \hyperref[sec:eartraining]{\textbf{entrenamiento auditivo}}.
 
-Para lograr una solución que aportase valor, se definieron las necesidades del usuario, se establecieron una serie de hipótesis que solucionasen sus problemas y se priorizaron las funcionalidades más relevantes para diseñar un prototipo de un producto mínimo viable aplicando \textbf{Design Thinking}.
+Para lograr una solución que aportase valor, se definieron las necesidades del usuario, se establecieron una serie de hipótesis que solucionasen sus problemas y se priorizaron las funcionalidades más relevantes para diseñar un prototipo de un producto mínimo viable aplicando \hyperref[sec:design]{\textbf{Design Thinking}}.
 
-Este producto mínimo viable se desarrolló aplicando \textbf{Lean Startup}, en un proceso de aprendizaje validado siguiendo un circuito iterativo de crear, medir, aprender. Los requisitos podían cambiar al aprender del impacto en los usuarios de una versión del software y tener que pivotar.
+Este producto mínimo viable se desarrolló aplicando \hyperref[sec:lean]{\textbf{Lean Startup}}, en un proceso de aprendizaje validado siguiendo un circuito iterativo de crear, medir, aprender. Los requisitos podían cambiar al aprender del impacto en los usuarios de una versión del software y tener que pivotar.
 
-Por eso se aplicó \textbf{Scrum} para planificar y gestionar el proyecto. Un User Story Map definía el viaje o casos de uso del usuario en el producto y las releases de cada versión. Las historias de usuario definían los requisitos del sistema y se encontraban en el Scrum Board que servía para visualizar y gestionar el trabajo de cada sprint. Al final de cada sprint se producía un incremento en el software generando una nueva versión que era directamente entregada al usuario para obtener su feedback.
+Por eso se aplicó \hyperref[sec:Scrum]{\textbf{Scrum}} para planificar y gestionar el proyecto. Un User Story Map definía el viaje o casos de uso del usuario en el producto y las releases de cada versión. Las historias de usuario definían los requisitos del sistema y se encontraban en el Scrum Board que servía para visualizar y gestionar el trabajo de cada sprint. Al final de cada sprint se producía un incremento en el software generando una nueva versión que era directamente entregada al usuario para obtener su feedback.
 
-Usar prácticas \textbf{DevOps} agilizó este proceso. Aplicando integración continua en Github siguiendo el modelo Gitflow. Y despliegue continuo, utilizando Github Actions para tener un despliegue por cada rama de desarrollo en Vercel siguiendo el flujo de trabajo Develop, Preview and Ship.
+Usar prácticas \hyperref[sec:DevOps]{\textbf{DevOps}} agilizó este proceso. Aplicando integración continua en Github siguiendo el modelo Gitflow. Y despliegue continuo, utilizando Github Actions para tener un despliegue por cada rama de desarrollo en Vercel siguiendo el flujo de trabajo Develop, Preview and Ship.
 
-Para su implementación se usaron diferentes tecnologías cómo \textbf{Nextjs}, \textbf{React}, \textbf{TypeScript} y \textbf{Nodejs}. Con esto se logró convertir la solución en una aplicación web progresiva o PWA, haciendo que sea confiable e instalable como una aplicación nativa en ordenador, móvil y tablet. 
+Para su implementación se usaron diferentes tecnologías cómo \hyperref[sec:Next]{\textbf{Next.js}}, \hyperref[sec:React]{\textbf{React}}, \hyperref[sec:TypeScript]{\textbf{TypeScript}} y \hyperref[sec:Node]{\textbf{Nodejs}}. Con esto se logró convertir la solución en una aplicación web progresiva o PWA, haciendo que sea confiable e instalable como una aplicación nativa en ordenador, móvil y tablet. 
 
-Además, durante su desarrollo en \textbf{VSCode} se aplicaron buenas prácticas cómo guías de estilo de código y principios de Clean Code. Mientras, se testeaba su rendimiento usando \textbf{Google Lighthouse} y \textbf{Vercel Analytics} asegurando una buena experiencia de usuario.
+Además, durante su desarrollo en \hyperref[sec:VSCode]{\textbf{VSCode}} se aplicaron buenas prácticas cómo guías de estilo de código y principios de Clean Code. Mientras, se testeaba su rendimiento usando \hyperref[sec:lighthouse]{\textbf{Google Lighthouse}} y \hyperref[sec:analytics]{\textbf{Vercel Analytics}} asegurando una buena experiencia de usuario.
 
 Al final, se logró desarrollar el MVP propuesto cumpliendo con los objetivos que se habían establecido en este trabajo. Aportando una solución única para el entrenamiento auditivo, con diferentes tipos de ejercicios personalizables y varios instrumentos. 
 
-El resultado final de esta aplicación se puede encontrar en el apéndice \ref{sec:Capturas}. También se puede probar la aplicación escaneando el código QR (ver figura \ref{fig:EarfitQR}) y en el siguiente enlace: \url{https://earfit.vercel.app/}
+El resultado final de esta aplicación se puede encontrar en el apéndice \hyperref[sec:Capturas]{\textbf{D. Capturas}}. También se puede probar la aplicación escaneando el código QR (ver figura \ref{fig:EarfitQR}) y en el siguiente enlace: 
+
+\url{https://earfit.vercel.app/}
 
 \begin{figure}[H]
     \centering
@@ -2274,7 +2333,7 @@ Cómo consecuencias el desarrollo se vio entorpecido por algunos errores que ten
 
 Por último, tampoco había usado nunca la WebAudio API algo que fue un quebradero de cabeza para hacer funcionar la aplicación en IOS, ya que su documentación es complicada.
 
-
+\begin{comment}
 \chapter{Manifiesto Ágil}
 \label{sec:ManifiestoAgil}
 \begin{table}[h]
@@ -2335,6 +2394,7 @@ Firmantes (17):
     - Forma parte del equipo de desarrollo pero tiene un rol propio. No existe el rol tradicional de “jefe de proyecto”.
     \item El equipo puede modificar la metodología sin justificación.
 \end{itemize}
+\end{comment}
 
 
 

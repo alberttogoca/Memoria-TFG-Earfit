@@ -138,6 +138,12 @@ QualityDevs, ``Qué es «mobile first» y por qué es importante,'' 2019.
 \bibitem{leanstartup2}
 
 
+\bibitem{manifiestoAgil}
+\BIBentryALTinterwordspacing
+M.~B. Kent~Beck, \emph{Manifiesto Ágil}. [Online]. Available:
+  \url{https://agilemanifesto.org/iso/es/manifesto.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{agile}
 \BIBentryALTinterwordspacing
 S.~G. Sotomayor, ``Las metodologías ágiles más utilizadas y sus ventajas
