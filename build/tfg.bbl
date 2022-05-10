@@ -437,6 +437,18 @@ Meta, \emph{Presentando Hooks}. [Online]. Available:
   \url{https://es.reactjs.org/docs/hooks-overview.html}
 \BIBentrySTDinterwordspacing
 
+\bibitem{useState}
+\BIBentryALTinterwordspacing
+------, \emph{Usando el Hook de estado}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/hooks-state.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{useEffect}
+\BIBentryALTinterwordspacing
+------, \emph{Usando el Hook de efecto}. [Online]. Available:
+  \url{https://es.reactjs.org/docs/hooks-effect.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{context1}
 \BIBentryALTinterwordspacing
 ------, \emph{Context}. [Online]. Available:

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/tfg"] 1652202813 "build/tfg.aux" "build/tfg.bbl" "build/tfg" 1652202838
+["bibtex build/tfg"] 1652205577 "build/tfg.aux" "build/tfg.bbl" "build/tfg" 1652206397
   "./IEEEtran.bst" 1622625814 59215 bc5380b3434a66b895bbc75d3d380540 ""
-  "bibliografia.bib" 1652094586 15189 e411fab22fd9f8290b3747dcc8757b9b ""
-  "build/tfg.aux" 1652202835 44142 43bfb06e85ef95efd15ad0ad42c27785 "pdflatex"
+  "bibliografia.bib" 1652205312 15479 0ff710533a0ccdafed049e3753e86d86 ""
+  "build/tfg.aux" 1652206396 44230 f47b0f3c1c56eb8067c9615f1b42531e "pdflatex"
   (generated)
-  "build/tfg.bbl"
   "build/tfg.blg"
-["pdflatex"] 1652202814 "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" "build/tfg.pdf" "tfg" 1652202838
+  "build/tfg.bbl"
+["pdflatex"] 1652206374 "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" "build/tfg.pdf" "tfg" 1652206397
   "C:/Users/alber/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1643745508 14064 764a1724b1106fa6850f1f1e3c6dc47c ""
   "C:/Users/alber/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1633631920 9715384 2987d9db0bf343c977b005dfae6ee9b6 ""
   "C:/Users/alber/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1650558688 84158 d77284a6843bde1e4b9764f09fb2e89e ""
@@ -213,18 +213,18 @@
   "assets/Scrum/UserStory.png" 1643211324 54279 d9ffc267569093341ceb352b0eac3b35 ""
   "assets/Scrum/UserStoryMap.jpg" 1651754111 167132 a1915f434a9462166c85b2da65f47ee9 ""
   "assets/Vercel/RealExperienceScore.png" 1647870566 68807 bf92c8fd75f4cc470488507814e4a81a ""
-  "build/tfg.aux" 1652202835 44142 43bfb06e85ef95efd15ad0ad42c27785 "pdflatex"
-  "build/tfg.bbl" 1652202814 17494 92ffe62aa051e959a128ea7b2d2c2ee7 "bibtex build/tfg"
-  "build/tfg.lof" 1652202835 11270 58285114ac348a65dcf17545bd1e316d "pdflatex"
-  "build/tfg.out" 1652202835 10417 57c57ed20cfc7535f2dce867dca6d86b "pdflatex"
-  "build/tfg.toc" 1652202835 7655 5e1288b84c468d3e864a0ce60c0a910d "pdflatex"
-  "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" 1652202790 142517 9d0db767ef3a832dff396efe19fbace2 ""
+  "build/tfg.aux" 1652206396 44230 f47b0f3c1c56eb8067c9615f1b42531e "pdflatex"
+  "build/tfg.bbl" 1652205578 17894 64ea4ab0be1ed860ea4e607a909344de "bibtex build/tfg"
+  "build/tfg.lof" 1652206396 11270 399300d35e6de4629e0f355843ac6363 "pdflatex"
+  "build/tfg.out" 1652206396 10417 57c57ed20cfc7535f2dce867dca6d86b "pdflatex"
+  "build/tfg.toc" 1652206396 7655 58d7e908be81628d39d22573fe661b08 "pdflatex"
+  "c:/ALBERTO/3) UNIVERSITY/TFG/MEMORIA/tfg.tex" 1652206370 143247 6a26fa1083a821e457ad028f86c9aefc ""
   "logoURJC.pdf" 1622625814 5182 651875f76151b177b4add295405456c2 ""
-  "tfg.tex" 1652202790 142517 9d0db767ef3a832dff396efe19fbace2 ""
+  "tfg.tex" 1652206370 143247 6a26fa1083a821e457ad028f86c9aefc ""
   (generated)
-  "build/tfg.log"
-  "build/tfg.pdf"
-  "build/tfg.out"
   "build/tfg.lof"
   "build/tfg.aux"
   "build/tfg.toc"
+  "build/tfg.pdf"
+  "build/tfg.log"
+  "build/tfg.out"
