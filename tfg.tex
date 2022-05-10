@@ -1218,14 +1218,14 @@ En este caso se han separado las \textbf{carpetas por conceptos} o intereses (Ve
 \end{figure}
 
 \begin{itemize}
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/pages}{\textbf{Pages}}: Aquí se encuentran todas las páginas de la aplicación. Cada página está asociada con una ruta basada en su nombre de archivo. Por ejemplo: en ``pages/notes'' se exporta un componente de React que será accesible en ``/notes''.
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/pages}{\textbf{Pages}}: Aquí se encuentran todas las páginas de la aplicación. Cada página está asociada con una ruta basada en su nombre de archivo. Por ejemplo: en ``pages/notes'' se exporta un componente de React que será accesible en la URL ``/notes''.
     
     El archivo ``index.js'' es la página que se representa cuando el usuario visita la ruta raíz de la aplicación.
 
     Aparte, para tener un Layout persistente está el archivo ``\_app.tsx''. En este archivo se encuentran los metadatos de la aplicación y se envuelve la aplicación con el Layout. 
     
     Por otro lado, en el archivo ``\_document.tsx'' se actualizan las etiquetas ``\texttt{<html>}'' y ``\texttt{<body>}''.
-    \item \href{https://github.com/alberttogoca/EarFit/tree/main/public}{\textbf{Public}}: Aquí se encuentran los iconos, imágenes, service worker, manifest y archivos fuente de sonido en formato MIDI.js. En Next.js el código puede hacer referencia a los archivos estáticos dentro de una ``public'' en el directorio raíz a partir de la URL base (/).
+    \item \href{https://github.com/alberttogoca/EarFit/tree/main/public}{\textbf{Public}}: Aquí se encuentran los iconos, imágenes, Service Worker, Manifest y archivos fuente de sonido en formato MIDI.js. En Next.js el código puede hacer referencia a los archivos estáticos dentro de una ``public'' en el directorio raíz a partir de la URL base (/).
     \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/components}{\textbf{Components}}: Aquí se encuentran todos los componentes de la aplicación agrupados por carpetas. El modelo React nos permite deconstruir una página en una serie de componentes. Muchos de estos componentes a menudo se reutilizan entre páginas.
     \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/context}{\textbf{Context}}: Aquí se encuentra el contexto de la aplicación. El Context está diseñado para compartir estados que pueden considerarse “globales” para un árbol de componentes en React. %Como es un componente especial, como las pages, tiene su propio directorio.
     \item \href{https://github.com/alberttogoca/EarFit/tree/main/src/hooks}{\textbf{Hooks}}: Aquí se encuentran todos los Custom Hooks creados para extraer la lógica de los componentes en funciones reutilizables. Los Hooks son una nueva característica en React 16.8. Estos permiten usar el estado y otras características de React sin escribir una clase.
@@ -1310,11 +1310,11 @@ A continuación, se explican los paquetes de \textbf{Node.js} o librerías usada
 \begin{itemize}
     \item \href{https://github.com/tonaljs/tonal}{\textbf{Tonaljs}}: Es una librería de teoría musical. Contiene funciones para manipular elementos musicales como notas, intervalos y escalas. Se tratan de abstracciones, no de música o sonido reales \cite{tonal}.
     \item \href{https://github.com/danigb/soundfont-player}{\textbf{Soundfont-player}}: Sirve para cargar archivos MIDI.js y reproducir sonidos utilizando la WebAudio API \cite{webAudioAPI}. Estos archivos contienen los sonidos de los instrumentos codificados. No hace falta contar con estos archivos en local ya que en tal caso los buscaría en el siguiente repositorio: \href{https://github.com/gleitz/midi-js-soundfonts}{{\textbf{midi-js-soundfonts}}} \cite{soundfont-player}.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/lib/soundfont-wrapper.ts}{\textbf{Soundfont-wrapper}}: Es una librería personalizada para refinar la complejidad de ``soundfont-player'' y simplificar su uso. Proporciona la función ``getSoundfontInstrument'' que devuelve un ``notePlayer'' con funciones para tocar notas. Se encarga de crear el ``audioContext'', gestionar los nodos de audio.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/lib/soundfont-wrapper.ts}{\textbf{Soundfont-wrapper}}: Es una librería personalizada para refinar la complejidad de ``soundfont-player'' y simplificar su uso. Proporciona la función ``getSoundfontInstrument'' que devuelve un ``notePlayer'' con funciones para tocar notas. Se encarga de crear el ``audioContext'' y gestionar los nodos de audio.
     \item \href{https://github.com/kevinsqi/react-piano}{\textbf{React-piano}}: Proporciona un teclado de piano interactivo para React. No implementa la reproducción de audio de cada nota, por lo que se debe implementar aparte y pasar por Props dos funciones: playNote y stopNote \cite{react-piano}.
     \item \href{https://github.com/pmndrs/react-use-measure}{\textbf{React-use-measure}}: Se usa para conseguir que ``react-piano'' sea responsivo. Lo que hace es obtener la referencia de ancho del componente padre para usarla en el renderizado del piano \cite{react-use-measure}.
     \item \href{https://github.com/react-bootstrap/react-bootstrap}{\textbf{React-bootstrap}}: Es la librería de estilos CSS usada. Cada componente de React-Bootstrap es un verdadero componente de React, sin dependencias innecesarias como jQuery \cite{react-bootstrap}.
-    \item \href{https://github.com/shadowwalker/next-pwa}{\textbf{Next-pwa}}: Es un plugin que permite registrar y generar un service worker para convertir una aplicación web en una aplicación web progresiva \cite{next-pwa}.
+    \item \href{https://github.com/shadowwalker/next-pwa}{\textbf{Next-pwa}}: Es un plugin que permite registrar y generar un Service Worker para convertir una aplicación web en una aplicación web progresiva \cite{next-pwa}.
 \end{itemize}
 
 \subsubsection{Utils}
@@ -1337,10 +1337,10 @@ A continuación, se explican los servicios creados para la aplicación. Por como
 \end{comment}
 
 \begin{itemize}
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/instrumentService.ts}{\textbf{instrumentService.ts}}: Este servicio provee una función ``getInstruments'' que devuelve un array de instrumentos de tipo ``Instrument''. Usa la librería ``soundfont-wrapper'' para obtener los ``notePlayer'' para cada instrumento definido en la constante ``InstrumentData''. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ``InstrumentData''.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/noteService.ts}{\textbf{noteService.ts}}: Este servicio provee una función ``getNotes'' que recibe un nombre de escala y devuelve un array de respuestas de tipo ``Answer'' correspondiente a la variante de ejercicio ``notes''. Utiliza la librería Tonal para obtener las notas según la escala.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/intervalService.ts}{\textbf{intervalService.ts}}: Este servicio provee una función ``getIntervals'' que devuelve un array de respuestas de tipo ``Answer'' correspondiente a la  variante de ejercicio ``intervals''. En este caso como hay varias combinaciones de notas para un mismo intervalo, también proporciona una función ``calcInterval'' que recibe un intervalo y devuelve el mismo con una combinación de notas al azar que cumplan ese intervalo. Utiliza la librería Tonal para calcular las notas de los intervalos.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/scaleService.ts}{\textbf{scaleService.ts}}: Este servicio provee una función ``getScales'' que devuelve un array de respuestas de tipo ``Answer'' correspondiente a la  variante de ejercicio ``scales''. Utiliza la librería Tonal para obtener las escalas con sus notas.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/instrumentService.ts}{\textbf{instrumentService.ts}}: Este servicio provee una función ``getInstruments'' que devuelve un array de instrumentos de tipo ``Instrument\text{[]}''. Usa la librería ``soundfont-wrapper'' para obtener los ``notePlayer'' para cada instrumento definido en la constante ``InstrumentData''. De tal manera que añadir o quitar un instrumento es tan sencillo como añadirlo a ``InstrumentData''.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/noteService.ts}{\textbf{noteService.ts}}: Este servicio provee una función ``getNotes'' que recibe una escala de tipo ``string'' y devuelve un array de respuestas de tipo ``Answer\text{[]}'' correspondiente a la variante de ejercicio ``notes''. Utiliza la librería Tonal para obtener las notas según la escala.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/intervalService.ts}{\textbf{intervalService.ts}}: Este servicio provee una función ``getIntervals'' que devuelve un array de respuestas de tipo ``Answer\text{[]}'' correspondiente a la  variante de ejercicio ``intervals''. En este caso, como hay varias combinaciones de notas para un mismo intervalo, proporciona una función ``calcInterval'' que recibe un intervalo y lo devuelve con una de estas combinaciones. Utiliza la librería Tonal para calcular las notas de los intervalos.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/scaleService.ts}{\textbf{scaleService.ts}}: Este servicio provee una función ``getScales'' que devuelve un array de respuestas de tipo ``Answer\text{[]}'' correspondiente a la  variante de ejercicio ``scales''. Utiliza la librería Tonal para obtener las escalas.
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/services/menuService.ts}{\textbf{menuService.ts}}: Este servicio provee una función ``getMenuInfo'' que devuelve un array con la información de cada ítem del menú principal. 
 \end{itemize}
 
@@ -1349,18 +1349,18 @@ A continuación, se explican los servicios creados para la aplicación. Por como
 
 Según React: ``Las clases presentan problemas para las herramientas de hoy en día. Las clases no minifican bien, y hacen que la recarga en caliente sea confusa y poco fiable. Los componentes complejos se vuelven difíciles de entender. Es difícil reutilizar la lógica de estado entre componentes. Y las clases confunden tanto a las personas como a las máquinas.'' 
 
-Para resolver estos problemas, Hooks permite usar más de las funciones de \textbf{React sin clases}. Aunque se necesita de cambio de mentalidad para empezar a “pensar en Hooks”. Conceptualmente, los componentes de React siempre han estado más cerca de las funciones. Es por esto por lo que se usan funciones en lugar de clases para guardar el estado de la aplicación.
+Para resolver estos problemas, Hooks permite usar \textbf{React sin clases}. Aunque se necesita un cambio de mentalidad para empezar a “pensar en Hooks”. Conceptualmente, los componentes de React siempre han estado más cerca de las funciones. Es por esto por lo que se usan funciones en lugar de clases para guardar el estado de la aplicación.
 \cite{hooks1}
 
 \subsubsection{Hooks}
 
-Los Hooks sirven para extraer \textbf{lógica de estado} de tal forma que un componente pueda ser reusado independientemente. Cuando se tiene una lógica que debe ser utilizada por varios componentes, podemos extraer esa lógica a un Custom Hook. Lo que permite dividir un componente en funciones más pequeñas.
+Los Hooks sirven para extraer \textbf{lógica de estado} de tal forma que un componente pueda ser reusado independientemente. Cuando se tiene lógica que debe ser utilizada por varios componentes, se puede extraer a un Custom Hook. Lo que permite dividir un componente en funciones.
 \cite{hooks3}
 
-El estado de cada componente es completamente independiente. De hecho, cada llamada a un Hook tiene un estado completamente aislado. Además, como los Hooks son funciones, podemos pasar información entre ellos.
+El estado de cada componente es independiente. Cada llamada a un Hook tiene un estado completamente aislado. Además, como los Hooks son funciones, se puede pasar información entre ellos.
 \cite{hooks2}
 
-Estos son los \textbf{Custom Hooks} desarrollados para la aplicación, cada uno cubre un caso de uso específico (se puede encontrar una relación entre el nombre de los Hooks y de los componentes a los que dan funcionalidad, por lo que se puede asociar fácilmente cada uno más adelante):
+Estos son los \textbf{Custom Hooks} desarrollados para la aplicación, cada uno cubre un caso de uso específico (hay una relación entre el nombre de los Hooks y de los componentes, por lo que se pueden asociar fácilmente más adelante):
 
 \begin{comment}
     (ver figura \ref{fig:Hooks})
@@ -1373,20 +1373,20 @@ Estos son los \textbf{Custom Hooks} desarrollados para la aplicación, cada uno 
 \end{comment}
 
 \begin{itemize}
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useDirectionSelector.tsx}{\textbf{useDirectionSelector.tsx}}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta y una función para actualizarla.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useExercise.tsx}{\textbf{useExercise.tsx}}: Este Hook recibe la variante de ejercicio y provee el array de respuestas asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswerToggles.tsx}{\textbf{useAnswerToggles.tsx}}: Este Hook recibe el array de respuestas y provee un nuevo array de respuestas disponibles para el ejercicio, cada una con la propiedad ``isSelected''. También provee una función para seleccionar una respuesta y otra función para seleccionarlas todas o dejar tres seleccionadas si ya lo estaban.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswer.tsx}{\textbf{useAnswer.tsx}}: Este Hook recibe la variante de ejercicio y el array de respuestas disponibles, calcula y provee la respuesta actual dependiendo de la variante. También, provee funciones para calcular una nueva respuesta y comprobar si una respuesta es correcta.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePlayButton.tsx}{\textbf{usePlayButton.tsx}}: Este Hook recibe la variante de ejercicio, la respuesta actual y la dirección. Provee una función para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswerButtons.tsx}{\textbf{useAnswerButtons.tsx}}:  Este Hook recibe el array de respuestas disponibles y las funciones para calcular una nueva respuesta, comprobar si una respuesta es correcta y reproducir las notas de la respuesta actual. Provee un nuevo array compuesto sólo por las respuestas seleccionadas y añade un color a cada una. También provee una función que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta. Y por último, hace uso de ``useStreak'' para proveer la racha actual de respuestas correctas.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useStreak.tsx}{\textbf{useStreak.tsx}}: Este Hook provee el contador actual de respuestas acertadas consecutivamente y dos funciones para incrementar y resetar el contador.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePiano.tsx}{\textbf{usePiano.tsx}}: Este Hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente piano.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useScaleDropdown.tsx}{\textbf{useScaleDropdown.tsx}}: Este Hook provee la lista de escalas y escala seleccionada para obtener las respuestas de la variante del ejercicio de notas. También provee una función para actualizar la escala seleccionada.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useExercise.tsx}{\textbf{useExercise.tsx}}: Este Hook recibe la variante de ejercicio de tipo ``VariantExercise''. Provee las respuestas de tipo ``Answer\text{[]}'' asociadas a dicha variante. Obtiene estas respuestas gracias a los servicios ``noteService'', ``intervalService'' y ``scaleService''.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswerToggles.tsx}{\textbf{useAnswerToggles.tsx}}: Este Hook recibe las respuestas de tipo ``Answer\text{[]}''. Provee un nuevo array de respuestas disponibles de tipo ``AnswerToggles\text{[]}'' con tres seleccionadas, la función ``updateIsSelected'' para seleccionar una respuesta y la función ``selectAllOrThree'' para alternar entre seleccionarlas todas o dejar tres seleccionadas.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswer.tsx}{\textbf{useAnswer.tsx}}: Este Hook recibe la variante de ejercicio de tipo ``VariantExercise'' y las respuestas disponibles de tipo ``AnswerToggles\text{[]}''. Calcula y provee la respuesta actual de tipo ``Answer'' dependiendo de la variante, la función ``setNewAnswer'' para calcular una nueva respuesta y la función ``isCorrectAnswer'' para comprobar si una respuesta es correcta.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useAnswerButtons.tsx}{\textbf{useAnswerButtons.tsx}}:  Este Hook recibe las respuestas disponibles de tipo ``AnswerToggles\text{[]}'' y las funciones ``setNewAnswer'', ``isCorrectAnswer'' y ``playAnswer''. Provee un nuevo array compuesto sólo por las respuestas seleccionadas de tipo ``answerButtons\text{[]}'' cada una con color, la función ``handleAnswerButtonClick'' que se hace cargo de la lógica cuando se pulsa sobre un botón de respuesta y la racha actual de respuestas correctas de tipo ``string'' haciendo uso de ``useStreak''.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useStreak.tsx}{\textbf{useStreak.tsx}}: Este Hook provee el contador actual de respuestas acertadas consecutivamente de tipo ``number'', la función ``incrementStreak'' para incrementar el contador y la función ``clearStreak'' para resetar el contador.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useDirectionSelector.tsx}{\textbf{useDirectionSelector.tsx}}: Este Hook provee la dirección en la que se reproducirán las notas de la respuesta de tipo ``boolean'' y la función ``changeDirection'' para actualizarla.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePlayButton.tsx}{\textbf{usePlayButton.tsx}}: Este Hook recibe la variante de ejercicio de tipo ``VariantExercise', la respuesta actual de tipo ``Answer'' y la dirección de tipo ``boolean''. Provee la función ``playAnswer'' para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useScaleDropdown.tsx}{\textbf{useScaleDropdown.tsx}}: Este Hook provee la lista de escalas de tipo ``string\text{[]}'', la escala seleccionada de tipo ``string'', para obtener las respuestas de la variante del ejercicio de notas, y la función ``setNewSelectedScale'' para actualizarla.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePiano.tsx}{\textbf{usePiano.tsx}}: Este Hook recibe un rango de notas y provee todos los datos y funciones necesarias para el componente ``Piano''.
 \end{itemize}
 
 \subsubsection{Context}
 
-En una aplicación típica de React, los datos se pasan de padre a hijo a través de Props, pero esta forma puede resultar incómoda para ciertos tipos de Props que son necesarias para muchos componentes. Context proporciona una forma de \textbf{compartir valores} como estos entre componentes sin tener que pasar explícitamente una Prop a través de cada nivel del árbol.
+En una aplicación típica de React, los datos se pasan de padre a hijo a través de Props. Esta forma resulta incómoda para Props que son necesarias para muchos componentes. Context es una forma de \textbf{compartir valores} como estos entre componentes sin tener que pasar Props a través de cada nivel del árbol.
 \cite{context1}
 
 \begin{comment}
@@ -1399,8 +1399,9 @@ En una aplicación típica de React, los datos se pasan de padre a hijo a travé
 \end{comment}
 
 \begin{itemize}
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/context/EarfitContext.tsx}{\textbf{EarfitContext.tsx}}: Este contexto provee el array de instrumentos, el instrumento seleccionado y una función para actualizar el instrumento seleccionado. Obtiene estos instrumentos gracias a los servicios.    
-    Este contexto se puede encontrar envolviendo a la aplicación en el archivo ``\_app.tsx'' y es llamado con el Hook ``useInstrumentContext'' por varios Hooks y componentes.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/context/EarfitContext.tsx}{\textbf{EarfitContext.tsx}}: Este contexto provee todos los instrumentos de tipo ``Instrument\text{[]}'', el instrumento seleccionado de tipo ``Instrument'' y la función ``selectInstrument'' para actualizarlo. Obtiene estos instrumentos gracias al servicio ``instrumentService''.    
+    
+    Este contexto se encuentra envolviendo la aplicación en ``\_app.tsx'' e implementa el Hook ``useInstrumentContext'' para ser usado por diferentes Hooks y componentes.
     %(Ver figura \ref{fig:Context}).       
 \end{itemize}
 
@@ -1412,7 +1413,7 @@ Los componentes permiten separar la interfaz de usuario en piezas independientes
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{React/ReactComponent}
+    \includegraphics[width=0.5\textwidth]{React/ReactComponent}
     \caption{Diagrama de un componente React.}
     \label{fig:ReactComponent}
 \end{figure}
@@ -1435,15 +1436,17 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
     \item Se preocupan por cómo funcionan las cosas.
     \item Contienen a los componentes de presentación en su interior.
     \item Llaman a los Hooks y proporcionan los datos y el comportamiento a los componentes mediante Props. Tienden a servir como fuentes de datos.
-    \item Se encuentran en la carpeta ``pages''. (Ver figura \ref{fig:Pages}).
+    \item Se encuentran en la carpeta ``pages''. %(Ver figura \ref{fig:Pages}).
 \end{compactitem}
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Detalles de Implementación/Estructura de Archivos/Pages}
     \caption{Páginas de la aplicación.}
     \label{fig:Pages}
 \end{figure}
+\end{comment}
 
 \subsubsection{Components}
 
@@ -1453,15 +1456,17 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
     \item A menudo permiten la contención a través de la propiedad children.
     \item No tienen dependencias con el resto de la aplicación.
     \item Suelen recibir datos y Callbacks exclusivamente a través de Props.
-    \item Se encuentran en la carpeta ``components''. (Ver figura \ref{fig:Components}).
+    \item Se encuentran en la carpeta ``components''. %(Ver figura \ref{fig:Components}).
 \end{compactitem}
 
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Detalles de Implementación/Estructura de Archivos/Components}
     \caption{Componentes de la aplicación.}
     \label{fig:Components}
 \end{figure}
+\end{comment}
 
 \subsection{Funcionamiento}
 
@@ -1772,7 +1777,7 @@ El resultado final de esta aplicación se puede encontrar en el apéndice \hyper
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{Conclusiones/EarfitQR}
+    \includegraphics[width=0.4\textwidth]{Conclusiones/EarfitQR}
     \caption{Código QR de Earfit.}
     \label{fig:EarfitQR}
 \end{figure}
