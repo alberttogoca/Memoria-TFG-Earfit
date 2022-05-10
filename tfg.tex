@@ -1354,13 +1354,13 @@ Para resolver estos problemas, Hooks permite usar \textbf{React sin clases}. Aun
 
 \subsubsection{Hooks}
 
-Los Hooks sirven para extraer \textbf{lógica de estado} de tal forma que un componente pueda ser reusado independientemente. Cuando se tiene lógica que debe ser utilizada por varios componentes, se puede extraer a un Custom Hook. Lo que permite dividir un componente en funciones.
+Los Hooks sirven para extraer \textbf{lógica de estado} de tal forma que un componente pueda ser reusado independientemente. Cuando se tiene lógica que debe ser utilizada por varios componentes, se puede extraer a un Custom Hook. Esto permite dividir un componente en funciones más pequeñas.
 \cite{hooks3}
 
 El estado de cada componente es independiente. Cada llamada a un Hook tiene un estado completamente aislado. Además, como los Hooks son funciones, se puede pasar información entre ellos.
 \cite{hooks2}
 
-Estos son los \textbf{Custom Hooks} desarrollados para la aplicación, cada uno cubre un caso de uso específico (hay una relación entre el nombre de los Hooks y de los componentes, por lo que se pueden asociar fácilmente más adelante):
+A continuación, se explican los \textbf{Custom Hooks} creados para la aplicación, cada uno cubre un caso de uso. Hay una relación entre el nombre de los Hooks y de los componentes, por lo que se pueden asociar fácilmente más adelante.
 
 \begin{comment}
     (ver figura \ref{fig:Hooks})
@@ -1381,13 +1381,13 @@ Estos son los \textbf{Custom Hooks} desarrollados para la aplicación, cada uno 
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useDirectionSelector.tsx}{\textbf{useDirectionSelector.tsx}}: Este Hook devuelve la dirección en la que se reproducirán las notas de la respuesta de tipo ``boolean'' y la función ``changeDirection'' para actualizarla.
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePlayButton.tsx}{\textbf{usePlayButton.tsx}}: Este Hook recibe la variante de ejercicio de tipo ``VariantExercise', la respuesta actual de tipo ``Answer'' y la dirección de tipo ``boolean''. Devuelve la función ``playAnswer'' para reproducir las notas de la respuesta actual, en su dirección y a la velocidad correcta según la variante.
     \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/useScaleDropdown.tsx}{\textbf{useScaleDropdown.tsx}}: Este Hook devuelve la lista de escalas de tipo ``string\text{[]}'', la escala seleccionada de tipo ``string'', para obtener las respuestas de la variante del ejercicio de notas, y la función ``setNewSelectedScale'' para actualizarla.
-    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePiano.tsx}{\textbf{usePiano.tsx}}: Este Hook recibe un rango de notas y devuelve todos los datos y funciones necesarias para el componente ``Piano''.
+    \item \href{https://github.com/alberttogoca/EarFit/blob/main/src/hooks/usePiano.tsx}{\textbf{usePiano.tsx}}: Este Hook recibe opcionalmente un rango de notas de tipo ``string''. Devuelve el rango de notas, los atajos de teclado y las funciones ``stopNote'' y ``playNote'' necesarias para el componente ``Piano''.
 \end{itemize}
 
 Por último, dentro de estos se usan también dos Hooks propios de React:
 \begin{itemize}
  \item \textbf{useState}: Permite añadir un estado local de React a un componente. Este Hook recibe el estado inicial y devuelve una pareja de valores: el valor de estado actual y una función que permite actualizarlo. \cite{useState}
- \item \textbf{useEffect}: Permite llevar a cabo efectos secundarios en los componentes como peticiones de datos, suscripciones o actualizaciones manuales del DOM. Estos pueden afectar a otros componentes y no se pueden hacer durante el renderizado. Este Hook recibe una función ``efecto'' que se ejecutará después de renderizar el DOM. \cite{useEffect} 
+ \item \textbf{useEffect}: Permite llevar a cabo efectos secundarios en los componentes como peticiones de datos, suscripciones o actualizaciones manuales del DOM. Estos efectos pueden afectar a otros componentes y no se pueden hacer durante el renderizado. Este Hook recibe una función ``efecto'' que se ejecutará después de renderizar el DOM. \cite{useEffect} 
 \end{itemize}
 
 \subsubsection{Context}
@@ -1431,12 +1431,20 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.28]{Detalles de Implementación/JerarquíaComponentes}
+    \includegraphics[width=\textwidth]{Detalles de Implementación/JerarquíaComponentes}
     \caption{Jerarquía de Componentes de la aplicación.}
     \label{fig:JerarquiaComponentes}
 \end{figure}
 
+Las páginas no son más que componentes de React exportados desde un archivo .tsx en el directorio de páginas. Sólo que cada una está asociada con una ruta basada en su nombre de archivo.
+
+\begin{comment}
 \subsubsection{Pages}
+
+%En Next.js, una página es un componente de React exportado desde un archivo .js, .jsx, .ts o .tsx en el directorio de páginas. Cada página está asociada con una ruta basada en su nombre de archivo.
+%Nextjs prerenderiza cada página usando Static Generation.
+%Cada HTML generado está asociado con el código JavaScript mínimo necesario para esa página. 
+%Cuando el navegador carga una página, su código JavaScript se ejecuta y hace que la página sea completamente interactiva. (Este proceso se llama hidratación.)
 
 \begin{compactitem}
     \item Se preocupan por cómo funcionan las cosas.
@@ -1445,7 +1453,6 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
     \item Se encuentran en la carpeta ``pages''. %(Ver figura \ref{fig:Pages}).
 \end{compactitem}
 
-\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Detalles de Implementación/Estructura de Archivos/Pages}
@@ -1454,6 +1461,7 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
 \end{figure}
 \end{comment}
 
+\begin{comment}
 \subsubsection{Components}
 
 \begin{compactitem}
@@ -1465,7 +1473,6 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
     \item Se encuentran en la carpeta ``components''. %(Ver figura \ref{fig:Components}).
 \end{compactitem}
 
-\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{Detalles de Implementación/Estructura de Archivos/Components}
@@ -1474,20 +1481,15 @@ En la figura \ref{fig:JerarquiaComponentes} se puede observar todos los componen
 \end{figure}
 \end{comment}
 
-\subsection{Funcionamiento}
+\subsubsection{Pages}
 
-En las aplicaciones de React, si un componente tiene o no estado se considera un detalle de implementación del componente que puede cambiar con el tiempo.
+%En las aplicaciones de React, si un componente tiene o no estado se considera un detalle de implementación del componente que puede cambiar con el tiempo.
 
-Normalmente, el estado se agrega primero al componente que lo necesita. Luego, si otro componente también lo necesita, se puede levantar el estado hacia el ancestro común más cercano. Este componente puede pasar su estado como Props a sus componentes hijos. Esto se llama flujo de datos \textbf{descendente} o \textbf{unidireccional} de React. 
+%Normalmente, el estado se agrega primero al componente que lo necesita. Luego, si otro componente también lo necesita, se puede levantar el estado hacia el ancestro común más cercano. Este componente puede pasar su estado como Props a sus componentes hijos. Esto se llama flujo de datos \textbf{descendente} o \textbf{unidireccional} de React. 
 
-En este caso, sucede para los componentes ``Exercise'' y ``Options''. Dando lugar a que sus estados se eleven hasta la página que los contiene.
+%En este caso, sucede para los componentes ``Exercise'' y ``Options''. Dando lugar a que sus estados se eleven hasta la página que los contiene.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{Capturas Earfit/PC/Intervals}
-    \caption{Captura de la página de intervalos.}
-    \label{fig:PCIntervals1}
-\end{figure}
+Este es un ejemplo de como funciona el flujo de datos unidireccional de la \textbf{página de intervalos} (ver figura \ref{fig:PCIntervals1}) basandonos en su código (ver figura \ref{fig:IntervalsPage}). El funcionamiento es igual para todas las demás: 
 
 \begin{figure}[H]
     \centering
@@ -1496,15 +1498,17 @@ En este caso, sucede para los componentes ``Exercise'' y ``Options''. Dando luga
     \label{fig:IntervalsPage}
 \end{figure}
 
-Este es un ejemplo de como funciona el flujo de datos unidireccional de la \textbf{página de intervalos} (ver figura \ref{fig:PCIntervals1}) basandonos en su código (ver figura \ref{fig:IntervalsPage}). El funcionamiento es igual para todas las demás: 
 
 \begin{enumerate}
-    \item  Se importan los Hooks y Componentes necesarios.
+    \item  Se importan los Hooks y Componentes de la página.
     \item  Se hacen las llamadas a los Hooks que aportan los datos y Callbacks.
-    \item  Se le pasan estos datos y Callbacks a los componentes.
+    \item  Se le pasan estos datos y Callbacks a los componentes por Props.
 \end{enumerate}
 
-Como los componentes solo pueden actualizar su propio estado, el componente superior necesita pasar funciones al hijo que este ejecutará cada vez que el estado deba actualizarse.
+
+\subsubsection{Components}
+
+Este es un ejemplo de como funciona el flujo de datos unidireccional del \textbf{componente AnswerButtons} (ver figura \ref{fig:AnswerButtons}). El funcionamiento es igual para todos las demás: 
 
 \begin{figure}[H]
     \centering
@@ -1512,8 +1516,6 @@ Como los componentes solo pueden actualizar su propio estado, el componente supe
     \caption{Código del componente AnswerButtons.}
     \label{fig:AnswerButtons}
 \end{figure}
-
-Este es un ejemplo de como funciona el flujo de datos unidireccional del \textbf{componente AnswerButtons} (ver figura \ref{fig:AnswerButtons}). El funcionamiento es igual para todos las demás: 
 
 \begin{enumerate}
     \item Le llegan los datos y Callbacks a través de Props.
@@ -1524,8 +1526,10 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional del \textbf
     \item Al llegar nuevas Props al componente se vuelve a renderizar mostrando los cambios.
 \end{enumerate}
 
+Como los componentes solo pueden actualizar su propio estado, el componente superior necesita pasar funciones al hijo que este ejecutará cada vez que el estado deba actualizarse.
 
 \subsection{Progressive Web App}
+
 Para conseguir que una aplicación web sea confiable, instalable y se comporte como una app nativa en ordenador, móvil y tablet se puede convertir en PWA o Progressive Web App. Con ella, el usuario puede \textbf{instalar la app} en su dispositivo y seguir consultándola, aunque haya perdido la conexión.
 \cite{pwa1}
 
@@ -1539,7 +1543,7 @@ Las PWA deben tener las siguientes características:
     \item \textbf{Un icono} de al menos 144x144 de tamaño grande en formato PNG.
 \end{compactitem}
 
-Siendo una PWA, al visitarla cualquier navegador ya nos da la opción de instalarla en nuestro dispositivo. En iOS, la opción se llama ``añadir a pantalla de inicio'' desde el menú ``compartir'' de \textbf{Safari} y en \textbf{Chrome} por ejemplo es de la siguiente manera: ver figura \ref{fig:InstalarPWA}.
+Siendo una PWA, al visitarla cualquier navegador ya nos da la opción de instalarla en nuestro dispositivo. En iOS, la opción se llama ``añadir a pantalla de inicio'' desde el menú ``compartir'' de \textbf{Safari} y en \textbf{Chrome} aparece un icono en la barra de búsqueda (ver Figura \ref{fig:InstalarPWA}).
 
 \begin{figure}[H]
     \centering
@@ -1548,21 +1552,29 @@ Siendo una PWA, al visitarla cualquier navegador ya nos da la opción de instala
     \label{fig:InstalarPWA}
 \end{figure}
 
-Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está lista para usar (ver figura \ref{fig:PWA}). Puede usarse sin conexión y en cualquier tamaño de ventana ya que al ser responsiva se adapta. Para desinstalar se puede hacer como una aplicación normal o simplemente pulsando en los tres puntos de la ventana nos da la opción.
-
+Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está lista para usar (ver figura \ref{fig:PCIntervals1}). Puede usarse sin conexión y en cualquier tamaño de ventana ya que al ser responsiva se adapta. Para desinstalar se puede hacer como una aplicación normal o simplemente pulsando en los tres puntos de la ventana nos da la opción.
+\begin{comment}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.27\textwidth]{Detalles de Implementación/PWA/PWA}
     \caption{Captura de Earfit como PWA en Windows.}
     \label{fig:PWA}
 \end{figure}
+\end{comment}
 
-\textbf{Observación:} En el entorno desarrollo, se ha deshabilitado la opción de PWA en \href{https://github.com/alberttogoca/EarFit/blob/main/next.config.js}{``next.config.js''} porque genera muchos mensajes de consola.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Capturas Earfit/PC/Intervals}
+    \caption{Captura de la página de intervalos.}
+    \label{fig:PCIntervals1}
+\end{figure}
+
+%\textbf{Observación:} En el entorno desarrollo, se ha deshabilitado la opción de PWA en \href{https://github.com/alberttogoca/EarFit/blob/main/next.config.js}{``next.config.js''} porque genera muchos mensajes de consola.
 
 \subsubsection{Service Worker}
 \label{sec:serviceWorker}
 
-Se puede encontrar en la carpeta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/sw.js}{\textbf{``sw.js''}}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin ``next-pwa'', que permite registrar y generar un service worker optimizado sin apenas configuración. El archivo \href{https://github.com/alberttogoca/EarFit/blob/main/public/workbox-1846d813.js}{\textbf{``workbox.js''}} también está relacionado con este plugin.
+Se puede encontrar en la carpeta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/sw.js}{\textbf{``sw.js''}}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin ``next-pwa'', que permite registrar y generar un Service Worker optimizado sin apenas configuración. El archivo \href{https://github.com/alberttogoca/EarFit/blob/main/public/workbox-1846d813.js}{\textbf{``workbox.js''}} también está relacionado con este plugin.
 \cite{serviceworker}
 
 \subsubsection{Manifest}
@@ -1573,7 +1585,7 @@ Se puede encontrar en la caperta ``public'' con el nombre de \href{https://githu
 
 \textbf{IOS Safari} no implementa manifiestos, por lo que la mayoría de los metadatos de PWA se pueden definir a través de extensiones específicas de Apple para las metaetiquetas. Estos están definidos en el archivo personalizado ``\_app.tsx''.
 
-Los iconos de la aplicación a los que se hacen referencia se pueden encontrar en la carpeta ``public/icons''.
+%Los iconos de la aplicación a los que se hacen referencia se pueden encontrar en la carpeta ``public/icons''.
 
 
 \subsection{Buenas Prácticas}
