@@ -1114,4 +1114,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr) 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+LaTeX Info: Redefining \. on input line 1363.
+LaTeX Info: Redefining \% on input line 1363.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+Overfull \hbox (7.3306pt too wide) in paragraph at lines 1381--1382
+[][][]\OT1/cmr/bx/n/12 useAnswerToggles.tsx[][]\OT1/cmr/m/n/12 : Es-te Hook re-ci-be las res-pues-tas de ti-po ``Answer[]''.
+ []
+
+
+Overfull \hbox (4.15038pt too wide) in paragraph at lines 1381--1382
+\OT1/cmr/m/n/12 De-vuel-ve un nue-vo array de res-pues-tas dis-po-ni-bles de ti-po ``AnswerToggles[]''
+ []
+
+LaTeX Info: Redefining \. on input line 1386.
+LaTeX Info: Redefining \% on input line 1386.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+LaTeX Info: Redefining \. on input line 1423.
+LaTeX Info: Redefining \% on input line 1423.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+<assets/React/ReactComponent.jpg, id=1062, 555.57562pt x 233.37187pt>
+File: assets/React/ReactComponent.jpg Graphic file (type jpg)
+<use assets/React/ReactComponent.jpg>
+Package pdftex.def Info: assets/React/ReactComponent.jpg  used on input line 1426.
+(pdftex.def)             Requested size: 206.13931pt x 86.58838pt.
+<assets/Detalles de Implementación/JerarquíaComponentes.jpg, id=1065, 1410.26875pt x 713.66624pt>
+File: assets/Detalles de Implementación/JerarquíaComponentes.jpg Graphic file (type jpg)
+<use assets/Detalles de Implementación/JerarquíaComponentes.jpg>
+Package pdftex.def Info: assets/Detalles de Implementación/JerarquíaComponentes.jpg  used on input line 1438.
+(pdftex.def)             Requested size: 412.27864pt x 208.6349pt.
+LaTeX Info: Redefining \. on input line 1497.
+LaTeX Info: Redefining \% on input line 1497.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./assets/React/ReactComponent.jpg> <./assets/Detalles de Implementación/JerarquíaComponentes.jpg>]
+<assets/Detalles de Implementación/Code/Pages/Intervals2.png, id=1073, 530.73282pt x 654.19406pt>
+File: assets/Detalles de Implementación/Code/Pages/Intervals2.png Graphic file (type png)
+<use assets/Detalles de Implementación/Code/Pages/Intervals2.png>
+Package pdftex.def Info: assets/Detalles de Implementación/Code/Pages/Intervals2.png  used on input line 1500.
+(pdftex.def)             Requested size: 371.51044pt x 457.93272pt.
+LaTeX Info: Redefining \. on input line 1516.
+LaTeX Info: Redefining \% on input line 1516.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37 <./assets/Detalles de Implementación/Code/Pages/Intervals2.png>]
+<assets/Detalles de Implementación/Code/Components/AnswerButtons2.png, id=1084, 526.96875pt x 438.8897pt>
+File: asse
