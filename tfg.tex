@@ -535,10 +535,18 @@ Design Thinking es un método para \textbf{generar ideas innovadoras} que centra
 
 Esta metodología sirve en el proceso de creación para conocer al cliente en profundidad y encontrar soluciones prácticas ante sus problemas de manera ágil. Su objetivo es partir desde las necesidades de los clientes, para generar productos o servicios que las satisfagan.
 
-El proceso de Design Thinking se compone de cinco etapas y no es lineal (ver Figura \ref{fig:DesignThinking}). Por tanto, en cualquier momento se puede saltar entre etapas si se cree oportuno. De modo que a lo largo del proceso se va afinando el contenido hasta desembocar en una solución que cumpla con los objetivos. 
+El proceso de Design Thinking se compone de cinco etapas y no es lineal. Por tanto, en cualquier momento se puede saltar entre etapas si se cree oportuno. De modo que a lo largo del proceso se va afinando el contenido hasta desembocar en una solución que cumpla con los objetivos. 
 \cite{desingThinking2}
 
-Las etapas de Design Thinking son las siguientes:
+
+\begin{figure}[H] 
+    \includegraphics[width=\textwidth]{Design Thinking/Etapas}
+    \centering
+    \caption{Etapas de Design Thinking.}
+    \label{fig:DesignThinking}
+\end{figure}
+
+En la Figura \ref{fig:DesignThinking} podemos observar las etapas de las que se compone Design Thinking. El objetivo que pretende abodar cada etapa es el siguiente:
 \begin{itemize}
     \item \hyperref[sec:empatizar]{\textbf{Empatizar}}: Comprender el entorno y necesidades del usuario. 
     \item \hyperref[sec:definir]{\textbf{Definir}}: Identificar los problemas a solucionar. 
@@ -547,17 +555,10 @@ Las etapas de Design Thinking son las siguientes:
     \item \hyperref[sec:testear]{\textbf{Testear}}: Probar el prototipo con el usuario.
 \end{itemize}
 
-\begin{figure}[H] 
-    \includegraphics[scale=0.44]{Design Thinking/Etapas}
-    \centering
-    \caption{Etapas de Design Thinking.}
-    \label{fig:DesignThinking}
-\end{figure}
-
 \subsection{Empatizar}
 \label{sec:empatizar}
 
-Se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Además, se analizaron diversas herramientas ya existentes de entrenamiento musical como se ha explicado en el estado del arte. Se puede encontrar una explicación más detallada en el apéndice \hyperref[sec:DesignThinking]{\textbf{A.2 Design Thinking}}.
+En esta etapa se realizaron entrevistas al usuario y un estudio profundo de teoría musical para entender al usuario y sus necesidades. Además, se analizaron diversas herramientas ya existentes de entrenamiento musical como se ha explicado en el estado del arte. Se puede encontrar una explicación más detallada en el apéndice \hyperref[sec:DesignThinking]{\textbf{A.2 Design Thinking}}.
 
 \subsection{Definir}
 \label{sec:definir}
@@ -567,8 +568,8 @@ El problema parte de la necesidad de músicos amateur que quieren mejorar su niv
 \subsection{Idear}
 \label{sec:idear}
 
-Para idear una solución que aporte valor, realizamos un \textbf{MindMap} \cite{mindmap} donde nos enfocamos en los principales problemas del usuario y sus posibles soluciones.
-Cómo se puede observar en la Figura \ref{fig:Mindmap}, se concluye que una posible forma de solucionar estos problemas es mediante una aplicación web con ejercicios de entrenamiento auditivo. 
+Para idear una solución que aporte valor, realizamos un \textbf{MindMap} \cite{mindmap}. Esta es una herramienta gráfica para representar ideas o conceptos y encontrar soluciones.
+En ella tratamos de enfocarnos en los principales problemas del usuario y sus posibles soluciones.
 
 \begin{figure}[H]
     \centering
@@ -577,11 +578,13 @@ Cómo se puede observar en la Figura \ref{fig:Mindmap}, se concluye que una posi
     \label{fig:Mindmap}
 \end{figure}
 
+En la Figura \ref{fig:Mindmap} se observa este Mindmap donde se concluye que una posible forma de solucionar estos problemas es mediante una aplicación web con ejercicios de entrenamiento auditivo. 
+
 \subsection{Prototipar}
 \label{sec:prototipar}
 
-Primero, utilizamos la técnica \textbf{MoSCoW} \cite{moscow} para establecer las prioridades del proyecto. Teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. 
-(Ver Figura \ref{fig:MoSCoW}).
+En este etapa utilizamos la técnica \textbf{MoSCoW} \cite{moscow}. Esta es una técnica de priorización utilizada en gestión de proyectos.
+En ella tratamos de establecer las prioridades del proyecto, teniendo en cuenta nuestras limitaciones: poco tiempo para desarrollar, aprender conceptos musicales y nuevas tecnologías. 
 
 \begin{figure}[H]
     \centering
@@ -590,7 +593,9 @@ Primero, utilizamos la técnica \textbf{MoSCoW} \cite{moscow} para establecer la
     \label{fig:MoSCoW}
 \end{figure}
 
-Después, para crear nuestro \textbf{producto mínimo viable} o decidimos centrarnos en desarrollar lo que debe tener (Must have) y más tarde lo que debería tener (Should have).
+En la Figura \ref{fig:MoSCoW} se observa esta técnica de MoSCoW. Esta técnica se basa en definir lo que debe tener (Must have), debería incluir (Should have), podría incluir (Could have) y no va a tener (Won't have) la aplicación.
+
+Para crear nuestro \textbf{producto mínimo viable} se decidió centrarse en desarrollar los Must haves y más tarde los Should haves. Los Could haves y los Won't haves se deciden dejar para trabajos futuros por complejidad y tiempo de desarrollo.
 
 Por último, una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el prototipo teniendo en cuenta la filosofía de diseño \textbf{Atomic Design} y \textbf{Mobile First} \cite{mobilefirst}. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. 
 
