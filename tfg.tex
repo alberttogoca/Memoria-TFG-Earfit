@@ -539,13 +539,13 @@ El proceso de Design Thinking se compone de cinco etapas y no es lineal (ver Fig
 \cite{desingThinking2}
 
 Las etapas de Design Thinking son las siguientes:
-\begin{compactitem}
+\begin{itemize}
     \item \hyperref[sec:empatizar]{\textbf{Empatizar}}: Comprender el entorno y necesidades del usuario. 
     \item \hyperref[sec:definir]{\textbf{Definir}}: Identificar los problemas a solucionar. 
     \item \hyperref[sec:idear]{\textbf{Idear}}: Dar solución a estos problemas. 
     \item \hyperref[sec:prototipar]{\textbf{Prototipar}}: Convertir las soluciones en un prototipo. 
     \item \hyperref[sec:testear]{\textbf{Testear}}: Probar el prototipo con el usuario.
-\end{compactitem}
+\end{itemize}
 
 \begin{figure}[H] 
     \includegraphics[scale=0.44]{Design Thinking/Etapas}
@@ -645,10 +645,25 @@ Para ser ágiles mientras desarrollamos podemos beneficiarnos de \hyperref[sec:D
 
 Scrum es un \textbf{proceso de gestión} que reduce la complejidad en el desarrollo de productos para satisfacer las necesidades de los clientes. Se considera un marco de gestión de proyectos ágil.
 
+Scrum no es una técnica para desarrollar productos, es un marco donde se puede emplear un conjunto de diferentes procesos y técnicas.
+
+Es ideal para crear nuevos productos poniendo el foco en el cliente y detectar fallos pronto. Lo que se traduce en una mayor calidad del producto, reducción de costes y optimización del riesgo.
+\cite{scrum2}
+
 Con Scrum, un producto se basa en una serie de iteraciones llamadas \textbf{sprints} que dividen proyectos grandes y complejos en partes más pequeñas. Priorizadas por el beneficio que aportan al receptor del producto.
 \cite{scrum1}
 
-El flujo de trabajo en Scrum como se ilustra en la Figura \ref{fig:Scrum} es el siguiente:
+%\textbf{Scrum no es} un proceso o una técnica para desarrollar/construir productos, realmente es un marco de trabajo donde podemos emplear un conjunto de diferentes procesos y técnicas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Scrum/Scrum}
+    \caption{Marco de trabajo Scrum.}
+    \label{fig:Scrum}
+\end{figure}
+
+%El \textbf{flujo de trabajo} en Scrum como se ilustra en la Figura \ref{fig:Scrum} es el siguiente:
+En la la Figura \ref{fig:Scrum} podemos observar el \textbf{flujo de trabajo} de Scrum. Este flujo de trabajo está formado por los siguientes pasos:
 
 \begin{enumerate}
     \item Un Product Owner ordena el trabajo de un problema complejo en un Product Backlog.
@@ -657,19 +672,8 @@ El flujo de trabajo en Scrum como se ilustra en la Figura \ref{fig:Scrum} es el 
     \item \textit{Repetir}
 \end{enumerate}
 
-\textbf{Scrum no es} un proceso o una técnica para desarrollar/construir productos, realmente es un marco de trabajo donde podemos emplear un conjunto de diferentes procesos y técnicas.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.39]{Scrum/Scrum}
-    \caption{Marco de trabajo Scrum.}
-    \label{fig:Scrum}
-\end{figure}
-
-Implementar este marco de trabajo nos permite obtener resultados pronto, reduciendo el \textbf{Time to Market}, es decir, a tener lo antes posible en el mercado nuestro producto o una característica de nuestro producto, aumentando la satisfacción del cliente. Además, permite lidiar con requisitos cambiantes o poco definidos, aportando tolerancia al cambio.
-
-Es ideal para crear nuevos productos poniendo el foco en el cliente y detectar fallos pronto. Lo que se traduce en una mayor calidad del producto, reducción de costes y optimización del riesgo.
-\cite{scrum2}
+Implementar este marco de trabajo nos permite obtener resultados pronto, reduciendo el \textbf{Time to Market}, es decir, a tener lo antes posible en el mercado nuestro producto o una de sus características, aumentando la satisfacción del cliente. 
+Además, permite lidiar con requisitos cambiantes o poco definidos, aportando tolerancia al cambio.
 
 \subsection{User Story Map}
 
@@ -1615,7 +1619,7 @@ Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden 
 \subsubsection{Principios Clean Code}
 \label{sec:principioscleancode}
 
-Los principios de Clean Code \cite{cleancode} permiten obtener código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principios adaptados React tenidos presentes se encuentran en el apéndice \hyperref[sec:cleancode]{\textbf{F. Clean Code}}.
+Los principios de Clean Code \cite{cleancode} permiten obtener código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principios adaptados React tenidos presentes se encuentran en el apéndice \hyperref[sec:cleancode]{\textbf{E. Clean Code}}.
 
 \begin{comment}
 \begin{compactitem}
@@ -1661,16 +1665,23 @@ El objetivo de estas pruebas es evaluar las suposiciones hechas en las especific
 
 Dado que es una aplicación pequeña y el desarrollo de \textbf{pruebas automáticas} tiene asociado un coste de implementación y mantenimiento, hay que llegar a un compromiso de valor aportado (defectos que no llegan a producción) frente al coste de desarrollarlas. Debido a esto, las pruebas se realizaron de forma manual. 
 
-En cada tipo de prueba el SUT (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado abordar todos los test cases o casos de prueba posibles.
+En un futuro se pretende añadir este tipo de pruebas automáticas al proceso de integración continua. Para así asegurar un porcentaje de cobertura de código y su fiabilidad.
+
+%En cada tipo de prueba el SUT (Subject under Test - Sujeto bajo Prueba) se define siempre desde su perspectiva. Cada una pretende abordar un objetivo en concreto donde se han intentado abordar todos los test cases o casos de prueba posibles.
+
+Las pruebas funcionales que se han realizado se clasifican en las siguientes: \hyperref[sec:unitarias]{\textbf{Pruebas Unitarias}}, \hyperref[sec:components]{\textbf{Pruebas de Componentes}}, \hyperref[sec:integracion]{\textbf{Pruebas de Integración}} y \hyperref[sec:e2e]{\textbf{Pruebas End to End (E2E)}}.
+Cada una pretende abordar un objetivo en concreto donde se han intentado abordar todos los test cases o casos de prueba posibles.
 
 \subsubsection{Pruebas Unitarias}
+\label{sec:unitarias}
 
-Estas pruebas permiten probar que los elementos más fundamentales del software como objetos, funciones, eventos, funcionan como se espera. 
+Estas pruebas permiten probar que los elementos más fundamentales del software como objetos, funciones, eventos, funcionan como se espera. Su objetivo es probar que para cada elemento las mismas entradas proporcionen siempre las mismas salidas, verificando también si son correctas.
 
-En este caso según se iba desarrollando el código se comprobaba que cada Hook, función, estado, devolvía el resultado esperado y funcionaba correctamente antes de darle uso en el código. 
+En este caso según se iba desarrollando el código se comprobaba que cada Hook, función y estado, devolvía el resultado esperado y funcionaba correctamente antes de darle uso en el código. 
 Realizando pequeños tests por consola y usando las herramientas para desarrolladores de Google Chrome cuando era necesario.
 
 \subsubsection{Pruebas de Componentes}
+\label{sec:components}
 
 En estas pruebas se considera el SUT como cada componente de React. Con el objetivo de probar si la funcionalidad descrita en las historias de usuario se corresponde con su comportamiento.
 Permiten identificar fallos en los componentes que incluyen varias funciones o elementos internos para que se puedan corregir antes de que el software llegue a producción. 
@@ -1678,13 +1689,15 @@ Permiten identificar fallos en los componentes que incluyen varias funciones o e
 En este tipo de pruebas se validaron los criterios de aceptación descritos en las historias de usuario. Probando cada componente según se desarrollaba. Cualquier problema detectado se reparó de forma inmediata antes de continuar con el desarrollo.
 
 \subsubsection{Pruebas de Integración}
+\label{sec:integracion}
 
 El objetivo es probar la interacción entre componentes al integrar uno nuevo en la aplicación. Permiten probar el comportamiento y posibles fallos en la interacción entre los componentes entre sí, y demás elementos del software.
-De esta manera en cada momento tenemos una visión general del estado del proyecto alertándonos de regresiones en el código.
 
 En este caso, al integrar un nuevo componente en la aplicación, se probó si su funcionamiento y el de los componentes con los que interactúa seguía siendo el adecuado.
+De esta manera en cada momento se tiene una visión general del estado del proyecto alertándonos de regresiones en el código.
 
 \subsubsection{Pruebas End to End (E2E)}
+\label{sec:e2e}
 
 Estas pruebas se realizaron sobre el sistema una vez desplegado desde el punto de vista de los usuarios. En estas pruebas el SUT es el sistema completo de principio a fin. Se realizan con el objetivo de verificar si el software se comporta como se espera según las historias de usuario.
 
@@ -1705,16 +1718,17 @@ El objetivo de estas pruebas es evaluar el rendimiento, accesibilidad, buenas pr
 \subsubsection{Google Lighthouse}
 \label{sec:lighthouse}
 
-Google Lighthouse es una herramienta automatizada de código abierto para medir la calidad de las páginas web. Audita el rendimiento, la accesibilidad, y la optimización de páginas web.
-También incluye la capacidad de probar aplicaciones web progresivas para el cumplimiento de estándares y mejores prácticas.
+Es una herramienta para medir la calidad de las páginas web. %Audita el rendimiento, la accesibilidad, y la optimización de páginas web. También incluye la capacidad de probar aplicaciones web progresivas para el cumplimiento de estándares y mejores prácticas.
+Incluye la capacidad de probar PWA para el cumplimiento de estándares, mejores prácticas, detectar errores y oportunidades de optimización. 
+Los resultados de su análisis se encuentran en la Figura \ref{fig:Lighthouse_resumen} y consta de las siguientes categorías:
 
 %Para que estas aplicaciones web progresivas (PWA) causen la sensación a los usuarios de estar manejando una aplicación nativa, deben cumplir con determinadas características y parámetros de rendimiento. El test de Lighthouse permite medir y optimizar estos indicadores.
 
-Una vez hecho el análisis, Lighthouse emite puntuaciones del 0 al 100 que pueden tomarse como guía para detectar errores potenciales u oportunidades de optimización. En nuestra aplicación las puntuaciones fueron las siguientes, sin variaciones entre unas páginas y otras: ver Figura \ref{fig:Lighthouse_resumen}.
+%Una vez hecho el análisis, Lighthouse emite puntuaciones del 0 al 100 que pueden tomarse como guía para detectar errores potenciales u oportunidades de optimización. En nuestra aplicación las puntuaciones fueron las siguientes, sin variaciones entre unas páginas y otras: ver Figura \ref{fig:Lighthouse_resumen}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{Lighthouse/Resumen}
+    \includegraphics[width=0.9\textwidth]{Lighthouse/Resumen}
     \caption{Puntuaciones de Lighthouse.}
     \label{fig:Lighthouse_resumen}
 \end{figure}

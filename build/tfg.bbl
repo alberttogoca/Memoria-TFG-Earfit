@@ -151,18 +151,18 @@ S.~G. Sotomayor, ``Las metodologías ágiles más utilizadas y sus ventajas
   \url{https://www.iebschool.com/blog/que-son-metodologias-agiles-agile-scrum/}
 \BIBentrySTDinterwordspacing
 
-\bibitem{scrum1}
-\BIBentryALTinterwordspacing
-J.~S. Ken~Schwaber, \emph{The Definitive Guide to Scrum: The Rules of the
-  Game}, 2020. [Online]. Available:
-  \url{https://scrumguides.org/scrum-guide.html}
-\BIBentrySTDinterwordspacing
-
 \bibitem{scrum2}
 \BIBentryALTinterwordspacing
 C.~Drumond, ``Scrum: Aprende a utilizar scrum con lo mejor de él,''
   \emph{Atlassian}. [Online]. Available:
   \url{https://www.atlassian.com/es/agile/scrum}
+\BIBentrySTDinterwordspacing
+
+\bibitem{scrum1}
+\BIBentryALTinterwordspacing
+J.~S. Ken~Schwaber, \emph{The Definitive Guide to Scrum: The Rules of the
+  Game}, 2020. [Online]. Available:
+  \url{https://scrumguides.org/scrum-guide.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{userStoryMap1}

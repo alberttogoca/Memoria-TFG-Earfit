@@ -841,8 +841,18 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\ge
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-OUTPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
 OUTPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.pdf
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
+OUTPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.out
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -906,7 +916,13 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.toc
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.toc
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.toc
 OUTPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.toc
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.lof
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.lof
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.lof
 OUTPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.lof
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
@@ -973,13 +989,13 @@ INPUT .\assets\Lean Startup\CircuitoFeedback.png
 INPUT .\assets\Lean Startup\CircuitoFeedback.png
 INPUT .\assets\Lean Startup\CircuitoFeedback.png
 INPUT .\assets\Lean Startup\CircuitoFeedback.png
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT .\assets\Scrum\Scrum.png
 INPUT assets\Scrum\Scrum.png
 INPUT .\assets\Scrum\Scrum.png
 INPUT .\assets\Scrum\Scrum.png
 INPUT .\assets\Scrum\Scrum.png
 INPUT .\assets\Scrum\Scrum.png
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT .\assets\Scrum\UserStoryMap.jpg
 INPUT assets\Scrum\UserStoryMap.jpg
 INPUT .\assets\Scrum\UserStoryMap.jpg
@@ -1112,6 +1128,24 @@ INPUT .\assets\Conclusiones\EarfitQR.png
 INPUT .\assets\Conclusiones\EarfitQR.png
 INPUT .\assets\Conclusiones\EarfitQR.png
 INPUT .\assets\Conclusiones\EarfitQR.png
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
+INPUT c:\ALBERTO\3) UNIVERSITY\TFG\MEMORIA\build\tfg.bbl
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\assets\Design Thinking\Prototipo\AtomicDesign.png
@@ -1391,9 +1425,13 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\lasy10.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\lasy10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\urw\bookman\ubkd8a.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX\fonts\type1\urw\bookman\ubkd8a.pfb
