@@ -58,43 +58,43 @@
 \contentsline {subsection}{\numberline {4.2.8}Buenas Prácticas}{41}{subsection.4.2.8}%
 \contentsline {subsubsection}{Guía de Estilo de Código}{41}{section*.46}%
 \contentsline {subsubsection}{Principios Clean Code}{41}{section*.47}%
-\contentsline {subsubsection}{Otras Buenas Prácticas}{42}{section*.48}%
+\contentsline {subsubsection}{Otras Buenas Prácticas}{41}{section*.48}%
 \contentsline {section}{\numberline {4.3}Testing}{42}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Pruebas Funcionales}{43}{subsection.4.3.1}%
-\contentsline {subsubsection}{Pruebas Unitarias}{43}{section*.49}%
-\contentsline {subsubsection}{Pruebas de Componentes}{43}{section*.50}%
+\contentsline {subsection}{\numberline {4.3.1}Pruebas Funcionales}{42}{subsection.4.3.1}%
+\contentsline {subsubsection}{Pruebas Unitarias}{42}{section*.49}%
+\contentsline {subsubsection}{Pruebas de Componentes}{42}{section*.50}%
 \contentsline {subsubsection}{Pruebas de Integración}{43}{section*.51}%
-\contentsline {subsubsection}{Pruebas End to End (E2E)}{44}{section*.52}%
-\contentsline {subsection}{\numberline {4.3.2}Pruebas No Funcionales}{44}{subsection.4.3.2}%
+\contentsline {subsubsection}{Pruebas End to End (E2E)}{43}{section*.52}%
+\contentsline {subsection}{\numberline {4.3.2}Pruebas No Funcionales}{43}{subsection.4.3.2}%
 \contentsline {subsubsection}{Google Lighthouse}{44}{section*.53}%
-\contentsline {subsubsection}{Vercel Analytics}{46}{section*.55}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{48}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Objetivos Alcanzados}{48}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Trabajos futuros}{50}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Opinión Personal}{50}{section.5.3}%
-\contentsline {chapter}{Bibliografía}{52}{section*.58}%
-\contentsline {chapter}{Apéndices}{57}{section*.60}%
-\contentsline {chapter}{\numberline {A}Proceso de Creación Detallado}{59}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Resumen}{59}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Design Thinking}{60}{section.Alph1.2}%
-\contentsline {subsection}{\numberline {A.2.1}Empatizar}{60}{subsection.Alph1.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Definir}{60}{subsection.Alph1.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}Idear}{60}{subsection.Alph1.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Prototipar}{61}{subsection.Alph1.2.4}%
-\contentsline {subsection}{\numberline {A.2.5}Testear}{61}{subsection.Alph1.2.5}%
-\contentsline {section}{\numberline {A.3}Lean Startup}{61}{section.Alph1.3}%
-\contentsline {subsection}{\numberline {A.3.1}Crear}{61}{subsection.Alph1.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Medir}{61}{subsection.Alph1.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}Aprender}{62}{subsection.Alph1.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}Conclusión}{63}{subsection.Alph1.3.4}%
-\contentsline {chapter}{\numberline {B}Diseños del Prototipo}{64}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Prototipo Pantallas Pequeñas}{65}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Prototipo Pantallas Medias}{66}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Prototipo Pantallas Grandes}{68}{section.Alph2.3}%
-\contentsline {chapter}{\numberline {C}Historias de Usuario}{70}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Capturas de la Aplicación}{85}{appendix.Alph4}%
-\contentsline {section}{\numberline {D.1}Pantalla Pequeña}{85}{section.Alph4.1}%
-\contentsline {section}{\numberline {D.2}Pantalla Media}{87}{section.Alph4.2}%
-\contentsline {section}{\numberline {D.3}Pantalla Grande}{90}{section.Alph4.3}%
-\contentsline {chapter}{\numberline {E}Tests de Google Lighthouse}{94}{appendix.Alph5}%
-\contentsline {chapter}{\numberline {F}Limitaciones Personales}{97}{appendix.Alph6}%
+\contentsline {subsubsection}{Vercel Analytics}{45}{section*.55}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Objetivos Alcanzados}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Trabajos futuros}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Opinión Personal}{49}{section.5.3}%
+\contentsline {chapter}{Bibliografía}{51}{section*.58}%
+\contentsline {chapter}{Apéndices}{56}{section*.60}%
+\contentsline {chapter}{\numberline {A}Proceso de Creación Detallado}{58}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Resumen}{58}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Design Thinking}{59}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Empatizar}{59}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Definir}{59}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Idear}{59}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Prototipar}{60}{subsection.Alph1.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}Testear}{60}{subsection.Alph1.2.5}%
+\contentsline {section}{\numberline {A.3}Lean Startup}{60}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Crear}{60}{subsection.Alph1.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Medir}{60}{subsection.Alph1.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}Aprender}{61}{subsection.Alph1.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}Conclusión}{62}{subsection.Alph1.3.4}%
+\contentsline {chapter}{\numberline {B}Diseños del Prototipo}{63}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Prototipo Pantallas Pequeñas}{64}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Prototipo Pantallas Medias}{65}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Prototipo Pantallas Grandes}{67}{section.Alph2.3}%
+\contentsline {chapter}{\numberline {C}Historias de Usuario}{69}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Capturas de la Aplicación}{84}{appendix.Alph4}%
+\contentsline {section}{\numberline {D.1}Pantalla Pequeña}{84}{section.Alph4.1}%
+\contentsline {section}{\numberline {D.2}Pantalla Media}{86}{section.Alph4.2}%
+\contentsline {section}{\numberline {D.3}Pantalla Grande}{89}{section.Alph4.3}%
+\contentsline {chapter}{\numberline {E}Clean Code}{93}{appendix.Alph5}%
+\contentsline {chapter}{\numberline {F}Limitaciones Personales}{94}{appendix.Alph6}%

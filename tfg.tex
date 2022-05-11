@@ -1493,7 +1493,7 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional de la \text
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Pages/Intervals}
+    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Pages/Intervals2}
     \caption{Código de la página de intervalos.}
     \label{fig:IntervalsPage}
 \end{figure}
@@ -1512,7 +1512,7 @@ Este es un ejemplo de como funciona el flujo de datos unidireccional del \textbf
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Components/AnswerButtons}
+    \includegraphics[scale=0.7]{Detalles de Implementación/Code/Components/AnswerButtons2}
     \caption{Código del componente AnswerButtons.}
     \label{fig:AnswerButtons}
 \end{figure}
@@ -1535,24 +1535,23 @@ Para conseguir que una aplicación web sea confiable, instalable y se comporte c
 
 Las PWA deben tener las siguientes características:
 
-\begin{compactitem}
-
+\begin{itemize}
     \item \textbf{Una conexión segura:} La aplicación web se debe servir a través de una red segura HTTPS.
     \item \textbf{Cargue sin conexión:} Esto significa que las aplicaciones web progresivas requieren de un \hyperref[sec:serviceWorker]{\textbf{Service Worker}}.
     \item \textbf{Información sobre la aplicación:} como nombre, autor, icono y descripción en un documento JSON llamado \hyperref[sec:manifest]{\textbf{Manifest}}.
     \item \textbf{Un icono} de al menos 144x144 de tamaño grande en formato PNG.
-\end{compactitem}
+\end{itemize}
 
 Siendo una PWA, al visitarla cualquier navegador ya nos da la opción de instalarla en nuestro dispositivo. En iOS, la opción se llama ``añadir a pantalla de inicio'' desde el menú ``compartir'' de \textbf{Safari} y en \textbf{Chrome} aparece un icono en la barra de búsqueda (ver Figura \ref{fig:InstalarPWA}).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Detalles de Implementación/PWA/InstalarPWA}
+    \includegraphics[width=0.55\textwidth]{Detalles de Implementación/PWA/InstalarPWA}
     \caption{Instalar la aplicación cómo PWA desde Chrome.}
     \label{fig:InstalarPWA}
 \end{figure}
 
-Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está lista para usar (ver figura \ref{fig:PCIntervals1}). Puede usarse sin conexión y en cualquier tamaño de ventana ya que al ser responsiva se adapta. Para desinstalar se puede hacer como una aplicación normal o simplemente pulsando en los tres puntos de la ventana nos da la opción.
+Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está lista para usarse. Puede usarse sin conexión y en cualquier tamaño de ventana ya que al ser responsiva se adapta. Para desinstalarla se puede hacer como una aplicación normal o pulsando en los tres puntos de la ventana nos da la opción.
 \begin{comment}
 \begin{figure}[H]
     \centering
@@ -1569,18 +1568,19 @@ Al instalarla se crea un \textbf{icono en la pantalla de inicio} y ya está list
     \label{fig:PCIntervals1}
 \end{figure}
 
+En la Figura \ref{fig:PCIntervals1} aparece una captura de la aplicación en MacOS. Hay capturas de toda la aplicación en el apéndice \hyperref[sec:Capturas]{D. Capturas de la Aplicación}.
 %\textbf{Observación:} En el entorno desarrollo, se ha deshabilitado la opción de PWA en \href{https://github.com/alberttogoca/EarFit/blob/main/next.config.js}{``next.config.js''} porque genera muchos mensajes de consola.
 
 \subsubsection{Service Worker}
 \label{sec:serviceWorker}
 
-Se puede encontrar en la carpeta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/sw.js}{\textbf{``sw.js''}}. Es un script que permite interceptar y controlar cómo un navegador web maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado mediante el plugin ``next-pwa'', que permite registrar y generar un Service Worker optimizado sin apenas configuración. El archivo \href{https://github.com/alberttogoca/EarFit/blob/main/public/workbox-1846d813.js}{\textbf{``workbox.js''}} también está relacionado con este plugin.
+Se encuentra en la carpeta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/sw.js}{\textbf{``sw.js''}}. Es un script que permite interceptar y controlar cómo un navegador maneja las solicitudes de red y el almacenamiento en caché. Este es un archivo autogenerado por el plugin ``next-pwa'', que permite registrar y generar un Service Worker optimizado. El archivo \href{https://github.com/alberttogoca/EarFit/blob/main/public/workbox-1846d813.js}{\textbf{``workbox.js''}} también está relacionado con este plugin.
 \cite{serviceworker}
 
 \subsubsection{Manifest}
 \label{sec:manifest}
 
-Se puede encontrar en la caperta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/manifest.json}{\textbf{``manifest.json''}}. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
+Se encuentra en la caperta ``public'' con el nombre de \href{https://github.com/alberttogoca/EarFit/blob/main/public/manifest.json}{\textbf{``manifest.json''}}. Es un archivo que controla cómo se muestra la aplicación al usuario y garantiza que las PWA sean detectables. Describe el nombre de la aplicación, la URL de inicio, los iconos y todos los demás detalles necesarios para transformar el sitio web en un formato similar al de una aplicación. 
 \cite{manifest}
 
 \textbf{IOS Safari} no implementa manifiestos, por lo que la mayoría de los metadatos de PWA se pueden definir a través de extensiones específicas de Apple para las metaetiquetas. Estos están definidos en el archivo personalizado ``\_app.tsx''.
@@ -1590,8 +1590,8 @@ Se puede encontrar en la caperta ``public'' con el nombre de \href{https://githu
 
 \subsection{Buenas Prácticas}
 
-Al hablar de buenas prácticas en programación nos referimos a un conjunto de técnicas, principios, metodologías que debemos implementar en nuestro software para que se vuelva fácil, rápido y seguro de desarrollar, mantener y desplegar.
-En este caso se han usado \hyperref[sec:estiloCodigo]{\textbf{Guías de Estilo de Código}}, \hyperref[sec:cleancode]{\textbf{Principios de Clean Code}} y \hyperref[sec:otrasPracticas]{\textbf{Otras Buenas Prácticas}}.
+Las buenas prácticas son conjunto de técnicas, principios y metodologías para que el software se vuelva fácil, rápido y seguro de desarrollar, mantener y desplegar.
+En este caso se han usado \hyperref[sec:estiloCodigo]{\textbf{Guías de Estilo de Código}}, \hyperref[sec:principioscleancode]{\textbf{Principios de Clean Code}} y \hyperref[sec:otrasPracticas]{\textbf{Otras Buenas Prácticas}}.
 
 \subsubsection{Guía de Estilo de Código}
 \label{sec:estiloCodigo}
@@ -1613,10 +1613,11 @@ Se han usado las reglas recomendadas de ESLint y Prettier. Las reglas se pueden 
 \end{compactitem}
 
 \subsubsection{Principios Clean Code}
-\label{sec:cleancode}
+\label{sec:principioscleancode}
 
-Los principios de Clean Code \cite{cleancode} nos permiten obtener como resultado un código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principales principios que se han intentado tener presentes a la hora de desarrollar el código son:
+Los principios de Clean Code \cite{cleancode} permiten obtener código limpio, reutilizable, escalable y con mayor cambiabilidad. Algunos de los principios adaptados React tenidos presentes se encuentran en el apéndice \hyperref[sec:cleancode]{\textbf{F. Clean Code}}.
 
+\begin{comment}
 \begin{compactitem}
     \item Follow Standard Conventions: Seguir convenciones estandarizadas.
     \item DRY Principle (Don't Repeat Yourself): No repetir código.
@@ -1632,18 +1633,19 @@ Los principios de Clean Code \cite{cleancode} nos permiten obtener como resultad
     \item Interface Segregation Principle: Los componentes/Hooks sólo deberían conocer los métodos que realmente usan.
     \item Dependency Inversion Principle: Depende de abstracciones, no de detalles concretos.
 \end{compactitem}
+\end{comment}
 
 \subsubsection{Otras Buenas Prácticas}
 \label{sec:otrasPracticas}
 
 \begin{compactitem}
     \item Crear un archivo \href{https://github.com/alberttogoca/EarFit/blob/main/.gitignore}{\textbf{``.gitignore''}}: Para excluir archivos generados y sensibles.
-    \item Visualizar el flujo de trabajo: Usando un Scrum Board y un User Story Map.
-    \item Limitar el trabajo en proceso (Work in Progress): Es decir no multitasking.
+    \item Visualizar el flujo de trabajo: Con Scrum Board y User Story Map.
+    %\item Limitar el trabajo en proceso (Work in Progress): Es decir no multitasking.
     \item Circuitos de retroalimentación: Haciendo reuniones periódicas con el tutor y recogiendo feedback de los usuarios constantemente.
     \item Fomentar la visibilidad con el proceso bien definido, publicado y promovido: Usando las herramientas Notion, Miro y Trello.
     \item Mejorar colaborando, usando modelos y el método científico: Aplicando Lean Startup y otras metodologías.
-    \item Calidad perfecta a la primera: Búsqueda de cero defectos, detección y solución de los problemas en su origen.
+    %\item Calidad perfecta a la primera: Búsqueda de cero defectos, detección y solución de los problemas en su origen.
 \end{compactitem}
 
 \section{Testing}
@@ -1719,21 +1721,21 @@ Una vez hecho el análisis, Lighthouse emite puntuaciones del 0 al 100 que puede
 
 \begin{itemize}
     %En el ámbito del rendimiento, Lighthouse analiza la velocidad de la aplicación web y comprueba que los elementos que se han cargado se visualizan correctamente. 
-    \item \textbf{Performance}: En este apartado, Lighthouse no está optimizado y da algunas falsas mediciones para aplicaciones \textbf{Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación usando Vercel, podemos hacer uso de \textbf{Vercel Analytics}, que además nos aporta algunas ventajas como veremos más adelante.
+    \item \textbf{Performance}: En este apartado, Lighthouse no está optimizado y da falsas mediciones para aplicaciones \textbf{Nextjs}. Sin embargo, como hemos desplegado nuestra aplicación en Vercel, podemos hacer uso de \textbf{Vercel Analytics}, que además nos aporta algunas ventajas como veremos más adelante.
     % En lugar de medir en nuestro PC, Vercel Analytics recopila datos de los dispositivos reales que utilizan los usuarios. 
-    \item \textbf{Accessibility}: En el ámbito de la accesibilidad, Lighthouse comprueba si la página o la aplicación es fácil de usar para personas con limitaciones físicas. Se comprueba si los elementos importantes, como los botones y los enlaces, se describen de forma clara. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_accesibility}).
+    \item \textbf{Accessibility}: En este ámbito se comprueba si la página es fácil de usar para personas con limitaciones físicas. Se comprueba si los elementos importantes, como los botones y los enlaces, se describen de forma clara.
 
-    En este apartado nos resta tres puntos y nos dice que el texto del Footer tiene poco contraste. No lo tenemos en cuenta, ya que este es un mensaje secundario que no tiene que resaltar, por eso su bajo contraste. (Ver figura \ref{fig:Lighthouse_contrast}).
-    \item \textbf{Best Practices}: En el área de mejores prácticas, Lighthouse analiza, sobre todo, los aspectos de seguridad de la web. Aquí, la herramienta comprueba si se han usado tecnologías de codificación como TLS, si los recursos integrados de la página web provienen de fuentes seguras o si las bibliotecas JavaScript se pueden catalogar como seguras. También analiza si las bases de datos son seguras (si las hay) y destaca el uso de API anticuadas. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_bestpractices}).
-    \item \textbf{SEO}: En este ámbito Lighthouse analiza el nivel de visibilidad de la web en diferentes buscadores. Se comprueba especialmente la idoneidad de la web para terminales móviles, es decir, si las etiquetas y los metadatos se han optimizado. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_seo}).
-    \item \textbf{Progressive Web Apps}: El análisis de aplicaciones web progresivas es la función principal de Google Lighthouse. El software analiza si la página web funciona según lo previsto. Comprueba si todos los elementos y contenidos dinámicos se representan correctamente, si la página registra un Service Worker y si está disponible la función offline. Estos son los resultados de la aplicación final (ver figura \ref{fig:Lighthouse_PWA}).
+    %En este apartado nos resta tres puntos y nos dice que el texto del Footer tiene poco contraste. No lo tenemos en cuenta, ya que este es un mensaje secundario que no tiene que resaltar, por eso su bajo contraste.
+    \item \textbf{Best Practices}: En este área se analiza, sobre todo, los aspectos de seguridad de la web. Se comprueba si se han usado tecnologías de codificación como TLS, si los recursos de la web provienen de fuentes seguras y si las bibliotecas JavaScript son seguras. También analiza la seguridad de las bases de datos si las hay y el uso de API anticuadas.
+    \item \textbf{SEO}: En este ámbito se analiza el nivel de visibilidad de la web en diferentes buscadores. Se comprueba la idoneidad de la web para terminales móviles, es decir, si las etiquetas y los metadatos se han optimizado.
+    \item \textbf{Progressive Web Apps}: El análisis de aplicaciones web progresivas es la función principal de Google Lighthouse. Analiza si la página web funciona según lo previsto. Comprueba si todos los elementos y contenidos dinámicos se representan correctamente, si la página registra un Service Worker y si está disponible la función offline.
 \end{itemize}
 
 \subsubsection{Vercel Analytics}
 \label{sec:analytics}
 
-Mientras que otras herramientas como Lighthouse estiman la experiencia de usuario ejecutando una simulación en el ordenador del desarrollador, el \textbf{Real Experience Score} de Vercel se calcula utilizando datos reales recopilados de los dispositivos de los usuarios reales. Por eso, proporciona una calificación real de cómo los usuarios realmente experimentan la aplicación.
-(Ver Figura \ref{fig:Vercel_metrics}).
+Mientras que otras herramientas como Lighthouse estiman la experiencia de usuario ejecutando una simulación en el ordenador del desarrollador, el \textbf{Real Experience Score} de Vercel se calcula utilizando datos reales recopilados de los dispositivos de los usuarios reales. Gracias a esto proporciona una calificación real de cómo los usuarios realmente experimentan la aplicación.
+
 %(Ver figura \ref{fig:Vercel_metrics_resume}).
 
 \begin{comment}
@@ -1756,7 +1758,7 @@ Esto permite un flujo continuo de mediciones de rendimiento, a lo largo del tiem
         \label{fig:Vercel_metrics}
     \end{figure}
 
-El Real Experience Score se calcula en base a las \textbf{Web Vitals}. Estas son una colección de métricas establecidas por Google \cite{webdev} y el Web Performance Working Group \cite{w3}. El análisis consta de las siguientes cuatro categorías:
+El Real Experience Score se calcula en base a las \textbf{Web Vitals}. Estas son una colección de métricas establecidas por Google \cite{webdev} y el Web Performance Working Group \cite{w3}. El análisis, que se ve en la Figura \ref{fig:Vercel_metrics}, consta de las siguientes cuatro categorías:
 \begin{itemize}
     \item\textbf{First Contentful Paint (FCP):} Mide la velocidad de carga, o cuando se muestra el primer contenido de la página.
     \item\textbf{Largest Contentful Paint (LCP):} Mide la velocidad de carga percibida, o cuando se puede visualizar todo el contenido de la página.
@@ -1789,7 +1791,7 @@ Además, durante su desarrollo en \hyperref[sec:VSCode]{\textbf{VSCode}} se apli
 
 Al final, se logró desarrollar el MVP propuesto cumpliendo con los objetivos que se habían establecido en este trabajo. Aportando una solución única para el entrenamiento auditivo, con diferentes tipos de ejercicios personalizables y varios instrumentos. 
 
-El resultado final de esta aplicación se puede encontrar en el apéndice \hyperref[sec:Capturas]{\textbf{D. Capturas}}. También se puede probar la aplicación escaneando el código QR (ver figura \ref{fig:EarfitQR}) y en el siguiente enlace: 
+El resultado final de esta aplicación se puede encontrar en el apéndice \hyperref[sec:Capturas]{\textbf{D. Capturas de la Aplicación}}. También se puede probar la aplicación escaneando el código QR (ver figura \ref{fig:EarfitQR}) y en el siguiente enlace: 
 
 \url{https://earfit.vercel.app/}
 
@@ -2316,43 +2318,23 @@ Por lo que habría que seguir un proceso de innovación sostenida, que se basar�
     \label{fig:PCAbout2}
 \end{figure}
 
-\chapter{Tests de Google Lighthouse}
-\label{sec:lighthousetest}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/Accesibility}
-    \caption{Auditoría de accesibilidad.}
-    \label{fig:Lighthouse_accesibility}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/AccesibilityContrast}
-    \caption{Fallo en contraste.}
-    \label{fig:Lighthouse_contrast}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/BestPractices}
-    \caption{Auditoría de buenas prácticas.}
-    \label{fig:Lighthouse_bestpractices}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/SEO}
-    \caption{Auditoría de SEO.}
-    \label{fig:Lighthouse_seo}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{Lighthouse/PWA}
-    \caption{Auditoría de aplicación web progresiva.}
-    \label{fig:Lighthouse_PWA}
-\end{figure}
+\chapter{Clean Code}
+\label{sec:cleancode}
+\begin{itemize}
+    \item Follow Standard Conventions: Seguir convenciones estandarizadas.
+    \item DRY Principle (Don't Repeat Yourself): No repetir código.
+    \item The Principle of Least Surprise: Las funciones o Hooks deben hacer lo que se espera que hagan.
+    \item The Boy Scout Rule: Dejar el código más limpio de como te lo encontraste.
+    \item Keep It Simple Stupid: Reducir la complejidad tanto como sea posible.
+    \item You Are Not Gonna Needed: Sólo se debe añadir el código que sea estrictamente necesario.
+    \item Choose Descriptive Names: El código debe ser legible para otros desarrolladores.
+    \item Be Consistent: Si haces algo de cierta manera, haz todas las cosas similares de la misma manera.
+    \item Single Responsibility Principle: Los Hooks deben tener responsabilidad sobre una sola parte de la funcionalidad proporcionada.
+    \item Open/Closed Principle: Los Hooks deben estar abiertos a extensiones pero cerrados a modificaciones.
+    \item Liskov Substitution Principle: Los componentes derivados deben poder sustituirse por sus componentes base.
+    \item Interface Segregation Principle: Los componentes/Hooks sólo deberían conocer los métodos que realmente usan.
+    \item Dependency Inversion Principle: Depende de abstracciones, no de detalles concretos.
+\end{itemize}
 
 \chapter{Limitaciones Personales}
 
