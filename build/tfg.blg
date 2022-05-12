@@ -1,0 +1,80 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tfg.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: bibliografia.bib
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author and editor in leanstartup1
+Warning--empty title in leanstartup1
+Warning--missing publisher in leanstartup1
+Warning--empty year in leanstartup1
+Warning--empty author and editor in leanstartup2
+Warning--empty title in leanstartup2
+Warning--missing publisher in leanstartup2
+Warning--empty year in leanstartup2
+Warning--empty year in scrum2
+Warning--missing publisher in scrum1
+Warning--empty year in userStoryMap1
+Warning--empty year in userstories2
+Warning--empty journal in devops2
+Warning--empty year in devops2
+Warning--empty journal in ic
+Warning--empty journal in dc
+Warning--empty journal in typescript2
+Warning--empty year in typescript2
+Warning--empty year in npmyarn
+Warning--empty year in cleancode
+Warning--empty year in testing
+
+Done.
+You've used 78 entries,
+            4024 wiz_defined-function locations,
+            1129 strings with 15278 characters,
+and the built_in function-call counts, 25272 in all, are:
+= -- 1952
+> -- 306
+< -- 0
++ -- 154
+- -- 76
+* -- 980
+:= -- 5098
+add.period$ -- 112
+call.type$ -- 78
+change.case$ -- 35
+chr.to.int$ -- 0
+cite$ -- 99
+duplicate$ -- 2189
+empty$ -- 2403
+format.name$ -- 76
+if$ -- 5192
+int.to.chr$ -- 0
+int.to.str$ -- 78
+missing$ -- 487
+newline$ -- 407
+num.names$ -- 76
+pop$ -- 1303
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1999
+stack$ -- 0
+substring$ -- 35
+swap$ -- 1122
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 78
+warning$ -- 21
+while$ -- 76
+width$ -- 80
+write$ -- 752
+(There were 21 warnings)
