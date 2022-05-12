@@ -36,45 +36,45 @@ Warning--empty year in cleancode
 Warning--empty year in testing
 
 Done.
-You've used 78 entries,
+You've used 79 entries,
             4024 wiz_defined-function locations,
-            1129 strings with 15278 characters,
-and the built_in function-call counts, 25272 in all, are:
-= -- 1952
-> -- 306
+            1133 strings with 15397 characters,
+and the built_in function-call counts, 25633 in all, are:
+= -- 1981
+> -- 310
 < -- 0
-+ -- 154
-- -- 76
-* -- 980
-:= -- 5098
-add.period$ -- 112
-call.type$ -- 78
-change.case$ -- 35
++ -- 156
+- -- 77
+* -- 993
+:= -- 5168
+add.period$ -- 114
+call.type$ -- 79
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 99
-duplicate$ -- 2189
-empty$ -- 2403
-format.name$ -- 76
-if$ -- 5192
+cite$ -- 100
+duplicate$ -- 2219
+empty$ -- 2439
+format.name$ -- 77
+if$ -- 5268
 int.to.chr$ -- 0
-int.to.str$ -- 78
-missing$ -- 487
-newline$ -- 407
-num.names$ -- 76
-pop$ -- 1303
+int.to.str$ -- 79
+missing$ -- 494
+newline$ -- 412
+num.names$ -- 77
+pop$ -- 1325
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1999
+skip$ -- 2027
 stack$ -- 0
-substring$ -- 35
-swap$ -- 1122
+substring$ -- 36
+swap$ -- 1138
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 78
+type$ -- 79
 warning$ -- 21
-while$ -- 76
-width$ -- 80
-write$ -- 752
+while$ -- 77
+width$ -- 81
+write$ -- 762
 (There were 21 warnings)

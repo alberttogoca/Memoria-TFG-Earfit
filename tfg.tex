@@ -596,7 +596,7 @@ En la Figura \ref{fig:MoSCoW} se observa esta técnica de MoSCoW. Esta técnica 
 
 Para crear nuestro \textbf{producto mínimo viable} se decidió centrarse en desarrollar los Must haves y más tarde los Should haves. Los Could haves y los Won't haves se deciden dejar para trabajos futuros por complejidad y tiempo de desarrollo.
 
-Por último, una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el prototipo teniendo en cuenta la filosofía de diseño \textbf{Atomic Design} y \textbf{Mobile First} \cite{mobilefirst}. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. 
+Por último, una vez establecidas las prioridades del proyecto pasamos a visualizarlas diseñando el prototipo teniendo en cuenta la filosofía de diseño \textbf{Atomic Design} \cite{atomicdesign} y \textbf{Mobile First} \cite{mobilefirst}. Diseñando primero para pantallas pequeñas y después adaptándolo a pantallas más grandes. 
 
 \begin{figure}[H]
     \centering
@@ -814,7 +814,7 @@ En la Figura \ref{fig:Gitflow} podemos observar este modelo de creación de rama
 El despliegue continuo es una estrategia de DevOps en la que los cambios de código de una aplicación se publican automáticamente. Es útil para entregar funcionalidades del software de forma frecuente.
 \cite{dc}
 
-Para ello utilizamos \textbf{GitHub Actions} \cite{githubActions} el cuál nos permite personalizar y automatizar estos despliegues desde nuestro repositorio. Y para alojar nuestra aplicación web usamos \textbf{Vercel}, que es una plataforma en la nube optimizada para proyectos \textbf{Nextjs} \cite{vercelNext}.
+Para ello utilizamos \textbf{GitHub Actions} \cite{githubActions} el cuál nos permite personalizar y automatizar estos despliegues desde nuestro repositorio. Y para alojar nuestra aplicación web usamos \textbf{Vercel} \cite{vercelNext}, que es una plataforma en la nube optimizada para proyectos \textbf{Nextjs}.
 
 \begin{figure}[H]
     \centering
@@ -854,8 +854,9 @@ Después de una comparación de tecnologías actuales se llegó a la conclusión
 \subsection{Next.js}
 \label{sec:Next}
 
-Creado por Vercel, es un framework creado sobre \textbf{Node.js} y basado en \textbf{React} \cite{nextjs1}.
+Creado por Vercel, es un framework creado sobre \textbf{Node.js} y basado en \textbf{React}.
 Permite, con una sola dependencia, tener todo configurado para crear una aplicación web de alto rendimiento de React usando \textbf{SWC} y \textbf{Webpack}. 
+\cite{nextjs1}
 %(Ver figura \ref{fig:NextjsLogo}).
 
 \begin{comment}
@@ -1019,7 +1020,7 @@ Además, desplegar una aplicación \textbf{Next.js} tiene las siguientes ventaja
     \end{figure}
 \end{comment}
 
-Por último, ofrece \textbf{Vercel Analytics} para medir el rendimiento de la web, recopilando las web vitals de los dispositivos reales que utilizan los usuarios \cite{vercelAnalytics}.
+Por último, ofrece \textbf{Vercel Analytics} \cite{vercelAnalytics} para medir el rendimiento de la web, recopilando las web vitals de los dispositivos reales que utilizan los usuarios.
 
 \subsection{TypeScript}
 \label{sec:TypeScript}
@@ -1050,8 +1051,7 @@ Es un lenguaje de programación desarrollado y mantenido por Microsoft. Es un su
 
 Es un lenguaje más limpio, robusto y mantenible. Permite escribir código con menos errores, más sencillo, coherente y fácil de probar. Además, ayuda a implementar patrones de diseño e incrementa la agilidad en el refactoring.
 
-Los navegadores no entienden TypeScript, por lo que es necesario transpilarlo a JavaScript antes de usarlo. Al crear nuestra aplicación con \textbf{Nextjs} ya obtenemos transpilación y empaquetado automáticos con \textbf{SWC} y \textbf{Webpack}.
-\cite{typescript2}
+Los navegadores no entienden TypeScript, por lo que es necesario transpilarlo a JavaScript antes de usarlo \cite{typescript2}. Al crear nuestra aplicación con \textbf{Nextjs} ya obtenemos transpilación y empaquetado automáticos con \textbf{SWC} y \textbf{Webpack}.
 
 \subsection{Node.js}
 \label{sec:Node}
@@ -1070,7 +1070,7 @@ Es un entorno de tiempo de ejecución de \textbf{JavaScript}. Orientado a evento
 
 Permite utilizar un único lenguaje para el Backend y el FrontEnd. Además, cuenta con un repositorio de código abierto lleno de \textbf{librerías} útiles. %, lo que ayuda a una generación rápida de un producto mínimo viable.
 
-Debe estar instalado con \textbf{NPM} o \textbf{Yarn}, dos gestores de paquetes para proyectos de Node.js \cite{npm}. A veces, la \textbf{instalación de paquetes} con NPM no es lo suficiente consistente o rápida, dando incluso errores. Este es el motivo para usar Yarn, una alternativa construida por Facebook, Google, Exponent y Tilde \cite{yarn}\cite{npmyarn}.
+Debe estar instalado con \textbf{NPM} \cite{npm} o \textbf{Yarn} \cite{yarn}, dos gestores de paquetes para proyectos de Node.js. A veces, la \textbf{instalación de paquetes} con NPM no es lo suficiente consistente o rápida, dando incluso errores. Este es el motivo para usar Yarn, una alternativa construida por Facebook, Google, Exponent y Tilde \cite{npmyarn}.
 
 \begin{comment}
 \subsubsection{NPM vs. Yarn}
@@ -1216,8 +1216,7 @@ En la Figura \ref{fig:Arquitectura} se ilustra la arquitectura de la aplicación
 \label{sec:archivos}
 
 %React no tiene opiniones sobre cómo estructurar los archivos \cite{reactArchivos}. 
-\textbf{Next.js} tiene algunos archivos y \textbf{directorios especiales} \cite{reactArchivos}. Como mínimo, se necesita una carpeta ``pages'' con un archivo ``index.js''. Además, la carpeta ``public'' tiene una función específica en Next.js. Aparte de estos archivos y directorios, todo vale \cite{nextjs2}.
-
+\textbf{Next.js} tiene algunos archivos y \textbf{directorios especiales} \cite{nextjs2}. Como mínimo, se necesita una carpeta ``pages'' con un archivo ``index.js''. Además, la carpeta ``public'' tiene una función específica en Next.js. Aparte de estos archivos y directorios, todo vale \cite{reactArchivos}.
 %En este caso se han separado las \textbf{carpetas por conceptos} o intereses (Ver Figura \ref{fig:Archivos}). Cada carpeta contiene archivos similares siguiendo la arquitectura:
 
 \begin{figure}[H]
@@ -1769,7 +1768,7 @@ En la Figura \ref{fig:Lighthouse_resumen} se observan los resultados de su anál
 \label{sec:analytics}
 
 Mientras que otras herramientas como Lighthouse estiman la experiencia de usuario ejecutando una simulación en el ordenador del desarrollador, el \textbf{Real Experience Score} de Vercel se calcula utilizando datos reales recopilados de los dispositivos de los usuarios reales. Gracias a esto proporciona una calificación real de cómo los usuarios realmente experimentan la aplicación.
-
+\cite{vercelAnalytics}
 %(Ver figura \ref{fig:Vercel_metrics_resume}).
 
 \begin{comment}
@@ -1834,27 +1833,28 @@ El resultado final de esta aplicación se puede encontrar en el apéndice \hyper
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{Conclusiones/EarfitQR}
+    \includegraphics[width=0.35\textwidth]{Conclusiones/EarfitQR}
     \caption{Código QR de Earfit.}
     \label{fig:EarfitQR}
 \end{figure}
 
 \section{Trabajos futuros}
 
-Esta memoria contiene todo lo necesario para seguir con el trabajo aún si no se conocen las tecnologías y metodologías empleadas. Ya que se ha explicado todo su funcionamiento.
+Esta memoria recoge todo lo necesario para seguir con el trabajo aún si no se conocen las tecnologías y metodologías empleadas. 
+Por lo que, se podrá considerar mejorar la aplicación o implementar algunas de las funcionalidades que no tuvieron cabida en el desarrollo.
 
-Algunas de las \textbf{posibles extensiones} de la aplicación, que no se llevaron a cabo por falta de tiempo son:
+Algunas de las \textbf{posibles extensiones} para la aplicación, que no se llevaron a cabo por falta de tiempo son:
 
 \begin{itemize}
     \item \textbf{Funcionalidades} que no se establecieron cómo prioridad en la etapa de diseño. Éstas se pueden encontrar en la Figura \ref{fig:MoSCoW} de la técnica de MosCow o en la Figura \ref{fig:Mindmap} del Mindmap de Design Thinking: ejercicio de acordes, ritmos, progresiones, modo nocturno y varios idiomas.
     \item \textbf{Cobertura de código} y test automáticos. Debido al coste de aprender, implementar y mantener estos test automáticos de los componentes, se optó por realizarlos manuales. Se podrían añadir estos test al flujo de desarrollo en un futuro.
-    \item \textbf{Software libre vs Negocio}. De momento esta aplicación es gratuita para todo el mundo. Se podría plantear alguna forma de monetización si se llega a un punto en que la aplicación sea lo suficientemente relevante.
+    \item \textbf{Software libre vs Negocio}. De momento esta aplicación es gratuita. Se podría plantear alguna forma de monetización, si se considerase que la aplicación pudiera tener algún hueco en el mercado, aunque este no era su propósito original.
 \end{itemize}
 
 \section{Opinión Personal}
 En general este trabajo ha sido demasiado ambicioso por mi parte. El tener que aprender prácticamente todo desde cero me ha servido mucho para crecer pero también me ha limitado a la hora de desarrollar la aplicación.
 
-El tiempo de desarrollo de la aplicación no fue muy elevado si no se cuenta la fase de aprendizaje de todas las metodologías y tecnologías empleadas. Acabando el desarrollo según lo previsto. En cambio, lo que más tiempo llevó fue realizar esta memoria explicando todos estos conceptos que no se dan en la carrera y me siento en la obligación de explicar, por si no se entiende la manera ágil en la que se han hecho las cosas.
+El tiempo de desarrollo de la aplicación no fue muy elevado si no se cuenta la fase de aprendizaje de todas las metodologías y tecnologías empleadas, acabando el desarrollo según lo previsto. En cambio, lo que más tiempo llevó fue realizar esta memoria explicando todos estos conceptos que no se dan en la carrera y me siento en la obligación de explicar, por si no se entiende la manera ágil en la que se han hecho las cosas.
 
 En conclusión, creo que el resultado de la aplicación es bueno y la forma moderna en que se ha desarrollado es acorde a la actualidad. Espero que la memoria haya sido lo suficente completa y se haya podido entender todo sin conocimientos previos.
 
