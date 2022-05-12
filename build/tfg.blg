@@ -13,68 +13,46 @@ Database file #1: bibliografia.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty author and editor in leanstartup1
-Warning--empty title in leanstartup1
-Warning--missing publisher in leanstartup1
-Warning--empty year in leanstartup1
-Warning--empty author and editor in leanstartup2
-Warning--empty title in leanstartup2
-Warning--missing publisher in leanstartup2
-Warning--empty year in leanstartup2
-Warning--empty year in scrum2
-Warning--missing publisher in scrum1
-Warning--empty year in userStoryMap1
-Warning--empty year in userstories2
-Warning--empty journal in devops2
-Warning--empty year in devops2
-Warning--empty journal in ic
-Warning--empty journal in dc
-Warning--empty journal in typescript2
-Warning--empty year in typescript2
-Warning--empty year in npmyarn
-Warning--empty year in cleancode
-Warning--empty year in testing
 
 Done.
 You've used 79 entries,
             4024 wiz_defined-function locations,
-            1133 strings with 15397 characters,
-and the built_in function-call counts, 25633 in all, are:
-= -- 1981
-> -- 310
+            1149 strings with 15562 characters,
+and the built_in function-call counts, 27073 in all, are:
+= -- 2224
+> -- 316
 < -- 0
-+ -- 156
-- -- 77
-* -- 993
-:= -- 5168
-add.period$ -- 114
++ -- 158
+- -- 79
+* -- 1025
+:= -- 5527
+add.period$ -- 120
 call.type$ -- 79
-change.case$ -- 36
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 2219
-empty$ -- 2439
-format.name$ -- 77
-if$ -- 5268
+cite$ -- 79
+duplicate$ -- 2275
+empty$ -- 2548
+format.name$ -- 79
+if$ -- 5635
 int.to.chr$ -- 0
 int.to.str$ -- 79
-missing$ -- 494
+missing$ -- 513
 newline$ -- 412
-num.names$ -- 77
-pop$ -- 1325
+num.names$ -- 79
+pop$ -- 1321
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2027
+skip$ -- 2167
 stack$ -- 0
-substring$ -- 36
-swap$ -- 1138
+substring$ -- 37
+swap$ -- 1235
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 79
-warning$ -- 21
-while$ -- 77
+warning$ -- 0
+while$ -- 79
 width$ -- 81
-write$ -- 762
-(There were 21 warnings)
+write$ -- 802
